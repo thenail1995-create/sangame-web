@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="vi" data-theme="light">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tìm giá game — Săn Game</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap">
+<style>
+/* Bảng màu + lớp .the/.giam/.phu — ĐÃ CHỐT, giống dung-web-don-gian.py. Trang này CHỈ để
+   xem thử độc lập; bản cuối ghép qua tra_ve_than() vào khung trang chung. */
+:root{color-scheme:light;--nen:#F7F5F0;--the:#FFFFFF;--vien:#E6E1D8;--chu:#1E2126;--phu:#5E6369;
+  --ngoc:#0B7F7C;--ngoc-nhat:#E3F5F4;--ngoc-logo:#20C3C0;--do:#C92324;--xam-thanh:#DDD8CF}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--nen:#16181B;--the:#202327;--vien:#33373C;
+  --chu:#EDEDED;--phu:#A5A9AE;--ngoc:#3CCFCB;--ngoc-nhat:#173A3A;--xam-thanh:#3A3E44}}
+:root[data-theme="dark"]{color-scheme:dark;--nen:#16181B;--the:#202327;--vien:#33373C;--chu:#EDEDED;--phu:#A5A9AE;
+  --ngoc:#3CCFCB;--ngoc-nhat:#173A3A;--xam-thanh:#3A3E44}
+*{box-sizing:border-box}
+body{margin:0;background:var(--nen);color:var(--chu);font:16px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif}
+a{color:inherit}
+.ic{width:22px;height:22px;flex:none;color:var(--ngoc)}
+main{max-width:1040px;margin:0 auto;padding:28px 16px 64px;display:grid;gap:24px}
+h2{margin:0;display:flex;align-items:flex-start;gap:10px;font-size:22px;line-height:1.3;font-weight:800}
+.phu{color:var(--phu);font-size:14px;margin:0}
+.the{background:var(--the);border:1px solid var(--vien);border-radius:16px;padding:18px 20px}
+.giam{display:inline-block;background:var(--do);color:#fff;font-weight:700;font-size:13px;line-height:1;
+  padding:4px 6px;border-radius:6px;font-variant-numeric:tabular-nums}
+.o-tra{display:flex;gap:10px}
+.o-tra input{font:inherit;font-size:16px;padding:12px 14px;border:1px solid var(--vien);border-radius:12px;
+  background:var(--nen);color:var(--chu);flex:1;min-width:0}
+
+.tim-gia-o{padding:16px 18px}
+.ds-tim-gia{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.the-game{display:grid;gap:10px;align-content:start}
+.the-game .dau-the{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.the-game h3{margin:0;font-size:16px;line-height:1.35}
+.the-game .nhan-loai{font-size:12px;font-weight:700;color:var(--phu);background:var(--nen);
+  border:1px solid var(--vien);border-radius:99px;padding:2px 8px;white-space:nowrap}
+.gia-vung{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.gia-vung li{display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:7px 10px;border-radius:10px;font-variant-numeric:tabular-nums}
+.gia-vung .ten-vung{font-weight:600;color:var(--phu);font-size:13.5px}
+.gia-vung .so-tien{display:flex;align-items:center;gap:6px}
+.gia-vung .so-tien b{font-size:15px}
+.gia-vung .so-tien s{color:var(--phu);font-size:12.5px}
+.gia-vung li.re-nhat{background:var(--ngoc-nhat)}
+.gia-vung li.re-nhat .ten-vung,.gia-vung li.re-nhat .so-tien b{color:var(--ngoc)}
+.tim-gia-trong{color:var(--phu);font-size:15px;margin:0}
+
+@media (max-width:760px){
+  main{padding-top:20px}
+  .ds-tim-gia{grid-template-columns:1fr}
+}
+</style>
+<header style="background:var(--the);border-bottom:1px solid var(--vien)">
+  <div style="max-width:1040px;margin:0 auto;padding:14px 16px;font-weight:800">Săn Game</div>
+</header>
+<main>
+
+<section id="tim-gia">
+  <div><h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>Tìm giá theo tên game</h2>
+  <p class="phu">Gõ tên game (không cần dấu, có thể viết tắt) — so giá 6 vùng PS Store, quy đổi tiền Việt.</p></div>
+  <div class="the tim-gia-o">
+    <div class="o-tra">
+      <input id="tim-gia-tu" type="search" autocomplete="off" inputmode="search"
+             placeholder="Vd: god of war, elden ring…" aria-label="Tên game cần tìm giá">
+    </div>
+    <p class="phu" id="tim-gia-trang-thai" aria-live="polite"></p>
+  </div>
+  <div id="tim-gia-ket-qua" class="ds-tim-gia" aria-live="polite"></div>
+  <p class="phu" id="tim-gia-cap-nhat"></p>
+</section>
+
+</main>
+<script>
+(function(){
+  var DATA_URL = "du-lieu/tim-gia.json";
+  var oTim = document.getElementById("tim-gia-tu");
+  var hopKq = document.getElementById("tim-gia-ket-qua");
+  var trangThai = document.getElementById("tim-gia-trang-thai");
+  var capNhat = document.getElementById("tim-gia-cap-nhat");
+  if (!oTim || !hopKq) return;
+  var DATA = null;
+  var NHAN_LOAI = ["", "Bản đặc biệt", "Gói nhiều game"]; // 0=game (không hiện nhãn)
+
+  function boDau(s){
+    return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "")
+      .toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  }
+  function dongVnd(x){
+    return (Math.round(x / 1000) * 1000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + "đ";
+  }
+
+  function taiDuLieu(){
+    trangThai.textContent = "Đang tải dữ liệu…";
+    return fetch(DATA_URL).then(function(r){ return r.json(); }).then(function(d){
+      DATA = d;
+      if (capNhat) capNhat.textContent = "Giá niêm yết đổi theo tỷ giá, cập nhật " + d.cap_nhat + ".";
+      trangThai.textContent = "";
+      xuLyThamSoUrl();
+    }).catch(function(){
+      trangThai.textContent = "Không tải được dữ liệu giá. Thử lại sau.";
+    });
+  }
+
+  function timKiem(tu){
+    var tokens = boDau(tu).split(" ").filter(Boolean);
+    if (!DATA || !tokens.length) return [];
+    var ket = [];
+    for (var i = 0; i < DATA.game.length; i++) {
+      var g = DATA.game[i];
+      var ten = boDau(g[0]);
+      var khop = true;
+      for (var k = 0; k < tokens.length; k++) {
+        if (ten.indexOf(tokens[k]) < 0) { khop = false; break; }
+      }
+      if (!khop) continue;
+      var diem = ten.indexOf(tokens[0]) === 0 ? 0 : 1; // ưu tiên tên bắt đầu bằng từ khoá
+      ket.push([diem, ten.length, g]);
+    }
+    ket.sort(function(a, b){ return a[0] - b[0] || a[1] - b[1]; });
+    var ra = [];
+    for (var j = 0; j < ket.length && j < 20; j++) ra.push(ket[j][2]);
+    return ra;
+  }
+
+  function veThe(g){
+    var ten = g[0], loai = g[1], gia = g[3];
+    var dong = [], reNhat = -1, vndReNhat = Infinity;
+    for (var i = 0; i < DATA.vung.length; i++) {
+      var v = gia[i];
+      if (!v) continue;
+      var vndGoc = v[0] * DATA.ty_gia[i], vndCon = v[1] * DATA.ty_gia[i];
+      dong.push({ i: i, vndGoc: vndGoc, vndCon: vndCon, giam: v[2] });
+      if (vndCon < vndReNhat) { vndReNhat = vndCon; reNhat = dong.length - 1; }
+    }
+    var hangHtml = dong.map(function(d, idx){
+      var giaHtml = d.giam
+        ? '<span class="giam">−' + d.giam + '%</span><b>' + dongVnd(d.vndCon) + '</b><s>' + dongVnd(d.vndGoc) + '</s>'
+        : '<b>' + dongVnd(d.vndCon) + '</b>';
+      return '<li class="' + (idx === reNhat ? "re-nhat" : "") + '">' +
+        '<span class="ten-vung">' + DATA.ten_vung[d.i] + '</span>' +
+        '<span class="so-tien">' + giaHtml + '</span></li>';
+    }).join("");
+    var nhanLoai = loai ? '<span class="nhan-loai">' + NHAN_LOAI[loai] + '</span>' : "";
+    return '<article class="the the-game">' +
+      '<div class="dau-the"><h3>' + escHtml(ten) + '</h3>' + nhanLoai + '</div>' +
+      '<ul class="gia-vung">' + hangHtml + '</ul></article>';
+  }
+
+  function escHtml(s){
+    return (s || "").replace(/[&<>"]/g, function(c){
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  function ve(tu){
+    if (!tu) { hopKq.innerHTML = ""; trangThai.textContent = ""; return; }
+    var ket = timKiem(tu);
+    if (!ket.length) {
+      hopKq.innerHTML = "";
+      trangThai.textContent = 'Không tìm thấy game tên "' + escHtml(tu) + '".';
+      return;
+    }
+    trangThai.textContent = ket.length + " kết quả" + (ket.length === 20 ? " (đang chỉ hiện 20 đầu)" : "");
+    hopKq.innerHTML = ket.map(veThe).join("");
+  }
+
+  function xuLyThamSoUrl(){
+    var q = new URLSearchParams(location.search).get("q");
+    if (q) { oTim.value = q; ve(q); }
+  }
+
+  var cho;
+  oTim.addEventListener("input", function(){
+    clearTimeout(cho);
+    cho = setTimeout(function(){ ve(oTim.value); }, 150);
+  });
+
+  taiDuLieu();
+})();
+</script>
