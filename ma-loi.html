@@ -2,7 +2,7 @@
 <html lang="vi" data-theme="light">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#F2F4F7">
+<meta name="theme-color" content="#0B2552">
 <title>Tra mã lỗi PS4/PS5 · Săn Game</title>
 <meta name="description" content="Tra nhanh mã lỗi PS4/PS5 (vd CE-34878-0): nghĩa là gì, cách sửa, theo trang hỗ trợ Sony.">
 
@@ -19,109 +19,119 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap">
 <style>
 
-:root{color-scheme:light;--nen:#F2F4F7;--the:#FFFFFF;--vien:#E3E7ED;--vien-dam:#CFD6DF;--chu:#141A22;--phu:#5B6574;
-  --ngoc:#0A7B79;--ngoc-dam:#07615F;--ngoc-nhat:#E2F3F2;--ngoc-logo:#20C3C0;--do:#D0293A;--do-nhat:#FDECEE;
-  --xam-thanh:#E7EBF0;--ps:#0B3E8C;--bong:0 1px 2px rgba(16,24,40,.05);--bong-noi:0 8px 24px rgba(16,24,40,.08);
-  --r:14px;--r-nho:10px;--ben:252px}
+:root{color-scheme:light;--nen:#F3F4F6;--the:#FFFFFF;--vien:#E6E8EC;--vien-dam:#D3D7DE;--chu:#1A1D23;--phu:#6B7280;
+  --ngoc:#0A7B79;--ngoc-dam:#07615F;--ngoc-nhat:#E4F4F3;--ngoc-logo:#20C3C0;--do:#E0302F;--do-nhat:#FDEDEC;--gia:#E8431E;
+  --vang:#FFD23F;--xanh-dam:#0B2552;--xanh-dam-2:#123A7A;--xam-thanh:#E9ECF0;--ps:#0B3E8C;
+  --bong:0 1px 2px rgba(16,24,40,.04);--bong-noi:0 6px 18px rgba(16,24,40,.10);--r:10px;--r-nho:8px}
 *{box-sizing:border-box}
+/* Khối có thuộc tính hidden (JS_VUNG ẩn khối rỗng) luôn ẩn, kể cả khi lớp .khoi/.the đặt display. */
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--nen);color:var(--chu);font:15.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
+body{margin:0;background:var(--nen);color:var(--chu);font:14.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
   -webkit-font-smoothing:antialiased}
 a{color:inherit}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ngoc);outline-offset:2px}
 .ic{width:20px;height:20px;flex:none}
 .ic.to{width:28px;height:28px}
 .ic.nho{width:15px;height:15px}
+.rong{max-width:1200px;margin:0 auto;padding-left:24px;padding-right:24px}
 
-/* ── Khung: thanh bên + cột chính ── */
-.khung{display:grid;grid-template-columns:var(--ben) minmax(0,1fr);min-height:100vh}
-.thanh-ben{position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--the);border-right:1px solid var(--vien);
-  display:flex;flex-direction:column;padding:18px 14px 16px;scrollbar-width:thin}
-.thuong-hieu{display:flex;justify-content:center;padding:4px 0 14px;margin:0 4px 10px;border-bottom:1px solid var(--vien)}
-.thuong-hieu .logo{height:78px;width:auto;display:block}
-.thanh-ben nav{display:grid;gap:2px}
-.nhom-nhan{margin:16px 10px 6px;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--phu)}
-.thanh-ben nav a{display:flex;align-items:center;gap:11px;padding:8px 10px;border-radius:var(--r-nho);text-decoration:none;
-  font-weight:600;font-size:14.5px;color:var(--chu);position:relative;transition:background .15s}
-.thanh-ben nav a:hover{background:var(--nen)}
-.thanh-ben nav a[aria-current="page"]{background:var(--ngoc-nhat);color:var(--ngoc-dam)}
-.thanh-ben nav a[aria-current="page"]::before{content:"";position:absolute;left:-14px;top:8px;bottom:8px;width:3px;border-radius:0 3px 3px 0;background:var(--ngoc)}
-.bt3d.nav{width:30px;height:30px;border-radius:8px;flex:none;box-shadow:0 1px 3px rgba(0,20,60,.3)}
-.o-nha{width:30px;height:30px;border-radius:8px;flex:none;display:grid;place-items:center;color:#fff;
-  background:linear-gradient(150deg,#1757B8,var(--ps) 60%,#00245E);box-shadow:0 1px 3px rgba(0,20,60,.3)}
-.o-nha .ic{width:17px;height:17px}
-.cs-huy-hieu{margin-left:auto;background:var(--do);color:#fff;font-size:11px;font-weight:800;line-height:1.6;
-  border-radius:999px;padding:0 7px;min-width:20px;text-align:center}
-.ben-chan{margin-top:auto;padding:14px 10px 0;font-size:12px;line-height:1.5;color:var(--phu)}
-.dong-ben{display:none}
-
-.cot-chinh{min-width:0;display:flex;flex-direction:column}
-.thanh-tren{position:sticky;top:0;z-index:20;background:rgba(242,244,247,.86);backdrop-filter:saturate(1.4) blur(10px);
-  -webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--vien)}
-.thanh-tren .in{max-width:1180px;margin:0 auto;padding:10px 28px;display:flex;align-items:center;gap:14px;min-height:60px}
-.logo-nho{display:none}
-.tim-nhanh{flex:1;max-width:460px;display:flex;align-items:center;gap:8px;background:var(--the);border:1px solid var(--vien);
-  border-radius:999px;padding:0 6px 0 14px;height:40px;transition:border-color .15s,box-shadow .15s}
-.tim-nhanh:focus-within{border-color:var(--ngoc);box-shadow:0 0 0 3px var(--ngoc-nhat)}
+/* ── Dải đầu (kiểu PSNine/SMZDM): logo · ô tìm to · nút Chờ sale ── */
+.dau{background:linear-gradient(180deg,var(--xanh-dam) 0%,var(--xanh-dam-2) 100%);color:#fff}
+.dau-tren{display:flex;align-items:center;gap:24px;min-height:84px;padding-top:8px;padding-bottom:8px}
+.dau-tren .logo-a{line-height:0;flex:none}
+.dau-tren .logo{height:68px;width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.35))}
+.tim-nhanh{flex:1;max-width:560px;margin:0 auto;display:flex;align-items:center;background:#fff;border-radius:999px;
+  padding:4px 4px 4px 16px;height:46px;box-shadow:0 2px 10px rgba(0,0,0,.18)}
 .tim-nhanh .ic{color:var(--phu);width:18px;height:18px}
-.tim-nhanh input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:14.5px;color:var(--chu);height:100%;outline:none}
-.tim-nhanh button{font:inherit;font-size:13px;font-weight:700;border:0;border-radius:999px;background:var(--ngoc);color:#fff;
-  padding:6px 14px;cursor:pointer}
-.tren-phai{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--phu);white-space:nowrap}
-.cham-song{width:8px;height:8px;border-radius:50%;background:#1BA672;box-shadow:0 0 0 3px rgba(27,166,114,.16)}
+.tim-nhanh input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:15px;color:var(--chu);height:100%;outline:none;padding:0 10px}
+.tim-nhanh button{font:inherit;font-size:14px;font-weight:700;border:0;border-radius:999px;background:var(--gia);color:#fff;
+  padding:0 22px;height:38px;cursor:pointer}
+.tim-goi-y{display:flex;gap:6px 14px;flex-wrap:wrap;font-size:12px;color:rgba(255,255,255,.72);margin:6px 0 0 18px}
+.tim-goi-y a{color:rgba(255,255,255,.88);text-decoration:none}
+.tim-goi-y a:hover{color:#fff;text-decoration:underline}
+.tim-khoi{flex:1;max-width:560px;margin:0 auto}
+.tim-khoi .tim-nhanh{max-width:none}
+.nut-dau{flex:none;display:flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:13.5px;color:#fff;
+  border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:8px 14px}
+.nut-dau:hover{background:rgba(255,255,255,.1)}
+.nut-dau .ic{width:17px;height:17px;color:var(--vang)}
 
-main{width:100%;max-width:1180px;margin:0 auto;padding:28px 28px 48px;display:grid;gap:28px;align-content:start}
-section:not([hidden]){display:grid;gap:14px}
+/* ── Thanh kênh (menu ngang) ── */
+.kenh{background:var(--the);border-bottom:1px solid var(--vien);position:sticky;top:0;z-index:30;box-shadow:0 1px 0 rgba(16,24,40,.03)}
+.kenh .rong{position:relative}
+.kenh nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.kenh nav::-webkit-scrollbar{display:none}
+.kenh nav a{position:relative;display:flex;align-items:center;gap:7px;padding:12px 13px;text-decoration:none;white-space:nowrap;
+  font-weight:600;font-size:14.5px;color:#374151;flex:none}
+.kenh nav a:hover{color:var(--ngoc)}
+.kenh nav a[aria-current="page"]{color:var(--ngoc-dam)}
+.kenh nav a[aria-current="page"]::after{content:"";position:absolute;left:13px;right:13px;bottom:0;height:3px;border-radius:3px 3px 0 0;background:var(--ngoc)}
+.bt3d.nav{width:24px;height:24px;border-radius:6px;flex:none;box-shadow:0 1px 2px rgba(0,20,60,.3)}
+.o-nha{width:24px;height:24px;border-radius:6px;flex:none;display:grid;place-items:center;color:#fff;
+  background:linear-gradient(150deg,#1757B8,var(--ps) 60%,#00245E);box-shadow:0 1px 2px rgba(0,20,60,.3)}
+.o-nha .ic{width:14px;height:14px}
+.cs-huy-hieu{position:absolute;top:4px;right:2px;background:var(--do);color:#fff;font-size:10px;font-weight:800;line-height:1.5;
+  border-radius:999px;padding:0 5px;min-width:17px;text-align:center}
+.kenh .rong::before,.kenh .rong::after{position:absolute;top:0;bottom:0;width:44px;display:flex;align-items:center;z-index:1;
+  font-size:22px;font-weight:800;color:var(--ngoc);pointer-events:none;opacity:0;transition:opacity .2s}
+.kenh .rong::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(255,255,255,0),#fff 60%)}
+.kenh .rong::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(255,255,255,0),#fff 60%)}
+.kenh.con-trai .rong::before,.kenh.con-phai .rong::after{opacity:1}
 
-/* ── Đầu mỗi trang: biểu tượng PS5 + tiêu đề + mô tả, bên phải là công tắc vùng (nếu trang có giá) ── */
-.dau-muc{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-.dau-muc .bt3d.dm{width:56px;height:56px;border-radius:14px;flex:none;box-shadow:0 6px 16px rgba(0,40,120,.18)}
-.dau-muc-chu{flex:1 1 320px;min-width:0}
-.dau-muc h1{margin:0;font-size:26px;line-height:1.25;font-weight:800;letter-spacing:-.015em}
-.dau-muc p{margin:4px 0 0;color:var(--phu);font-size:14.5px;max-width:720px}
+main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start}
+section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+
+/* ── Đầu mỗi trang con: khối trắng — biểu tượng PS5 + tiêu đề + mô tả, bên phải công tắc vùng ── */
+.dau-muc{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:var(--the);border:1px solid var(--vien);
+  border-radius:var(--r);padding:14px 18px;box-shadow:var(--bong)}
+.dau-muc .bt3d.dm{width:48px;height:48px;border-radius:12px;flex:none;box-shadow:0 4px 12px rgba(0,40,120,.18)}
+.dau-muc-chu{flex:1 1 300px;min-width:0}
+.dau-muc h1{margin:0;font-size:21px;line-height:1.3;font-weight:800;letter-spacing:-.01em}
+.dau-muc p{margin:2px 0 0;color:var(--phu);font-size:13.5px;max-width:760px}
 .dau-muc .vung-chon{flex:0 1 560px;min-width:300px}
 
-h2{margin:0;display:flex;align-items:center;gap:10px;font-size:18px;line-height:1.35;font-weight:700;letter-spacing:-.005em}
-h2 .ic{width:20px;height:20px;color:var(--ngoc)}
+/* ── Khối nội dung (kiểu PSNine): tiêu đề đậm + nhãn nhỏ + "Xem thêm »" ── */
+.the{background:var(--the);border:1px solid var(--vien);border-radius:var(--r);padding:16px 18px;box-shadow:var(--bong)}
+.khoi{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;align-content:start}
+.dau-khoi{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:26px}
+.dau-khoi > div{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
+.dau-khoi h2{font-size:16.5px}
+.nhan-khoi{font-size:11.5px;font-weight:600;color:var(--ngoc-dam);background:var(--ngoc-nhat);border-radius:999px;padding:2px 9px;white-space:nowrap}
+.xem-het{flex:none;display:inline-flex;align-items:center;gap:2px;font-size:13px;font-weight:600;color:var(--phu);text-decoration:none;white-space:nowrap}
+.xem-het:hover{color:var(--ngoc)}
+.xem-het .ic{width:15px;height:15px}
+h2{margin:0;display:flex;align-items:center;gap:8px;font-size:17px;line-height:1.35;font-weight:800}
+h2 .ic{width:19px;height:19px;color:var(--ngoc)}
 h2 .bt3d.h2{display:none}
-.phu{color:var(--phu);font-size:14px;margin:0}
-.dau-khoi{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
-.dau-khoi > div{display:grid;gap:2px;min-width:0}
-.dau-khoi .xem-het{flex:none;margin-top:3px}
-.xem-het{display:inline-flex;align-items:center;gap:4px;font-size:13.5px;font-weight:700;color:var(--ngoc);text-decoration:none;white-space:nowrap}
-.xem-het:hover{text-decoration:underline}
-.xem-het .ic{width:16px;height:16px}
-
-.the{background:var(--the);border:1px solid var(--vien);border-radius:var(--r);padding:18px 20px;box-shadow:var(--bong)}
-.giam{display:inline-block;background:var(--do);color:#fff;font-weight:700;font-size:12.5px;line-height:1;padding:4px 6px;border-radius:6px;font-variant-numeric:tabular-nums}
+.phu{color:var(--phu);font-size:13.5px;margin:0}
+.giam{display:inline-block;background:var(--do);color:#fff;font-weight:800;font-size:12px;line-height:1;padding:4px 6px;border-radius:5px;font-variant-numeric:tabular-nums}
 details{background:var(--the);border:1px solid var(--vien);border-radius:var(--r)}
-summary{cursor:pointer;padding:13px 18px;font-weight:600;color:var(--ngoc-dam)}
+summary{cursor:pointer;padding:12px 16px;font-weight:600;color:var(--ngoc-dam)}
 details .cuon{overflow-x:auto;padding:0 8px 8px}
 table{border-collapse:collapse;width:100%;min-width:480px;font-variant-numeric:tabular-nums}
-th,td{padding:10px 12px;text-align:right;border-top:1px solid var(--vien);white-space:nowrap}
+th,td{padding:9px 12px;text-align:right;border-top:1px solid var(--vien);white-space:nowrap}
 thead th{border-top:none;color:var(--phu);font-size:12.5px;font-weight:600}
 tbody th{text-align:left;font-weight:600}
-
-button{font:inherit;font-weight:700;font-size:15px;padding:11px 20px;border:0;border-radius:var(--r-nho);background:var(--ngoc);color:#fff;cursor:pointer}
+button{font:inherit;font-weight:700;font-size:14.5px;padding:10px 18px;border:0;border-radius:var(--r-nho);background:var(--ngoc);color:#fff;cursor:pointer}
 button:hover{filter:brightness(.93)}
 
-.nut-cho-sale{font:inherit;font-weight:600;font-size:12.5px;padding:6px 11px;border-radius:999px;
+.nut-cho-sale{font:inherit;font-weight:600;font-size:12px;padding:5px 10px;border-radius:999px;
   border:1px solid var(--vien);background:var(--the);color:var(--phu);cursor:pointer;white-space:nowrap}
-.nut-cho-sale:hover,.nut-cho-sale:focus-visible{border-color:var(--ngoc);color:var(--ngoc);background:var(--the)}
-.nut-cho-sale.dang-cho{background:var(--ngoc-nhat);border-color:var(--ngoc);color:var(--ngoc-dam)}
+.nut-cho-sale:hover,.nut-cho-sale:focus-visible{border-color:var(--gia);color:var(--gia);filter:none}
+.nut-cho-sale.dang-cho{background:#FFF4E5;border-color:#F5A524;color:#9A5B00}
 
-.cs-banner{background:var(--ngoc-dam);color:#fff;display:flex;align-items:center;justify-content:center;
-  gap:14px;padding:9px 16px;font-weight:600;font-size:14px;text-align:center;flex-wrap:wrap}
+.cs-banner{background:var(--gia);color:#fff;display:flex;align-items:center;justify-content:center;
+  gap:14px;padding:8px 16px;font-weight:600;font-size:13.5px;text-align:center}
 .cs-banner a{color:#fff;text-decoration:underline}
 .cs-banner button{background:transparent;border:0;color:#fff;font-size:15px;line-height:1;padding:3px 7px;margin:0;border-radius:6px;font-weight:700}
 .cs-banner button:hover{background:rgba(255,255,255,.2);filter:none}
 
-/* Công tắc chọn vùng — dạng thanh trượt (Hào chốt 28/09): 6 vùng chung 1 thanh, khối ngọc
-   .vung-truot trượt tới vùng đang chọn (JS_VUNG đặt vị trí). Chưa có JS thì nút đang chọn tự tô nền. */
+/* Công tắc chọn vùng — dạng thanh trượt (Hào chốt 28/09) */
 .vung-chon{display:flex;align-items:center;gap:10px;min-width:0}
 .vung-nhan{font-size:12.5px;font-weight:700;color:var(--phu);white-space:nowrap}
-.vung-thanh{position:relative;display:flex;flex:1;min-width:0;background:var(--the);border:1px solid var(--vien);
-  border-radius:999px;padding:3px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain;contain:inline-size;box-shadow:var(--bong)}
+.vung-thanh{position:relative;display:flex;flex:1;min-width:0;background:var(--nen);border:1px solid var(--vien);
+  border-radius:999px;padding:3px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain;contain:inline-size}
 .vung-thanh::-webkit-scrollbar{display:none}
 .vung-truot{position:absolute;z-index:0;top:3px;bottom:3px;left:0;width:0;border-radius:999px;background:var(--ngoc);
   opacity:0;transition:transform .28s cubic-bezier(.3,.7,.2,1),width .28s cubic-bezier(.3,.7,.2,1)}
@@ -136,45 +146,35 @@ button:hover{filter:brightness(.93)}
 .chip-vung[aria-pressed="true"]{color:#fff;background:var(--ngoc)}
 .vung-thanh.co-truot .chip-vung[aria-pressed="true"]{background:transparent}
 
-footer{width:100%;max-width:1180px;margin:0 auto;border-top:1px solid var(--vien);padding:18px 28px 40px;color:var(--phu);font-size:12.5px;display:grid;gap:4px}
+footer{background:#1C2230;color:#AEB4C0;font-size:12.5px;margin-top:8px}
+footer .rong{padding-top:22px;padding-bottom:30px;display:grid;gap:4px}
+footer a{color:#DDE2EA}
+.len-dau{position:fixed;right:18px;bottom:22px;z-index:40;width:44px;height:44px;border-radius:12px;padding:0;background:var(--the);
+  color:var(--chu);border:1px solid var(--vien);box-shadow:var(--bong-noi);display:grid;place-items:center;opacity:0;pointer-events:none;
+  transition:opacity .2s;font-size:11px;font-weight:700}
+.len-dau.hien{opacity:1;pointer-events:auto}
+.len-dau:hover{filter:none;color:var(--ngoc)}
 
-/* ── Thanh tab dưới đáy + ngăn kéo menu (điện thoại) ── */
-.tab-duoi{display:none}
-.nen-mo{display:none}
-
-@media (max-width:980px){
-  .khung{display:block}
-  .thanh-ben{position:fixed;z-index:60;left:0;top:0;bottom:0;width:min(300px,86vw);height:auto;transform:translateX(-102%);
-    transition:transform .22s ease;box-shadow:var(--bong-noi)}
-  .mo-ben .thanh-ben{transform:none}
-  .mo-ben .nen-mo{display:block;position:fixed;inset:0;z-index:55;background:rgba(16,24,40,.38)}
-  .dong-ben{display:block;position:absolute;right:10px;top:10px;background:var(--nen);color:var(--chu);border-radius:999px;
-    width:34px;height:34px;padding:0;font-size:16px;line-height:34px;text-align:center}
-  .dong-ben:hover{background:var(--vien)}
-  .thanh-tren .in{padding:8px 16px;gap:10px;min-height:56px}
-  .logo-nho{display:block;line-height:0;flex:none}
-  .logo-nho img{height:40px;width:auto}
-  .tim-nhanh{max-width:none;height:38px}
-  .tim-nhanh button{display:none}
-  .tren-phai{display:none}
-  main{padding:18px 16px 96px;gap:24px}
-  footer{padding:16px 16px 96px}
-  .tab-duoi{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;z-index:50;left:0;right:0;bottom:0;
-    background:rgba(255,255,255,.96);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--vien);
-    padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
-  .tab-duoi a,.tab-duoi button{display:grid;justify-items:center;gap:3px;padding:4px 2px;border-radius:10px;text-decoration:none;
-    font:inherit;font-size:11px;font-weight:600;color:var(--phu);background:transparent;border:0;cursor:pointer}
-  .tab-duoi .bt3d,.tab-duoi .o-nha,.tab-duoi .o-menu{width:28px;height:28px;border-radius:8px}
-  .tab-duoi .o-menu{display:grid;place-items:center;background:var(--nen);color:var(--chu);border:1px solid var(--vien)}
-  .tab-duoi [aria-current="page"]{color:var(--ngoc-dam)}
-  .tab-duoi [aria-current="page"] .bt3d,.tab-duoi [aria-current="page"] .o-nha{outline:2px solid var(--ngoc);outline-offset:2px}
-  .dau-muc{gap:12px}
-  .dau-muc .bt3d.dm{width:46px;height:46px;border-radius:12px}
-  .dau-muc h1{font-size:22px}
+@media (max-width:860px){
+  .rong{padding-left:14px;padding-right:14px}
+  .dau-tren{gap:10px;min-height:60px;flex-wrap:wrap;padding-top:8px;padding-bottom:10px}
+  .dau-tren .logo{height:44px}
+  .tim-khoi{order:3;flex:1 1 100%;max-width:none}
+  .tim-nhanh{height:40px}
+  .tim-nhanh button{height:32px;padding:0 14px}
+  .tim-goi-y{display:none}
+  .nut-dau{margin-left:auto;padding:6px 11px;font-size:12.5px}
+  .kenh nav a{padding:11px 10px;font-size:14px}
+  .kenh nav a[aria-current="page"]::after{left:10px;right:10px}
+  main{padding:14px 12px 36px;gap:14px}
+  .the{padding:14px}
+  .dau-muc{padding:12px 14px;gap:10px}
+  .dau-muc .bt3d.dm{width:42px;height:42px;border-radius:10px}
+  .dau-muc h1{font-size:19px}
   .dau-muc-chu{flex:1 1 200px}
-  .dau-muc p{font-size:14px}
   .dau-muc .vung-chon{flex:1 1 100%;min-width:0}
-  .cs-banner{flex-wrap:nowrap;justify-content:space-between;text-align:left;font-size:12.5px;line-height:1.4;padding:8px 10px 8px 16px}
+  .cs-banner{justify-content:space-between;text-align:left;font-size:12.5px;line-height:1.4;padding:7px 8px 7px 14px}
+  .len-dau{right:12px;bottom:14px;width:40px;height:40px}
 }
 @media (max-width:560px){
   .vung-nhan{display:none}
@@ -219,20 +219,12 @@ footer{width:100%;max-width:1180px;margin:0 auto;border-top:1px solid var(--vien
 
 </style>
 <body>
-<div class="khung">
-<aside class="thanh-ben" id="thanh-ben" aria-label="Menu Săn Game">
-  <button type="button" class="dong-ben" aria-label="Đóng menu">✕</button>
-  <a class="thuong-hieu" href="index.html" aria-label="Săn Game — về trang chủ"><img class="logo" src="logo.webp" alt="Săn Game" width="238" height="208"></a>
-  <nav aria-label="Mục"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Tổng quan</a><div class="nhom-nhan">Giá và ưu đãi</div><a href="kho-plus.html"><img class="bt3d nav" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160">Kho PS Plus</a><a href="ps-plus.html"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="mien-phi.html"><img class="bt3d nav" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160">Miễn phí</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="tim-gia.html"><img class="bt3d nav" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá</a><a href="cho-sale.html"><img class="bt3d nav" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160">Chờ sale</a><div class="nhom-nhan">Hỗ trợ</div><a href="chong-lua-dao.html"><img class="bt3d nav" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160">Chống lừa đảo</a><a href="ma-loi.html" aria-current="page"><img class="bt3d nav" src="bieu-tuong/ma-loi.webp" alt="" width="160" height="160">Mã lỗi</a></nav>
-  <div class="ben-chan">Giá PS Store 6 vùng, đổi ra tiền Việt theo giá thẻ PSN. Tự cập nhật mỗi ngày.</div>
-</aside>
-<div class="nen-mo" aria-hidden="true"></div>
-<div class="cot-chinh">
-<div class="thanh-tren"><div class="in">
-  <a class="logo-nho" href="index.html" aria-label="Săn Game — về trang chủ"><img src="logo.webp" alt="Săn Game" width="238" height="208"></a>
-  <form class="tim-nhanh" action="tim-gia.html" method="get" role="search"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input name="q" type="search" autocomplete="off" placeholder="Tìm giá game, vd: elden ring" aria-label="Tìm giá game"><button type="submit">Tìm</button></form>
-  <div class="tren-phai"><span class="cham-song" aria-hidden="true"></span>Tự cập nhật mỗi ngày</div>
+<div class="dau"><div class="rong dau-tren">
+  <a class="logo-a" href="index.html" aria-label="Săn Game — về trang chủ"><img class="logo" src="logo.webp" alt="Săn Game" width="238" height="208"></a>
+  <div class="tim-khoi"><form class="tim-nhanh" action="tim-gia.html" method="get" role="search"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input name="q" type="search" autocomplete="off" placeholder="Tìm giá game PlayStation…" aria-label="Tìm giá game"><button type="submit">Tìm giá</button></form><div class="tim-goi-y"><span>Hay tìm:</span><a href="tim-gia.html?q=Elden Ring">Elden Ring</a><a href="tim-gia.html?q=God of War">God of War</a><a href="tim-gia.html?q=GTA V">GTA V</a><a href="tim-gia.html?q=Spider-Man">Spider-Man</a><a href="tim-gia.html?q=Final Fantasy">Final Fantasy</a><a href="tim-gia.html?q=Call of Duty">Call of Duty</a></div></div>
+  <a class="nut-dau" href="cho-sale.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>Danh sách chờ sale</a>
 </div></div>
+<div class="kenh"><div class="rong"><nav aria-label="Mục"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Trang chủ</a><a href="kho-plus.html"><img class="bt3d nav" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160">Kho PS Plus</a><a href="ps-plus.html"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="mien-phi.html"><img class="bt3d nav" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160">Miễn phí</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="chong-lua-dao.html"><img class="bt3d nav" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160">Chống lừa đảo</a><a href="tim-gia.html"><img class="bt3d nav" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá</a><a href="ma-loi.html" aria-current="page"><img class="bt3d nav" src="bieu-tuong/ma-loi.webp" alt="" width="160" height="160">Mã lỗi</a><a href="cho-sale.html"><img class="bt3d nav" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160">Chờ sale</a></nav></div></div>
 <main><section id="ma-loi">
   <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/ma-loi.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Tra mã lỗi PS4 / PS5</h1><p>Gõ mã lỗi hiện trên màn hình máy, hoặc bấm nhóm lỗi hay gặp bên dưới.</p></div></div>
   <div class="the tra-ma-loi">
@@ -246,13 +238,11 @@ footer{width:100%;max-width:1180px;margin:0 auto;border-top:1px solid var(--vien
       Không thấy mã của bạn? Mở <a href="https://www.playstation.com/en-us/support/error-codes/" rel="noopener" target="_blank">trang tra mã lỗi của Sony<svg class="ic nho" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>.</p>
   </div>
 </section></main>
-<footer>
+<footer><div class="rong">
   <div>Săn Game là trang cá nhân tự tra giá game console. Không liên kết với Sony, Microsoft hay hãng game nào; tên game và nhãn hiệu thuộc chủ sở hữu.</div>
   <div>Liên hệ, yêu cầu gỡ nội dung: <a id="lh-email" href="#" data-u="cn8281287" data-d="gmail.com">(bấm để hiện email — cần JS)</a><noscript> cn8281287 [a] gmail.com</noscript></div>
-</footer>
-</div>
-</div>
-<nav class="tab-duoi" aria-label="Mục chính"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Tổng quan</a><a href="kho-plus.html"><img class="bt3d tab" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160">Kho Plus</a><a href="giam-gia.html"><img class="bt3d tab" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="tim-gia.html"><img class="bt3d tab" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá</a><button type="button" id="nut-menu" aria-controls="thanh-ben" aria-expanded="false"><span class="o-menu"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span>Menu</button></nav>
+</div></footer>
+<button type="button" class="len-dau" id="len-dau" aria-label="Lên đầu trang">▲</button>
 <script src="cho-sale.js"></script>
 <script>(function(){var a=document.getElementById("lh-email");if(!a)return;var em=a.getAttribute("data-u")+"@"+a.getAttribute("data-d");a.href="mailto:"+em;a.textContent=em;})();</script>
 <script>
@@ -324,11 +314,13 @@ footer{width:100%;max-width:1180px;margin:0 auto;border-top:1px solid var(--vien
   ve();
 })();
 </script>
-<script>(function(){var h=document.documentElement;function dat(mo){h.classList.toggle('mo-ben',mo);
-var b=document.getElementById('nut-menu');if(b)b.setAttribute('aria-expanded',mo?'true':'false');}
-document.addEventListener('click',function(ev){if(ev.target.closest('#nut-menu')){ev.preventDefault();dat(!h.classList.contains('mo-ben'));}
-else if(ev.target.closest('.nen-mo')||ev.target.closest('.dong-ben'))dat(false);});
-document.addEventListener('keydown',function(ev){if(ev.key==='Escape')dat(false);});})();</script>
+<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.parentNode;
+function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
+function giua(){var a=n.querySelector('[aria-current="page"]');if(a&&a.offsetLeft+a.offsetWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-(n.clientWidth-a.offsetWidth)/2;u();}
+n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(giua);addEventListener('load',giua);}
+var t=document.getElementById('len-dau');if(t){var hien=function(){t.classList.toggle('hien',scrollY>600);};
+addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click',function(){scrollTo({top:0,behavior:'smooth'});});}})();</script>
 <script>
 (function(){
   var MA_LOI = {"CE-108255-1": {"may": "PS5", "nhom": "ung-dung", "nghia": "Game hoặc ứng dụng đang chạy bị lỗi, thường do bản game chưa cập nhật hoặc dữ liệu cài đặt có vấn đề.", "cach_sua": ["Cập nhật game lên bản mới nhất qua PS Store hoặc thư viện trò chơi.", "Khởi động lại máy PS5 rồi mở lại game.", "Nếu vẫn lỗi, gỡ rồi cài lại game.", "Còn lỗi nữa thì liên hệ PlayStation Repairs để kiểm tra máy."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-108255-1/"}, "WS-116483-3": {"may": "PS5", "nhom": "mang", "nghia": "Máy không kết nối được tới máy chủ PlayStation, có thể do máy chủ đang gặp sự cố hoặc mạng nhà không ổn định.", "cach_sua": ["Vào trang PlayStation Network Service Status xem máy chủ có đang gặp sự cố không.", "Khởi động lại máy PS5.", "Tắt modem/router, đợi 5 phút rồi bật lại.", "Thử lại sau ít phút."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ws-116483-3/"}, "NW-102216-2": {"may": "PS5", "nhom": "mang", "nghia": "Có lỗi khi máy PS5 kết nối tới dịch vụ PlayStation, thường liên quan tới mạng internet hoặc router.", "cach_sua": ["Xem trang trạng thái PlayStation Network có đang sự cố không.", "Ưu tiên dùng dây mạng (LAN) thay vì Wi-Fi nếu có thể.", "Đưa máy lại gần router, bỏ vật cản.", "Khởi động lại router, cập nhật firmware router nếu có bản mới."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/nw-102216-2/"}, "WS-116331-5": {"may": "PS5", "nhom": "tai-khoan", "nghia": "Tài khoản đang bị tạm khoá do vi phạm điều khoản sử dụng PlayStation.", "cach_sua": ["Thử đăng nhập bằng thiết bị khác (PC, điện thoại) để xác nhận đúng là bị khoá.", "Kiểm tra email đăng ký tài khoản (kể cả mục spam) để xem lý do và thời hạn khoá.", "Đọc trang Suspensions on PlayStation để biết cách khiếu nại nếu thấy bị khoá oan."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ws-116331-5/"}, "NP-102946-2": {"may": "PS5", "nhom": "cap-nhat", "nghia": "Máy cần cài thêm bản cập nhật mới chạy tiếp được, có thể do tải thiếu hoặc chưa đủ dung lượng trống.", "cach_sua": ["Kết nối máy PS5 vào mạng rồi vào Cài đặt cập nhật phần mềm hệ thống.", "Kiểm tra còn đủ dung lượng trống để tải bản cập nhật, thiếu thì xoá bớt dữ liệu.", "Nếu đang tải dở thì chờ tải xong."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/np-102946-2/"}, "NP-102944-0": {"may": "PS5", "nhom": "cap-nhat", "nghia": "Phần mềm hệ thống trên máy PS5 đang cũ hơn mức game/tính năng yêu cầu, cần cập nhật lên bản mới.", "cach_sua": ["Kết nối máy PS5 vào mạng rồi cập nhật lên bản phần mềm hệ thống mới nhất.", "Nếu cập nhật qua mạng bị lỗi, khởi động lại router và máy rồi thử lại.", "Không cập nhật qua mạng được thì tải bản cập nhật vào USB bằng máy tính, hoặc cập nhật bằng đĩa game có bản mới hơn."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/np-102944-0/"}, "WS-116332-6": {"may": "PS5", "nhom": "mang", "nghia": "Máy PS5 tạm thời không vào được dịch vụ PlayStation — có thể do tài khoản bị hạn chế vì vi phạm điều khoản, hoặc chỉ là máy chủ/mạng đang gặp sự cố tạm thời.", "cach_sua": ["Kiểm tra trang trạng thái máy chủ của game và trang PlayStation Status xem có đang sự cố không.", "Mạng đang đông thì thử lại sau.", "Nếu nghi tài khoản bị hạn chế do vi phạm điều khoản, kiểm tra email đăng ký tài khoản để xem thông báo."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ws-116332-6/"}, "NP-102955-2": {"may": "PS5", "nhom": "tai-khoan", "nghia": "Tên đăng nhập hoặc mật khẩu gõ vào không khớp với tài khoản đã đăng ký trên máy.", "cach_sua": ["Gõ lại chính xác Sign-In ID và mật khẩu, chú ý chữ hoa/thường.", "Thử đăng nhập trên trình duyệt máy tính để loại trừ lỗi gõ phím trên máy.", "Nếu quên mật khẩu, dùng chức năng đặt lại mật khẩu của PlayStation."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/np-102955-2/"}, "NW-102636-8": {"may": "PS5", "nhom": "mang", "nghia": "Kết nối từ máy tới PlayStation bị quá thời gian chờ (timeout), thường do mạng yếu hoặc máy chủ đang bận.", "cach_sua": ["Kiểm tra lại cài đặt mạng, chạy Test kết nối Internet.", "Tắt modem/router, đợi 5 phút rồi bật lại.", "Nếu dùng Wi-Fi, đưa máy lại gần router hơn.", "Xem trang trạng thái PlayStation và trang chủ game xem máy chủ có đang lỗi không."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/nw-102636-8/"}, "WS-116449-5": {"may": "PS5", "nhom": "mang", "nghia": "Dịch vụ PlayStation liên quan đang bảo trì, hoặc máy đang gặp lỗi kết nối tạm thời.", "cach_sua": ["Kiểm tra trang trạng thái máy chủ xem có đang bảo trì/sự cố không.", "Đặt lại cài đặt kết nối Internet trên máy PS5 rồi test lại.", "Tắt router/modem 5 phút rồi bật lại.", "Nếu mạng đang đông người dùng, thử lại sau."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ws-116449-5/"}, "NP-102947-3": {"may": "PS5", "nhom": "cap-nhat", "nghia": "Mạng internet quá chậm hoặc không ổn định nên máy không tải xong được bản cập nhật.", "cach_sua": ["Khởi động lại máy, ưu tiên nối mạng bằng dây LAN nếu có thể.", "Nếu dùng Wi-Fi, để máy gần router, bớt vật cản.", "Tắt router/modem 5 phút rồi bật lại, có thể cập nhật firmware router.", "Mạng ổn lại thì vào kiểm tra cập nhật lại."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/np-102947-3/"}, "CE-110538-8": {"may": "PS5", "nhom": "dia", "nghia": "Máy PS5 không đọc được đĩa Blu-ray đang lắp, có thể do đĩa bẩn/trầy hoặc đầu đọc đĩa gặp trục trặc.", "cach_sua": ["Lau sạch mặt đĩa, kiểm tra có trầy xước không.", "Lắp lại đĩa cho đúng chiều, đủ khớp.", "Thử đĩa game khác xem máy có đọc được không.", "Nếu đĩa nào cũng không đọc được, liên hệ PlayStation Repairs kiểm tra đầu đọc đĩa."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-110538-8/"}, "WS-117224-7": {"may": "PS5", "nhom": "tai-khoan", "nghia": "Cài đặt Xác thực 2 bước đang gặp trục trặc, thường vì tài khoản PlayStation đang gộp chung với một dịch vụ khác của Sony.", "cach_sua": ["Vào cài đặt tài khoản, gỡ liên kết Sign-In ID với dịch vụ Sony khác nếu có.", "Thử bật lại Xác thực 2 bước sau khi gỡ liên kết.", "Nếu vẫn lỗi, tắt rồi bật lại Xác thực 2 bước."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ws-117224-7/"}, "CE-100028-1": {"may": "PS5", "nhom": "luu-tru", "nghia": "Ổ SSD trong máy PS5 không còn đủ dung lượng trống để tải hoặc cài đặt thêm.", "cach_sua": ["Vào Cài đặt > Bộ nhớ > Bộ nhớ hệ thống để xem dung lượng còn trống.", "Xoá bớt game/ứng dụng ít dùng: chọn nội dung rồi chọn Xoá.", "Có thể xoá ngay từ màn hình chính: chọn nội dung, bấm nút tuỳ chọn rồi chọn Xoá."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-100028-1/"}, "CE-100005-6": {"may": "PS5", "nhom": "ung-dung", "nghia": "Game hoặc ứng dụng không mở lên được, có thể do dữ liệu cài đặt lỗi hoặc đĩa game có vấn đề.", "cach_sua": ["Với game cài trên máy: xoá rồi tải/cài lại từ thư viện.", "Với game đĩa: lau sạch đĩa rồi lắp lại cho đúng chiều.", "Thử một game khác xem máy có mở bình thường không để biết lỗi ở game hay ở máy."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-100005-6/"}, "WS-116329-2": {"may": "PS5", "nhom": "tai-khoan", "nghia": "Tên đăng nhập hoặc mật khẩu vừa nhập không khớp với tài khoản PlayStation.", "cach_sua": ["Kiểm tra lại Sign-In ID và mật khẩu ở Cài đặt > Tài khoản, chú ý mật khẩu phân biệt hoa/thường.", "Thử đăng nhập từ thiết bị khác như máy tính.", "Quên mật khẩu thì dùng chức năng đặt lại mật khẩu trên trang PlayStation."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ws-116329-2/"}, "CE-100006-7": {"may": "PS5", "nhom": "luu-tru", "nghia": "Máy PS5 không nhận được ổ cứng ngoài đang cắm vào, có thể do cáp, cổng cắm hoặc định dạng ổ chưa phù hợp.", "cach_sua": ["Cập nhật phần mềm hệ thống lên bản mới nhất.", "Rút cáp USB ra cắm lại, cắm thẳng vào máy thay vì qua USB hub.", "Nếu là lần đầu dùng ổ này làm bộ nhớ mở rộng, định dạng ổ ở Cài đặt > Bộ nhớ > Bộ nhớ mở rộng.", "Kiểm tra ổ có nằm trong danh sách ổ hỗ trợ làm bộ nhớ mở rộng cho PS5 không."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-100006-7/"}, "CE-109737-7": {"may": "PS5", "nhom": "luu-tru", "nghia": "Máy không nhận thiết bị lưu trữ USB đang cắm vào.", "cach_sua": ["Rút USB ra cắm lại, cắm chặt hẳn vào cổng.", "Nếu đang dùng qua USB hub, bỏ hub và cắm thẳng USB vào máy.", "Thử cắm sang cổng USB khác trên máy, hoặc thử một USB khác xem máy có nhận không.", "Nếu lỗi chỉ xảy ra khi mở một ứng dụng nhất định, gỡ rồi cài lại ứng dụng đó."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-109737-7/"}, "NP-103028-4": {"may": "PS5", "nhom": "tai-khoan", "nghia": "Máy gặp trục trặc khi đăng nhập tài khoản PlayStation.", "cach_sua": ["Vào Cài đặt > Tài khoản người dùng > Đăng xuất, rồi đăng nhập lại.", "Khởi động lại máy PS5 rồi thử đăng nhập lại."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/np-103028-4/"}, "CE-105638-3": {"may": "PS5", "nhom": "thanh-toan", "nghia": "Máy không xác thực được quyền dùng nội dung đã mua, có thể do mạng hoặc do một tài khoản đang dùng chung trên nhiều máy PS5.", "cach_sua": ["Khởi động lại máy PS5.", "Chạy Test kết nối Internet, thử đổi sang mạng dây nếu đang dùng Wi-Fi.", "Tắt router 5 phút rồi bật lại.", "Nếu dùng chung tài khoản trên nhiều máy, bật Console Sharing and Offline Play ở Cài đặt > Tài khoản."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-105638-3/"}, "WS-113947-5": {"may": "PS5", "nhom": "thanh-toan", "nghia": "Thông tin phương thức thanh toán đã lưu trong tài khoản không hợp lệ hoặc chưa khớp.", "cach_sua": ["Vào Cài đặt > Tài khoản người dùng > Thanh toán và gói > Phương thức thanh toán.", "Chọn thẻ đã lưu, kiểm tra lại kỹ ngày hết hạn và địa chỉ thanh toán, sửa nếu sai.", "Nếu vẫn lỗi, thử một phương thức thanh toán khác, hoặc dùng thẻ quà PS Store thay vì thẻ ngân hàng.", "Có thể là lỗi tạm thời, đợi khoảng 24 giờ rồi thử lại."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ws-113947-5/"}, "CE-107872-5": {"may": "PS5", "nhom": "luu-tru", "nghia": "Bộ nhớ trong máy PS5 không còn đủ chỗ trống để tải hoặc sao chép dữ liệu.", "cach_sua": ["Vào Cài đặt > Bộ nhớ để xem dung lượng trống hiện có.", "Xoá bớt game/ứng dụng ít dùng để giải phóng chỗ (nên chừa dư khoảng gấp đôi dung lượng cần cài).", "Nếu có ổ mở rộng, thử chuyển nơi lưu dữ liệu sang ổ đó."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-107872-5/"}, "CE-108862-5": {"may": "PS5", "nhom": "mang", "nghia": "Máy PS5 không kết nối được tới máy chủ PlayStation.", "cach_sua": ["Xem trang trạng thái PlayStation Network có đang sự cố không.", "Khởi động lại máy, ưu tiên nối mạng bằng dây LAN nếu có thể.", "Tắt router 5 phút rồi bật lại.", "Có thể mạng đang đông, thử lại sau."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/ce-108862-5/"}, "NW-102265-6": {"may": "PS5", "nhom": "mang", "nghia": "Máy không liên lạc được với máy chủ PlayStation, thường do mạng hoặc máy chủ đang gặp sự cố.", "cach_sua": ["Kiểm tra trang trạng thái PlayStation Network.", "Khởi động lại máy, ưu tiên dùng dây mạng, kiểm tra lại cài đặt mạng.", "Nếu dùng Wi-Fi, đưa máy gần router hơn, bỏ vật cản.", "Tắt router 5 phút rồi bật lại."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps5/nw-102265-6/"}, "CE-34878-0": {"may": "PS4", "nhom": "ung-dung", "nghia": "Game hoặc ứng dụng gặp lỗi khi chạy, thường do phần mềm hệ thống/game chưa cập nhật hoặc dữ liệu cài đặt có vấn đề.", "cach_sua": ["Cập nhật phần mềm hệ thống PS4 và game lên bản mới nhất.", "Khởi động lại máy PS4.", "Nếu có gắn PS Camera, rút ra, vào Cài đặt tắt Nhận diện khuôn mặt rồi thử lại.", "Nếu vẫn lỗi, sao lưu dữ liệu rồi khởi tạo lại máy — thao tác này xoá hết dữ liệu trong máy."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-34878-0/"}, "NW-31201-7": {"may": "PS4", "nhom": "mang", "nghia": "Máy không kết nối được vào mạng, có thể do máy chủ game/PlayStation đang bận hoặc mạng nhà không ổn định.", "cach_sua": ["Kiểm tra trang trạng thái máy chủ của game đang chơi.", "Chạy Test kết nối Internet ở Cài đặt > Mạng.", "Cập nhật firmware router, tạm ngắt bớt thiết bị khác đang dùng chung mạng.", "Nếu máy chủ đang đông người dùng thì thử lại sau."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/nw-31201-7/"}, "WC-40372-6": {"may": "PS4", "nhom": "thanh-toan", "nghia": "Mã voucher (mã thẻ quà/mã giảm giá) vừa nhập không hợp lệ hoặc chưa dùng được.", "cach_sua": ["Kiểm tra lại đã gõ đúng từng ký tự của mã chưa.", "Kiểm tra ngày bắt đầu/hết hạn của mã và điều kiện áp dụng.", "Kiểm tra vùng tài khoản PlayStation có khớp với vùng phát hành mã không."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/wc-40372-6/"}, "WC-34891-5": {"may": "PS4", "nhom": "thanh-toan", "nghia": "Thông tin thẻ tín dụng/ghi nợ đã lưu không hợp lệ, thường do thông tin nhập chưa khớp với ngân hàng.", "cach_sua": ["Kiểm tra lại tên chủ thẻ, số thẻ, mã CVV, ngày hết hạn và địa chỉ thanh toán.", "Đảm bảo địa chỉ khớp chính xác với địa chỉ ngân hàng đang lưu (kể cả viết tắt).", "Dùng thẻ có địa chỉ nhà thực, không dùng địa chỉ hòm thư.", "Thẻ trả trước (prepaid) không mua được gói thuê bao."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/wc-34891-5/"}, "CE-35918-6": {"may": "PS4", "nhom": "dia", "nghia": "Máy PS4 không đọc được đĩa game đang lắp vào.", "cach_sua": ["Lấy đĩa ra kiểm tra xem có bẩn hay trầy xước không.", "Thử lắp một đĩa khác để kiểm tra đầu đọc đĩa còn hoạt động bình thường không.", "Nếu đĩa khác đọc được, đĩa đang chơi có thể bị hỏng.", "Nếu đĩa nào cũng không đọc được, liên hệ PlayStation Support kiểm tra máy."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-35918-6/"}, "SU-30625-6": {"may": "PS4", "nhom": "cap-nhat", "nghia": "Máy PS4 cập nhật phần mềm hệ thống không thành công.", "cach_sua": ["Vào Cài đặt > Cập nhật phần mềm hệ thống và thử cập nhật lại.", "Nếu không được, khởi động máy ở chế độ an toàn (Safe Mode) rồi chọn Cập nhật phần mềm hệ thống.", "Nếu cập nhật qua mạng vẫn lỗi, tắt router 5 phút rồi thử lại, hoặc cập nhật bằng USB."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/su-30625-6/"}, "CE-36485-6": {"may": "PS4", "nhom": "luu-tru", "nghia": "Máy PS4 không nhận được thiết bị lưu trữ USB đang cắm vào.", "cach_sua": ["Cắm chặt lại USB vào đúng cổng.", "Định dạng USB theo chuẩn FAT hoặc exFAT.", "Nếu máy báo thiết bị không dùng được, USB đó không tương thích với PS4."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-36485-6/"}, "CE-34335-8": {"may": "PS4", "nhom": "luu-tru", "nghia": "Máy PS4 không phát hiện được ổ cứng (HDD) bên trong.", "cach_sua": ["Tắt máy, rút nguồn, mở nắp để kiểm tra ổ cứng đã lắp đúng khớp chưa.", "Nếu vẫn không nhận, ổ cứng có thể hỏng hoặc máy cần được kiểm tra/bảo hành."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-34335-8/"}, "NP-31735-9": {"may": "PS4", "nhom": "tai-khoan", "nghia": "Tài khoản chưa đủ điều kiện độ tuổi để chơi game hoặc dùng tính năng này.", "cach_sua": ["Kiểm tra độ tuổi giới hạn (age rating) của game/ứng dụng.", "Vào cài đặt Kiểm soát của phụ huynh để xem và chỉnh độ tuổi gắn với tài khoản."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/np-31735-9/"}, "NP-38551-2": {"may": "PS4", "nhom": "tai-khoan", "nghia": "Máy vừa được đặt làm 'máy chính' quá nhiều lần trong thời gian ngắn nên bị tạm chặn.", "cach_sua": ["Nếu vừa bấm Đặt làm máy PS4 chính nhiều lần, đợi một lúc rồi thử lại.", "Nếu chỉ bấm một lần mà vẫn lỗi: khởi động lại máy, cập nhật phần mềm hệ thống lên bản mới nhất, tắt router 5 phút rồi bật lại.", "Đây có thể là lỗi tạm thời, thử lại sau."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/np-38551-2/"}, "WS-43701-5": {"may": "PS4", "nhom": "thanh-toan", "nghia": "Trong ví PlayStation không đủ tiền để hoàn tất giao dịch mua.", "cach_sua": ["Nạp thêm tiền vào ví bằng thẻ thanh toán hoặc thẻ quà PS Store.", "Nạp xong thì khởi động lại máy.", "Nếu vẫn báo lỗi, đăng xuất rồi đăng nhập lại tài khoản ở Cài đặt > Quản lý tài khoản.", "Còn lỗi nữa thì đợi khoảng 24 giờ rồi mua lại."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ws-43701-5/"}, "CE-32894-6": {"may": "PS4", "nhom": "mang", "nghia": "Kết nối giữa máy và máy chủ bị ngắt giữa chừng, thường do mạng nhà hoặc do máy chủ nhà mạng đang bận.", "cach_sua": ["Kiểm tra kết nối mạng ở Cài đặt > Mạng > Test kết nối Internet.", "Dùng Wi-Fi thì để máy gần router hơn, bớt vật cản; có thể thì đổi sang mạng dây.", "Tắt router/modem 5 phút rồi bật lại.", "Kiểm tra có thiết bị khác trong nhà đang chiếm nhiều băng thông không."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-32894-6/"}, "SU-35931-1": {"may": "PS4", "nhom": "cap-nhat", "nghia": "Dữ liệu bản cập nhật hệ thống bị lỗi một phần, thường do tải qua mạng không ổn định.", "cach_sua": ["Khởi động lại máy PS4 rồi vào Cài đặt > Cập nhật hệ thống > Cập nhật qua Internet để tải lại.", "Nếu vẫn lỗi, thử cập nhật bằng USB.", "Nếu cập nhật vẫn thất bại nhiều lần, máy có thể cần được kiểm tra/bảo hành."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/su-35931-1/"}, "CE-30784-2": {"may": "PS4", "nhom": "luu-tru", "nghia": "Máy PS4 không phát hiện được thiết bị USB đang cắm vào.", "cach_sua": ["Kiểm tra USB có hỗ trợ chuẩn USB 2.0/3.0 không.", "Cắm chắc USB vào cổng, đợi khoảng 1 phút rồi thử lại.", "Kiểm tra USB không chia nhiều phân vùng (partition).", "Thử định dạng lại USB bằng máy tính rồi cắm lại."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-30784-2/"}, "WC-40330-0": {"may": "PS4", "nhom": "thanh-toan", "nghia": "Thao tác trên PS Store bị quá thời gian chờ.", "cach_sua": ["Thử thao tác lại từ đầu.", "Nếu vẫn lỗi trên PS Store, thoát Store rồi mở lại.", "Nếu vẫn còn lỗi, đăng xuất rồi đăng nhập lại PlayStation Network ở Cài đặt > Tài khoản PSN."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/wc-40330-0/"}, "CE-42747-4": {"may": "PS4", "nhom": "cap-nhat", "nghia": "Phần mềm hệ thống trên máy PS4 đã cũ, cần cập nhật mới kết nối được dịch vụ PlayStation.", "cach_sua": ["Vào Cài đặt > Cập nhật phần mềm hệ thống và cập nhật lên bản mới nhất.", "Nếu không cập nhật được qua mạng, thử cách cập nhật bằng USB."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-42747-4/"}, "E-8200002E": {"may": "PS4", "nhom": "thanh-toan", "nghia": "Thông tin thẻ tín dụng/ghi nợ đã lưu trong tài khoản không hợp lệ.", "cach_sua": ["Kiểm tra lại đã nhập đúng thông tin thẻ chưa.", "Kiểm tra địa chỉ trong tài khoản khớp đúng với địa chỉ ngân hàng đang lưu trên sao kê.", "Nếu vẫn lỗi, có thể do lỗi đối soát thanh toán, nên liên hệ PlayStation Support."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/e-8200002e/"}, "E-82000113": {"may": "PS4", "nhom": "thanh-toan", "nghia": "Hệ thống không xác thực được mã voucher vừa nhập.", "cach_sua": ["Thử lại sau một lúc.", "Kiểm tra lại đã gõ đúng mã chưa.", "Nếu vẫn không đổi được, liên hệ PlayStation Support."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/e-82000113/"}, "CE-32921-7": {"may": "PS4", "nhom": "dia", "nghia": "Máy PS4 không đọc được đĩa đang lắp vào.", "cach_sua": ["Lấy đĩa ra, kiểm tra sạch, không trầy xước.", "Kiểm tra định dạng đĩa có được PS4 hỗ trợ không (không hỗ trợ đĩa CD và một số định dạng Blu-ray/DVD đặc biệt).", "Nếu vẫn lỗi, khởi động máy ở Safe Mode rồi chọn mục dựng lại cơ sở dữ liệu hệ thống."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-32921-7/"}, "NW-31374-8": {"may": "PS4", "nhom": "mang", "nghia": "Kết nối mạng của máy PS4 bị quá thời gian chờ, có thể do router đang chặn cổng kết nối máy cần dùng.", "cach_sua": ["Kiểm tra tường lửa (firewall) trên router có đang chặn cổng UDP 3478 và 3479 không, mở nếu có chặn.", "Không rành chỉnh router thì hỏi hãng router hoặc nhà mạng đang dùng.", "Nếu vẫn lỗi, máy chủ có thể đang đông, thử lại sau."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/nw-31374-8/"}, "NP-31952-0": {"may": "PS4", "nhom": "mang", "nghia": "Kết nối mạng của máy PS4 tới dịch vụ PlayStation bị quá thời gian chờ, mạng không ổn định.", "cach_sua": ["Kiểm tra mạng bằng Test kết nối Internet ở Cài đặt > Mạng.", "Nếu dùng Wi-Fi, để máy gần router hơn, bỏ vật cản.", "Kiểm tra có thiết bị khác trong nhà đang chiếm nhiều băng thông không, đợi bớt rồi thử lại."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/np-31952-0/"}, "CE-35287-5": {"may": "PS4", "nhom": "mang", "nghia": "Máy PS4 không kết nối được tới máy chủ — máy chủ PlayStation hoặc máy chủ game đang tạm thời không phục vụ được.", "cach_sua": ["Thử lại sau một lúc.", "Trong lúc chờ, có thể xem trang trạng thái PlayStation Network hoặc trang chủ game để biết máy chủ có đang sự cố không."], "nguon_url": "https://www.playstation.com/en-us/support/error-codes/ps4/ce-35287-5/"}};
