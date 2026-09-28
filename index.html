@@ -59,12 +59,28 @@ nav .ic{width:21px;height:21px}
 nav a[aria-current="page"] .cs-huy-hieu{background:var(--do)}
 
 /* Công tắc chọn vùng (mục B, dùng chung trang chủ/Tìm giá/Chờ sale) */
-.vung-chon{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:14px 16px}
-.vung-nhan{font-size:13.5px;font-weight:700;color:var(--phu);margin-right:2px}
-.chip-vung{font:inherit;font-size:13.5px;font-weight:700;padding:7px 14px;border-radius:999px;
-  border:1px solid var(--vien);background:var(--nen);color:var(--phu);cursor:pointer}
-.chip-vung:hover,.chip-vung:focus-visible{border-color:var(--ngoc);color:var(--ngoc)}
-.chip-vung[aria-pressed="true"]{background:var(--ngoc);border-color:var(--ngoc);color:#fff}
+/* Dạng thanh trượt (Hào góp ý 28/09): 6 vùng chung 1 thanh, khối nền ngọc .vung-truot trượt tới
+   vùng đang chọn (JS_VUNG đặt vị trí). Chưa có JS thì nút đang chọn tự tô nền (lớp .co-truot tắt). */
+.vung-chon{display:flex;align-items:center;gap:12px;padding:10px 12px 10px 16px;min-width:0}
+.vung-nhan{font-size:13.5px;font-weight:700;color:var(--phu);white-space:nowrap}
+.vung-thanh{position:relative;display:flex;flex:1;min-width:0;background:var(--nen);border:1px solid var(--vien);
+  border-radius:999px;padding:4px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain;
+  contain:inline-size}
+.vung-thanh::-webkit-scrollbar{display:none}
+.vung-truot{position:absolute;z-index:0;top:4px;bottom:4px;left:0;width:0;border-radius:999px;background:var(--ngoc);
+  box-shadow:0 2px 6px rgba(11,127,124,.28);opacity:0;transition:transform .28s cubic-bezier(.3,.7,.2,1),width .28s cubic-bezier(.3,.7,.2,1)}
+.vung-thanh.co-truot .vung-truot{opacity:1}
+.vung-thanh.con-phai{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}
+.vung-thanh.con-trai{-webkit-mask-image:linear-gradient(90deg,transparent,#000 36px);mask-image:linear-gradient(90deg,transparent,#000 36px)}
+.vung-thanh.con-trai.con-phai{-webkit-mask-image:linear-gradient(90deg,transparent,#000 36px,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,transparent,#000 36px,#000 calc(100% - 36px),transparent)}
+.chip-vung{position:relative;z-index:1;flex:1 0 auto;font:inherit;font-size:14px;font-weight:700;padding:8px 14px;
+  border:0;border-radius:999px;background:transparent;color:var(--phu);cursor:pointer;white-space:nowrap;
+  transition:color .2s}
+.chip-vung:hover{filter:none;color:var(--ngoc)}
+.chip-vung:focus-visible{outline:2px solid var(--ngoc);outline-offset:-2px}
+.chip-vung[aria-pressed="true"]{color:#fff;background:var(--ngoc)}
+.vung-thanh.co-truot .chip-vung[aria-pressed="true"]{background:transparent}
+@media (prefers-reduced-motion:reduce){.vung-truot,.chip-vung{transition:none}}
 
 main{max-width:1040px;margin:0 auto;padding:28px 16px 40px;display:grid;gap:56px}
 section:not([hidden]){display:grid;gap:18px}
@@ -107,14 +123,16 @@ footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:2
   nav a{padding:9px 12px;font-size:14px}
   main{gap:44px;padding-top:22px}
   h2{font-size:20px}
-  .vung-chon{padding:12px 16px;gap:6px}
+  .vung-chon{flex-wrap:wrap;padding:12px;gap:8px}
+  .vung-nhan{padding-left:4px}
+  .vung-thanh{flex:1 1 100%}
+  .chip-vung{font-size:13.5px;padding:8px 12px}
 }
 
 
 .mo-dau h1{margin:0;font-size:clamp(26px,4.6vw,40px);line-height:1.15;font-weight:800;letter-spacing:-.01em}
 .mo-dau p{margin:8px 0 0;color:var(--phu)}
 .mo-dau{display:grid;gap:20px}
-.mo-dau .vung-chon{padding:0}
 p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:1px;color:var(--phu)}
 .tin-nong{display:flex;align-items:center;gap:14px;background:var(--the);border:1px solid var(--vien);border-radius:16px;padding:16px 18px;text-decoration:none;max-width:640px}
 .tin-nong .ic.to{color:var(--ngoc)}
@@ -810,7 +828,7 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
   <section class="mo-dau">
     <div><h1>Giá game PlayStation, đổi sẵn ra tiền Việt</h1>
     <p>Mỗi sáng tự cập nhật từ PlayStation Store 6 vùng.</p></div>
-    <div class="vung-chon the" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Xem giá vùng</span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div>
+    <div class="vung-chon the" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Xem giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div>
     <div class="hero-the"><a class="tin-nong" href="#plus"><svg class="ic to" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div><b>PS Plus 12 tháng đang giảm tới 25%</b><span>Ở Singapore, Hồng Kông, Indonesia, Thái Lan · còn 2 ngày (hết 30/09)</span></div><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
       <a class="tin-nong" href="#lua-dao"><svg class="ic to" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><div><b>Chống lừa đảo khi mua bán game</b><span>4 chiêu hay gặp, 5 điều kiểm trước khi chuyển tiền</span></div><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
       <div class="vao-roi-tom-tat" data-vung-empty-hide hidden><div data-vung-panel="SG" hidden data-rong></div><div data-vung-panel="HK" hidden data-rong></div><div data-vung-panel="IN" hidden data-rong></div><div data-vung-panel="ID" hidden data-rong></div><div data-vung-panel="TH" hidden data-rong></div><div data-vung-panel="US" data-rong></div></div>
@@ -950,7 +968,36 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
       var chon = nut[i].getAttribute("data-vung") === vung;
       nut[i].setAttribute("aria-pressed", chon ? "true" : "false");
     }
+    datTruot();
   }
+  // Thanh trượt: đặt khối nền .vung-truot đúng dưới nút đang chọn (vị trí tính theo nút, nên
+  // đúng cả khi chữ/cỡ chữ đổi), và cuộn nút đó vào tầm nhìn khi thanh hẹp hơn 6 nút (điện thoại).
+  function datTruot(){
+    var thanh = document.querySelectorAll(".vung-thanh");
+    for (var i = 0; i < thanh.length; i++) {
+      var t = thanh[i], truot = t.querySelector(".vung-truot");
+      var dang = t.querySelector('.chip-vung[aria-pressed="true"]');
+      if (!truot || !dang || !dang.offsetWidth) continue;
+      var lanDau = !t.classList.contains("co-truot");
+      if (lanDau) truot.style.transition = "none";  // lần đầu đặt thẳng chỗ, không trượt từ mép trái
+      truot.style.width = dang.offsetWidth + "px";
+      truot.style.transform = "translateX(" + dang.offsetLeft + "px)";
+      t.classList.add("co-truot");
+      if (lanDau) { void truot.offsetWidth; truot.style.transition = ""; }
+      var trai = dang.offsetLeft - 8, phai = dang.offsetLeft + dang.offsetWidth + 8 - t.clientWidth;
+      if (t.scrollLeft > trai) t.scrollLeft = trai;
+      else if (t.scrollLeft < phai) t.scrollLeft = phai;
+      danhDauCuon(t);
+    }
+  }
+  // Mờ dần mép còn nút khuất (giống menu có mũi tên) để người dùng biết vuốt ngang được.
+  function danhDauCuon(t){
+    t.classList.toggle("con-trai", t.scrollLeft > 2);
+    t.classList.toggle("con-phai", t.scrollLeft + t.clientWidth < t.scrollWidth - 2);
+    if (!t.__cuon) { t.__cuon = true; t.addEventListener("scroll", function(){ danhDauCuon(t); }, { passive: true }); }
+  }
+  window.addEventListener("resize", datTruot);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(datTruot);
   function ve(){ var v = docVung(); apPanel(v); apNut(v); }
   function chonVung(vung){
     try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua */ }
