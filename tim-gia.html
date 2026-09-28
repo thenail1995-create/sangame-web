@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="vi" data-theme="light">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F2F4F7">
 <title>Tìm giá game · Săn Game</title>
 <meta name="description" content="Tìm giá một game PlayStation theo tên, so giá 6 vùng PS Store, quy đổi tiền Việt.">
 
@@ -18,118 +19,168 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap">
 <style>
 
-:root{color-scheme:light;--nen:#F7F5F0;--the:#FFFFFF;--vien:#E6E1D8;--chu:#1E2126;--phu:#5E6369;
-  --ngoc:#0B7F7C;--ngoc-nhat:#E3F5F4;--ngoc-logo:#20C3C0;--do:#C92324;--xam-thanh:#DDD8CF}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--nen:#16181B;--the:#202327;--vien:#33373C;
-  --chu:#EDEDED;--phu:#A5A9AE;--ngoc:#3CCFCB;--ngoc-nhat:#173A3A;--xam-thanh:#3A3E44}}
-:root[data-theme="dark"]{color-scheme:dark;--nen:#16181B;--the:#202327;--vien:#33373C;--chu:#EDEDED;--phu:#A5A9AE;
-  --ngoc:#3CCFCB;--ngoc-nhat:#173A3A;--xam-thanh:#3A3E44}
+:root{color-scheme:light;--nen:#F2F4F7;--the:#FFFFFF;--vien:#E3E7ED;--vien-dam:#CFD6DF;--chu:#141A22;--phu:#5B6574;
+  --ngoc:#0A7B79;--ngoc-dam:#07615F;--ngoc-nhat:#E2F3F2;--ngoc-logo:#20C3C0;--do:#D0293A;--do-nhat:#FDECEE;
+  --xam-thanh:#E7EBF0;--ps:#0B3E8C;--bong:0 1px 2px rgba(16,24,40,.05);--bong-noi:0 8px 24px rgba(16,24,40,.08);
+  --r:14px;--r-nho:10px;--ben:252px}
 *{box-sizing:border-box}
-body{margin:0;background:var(--nen);color:var(--chu);font:16px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--nen);color:var(--chu);font:15.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased}
 a{color:inherit}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ngoc);outline-offset:2px}
 .ic{width:20px;height:20px;flex:none}
 .ic.to{width:28px;height:28px}
+.ic.nho{width:15px;height:15px}
 
-.dau{background:var(--the);position:sticky;top:0;z-index:5}
-.dau .in{max-width:1040px;margin:0 auto;padding:10px 16px;display:flex;align-items:center}
-.dau .in>a{display:block;line-height:0}
-.logo{height:64px;width:auto;display:block}
+/* ── Khung: thanh bên + cột chính ── */
+.khung{display:grid;grid-template-columns:var(--ben) minmax(0,1fr);min-height:100vh}
+.thanh-ben{position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--the);border-right:1px solid var(--vien);
+  display:flex;flex-direction:column;padding:18px 14px 16px;scrollbar-width:thin}
+.thuong-hieu{display:flex;justify-content:center;padding:4px 0 14px;margin:0 4px 10px;border-bottom:1px solid var(--vien)}
+.thuong-hieu .logo{height:78px;width:auto;display:block}
+.thanh-ben nav{display:grid;gap:2px}
+.nhom-nhan{margin:16px 10px 6px;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--phu)}
+.thanh-ben nav a{display:flex;align-items:center;gap:11px;padding:8px 10px;border-radius:var(--r-nho);text-decoration:none;
+  font-weight:600;font-size:14.5px;color:var(--chu);position:relative;transition:background .15s}
+.thanh-ben nav a:hover{background:var(--nen)}
+.thanh-ben nav a[aria-current="page"]{background:var(--ngoc-nhat);color:var(--ngoc-dam)}
+.thanh-ben nav a[aria-current="page"]::before{content:"";position:absolute;left:-14px;top:8px;bottom:8px;width:3px;border-radius:0 3px 3px 0;background:var(--ngoc)}
+.bt3d.nav{width:30px;height:30px;border-radius:8px;flex:none;box-shadow:0 1px 3px rgba(0,20,60,.3)}
+.o-nha{width:30px;height:30px;border-radius:8px;flex:none;display:grid;place-items:center;color:#fff;
+  background:linear-gradient(150deg,#1757B8,var(--ps) 60%,#00245E);box-shadow:0 1px 3px rgba(0,20,60,.3)}
+.o-nha .ic{width:17px;height:17px}
+.cs-huy-hieu{margin-left:auto;background:var(--do);color:#fff;font-size:11px;font-weight:800;line-height:1.6;
+  border-radius:999px;padding:0 7px;min-width:20px;text-align:center}
+.ben-chan{margin-top:auto;padding:14px 10px 0;font-size:12px;line-height:1.5;color:var(--phu)}
+.dong-ben{display:none}
 
-/* Menu nổi bật cả hàng (Hào chốt 28/09): dải riêng dưới logo, nền ngọc đậm, chữ trắng to hơn —
-   khác hẳn nav mảnh/nhạt trước đây. Mục đang xem nổi bật bằng NỀN TRẮNG (đảo màu), không chỉ
-   đổi màu chữ, để thấy rõ ngay cả khi cuộn ngang trên điện thoại. */
-.nav-day{background:var(--ngoc);position:relative}
-nav{display:flex;gap:4px;max-width:1040px;margin:0 auto;padding:6px 12px;
-  overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-nav::-webkit-scrollbar{display:none}
-/* Menu dài hơn màn hình (điện thoại, cửa sổ hẹp): mép còn mục bị khuất hiện dải mờ + mũi tên để
-   biết vuốt được — trước đây 6/9 mục (cả "Chờ sale") khuất mà không có dấu hiệu gì (kiểm 28/09). */
-.nav-day::before,.nav-day::after{position:absolute;top:0;bottom:0;width:46px;display:flex;align-items:center;
-  color:#fff;font-size:26px;font-weight:800;pointer-events:none;opacity:0;transition:opacity .2s;z-index:1}
-.nav-day::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(11,127,124,0),var(--ngoc) 62%)}
-.nav-day::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(11,127,124,0),var(--ngoc) 62%)}
-.nav-day.con-trai::before,.nav-day.con-phai::after{opacity:1}
-nav a{display:flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;text-decoration:none;
-  color:#fff;font-weight:700;font-size:15px;white-space:nowrap;flex:none}
-nav a:hover,nav a:focus-visible{background:rgba(255,255,255,.18)}
-nav a[aria-current="page"]{background:#fff;color:var(--ngoc)}
-nav .ic{width:21px;height:21px}
-nav .bt3d.nav{width:26px;height:26px;border-radius:7px;flex:none;box-shadow:0 1px 3px rgba(0,20,60,.35)}
-h2 .bt3d.h2{width:44px;height:44px;flex:none;margin:-6px 2px -6px 0;border-radius:11px;filter:drop-shadow(0 4px 6px rgba(0,40,120,.22))}
-.cs-huy-hieu{background:var(--do);color:#fff;font-size:10.5px;font-weight:800;line-height:1.5;
-  border-radius:999px;padding:0 6px;margin-left:-2px}
-nav a[aria-current="page"] .cs-huy-hieu{background:var(--do)}
+.cot-chinh{min-width:0;display:flex;flex-direction:column}
+.thanh-tren{position:sticky;top:0;z-index:20;background:rgba(242,244,247,.86);backdrop-filter:saturate(1.4) blur(10px);
+  -webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--vien)}
+.thanh-tren .in{max-width:1180px;margin:0 auto;padding:10px 28px;display:flex;align-items:center;gap:14px;min-height:60px}
+.logo-nho{display:none}
+.tim-nhanh{flex:1;max-width:460px;display:flex;align-items:center;gap:8px;background:var(--the);border:1px solid var(--vien);
+  border-radius:999px;padding:0 6px 0 14px;height:40px;transition:border-color .15s,box-shadow .15s}
+.tim-nhanh:focus-within{border-color:var(--ngoc);box-shadow:0 0 0 3px var(--ngoc-nhat)}
+.tim-nhanh .ic{color:var(--phu);width:18px;height:18px}
+.tim-nhanh input{flex:1;min-width:0;border:0;background:transparent;font:inherit;font-size:14.5px;color:var(--chu);height:100%;outline:none}
+.tim-nhanh button{font:inherit;font-size:13px;font-weight:700;border:0;border-radius:999px;background:var(--ngoc);color:#fff;
+  padding:6px 14px;cursor:pointer}
+.tren-phai{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--phu);white-space:nowrap}
+.cham-song{width:8px;height:8px;border-radius:50%;background:#1BA672;box-shadow:0 0 0 3px rgba(27,166,114,.16)}
 
-/* Công tắc chọn vùng (mục B, dùng chung trang chủ/Tìm giá/Chờ sale) */
-/* Dạng thanh trượt (Hào góp ý 28/09): 6 vùng chung 1 thanh, khối nền ngọc .vung-truot trượt tới
-   vùng đang chọn (JS_VUNG đặt vị trí). Chưa có JS thì nút đang chọn tự tô nền (lớp .co-truot tắt). */
-.vung-chon{display:flex;align-items:center;gap:12px;padding:10px 12px 10px 16px;min-width:0}
-.vung-nhan{font-size:13.5px;font-weight:700;color:var(--phu);white-space:nowrap}
-.vung-thanh{position:relative;display:flex;flex:1;min-width:0;background:var(--nen);border:1px solid var(--vien);
-  border-radius:999px;padding:4px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain;
-  contain:inline-size}
+main{width:100%;max-width:1180px;margin:0 auto;padding:28px 28px 48px;display:grid;gap:28px;align-content:start}
+section:not([hidden]){display:grid;gap:14px}
+
+/* ── Đầu mỗi trang: biểu tượng PS5 + tiêu đề + mô tả, bên phải là công tắc vùng (nếu trang có giá) ── */
+.dau-muc{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.dau-muc .bt3d.dm{width:56px;height:56px;border-radius:14px;flex:none;box-shadow:0 6px 16px rgba(0,40,120,.18)}
+.dau-muc-chu{flex:1 1 320px;min-width:0}
+.dau-muc h1{margin:0;font-size:26px;line-height:1.25;font-weight:800;letter-spacing:-.015em}
+.dau-muc p{margin:4px 0 0;color:var(--phu);font-size:14.5px;max-width:720px}
+.dau-muc .vung-chon{flex:0 1 560px;min-width:300px}
+
+h2{margin:0;display:flex;align-items:center;gap:10px;font-size:18px;line-height:1.35;font-weight:700;letter-spacing:-.005em}
+h2 .ic{width:20px;height:20px;color:var(--ngoc)}
+h2 .bt3d.h2{display:none}
+.phu{color:var(--phu);font-size:14px;margin:0}
+.dau-khoi{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.dau-khoi > div{display:grid;gap:2px;min-width:0}
+.dau-khoi .xem-het{flex:none;margin-top:3px}
+.xem-het{display:inline-flex;align-items:center;gap:4px;font-size:13.5px;font-weight:700;color:var(--ngoc);text-decoration:none;white-space:nowrap}
+.xem-het:hover{text-decoration:underline}
+.xem-het .ic{width:16px;height:16px}
+
+.the{background:var(--the);border:1px solid var(--vien);border-radius:var(--r);padding:18px 20px;box-shadow:var(--bong)}
+.giam{display:inline-block;background:var(--do);color:#fff;font-weight:700;font-size:12.5px;line-height:1;padding:4px 6px;border-radius:6px;font-variant-numeric:tabular-nums}
+details{background:var(--the);border:1px solid var(--vien);border-radius:var(--r)}
+summary{cursor:pointer;padding:13px 18px;font-weight:600;color:var(--ngoc-dam)}
+details .cuon{overflow-x:auto;padding:0 8px 8px}
+table{border-collapse:collapse;width:100%;min-width:480px;font-variant-numeric:tabular-nums}
+th,td{padding:10px 12px;text-align:right;border-top:1px solid var(--vien);white-space:nowrap}
+thead th{border-top:none;color:var(--phu);font-size:12.5px;font-weight:600}
+tbody th{text-align:left;font-weight:600}
+
+button{font:inherit;font-weight:700;font-size:15px;padding:11px 20px;border:0;border-radius:var(--r-nho);background:var(--ngoc);color:#fff;cursor:pointer}
+button:hover{filter:brightness(.93)}
+
+.nut-cho-sale{font:inherit;font-weight:600;font-size:12.5px;padding:6px 11px;border-radius:999px;
+  border:1px solid var(--vien);background:var(--the);color:var(--phu);cursor:pointer;white-space:nowrap}
+.nut-cho-sale:hover,.nut-cho-sale:focus-visible{border-color:var(--ngoc);color:var(--ngoc);background:var(--the)}
+.nut-cho-sale.dang-cho{background:var(--ngoc-nhat);border-color:var(--ngoc);color:var(--ngoc-dam)}
+
+.cs-banner{background:var(--ngoc-dam);color:#fff;display:flex;align-items:center;justify-content:center;
+  gap:14px;padding:9px 16px;font-weight:600;font-size:14px;text-align:center;flex-wrap:wrap}
+.cs-banner a{color:#fff;text-decoration:underline}
+.cs-banner button{background:transparent;border:0;color:#fff;font-size:15px;line-height:1;padding:3px 7px;margin:0;border-radius:6px;font-weight:700}
+.cs-banner button:hover{background:rgba(255,255,255,.2);filter:none}
+
+/* Công tắc chọn vùng — dạng thanh trượt (Hào chốt 28/09): 6 vùng chung 1 thanh, khối ngọc
+   .vung-truot trượt tới vùng đang chọn (JS_VUNG đặt vị trí). Chưa có JS thì nút đang chọn tự tô nền. */
+.vung-chon{display:flex;align-items:center;gap:10px;min-width:0}
+.vung-nhan{font-size:12.5px;font-weight:700;color:var(--phu);white-space:nowrap}
+.vung-thanh{position:relative;display:flex;flex:1;min-width:0;background:var(--the);border:1px solid var(--vien);
+  border-radius:999px;padding:3px;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain;contain:inline-size;box-shadow:var(--bong)}
 .vung-thanh::-webkit-scrollbar{display:none}
-.vung-truot{position:absolute;z-index:0;top:4px;bottom:4px;left:0;width:0;border-radius:999px;background:var(--ngoc);
-  box-shadow:0 2px 6px rgba(11,127,124,.28);opacity:0;transition:transform .28s cubic-bezier(.3,.7,.2,1),width .28s cubic-bezier(.3,.7,.2,1)}
+.vung-truot{position:absolute;z-index:0;top:3px;bottom:3px;left:0;width:0;border-radius:999px;background:var(--ngoc);
+  opacity:0;transition:transform .28s cubic-bezier(.3,.7,.2,1),width .28s cubic-bezier(.3,.7,.2,1)}
 .vung-thanh.co-truot .vung-truot{opacity:1}
-.vung-thanh.con-phai{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}
-.vung-thanh.con-trai{-webkit-mask-image:linear-gradient(90deg,transparent,#000 36px);mask-image:linear-gradient(90deg,transparent,#000 36px)}
-.vung-thanh.con-trai.con-phai{-webkit-mask-image:linear-gradient(90deg,transparent,#000 36px,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,transparent,#000 36px,#000 calc(100% - 36px),transparent)}
-.chip-vung{position:relative;z-index:1;flex:1 0 auto;font:inherit;font-size:14px;font-weight:700;padding:8px 14px;
-  border:0;border-radius:999px;background:transparent;color:var(--phu);cursor:pointer;white-space:nowrap;
-  transition:color .2s}
+.vung-thanh.con-phai{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 32px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 32px),transparent)}
+.vung-thanh.con-trai{-webkit-mask-image:linear-gradient(90deg,transparent,#000 32px);mask-image:linear-gradient(90deg,transparent,#000 32px)}
+.vung-thanh.con-trai.con-phai{-webkit-mask-image:linear-gradient(90deg,transparent,#000 32px,#000 calc(100% - 32px),transparent);mask-image:linear-gradient(90deg,transparent,#000 32px,#000 calc(100% - 32px),transparent)}
+.chip-vung{position:relative;z-index:1;flex:1 0 auto;font:inherit;font-size:13px;font-weight:600;padding:6px 12px;
+  border:0;border-radius:999px;background:transparent;color:var(--phu);cursor:pointer;white-space:nowrap;transition:color .2s}
 .chip-vung:hover{filter:none;color:var(--ngoc)}
 .chip-vung:focus-visible{outline:2px solid var(--ngoc);outline-offset:-2px}
 .chip-vung[aria-pressed="true"]{color:#fff;background:var(--ngoc)}
 .vung-thanh.co-truot .chip-vung[aria-pressed="true"]{background:transparent}
-@media (prefers-reduced-motion:reduce){.vung-truot,.chip-vung{transition:none}}
 
-main{max-width:1040px;margin:0 auto;padding:28px 16px 40px;display:grid;gap:56px}
-section:not([hidden]){display:grid;gap:18px}
-h2{margin:0;display:flex;align-items:flex-start;gap:10px;font-size:22px;line-height:1.3;font-weight:800}
-h2 .ic{width:24px;height:24px;margin-top:2px;color:var(--ngoc)}
-.phu{color:var(--phu);font-size:14px;margin:0}
+footer{width:100%;max-width:1180px;margin:0 auto;border-top:1px solid var(--vien);padding:18px 28px 40px;color:var(--phu);font-size:12.5px;display:grid;gap:4px}
 
-.the{background:var(--the);border:1px solid var(--vien);border-radius:16px;padding:18px 20px}
-.giam{display:inline-block;background:var(--do);color:#fff;font-weight:700;font-size:13px;line-height:1;padding:4px 6px;border-radius:6px;font-variant-numeric:tabular-nums}
-details{background:var(--the);border:1px solid var(--vien);border-radius:14px}
-summary{cursor:pointer;padding:12px 18px;font-weight:600;color:var(--ngoc)}
-details .cuon{overflow-x:auto;padding:0 8px 8px}
-table{border-collapse:collapse;width:100%;min-width:480px;font-variant-numeric:tabular-nums}
-th,td{padding:10px;text-align:right;border-top:1px solid var(--vien);white-space:nowrap}
-thead th{border-top:none;color:var(--phu);font-size:13px;font-weight:600}
-tbody th{text-align:left;font-weight:600}
+/* ── Thanh tab dưới đáy + ngăn kéo menu (điện thoại) ── */
+.tab-duoi{display:none}
+.nen-mo{display:none}
 
-button{font:inherit;font-weight:700;font-size:16px;padding:12px 22px;border:0;border-radius:12px;background:var(--ngoc);color:#fff;cursor:pointer}
-button:hover{filter:brightness(1.08)}
-
-.nut-cho-sale{font:inherit;font-weight:700;font-size:13px;padding:7px 12px;border-radius:10px;
-  border:1px solid var(--vien);background:var(--nen);color:var(--phu);cursor:pointer;white-space:nowrap}
-.nut-cho-sale:hover,.nut-cho-sale:focus-visible{border-color:var(--ngoc);color:var(--ngoc)}
-.nut-cho-sale.dang-cho{background:var(--ngoc-nhat);border-color:var(--ngoc);color:var(--ngoc)}
-
-.cs-banner{background:var(--ngoc);color:#fff;display:flex;align-items:center;justify-content:center;
-  gap:14px;padding:10px 16px;font-weight:600;font-size:14px;text-align:center;flex-wrap:wrap}
-.cs-banner a{color:#fff;text-decoration:underline}
-.cs-banner button{background:transparent;border:0;color:#fff;font-size:16px;line-height:1;padding:3px 7px;
-  margin:0;border-radius:6px;font-weight:700}
-.cs-banner button:hover{background:rgba(255,255,255,.22);filter:none}
-@media (max-width:760px){.cs-banner{font-size:13px;padding:8px 12px;gap:8px}}
-
-footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:20px 16px 48px;color:var(--phu);font-size:13.5px;display:grid;gap:6px}
-
-@media (max-width:760px){
-  .dau .in{padding:8px 16px}
-  .logo{height:48px}
-  nav{padding:5px 10px;gap:2px}
-  nav a{padding:9px 12px;font-size:14px}
-  main{gap:44px;padding-top:22px}
-  h2{font-size:20px}
-  .vung-chon{flex-wrap:wrap;padding:12px;gap:8px}
-  .vung-nhan{padding-left:4px}
-  .vung-thanh{flex:1 1 100%}
-  .chip-vung{font-size:13.5px;padding:8px 12px}
+@media (max-width:980px){
+  .khung{display:block}
+  .thanh-ben{position:fixed;z-index:60;left:0;top:0;bottom:0;width:min(300px,86vw);height:auto;transform:translateX(-102%);
+    transition:transform .22s ease;box-shadow:var(--bong-noi)}
+  .mo-ben .thanh-ben{transform:none}
+  .mo-ben .nen-mo{display:block;position:fixed;inset:0;z-index:55;background:rgba(16,24,40,.38)}
+  .dong-ben{display:block;position:absolute;right:10px;top:10px;background:var(--nen);color:var(--chu);border-radius:999px;
+    width:34px;height:34px;padding:0;font-size:16px;line-height:34px;text-align:center}
+  .dong-ben:hover{background:var(--vien)}
+  .thanh-tren .in{padding:8px 16px;gap:10px;min-height:56px}
+  .logo-nho{display:block;line-height:0;flex:none}
+  .logo-nho img{height:40px;width:auto}
+  .tim-nhanh{max-width:none;height:38px}
+  .tim-nhanh button{display:none}
+  .tren-phai{display:none}
+  main{padding:18px 16px 96px;gap:24px}
+  footer{padding:16px 16px 96px}
+  .tab-duoi{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;z-index:50;left:0;right:0;bottom:0;
+    background:rgba(255,255,255,.96);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--vien);
+    padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
+  .tab-duoi a,.tab-duoi button{display:grid;justify-items:center;gap:3px;padding:4px 2px;border-radius:10px;text-decoration:none;
+    font:inherit;font-size:11px;font-weight:600;color:var(--phu);background:transparent;border:0;cursor:pointer}
+  .tab-duoi .bt3d,.tab-duoi .o-nha,.tab-duoi .o-menu{width:28px;height:28px;border-radius:8px}
+  .tab-duoi .o-menu{display:grid;place-items:center;background:var(--nen);color:var(--chu);border:1px solid var(--vien)}
+  .tab-duoi [aria-current="page"]{color:var(--ngoc-dam)}
+  .tab-duoi [aria-current="page"] .bt3d,.tab-duoi [aria-current="page"] .o-nha{outline:2px solid var(--ngoc);outline-offset:2px}
+  .dau-muc{gap:12px}
+  .dau-muc .bt3d.dm{width:46px;height:46px;border-radius:12px}
+  .dau-muc h1{font-size:22px}
+  .dau-muc-chu{flex:1 1 200px}
+  .dau-muc p{font-size:14px}
+  .dau-muc .vung-chon{flex:1 1 100%;min-width:0}
+  .cs-banner{flex-wrap:nowrap;justify-content:space-between;text-align:left;font-size:12.5px;line-height:1.4;padding:8px 10px 8px 16px}
 }
+@media (max-width:560px){
+  .vung-nhan{display:none}
+  .chip-vung{padding:6px 11px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
 
 /* Ô tìm — trước 28/09 chỉ có trong khuôn độc lập bên dưới, trang ghép qua khung_trang thiếu nên
@@ -161,15 +212,24 @@ footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:2
 .the-game .nut-cho-sale{margin-top:2px;justify-self:start}
 
 </style>
-<header class="dau">
-  <div class="in"><a href="index.html" aria-label="Săn Game — về trang chủ"><img class="logo" src="logo.webp" alt="Săn Game" width="238" height="208"></a></div>
-  <div class="nav-day"><nav aria-label="Mục"><a href="kho-plus.html"><img class="bt3d nav" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160">Kho PS Plus</a><a href="ps-plus.html"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="mien-phi.html"><img class="bt3d nav" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160">Miễn phí</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="chong-lua-dao.html"><img class="bt3d nav" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160">Chống lừa đảo</a><a href="tim-gia.html" aria-current="page"><img class="bt3d nav" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá</a><a href="ma-loi.html"><img class="bt3d nav" src="bieu-tuong/ma-loi.webp" alt="" width="160" height="160">Mã lỗi</a><a href="cho-sale.html"><img class="bt3d nav" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160">Chờ sale</a></nav></div>
-</header>
+<body>
+<div class="khung">
+<aside class="thanh-ben" id="thanh-ben" aria-label="Menu Săn Game">
+  <button type="button" class="dong-ben" aria-label="Đóng menu">✕</button>
+  <a class="thuong-hieu" href="index.html" aria-label="Săn Game — về trang chủ"><img class="logo" src="logo.webp" alt="Săn Game" width="238" height="208"></a>
+  <nav aria-label="Mục"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Tổng quan</a><div class="nhom-nhan">Giá và ưu đãi</div><a href="kho-plus.html"><img class="bt3d nav" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160">Kho PS Plus</a><a href="ps-plus.html"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="mien-phi.html"><img class="bt3d nav" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160">Miễn phí</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="tim-gia.html" aria-current="page"><img class="bt3d nav" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá</a><a href="cho-sale.html"><img class="bt3d nav" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160">Chờ sale</a><div class="nhom-nhan">Hỗ trợ</div><a href="chong-lua-dao.html"><img class="bt3d nav" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160">Chống lừa đảo</a><a href="ma-loi.html"><img class="bt3d nav" src="bieu-tuong/ma-loi.webp" alt="" width="160" height="160">Mã lỗi</a></nav>
+  <div class="ben-chan">Giá PS Store 6 vùng, đổi ra tiền Việt theo giá thẻ PSN. Tự cập nhật mỗi ngày.</div>
+</aside>
+<div class="nen-mo" aria-hidden="true"></div>
+<div class="cot-chinh">
+<div class="thanh-tren"><div class="in">
+  <a class="logo-nho" href="index.html" aria-label="Săn Game — về trang chủ"><img src="logo.webp" alt="Săn Game" width="238" height="208"></a>
+  
+  <div class="tren-phai"><span class="cham-song" aria-hidden="true"></span>Tự cập nhật mỗi ngày</div>
+</div></div>
 <main>
 <section id="tim-gia">
-  <div><h2><img class="bt3d h2" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá theo tên game</h2>
-  <p class="phu">Gõ tên game (không cần dấu, có thể viết tắt) — so giá 6 vùng PS Store, quy đổi tiền Việt.</p></div>
-  <div class="vung-chon the" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Xem giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div>
+  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Tìm giá theo tên game</h1><p>Gõ tên game (không cần dấu, có thể viết tắt) — so giá 6 vùng PS Store, quy đổi tiền Việt.</p></div><div class="vung-chon" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div></div>
   <div class="the tim-gia-o">
     <div class="o-tra">
       <input id="tim-gia-tu" type="search" autocomplete="off" inputmode="search"
@@ -185,6 +245,9 @@ footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:2
   <div>Săn Game là trang cá nhân tự tra giá game console. Không liên kết với Sony, Microsoft hay hãng game nào; tên game và nhãn hiệu thuộc chủ sở hữu.</div>
   <div>Liên hệ, yêu cầu gỡ nội dung: <a id="lh-email" href="#" data-u="cn8281287" data-d="gmail.com">(bấm để hiện email — cần JS)</a><noscript> cn8281287 [a] gmail.com</noscript></div>
 </footer>
+</div>
+</div>
+<nav class="tab-duoi" aria-label="Mục chính"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Tổng quan</a><a href="kho-plus.html"><img class="bt3d tab" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160">Kho Plus</a><a href="giam-gia.html"><img class="bt3d tab" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="tim-gia.html" aria-current="page"><img class="bt3d tab" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá</a><button type="button" id="nut-menu" aria-controls="thanh-ben" aria-expanded="false"><span class="o-menu"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span>Menu</button></nav>
 <script src="cho-sale.js"></script>
 <script>(function(){var a=document.getElementById("lh-email");if(!a)return;var em=a.getAttribute("data-u")+"@"+a.getAttribute("data-d");a.href="mailto:"+em;a.textContent=em;})();</script>
 <script>
@@ -256,11 +319,11 @@ footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:2
   ve();
 })();
 </script>
-<script>(function(){var n=document.querySelector('.nav-day nav');if(!n)return;var w=n.parentNode;
-function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
-function giua(){var a=n.querySelector('[aria-current="page"]');if(a&&a.offsetLeft+a.offsetWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-(n.clientWidth-a.offsetWidth)/2;u();}
-n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();
-if(document.fonts&&document.fonts.ready)document.fonts.ready.then(giua);addEventListener('load',giua);})();</script>
+<script>(function(){var h=document.documentElement;function dat(mo){h.classList.toggle('mo-ben',mo);
+var b=document.getElementById('nut-menu');if(b)b.setAttribute('aria-expanded',mo?'true':'false');}
+document.addEventListener('click',function(ev){if(ev.target.closest('#nut-menu')){ev.preventDefault();dat(!h.classList.contains('mo-ben'));}
+else if(ev.target.closest('.nen-mo')||ev.target.closest('.dong-ben'))dat(false);});
+document.addEventListener('keydown',function(ev){if(ev.key==='Escape')dat(false);});})();</script>
 <script>
 (function(){
   var DATA_URL = "du-lieu/tim-gia.json";
@@ -403,4 +466,5 @@ if(document.fonts&&document.fonts.ready)document.fonts.ready.then(giua);addEvent
   taiDuLieu();
 })();
 </script>
+</body>
 </html>
