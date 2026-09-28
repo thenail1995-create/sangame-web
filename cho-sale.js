@@ -18,6 +18,16 @@
       .toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
   }
 
+  // Tên kênh ntfy của 1 game — PHẢI giống tuyệt đối trang_cho_sale.kenh_ntfy() bên Python
+  // (FNV-1a 32 bit trên byte UTF-8, 2 lần: khoa và "sg|"+khoa). khoa đã qua boDau() nên chỉ còn
+  // [a-z0-9 ] -> mỗi ký tự là đúng 1 byte, charCodeAt dùng thẳng được.
+  function fnv1a32(s){
+    var h = 0x811c9dc5;
+    for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i) & 0xff; h = Math.imul(h, 0x01000193) >>> 0; }
+    return ("0000000" + h.toString(16)).slice(-8);
+  }
+  function kenhNtfy(khoa){ return "sangame-" + fnv1a32(khoa) + fnv1a32("sg|" + khoa); }
+
   function docDs(){
     try {
       var raw = localStorage.getItem(KHOA_LS);
@@ -216,7 +226,7 @@
 
   window.SGCS = {
     boDau: boDau, docDs: docDs, themGame: themGame, boGame: boGame, dangCho: dangCho,
-    datNguong: datNguong, quetNut: quetNut, capNhatHuyHieu: capNhatHuyHieu,
+    datNguong: datNguong, quetNut: quetNut, capNhatHuyHieu: capNhatHuyHieu, kenhNtfy: kenhNtfy,
   };
 
   quetNut(document);

@@ -138,6 +138,13 @@ footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:2
   border-radius:8px;background:var(--nen);color:var(--chu)}
 .cs-nguong-dat{font-weight:700;color:var(--ngoc);font-size:12.5px}
 .cs-thong-bao-tan-noi{font-size:13.5px}
+.cs-the .cs-bao{font-size:13px;background:transparent;border:0;border-top:1px dashed var(--vien);border-radius:0;padding:8px 0 0;overflow-wrap:anywhere}
+.cs-bao summary{cursor:pointer;font-weight:600;color:var(--ngoc);padding:0;list-style-position:inside}
+.cs-bao-buoc{margin:8px 0 6px;padding-left:20px;display:grid;gap:6px;line-height:1.5}
+.cs-bao-nut{font-weight:700}
+.cs-bao-kenh{font-size:12px;background:var(--nen);border:1px solid var(--vien);border-radius:6px;padding:1px 5px;word-break:break-all}
+.cs-bao-chep{font:inherit;font-size:12px;font-weight:600;padding:2px 8px;border-radius:6px;border:1px solid var(--vien);background:var(--the);color:var(--chu);cursor:pointer}
+.cs-bao-ghi-chu{margin:0;color:var(--phu);font-size:12px}
 @media (max-width:760px){.ds-cho-sale{grid-template-columns:1fr}}
 
 </style>
@@ -722,9 +729,10 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
 
   <details class="the">
     <summary>Muốn nhận thông báo tận nơi (không cần mở web mỗi ngày)?</summary>
-    <p class="phu cs-thong-bao-tan-noi" style="padding:0 18px 16px;margin:0">Săn Game đang chuẩn bị
-      cách báo tận nơi (kiểu như qua ntfy/Telegram) cho mục Chờ sale — <b>chưa thu thông tin gì
-      của bạn</b>. Hiện tại "☆ Chờ sale" và ngưỡng giá bên trên chỉ lưu trên máy bạn.</p>
+    <p class="phu cs-thong-bao-tan-noi" style="padding:0 18px 16px;margin:0">Mỗi game trong danh sách có mục
+      <b>🔔 Báo về điện thoại</b>: cài app miễn phí <b>ntfy</b> rồi theo dõi kênh của game đó — mỗi sáng
+      game bắt đầu giảm (hoặc giảm sâu hơn) là điện thoại báo ngay. Không cần đăng ký, không cần email:
+      <b>Săn Game không thu thông tin gì của bạn</b> và không biết bạn theo dõi game nào.</p>
   </details>
 </section>
 </main>
@@ -840,8 +848,28 @@ if(document.fonts&&document.fonts.ready)document.fonts.ready.then(giua);addEvent
       (item.nguong != null ? item.nguong : "") + '" placeholder="vd 500000"> đ</label>' +
       (datRoi ? '<span class="cs-nguong-dat">🔔 Đã xuống dưới ngưỡng bạn đặt!</span>' : "") + '</div>';
     return '<article class="' + lop + '"><div class="cs-dau"><h3>' + escHtml(item.ten) + '</h3>' + nhan + '</div>' +
-      '<p class="cs-dong-trang-thai">' + dong + '</p>' + quyDoi + nguongHtml +
+      '<p class="cs-dong-trang-thai">' + dong + '</p>' + quyDoi + nguongHtml + veBaoDienThoai(item) +
       '<button type="button" class="cs-nut-bo" data-cs-bo="' + escHtml(item.khoa) + '">Bỏ khỏi danh sách</button></article>';
+  }
+
+  // Báo tận nơi qua ntfy: mỗi game 1 kênh (window.SGCS.kenhNtfy — giống hệt bao-ntfy.py bên máy
+  // chủ). Người dùng tự theo dõi kênh; Săn Game không biết ai theo dõi, không lưu gì.
+  function veBaoDienThoai(item){
+    var kenh = window.SGCS.kenhNtfy(item.khoa);
+    var ten = encodeURIComponent("Săn Game: " + item.ten).replace(/%20/g, "+");
+    return '<details class="cs-bao"><summary>🔔 Báo về điện thoại khi game này giảm giá</summary>' +
+      '<ol class="cs-bao-buoc">' +
+      '<li>Cài app <b>ntfy</b> (miễn phí): <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" ' +
+        'target="_blank" rel="noopener">Android</a> · <a href="https://apps.apple.com/us/app/ntfy/id1625396347" ' +
+        'target="_blank" rel="noopener">iPhone</a></li>' +
+      '<li>Android: bấm <a class="cs-bao-nut" href="ntfy://ntfy.sh/' + kenh + '?display=' + ten + '">Theo dõi game này</a></li>' +
+      '<li>iPhone: mở app ntfy → bấm <b>+</b> → dán tên kênh <code class="cs-bao-kenh">' + kenh + '</code> ' +
+        '<button type="button" class="cs-bao-chep" data-cs-kenh="' + kenh + '">Chép</button></li>' +
+      '<li>Máy tính: mở <a href="https://ntfy.sh/' + kenh + '" target="_blank" rel="noopener">trang kênh</a> rồi bấm theo dõi.</li>' +
+      '</ol>' +
+      '<p class="cs-bao-ghi-chu">Báo khi game bắt đầu giảm hoặc giảm sâu hơn (mỗi sáng). Ngưỡng giá bạn đặt ' +
+        'chỉ xem trên web. Tin đi qua ntfy.sh (dịch vụ bên ngoài); Săn Game không biết bạn theo dõi game nào.</p>' +
+      '</details>';
   }
 
   function xepHang(x){
@@ -888,6 +916,14 @@ if(document.fonts&&document.fonts.ready)document.fonts.ready.then(giua);addEvent
         window.SGCS.boGame(ev.currentTarget.getAttribute("data-cs-bo"));
         window.SGCS.capNhatHuyHieu();
         taiLai();
+      });
+    }
+    var nutChep = hopDs.querySelectorAll(".cs-bao-chep");
+    for (var c = 0; c < nutChep.length; c++) {
+      nutChep[c].addEventListener("click", function(ev){
+        var btn = ev.currentTarget, kenh = btn.getAttribute("data-cs-kenh");
+        var xong = function(){ btn.textContent = "Đã chép"; };
+        if (navigator.clipboard) navigator.clipboard.writeText(kenh).then(xong, function(){});
       });
     }
     var oNguong = hopDs.querySelectorAll(".cs-nguong-o");
