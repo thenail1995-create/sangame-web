@@ -30,19 +30,44 @@ a{color:inherit}
 .ic{width:20px;height:20px;flex:none}
 .ic.to{width:28px;height:28px}
 
-.dau{background:var(--the);border-bottom:1px solid var(--vien);position:sticky;top:0;z-index:5}
-.dau .in{max-width:1040px;margin:0 auto;padding:8px 16px;display:flex;align-items:center;gap:20px}
+.dau{background:var(--the);position:sticky;top:0;z-index:5}
+.dau .in{max-width:1040px;margin:0 auto;padding:10px 16px;display:flex;align-items:center}
 .dau .in>a{display:block;line-height:0}
-.logo{height:56px;width:auto;display:block}
-nav{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
-nav a{display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;text-decoration:none;color:var(--phu);font-weight:600;font-size:14.5px;white-space:nowrap}
-nav a:hover,nav a:focus-visible,nav a[aria-current="page"]{background:var(--ngoc-nhat);color:var(--ngoc)}
-nav .ic{width:18px;height:18px}
+.logo{height:52px;width:auto;display:block}
+
+/* Menu nổi bật cả hàng (Hào chốt 28/09): dải riêng dưới logo, nền ngọc đậm, chữ trắng to hơn —
+   khác hẳn nav mảnh/nhạt trước đây. Mục đang xem nổi bật bằng NỀN TRẮNG (đảo màu), không chỉ
+   đổi màu chữ, để thấy rõ ngay cả khi cuộn ngang trên điện thoại. */
+.nav-day{background:var(--ngoc);position:relative}
+nav{display:flex;gap:4px;max-width:1040px;margin:0 auto;padding:6px 12px;
+  overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+nav::-webkit-scrollbar{display:none}
+/* Menu dài hơn màn hình (điện thoại, cửa sổ hẹp): mép còn mục bị khuất hiện dải mờ + mũi tên để
+   biết vuốt được — trước đây 6/9 mục (cả "Chờ sale") khuất mà không có dấu hiệu gì (kiểm 28/09). */
+.nav-day::before,.nav-day::after{position:absolute;top:0;bottom:0;width:46px;display:flex;align-items:center;
+  color:#fff;font-size:26px;font-weight:800;pointer-events:none;opacity:0;transition:opacity .2s;z-index:1}
+.nav-day::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(11,127,124,0),var(--ngoc) 62%)}
+.nav-day::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(11,127,124,0),var(--ngoc) 62%)}
+.nav-day.con-trai::before,.nav-day.con-phai::after{opacity:1}
+nav a{display:flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;text-decoration:none;
+  color:#fff;font-weight:700;font-size:15px;white-space:nowrap;flex:none}
+nav a:hover,nav a:focus-visible{background:rgba(255,255,255,.18)}
+nav a[aria-current="page"]{background:#fff;color:var(--ngoc)}
+nav .ic{width:21px;height:21px}
 .cs-huy-hieu{background:var(--do);color:#fff;font-size:10.5px;font-weight:800;line-height:1.5;
-  border-radius:999px;padding:0 6px;margin-left:2px}
+  border-radius:999px;padding:0 6px;margin-left:-2px}
+nav a[aria-current="page"] .cs-huy-hieu{background:var(--do)}
+
+/* Công tắc chọn vùng (mục B, dùng chung trang chủ/Tìm giá/Chờ sale) */
+.vung-chon{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:14px 16px}
+.vung-nhan{font-size:13.5px;font-weight:700;color:var(--phu);margin-right:2px}
+.chip-vung{font:inherit;font-size:13.5px;font-weight:700;padding:7px 14px;border-radius:999px;
+  border:1px solid var(--vien);background:var(--nen);color:var(--phu);cursor:pointer}
+.chip-vung:hover,.chip-vung:focus-visible{border-color:var(--ngoc);color:var(--ngoc)}
+.chip-vung[aria-pressed="true"]{background:var(--ngoc);border-color:var(--ngoc);color:#fff}
 
 main{max-width:1040px;margin:0 auto;padding:28px 16px 40px;display:grid;gap:56px}
-section{display:grid;gap:18px}
+section:not([hidden]){display:grid;gap:18px}
 h2{margin:0;display:flex;align-items:flex-start;gap:10px;font-size:22px;line-height:1.3;font-weight:800}
 h2 .ic{width:24px;height:24px;margin-top:2px;color:var(--ngoc)}
 .phu{color:var(--phu);font-size:14px;margin:0}
@@ -76,11 +101,13 @@ button:hover{filter:brightness(1.08)}
 footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:20px 16px 48px;color:var(--phu);font-size:13.5px;display:grid;gap:6px}
 
 @media (max-width:760px){
-  .dau .in{flex-wrap:wrap;gap:4px 12px;padding-bottom:4px}
-  .logo{height:44px}
-  nav{margin:0 -16px;padding:0 12px 6px;width:calc(100% + 32px)}
+  .dau .in{padding:8px 16px}
+  .logo{height:40px}
+  nav{padding:5px 10px;gap:2px}
+  nav a{padding:9px 12px;font-size:14px}
   main{gap:44px;padding-top:22px}
   h2{font-size:20px}
+  .vung-chon{padding:12px 16px;gap:6px}
 }
 
 
@@ -92,9 +119,14 @@ footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:2
 
 #kho-plus .kp-moi-khoi{gap:8px}
 #kho-plus .kp-moi-khoi:not([hidden]){display:grid}
+#kho-plus .kp-sap-roi-khoi{gap:8px}
+#kho-plus .kp-sap-roi-khoi:not([hidden]){display:grid}
 #kho-plus .kp-moi-hang{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
 #kho-plus .kp-moi-hang .kp-the{flex:0 0 118px}
 #kho-plus .kp-moi-hang .kp-ten{font-size:12.5px}
+#kho-plus .kp-han{position:absolute;left:4px;right:4px;bottom:4px;background:rgba(30,33,38,.72);
+  color:#fff;font-size:9.5px;font-weight:700;border-radius:6px;padding:2px 5px;text-align:center;
+  line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 
 #kho-plus .kp-thanh{display:grid;gap:12px}
 #kho-plus .o-tra input{font:inherit;font-size:16px;padding:12px 14px;border:1px solid var(--vien);
@@ -130,7 +162,8 @@ footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:2
 }
 
 </style>
-<header class="dau"><div class="in"><a href="index.html" aria-label="Săn Game — về trang chủ"><svg class="logo" role="img" aria-label="Săn Game" xmlns="http://www.w3.org/2000/svg" viewBox="102 96 1142 1000"><g transform="translate(0.000,1254.000) scale(0.050000,-0.050000)"><path fill="#5F0B0F" d="M16690 20945 c-297 -48 -545 -161 -803 -366 -56 -44 -250 -230 -432
+<header class="dau">
+  <div class="in"><a href="index.html" aria-label="Săn Game — về trang chủ"><svg class="logo" role="img" aria-label="Săn Game" xmlns="http://www.w3.org/2000/svg" viewBox="102 96 1142 1000"><g transform="translate(0.000,1254.000) scale(0.050000,-0.050000)"><path fill="#5F0B0F" d="M16690 20945 c-297 -48 -545 -161 -803 -366 -56 -44 -250 -230 -432
 -413 l-330 -332 -160 7 c-88 4 -263 13 -390 19 -1250 60 -2436 60 -3495 0 -96
 -6 -249 -15 -340 -20 -160 -9 -327 -20 -595 -40 -71 -6 -135 -10 -141 -10 -5
 0 -57 55 -115 123 -592 695 -870 900 -1316 972 -108 17 -273 19 -376 5 -101
@@ -686,9 +719,9 @@ c-145 -170 -159 -187 -441 -523 l-175 -208 30 -24 c16 -13 61 -46 99 -74 39
 -141 -89 -180 -115 -38 -26 -120 -77 -181 -113 -61 -37 -119 -75 -128 -86 -18
 -20 -18 -19 25 -118 11 -24 19 -49 19 -57 0 -7 8 -23 18 -34 l17 -21 170 44
 c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
--37 -13 -65 -31z"/></g></svg></a>
-  <nav aria-label="Mục"><a href="index.html#plus"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/></svg>PS Plus</a><a href="index.html#mien-phi"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg>Miễn phí</a><a href="index.html#giam"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg>Giảm giá</a><a href="index.html#vung"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>So vùng</a><a href="index.html#lua-dao"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>Chống lừa đảo</a><a href="kho-plus.html" aria-current="page"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg>Kho PS Plus</a><a href="tim-gia.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>Tìm giá</a><a href="ma-loi.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>Mã lỗi</a><a href="cho-sale.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>Chờ sale</a></nav>
-</div></header>
+-37 -13 -65 -31z"/></g></svg></a></div>
+  <div class="nav-day"><nav aria-label="Mục"><a href="kho-plus.html" aria-current="page"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/></svg>Kho PS Plus</a><a href="index.html#plus"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>PS Plus</a><a href="index.html#mien-phi"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg>Miễn phí</a><a href="index.html#giam"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg>Giảm giá</a><a href="index.html#vung"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>So vùng</a><a href="index.html#lua-dao"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>Chống lừa đảo</a><a href="tim-gia.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>Tìm giá</a><a href="ma-loi.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>Mã lỗi</a><a href="cho-sale.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>Chờ sale</a></nav></div>
+</header>
 <main>
 <section id="kho-plus">
   <div><h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/></svg>Kho game PS Plus</h2>
@@ -697,8 +730,13 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
     PS1/PS2/PS3/PSP kinh điển. <span id="kp-tt">Đang tải số liệu…</span></p></div>
 
   <div id="kp-moi-khoi" class="kp-moi-khoi" hidden>
-    <h3 class="kp-nho">Mới vào kho</h3>
+    <h3 class="kp-nho">🆕 Mới vào kho</h3>
     <div id="kp-moi-hang" class="kp-moi-hang"></div>
+  </div>
+
+  <div id="kp-sap-roi-khoi" class="kp-sap-roi-khoi" hidden>
+    <h3 class="kp-nho">⏳ Sắp rời kho</h3>
+    <div id="kp-sap-roi-hang" class="kp-moi-hang"></div>
   </div>
 
   <div class="the kp-thanh">
@@ -731,6 +769,51 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
 <script>(function(){var a=document.getElementById("lh-email");if(!a)return;var em=a.getAttribute("data-u")+"@"+a.getAttribute("data-d");a.href="mailto:"+em;a.textContent=em;})();</script>
 <script>
 (function(){
+  var KHOA = "sangame_vung", MAC_DINH = "US";
+  function docVung(){
+    try { return localStorage.getItem(KHOA) || MAC_DINH; } catch (err) { return MAC_DINH; }
+  }
+  function apPanel(vung){
+    var panels = document.querySelectorAll("[data-vung-panel]");
+    for (var i = 0; i < panels.length; i++) {
+      var p = panels[i];
+      p.hidden = p.getAttribute("data-vung-panel") !== vung;
+    }
+    var boc = document.querySelectorAll("[data-vung-empty-hide]");
+    for (var j = 0; j < boc.length; j++) {
+      var hienDang = boc[j].querySelector('[data-vung-panel="' + vung + '"]');
+      boc[j].hidden = !hienDang || hienDang.hasAttribute("data-rong");
+    }
+  }
+  function apNut(vung){
+    var nut = document.querySelectorAll("[data-vung-switcher] .chip-vung");
+    for (var i = 0; i < nut.length; i++) {
+      var chon = nut[i].getAttribute("data-vung") === vung;
+      nut[i].setAttribute("aria-pressed", chon ? "true" : "false");
+    }
+  }
+  function ve(){ var v = docVung(); apPanel(v); apNut(v); }
+  function chonVung(vung){
+    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua */ }
+    ve();
+    window.dispatchEvent(new CustomEvent("sangame-vung", { detail: vung }));
+  }
+  document.addEventListener("click", function(ev){
+    var nut = ev.target.closest("[data-vung-switcher] .chip-vung");
+    if (!nut) return;
+    chonVung(nut.getAttribute("data-vung"));
+  });
+  window.SGVUNG = { doc: docVung, dat: chonVung };
+  ve();
+})();
+</script>
+<script>(function(){var n=document.querySelector('.nav-day nav');if(!n)return;var w=n.parentNode;
+function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
+function giua(){var a=n.querySelector('[aria-current="page"]');if(a&&a.offsetLeft+a.offsetWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-(n.clientWidth-a.offsetWidth)/2;u();}
+n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(giua);addEventListener('load',giua);})();</script>
+<script>
+(function(){
   var DATA_URL = "du-lieu/kho-plus.json";
   var STORE_BASE = "https://store.playstation.com/en-sg/product/";
   var oTim = document.getElementById("kp-tim");
@@ -742,9 +825,16 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
   var tt = document.getElementById("kp-tt");
   var moiKhoi = document.getElementById("kp-moi-khoi");
   var moiHang = document.getElementById("kp-moi-hang");
+  var sapKhoi = document.getElementById("kp-sap-roi-khoi");
+  var sapHang = document.getElementById("kp-sap-roi-hang");
   if (!oTim || !luoi) return;
 
-  var DATA = null, locFilter = "tat-ca", sortMode = "moi";
+  var VAO_ROI_URL = "du-lieu/kho-plus-vao-roi.json";
+  var STORE_LOC = { "en-US": "en-us", "en-SG": "en-sg", "en-HK": "en-hk",
+    "en-TH": "en-th", "en-ID": "en-id", "en-IN": "en-in" };
+  var TEN_VUNG_VR = { US: "Mỹ", SG: "Singapore", HK: "Hồng Kông", TH: "Thái Lan", ID: "Indonesia", IN: "Ấn Độ" };
+
+  var DATA = null, VAO_ROI = null, locFilter = "tat-ca", sortMode = "moi";
   var khoaTimGia = null; // Set các "khoa" (tên đã chuẩn hoá) có trong tim-gia.json, hoặc null = chưa tải xong
 
   function boDau(s){
@@ -758,7 +848,7 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
     });
   }
 
-  function theGame(g, nho){
+  function theGame(g){
     var mayNhan = g.may.length > 1 ? g.may.join(" & ") : (g.may[0] || "");
     var nhanGoi = g.goi === "classics" ? '<span class="kp-nhan kp-nhan-cl">Classics</span>' : "";
     var nhanMoi = g.moi ? '<span class="kp-nhan kp-nhan-moi">Mới</span>' : "";
@@ -766,14 +856,14 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
     var lien = '<a class="kp-lien" href="' + STORE_BASE + encodeURIComponent(g.id) + '" target="_blank" rel="noopener" ' +
       'aria-label="' + escHtml(g.ten) + ' — mở trang PS Store, tab mới">' +
       '<span class="kp-bia">' + anh + nhanMoi + '</span>' +
-      (nho ? "" : '<span class="kp-ten">' + escHtml(g.ten) + '</span><span class="kp-may">' + escHtml(mayNhan) + nhanGoi + '</span>') +
+      '<span class="kp-ten">' + escHtml(g.ten) + '</span><span class="kp-may">' + escHtml(mayNhan) + nhanGoi + '</span>' +
       '</a>';
-    // "Chờ sale": chỉ thẻ LỚN (không phải mục "Mới vào kho" nhỏ) và chỉ khi tên khớp được với
-    // tim-gia.json (kho-plus.json là TOÀN BỘ catalog Plus — phần lớn không có trong Deals nên
-    // không tra giá được, xem số liệu thật ở trang_cho_sale.py) mới gắn nút, để nút bên trong
-    // (KHÔNG lồng trong thẻ <a> mở PS Store — 2 hành động tách biệt, không trap-click nhau).
+    // "Chờ sale": chỉ khi tên khớp được với tim-gia.json (kho-plus.json là TOÀN BỘ catalog Plus —
+    // phần lớn không có trong Deals nên không tra giá được, xem số liệu thật ở trang_cho_sale.py)
+    // mới gắn nút, để nút bên trong (KHÔNG lồng trong thẻ <a> mở PS Store — 2 hành động tách
+    // biệt, không trap-click nhau).
     var nutChoSale = "";
-    if (!nho && khoaTimGia && khoaTimGia.has(g.tim)) {
+    if (khoaTimGia && khoaTimGia.has(g.tim)) {
       nutChoSale = '<button type="button" class="nut-cho-sale" data-cs-khoa="' + escHtml(g.tim) +
         '" data-cs-ten="' + escHtml(g.ten) + '" aria-pressed="false">☆ Chờ sale</button>';
     }
@@ -786,14 +876,66 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
       " game Classics · cập nhật " + DATA.cap_nhat + ".";
   }
 
-  function veMoi(){
-    if (!moiKhoi || !moiHang || !DATA || !DATA.moi_vao || !DATA.moi_vao.length) return;
-    var theo_id = {};
-    DATA.game.forEach(function(g){ theo_id[g.id] = g; });
-    var items = DATA.moi_vao.map(function(id){ return theo_id[id]; }).filter(Boolean);
-    if (!items.length) return;
-    moiHang.innerHTML = items.map(function(g){ return theGame(g, true); }).join("");
-    moiKhoi.hidden = false;
+  // Mục I — 2 dải "Mới vào kho" / "Sắp rời kho" đọc du-lieu/kho-plus-vao-roi.json (nhiều vùng —
+  // US/SG/HK hiện có, xem lay-kho.py). Vùng hiện theo công tắc vùng CHUNG của site
+  // (window.SGVUNG, đổi từ trang khác cũng ảnh hưởng trang này khi tải lại): mặc định Mỹ nếu
+  // vùng đó có trong file, không thì rơi về Singapore, không có vùng nào thì ẩn cả 2 dải.
+  function chonVungVaoRoi(data){
+    var g = window.SGVUNG ? window.SGVUNG.doc() : "US";
+    var loc = "en-" + g;
+    if (data.vung && data.vung[loc]) return loc;
+    if (data.vung && data.vung["en-US"]) return "en-US";
+    if (data.vung && data.vung["en-SG"]) return "en-SG";
+    return null;
+  }
+
+  function hanRoiHtml(han){
+    if (!han) return "";
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(han);
+    var hien = m ? (m[3] + "/" + m[2] + "/" + m[1]) : han;
+    return '<span class="kp-han">Hết hạn ' + escHtml(hien) + '</span>';
+  }
+
+  // Thẻ nhỏ cho 2 dải trên — đọc THẲNG từ mục vao_roi (id/ten/anh/may riêng của lay-kho.py, có
+  // thể khác vùng với catalog SG chính), KHÔNG tra chéo qua DATA.game (id vùng khác không khớp).
+  function theVaoRoi(g, loc, laSapRoi){
+    var storeLoc = STORE_LOC[loc] || "en-us";
+    var anh = g.anh ? '<img src="' + escHtml(g.anh) + '?w=160" alt="" loading="lazy">' : "";
+    var han = laSapRoi ? hanRoiHtml(g.han_roi) : "";
+    var lien = '<a class="kp-lien" href="https://store.playstation.com/' + storeLoc + '/product/' +
+      encodeURIComponent(g.id) + '" target="_blank" rel="noopener" aria-label="' + escHtml(g.ten) +
+      ' — mở PS Store, tab mới"><span class="kp-bia">' + anh + han + '</span>' +
+      '<span class="kp-ten">' + escHtml(g.ten) + '</span></a>';
+    var tim = window.SGCS ? window.SGCS.boDau(g.ten) : "";
+    var nutChoSale = (tim && khoaTimGia && khoaTimGia.has(tim))
+      ? '<button type="button" class="nut-cho-sale" data-cs-khoa="' + escHtml(tim) + '" data-cs-ten="' +
+        escHtml(g.ten) + '" aria-pressed="false">☆ Chờ sale</button>'
+      : "";
+    return '<div class="kp-the">' + lien + nutChoSale + '</div>';
+  }
+
+  function veVaoRoi(){
+    if (!moiKhoi && !sapKhoi) return;
+    var loc = VAO_ROI ? chonVungVaoRoi(VAO_ROI) : null;
+    if (!loc) { if (moiKhoi) moiKhoi.hidden = true; if (sapKhoi) sapKhoi.hidden = true; return; }
+    var v = VAO_ROI.vung[loc] || {};
+    var tenV = TEN_VUNG_VR[loc.slice(3)] || loc.slice(3);
+    var moi = v.moi_vao || [], sap = v.sap_roi || [];
+    if (moiKhoi) {
+      if (moi.length) {
+        moiHang.innerHTML = moi.map(function(g){ return theVaoRoi(g, loc, false); }).join("");
+        var h1 = moiKhoi.querySelector("h3"); if (h1) h1.textContent = "🆕 Mới vào kho — " + tenV;
+        moiKhoi.hidden = false;
+      } else moiKhoi.hidden = true;
+    }
+    if (sapKhoi) {
+      if (sap.length) {
+        sapHang.innerHTML = sap.map(function(g){ return theVaoRoi(g, loc, true); }).join("");
+        var h2 = sapKhoi.querySelector("h3"); if (h2) h2.textContent = "⏳ Sắp rời kho — " + tenV;
+        sapKhoi.hidden = false;
+      } else sapKhoi.hidden = true;
+    }
+    if (window.SGCS) window.SGCS.quetNut(document);
   }
 
   function apply(){
@@ -815,15 +957,15 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
       }
       return a.tim < b.tim ? -1 : (a.tim > b.tim ? 1 : 0);
     });
-    luoi.innerHTML = list.map(function(g){ return theGame(g, false); }).join("");
+    luoi.innerHTML = list.map(theGame).join("");
     if (dem) dem.textContent = list.length + " game" + (tokens.length || locFilter !== "tat-ca" ? " khớp" : "");
     if (trong) trong.hidden = list.length !== 0;
     if (window.SGCS) { window.SGCS.quetNut(luoi); window.SGCS.capNhatHuyHieu(); }
   }
 
   // Tải song song tim-gia.json để biết game nào tra được giá (gắn nút "Chờ sale") — lỗi tải
-  // (mạng/CORS) thì khoaTimGia giữ null, apply()/veMoi() coi như KHÔNG có game nào khớp (an toàn
-  // hơn hiện nút sai), không làm hỏng phần hiển thị kho chính.
+  // (mạng/CORS) thì khoaTimGia giữ null, apply()/veVaoRoi() coi như KHÔNG có game nào khớp (an
+  // toàn hơn hiện nút sai), không làm hỏng phần hiển thị kho chính.
   function taiKhoaTimGia(){
     return fetch("du-lieu/tim-gia.json").then(function(r){ return r.json(); }).then(function(d){
       var s = new Set();
@@ -832,14 +974,22 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
     }).catch(function(){ khoaTimGia = new Set(); });
   }
 
+  // Thiếu file/lỗi tải kho-plus-vao-roi.json thì VAO_ROI giữ null -> veVaoRoi() tự ẩn cả 2 dải,
+  // KHÔNG làm hỏng phần hiển thị kho chính (đúng luật "thiếu file thì ẩn khối, không lỗi").
+  function taiVaoRoi(){
+    return fetch(VAO_ROI_URL).then(function(r){ return r.json(); }).then(function(d){ VAO_ROI = d; })
+      .catch(function(){ VAO_ROI = null; });
+  }
+
   function taiDuLieu(){
     return Promise.all([
       fetch(DATA_URL).then(function(r){ return r.json(); }),
       taiKhoaTimGia(),
+      taiVaoRoi(),
     ]).then(function(ket){
       DATA = ket[0];
       capNhatTom();
-      veMoi();
+      veVaoRoi();
       apply();
     }).catch(function(){
       if (tt) tt.textContent = "Không tải được dữ liệu kho game. Thử lại sau.";
@@ -864,6 +1014,10 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
     }
     apply();
   });
+
+  // Đổi vùng (công tắc chung site, đổi từ trang khác) -> vẽ lại 2 dải Mới vào/Sắp rời theo vùng
+  // mới (không ảnh hưởng catalog chính, luôn cố định vùng Singapore).
+  window.addEventListener("sangame-vung", veVaoRoi);
 
   taiDuLieu();
 })();

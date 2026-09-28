@@ -2,6 +2,7 @@
   var KHOA_LS = "sangame_cho_sale";
   var KHOA_DONG = "sangame_cho_sale_dong_ngay";
   var DATA_URL = "du-lieu/tim-gia.json";
+  var GIA_THE_URL = "du-lieu/gia-the-vung.json";
 
   function ngayHomNay(){
     var d = new Date();
@@ -44,6 +45,17 @@
     luuDs(ds);
     return ds;
   }
+  // Mục G — ngưỡng giá "Báo khi dưới … đ": lưu NGAY TRONG cùng dòng game ở localStorage
+  // (item.nguong = số VNĐ, hoặc null = không đặt). nguong=null (chứ không phải xoá field) để
+  // trang_cho_sale.py phân biệt được "chưa từng đặt" và "đã đặt rồi bỏ" nếu cần sau này.
+  function datNguong(khoa, nguong){
+    var ds = docDs();
+    for (var i = 0; i < ds.length; i++) {
+      if (ds[i].khoa === khoa) { ds[i].nguong = (nguong == null || isNaN(nguong)) ? null : nguong; break; }
+    }
+    luuDs(ds);
+    return ds;
+  }
 
   function capNhatNut(btn, dang){
     btn.textContent = dang ? "★ Đang chờ" : "☆ Chờ sale";
@@ -73,24 +85,95 @@
     }
   }
 
-  function capNhatHuyHieu(){
-    var ds = docDs();
-    var a = document.querySelector('nav a[href="cho-sale.html"]');
-    if (!a) return;
-    var badge = a.querySelector(".cs-huy-hieu");
-    if (!ds.length) { if (badge) badge.remove(); return; }
-    if (!badge) {
-      badge = document.createElement("span");
-      badge.className = "cs-huy-hieu";
-      a.appendChild(badge);
-    }
-    badge.textContent = ds.length;
+  // Huy hiệu số cạnh mục menu — dùng chung 1 khuôn (xoá khi n<=0, tạo/ghi đè khi n>0).
+  function boHuyHieu(a){ var b = a.querySelector(".cs-huy-hieu"); if (b) b.remove(); }
+  function datHuyHieu(a, n){
+    if (!n) { boHuyHieu(a); return; }
+    var b = a.querySelector(".cs-huy-hieu");
+    if (!b) { b = document.createElement("span"); b.className = "cs-huy-hieu"; a.appendChild(b); }
+    b.textContent = n;
   }
 
   function coGiam(g){
     var gia = g[3] || [];
     for (var i = 0; i < gia.length; i++) if (gia[i] && gia[i][2] > 0) return true;
     return false;
+  }
+
+  // tim-gia.json chỉ cần tải 1 lần/trang — mọi nơi cần (huy hiệu Chờ sale, dải banner) dùng
+  // chung cache này thay vì tự fetch riêng.
+  var _choTimGia = null;
+  function taiTimGiaCache(){
+    if (!_choTimGia) {
+      _choTimGia = fetch(DATA_URL).then(function(r){ return r.json(); }).catch(function(){ return null; });
+    }
+    return _choTimGia;
+  }
+  // gia-the-vung.json (giá thẻ PSN — dòng chính, mục C) — cache riêng, lỗi/thiếu thì null và
+  // giaVndHienTai() tự rơi về tỷ giá ngân hàng của tim-gia.json (không chặn tính năng ngưỡng giá).
+  var _choGiaThe = null;
+  function taiGiaTheCache(){
+    if (!_choGiaThe) {
+      _choGiaThe = fetch(GIA_THE_URL).then(function(r){ return r.json(); }).catch(function(){ return null; });
+    }
+    return _choGiaThe;
+  }
+  function rateChinhTaiVung(dataTimGia, giaThe, idx){
+    if (giaThe && giaThe.the[idx] != null) return giaThe.the[idx];
+    return dataTimGia.ty_gia[idx];
+  }
+  // VNĐ hiện tại của 1 game (g = bản ghi tim-gia.json) ở đúng vùng `vungMa` đang chọn — null nếu
+  // game không bán ở vùng đó hoặc vùng không hợp lệ.
+  function giaVndHienTai(g, dataTimGia, giaThe, vungMa){
+    var idx = dataTimGia.vung.indexOf(vungMa);
+    if (idx < 0) return null;
+    var v = (g[3] || [])[idx];
+    if (!v) return null;
+    return v[1] * rateChinhTaiVung(dataTimGia, giaThe, idx);
+  }
+  // Mục G: 1 game "đáng báo" khi ĐANG GIẢM GIÁ (như trước) HOẶC đã đặt ngưỡng và giá hiện tại
+  // (đúng vùng đang chọn, giá theo thẻ) đã xuống dưới ngưỡng đó.
+  function dangDangChu(item, g, dataTimGia, giaThe, vungMa){
+    if (coGiam(g)) return true;
+    if (item.nguong == null) return false;
+    var vnd = giaVndHienTai(g, dataTimGia, giaThe, vungMa);
+    return vnd != null && vnd <= item.nguong;
+  }
+  function demSoDangChu(ds, d, giaThe, vungMa){
+    var theoKhoa = {};
+    d.game.forEach(function(g){ theoKhoa[boDau(g[0])] = g; });
+    var so = 0;
+    ds.forEach(function(item){
+      var g = theoKhoa[item.khoa];
+      if (g && dangDangChu(item, g, d, giaThe, vungMa)) so++;
+    });
+    return so;
+  }
+
+  // Huy hiệu "Chờ sale" trên menu = SỐ GAME ĐANG GIẢM HOẶC ĐÃ ĐẠT NGƯỠNG trong danh sách đang
+  // chờ (không phải tổng số đang chờ) — Hào chốt 28/09: huy hiệu phải nói "có gì đáng xem ngay".
+  function capNhatHuyHieu(){
+    var ds = docDs();
+    var a = document.querySelector('nav a[href="cho-sale.html"]');
+    if (!a) return;
+    if (!ds.length) { boHuyHieu(a); return; }
+    var vungMa = window.SGVUNG ? window.SGVUNG.doc() : "US";
+    Promise.all([taiTimGiaCache(), taiGiaTheCache()]).then(function(ket){
+      var d = ket[0], giaThe = ket[1];
+      if (!d || !d.game) { boHuyHieu(a); return; }
+      datHuyHieu(a, demSoDangChu(ds, d, giaThe, vungMa));
+    });
+  }
+
+  // Huy hiệu "Kho PS Plus" trên menu = số game MỚI VÀO kho (đọc kho-plus.json, có sẵn field
+  // moi_vao — xem trang_kho_plus.build_du_lieu()); không có dữ liệu (file thiếu/rỗng) thì ẩn,
+  // không suy đoán.
+  function capNhatHuyHieuKhoPlus(){
+    var a = document.querySelector('nav a[href="kho-plus.html"]');
+    if (!a) return;
+    fetch("du-lieu/kho-plus.json").then(function(r){ return r.json(); }).then(function(d){
+      datHuyHieu(a, (d && d.moi_vao) ? d.moi_vao.length : 0);
+    }).catch(function(){ boHuyHieu(a); });
   }
 
   function daDongHomNay(){
@@ -108,7 +191,7 @@
     div.className = "cs-banner";
     var a = document.createElement("a");
     a.href = "cho-sale.html";
-    a.textContent = "🔔 " + soLuong + " game bạn chờ đang giảm giá — Xem";
+    a.textContent = "🔔 " + soLuong + " game bạn chờ đang giảm giá hoặc đã xuống ngưỡng bạn đặt — Xem";
     var nut = document.createElement("button");
     nut.type = "button";
     nut.setAttribute("aria-label", "Đóng thông báo");
@@ -122,24 +205,25 @@
   function kiemBanner(){
     var ds = docDs();
     if (!ds.length || daDongHomNay()) return;
-    fetch(DATA_URL).then(function(r){ return r.json(); }).then(function(d){
-      var theoKhoa = {};
-      (d.game || []).forEach(function(g){ theoKhoa[boDau(g[0])] = g; });
-      var soDangGiam = 0;
-      ds.forEach(function(item){
-        var g = theoKhoa[item.khoa];
-        if (g && coGiam(g)) soDangGiam++;
-      });
-      if (soDangGiam > 0) hienBanner(soDangGiam);
-    }).catch(function(){ /* không tải được — im lặng, không bịa số */ });
+    var vungMa = window.SGVUNG ? window.SGVUNG.doc() : "US";
+    Promise.all([taiTimGiaCache(), taiGiaTheCache()]).then(function(ket){
+      var d = ket[0], giaThe = ket[1];
+      if (!d || !d.game) return;
+      var so = demSoDangChu(ds, d, giaThe, vungMa);
+      if (so > 0) hienBanner(so);
+    });
   }
 
   window.SGCS = {
     boDau: boDau, docDs: docDs, themGame: themGame, boGame: boGame, dangCho: dangCho,
-    quetNut: quetNut, capNhatHuyHieu: capNhatHuyHieu,
+    datNguong: datNguong, quetNut: quetNut, capNhatHuyHieu: capNhatHuyHieu,
   };
 
   quetNut(document);
   capNhatHuyHieu();
+  capNhatHuyHieuKhoPlus();
   kiemBanner();
+  // Đổi vùng (mục G tính ngưỡng theo giá VÙNG ĐANG CHỌN) -> huy hiệu/banner phải tính lại ngay,
+  // không chờ tải lại trang.
+  window.addEventListener("sangame-vung", function(){ capNhatHuyHieu(); kiemBanner(); });
 })();
