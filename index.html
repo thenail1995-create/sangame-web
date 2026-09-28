@@ -82,7 +82,6 @@ nav a[aria-current="page"] .cs-huy-hieu{background:var(--do)}
 .vung-thanh.co-truot .chip-vung[aria-pressed="true"]{background:transparent}
 @media (prefers-reduced-motion:reduce){.vung-truot,.chip-vung{transition:none}}
 
-footer .ghi-cong{font-size:12px;opacity:.8}
 main{max-width:1040px;margin:0 auto;padding:28px 16px 40px;display:grid;gap:56px}
 section:not([hidden]){display:grid;gap:18px}
 h2{margin:0;display:flex;align-items:flex-start;gap:10px;font-size:22px;line-height:1.3;font-weight:800}
@@ -154,14 +153,14 @@ footer{max-width:1040px;margin:0 auto;border-top:1px solid var(--vien);padding:2
   border-radius:18px;padding:18px 18px 20px;text-decoration:none;overflow:hidden;
   transition:transform .18s ease,box-shadow .18s ease,border-color .18s}
 .loi-tat a::before{content:"";position:absolute;right:-30px;top:-30px;width:120px;height:120px;border-radius:50%;
-  background:var(--ngoc-nhat);opacity:.7;z-index:0}
+  background:rgba(0,112,209,.07);z-index:0}
 .loi-tat a>*{position:relative;z-index:1}
 .loi-tat a:hover,.loi-tat a:focus-visible{border-color:var(--ngoc);transform:translateY(-3px);box-shadow:0 10px 24px rgba(11,127,124,.14)}
-.loi-tat .bt3d{width:64px;height:64px;filter:drop-shadow(0 6px 8px rgba(0,0,0,.14));transition:transform .18s ease}
+.loi-tat .bt3d{width:68px;height:68px;filter:drop-shadow(0 6px 10px rgba(0,40,120,.25));transition:transform .18s ease}
 .loi-tat a:hover .bt3d{transform:scale(1.08) rotate(-4deg)}
 .loi-tat b{display:block;font-size:17px;line-height:1.3}
 .loi-tat span{display:block;color:var(--phu);font-size:13.5px;line-height:1.45}
-.bt3d.to{width:52px;height:52px;flex:none;filter:drop-shadow(0 4px 6px rgba(0,0,0,.14))}
+.bt3d.to{width:56px;height:56px;flex:none;filter:drop-shadow(0 4px 8px rgba(0,40,120,.25))}
 @media (prefers-reduced-motion:reduce){.loi-tat a,.loi-tat .bt3d{transition:none}.loi-tat a:hover{transform:none}}
 @media (max-width:760px){.loi-tat{grid-template-columns:1fr 1fr;gap:10px}.loi-tat a{padding:14px}.loi-tat .bt3d{width:52px;height:52px}
   .loi-tat b{font-size:15.5px}.loi-tat span{font-size:12.5px}}
@@ -862,8 +861,8 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
     <div><h1>Giá game PlayStation, đổi sẵn ra tiền Việt</h1>
     <p>Mỗi sáng tự cập nhật từ PlayStation Store 6 vùng.</p></div>
     <div class="vung-chon the" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Xem giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div>
-    <div class="hero-the"><a class="tin-nong" href="ps-plus.html"><img class="bt3d to" src="bieu-tuong/dong-ho.png" alt="" width="128" height="128" loading="lazy"><div><b>PS Plus 12 tháng đang giảm tới 25%</b><span>Ở Singapore, Hồng Kông, Indonesia, Thái Lan · còn 2 ngày (hết 30/09)</span></div><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-      <a class="tin-nong" href="chong-lua-dao.html"><img class="bt3d to" src="bieu-tuong/lua-dao.png" alt="" width="128" height="128" loading="lazy"><div><b>Chống lừa đảo khi mua bán game</b><span>4 chiêu hay gặp, 5 điều kiểm trước khi chuyển tiền</span></div><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+    <div class="hero-the"><a class="tin-nong" href="ps-plus.html"><img class="bt3d to" src="bieu-tuong/dong-ho.webp" alt="" width="160" height="160" loading="lazy"><div><b>PS Plus 12 tháng đang giảm tới 25%</b><span>Ở Singapore, Hồng Kông, Indonesia, Thái Lan · còn 2 ngày (hết 30/09)</span></div><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+      <a class="tin-nong" href="chong-lua-dao.html"><img class="bt3d to" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160" loading="lazy"><div><b>Chống lừa đảo khi mua bán game</b><span>4 chiêu hay gặp, 5 điều kiểm trước khi chuyển tiền</span></div><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
       <div class="vao-roi-tom-tat" data-vung-empty-hide hidden><div data-vung-panel="SG" hidden data-rong></div><div data-vung-panel="HK" hidden data-rong></div><div data-vung-panel="IN" hidden data-rong></div><div data-vung-panel="ID" hidden data-rong></div><div data-vung-panel="TH" hidden data-rong></div><div data-vung-panel="US" data-rong></div></div>
     </div>
   </section>
@@ -871,21 +870,20 @@ c644 164 620 157 610 183 -6 15 -56 187 -85 292 -32 117 -46 155 -60 157 -8 1
   <section id="loi-tat">
     <div><h2><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>Xem nhanh</h2><p class="phu">Mỗi mục là một trang riêng, bấm để mở</p></div>
     <div class="loi-tat">
-      <a href="kho-plus.html"><img class="bt3d" src="bieu-tuong/kho-plus.png" alt="" width="128" height="128" loading="lazy"><div><b>Kho PS Plus</b><span>Game có trong gói Extra, Classics</span></div></a>
-      <a href="ps-plus.html"><img class="bt3d" src="bieu-tuong/ps-plus.png" alt="" width="128" height="128" loading="lazy"><div><b>Gói PS Plus</b><span>Mua gói 12 tháng ở vùng nào rẻ nhất</span></div></a>
-      <a href="mien-phi.html"><img class="bt3d" src="bieu-tuong/mien-phi.png" alt="" width="128" height="128" loading="lazy"><div><b>Miễn phí tháng này</b><span>Game tải được với gói Essential</span></div></a>
-      <a href="giam-gia.html"><img class="bt3d" src="bieu-tuong/giam-gia.png" alt="" width="128" height="128" loading="lazy"><div><b>Giảm giá</b><span>Đang giảm sâu, deal mới, lịch sale lớn</span></div></a>
-      <a href="tim-gia.html"><img class="bt3d" src="bieu-tuong/tim-gia.png" alt="" width="128" height="128" loading="lazy"><div><b>Tìm giá</b><span>So giá một game ở 6 vùng</span></div></a>
-      <a href="cho-sale.html"><img class="bt3d" src="bieu-tuong/cho-sale.png" alt="" width="128" height="128" loading="lazy"><div><b>Chờ sale</b><span>Báo về điện thoại khi game giảm giá</span></div></a>
-      <a href="chong-lua-dao.html"><img class="bt3d" src="bieu-tuong/lua-dao.png" alt="" width="128" height="128" loading="lazy"><div><b>Chống lừa đảo</b><span>Tra số, link trước khi chuyển tiền</span></div></a>
-      <a href="ma-loi.html"><img class="bt3d" src="bieu-tuong/ma-loi.png" alt="" width="128" height="128" loading="lazy"><div><b>Mã lỗi PS4/PS5</b><span>Mã lỗi nghĩa là gì, sửa thế nào</span></div></a>
+      <a href="kho-plus.html"><img class="bt3d" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160" loading="lazy"><div><b>Kho PS Plus</b><span>Game có trong gói Extra, Classics</span></div></a>
+      <a href="ps-plus.html"><img class="bt3d" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160" loading="lazy"><div><b>Gói PS Plus</b><span>Mua gói 12 tháng ở vùng nào rẻ nhất</span></div></a>
+      <a href="mien-phi.html"><img class="bt3d" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160" loading="lazy"><div><b>Miễn phí tháng này</b><span>Game tải được với gói Essential</span></div></a>
+      <a href="giam-gia.html"><img class="bt3d" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160" loading="lazy"><div><b>Giảm giá</b><span>Đang giảm sâu, deal mới, lịch sale lớn</span></div></a>
+      <a href="tim-gia.html"><img class="bt3d" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160" loading="lazy"><div><b>Tìm giá</b><span>So giá một game ở 6 vùng</span></div></a>
+      <a href="cho-sale.html"><img class="bt3d" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160" loading="lazy"><div><b>Chờ sale</b><span>Báo về điện thoại khi game giảm giá</span></div></a>
+      <a href="chong-lua-dao.html"><img class="bt3d" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160" loading="lazy"><div><b>Chống lừa đảo</b><span>Tra số, link trước khi chuyển tiền</span></div></a>
+      <a href="ma-loi.html"><img class="bt3d" src="bieu-tuong/ma-loi.webp" alt="" width="160" height="160" loading="lazy"><div><b>Mã lỗi PS4/PS5</b><span>Mã lỗi nghĩa là gì, sửa thế nào</span></div></a>
     </div>
   </section>
 </main>
 <footer>
   <div>Săn Game là trang cá nhân tự tra giá game console. Không liên kết với Sony, Microsoft hay hãng game nào; tên game và nhãn hiệu thuộc chủ sở hữu.</div>
   <div>Liên hệ, yêu cầu gỡ nội dung: <a id="lh-email" href="#" data-u="cn8281287" data-d="gmail.com">(bấm để hiện email — cần JS)</a><noscript> cn8281287 [a] gmail.com</noscript></div>
-  <div class="ghi-cong">Biểu tượng 3D: <a href="https://github.com/microsoft/fluentui-emoji" rel="noopener">Fluent Emoji</a> của Microsoft (giấy phép MIT).</div>
 </footer>
 <script src="cho-sale.js"></script>
 <script>(function(){var a=document.getElementById("lh-email");if(!a)return;var em=a.getAttribute("data-u")+"@"+a.getAttribute("data-d");a.href="mailto:"+em;a.textContent=em;})();</script>
