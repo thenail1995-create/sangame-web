@@ -211,6 +211,8 @@ footer a{color:#DDE2EA}
 .the-game{display:grid;gap:10px;align-content:start}
 .the-game .dau-the{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
 .the-game h3{margin:0;font-size:16px;line-height:1.35}
+.the-game h3 a{color:inherit;text-decoration:none}
+.the-game h3 a:hover{color:var(--ngoc);text-decoration:underline}
 .the-game .nhan-loai{font-size:12px;font-weight:700;color:var(--phu);background:var(--nen);
   border:1px solid var(--vien);border-radius:99px;padding:2px 8px;white-space:nowrap}
 .gia-vung{list-style:none;margin:0;padding:0;display:grid;gap:6px}
@@ -246,6 +248,7 @@ footer a{color:#DDE2EA}
              placeholder="Vd: god of war, elden ring…" aria-label="Tên game cần tìm giá">
     </div>
     <p class="phu" id="tim-gia-trang-thai" aria-live="polite"></p>
+    <p class="phu"><a href="ds-game-a.html">Xem danh sách game A–Z</a></p>
   </div>
   <div id="tim-gia-ket-qua" class="ds-tim-gia" aria-live="polite"></div>
   <p class="phu" id="tim-gia-cap-nhat"></p>
@@ -433,6 +436,7 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
 
   function veThe(g){
     var ten = g[0], loai = g[1], gia = g[3];
+    var slug = g[4]; // phần tử thứ 5 (dung-web.py ghép lúc dựng): slug trang game, "" hoặc thiếu = game chưa có trang
     var vungChon = window.SGVUNG ? window.SGVUNG.doc() : null;
     var dong = [], reNhat = -1, vndReNhat = Infinity;
     for (var i = 0; i < DATA.vung.length; i++) {
@@ -440,7 +444,9 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
       if (!Array.isArray(v)) continue;
       var r = rateChinh(i);
       var gm = giaMua(v);
-      var d = { i: i, giam: v[2], theoThe: coGiaThe(i), chuaCoGia: gm == null, cu: vungCu(i) };
+      var d = { i: i, giam: v[2], theoThe: coGiaThe(i), chuaCoGia: gm == null, cu: vungCu(i),
+        // phần tử 6/7 (dung-web.py ghép lúc dựng): giá cũ hơn ngày mới nhất {chỉ số: ngày ISO}; vùng chỉ dành hội viên PS Plus
+        ngayCu: (g[5] && g[5][i] !== undefined) ? g[5][i] : null, hoiVien: !!(g[6] && g[6].indexOf(i) >= 0) };
       if (gm != null) {
         d.gm = gm;
         d.vndGoc = soHopLe(v[0]) ? v[0] * r : null;
@@ -449,13 +455,16 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
         if (soHopLe(v[3])) d.vndPlus = v[3] * r; // ô thứ 4 (A5): giá hội viên PS Plus
       }
       dong.push(d);
-      // "Vùng rẻ nhất" tính theo giá thẻ (luật C) — rateChinh() đã ưu tiên giá thẻ; vùng chưa có giá
-      // KHÔNG xét (trước đây null bị coi là 0đ và luôn thắng).
-      if (gm != null && d.vndCon < vndReNhat) { vndReNhat = d.vndCon; reNhat = dong.length - 1; }
+      // "Vùng rẻ nhất" tính theo giá thẻ (luật C) — CHỈ vùng có giá thẻ PSN bán ở VN được thắng (giống
+      // re_nhat_theo_the của dung-web.py và trang game); Ấn Độ/vùng thiếu thẻ vẫn hiện giá nhưng không nhãn rẻ nhất.
+      // Vùng chưa có giá KHÔNG xét (trước đây null bị coi là 0đ và luôn thắng).
+      if (gm != null && d.theoThe && d.ngayCu === null && !d.hoiVien && d.vndCon < vndReNhat) { vndReNhat = d.vndCon; reNhat = dong.length - 1; }
     }
     var hangHtml = dong.map(function(d, idx){
       var giaHtml, quyDoi = "";
-      if (d.chuaCoGia) {
+      if (d.hoiVien) {
+        giaHtml = '<b class="chua-co-gia">Chỉ cho hội viên PS Plus</b>';
+      } else if (d.chuaCoGia) {
         giaHtml = '<b class="chua-co-gia">Chưa có giá</b>';
       } else {
         if (d.gm === 0) giaHtml = '<b>Miễn phí</b>';
@@ -467,6 +476,10 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
         if (d.vndPlus != null) quyDoi += '<span class="quy-doi-nho">Hội viên PS Plus: ' + (d.vndPlus === 0 ? "Miễn phí" : dongVnd(d.vndPlus)) + '</span>';
       }
       if (d.cu) quyDoi += '<span class="quy-doi-nho">giá cũ (vùng chưa lấy được hôm nay)</span>';
+      if (d.ngayCu !== null && !d.hoiVien) {
+        var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d.ngayCu);
+        quyDoi += '<span class="quy-doi-nho">' + (m ? 'giá ngày ' + m[3] + '/' + m[2] : 'giá cũ, chưa rõ ngày') + '</span>';
+      }
       var lop = (idx === reNhat ? "re-nhat" : "") + (vungChon === DATA.vung[d.i] ? " vung-chon" : "");
       return '<li class="' + lop + '">' +
         '<span class="ten-vung">' + DATA.ten_vung[d.i] + '</span>' +
@@ -486,7 +499,7 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
         ' aria-pressed="false">☆ Chờ sale</button>'
       : "";
     return '<article class="the the-game">' +
-      '<div class="dau-the"><h3>' + escHtml(ten) + '</h3>' + nhanLoai + '</div>' +
+      '<div class="dau-the"><h3>' + (slug ? '<a href="game-' + escHtml(slug) + '.html">' + escHtml(ten) + '</a>' : escHtml(ten)) + '</h3>' + nhanLoai + '</div>' +
       '<ul class="gia-vung">' + hangHtml + '</ul>' + nutChoSale + '</article>';
   }
 

@@ -1,0 +1,51 @@
+/* game.css — dùng chung cho mọi trang game + mục lục A-Z. Các luật .pr-* khớp trang PS Plus (dung-web.py). */
+.gm-dau{display:flex;gap:16px;align-items:center}
+.gm-bia{width:112px;height:112px;object-fit:cover;border-radius:12px;background:var(--nen);flex:none}
+.gm-dau h1{margin:0;font-size:21px;line-height:1.3;font-weight:800;overflow-wrap:anywhere}
+.gm-nhan{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 0;padding:0;list-style:none}
+.gm-nhan li{font-size:12px;font-weight:700;color:var(--phu);background:var(--nen);border:1px solid var(--vien);border-radius:99px;padding:2px 9px}
+.gm-vang{background:#FFF6D6;border:1px solid #F0D27A;color:#6B4E00;border-radius:var(--r);padding:12px 16px;font-weight:600}
+.gm-h2{margin:0 0 8px}
+.pr-the{padding:0;overflow:hidden;display:grid;align-content:start}
+.pr-than{display:grid;gap:4px;padding:14px 16px 16px}
+.pr-than p{margin:0}
+.pr-gia{font-size:30px;font-weight:800;line-height:1.15;color:var(--gia);font-variant-numeric:tabular-nums}
+.pr-goc{font-size:13.5px;color:var(--phu)}
+.pr-goc s{margin-right:4px}
+.pr-vung{font-size:14px;margin-top:6px!important;padding-top:10px;border-top:1px solid var(--vien)}
+.pr-bang{display:grid;gap:10px}
+.pr-bang table{width:100%;min-width:0;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.pr-bang th,.pr-bang td{padding:10px 12px;border-bottom:1px solid var(--vien);border-top:0;text-align:right;vertical-align:top;white-space:normal}
+.pr-bang th[scope=row]{text-align:left;font-weight:700}
+.pr-bang thead th{font-size:13px;color:var(--phu);font-weight:700}
+.pr-bang td b{display:block;font-size:15.5px}
+.pr-bang small{display:block;font-size:12px;font-weight:600}
+.pr-bang .giam-nhe{color:var(--gia)}
+.pr-bang .o-re{background:var(--ngoc-nhat)}
+.pr-bang .o-re b{color:var(--ngoc)}
+.pr-bang .vung-mo td b,.pr-bang .vung-mo th{color:var(--phu);font-weight:600}
+.pr-bang .vung-phu{color:var(--phu);font-weight:500}
+.pr-bang .vung-may{color:var(--ngoc-dam);font-weight:700}
+.pr-chu{font-size:13px}
+.gm-nut{display:flex;gap:10px 14px;flex-wrap:wrap;align-items:center}
+.gm-ps{display:inline-block;background:var(--ngoc);color:#fff;font-weight:700;font-size:14px;border-radius:var(--r-nho);padding:10px 16px;text-decoration:none}
+.gm-ps:hover{filter:brightness(.93)}
+.gm-lien{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.gm-lien a{display:block;padding:9px 12px;border:1px solid var(--vien);border-radius:8px;text-decoration:none;font-size:14px;overflow-wrap:anywhere}
+.gm-lien a:hover{border-color:var(--ngoc);color:var(--ngoc)}
+.gm-chan{font-size:12.5px}
+.ds-thanh{display:flex;flex-wrap:wrap;gap:6px}
+.ds-thanh a,.ds-thanh span{min-width:34px;text-align:center;padding:5px 9px;border:1px solid var(--vien);border-radius:8px;font-size:13.5px;font-weight:700;text-decoration:none}
+.ds-thanh a:hover{border-color:var(--ngoc);color:var(--ngoc)}
+.ds-thanh .ds-dang{background:var(--ngoc);border-color:var(--ngoc);color:#fff}
+.ds-ds{list-style:none;margin:0;padding:0}
+.ds-ds li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--vien)}
+.ds-ds a{font-weight:600;text-decoration:none;overflow-wrap:anywhere}
+.ds-ds a:hover{color:var(--ngoc)}
+.ds-ds small{color:var(--phu);font-size:12.5px;text-align:right;flex:none;max-width:45%}
+@media (max-width:560px){
+  .gm-bia{width:84px;height:84px}
+  .gm-dau h1{font-size:19px}
+  .pr-gia{font-size:26px}
+  .pr-bang th,.pr-bang td{padding:9px 8px}
+}
