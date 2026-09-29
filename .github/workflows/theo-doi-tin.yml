@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   # Bật 29/09/2026 23:45 sau lượt chạy đầu xanh (run 36599322758). GitHub có thể trễ lịch vài phút lúc đông.
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "3-59/10 * * * *"   # phút 3,13,23… — tránh đầu giờ (GitHub hay trễ/bỏ lượt lịch lúc :00)
 
 permissions:
   contents: write
