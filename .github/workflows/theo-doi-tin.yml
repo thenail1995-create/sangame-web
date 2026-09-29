@@ -2,9 +2,9 @@ name: Theo dõi tin PlayStation
 
 on:
   workflow_dispatch:
-  # Chưa bật lịch — Opus bật sau khi kiểm (bỏ dấu # hai dòng dưới):
-  # schedule:
-  #   - cron: "*/10 * * * *"
+  # Bật 29/09/2026 23:45 sau lượt chạy đầu xanh (run 36599322758). GitHub có thể trễ lịch vài phút lúc đông.
+  schedule:
+    - cron: "*/10 * * * *"
 
 permissions:
   contents: write
