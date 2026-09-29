@@ -20,7 +20,7 @@
 <style>
 
 :root{color-scheme:light;--nen:#F3F4F6;--the:#FFFFFF;--vien:#E6E8EC;--vien-dam:#D3D7DE;--chu:#1A1D23;--phu:#6B7280;
-  --ngoc:#0A7B79;--ngoc-dam:#07615F;--ngoc-nhat:#E4F4F3;--ngoc-logo:#20C3C0;--do:#E0302F;--do-nhat:#FDEDEC;--gia:#E8431E;
+  --ngoc:#0067C8;--ngoc-dam:#0B3E8C;--ngoc-nhat:#E8F1FD;--ngoc-logo:#0070D1;--do:#E0302F;--do-nhat:#FDEDEC;--gia:#E8431E;
   --vang:#FFD23F;--xanh-dam:#0B2552;--xanh-dam-2:#123A7A;--xam-thanh:#E9ECF0;--ps:#0B3E8C;
   --bong:0 1px 2px rgba(16,24,40,.04);--bong-noi:0 6px 18px rgba(16,24,40,.10);--r:10px;--r-nho:8px}
 *{box-sizing:border-box}
@@ -183,6 +183,68 @@ footer a{color:#DDE2EA}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
 
+/* ── Banner trượt (kiểu băng chuyền đầu trang Sonkwo/SMZDM): nền = banner 16:9 của chính PS Store ── */
+.bn-tq{position:relative;border-radius:var(--r);overflow:hidden;background:#0B2552;aspect-ratio:1200/360;max-height:380px;box-shadow:var(--bong-noi)}
+.bn-khung{position:absolute;inset:0}
+.bn-slide{position:absolute;inset:0;background-size:cover;background-position:center 30%;opacity:0;transition:opacity .6s;text-decoration:none;color:#fff;
+  display:flex;align-items:flex-end;pointer-events:none}
+.bn-slide.dang{opacity:1;pointer-events:auto}
+.bn-slide::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,16,40,.88) 0%,rgba(6,16,40,.55) 42%,rgba(6,16,40,0) 72%)}
+.bn-chu{position:relative;padding:28px 36px 40px 66px;max-width:620px;display:grid;gap:6px}
+.bn-nhan{justify-self:start;font-size:12px;font-weight:700;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:3px 10px}
+.bn-chu h3{margin:0;font-size:30px;line-height:1.15;font-weight:800;letter-spacing:-.01em;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.bn-chu p{margin:0;font-size:15px;color:rgba(255,255,255,.9);display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.bn-chu p b{font-size:22px;color:#FFD23F}
+.bn-chu p s{color:rgba(255,255,255,.6);font-size:13px}
+.bn-giam{background:var(--do);color:#fff;font-weight:800;font-size:13px;border-radius:5px;padding:3px 7px}
+.bn-nut{justify-self:start;margin-top:6px;font-weight:700;font-size:14px;background:#fff;color:var(--ngoc-dam);border-radius:999px;padding:8px 16px}
+.bn-slide:hover .bn-nut{background:#FFD23F;color:#1A1D23}
+.bn-mui{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:38px;height:38px;border-radius:50%;padding:0;font-size:22px;line-height:1;
+  background:rgba(0,0,0,.35);color:#fff;border:1px solid rgba(255,255,255,.3)}
+.bn-mui:hover{background:rgba(0,0,0,.55);filter:none}
+.bn-mui.trai{left:12px}.bn-mui.phai{right:12px}
+.bn-cham{position:absolute;z-index:2;right:18px;bottom:14px;display:flex;gap:6px}
+.bn-cham button{width:8px;height:8px;border-radius:999px;padding:0;background:rgba(255,255,255,.45);transition:width .2s}
+.bn-cham button.dang{width:22px;background:#fff}
+
+/* ── Banner PS Plus khi gói 12 tháng đang giảm (Hào: "làm banner hẳn hoi") — đen + vàng của PS Plus ── */
+.banner-plus{display:flex;align-items:center;gap:22px;flex-wrap:wrap;text-decoration:none;color:#fff;border-radius:var(--r);padding:18px 22px;
+  background:radial-gradient(120% 160% at 0% 0%,#3A2F05 0%,#141414 45%,#0A0A0A 100%);border:1px solid #2A2A2A;box-shadow:var(--bong-noi);position:relative;overflow:hidden}
+.banner-plus::after{content:"";position:absolute;right:-60px;top:-60px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(255,199,15,.22),rgba(255,199,15,0) 70%)}
+.bp-trai{display:flex;align-items:center;gap:16px;flex:1 1 320px;min-width:0}
+.bp-logo{width:64px;height:64px;border-radius:14px;flex:none;box-shadow:0 4px 16px rgba(255,199,15,.25)}
+.bp-trai p{margin:0}
+.bp-nhan{font-size:12px;font-weight:700;color:#FFC70F;letter-spacing:.03em;text-transform:uppercase}
+.bp-to{font-size:28px;font-weight:800;line-height:1.15}
+.bp-to b{color:#FFC70F}
+.bp-phu{font-size:13.5px;color:rgba(255,255,255,.78)}
+.bp-phu b{color:#fff}
+.bp-gia{list-style:none;margin:0;padding:0;display:flex;gap:10px;flex-wrap:wrap;position:relative;z-index:1}
+.bp-gia li{display:grid;gap:1px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:var(--r-nho);padding:8px 12px;min-width:118px}
+.bp-gia span{font-size:11.5px;color:rgba(255,255,255,.7);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.bp-gia b{font-size:17px;font-weight:800;color:#FFC70F;font-variant-numeric:tabular-nums}
+.bp-gia small{font-size:11.5px;color:rgba(255,255,255,.6)}
+.bp-nut{display:inline-flex;align-items:center;gap:4px;font-weight:800;font-size:14px;background:#FFC70F;color:#141414;border-radius:999px;padding:10px 18px;position:relative;z-index:1}
+.bp-nut .ic{width:16px;height:16px}
+.banner-plus:hover .bp-nut{background:#FFD84D}
+
+/* ── Thanh sắp xếp / lọc (kiểu tab 综合/史低 của trang Trung Quốc) ── */
+.thanh-loc{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--vien);padding-bottom:10px}
+.nhom-loc{display:flex;gap:6px;flex-wrap:wrap}
+.tab-sx{font:inherit;font-size:13.5px;font-weight:700;padding:6px 14px;border-radius:999px;background:transparent;color:var(--phu);border:0}
+.tab-sx:hover{color:var(--ngoc);filter:none}
+.tab-sx.dang{background:var(--ngoc-dam);color:#fff}
+.chip-loai{font:inherit;font-size:12.5px;font-weight:600;padding:5px 11px;border-radius:999px;background:var(--the);color:var(--phu);border:1px solid var(--vien)}
+.chip-loai:hover{border-color:var(--ngoc);color:var(--ngoc);filter:none}
+.chip-loai.dang{background:var(--ngoc-nhat);border-color:var(--ngoc);color:var(--ngoc-dam)}
+.nut-them{justify-self:center;background:var(--the);color:var(--ngoc-dam);border:1px solid var(--vien-dam);border-radius:999px;padding:10px 28px;font-size:14px}
+.nut-them:hover{border-color:var(--ngoc);filter:none}
+.ds-bia-gia .trong{grid-column:1/-1;color:var(--phu);padding:12px 0}
+.lien-game{display:grid;gap:4px;text-decoration:none;color:inherit}
+.lien-game:hover .ten{color:var(--ngoc)}
+.nhan-hang{position:absolute;left:0;top:0;background:rgba(11,37,82,.82);color:#fff;font-size:11px;font-weight:700;padding:3px 7px;border-bottom-right-radius:8px}
+.may-nho{font-size:11px;color:var(--phu);font-weight:600}
+
 /* ── Trang chủ kiểu cổng game Trung Quốc ── */
 /* Hàng 4 ô tổng quan (kiểu PSNine): nền nhạt khác màu, biểu tượng PS5 + tên + 1 con số thật */
 .luoi-o-tq{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
@@ -265,8 +327,10 @@ footer a{color:#DDE2EA}
 .nhan-moi{flex:none;background:var(--do);color:#fff;font-size:11px;font-weight:800;border-radius:5px;padding:3px 7px}
 
 /* ── Bìa game (Miễn phí) ── */
-.hang-bia{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+.hang-bia{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
 .hang-bia.gon{grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.hang-bia.vua{grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
+.hang-bia.vua .bia figcaption{font-size:13.5px}
 .bia{margin:0;display:grid;gap:6px;align-content:start}
 .bia img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--r-nho);display:block;background:var(--xam-thanh)}
 .bia figcaption{font-weight:600;font-size:13.5px;line-height:1.35}
@@ -382,6 +446,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
 
 @media (max-width:1100px){
   .ds-bia-gia{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .hang-bia.vua{grid-template-columns:repeat(3,minmax(0,1fr))}
   .hai-cot-tq{grid-template-columns:1fr}
   .cot-phai{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
   .cot-phai > section:last-child{grid-column:1/-1}
@@ -396,7 +461,23 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
     scrollbar-width:none;margin:0 -14px;padding:0 14px 2px;gap:12px}
   .ds-bia-gia::-webkit-scrollbar{display:none}
   .ds-bia-gia li{scroll-snap-align:start}
-  #giam .ds-bia-gia{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;margin:0;padding:0}
+  .khoi-giam .ds-bia-gia{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;margin:0;padding:0}
+  .bn-tq{aspect-ratio:16/10;max-height:none}
+  .bn-chu{padding:16px 16px 34px}
+  .bn-chu h3{font-size:20px}
+  .bn-chu p b{font-size:18px}
+  .bn-mui{display:none}
+  .bn-slide::before{background:linear-gradient(0deg,rgba(6,16,40,.92) 0%,rgba(6,16,40,.5) 55%,rgba(6,16,40,.05) 100%)}
+  .banner-plus{padding:16px;gap:14px}
+  .bp-to{font-size:23px}
+  .bp-logo{width:52px;height:52px}
+  .bp-gia{width:100%}
+  .bp-gia li{flex:1 1 0;min-width:0;padding:7px 9px}
+  .bp-gia b{font-size:14.5px}
+  .hang-bia.vua{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:44%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0 -14px;padding:0 14px 2px}
+  .hang-bia.vua .bia{scroll-snap-align:start}
+  .thanh-loc{gap:8px}
+  .ds-bia-gia .quy-doi-nho{display:none}
   .cot-phai{grid-template-columns:1fr}
   .ds-giam,.ba-cot,.hai-cot,.tra{grid-template-columns:1fr}
   .hang-bia{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
@@ -456,7 +537,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
     <div class="hai-cot">
       <div class="the"><h3 class="tieu"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Trước khi chuyển tiền, kiểm 5 điều</h3>
         <ul class="kiem">
-          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Giá có rẻ hơn hẳn giá chính hãng không?</b><span>PS Plus Essential 12 tháng chính hãng rẻ nhất hôm nay: 1.389.000đ. Rẻ hơn nhiều là dấu hiệu xấu.</span></div></li>
+          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Giá có rẻ hơn hẳn giá chính hãng không?</b><span>PS Plus Essential 12 tháng chính hãng rẻ nhất hôm nay: 1.386.000đ. Rẻ hơn nhiều là dấu hiệu xấu.</span></div></li>
           <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Người bán có chịu gặp hoặc gọi video không?</b><span>Không chịu thì bỏ qua.</span></div></li>
           <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Có đang bị hối chuyển tiền gấp không?</b><span>Hối gấp là chiêu quen thuộc.</span></div></li>
           <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Link có đúng trang chính thức không?</b><span>Không đăng nhập vào link lạ. Tra link ở hai trang bên dưới.</span></div></li>
@@ -485,7 +566,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
     <p class="luu-y"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Từ 01/07/2026, người chơi mua bán vật phẩm ảo, đơn vị ảo trong game online có thể bị phạt 2–3 triệu đồng (Nghị định 174/2026/NĐ-CP). <a href="https://thanhnien.vn/tu-ngay-17-mua-ban-vat-pham-ao-trong-game-co-the-bi-phat-den-3-trieu-dong-185260526084547464.htm" rel="noopener">Đọc thêm</a></span></p>
   </section>
 
-  <p class="phu" style="max-width:1040px">Săn Game tự thu thập giá từ PlayStation Store. Tỷ giá: open.er-api.com (Mon, 28 Sep 2026 00:02:31 +0000). Cập nhật 28/09/2026.</p>
+  <p class="phu" style="max-width:1040px">Săn Game tự thu thập giá từ PlayStation Store. Tỷ giá: open.er-api.com (Tue, 29 Sep 2026 00:02:31 +0000). Cập nhật 29/09/2026.</p>
 </main>
 <footer><div class="rong">
   <div>Săn Game là trang cá nhân tự tra giá game console. Không liên kết với Sony, Microsoft hay hãng game nào; tên game và nhãn hiệu thuộc chủ sở hữu.</div>
@@ -565,7 +646,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
 </script>
 <script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.parentNode;
 function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
-function giua(){var a=n.querySelector('[aria-current="page"]');if(a&&a.offsetLeft+a.offsetWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-(n.clientWidth-a.offsetWidth)/2;u();}
+function giua(){var a=n.querySelector('[aria-current="page"]');if(a){var r=a.getBoundingClientRect(),rn=n.getBoundingClientRect();if(r.left<rn.left||r.right>rn.right)n.scrollLeft+=r.left-rn.left-(rn.width-r.width)/2;}u();}
 n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(giua);addEventListener('load',giua);}
 var t=document.getElementById('len-dau');if(t){var hien=function(){t.classList.toggle('hien',scrollY>600);};
