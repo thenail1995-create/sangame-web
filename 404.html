@@ -202,7 +202,9 @@ footer a{color:#DDE2EA}
 <script>
 (function(){
   var KHOA = "sangame_vung", MAC_DINH = "US";
+  var vungHienTai = null;  // vùng đang chọn giữ trong biến JS — localStorage chỉ là chỗ nhớ phụ (có thể bị chặn)
   function docVung(){
+    if (vungHienTai) return vungHienTai;
     try { return localStorage.getItem(KHOA) || MAC_DINH; } catch (err) { return MAC_DINH; }
   }
   function apPanel(vung){
@@ -255,7 +257,8 @@ footer a{color:#DDE2EA}
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(datTruot);
   function ve(){ var v = docVung(); apPanel(v); apNut(v); }
   function chonVung(vung){
-    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua */ }
+    vungHienTai = vung;
+    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua, biến JS đã giữ vùng */ }
     ve();
     window.dispatchEvent(new CustomEvent("sangame-vung", { detail: vung }));
   }

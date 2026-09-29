@@ -263,7 +263,9 @@ footer a{color:#DDE2EA}
 <script>
 (function(){
   var KHOA = "sangame_vung", MAC_DINH = "US";
+  var vungHienTai = null;  // vùng đang chọn giữ trong biến JS — localStorage chỉ là chỗ nhớ phụ (có thể bị chặn)
   function docVung(){
+    if (vungHienTai) return vungHienTai;
     try { return localStorage.getItem(KHOA) || MAC_DINH; } catch (err) { return MAC_DINH; }
   }
   function apPanel(vung){
@@ -316,7 +318,8 @@ footer a{color:#DDE2EA}
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(datTruot);
   function ve(){ var v = docVung(); apPanel(v); apNut(v); }
   function chonVung(vung){
-    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua */ }
+    vungHienTai = vung;
+    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua, biến JS đã giữ vùng */ }
     ve();
     window.dispatchEvent(new CustomEvent("sangame-vung", { detail: vung }));
   }
@@ -357,22 +360,25 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   // g = [ten, loai, ma_may, gia[]] (đúng cấu trúc tim-gia.json — xem lay-bang-gia.py). Mục B: giá
   // hiện theo ĐÚNG vùng đang chọn (không phải rẻ nhất trong tất cả vùng); mục C: dòng chính đổi
   // bằng giá thẻ PSN (gia-the-vung.json) khi vùng đó có, dòng phụ nhỏ là tỷ giá ngân hàng.
+  // C5: vùng thiếu dữ liệu -> thieu (KHÔNG khẳng định "không bán"); C1: giaMua null -> chuaCoGia.
   function trangThaiGia(g, data, giaThe, vungChon){
     var idx = data.vung.indexOf(vungChon);
     if (idx < 0) return null;
     var tenVung = data.ten_vung[idx];
     var v = (g[3] || [])[idx];
-    if (!v) return { khongBan: true, tenVung: tenVung };
+    if (!Array.isArray(v)) return { thieu: true, tenVung: tenVung };
+    var gm = window.SGCS.giaMua(v);
+    if (gm == null) return { chuaCoGia: true, tenVung: tenVung };
     var theoThe = !!(giaThe && giaThe.the[idx] != null);
     var rChinh = theoThe ? giaThe.the[idx] : data.ty_gia[idx];
-    return { khongBan: false, giam: v[2] > 0, phanTram: v[2], vnd: v[1] * rChinh,
-             vndBank: v[1] * data.ty_gia[idx], theoThe: theoThe, tenVung: tenVung };
+    return { giam: v[2] > 0, phanTram: v[2], vnd: gm * rChinh, mienPhi: gm === 0,
+             vndBank: gm * data.ty_gia[idx], theoThe: theoThe, tenVung: tenVung };
   }
 
   // Mục G: game "đã đạt ngưỡng" khi có đặt ngưỡng (item.nguong, VNĐ), game có bán ở vùng đang
-  // chọn (tt không null/không khongBan) và giá hiện tại (tt.vnd, đã theo giá thẻ nếu có) <= ngưỡng.
+  // chọn (tt không null, có giá) và giá hiện tại (tt.vnd, đã theo giá thẻ nếu có) <= ngưỡng.
   function datNguongRoi(item, tt){
-    return item.nguong != null && !!tt && !tt.khongBan && tt.vnd <= item.nguong;
+    return item.nguong != null && !!tt && tt.vnd != null && tt.vnd <= item.nguong;
   }
 
   function veThe(item, tt){
@@ -380,15 +386,21 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     var datRoi = datNguongRoi(item, tt);
     if (!tt) {
       dong = "Chưa có dữ liệu giá hôm nay.";
-    } else if (tt.khongBan) {
-      dong = "Game này không bán ở vùng đang chọn (" + escHtml(tt.tenVung) + ").";
+    } else if (tt.nhieu) {
+      dong = 'Có nhiều phiên bản — vào <a href="tim-gia.html?q=' + encodeURIComponent(item.ten) +
+        '">Tìm giá</a> bấm Chờ sale lại.';
+    } else if (tt.thieu) {
+      dong = "Chưa có giá vùng " + escHtml(tt.tenVung) + " trong dữ liệu hôm nay.";
+    } else if (tt.chuaCoGia) {
+      dong = "Chưa có giá ở " + escHtml(tt.tenVung) + ".";
     } else if (tt.giam) {
       lop += " cs-dang-giam";
       nhan = '<span class="cs-nhan">−' + tt.phanTram + '%</span>';
       dong = "Đang giảm " + tt.phanTram + "% — " + dongVnd(tt.vnd) + " ở " + escHtml(tt.tenVung);
       if (tt.theoThe) quyDoi = '<p class="cs-quy-doi-nho">≈ ' + dongVnd(tt.vndBank) + ' theo tỷ giá ngân hàng</p>';
     } else {
-      dong = "Chưa giảm — " + dongVnd(tt.vnd) + " ở " + escHtml(tt.tenVung);
+      dong = tt.mienPhi ? "Miễn phí ở " + escHtml(tt.tenVung)
+        : "Chưa giảm — " + dongVnd(tt.vnd) + " ở " + escHtml(tt.tenVung);
       if (tt.theoThe) quyDoi = '<p class="cs-quy-doi-nho">≈ ' + dongVnd(tt.vndBank) + ' theo tỷ giá ngân hàng</p>';
     }
     if (datRoi && lop.indexOf("cs-dang-giam") < 0) lop += " cs-dat-nguong";
@@ -436,13 +448,14 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     }
     if (hopRong) hopRong.hidden = true;
     var vungChon = window.SGVUNG ? window.SGVUNG.doc() : "US";
-    var theoKhoa = {};
-    if (data && data.game) {
-      for (var i = 0; i < data.game.length; i++) theoKhoa[window.SGCS.boDau(data.game[i][0])] = data.game[i];
-    }
+    var chiMuc = data ? window.SGCS.chiMucDong(data) : {};
     var xep = ds.map(function(item){
-      var g = theoKhoa[item.khoa];
-      return { item: item, tt: (g && data) ? trangThaiGia(g, data, giaThe, vungChon) : null };
+      // C4: chọn đúng dòng theo (khoá, mã máy, loại); mục cũ trùng nhiều dòng -> tt.nhieu.
+      var c = data ? window.SGCS.chonDong(item, chiMuc[item.khoa]) : null;
+      var tt = null;
+      if (c && c.nhieu) tt = { nhieu: true };
+      else if (c && c.dong) tt = trangThaiGia(c.dong, data, giaThe, vungChon);
+      return { item: item, tt: tt };
     });
     xep.sort(function(a, b){
       var ha = xepHang(a), hb = xepHang(b);

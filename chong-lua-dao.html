@@ -547,7 +547,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
     <div class="hai-cot">
       <div class="the"><h3 class="tieu"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Trước khi chuyển tiền, kiểm 5 điều</h3>
         <ul class="kiem">
-          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Giá có rẻ hơn hẳn giá chính hãng không?</b><span>PS Plus Essential 12 tháng chính hãng rẻ nhất hôm nay: 1.386.000đ. Rẻ hơn nhiều là dấu hiệu xấu.</span></div></li>
+          <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Giá có rẻ hơn hẳn giá chính hãng không?</b><span>PS Plus Essential 12 tháng chính hãng rẻ nhất hôm nay: 1.488.000đ. Rẻ hơn nhiều là dấu hiệu xấu.</span></div></li>
           <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Người bán có chịu gặp hoặc gọi video không?</b><span>Không chịu thì bỏ qua.</span></div></li>
           <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Có đang bị hối chuyển tiền gấp không?</b><span>Hối gấp là chiêu quen thuộc.</span></div></li>
           <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><div><b>Link có đúng trang chính thức không?</b><span>Không đăng nhập vào link lạ. Tra link ở hai trang bên dưới.</span></div></li>
@@ -588,7 +588,9 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
 <script>
 (function(){
   var KHOA = "sangame_vung", MAC_DINH = "US";
+  var vungHienTai = null;  // vùng đang chọn giữ trong biến JS — localStorage chỉ là chỗ nhớ phụ (có thể bị chặn)
   function docVung(){
+    if (vungHienTai) return vungHienTai;
     try { return localStorage.getItem(KHOA) || MAC_DINH; } catch (err) { return MAC_DINH; }
   }
   function apPanel(vung){
@@ -641,7 +643,8 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(datTruot);
   function ve(){ var v = docVung(); apPanel(v); apNut(v); }
   function chonVung(vung){
-    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua */ }
+    vungHienTai = vung;
+    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua, biến JS đã giữ vùng */ }
     ve();
     window.dispatchEvent(new CustomEvent("sangame-vung", { detail: vung }));
   }

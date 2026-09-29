@@ -208,6 +208,7 @@ footer a{color:#DDE2EA}
 .gia-vung li.re-nhat{background:var(--ngoc-nhat)}
 .gia-vung li.re-nhat .ten-vung,.gia-vung li.re-nhat .so-tien b{color:var(--ngoc)}
 .gia-vung li.vung-chon{box-shadow:inset 0 0 0 1.5px var(--ngoc)}
+.gia-vung .chua-co-gia{color:var(--phu);font-weight:600;font-size:13.5px}
 .tim-gia-trong{color:var(--phu);font-size:15px;margin:0}
 .the-game .nut-cho-sale{margin-top:2px;justify-self:start}
 
@@ -243,7 +244,9 @@ footer a{color:#DDE2EA}
 <script>
 (function(){
   var KHOA = "sangame_vung", MAC_DINH = "US";
+  var vungHienTai = null;  // vùng đang chọn giữ trong biến JS — localStorage chỉ là chỗ nhớ phụ (có thể bị chặn)
   function docVung(){
+    if (vungHienTai) return vungHienTai;
     try { return localStorage.getItem(KHOA) || MAC_DINH; } catch (err) { return MAC_DINH; }
   }
   function apPanel(vung){
@@ -296,7 +299,8 @@ footer a{color:#DDE2EA}
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(datTruot);
   function ve(){ var v = docVung(); apPanel(v); apNut(v); }
   function chonVung(vung){
-    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua */ }
+    vungHienTai = vung;
+    try { localStorage.setItem(KHOA, vung); } catch (err) { /* riêng tư/đầy bộ nhớ: bỏ qua, biến JS đã giữ vùng */ }
     ve();
     window.dispatchEvent(new CustomEvent("sangame-vung", { detail: vung }));
   }
@@ -341,6 +345,30 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     if (GIA_THE && GIA_THE.the[i] != null) return GIA_THE.the[i];
     return DATA.ty_gia[i];
   }
+  // C1: giá MUA thật của 1 vùng, v = [goc, con, giam, gia_plus?]. `con` hợp lệ -> dùng; `con` null mà
+  // không giảm và `goc` hợp lệ -> goc; còn lại null ("Chưa có giá"). 0 là giá thật (miễn phí).
+  function soHopLe(x){ return typeof x === "number" && isFinite(x) && x >= 0; }
+  function giaMua(v){
+    if (!Array.isArray(v)) return null;
+    if (soHopLe(v[1])) return v[1];
+    if (!(v[2] > 0) && soHopLe(v[0])) return v[0];
+    return null;
+  }
+  function vungCu(i){
+    return !!(DATA.vung_cu && DATA.vung_cu.indexOf(DATA.vung[i]) >= 0);
+  }
+  // Số dòng cùng khoá tên (để nút Chờ sale biết mục cũ không có mã máy còn khớp được không).
+  var _demKhoa = null;
+  function khoaDuyNhat(khoa){
+    if (!_demKhoa) {
+      _demKhoa = Object.create(null); // R3: tên game như "Constructor" không đụng Object.prototype
+      for (var q = 0; q < DATA.game.length; q++) {
+        var k = window.SGCS ? window.SGCS.boDau(DATA.game[q][0]) : "";
+        _demKhoa[k] = (_demKhoa[k] || 0) + 1;
+      }
+    }
+    return _demKhoa[khoa] === 1;
+  }
   function coGiaThe(i){
     return !!(GIA_THE && GIA_THE.the[i] != null);
   }
@@ -353,7 +381,11 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     ]).then(function(ket){
       DATA = ket[0];
       GIA_THE = ket[1];
-      if (capNhat) capNhat.textContent = "Giá thẻ PSN + tỷ giá ngân hàng, cập nhật " + DATA.cap_nhat + ".";
+      // C3: hai nguồn có ngày riêng — ghi tách, không gộp chung 1 ngày.
+      if (capNhat) {
+        var ngayThe = GIA_THE && GIA_THE.ngay ? GIA_THE.ngay : "chưa rõ";
+        capNhat.textContent = "Giá game cập nhật " + DATA.cap_nhat + " · giá thẻ PSN ngày " + ngayThe + ".";
+      }
       trangThai.textContent = "";
       xuLyThamSoUrl();
     }).catch(function(){
@@ -388,21 +420,36 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     var dong = [], reNhat = -1, vndReNhat = Infinity;
     for (var i = 0; i < DATA.vung.length; i++) {
       var v = gia[i];
-      if (!v) continue;
+      if (!Array.isArray(v)) continue;
       var r = rateChinh(i);
-      var vndGoc = v[0] * r, vndCon = v[1] * r;
-      var vndConBank = v[1] * DATA.ty_gia[i];
-      dong.push({ i: i, vndGoc: vndGoc, vndCon: vndCon, vndConBank: vndConBank, giam: v[2], theoThe: coGiaThe(i) });
-      // "Vùng rẻ nhất" tính theo giá thẻ (luật C) — rateChinh() đã ưu tiên giá thẻ.
-      if (vndCon < vndReNhat) { vndReNhat = vndCon; reNhat = dong.length - 1; }
+      var gm = giaMua(v);
+      var d = { i: i, giam: v[2], theoThe: coGiaThe(i), chuaCoGia: gm == null, cu: vungCu(i) };
+      if (gm != null) {
+        d.gm = gm;
+        d.vndGoc = soHopLe(v[0]) ? v[0] * r : null;
+        d.vndCon = gm * r;
+        d.vndConBank = gm * DATA.ty_gia[i];
+        if (soHopLe(v[3])) d.vndPlus = v[3] * r; // ô thứ 4 (A5): giá hội viên PS Plus
+      }
+      dong.push(d);
+      // "Vùng rẻ nhất" tính theo giá thẻ (luật C) — rateChinh() đã ưu tiên giá thẻ; vùng chưa có giá
+      // KHÔNG xét (trước đây null bị coi là 0đ và luôn thắng).
+      if (gm != null && d.vndCon < vndReNhat) { vndReNhat = d.vndCon; reNhat = dong.length - 1; }
     }
     var hangHtml = dong.map(function(d, idx){
-      var giaHtml = d.giam
-        ? '<span class="giam">−' + d.giam + '%</span><b>' + dongVnd(d.vndCon) + '</b><s>' + dongVnd(d.vndGoc) + '</s>'
-        : '<b>' + dongVnd(d.vndCon) + '</b>';
-      // Dòng phụ nhỏ theo tỷ giá ngân hàng — chỉ hiện khi dòng chính THỰC SỰ là giá thẻ (khác số
-      // với ngân hàng); vùng không có thẻ (rơi về ngân hàng) thì 2 số bằng nhau, không lặp lại.
-      var quyDoi = d.theoThe ? '<span class="quy-doi-nho">≈ ' + dongVnd(d.vndConBank) + ' theo tỷ giá ngân hàng</span>' : "";
+      var giaHtml, quyDoi = "";
+      if (d.chuaCoGia) {
+        giaHtml = '<b class="chua-co-gia">Chưa có giá</b>';
+      } else {
+        if (d.gm === 0) giaHtml = '<b>Miễn phí</b>';
+        else if (d.giam > 0 && d.vndGoc != null) giaHtml = '<span class="giam">−' + d.giam + '%</span><b>' + dongVnd(d.vndCon) + '</b><s>' + dongVnd(d.vndGoc) + '</s>';
+        else giaHtml = '<b>' + dongVnd(d.vndCon) + '</b>';
+        // Dòng phụ nhỏ theo tỷ giá ngân hàng — chỉ hiện khi dòng chính THỰC SỰ là giá thẻ (khác số
+        // với ngân hàng); vùng không có thẻ (rơi về ngân hàng) thì 2 số bằng nhau, không lặp lại.
+        if (d.theoThe && d.gm > 0) quyDoi = '<span class="quy-doi-nho">≈ ' + dongVnd(d.vndConBank) + ' theo tỷ giá ngân hàng</span>';
+        if (d.vndPlus != null) quyDoi += '<span class="quy-doi-nho">Hội viên PS Plus: ' + (d.vndPlus === 0 ? "Miễn phí" : dongVnd(d.vndPlus)) + '</span>';
+      }
+      if (d.cu) quyDoi += '<span class="quy-doi-nho">giá cũ (vùng chưa lấy được hôm nay)</span>';
       var lop = (idx === reNhat ? "re-nhat" : "") + (vungChon === DATA.vung[d.i] ? " vung-chon" : "");
       return '<li class="' + lop + '">' +
         '<span class="ten-vung">' + DATA.ten_vung[d.i] + '</span>' +
@@ -412,9 +459,14 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     // "Chờ sale": mọi thẻ ở đây LẤY THẲNG từ tim-gia.json nên khoá luôn khớp được (100%, khác
     // Kho PS Plus/"Đang giảm sâu" phải lọc) — gắn nút khi có window.SGCS (nạp qua cho-sale.js).
     var khoa = window.SGCS ? window.SGCS.boDau(ten) : "";
+    // C4: lưu thêm mã máy (g[2]) + loại (g[1]) để Chờ sale chọn đúng phiên bản trùng tên.
+    var dv = window.SGCS ? window.SGCS.dauVan(g) : { vt: -1, goc: null };
     var nutChoSale = khoa
       ? '<button type="button" class="nut-cho-sale" data-cs-khoa="' + escHtml(khoa) + '" data-cs-ten="' +
-        escHtml(ten) + '" aria-pressed="false">☆ Chờ sale</button>'
+        escHtml(ten) + '" data-cs-may="' + escHtml(String(g[2] == null ? "" : g[2])) + '" data-cs-loai="' +
+        escHtml(String(loai || 0)) + '" data-cs-vt="' + dv.vt + '"' +
+        (dv.goc != null ? ' data-cs-goc="' + dv.goc + '"' : "") + (khoaDuyNhat(khoa) ? ' data-cs-duy="1"' : "") +
+        ' aria-pressed="false">☆ Chờ sale</button>'
       : "";
     return '<article class="the the-game">' +
       '<div class="dau-the"><h3>' + escHtml(ten) + '</h3>' + nhanLoai + '</div>' +
@@ -429,6 +481,8 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
 
   function ve(tu){
     if (!tu) { hopKq.innerHTML = ""; trangThai.textContent = ""; return; }
+    // C2: dữ liệu chưa tải xong thì đừng báo "không tìm thấy" — taiDuLieu() sẽ vẽ lại khi xong.
+    if (!DATA) { trangThai.textContent = "Đang tải dữ liệu…"; return; }
     var ket = timKiem(tu);
     if (!ket.length) {
       hopKq.innerHTML = "";
@@ -442,7 +496,10 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
 
   function xuLyThamSoUrl(){
     var q = new URLSearchParams(location.search).get("q");
-    if (q) { oTim.value = q; ve(q); }
+    // R4: chỉ dùng q của URL nếu người dùng CHƯA gõ gì trong lúc chờ tải (ô rỗng); đã gõ thì giữ chữ đó.
+    if (q && !oTim.value) oTim.value = q;
+    // C2: gõ trước khi tải xong -> giờ vẽ ngay kết quả cho chữ đang có trong ô.
+    if (oTim.value) ve(oTim.value);
   }
 
   var cho;
