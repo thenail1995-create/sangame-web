@@ -203,7 +203,7 @@ footer a{color:#DDE2EA}
 .bai{max-width:720px;margin:0 auto;background:var(--the);border:1px solid var(--vien);border-radius:var(--r);padding:22px 24px;box-shadow:var(--bong);min-width:0}
 .bai h1{margin:0 0 6px;font-size:26px;line-height:1.3;font-weight:800;overflow-wrap:anywhere}
 .bai-meta{margin:0 0 14px;color:var(--phu);font-size:13.5px}
-.bai-anh{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:#0B2552;border-radius:12px;margin:0 0 16px}
+.bai-anh{border-radius:12px;margin:0 0 16px}
 .bai-than{font-size:16px;line-height:1.7;overflow-wrap:anywhere}
 .bai-than h2{display:block;margin:26px 0 8px;font-size:20px;line-height:1.35}
 .bai-than h3{margin:20px 0 6px;font-size:17px;line-height:1.4}
@@ -219,6 +219,26 @@ footer a{color:#DDE2EA}
 .bai-quay-lai a{color:var(--ngoc);font-weight:600}
 @media(max-width:600px){.bai{padding:16px 14px}.bai h1{font-size:22px}}
 
+.at{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;container-type:inline-size;color:#fff;background:#0B2552}
+.at-don img{display:block;width:100%;height:100%;object-fit:cover}
+.at-tt{display:grid;place-items:center;background:linear-gradient(135deg,#0B3E8C,#0B2552)}
+.at-tt img{width:28cqw;height:auto}
+.at-plus{display:flex;align-items:center;padding:0 7%;background:radial-gradient(120% 170% at 0% 0%,#3A2F05 0%,#141414 55%,#0A0A0A 100%)}
+.at-plus::after{content:"";position:absolute;right:-14cqw;top:-20cqw;width:60cqw;height:60cqw;border-radius:50%;background:radial-gradient(circle,rgba(255,199,15,.32),rgba(255,199,15,0) 70%)}
+.at-logo{width:34cqw;height:auto;flex:none;margin-right:5cqw;position:relative;z-index:1;filter:drop-shadow(0 2cqw 3cqw rgba(0,0,0,.55))}
+.at-chu{position:relative;z-index:1;display:grid;gap:1.2cqw;min-width:0}
+.at-tren{font-size:4.4cqw;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#FFC70F;line-height:1.1}
+.at-nhan{font-size:18cqw;font-weight:800;line-height:.95;color:#FFC70F;letter-spacing:-.03em;white-space:nowrap}
+.at-phu{font-size:4.8cqw;font-weight:700;color:#fff;line-height:1.25}
+.at-ghep{display:flex;flex-direction:column;justify-content:center;padding:0 5%;
+  background:radial-gradient(90% 120% at 100% 0%,#1F6FD1 0%,rgba(31,111,209,0) 60%),linear-gradient(160deg,#0B3E8C 0%,#0B2552 55%,#06163A 100%)}
+.at-dau{display:flex;align-items:center;justify-content:space-between;gap:3cqw;min-width:0;margin-bottom:4.5cqw}
+.at-ghep .at-tren{color:#fff;font-size:4.6cqw;letter-spacing:.06em}
+.at-pill{background:#E4572E;color:#fff;font-size:4.4cqw;font-weight:800;padding:1.3cqw 3.2cqw;border-radius:99px;white-space:nowrap;box-shadow:0 1cqw 3cqw rgba(0,0,0,.35)}
+.at-hang{display:flex;gap:2.6cqw}
+.at-hang img{flex:1 1 0;min-width:0;height:auto;aspect-ratio:1/1;object-fit:cover;border-radius:2.2cqw;box-shadow:0 1.6cqw 4cqw rgba(0,0,0,.5)}
+.at-don .at-pill{position:absolute;left:3cqw;top:3cqw}
+
 </style>
 <body>
 <div class="dau"><div class="rong dau-tren">
@@ -227,7 +247,7 @@ footer a{color:#DDE2EA}
   <a class="nut-dau" href="cho-sale.html"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg>Danh sách chờ sale</a>
 </div></div>
 <div class="kenh"><div class="rong"><nav aria-label="Mục"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Trang chủ</a><a href="bai-viet.html" aria-current="page"><img class="bt3d nav" src="bieu-tuong/tin-hot.webp" alt="" width="160" height="160">Tin hot</a><a href="kho-plus.html"><img class="bt3d nav" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160">Kho PS Plus</a><a href="ps-plus.html"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="mien-phi.html"><img class="bt3d nav" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160">Miễn phí</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="chong-lua-dao.html"><img class="bt3d nav" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160">Chống lừa đảo</a><a href="tim-gia.html"><img class="bt3d nav" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá</a><a href="ma-loi.html"><img class="bt3d nav" src="bieu-tuong/ma-loi.webp" alt="" width="160" height="160">Mã lỗi</a><a href="cho-sale.html"><img class="bt3d nav" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160">Chờ sale</a></nav></div></div>
-<main><article class="bai"><h1>PS Plus 12 tháng giảm tới 25% đến hết 30/9/2026: giá quy ra tiền Việt ở 4 vùng</h1><p class="bai-meta">29/09/2026 · PS Plus</p><img class="bai-anh" src="https://image.api.playstation.com/vulcan/ap/rnd/202204/0810/803Pm8uJoZ2Cl9fJPvTaXHqG.png?w=1280" alt="PS Plus 12 tháng giảm tới 25% đến hết 30/9/2026: giá quy ra tiền Việt ở 4 vùng" width="1280" height="720" style="object-position:50% 72%"><div class="bai-than"><h2>Tóm tắt trong ba dòng</h2>
+<main><article class="bai"><h1>PS Plus 12 tháng giảm tới 25% đến hết 30/9/2026: giá quy ra tiền Việt ở 4 vùng</h1><p class="bai-meta">29/09/2026 · PS Plus</p><span class="at at-plus bai-anh"><img class="at-logo" src="bieu-tuong/ps-plus-vang.webp" alt="" width="320" height="320"><span class="at-chu"><span class="at-tren">PlayStation Plus</span><b class="at-nhan">−25%</b><span class="at-phu">Gói 12 tháng · giảm đến hết 30/9</span></span></span><div class="bai-than"><h2>Tóm tắt trong ba dòng</h2>
 <p>Trang PS Plus của Sony đang giảm gói <strong>12 tháng</strong> ở Hồng Kông, Singapore, Thái Lan và Indonesia: Essential giảm 15%, Extra giảm 20%, Deluxe giảm 25%. Ưu đãi ghi hạn <strong>30/9/2026</strong>, trang không nêu giờ cụ thể. Mỹ và Ấn Độ không có đợt giảm này.</p>
 <h2>Giá Sony niêm yết (giá gốc, rồi giá sau giảm)</h2>
 <p>Số liệu đọc trực tiếp từ trang PS Plus của từng vùng trong ngày 29/9/2026.</p>
