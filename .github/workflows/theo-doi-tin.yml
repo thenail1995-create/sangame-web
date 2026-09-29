@@ -1,0 +1,68 @@
+name: Theo dõi tin PlayStation
+
+on:
+  workflow_dispatch:
+  # Chưa bật lịch — Opus bật sau khi kiểm (bỏ dấu # hai dòng dưới):
+  # schedule:
+  #   - cron: "*/10 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: theo-doi-tin
+  cancel-in-progress: false
+
+jobs:
+  theo-doi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Lấy mã theo dõi từ main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: ma
+          sparse-checkout: .github/theo-doi
+          sparse-checkout-cone-mode: false
+
+      - name: Lấy nhánh theo-doi (tạo nếu chưa có)
+        run: |
+          set -e
+          URL="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          # Chỉ lấy nhánh theo-doi (2 file JSON) — KHÔNG tải cả kho web (4.000+ trang game, hàng chục MB)
+          if git ls-remote --exit-code --heads "$URL" theo-doi >/dev/null 2>&1; then
+            git clone --depth 20 --single-branch --branch theo-doi "$URL" trang-thai
+          else
+            git init -q -b theo-doi trang-thai
+            cd trang-thai
+            git remote add origin "$URL"
+            echo '{}' > tin-da-thay.json
+            echo '[]' > tin-moi.json
+          fi
+
+      - name: Chạy theo dõi
+        env:
+          NTFY_TIN: ${{ secrets.NTFY_TIN }}
+        run: python3 ma/.github/theo-doi/theo_doi_tin.py --dir trang-thai
+
+      - name: Ghi trạng thái nếu có đổi
+        run: |
+          cd trang-thai
+          git config user.name "theo-doi-bot"
+          git config user.email "theo-doi-bot@users.noreply.github.com"
+          git add tin-da-thay.json tin-moi.json
+          if git diff --cached --quiet; then
+            echo "Không đổi gì."
+          else
+            git commit -m "theo-doi: cập nhật trạng thái"
+            # Đẩy lỗi thì báo trùng ở lượt sau: thử rebase + đẩy lại tối đa 3 lần (báo trùng hiếm tốt hơn mất tin)
+            ok=0
+            for i in 1 2 3; do
+              if git push origin theo-doi; then ok=1; break; fi
+              echo "Đẩy lỗi lần $i — pull --rebase rồi thử lại"
+              git pull --rebase origin theo-doi || git rebase --abort || true
+              sleep 3
+            done
+            [ "$ok" = 1 ] || { echo "Không đẩy được trạng thái sau 3 lần"; exit 1; }
+          fi
