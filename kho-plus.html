@@ -189,6 +189,27 @@ footer a{color:#DDE2EA}
 #kho-plus .phu{color:var(--phu);font-size:14px;margin:0}
 #kho-plus .kp-nho{margin:0;font-size:14.5px;font-weight:700;color:var(--phu)}
 
+#kho-plus .kp-gt{display:grid;gap:12px;scroll-margin-top:64px}
+#kho-plus .kp-gt h2{font-size:18px}
+#kho-plus .kp-goi-luoi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:760px){#kho-plus .kp-goi-luoi{grid-template-columns:minmax(0,1fr)}}
+#kho-plus .kp-goi-the{display:grid;align-content:start;gap:8px;padding:14px;border:1px solid var(--vien);
+  border-radius:14px;background:var(--nen)}
+#kho-plus .kp-goi-cao{border-color:var(--ngoc);background:var(--ngoc-nhat)}
+#kho-plus .kp-goi-ten{font-size:17px;font-weight:800;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+#kho-plus .kp-goi-ten span{font-size:12.5px;font-weight:600;color:var(--phu)}
+#kho-plus .kp-goi-the ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+#kho-plus .kp-goi-the li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:6px;font-size:14px;line-height:1.45}
+#kho-plus .kp-dau{font-weight:800;color:var(--phu)}
+#kho-plus .kp-dau-them{color:var(--ngoc)}
+#kho-plus .kp-goi-chu{margin:0;font-size:13px;line-height:1.45;color:var(--phu)}
+#kho-plus .kp-goi-cuoi a{font-weight:600;margin-right:10px;white-space:nowrap}
+#kho-plus .kp-buoc{margin:0;padding-left:22px;display:grid;gap:12px}
+#kho-plus .kp-buoc li{font-size:14.5px;line-height:1.5}
+#kho-plus .kp-buoc li::marker{font-weight:800;color:var(--ngoc)}
+#kho-plus .kp-buoc li span{display:block;color:var(--phu);font-size:14px;margin-top:2px}
+#kho-plus .kp-buoc li span b{color:var(--chu)}
+
 #kho-plus .kp-moi-khoi{gap:8px}
 #kho-plus .kp-moi-khoi:not([hidden]){display:grid}
 #kho-plus .kp-sap-roi-khoi{gap:8px}
@@ -243,9 +264,64 @@ footer a{color:#DDE2EA}
 <div class="kenh"><div class="rong"><nav aria-label="Mục"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Trang chủ</a><a href="kho-plus.html" aria-current="page"><img class="bt3d nav" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160">Kho PS Plus</a><a href="ps-plus.html"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="mien-phi.html"><img class="bt3d nav" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160">Miễn phí</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="chong-lua-dao.html"><img class="bt3d nav" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160">Chống lừa đảo</a><a href="tim-gia.html"><img class="bt3d nav" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160">Tìm giá</a><a href="ma-loi.html"><img class="bt3d nav" src="bieu-tuong/ma-loi.webp" alt="" width="160" height="160">Mã lỗi</a><a href="cho-sale.html"><img class="bt3d nav" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160">Chờ sale</a></nav></div></div>
 <main>
 <section id="kho-plus">
-  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Kho game PS Plus</h1><p>Có gói <b>Extra</b> là chơi được toàn bộ game Extra bên dưới (thêm ngoài game
-    tháng của Essential); gói <b>Premium/Deluxe</b> có thêm phần <b>Classics</b> — game
-    PS1/PS2/PS3/PSP kinh điển. <span id="kp-tt">Đang tải số liệu…</span></p></div></div>
+  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/kho-plus.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Kho game PS Plus</h1><p>Game chơi được khi có gói <b>Extra</b>; gói <b>Deluxe / Premium</b> có thêm phần
+    <b>Classics</b>. <a href="#kp-goi">3 gói khác nhau thế nào?</a> <span id="kp-tt">Đang tải số liệu…</span></p></div></div>
+
+  <div class="the kp-gt" id="kp-goi">
+    <h2>3 gói PS Plus khác nhau thế nào</h2>
+    <p class="phu">Gói sau có đủ mọi thứ của gói trước, cộng thêm phần đánh dấu <b>+</b>.</p>
+    <div class="kp-goi-luoi">
+      <div class="kp-goi-the">
+        <div class="kp-goi-ten">Essential <span>gói cơ bản</span></div>
+        <ul>
+          <li><span class="kp-dau" aria-hidden="true">✓</span><span><b>Game tặng mỗi tháng</b> — nhận vào thư viện, chơi được khi còn gói</span></li>
+          <li><span class="kp-dau" aria-hidden="true">✓</span><span><b>Chơi online</b> các game trả phí (game miễn phí như Fortnite, Warzone thì không cần gói)</span></li>
+          <li><span class="kp-dau" aria-hidden="true">✓</span><span>Giảm giá riêng cho thành viên, quà trong game</span></li>
+          <li><span class="kp-dau" aria-hidden="true">✓</span><span>Lưu save trên mây (cloud storage), Share Play chơi cùng bạn</span></li>
+        </ul>
+        <p class="kp-goi-chu">Không có kho game.</p>
+      </div>
+      <div class="kp-goi-the">
+        <div class="kp-goi-ten">Extra <span>có kho game</span></div>
+        <ul>
+          <li><span class="kp-dau kp-dau-them" aria-hidden="true">+</span><span><b>Kho game Extra</b> — <b class="kp-sl-extra">vài trăm</b> game PS4/PS5 chơi thoải mái khi còn gói</span></li>
+          <li><span class="kp-dau kp-dau-them" aria-hidden="true">+</span><span>Một phần game Ubisoft đời cũ (Ubisoft+ Classics)</span></li>
+        </ul>
+        <p class="kp-goi-chu">Game trong kho đổi theo tháng: có game vào, có game rời.</p>
+      </div>
+      <div class="kp-goi-the kp-goi-cao">
+        <div class="kp-goi-ten">Deluxe / Premium <span>gói cao nhất</span></div>
+        <ul>
+          <li><span class="kp-dau kp-dau-them" aria-hidden="true">+</span><span><b>Kho Classics</b> — <b class="kp-sl-cl">hơn trăm</b> game đời máy cũ (PS1, PS2, PSP…) chạy lại trên PS4/PS5</span></li>
+          <li><span class="kp-dau kp-dau-them" aria-hidden="true">+</span><span><b>Chơi thử</b> một số game mới có giới hạn thời gian (game trials)</span></li>
+        </ul>
+        <p class="kp-goi-chu">Châu Á (Singapore, Hồng Kông, Thái Lan…) gọi là <b>Deluxe</b>. Mỹ gọi là <b>Premium</b> và có thêm chơi qua mạng không cần tải (cloud streaming) cùng kho phim Sony Pictures.</p>
+      </div>
+    </div>
+    <p class="phu kp-goi-cuoi">Hạ xuống gói thấp hơn thì chỉ có hiệu lực khi hết thời hạn đã trả.
+      <a href="ps-plus.html">So giá 3 gói ở 6 vùng →</a> <a href="mien-phi.html">Game tặng tháng này →</a></p>
+  </div>
+
+  <div class="the kp-gt" id="kp-vao-ra">
+    <h2>Game vào và ra kho thế nào</h2>
+    <ol class="kp-buoc">
+      <li><b>Game tặng mỗi tháng</b> (từ gói Essential)
+        <span>Sony công bố cuối tháng trước. Game nhận được từ <b>thứ Ba đầu tháng</b> tới hết thứ Hai trước thứ Ba đầu tháng sau
+        (tháng 9/2026: 01/09 → 05/10). Bấm "Thêm vào thư viện" trong khoảng đó là game nằm trong thư viện, chơi được khi còn gói.
+        Đợt tới dự kiến: <b>06/10</b>.</span></li>
+      <li><b>Game mới vào kho</b> (gói Extra, Deluxe / Premium)
+        <span>Sony công bố trên PlayStation Blog vào thứ Tư giữa tháng, game vào kho <b>thứ Ba tuần sau</b>
+        (tháng 9/2026: công bố 09/09, vào kho 15/09; vài game vào muộn hơn 1–2 tuần).
+        Đợt tới dự kiến: <b>20/10</b>. Từ 01/2026, Sony chỉ thỉnh thoảng mới thêm game PS4 — game mới chủ yếu là PS5.</span></li>
+      <li><b>Game rời kho</b>
+        <span>Game trong kho là game "thuê" theo hợp đồng có thời hạn, hết hạn thì rời đi. Sony báo trước ngày rời —
+        trên PS5 xem mục <i>Last Chance to Play</i> trong phần PS Plus. Game đã rời thì không chơi được nữa kể cả đã tải về;
+        muốn chơi tiếp phải mua. Game tặng mỗi tháng thì <b>không</b> rời: đã nhận là còn trong thư viện.</span></li>
+      <li><b>Mỗi vùng một danh sách</b>
+        <span>Kho game ở Mỹ, Singapore, Hồng Kông… không giống hệt nhau. Danh sách bên dưới lấy từ PS Store Singapore.
+        Săn Game chụp lại kho mỗi ngày và so với hôm trước: game mới vào sẽ hiện ở dải "Mới vào kho".</span></li>
+    </ol>
+  </div>
 
   <div id="kp-moi-khoi" class="kp-moi-khoi" hidden>
     <h3 class="kp-nho">🆕 Mới vào kho</h3>
@@ -427,6 +503,10 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     if (!tt || !DATA) return;
     tt.textContent = "Đang có " + DATA.so_luong.extra + " game Extra + " + DATA.so_luong.classics +
       " game Classics · cập nhật " + DATA.cap_nhat + ".";
+    var i, o = document.querySelectorAll("#kho-plus .kp-sl-extra");
+    for (i = 0; i < o.length; i++) o[i].textContent = DATA.so_luong.extra;
+    o = document.querySelectorAll("#kho-plus .kp-sl-cl");
+    for (i = 0; i < o.length; i++) o[i].textContent = DATA.so_luong.classics;
   }
 
   // Mục I — 2 dải "Mới vào kho" / "Sắp rời kho" đọc du-lieu/kho-plus-vao-roi.json (nhiều vùng —
