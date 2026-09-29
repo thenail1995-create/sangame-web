@@ -1,0 +1,50 @@
+{
+ "guid": {
+  "blog": [
+   "urn:uuid:256d4dfa-07ab-4612-87af-e04a42c4df6c",
+   "urn:uuid:85ffff57-ca21-479f-a5a3-b6135630a93d",
+   "urn:uuid:98658623-ee93-4228-8ad0-bc02fe8dc097",
+   "urn:uuid:a8702f9a-d25e-4a6c-b3d1-d30c7bd1287f",
+   "urn:uuid:e301e9cf-36e9-4847-8941-40cd6767dee4",
+   "urn:uuid:2757c871-61e1-4488-ac7f-809ce4fc458d",
+   "urn:uuid:173d4eb5-ffef-422a-9ac3-542ecf2b1f62",
+   "urn:uuid:edca10dc-3c8e-4b4b-8877-841d2ac552ad",
+   "urn:uuid:7cefcf01-a435-4f48-a256-7452295fc850",
+   "urn:uuid:276ac6b8-14b1-4969-9f4a-ae11dd38ed1b"
+  ],
+  "blog-ps-plus": [
+   "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
+   "urn:uuid:969891f2-f9d7-46f1-b67e-78876d00fb3f",
+   "urn:uuid:7bba4820-db43-4223-b588-73024ae91f51",
+   "urn:uuid:123904ef-be27-4741-978a-b7ac3e8b0ced",
+   "urn:uuid:946cb186-92d6-491b-8e15-cb335782d012",
+   "urn:uuid:bf851820-e509-4c47-ba1a-e97e83e4c347",
+   "urn:uuid:becfff14-568b-44b3-bfe3-69224b887cee",
+   "urn:uuid:f617fd46-2b9e-4895-8dae-419045802846",
+   "urn:uuid:f4c546eb-22f1-4db9-8ce9-b8db3778a360",
+   "urn:uuid:ad3df8e0-9718-4450-9f34-db1efa8fa367"
+  ]
+ },
+ "deals_ds": {
+  "en-US": [
+   5590
+  ],
+  "en-SG": [
+   3120
+  ]
+ },
+ "extra_ds": {
+  "en-SG": [
+   418
+  ]
+ },
+ "plus_thang": [
+  "Chained Echoes",
+  "Fallout 76 PS4 & PS5",
+  "MLB® The Show™ 26",
+  "MLB® The Show™ 26 Jump Start Bundle",
+  "Sniper Elite: Resistance PS4™ & PS5™",
+  "Wobbly Life"
+ ],
+ "cho_gui": []
+}
