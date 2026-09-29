@@ -97,7 +97,7 @@ section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 .dau-khoi{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:26px}
 .dau-khoi > div{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
 .dau-khoi h2{font-size:16.5px}
-.nhan-khoi{font-size:11.5px;font-weight:600;color:var(--ngoc-dam);background:var(--ngoc-nhat);border-radius:999px;padding:2px 9px;white-space:nowrap}
+.nhan-khoi{font-size:11.5px;font-weight:600;color:var(--ngoc-dam);background:var(--ngoc-nhat);border-radius:999px;padding:2px 9px;max-width:100%}
 .xem-het{flex:none;display:inline-flex;align-items:center;gap:2px;font-size:13px;font-weight:600;color:var(--phu);text-decoration:none;white-space:nowrap}
 .xem-het:hover{color:var(--ngoc)}
 .xem-het .ic{width:15px;height:15px}
@@ -183,28 +183,34 @@ footer a{color:#DDE2EA}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
 
-/* ── Banner trượt (kiểu băng chuyền đầu trang Sonkwo/SMZDM): nền = banner 16:9 của chính PS Store ── */
-.bn-tq{position:relative;border-radius:var(--r);overflow:hidden;background:#0B2552;aspect-ratio:1200/360;max-height:380px;box-shadow:var(--bong-noi)}
-.bn-khung{position:absolute;inset:0}
-.bn-slide{position:absolute;inset:0;background-size:cover;background-position:center 30%;opacity:0;transition:opacity .6s;text-decoration:none;color:#fff;
-  display:flex;align-items:flex-end;pointer-events:none}
-.bn-slide.dang{opacity:1;pointer-events:auto}
-.bn-slide::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,16,40,.88) 0%,rgba(6,16,40,.55) 42%,rgba(6,16,40,0) 72%)}
-.bn-chu{position:relative;padding:28px 36px 40px 66px;max-width:620px;display:grid;gap:6px}
-.bn-nhan{justify-self:start;font-size:12px;font-weight:700;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:3px 10px}
-.bn-chu h3{margin:0;font-size:30px;line-height:1.15;font-weight:800;letter-spacing:-.01em;text-shadow:0 2px 12px rgba(0,0,0,.4)}
-.bn-chu p{margin:0;font-size:15px;color:rgba(255,255,255,.9);display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+/* ── Banner trượt (kiểu băng chuyền đầu trang Sonkwo/SMZDM): ảnh = banner 16:9 của chính PS Store ──
+   Ảnh luôn hiện TRỌN tỉ lệ 16:9 (29/09 Hào: "đôi khi banner bị mất phần ảnh" — bản trước đặt ảnh làm nền
+   phủ kín khung 1200:360 nên cắt mất ~47% chiều cao). Máy tính: chữ ô trái, ảnh ô phải; điện thoại: ảnh
+   trên, chữ dưới. Các slide chồng trong cùng 1 ô lưới nên khung cao đúng bằng slide, không nhảy trang. */
+.bn-tq{position:relative;border-radius:var(--r);overflow:hidden;background:#0B2552;box-shadow:var(--bong-noi)}
+.bn-khung{display:grid}
+.bn-slide{grid-area:1/1;display:grid;grid-template-columns:minmax(0,36fr) minmax(0,64fr);text-decoration:none;color:#fff;
+  opacity:0;visibility:hidden;transition:opacity .6s,visibility .6s;background:linear-gradient(115deg,#0B2552 0%,#123A7A 60%,#0B2552 100%)}
+.bn-slide.dang{opacity:1;visibility:visible}
+.bn-anh{order:2;aspect-ratio:16/9;background:#07152F;position:relative}
+.bn-anh img{width:100%;height:100%;object-fit:contain;display:block}
+.bn-anh::before{content:"";position:absolute;inset:0 auto 0 0;width:64px;background:linear-gradient(90deg,#0F2F66,rgba(15,47,102,0));z-index:1}
+.bn-chu{order:1;align-self:center;padding:24px 28px 40px 60px;display:grid;gap:8px;min-width:0}
+.bn-nhan{justify-self:start;font-size:12px;font-weight:700;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.26);border-radius:999px;padding:3px 10px}
+.bn-chu h3{margin:0;font-size:clamp(20px,2.3vw,30px);line-height:1.2;font-weight:800;letter-spacing:-.01em;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.bn-chu p{margin:0;font-size:14.5px;color:rgba(255,255,255,.88);display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
 .bn-chu p b{font-size:22px;color:#FFD23F}
-.bn-chu p s{color:rgba(255,255,255,.6);font-size:13px}
+.bn-chu p s{color:rgba(255,255,255,.55);font-size:13px}
 .bn-giam{background:var(--do);color:#fff;font-weight:800;font-size:13px;border-radius:5px;padding:3px 7px}
-.bn-nut{justify-self:start;margin-top:6px;font-weight:700;font-size:14px;background:#fff;color:var(--ngoc-dam);border-radius:999px;padding:8px 16px}
+.bn-nut{justify-self:start;margin-top:4px;font-weight:700;font-size:14px;background:#fff;color:var(--ngoc-dam);border-radius:999px;padding:8px 16px;white-space:nowrap}
 .bn-slide:hover .bn-nut{background:#FFD23F;color:#1A1D23}
-.bn-mui{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:38px;height:38px;border-radius:50%;padding:0;font-size:22px;line-height:1;
+.bn-mui{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:36px;height:36px;border-radius:50%;padding:0;font-size:22px;line-height:1;
   background:rgba(0,0,0,.35);color:#fff;border:1px solid rgba(255,255,255,.3)}
 .bn-mui:hover{background:rgba(0,0,0,.55);filter:none}
-.bn-mui.trai{left:12px}.bn-mui.phai{right:12px}
-.bn-cham{position:absolute;z-index:2;right:18px;bottom:14px;display:flex;gap:6px}
-.bn-cham button{width:8px;height:8px;border-radius:999px;padding:0;background:rgba(255,255,255,.45);transition:width .2s}
+.bn-mui.trai{left:10px}.bn-mui.phai{right:10px}
+.bn-cham{position:absolute;z-index:3;left:60px;bottom:16px;display:flex;gap:6px}
+.bn-cham button{width:8px;height:8px;border-radius:999px;padding:0;background:rgba(255,255,255,.4);transition:width .2s}
 .bn-cham button.dang{width:22px;background:#fff}
 
 /* ── Banner PS Plus khi gói 12 tháng đang giảm (Hào: "làm banner hẳn hoi") — đen + vàng của PS Plus ── */
@@ -462,12 +468,16 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
   .ds-bia-gia::-webkit-scrollbar{display:none}
   .ds-bia-gia li{scroll-snap-align:start}
   .khoi-giam .ds-bia-gia{grid-auto-flow:row;grid-auto-columns:auto;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;margin:0;padding:0}
-  .bn-tq{aspect-ratio:16/10;max-height:none}
-  .bn-chu{padding:16px 16px 34px}
-  .bn-chu h3{font-size:20px}
+  .bn-slide{grid-template-columns:1fr}
+  .bn-anh{order:1}
+  .bn-anh::before{display:none}
+  .bn-chu{order:2;padding:12px 16px 30px;gap:6px}
+  .bn-chu h3{font-size:18px;-webkit-line-clamp:2}
+  .bn-chu p{font-size:13.5px}
   .bn-chu p b{font-size:18px}
+  .bn-nut{display:none}
   .bn-mui{display:none}
-  .bn-slide::before{background:linear-gradient(0deg,rgba(6,16,40,.92) 0%,rgba(6,16,40,.5) 55%,rgba(6,16,40,.05) 100%)}
+  .bn-cham{left:16px;bottom:12px}
   .banner-plus{padding:16px;gap:14px}
   .bp-to{font-size:23px}
   .bp-logo{width:52px;height:52px}
