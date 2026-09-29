@@ -26,6 +26,23 @@
 *{box-sizing:border-box}
 /* Khối có thuộc tính hidden (JS_VUNG ẩn khối rỗng) luôn ẩn, kể cả khi lớp .khoi/.the đặt display. */
 [hidden]{display:none!important}
+/* ── Banner tên gói PS Plus (Hào 29/09) — đen + vàng như banner PS Plus; gói càng cao càng "vàng".
+   Dùng chung: trang Kho PS Plus (thẻ 3 gói) và trang PS Plus (thẻ giá rẻ nhất). ── */
+.kp-goi-bn{position:relative;overflow:hidden;display:flex;align-items:center;gap:12px;padding:16px 16px 14px;color:#fff;
+  background:radial-gradient(120% 170% at 0% 0%,#2A2A2A 0%,#141414 55%,#0A0A0A 100%)}
+.kp-goi-bn::after{content:"";position:absolute;right:-50px;top:-60px;width:180px;height:180px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,199,15,.14),rgba(255,199,15,0) 70%)}
+.kp-bn-2{background:radial-gradient(120% 170% at 0% 0%,#3A2F05 0%,#141414 50%,#0A0A0A 100%)}
+.kp-bn-2::after{background:radial-gradient(circle,rgba(255,199,15,.3),rgba(255,199,15,0) 70%)}
+.kp-bn-3{color:#141414;background:linear-gradient(135deg,#FFE37A 0%,#FFC70F 45%,#E09A00 100%)}
+.kp-bn-3::after{background:radial-gradient(circle,rgba(255,255,255,.45),rgba(255,255,255,0) 70%)}
+.kp-goi-bn img{width:40px;height:40px;border-radius:10px;flex:none;position:relative;z-index:1;
+  box-shadow:0 3px 12px rgba(255,199,15,.25)}
+.kp-goi-bn div{display:grid;gap:1px;position:relative;z-index:1;min-width:0}
+.kp-bn-nhan{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#FFC70F}
+.kp-bn-3 .kp-bn-nhan{color:#5A3E00}
+.kp-bn-ten{font-size:21px;font-weight:800;line-height:1.15}
+.kp-bn-phu{font-size:12.5px;font-weight:600;opacity:.75}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--nen);color:var(--chu);font:14.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
   -webkit-font-smoothing:antialiased}

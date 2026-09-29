@@ -26,6 +26,23 @@
 *{box-sizing:border-box}
 /* Khối có thuộc tính hidden (JS_VUNG ẩn khối rỗng) luôn ẩn, kể cả khi lớp .khoi/.the đặt display. */
 [hidden]{display:none!important}
+/* ── Banner tên gói PS Plus (Hào 29/09) — đen + vàng như banner PS Plus; gói càng cao càng "vàng".
+   Dùng chung: trang Kho PS Plus (thẻ 3 gói) và trang PS Plus (thẻ giá rẻ nhất). ── */
+.kp-goi-bn{position:relative;overflow:hidden;display:flex;align-items:center;gap:12px;padding:16px 16px 14px;color:#fff;
+  background:radial-gradient(120% 170% at 0% 0%,#2A2A2A 0%,#141414 55%,#0A0A0A 100%)}
+.kp-goi-bn::after{content:"";position:absolute;right:-50px;top:-60px;width:180px;height:180px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,199,15,.14),rgba(255,199,15,0) 70%)}
+.kp-bn-2{background:radial-gradient(120% 170% at 0% 0%,#3A2F05 0%,#141414 50%,#0A0A0A 100%)}
+.kp-bn-2::after{background:radial-gradient(circle,rgba(255,199,15,.3),rgba(255,199,15,0) 70%)}
+.kp-bn-3{color:#141414;background:linear-gradient(135deg,#FFE37A 0%,#FFC70F 45%,#E09A00 100%)}
+.kp-bn-3::after{background:radial-gradient(circle,rgba(255,255,255,.45),rgba(255,255,255,0) 70%)}
+.kp-goi-bn img{width:40px;height:40px;border-radius:10px;flex:none;position:relative;z-index:1;
+  box-shadow:0 3px 12px rgba(255,199,15,.25)}
+.kp-goi-bn div{display:grid;gap:1px;position:relative;z-index:1;min-width:0}
+.kp-bn-nhan{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#FFC70F}
+.kp-bn-3 .kp-bn-nhan{color:#5A3E00}
+.kp-bn-ten{font-size:21px;font-weight:800;line-height:1.15}
+.kp-bn-phu{font-size:12.5px;font-weight:600;opacity:.75}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--nen);color:var(--chu);font:14.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
   -webkit-font-smoothing:antialiased}
@@ -193,11 +210,10 @@ footer a{color:#DDE2EA}
 #kho-plus .kp-gt h2{font-size:18px}
 #kho-plus .kp-goi-luoi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 @media (max-width:760px){#kho-plus .kp-goi-luoi{grid-template-columns:minmax(0,1fr)}}
-#kho-plus .kp-goi-the{display:grid;align-content:start;gap:8px;padding:14px;border:1px solid var(--vien);
-  border-radius:14px;background:var(--nen)}
-#kho-plus .kp-goi-cao{border-color:var(--ngoc);background:var(--ngoc-nhat)}
-#kho-plus .kp-goi-ten{font-size:17px;font-weight:800;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
-#kho-plus .kp-goi-ten span{font-size:12.5px;font-weight:600;color:var(--phu)}
+#kho-plus .kp-goi-the{display:grid;align-content:start;border:1px solid var(--vien);
+  border-radius:14px;background:var(--nen);overflow:hidden}
+#kho-plus .kp-goi-cao{border-color:#E0B000}
+#kho-plus .kp-goi-than{display:grid;align-content:start;gap:8px;padding:14px}
 #kho-plus .kp-goi-the ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
 #kho-plus .kp-goi-the li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:6px;font-size:14px;line-height:1.45}
 #kho-plus .kp-dau{font-weight:800;color:var(--phu)}
@@ -272,7 +288,8 @@ footer a{color:#DDE2EA}
     <p class="phu">Gói sau có đủ mọi thứ của gói trước, cộng thêm phần đánh dấu <b>+</b>.</p>
     <div class="kp-goi-luoi">
       <div class="kp-goi-the">
-        <div class="kp-goi-ten">Essential <span>gói cơ bản</span></div>
+        <div class="kp-goi-bn kp-bn-1"><img src="bieu-tuong/ps-plus.webp" alt="" width="40" height="40"><div><span class="kp-bn-nhan">PlayStation Plus</span><span class="kp-bn-ten">Essential</span><span class="kp-bn-phu">Gói cơ bản</span></div></div>
+        <div class="kp-goi-than">
         <ul>
           <li><span class="kp-dau" aria-hidden="true">✓</span><span><b>Game tặng mỗi tháng</b> — nhận vào thư viện, chơi được khi còn gói</span></li>
           <li><span class="kp-dau" aria-hidden="true">✓</span><span><b>Chơi online</b> các game trả phí (game miễn phí như Fortnite, Warzone thì không cần gói)</span></li>
@@ -280,22 +297,27 @@ footer a{color:#DDE2EA}
           <li><span class="kp-dau" aria-hidden="true">✓</span><span>Lưu save trên mây (cloud storage), Share Play chơi cùng bạn</span></li>
         </ul>
         <p class="kp-goi-chu">Không có kho game.</p>
+        </div>
       </div>
       <div class="kp-goi-the">
-        <div class="kp-goi-ten">Extra <span>có kho game</span></div>
+        <div class="kp-goi-bn kp-bn-2"><img src="bieu-tuong/ps-plus.webp" alt="" width="40" height="40"><div><span class="kp-bn-nhan">PlayStation Plus</span><span class="kp-bn-ten">Extra</span><span class="kp-bn-phu">Có kho game</span></div></div>
+        <div class="kp-goi-than">
         <ul>
           <li><span class="kp-dau kp-dau-them" aria-hidden="true">+</span><span><b>Kho game Extra</b> — <b class="kp-sl-extra">vài trăm</b> game PS4/PS5 chơi thoải mái khi còn gói</span></li>
           <li><span class="kp-dau kp-dau-them" aria-hidden="true">+</span><span>Một phần game Ubisoft đời cũ (Ubisoft+ Classics)</span></li>
         </ul>
         <p class="kp-goi-chu">Game trong kho đổi theo tháng: có game vào, có game rời.</p>
+        </div>
       </div>
       <div class="kp-goi-the kp-goi-cao">
-        <div class="kp-goi-ten">Deluxe / Premium <span>gói cao nhất</span></div>
+        <div class="kp-goi-bn kp-bn-3"><img src="bieu-tuong/ps-plus.webp" alt="" width="40" height="40"><div><span class="kp-bn-nhan">PlayStation Plus</span><span class="kp-bn-ten">Deluxe / Premium</span><span class="kp-bn-phu">Gói cao nhất</span></div></div>
+        <div class="kp-goi-than">
         <ul>
           <li><span class="kp-dau kp-dau-them" aria-hidden="true">+</span><span><b>Kho Classics</b> — <b class="kp-sl-cl">hơn trăm</b> game đời máy cũ (PS1, PS2, PSP…) chạy lại trên PS4/PS5</span></li>
           <li><span class="kp-dau kp-dau-them" aria-hidden="true">+</span><span><b>Chơi thử</b> một số game mới có giới hạn thời gian (game trials)</span></li>
         </ul>
         <p class="kp-goi-chu">Châu Á (Singapore, Hồng Kông, Thái Lan…) gọi là <b>Deluxe</b>. Mỹ gọi là <b>Premium</b> và có thêm chơi qua mạng không cần tải (cloud streaming) cùng kho phim Sony Pictures.</p>
+        </div>
       </div>
     </div>
     <p class="phu kp-goi-cuoi">Hạ xuống gói thấp hơn thì chỉ có hiệu lực khi hết thời hạn đã trả.
