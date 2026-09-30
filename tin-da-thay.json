@@ -10,7 +10,8 @@
    "urn:uuid:173d4eb5-ffef-422a-9ac3-542ecf2b1f62",
    "urn:uuid:edca10dc-3c8e-4b4b-8877-841d2ac552ad",
    "urn:uuid:7cefcf01-a435-4f48-a256-7452295fc850",
-   "urn:uuid:276ac6b8-14b1-4969-9f4a-ae11dd38ed1b"
+   "urn:uuid:276ac6b8-14b1-4969-9f4a-ae11dd38ed1b",
+   "urn:uuid:92265195-88ed-4cda-86ce-34d5580a8410"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -22,7 +23,8 @@
    "urn:uuid:becfff14-568b-44b3-bfe3-69224b887cee",
    "urn:uuid:f617fd46-2b9e-4895-8dae-419045802846",
    "urn:uuid:f4c546eb-22f1-4db9-8ce9-b8db3778a360",
-   "urn:uuid:ad3df8e0-9718-4450-9f34-db1efa8fa367"
+   "urn:uuid:ad3df8e0-9718-4450-9f34-db1efa8fa367",
+   "urn:uuid:92265195-88ed-4cda-86ce-34d5580a8410"
   ]
  },
  "deals_ds": {
@@ -31,6 +33,7 @@
    5589,
    5590,
    5589,
+   5590,
    5590
   ],
   "en-SG": [
@@ -38,11 +41,13 @@
    3119,
    3119,
    3120,
-   3120
+   3120,
+   3118
   ]
  },
  "extra_ds": {
   "en-SG": [
+   418,
    418,
    418,
    418,
