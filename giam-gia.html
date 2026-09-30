@@ -284,6 +284,9 @@ footer a{color:#DDE2EA}
 /* ── Thanh sắp xếp / lọc (kiểu tab 综合/史低 của trang Trung Quốc) ── */
 .thanh-loc{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--vien);padding-bottom:10px}
 .nhom-loc{display:flex;gap:6px;flex-wrap:wrap}
+.thanh-loc .vung-chon{flex:0 1 520px;min-width:0}
+.ghi-gia{margin:-4px 0 0;font-size:12.5px;color:var(--phu)}
+.an-chu{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .tab-sx{font:inherit;font-size:13.5px;font-weight:700;padding:6px 14px;border-radius:999px;background:transparent;color:var(--phu);border:0}
 .tab-sx:hover{color:var(--ngoc);filter:none}
 .tab-sx.dang{background:var(--ngoc-dam);color:#fff}
@@ -534,6 +537,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
   .hang-bia.vua{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:44%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0 -14px;padding:0 14px 2px}
   .hang-bia.vua .bia{scroll-snap-align:start}
   .thanh-loc{gap:8px}
+  .thanh-loc .vung-chon{flex:1 1 100%}
   .ds-bia-gia .quy-doi-nho{display:none}
   .cot-phai{grid-template-columns:1fr}
   .ds-giam,.ba-cot,.hai-cot,.tra{grid-template-columns:1fr}
