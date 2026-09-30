@@ -242,7 +242,7 @@
   // chờ (không phải tổng số đang chờ) — Hào chốt 28/09: huy hiệu phải nói "có gì đáng xem ngay".
   function capNhatHuyHieu(vungMoi){
     var ds = docDs();
-    var a = document.querySelector('nav a[href="cho-sale.html"]');
+    var a = document.querySelector('a.nut-dau[href="cho-sale.html"]');  // Hào 30/09: gom menu — Chờ sale chỉ còn nút đầu trang
     if (!a) return;
     if (!ds.length) { boHuyHieu(a); return; }
     var vungMa = (typeof vungMoi === "string" && vungMoi) || (window.SGVUNG ? window.SGVUNG.doc() : "US");
@@ -257,11 +257,14 @@
   // moi_vao — xem trang_kho_plus.build_du_lieu()); không có dữ liệu (file thiếu/rỗng) thì ẩn,
   // không suy đoán.
   function capNhatHuyHieuKhoPlus(){
-    var a = document.querySelector('nav a[href="kho-plus.html"]');
-    if (!a) return;
+    // Hào 30/09: gom menu — Kho PS Plus không còn là mục menu: huy hiệu lên menu PS Plus (mọi trang) + tab Kho (nhóm PS Plus).
+    var ds = document.querySelectorAll('.kenh nav a[href="ps-plus.html"], .tab-con a[href="kho-plus.html"]');
+    if (!ds || !ds.length) return;
+    var xoa = function(){ for (var i = 0; i < ds.length; i++) boHuyHieu(ds[i]); };
     fetch("du-lieu/kho-plus.json").then(function(r){ return r.json(); }).then(function(d){
-      datHuyHieu(a, (d && d.moi_vao) ? d.moi_vao.length : 0);
-    }).catch(function(){ boHuyHieu(a); });
+      var n = (d && d.moi_vao) ? d.moi_vao.length : 0;
+      for (var i = 0; i < ds.length; i++) datHuyHieu(ds[i], n);
+    }).catch(xoa);
   }
 
   function daDongHomNay(){

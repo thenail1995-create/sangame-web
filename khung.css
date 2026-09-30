@@ -48,7 +48,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .tim-goi-y a:hover{color:#fff;text-decoration:underline}
 .tim-khoi{flex:1;max-width:560px;margin:0 auto}
 .tim-khoi .tim-nhanh{max-width:none}
-.nut-dau{flex:none;display:flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:13.5px;color:#fff;
+.nut-dau{position:relative;flex:none;display:flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:13.5px;color:#fff;
   border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:8px 14px}
 .nut-dau:hover{background:rgba(255,255,255,.1)}
 .nut-dau .ic{width:17px;height:17px;color:var(--vang)}
@@ -63,10 +63,21 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .kenh nav a:hover{color:var(--ngoc)}
 .kenh nav a[aria-current="page"]{color:var(--ngoc-dam)}
 .kenh nav a[aria-current="page"]::after{content:"";position:absolute;left:13px;right:13px;bottom:0;height:3px;border-radius:3px 3px 0 0;background:var(--ngoc)}
+/* Hào 30/09: thanh tab con của nhóm Giảm giá / PS Plus (khung tự chèn ở đầu main) */
+.tab-con{display:flex;gap:6px;overflow-x:auto;min-width:0;max-width:100%;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.tab-con::-webkit-scrollbar{display:none}
+.tab-con a{flex:none;white-space:nowrap;text-decoration:none;font-weight:600;font-size:14px;color:#374151;background:var(--the);
+  border:1px solid var(--vien-dam);border-radius:999px;padding:7px 14px}
+.tab-con a:hover{color:var(--ngoc);border-color:var(--ngoc)}
+.tab-con a[aria-current="page"]{background:var(--ngoc);border-color:var(--ngoc);color:#fff}
 .bt3d.nav{width:24px;height:24px;border-radius:6px;flex:none;box-shadow:0 1px 2px rgba(0,20,60,.3)}
 .o-nha{width:24px;height:24px;border-radius:6px;flex:none;display:grid;place-items:center;color:#fff;
   background:linear-gradient(150deg,#1757B8,var(--ps) 60%,#00245E);box-shadow:0 1px 2px rgba(0,20,60,.3)}
 .o-nha .ic{width:14px;height:14px}
+.nut-dau .cs-huy-hieu{top:-6px;right:-2px}
+.tab-con a{position:relative}
+.tab-con a:has(.cs-huy-hieu){padding-right:30px}
+.tab-con .cs-huy-hieu{top:6px;right:6px}
 .cs-huy-hieu{position:absolute;top:4px;right:2px;background:var(--do);color:#fff;font-size:10px;font-weight:800;line-height:1.5;
   border-radius:999px;padding:0 5px;min-width:17px;text-align:center}
 .kenh .rong::before,.kenh .rong::after{position:absolute;top:0;bottom:0;width:44px;display:flex;align-items:center;z-index:1;
