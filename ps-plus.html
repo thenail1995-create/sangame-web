@@ -279,6 +279,18 @@ footer a{color:#DDE2EA}
 .pr-bang td b{display:block;font-size:15.5px}
 .pr-bang small{display:block;font-size:12px;font-weight:600}
 .pr-bang .giam-nhe{color:var(--gia)}
+/* Đầu cột theo hạng gói — cùng bảng màu thẻ gói phía trên (kp-bn-1/2/3): gói càng cao càng "vàng" (Hào 30/09) */
+.pr-bang thead th.pr-cot{padding:0 4px;vertical-align:bottom;border-bottom:0}
+.pr-hang{display:grid;justify-items:end;gap:1px;padding:8px 12px 7px;border-radius:12px 12px 0 0;color:#fff;white-space:nowrap;
+  background:radial-gradient(120% 170% at 0% 0%,#2A2A2A 0%,#141414 55%,#0A0A0A 100%)}
+.pr-cot-2 .pr-hang{background:radial-gradient(120% 170% at 0% 0%,#3A2F05 0%,#141414 50%,#0A0A0A 100%);box-shadow:inset 0 -3px 0 #FFC70F}
+.pr-cot-3 .pr-hang{color:#141414;background:linear-gradient(135deg,#FFE37A 0%,#FFC70F 45%,#E09A00 100%)}
+.pr-hang b{font-size:14px;font-weight:800;color:inherit}
+.pr-hang small{font-size:11px;font-weight:600;opacity:.75;color:inherit}
+.pr-cap{font-style:normal;font-size:10px;letter-spacing:2px;color:#FFC70F;line-height:1}
+.pr-cot-3 .pr-cap{color:#5A3E00}
+.pr-bang .c2{background:rgba(255,199,15,.06)}
+.pr-bang .c3{background:rgba(255,199,15,.14)}
 .pr-bang .o-re{background:var(--ngoc-nhat)}
 .pr-bang .o-re b{color:var(--ngoc)}
 .pr-bang .nhan-re{color:var(--ngoc)}
@@ -578,8 +590,11 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
       <h2>So giá 6 vùng</h2>
       <p class="phu">Số tiền Việt thực trả khi mua thẻ PSN của vùng đó rồi nạp vào tài khoản cùng vùng. Vùng rẻ lên trên.</p>
       <div class="cuon"><table>
-      <thead><tr><th scope=col style="text-align:left">Vùng</th><th scope=col>Essential</th><th scope=col>Extra</th><th scope=col>Deluxe / Premium</th></tr></thead>
-      <tbody><tr><th scope=row>Hồng Kông</th><td class=o-re><b>1.488.000đ</b><small class="giam-nhe">−15%</small><small class="nhan-re">Rẻ nhất</small></td><td class=o-re><b>2.338.000đ</b><small class="giam-nhe">−20%</small><small class="nhan-re">Rẻ nhất</small></td><td class=o-re><b>2.625.000đ</b><small class="giam-nhe">−25%</small><small class="nhan-re">Rẻ nhất</small></td></tr><tr><th scope=row>Singapore</th><td><b>1.662.000đ</b><small class="giam-nhe">−15%</small></td><td><b>2.515.000đ</b><small class="giam-nhe">−20%</small></td><td><b>2.803.000đ</b><small class="giam-nhe">−25%</small></td></tr><tr><th scope=row>Thái Lan</th><td><b>1.745.000đ</b><small class="giam-nhe">−15%</small></td><td><b>2.778.000đ</b><small class="giam-nhe">−20%</small></td><td><b>3.045.000đ</b><small class="giam-nhe">−25%</small></td></tr><tr><th scope=row>Indonesia</th><td><b>1.803.000đ</b><small class="giam-nhe">−15%</small></td><td><b>2.873.000đ</b><small class="giam-nhe">−20%</small></td><td><b>3.134.000đ</b><small class="giam-nhe">−25%</small></td></tr><tr><th scope=row>Mỹ</th><td><b>2.240.000đ</b></td><td><b>3.780.000đ</b></td><td><b>4.480.000đ</b></td></tr><tr class=vung-mo><th scope=row>Ấn Độ<small class="vung-phu">chưa có thẻ bán ở VN*</small></th><td><b>1.387.000đ</b></td><td><b>2.351.000đ</b></td><td><b>2.667.000đ</b></td></tr></tbody></table></div>
+      <thead><tr><th scope=col style="text-align:left">Vùng</th>
+        <th scope=col class="pr-cot pr-cot-1"><span class="pr-hang"><i class="pr-cap" aria-label="Cấp 1/3">◆◇◇</i><b>Essential</b><small>Gói cơ bản</small></span></th>
+        <th scope=col class="pr-cot pr-cot-2"><span class="pr-hang"><i class="pr-cap" aria-label="Cấp 2/3">◆◆◇</i><b>Extra</b><small>Có kho game</small></span></th>
+        <th scope=col class="pr-cot pr-cot-3"><span class="pr-hang"><i class="pr-cap" aria-label="Cấp 3/3">◆◆◆</i><b>Deluxe / Premium</b><small>Gói cao nhất</small></span></th></tr></thead>
+      <tbody><tr><th scope=row>Hồng Kông</th><td class="c1 o-re"><b>1.488.000đ</b><small class="giam-nhe">−15%</small><small class="nhan-re">Rẻ nhất</small></td><td class="c2 o-re"><b>2.338.000đ</b><small class="giam-nhe">−20%</small><small class="nhan-re">Rẻ nhất</small></td><td class="c3 o-re"><b>2.625.000đ</b><small class="giam-nhe">−25%</small><small class="nhan-re">Rẻ nhất</small></td></tr><tr><th scope=row>Singapore</th><td class="c1"><b>1.662.000đ</b><small class="giam-nhe">−15%</small></td><td class="c2"><b>2.515.000đ</b><small class="giam-nhe">−20%</small></td><td class="c3"><b>2.803.000đ</b><small class="giam-nhe">−25%</small></td></tr><tr><th scope=row>Thái Lan</th><td class="c1"><b>1.745.000đ</b><small class="giam-nhe">−15%</small></td><td class="c2"><b>2.778.000đ</b><small class="giam-nhe">−20%</small></td><td class="c3"><b>3.045.000đ</b><small class="giam-nhe">−25%</small></td></tr><tr><th scope=row>Indonesia</th><td class="c1"><b>1.803.000đ</b><small class="giam-nhe">−15%</small></td><td class="c2"><b>2.873.000đ</b><small class="giam-nhe">−20%</small></td><td class="c3"><b>3.134.000đ</b><small class="giam-nhe">−25%</small></td></tr><tr><th scope=row>Mỹ</th><td class="c1"><b>2.240.000đ</b></td><td class="c2"><b>3.780.000đ</b></td><td class="c3"><b>4.480.000đ</b></td></tr><tr class=vung-mo><th scope=row>Ấn Độ<small class="vung-phu">chưa có thẻ bán ở VN*</small></th><td class="c1"><b>1.387.000đ</b></td><td class="c2"><b>2.351.000đ</b></td><td class="c3"><b>2.667.000đ</b></td></tr></tbody></table></div>
       <p class="phu pr-chu">* Ấn Độ: chưa có thẻ PSN bán ở Việt Nam nên tính theo tỷ giá ngân hàng, chỉ để tham khảo. Mỹ gọi gói cao nhất là Premium, châu Á gọi Deluxe.</p>
     </div>
     <p class="phu"><svg class="ic nho" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>Giá thẻ PSN theo <a href="https://muagame.vn/psn.html?filter_attr=622" rel="noopener" target="_blank">muagame.vn</a> — lấy giá 30/09/2026.</p>
