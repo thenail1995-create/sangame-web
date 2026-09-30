@@ -60,14 +60,25 @@ a.bs-the:hover{border-color:var(--ngoc)}
 .bs-cc b{font-size:14.5px}
 .bs-cc small{color:var(--phu);font-size:12.5px}
 .bs-cc > a > .ic{width:15px;height:15px;color:#A3A9B3}
-.bs-qua{display:grid;gap:4px;padding:11px 0;border-top:1px solid var(--vien)}
-.bs-qua:first-child{border-top:0}
-.bs-qua-ten{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
-.bs-qua-ten a,.bs-qua-ten strong{font-weight:700;overflow-wrap:anywhere}
+/* Hào 01/10: quà hội viên thành lưới thẻ có ảnh (kiểu thẻ game: ảnh vuông, bo --r-nho, nền --xam-thanh) */
+.bs-ds.bs-luoi-qua{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.bs-qua{display:grid;gap:4px;align-content:start;min-width:0}
+.bs-qua-anh{position:relative;aspect-ratio:1/1;border-radius:var(--r-nho);overflow:hidden;background:var(--xam-thanh);margin-bottom:2px}
+.bs-qua-anh img{width:100%;height:100%;object-fit:cover;display:block}
+.bs-qua-nhan{position:absolute;left:0;top:0;background:var(--ngoc);color:#fff;font-size:11px;font-weight:800;letter-spacing:.02em;
+  padding:4px 8px 4px 7px;border-bottom-right-radius:8px}
+.bs-qua-nhan.mp{background:var(--do)}
+.bs-qua-ten{display:grid;gap:3px;justify-items:start;min-width:0}
+.bs-qua-ten a,.bs-qua-ten strong{font-weight:600;font-size:13.5px;line-height:1.35;overflow-wrap:anywhere;text-decoration:none;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
+.bs-qua-ten a:hover{color:var(--ngoc)}
 .bs-qua-ten small{font-size:12px;font-weight:700;color:var(--phu);background:var(--nen);border:1px solid var(--vien);border-radius:99px;padding:1px 8px}
-.bs-qua ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
-.bs-qua li{font-size:13.5px;color:var(--phu)}
-.bs-qua li b{color:var(--chu)}
+.bs-qua-vung{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.bs-qua-vung > span{font-size:12px;color:var(--phu);font-weight:700}
+.bs-qua-vung a,.bs-qua-vung em{font-style:normal;font-size:12px;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--vien);
+  background:var(--the);color:var(--ngoc);text-decoration:none}
+.bs-qua-vung a:hover{border-color:var(--ngoc);background:var(--ngoc-nhat)}
+.bs-qua-vung em{color:var(--phu)}
 .bs-psn table{min-width:0}
 .bs-psn th,.bs-psn td{white-space:normal}
 .bs-psn tbody th{font-variant-numeric:tabular-nums}
@@ -129,10 +140,14 @@ S.hangDs=function(r,v,cfg){var lk='game-'+S.esc(r[0])+'.html',p=r[2],
   may=cfg.m[v[5]];
   return'<li class="bs-hang"><a href="'+lk+'" tabindex="-1" aria-hidden="true">'+img+'</a><div class="bs-ten"><a href="'+lk+'">'+S.esc(r[1])+'</a><small class="bs-may">'+(may?S.esc('Bản '+may):'')+'</small></div>'
    +'<div class="bs-gia"><b class="bs-so">'+S.fmt(v[0])+'</b><s class="bs-goc">'+(v[1]?S.fmt(v[1]):'')+'</s><span class="giam bs-giam"'+(v[2]?'':' hidden')+'>−'+v[2]+'%</span><small class="bs-vung">'+S.esc(cfg.v[v[3]])+'</small></div></li>';};
-S.hangQua=function(r,cfg){var t=r[1]?'<a href="game-'+S.esc(r[1])+'.html">'+S.esc(r[0])+'</a>':'<strong>'+S.esc(r[0])+'</strong>';
-  var l=r[4].map(function(x){var u=x[2]?' · <a href="https://store.playstation.com/'+S.esc(cfg.l[x[0]])+'/product/'+S.esc(x[2])+'" rel="nofollow noopener" target="_blank">Xem trên PS Store</a>':'';
-    return'<li><b>'+S.esc(cfg.v[x[0]])+'</b> · '+S.esc(cfg.n[x[1]])+u+'</li>';}).join('');
-  return'<li class="bs-qua"><div class="bs-qua-ten">'+t+(r[2]?'<small>'+S.esc(r[2])+'</small>':'')+'</div><ul>'+l+'</ul></li>';};
+S.anhW=function(u,w){var f=u.split('#'),d=f[0].split('?'),q=(d[1]===undefined?'':f[0].slice(d[0].length+1)).split('&').filter(function(x){return x&&x.split('=')[0]!=='w';});
+  q.push('w='+w);return d[0]+'?'+q.join('&')+(f.length>1?'#'+f.slice(1).join('#'):'');};
+S.hangQua=function(r,cfg){var t=r[1]?'<a href="game-'+S.esc(r[1])+'.html">'+S.esc(r[0])+'</a>':'<strong>'+S.esc(r[0])+'</strong>',
+  p=r[5],nh=cfg.t[r[6]],
+  img=p?'<img src="'+S.esc(S.anhW(p.indexOf('http')===0?p:cfg.anh+p,300))+'" alt="'+S.esc(r[0])+'" width="300" height="300" loading="lazy">':'';
+  var l=r[4].map(function(x){var tx=S.esc(cfg.v[x[0]])+(x[2]?' · '+S.esc(x[2]):'');
+    return x[1]?'<a href="https://store.playstation.com/'+S.esc(cfg.l[x[0]])+'/product/'+S.esc(x[1])+'" rel="nofollow noopener" target="_blank">'+tx+'</a>':'<em>'+tx+'</em>';}).join('');
+  return'<li class="bs-qua"><div class="bs-qua-anh">'+img+'<span class="bs-qua-nhan'+(nh[1]?' mp':'')+'">'+S.esc(nh[0])+'</span></div><div class="bs-qua-ten">'+t+(r[2]?'<small>'+S.esc(r[2])+'</small>':'')+'</div><div class="bs-qua-vung"><span>Nhận ở:</span>'+l+'</div></li>';};
 if(typeof window!=='undefined')window.SGBST=S;
 var nguon=document.getElementById('bs-du-lieu'),ds=document.getElementById('bs-ds');if(!nguon||!ds)return;
 var D=JSON.parse(nguon.textContent),cfg=D.c,rows=D.h,rong=document.getElementById('bs-rong'),them=document.getElementById('bs-them'),dem=document.getElementById('bs-dem');

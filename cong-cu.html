@@ -60,14 +60,25 @@ a.bs-the:hover{border-color:var(--ngoc)}
 .bs-cc b{font-size:14.5px}
 .bs-cc small{color:var(--phu);font-size:12.5px}
 .bs-cc > a > .ic{width:15px;height:15px;color:#A3A9B3}
-.bs-qua{display:grid;gap:4px;padding:11px 0;border-top:1px solid var(--vien)}
-.bs-qua:first-child{border-top:0}
-.bs-qua-ten{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
-.bs-qua-ten a,.bs-qua-ten strong{font-weight:700;overflow-wrap:anywhere}
+/* Hào 01/10: quà hội viên thành lưới thẻ có ảnh (kiểu thẻ game: ảnh vuông, bo --r-nho, nền --xam-thanh) */
+.bs-ds.bs-luoi-qua{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.bs-qua{display:grid;gap:4px;align-content:start;min-width:0}
+.bs-qua-anh{position:relative;aspect-ratio:1/1;border-radius:var(--r-nho);overflow:hidden;background:var(--xam-thanh);margin-bottom:2px}
+.bs-qua-anh img{width:100%;height:100%;object-fit:cover;display:block}
+.bs-qua-nhan{position:absolute;left:0;top:0;background:var(--ngoc);color:#fff;font-size:11px;font-weight:800;letter-spacing:.02em;
+  padding:4px 8px 4px 7px;border-bottom-right-radius:8px}
+.bs-qua-nhan.mp{background:var(--do)}
+.bs-qua-ten{display:grid;gap:3px;justify-items:start;min-width:0}
+.bs-qua-ten a,.bs-qua-ten strong{font-weight:600;font-size:13.5px;line-height:1.35;overflow-wrap:anywhere;text-decoration:none;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
+.bs-qua-ten a:hover{color:var(--ngoc)}
 .bs-qua-ten small{font-size:12px;font-weight:700;color:var(--phu);background:var(--nen);border:1px solid var(--vien);border-radius:99px;padding:1px 8px}
-.bs-qua ul{list-style:none;margin:0;padding:0;display:grid;gap:2px}
-.bs-qua li{font-size:13.5px;color:var(--phu)}
-.bs-qua li b{color:var(--chu)}
+.bs-qua-vung{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.bs-qua-vung > span{font-size:12px;color:var(--phu);font-weight:700}
+.bs-qua-vung a,.bs-qua-vung em{font-style:normal;font-size:12px;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--vien);
+  background:var(--the);color:var(--ngoc);text-decoration:none}
+.bs-qua-vung a:hover{border-color:var(--ngoc);background:var(--ngoc-nhat)}
+.bs-qua-vung em{color:var(--phu)}
 .bs-psn table{min-width:0}
 .bs-psn th,.bs-psn td{white-space:normal}
 .bs-psn tbody th{font-variant-numeric:tabular-nums}
