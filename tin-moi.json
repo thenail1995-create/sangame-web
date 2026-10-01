@@ -39,5 +39,31 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "AI upscaling is coming to PS5",
+  "url": "https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/",
+  "ngay": "2026-10-01T23:00:09+07:00",
+  "the_loai": [
+   "PS5"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Martial arts meet fluid platforming in Elta: Defy All Gods, with a free PS5 demo out today",
+  "url": "https://blog.playstation.com/2026/10/01/martial-arts-meet-fluid-platforming-in-elta-defy-all-gods-with-a-free-ps5-demo-out-today/",
+  "ngay": "2026-10-01T22:00:44+07:00",
+  "the_loai": [
+   "PS5",
+   "Afterburner Studios",
+   "Elta: Defy All God"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false
  }
 ]

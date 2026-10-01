@@ -13,7 +13,9 @@
    "urn:uuid:276ac6b8-14b1-4969-9f4a-ae11dd38ed1b",
    "urn:uuid:92265195-88ed-4cda-86ce-34d5580a8410",
    "urn:uuid:808ee8d8-41d0-441f-ac26-bc7fab16e9fe",
-   "urn:uuid:824fa38c-8d63-4838-8fc5-9b0020603943"
+   "urn:uuid:824fa38c-8d63-4838-8fc5-9b0020603943",
+   "urn:uuid:3e8d8ed5-c0fa-45c3-b443-d60a99831973",
+   "urn:uuid:da8cb691-841d-428d-be9b-bcfac4b5b44a"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -40,6 +42,7 @@
    5590,
    5592,
    5587,
+   5586,
    5586
   ],
   "en-SG": [
@@ -52,11 +55,13 @@
    3118,
    3118,
    3117,
+   3116,
    3116
   ]
  },
  "extra_ds": {
   "en-SG": [
+   418,
    418,
    418,
    418,
