@@ -4,11 +4,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0B2552">
 <title>Chờ sale · Săn Game</title>
-<meta name="description" content="Thêm game bạn muốn mua vào danh sách chờ — Săn Game báo ngay khi giá xuống. Lưu trên máy bạn, không thu thông tin.">
+<meta name="description" content="Lưu game bạn muốn mua, xem game nào đang giảm giá. Lưu trên máy bạn, không thu thông tin.">
 
 <link rel="canonical" href="https://sangame.com.vn/cho-sale.html">
 <meta property="og:title" content="Chờ sale · Săn Game">
-<meta property="og:description" content="Thêm game bạn muốn mua vào danh sách chờ — Săn Game báo ngay khi giá xuống. Lưu trên máy bạn, không thu thông tin.">
+<meta property="og:description" content="Lưu game bạn muốn mua, xem game nào đang giảm giá. Lưu trên máy bạn, không thu thông tin.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://sangame.com.vn/og.png">
 <meta property="og:url" content="https://sangame.com.vn/cho-sale.html">
@@ -45,7 +45,10 @@
 .kp-bn-phu{font-size:12.5px;font-weight:600;opacity:.75}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--nen);color:var(--chu);font:14.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
-  -webkit-font-smoothing:antialiased}
+  -webkit-font-smoothing:antialiased;
+  /* Hào 01/10 rà soát: trang ngắn thì chân trang vẫn dính đáy khung nhìn (không còn dải nền xám trống dưới chân trang);
+     100dvh ghi sau 100vh vì Safari iPhone tính cả thanh địa chỉ vào 100vh. */
+  min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
 a{color:inherit}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ngoc);outline-offset:2px}
 .ic{width:20px;height:20px;flex:none}
@@ -106,8 +109,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .kenh .rong::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(255,255,255,0),#fff 60%)}
 .kenh .rong::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(255,255,255,0),#fff 60%)}
 .kenh.con-trai .rong::before,.kenh.con-phai .rong::after{opacity:1}
+/* Hào 01/10 rà soát: nhảy tới #mục thì tiêu đề không bị thanh kênh dính che (kênh cao ~64px trên điện thoại, ~49px trên máy tính). */
+:target{scroll-margin-top:76px}
 
-main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start}
+main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start;
+  flex:1 0 auto;width:100%}  /* width:100% BẮT BUỘC: main có margin:0 auto, trong flex column thiếu width sẽ co theo nội dung */
 section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 
 /* ── Đầu mỗi trang con: khối trắng — biểu tượng PS5 + tiêu đề + mô tả, bên phải công tắc vùng ── */
@@ -207,6 +213,15 @@ footer a{color:#DDE2EA}
 @media (max-width:560px){
   .vung-nhan{display:none}
   .chip-vung{padding:6px 11px}
+  /* Hào 01/10 rà soát: menu 5 mục phải thấy đủ trên điện thoại (360px trước chỉ lộ 3 mục): biểu tượng xếp trên, chữ dưới,
+     5 mục chia đều bề ngang; cuộn ngang + mũi tên chỉ còn là dự phòng cho màn hẹp hơn hoặc chữ phóng to. */
+  .kenh nav{justify-content:space-between;gap:0}
+  .kenh nav a{flex:1 0 auto;flex-direction:column;gap:3px;font-size:12.5px;padding:8px 4px 10px;justify-content:center}
+  .kenh nav a[aria-current="page"]::after{left:6px;right:6px}
+}
+@media (max-width:340px){  /* iPhone SE đời đầu / Android nhỏ: bớt đệm hai bên để 5 mục vẫn vừa (320px trước còn thừa 5px) */
+  .kenh nav a{padding-left:2px;padding-right:2px}
+  .kenh nav a[aria-current="page"]::after{left:2px;right:2px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
@@ -224,6 +239,8 @@ footer a{color:#DDE2EA}
 .cs-the.cs-dat-nguong{background:var(--ngoc-nhat);border-color:var(--ngoc)}
 .cs-dau{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
 .cs-dau h3{margin:0;font-size:16px;line-height:1.35}
+.cs-may{display:inline-block;margin-left:6px;vertical-align:1px;font-size:11.5px;font-weight:700;line-height:1;
+  padding:3px 6px;border-radius:6px;border:1px solid var(--vien);color:var(--phu);white-space:nowrap}
 .cs-nhan{display:inline-block;background:var(--do);color:#fff;font-weight:700;font-size:12px;
   line-height:1;padding:3px 7px;border-radius:6px;white-space:nowrap;flex:none}
 .cs-dong-trang-thai{margin:0;font-size:14px;font-variant-numeric:tabular-nums}
@@ -233,10 +250,13 @@ footer a{color:#DDE2EA}
   border:1px solid var(--vien);background:var(--nen);color:var(--phu);cursor:pointer;justify-self:start}
 .cs-nut-bo:hover,.cs-nut-bo:focus-visible{border-color:var(--do);color:var(--do)}
 .cs-nguong{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-.cs-nguong label{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--phu)}
+.cs-nguong label{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px;font-size:13px;color:var(--phu)}
+.cs-nguong-nhap{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
 .cs-nguong-o{font:inherit;font-size:14px;width:110px;padding:6px 8px;border:1px solid var(--vien);
   border-radius:8px;background:var(--nen);color:var(--chu)}
 .cs-nguong-dat{font-weight:700;color:var(--ngoc);font-size:12.5px}
+.cs-nguong-ghi{font-size:12px;color:var(--phu)}
+.cs-nguong-loi{flex-basis:100%;font-size:12.5px;font-weight:600;color:var(--do)}
 .cs-thong-bao-tan-noi{font-size:13.5px}
 .cs-the .cs-bao{font-size:13px;background:transparent;border:0;border-top:1px dashed var(--vien);border-radius:0;padding:8px 0 0;overflow-wrap:anywhere}
 .cs-bao summary{cursor:pointer;font-weight:600;color:var(--ngoc);padding:0;list-style-position:inside}
@@ -257,13 +277,13 @@ footer a{color:#DDE2EA}
 <div class="kenh"><div class="rong"><nav aria-label="Mục"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Trang chủ</a><a href="bai-viet.html"><img class="bt3d nav" src="bieu-tuong/tin-hot.webp" alt="" width="160" height="160">Tin hot</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="ps-plus.html"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="cong-cu.html"><img class="bt3d nav" src="bieu-tuong/cong-cu.webp" alt="" width="160" height="160">Công cụ</a></nav></div></div>
 <main>
 <section id="cho-sale">
-  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Chờ sale</h1><p>Thêm game bạn muốn mua vào đây — Săn Game báo ngay khi giá xuống, không cần tự
-    kiểm tra hằng ngày.</p></div><div class="vung-chon" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div></div>
+  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Chờ sale</h1><p>Lưu game bạn muốn mua ở đây. Mỗi lần bạn mở Săn Game, game nào đang giảm sẽ hiện lên
+    đầu danh sách. Muốn điện thoại tự báo mỗi ngày, dùng ntfy (hướng dẫn ở cuối trang).</p></div><div class="vung-chon" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div></div>
 
   <div id="cs-rong" class="the cs-rong" hidden>
     <p style="margin:0 0 6px;font-weight:700">Danh sách đang trống.</p>
     <p class="phu" style="margin:0">Vào <a href="tim-gia.html">Tìm giá</a>, bấm nút "☆ Chờ sale"
-      trên game bạn muốn — Săn Game sẽ báo ngay khi game đó giảm giá.</p>
+      trên game bạn muốn. Game nào đang giảm sẽ hiện lên đầu danh sách mỗi lần bạn mở trang.</p>
   </div>
 
   <p class="phu" id="cs-trang-thai" aria-live="polite"></p>
@@ -272,11 +292,12 @@ footer a{color:#DDE2EA}
   <p class="phu cs-ghi-chu">Danh sách lưu trên máy này (trình duyệt), đổi máy hoặc xoá dữ liệu
     trình duyệt sẽ mất. Săn Game không thu thông tin của bạn — không gửi danh sách này đi đâu.</p>
 
+  <p class="phu cs-ntfy-luu-y">ntfy chỉ báo khi game vừa bắt đầu giảm hoặc giảm sâu hơn; game đang giảm sẵn sẽ không báo lại.</p>
   <details class="the">
-    <summary>Muốn nhận thông báo tận nơi (không cần mở web mỗi ngày)?</summary>
+    <summary>Muốn nhận thông báo tận nơi (điện thoại tự báo mỗi ngày, không cần mở web)?</summary>
     <p class="phu cs-thong-bao-tan-noi" style="padding:0 18px 16px;margin:0">Mỗi game trong danh sách có mục
-      <b>🔔 Báo về điện thoại</b>: cài app miễn phí <b>ntfy</b> rồi theo dõi kênh của game đó — mỗi sáng
-      game bắt đầu giảm (hoặc giảm sâu hơn) là điện thoại báo ngay. Không cần đăng ký, không cần email:
+      <b>🔔 Báo về điện thoại</b>: cài app miễn phí <b>ntfy</b> rồi theo dõi kênh của game đó — game bắt đầu
+      giảm (hoặc giảm sâu hơn) là điện thoại tự báo. Không cần đăng ký, không cần email:
       <b>Săn Game không thu thông tin gì của bạn</b> và không biết bạn theo dõi game nào.</p>
   </details>
 </section>
@@ -360,7 +381,7 @@ footer a{color:#DDE2EA}
   ve();
 })();
 </script>
-<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.parentNode;
+<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.closest('.kenh')||n.parentNode;
 function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
 function giua(){var a=n.querySelector('[aria-current="page"]');if(a){var r=a.getBoundingClientRect(),rn=n.getBoundingClientRect();if(r.left<rn.left||r.right>rn.right)n.scrollLeft+=r.left-rn.left-(rn.width-r.width)/2;}u();}
 n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();
@@ -376,7 +397,13 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   var hopDs = document.getElementById("cs-danh-sach");
   var hopRong = document.getElementById("cs-rong");
   var trangThai = document.getElementById("cs-trang-thai");
-  if (!hopDs || !window.SGCS) return;
+  // Hào 01/10 rà soát: cho-sale.js nạp riêng (không có mã băm trong tên) và GitHub Pages cache ~10 phút -> quanh lúc deploy có thể
+  // gặp HTML mới + JS cũ thiếu hàm mới (nguongHopLe/docNguong/kiemBanner): vẽ thẻ sẽ ném TypeError, danh sách trống không báo gì.
+  if (!hopDs) return;
+  if (!window.SGCS || !window.SGCS.nguongHopLe || !window.SGCS.docNguong || !window.SGCS.kiemBanner) {
+    if (trangThai) trangThai.textContent = "Đang cập nhật trang, tải lại sau ít phút.";
+    return;
+  }
 
   function dongVnd(x){
     return (Math.round(x / 1000) * 1000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + "đ";
@@ -407,15 +434,25 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
 
   // Mục G: game "đã đạt ngưỡng" khi có đặt ngưỡng (item.nguong, VNĐ), game có bán ở vùng đang
   // chọn (tt không null, có giá) và giá hiện tại (tt.vnd, đã theo giá thẻ nếu có) <= ngưỡng.
+  // Hào 01/10 rà soát: ngưỡng < 1000đ là rác do ô cũ đọc "500.000" thành 500 -> coi như chưa đặt (SGCS.nguongHopLe).
   function datNguongRoi(item, tt){
-    return item.nguong != null && !!tt && tt.vnd != null && tt.vnd <= item.nguong;
+    var ng = window.SGCS.nguongHopLe(item.nguong);
+    return ng != null && !!tt && tt.vnd != null && tt.vnd <= ng;
   }
+  function dongSo(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
 
-  function veThe(item, tt){
+  // Hào 01/10 rà soát: nhãn máy của phiên bản đã lưu (mã máy của tim-gia.json: "4", "5", "45"); mã lạ/"" thì không ghi.
+  var NHAN_MAY = { "4": "PS4", "5": "PS5", "45": "PS4 · PS5" };
+
+  // coData = dữ liệu tim-gia.json đã tải được (khác null). !tt mà coData -> game KHÔNG nằm trong dữ liệu
+  // (hiện không khuyến mãi); !tt mà !coData -> lỗi tải. Hai chuyện khác nhau nên hai câu khác nhau.
+  function veThe(item, tt, coData){
     var nhan = "", lop = "cs-the", dong, quyDoi = "";
     var datRoi = datNguongRoi(item, tt);
     if (!tt) {
-      dong = "Chưa có dữ liệu giá hôm nay.";
+      dong = coData
+        ? "Hiện không nằm trong mục khuyến mãi PS Store nên chưa có giá — Săn Game sẽ hiện giá và báo khi game này xuất hiện lại."
+        : "Chưa tải được giá, thử lại sau.";
     } else if (tt.nhieu) {
       dong = 'Có nhiều phiên bản — vào <a href="tim-gia.html?q=' + encodeURIComponent(item.ten) +
         '">Tìm giá</a> bấm Chờ sale lại.';
@@ -434,21 +471,31 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
       if (tt.theoThe) quyDoi = '<p class="cs-quy-doi-nho">≈ ' + dongVnd(tt.vndBank) + ' theo tỷ giá ngân hàng</p>';
     }
     if (datRoi && lop.indexOf("cs-dang-giam") < 0) lop += " cs-dat-nguong";
-    var nguongHtml = '<div class="cs-nguong"><label>Báo khi dưới <input type="number" inputmode="numeric" ' +
-      'min="1000" step="1000" class="cs-nguong-o" data-cs-khoa="' + escHtml(item.khoa) + '" value="' +
-      (item.nguong != null ? item.nguong : "") + '" placeholder="vd 500000"> đ</label>' +
-      (datRoi ? '<span class="cs-nguong-dat">🔔 Đã xuống dưới ngưỡng bạn đặt!</span>' : "") + '</div>';
-    return '<article class="' + lop + '"><div class="cs-dau"><h3>' + escHtml(item.ten) + '</h3>' + nhan + '</div>' +
-      '<p class="cs-dong-trang-thai">' + dong + '</p>' + quyDoi + nguongHtml + veBaoDienThoai(item) +
+    // C4: type=text (không phải number) để gõ được "500.000"/"500k"; docNguong đọc, sai thì hiện dòng nhắc (không xoá ngưỡng cũ).
+    var ng = window.SGCS.nguongHopLe(item.nguong);
+    // Hào 01/10 rà soát: ô nhập + chữ "đ" gói vào 1 span không ngắt (ở khung ~320px chữ "đ" từng rơi xuống dòng riêng).
+    var nguongHtml = '<div class="cs-nguong"><label>Đánh dấu khi giá dưới <span class="cs-nguong-nhap"><input type="text" inputmode="numeric" ' +
+      'autocomplete="off" class="cs-nguong-o" data-cs-khoa="' + escHtml(item.khoa) + '" value="' +
+      (ng != null ? dongSo(ng) : "") + '" placeholder="vd 500000"> đ</span></label>' +
+      '<span class="cs-nguong-ghi">(chỉ hiện trên web)</span>' +
+      (datRoi ? '<span class="cs-nguong-dat">🔔 Đã xuống dưới ngưỡng bạn đặt!</span>' : "") +
+      '<span class="cs-nguong-loi" role="alert" hidden>Nhập số đồng, vd 500000 hoặc 500k</span></div>';
+    var nhanMay = NHAN_MAY[String(item.may)];
+    return '<article class="' + lop + '"><div class="cs-dau"><h3>' + escHtml(item.ten) +
+      (nhanMay ? ' <span class="cs-may">' + nhanMay + '</span>' : "") + '</h3>' + nhan + '</div>' +
+      '<p class="cs-dong-trang-thai">' + dong + '</p>' + quyDoi + nguongHtml + veBaoDienThoai(item, tt) +
       '<button type="button" class="cs-nut-bo" data-cs-bo="' + escHtml(item.khoa) + '">Bỏ khỏi danh sách</button></article>';
   }
 
   // Báo tận nơi qua ntfy: mỗi game 1 kênh (window.SGCS.kenhNtfy — giống hệt bao-ntfy.py bên máy
   // chủ). Người dùng tự theo dõi kênh; Săn Game không biết ai theo dõi, không lưu gì.
-  function veBaoDienThoai(item){
+  // Game đang giảm sẵn thì ntfy KHÔNG báo lại (chỉ báo khi bắt đầu giảm/giảm sâu hơn) -> tiêu đề nói đúng việc đó.
+  function veBaoDienThoai(item, tt){
     var kenh = window.SGCS.kenhNtfy(item.khoa);
     var ten = encodeURIComponent("Săn Game: " + item.ten).replace(/%20/g, "+");
-    return '<details class="cs-bao"><summary>🔔 Báo về điện thoại khi game này giảm giá</summary>' +
+    var tieuDe = tt && tt.giam ? "🔔 Báo về điện thoại khi game này giảm sâu hơn hoặc giảm lại"
+      : "🔔 Báo về điện thoại khi game này giảm giá";
+    return '<details class="cs-bao"><summary>' + tieuDe + '</summary>' +
       '<ol class="cs-bao-buoc">' +
       '<li>Cài app <b>ntfy</b> (miễn phí): <a href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" ' +
         'target="_blank" rel="noopener">Android</a> · <a href="https://apps.apple.com/us/app/ntfy/id1625396347" ' +
@@ -458,8 +505,8 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
         '<button type="button" class="cs-bao-chep" data-cs-kenh="' + kenh + '">Chép</button></li>' +
       '<li>Máy tính: mở <a href="https://ntfy.sh/' + kenh + '" target="_blank" rel="noopener">trang kênh</a> rồi bấm theo dõi.</li>' +
       '</ol>' +
-      '<p class="cs-bao-ghi-chu">Báo khi game bắt đầu giảm hoặc giảm sâu hơn (mỗi sáng). Ngưỡng giá bạn đặt ' +
-        'chỉ xem trên web. Tin đi qua ntfy.sh (dịch vụ bên ngoài); Săn Game không biết bạn theo dõi game nào.</p>' +
+      '<p class="cs-bao-ghi-chu">Chỉ báo khi game bắt đầu giảm hoặc giảm sâu hơn; game đang giảm sẵn sẽ không báo lại. ' +
+        'Ngưỡng giá bạn đặt chỉ hiện trên web. Tin đi qua ntfy.sh (dịch vụ bên ngoài); Săn Game không biết bạn theo dõi game nào.</p>' +
       '</details>';
   }
 
@@ -501,12 +548,13 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
       if (soDatNguong) phu += " · " + soDatNguong + " đã đạt ngưỡng";
       trangThai.textContent = ds.length + " game đang chờ" + phu;
     }
-    hopDs.innerHTML = xep.map(function(x){ return veThe(x.item, x.tt); }).join("");
+    hopDs.innerHTML = xep.map(function(x){ return veThe(x.item, x.tt, !!data); }).join("");
     var nutBo = hopDs.querySelectorAll("[data-cs-bo]");
     for (var j = 0; j < nutBo.length; j++) {
       nutBo[j].addEventListener("click", function(ev){
         window.SGCS.boGame(ev.currentTarget.getAttribute("data-cs-bo"));
         window.SGCS.capNhatHuyHieu();
+        window.SGCS.kiemBanner(undefined, true);
         taiLai();
       });
     }
@@ -523,10 +571,20 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
       oNguong[k].addEventListener("change", function(ev){
         var el = ev.currentTarget;
         var v = el.value.trim();
-        var so = v === "" ? null : parseInt(v, 10);
-        if (so != null && (isNaN(so) || so <= 0)) so = null;
+        var so = null;
+        if (v !== "") {
+          so = window.SGCS.docNguong(v);
+          if (so == null) {
+            // C4: gõ sai -> GIỮ ngưỡng cũ, không vẽ lại thẻ (vẽ lại làm mất dòng nhắc), chỉ hiện dòng nhắc cạnh ô.
+            var hop = el.closest ? el.closest(".cs-nguong") : null;
+            var loi = hop ? hop.querySelector(".cs-nguong-loi") : null;
+            if (loi) loi.hidden = false;
+            return;
+          }
+        }
         window.SGCS.datNguong(el.getAttribute("data-cs-khoa"), so);
         window.SGCS.capNhatHuyHieu();
+        window.SGCS.kiemBanner(undefined, true);
         taiLai();
       });
     }
@@ -534,24 +592,32 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
 
   // Cache dữ liệu giá đã tải trong lượt xem trang này — đổi vùng (mục B) chỉ cần vẽ lại bằng dữ
   // liệu đã có, không cần tải lại mạng mỗi lần bấm công tắc vùng.
-  var _cacheData = null, _cacheGiaThe = null;
+  // Hào 01/10 rà soát: _dangTai = true trong lúc chờ tim-gia.json. Đổi vùng giữa chừng KHÔNG vẽ lại (ve(ds, null, null) sẽ
+  // hiện câu "Chưa tải được giá" của LỖI tải và ghi đè dòng "Đang tải…"); tải xong ve() tự đọc vùng mới từ SGVUNG.doc().
+  var _cacheData = null, _cacheGiaThe = null, _dangTai = false;
   function taiLai(){
     var ds = window.SGCS.docDs();
     if (!ds.length) { ve(ds, null, null); return; }
     if (_cacheData) { ve(ds, _cacheData, _cacheGiaThe); return; }
     if (trangThai) trangThai.textContent = "Đang tải giá mới nhất…";
+    _dangTai = true;
     Promise.all([
       fetch(DATA_URL).then(function(r){ return r.json(); }),
       fetch(GIA_THE_URL).then(function(r){ return r.json(); }).catch(function(){ return null; }),
     ]).then(function(ket){
       _cacheData = ket[0]; _cacheGiaThe = ket[1];
+      _dangTai = false;
       ve(ds, _cacheData, _cacheGiaThe);
     }).catch(function(){
+      _dangTai = false;
       ve(ds, null, null);
       if (trangThai) trangThai.textContent = ds.length + " game đang chờ · không tải được giá mới, thử lại sau.";
     });
   }
-  window.addEventListener("sangame-vung", function(){ ve(window.SGCS.docDs(), _cacheData, _cacheGiaThe); });
+  window.addEventListener("sangame-vung", function(){
+    if (_dangTai) return;
+    ve(window.SGCS.docDs(), _cacheData, _cacheGiaThe);
+  });
 
   taiLai();
 })();

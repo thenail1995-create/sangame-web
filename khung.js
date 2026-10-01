@@ -69,7 +69,7 @@
   window.SGVUNG = { doc: docVung, dat: chonVung };
   ve();
 })();
-(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.parentNode;
+(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.closest('.kenh')||n.parentNode;
 function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
 function giua(){var a=n.querySelector('[aria-current="page"]');if(a){var r=a.getBoundingClientRect(),rn=n.getBoundingClientRect();if(r.left<rn.left||r.right>rn.right)n.scrollLeft+=r.left-rn.left-(rn.width-r.width)/2;}u();}
 n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();

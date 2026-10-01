@@ -45,7 +45,10 @@
 .kp-bn-phu{font-size:12.5px;font-weight:600;opacity:.75}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--nen);color:var(--chu);font:14.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
-  -webkit-font-smoothing:antialiased}
+  -webkit-font-smoothing:antialiased;
+  /* Hào 01/10 rà soát: trang ngắn thì chân trang vẫn dính đáy khung nhìn (không còn dải nền xám trống dưới chân trang);
+     100dvh ghi sau 100vh vì Safari iPhone tính cả thanh địa chỉ vào 100vh. */
+  min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
 a{color:inherit}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ngoc);outline-offset:2px}
 .ic{width:20px;height:20px;flex:none}
@@ -106,8 +109,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .kenh .rong::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(255,255,255,0),#fff 60%)}
 .kenh .rong::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(255,255,255,0),#fff 60%)}
 .kenh.con-trai .rong::before,.kenh.con-phai .rong::after{opacity:1}
+/* Hào 01/10 rà soát: nhảy tới #mục thì tiêu đề không bị thanh kênh dính che (kênh cao ~64px trên điện thoại, ~49px trên máy tính). */
+:target{scroll-margin-top:76px}
 
-main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start}
+main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start;
+  flex:1 0 auto;width:100%}  /* width:100% BẮT BUỘC: main có margin:0 auto, trong flex column thiếu width sẽ co theo nội dung */
 section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 
 /* ── Đầu mỗi trang con: khối trắng — biểu tượng PS5 + tiêu đề + mô tả, bên phải công tắc vùng ── */
@@ -207,6 +213,15 @@ footer a{color:#DDE2EA}
 @media (max-width:560px){
   .vung-nhan{display:none}
   .chip-vung{padding:6px 11px}
+  /* Hào 01/10 rà soát: menu 5 mục phải thấy đủ trên điện thoại (360px trước chỉ lộ 3 mục): biểu tượng xếp trên, chữ dưới,
+     5 mục chia đều bề ngang; cuộn ngang + mũi tên chỉ còn là dự phòng cho màn hẹp hơn hoặc chữ phóng to. */
+  .kenh nav{justify-content:space-between;gap:0}
+  .kenh nav a{flex:1 0 auto;flex-direction:column;gap:3px;font-size:12.5px;padding:8px 4px 10px;justify-content:center}
+  .kenh nav a[aria-current="page"]::after{left:6px;right:6px}
+}
+@media (max-width:340px){  /* iPhone SE đời đầu / Android nhỏ: bớt đệm hai bên để 5 mục vẫn vừa (320px trước còn thừa 5px) */
+  .kenh nav a{padding-left:2px;padding-right:2px}
+  .kenh nav a[aria-current="page"]::after{left:2px;right:2px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
@@ -215,7 +230,7 @@ footer a{color:#DDE2EA}
    Ảnh luôn hiện TRỌN tỉ lệ 16:9 (29/09 Hào: "đôi khi banner bị mất phần ảnh" — bản trước đặt ảnh làm nền
    phủ kín khung 1200:360 nên cắt mất ~47% chiều cao). Máy tính: chữ ô trái, ảnh ô phải; điện thoại: ảnh
    trên, chữ dưới. Các slide chồng trong cùng 1 ô lưới nên khung cao đúng bằng slide, không nhảy trang. */
-.bn-tq{position:relative;border-radius:var(--r);overflow:hidden;background:#0B2552;box-shadow:var(--bong-noi)}
+.bn-tq{position:relative;border-radius:var(--r);overflow:hidden;background:#0B2552;box-shadow:var(--bong-noi);touch-action:pan-y}
 .bn-khung{display:grid}
 .bn-slide{grid-area:1/1;display:grid;grid-template-columns:minmax(0,36fr) minmax(0,64fr);text-decoration:none;color:#fff;
   opacity:0;visibility:hidden;transition:opacity .6s,visibility .6s;background:linear-gradient(115deg,#0B2552 0%,#123A7A 60%,#0B2552 100%)}
@@ -238,7 +253,9 @@ footer a{color:#DDE2EA}
 .bn-mui:hover{background:rgba(0,0,0,.55);filter:none}
 .bn-mui.trai{left:10px}.bn-mui.phai{right:10px}
 .bn-cham{position:absolute;z-index:3;left:60px;bottom:16px;display:flex;gap:6px}
-.bn-cham button{width:8px;height:8px;border-radius:999px;padding:0;background:rgba(255,255,255,.4);transition:width .2s}
+.bn-cham button{position:relative;width:8px;height:8px;border-radius:999px;padding:0;background:rgba(255,255,255,.4);transition:width .2s}
+/* Hào 01/10 rà soát: chấm 8x8px quá nhỏ để chạm — mở vùng chạm vô hình quanh chấm (không đổi hình chấm). */
+.bn-cham button::before{content:"";position:absolute;inset:-12px -4px}
 .bn-cham button.dang{width:22px;background:#fff}
 
 /* ── Banner PS Plus khi gói 12 tháng đang giảm (Hào: "làm banner hẳn hoi") — đen + vàng của PS Plus ── */
@@ -305,11 +322,26 @@ footer a{color:#DDE2EA}
 .pr-bang .cuon{overflow-x:auto}
 .pr-bang table{min-width:0}
 @media (max-width:420px){.pr-bang th,.pr-bang td{padding:9px 6px}.pr-bang td b{font-size:14.5px}}
+/* Hào 01/10 rà soát: điện thoại 360-390px — cột "Vùng" 196px (chip "Rẻ nhất cả 3 gói" nằm cùng dòng) chiếm hơn nửa khung, cột
+   Extra bị cắt ngang chữ số mà không có dấu hiệu vuốt được. Bảng 1 tên vùng + 3 cột giá cần ~390px nên KHÔNG ép vừa được
+   (đã đo vẫn tràn): thu cột Vùng lại (chip xuống dòng riêng), ghim cột Vùng bên trái khi vuốt, bóng mờ mép phải + dòng chữ
+   "Vuốt ngang". Chỉ #plus (trang_game.py có .pr-bang riêng). */
+.pr-vuot{display:none;margin:0;font-size:12.5px}
+@media (max-width:560px){
+  .pr-vuot{display:block}
+  #plus .pr-bang .chip-re{display:block;width:max-content;margin-top:2px}
+  #plus .pr-bang tbody th{white-space:normal}
+  #plus .pr-bang tbody th,#plus .pr-bang tbody td{padding:9px 6px}
+  #plus .pr-bang th:first-child{position:sticky;left:0;z-index:1;background:var(--the);box-shadow:1px 0 0 var(--vien)}
+  #plus .pr-bang .cuon{background:
+    linear-gradient(270deg,var(--the) 30%,rgba(255,255,255,0)) 100% 0/28px 100% no-repeat local,
+    radial-gradient(farthest-side at 100% 50%,rgba(11,37,82,.28),rgba(11,37,82,0)) 100% 0/12px 100% no-repeat scroll}
+}
 
 /* ── Thanh sắp xếp / lọc (kiểu tab 综合/史低 của trang Trung Quốc) ── */
 .thanh-loc{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--vien);padding-bottom:10px}
 .nhom-loc{display:flex;gap:6px;flex-wrap:wrap}
-.thanh-loc .vung-chon{flex:0 1 520px;min-width:0}
+.thanh-loc .vung-chon{flex:0 1 560px;min-width:0}  /* Hào 01/10 rà soát: 520 cắt chữ nút "Ấn Độ" từ 861px — cùng 560 với .dau-muc .vung-chon (khung_trang) */
 .ghi-gia{margin:-4px 0 0;font-size:12.5px;color:var(--phu)}
 .an-chu{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .tab-sx{font:inherit;font-size:13.5px;font-weight:700;padding:6px 14px;border-radius:999px;background:transparent;color:var(--phu);border:0}
@@ -323,6 +355,11 @@ footer a{color:#DDE2EA}
 .ds-bia-gia .trong{grid-column:1/-1;color:var(--phu);padding:12px 0}
 .lien-game{display:grid;gap:4px;text-decoration:none;color:inherit}
 .lien-game:hover .ten{color:var(--ngoc)}
+/* Hào 01/10 rà soát: DLC/vật phẩm chưa có trang so giá -> thẻ không bấm được (không link sang "Không tìm thấy") */
+.lien-game.khong-lien{cursor:default}
+.lien-game.khong-lien:hover .ten{color:inherit}
+.ds-bia-gia .ghi-khong-so{margin-top:auto}
+.ds-bia-gia li:hover .khong-lien .bia-gia img{transform:none}
 .nhan-hang{position:absolute;left:0;top:0;background:rgba(11,37,82,.82);color:#fff;font-size:11px;font-weight:700;padding:3px 7px;border-bottom-right-radius:8px}
 .may-nho{font-size:11px;color:var(--phu);font-weight:600}
 
@@ -343,8 +380,7 @@ footer a{color:#DDE2EA}
 
 /* Thẻ bìa-giá (kiểu Sonkwo/PSNine): % giảm + nhãn "Giá thấp nhất" + TOP đè lên bìa, giá sale đỏ cam */
 .ds-bia-gia{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px}
-.ds-bia-gia li{display:grid;gap:4px;align-content:start;min-width:0}
-.ds-bia-gia li > *{grid-column:1/-1}
+.ds-bia-gia li{display:flex;flex-direction:column;gap:4px;min-width:0}
 .bia-gia{position:relative;aspect-ratio:1/1;border-radius:var(--r-nho);overflow:hidden;background:var(--xam-thanh);margin-bottom:4px}
 .bia-gia img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s}
 .ds-bia-gia li:hover .bia-gia img{transform:scale(1.04)}
@@ -362,12 +398,15 @@ footer a{color:#DDE2EA}
 .ds-bia-gia .gia b{color:var(--gia);font-size:17px;font-weight:800;letter-spacing:-.01em}
 .ds-bia-gia .gia s{color:#9AA1AC;font-size:12px}
 .ds-bia-gia .quy-doi-nho,.ds-bia-gia .ls-gia{font-size:11px;color:var(--phu);line-height:1.35}
-.ds-bia-gia .nut-cho-sale{justify-self:start;margin-top:4px}
+/* Hào 01/10 rà soát: nút "Chờ sale" dồn xuống đáy thẻ -> thẳng hàng giữa các thẻ cùng hàng dù giá gốc gạch xuống dòng hay không */
+.ds-bia-gia .nut-cho-sale{align-self:flex-start;margin-top:auto}
 
 .hai-cot-tq{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:18px;align-items:start}
 .cot-trai,.cot-phai{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;min-width:0}
 
 .ds-goi{list-style:none;margin:0;padding:0;display:grid}
+.ghi-vung-plus{margin:0 0 8px;font-size:12.5px}
+.ds-goi + .ghi-vung-plus{margin:8px 0 0}
 .ds-goi li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-top:1px dashed var(--vien)}
 .ds-goi li:first-child{border-top:0;padding-top:0}
 .ten-goi{font-weight:600}
@@ -552,7 +591,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
   .bn-chu p b{font-size:18px}
   .bn-nut{display:none}
   .bn-mui{display:none}
-  .bn-cham{left:16px;bottom:12px}
+  .bn-cham{left:16px;bottom:12px;gap:10px}
   .banner-plus{padding:16px;gap:14px}
   .bp-to{font-size:23px}
   .bp-logo{width:52px;height:52px}
@@ -575,6 +614,13 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
   .o-tra select{flex-basis:100%}
   .sk-nam-truoc li{flex-direction:column}.sk-nt-anh{width:100%}.sk-bia img{width:60px;height:60px}
 }
+/* Hào 01/10 rà soát: 600-860px (máy tính bảng, điện thoại nằm ngang) lưới 2 cột làm ảnh bìa to hơn cả ở 1440px -> 3 rồi 4 cột.
+   Đặt SAU khối 860 vì cùng độ ưu tiên; 4 cột từ 600px thì thẻ quá hẹp. */
+@media (min-width:600px) and (max-width:860px){.khoi-giam .ds-bia-gia{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:720px) and (max-width:860px){.khoi-giam .ds-bia-gia{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* 3 thẻ Tin hot xếp 2+1 lệch (auto-fit 260px cần >= ~885px mới đủ 3 cột) -> 3 cột đều từ 720 tới 900px; selector cụ thể hơn
+   .bai-moi của bai_viet.CSS_KHOI_MOI (ghép SAU CSS_TRANG_CHU nên selector trơn sẽ bị đè) */
+@media (min-width:720px) and (max-width:900px){.dau-tin .tin-hot .bai-moi{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
 </style>
 <body>
@@ -585,9 +631,9 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
 </div></div>
 <div class="kenh"><div class="rong"><nav aria-label="Mục"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Trang chủ</a><a href="bai-viet.html"><img class="bt3d nav" src="bieu-tuong/tin-hot.webp" alt="" width="160" height="160">Tin hot</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="ps-plus.html" aria-current="page"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="cong-cu.html"><img class="bt3d nav" src="bieu-tuong/cong-cu.webp" alt="" width="160" height="160">Công cụ</a></nav></div></div>
 <main><nav class="tab-con" aria-label="Trong nhóm này"><a href="ps-plus.html">Giá gói 12 tháng</a><a href="mien-phi.html" aria-current="page">Game tặng tháng này</a><a href="kho-plus.html">Kho Extra &amp; Classics</a><a href="qua-hoi-vien.html">Quà trong game</a></nav>
-  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Game miễn phí tháng này</h1><p>Có gói PS Plus Essential là tải được, giữ tới khi còn gói.</p></div></div>
+  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/mien-phi.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Game miễn phí tháng này</h1><p>Có gói PS Plus Essential là nhận được. Đợt này nhận đến hết 05/10 (dự kiến theo lịch Sony), đợt mới từ 06/10. Đã nhận rồi thì giữ tới khi còn gói.</p></div></div>
   <section id="mien-phi">
-    <div class="hang-bia"><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/1611/6O2jAYhTUqhcJYYJeNex5oKJ.png?w=300" alt=""><figcaption>Chained Echoes</figcaption></figure><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202608/1214/4240708e955c460e92bcaa1f453f1e50567f29fce6636431.png?w=300" alt=""><figcaption>Fallout 76</figcaption></figure><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202607/0816/791b0f1880e27c1d8f52187daea36abfe5fd3b0ff1144007.png?w=300" alt=""><figcaption>MLB® The Show™ 26</figcaption></figure><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202608/2100/035494835cd93a14cb0ecdc160adcf2c6cbce92fff15c738.png?w=300" alt=""><figcaption>MLB® The Show™ 26 Jump Start Bundle</figcaption></figure><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202408/1309/05d041f5216b1cd55a4587729534ce8ac8c557877b4d1483.png?w=300" alt=""><figcaption>Sniper Elite: Resistance</figcaption></figure><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202212/0810/iCrnQDLqgGBSnHkTFbOzQX2Q.png?w=300" alt=""><figcaption>Wobbly Life</figcaption></figure></div>
+    <div class="hang-bia"><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/1611/6O2jAYhTUqhcJYYJeNex5oKJ.png?w=300" alt=""><figcaption>Chained Echoes</figcaption></figure><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202607/0816/791b0f1880e27c1d8f52187daea36abfe5fd3b0ff1144007.png?w=300" alt=""><figcaption>MLB® The Show™ 26</figcaption></figure><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202408/1309/05d041f5216b1cd55a4587729534ce8ac8c557877b4d1483.png?w=300" alt=""><figcaption>Sniper Elite: Resistance</figcaption></figure><figure class="bia"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202212/0810/iCrnQDLqgGBSnHkTFbOzQX2Q.png?w=300" alt=""><figcaption>Wobbly Life</figcaption></figure></div>
   </section>
 </main>
 <footer><div class="rong">
@@ -669,7 +715,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
   ve();
 })();
 </script>
-<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.parentNode;
+<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.closest('.kenh')||n.parentNode;
 function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
 function giua(){var a=n.querySelector('[aria-current="page"]');if(a){var r=a.getBoundingClientRect(),rn=n.getBoundingClientRect();if(r.left<rn.left||r.right>rn.right)n.scrollLeft+=r.left-rn.left-(rn.width-r.width)/2;}u();}
 n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();

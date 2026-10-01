@@ -24,7 +24,10 @@
 .kp-bn-phu{font-size:12.5px;font-weight:600;opacity:.75}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--nen);color:var(--chu);font:14.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
-  -webkit-font-smoothing:antialiased}
+  -webkit-font-smoothing:antialiased;
+  /* Hào 01/10 rà soát: trang ngắn thì chân trang vẫn dính đáy khung nhìn (không còn dải nền xám trống dưới chân trang);
+     100dvh ghi sau 100vh vì Safari iPhone tính cả thanh địa chỉ vào 100vh. */
+  min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
 a{color:inherit}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ngoc);outline-offset:2px}
 .ic{width:20px;height:20px;flex:none}
@@ -85,8 +88,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .kenh .rong::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(255,255,255,0),#fff 60%)}
 .kenh .rong::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(255,255,255,0),#fff 60%)}
 .kenh.con-trai .rong::before,.kenh.con-phai .rong::after{opacity:1}
+/* Hào 01/10 rà soát: nhảy tới #mục thì tiêu đề không bị thanh kênh dính che (kênh cao ~64px trên điện thoại, ~49px trên máy tính). */
+:target{scroll-margin-top:76px}
 
-main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start}
+main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start;
+  flex:1 0 auto;width:100%}  /* width:100% BẮT BUỘC: main có margin:0 auto, trong flex column thiếu width sẽ co theo nội dung */
 section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 
 /* ── Đầu mỗi trang con: khối trắng — biểu tượng PS5 + tiêu đề + mô tả, bên phải công tắc vùng ── */
@@ -186,5 +192,14 @@ footer a{color:#DDE2EA}
 @media (max-width:560px){
   .vung-nhan{display:none}
   .chip-vung{padding:6px 11px}
+  /* Hào 01/10 rà soát: menu 5 mục phải thấy đủ trên điện thoại (360px trước chỉ lộ 3 mục): biểu tượng xếp trên, chữ dưới,
+     5 mục chia đều bề ngang; cuộn ngang + mũi tên chỉ còn là dự phòng cho màn hẹp hơn hoặc chữ phóng to. */
+  .kenh nav{justify-content:space-between;gap:0}
+  .kenh nav a{flex:1 0 auto;flex-direction:column;gap:3px;font-size:12.5px;padding:8px 4px 10px;justify-content:center}
+  .kenh nav a[aria-current="page"]::after{left:6px;right:6px}
+}
+@media (max-width:340px){  /* iPhone SE đời đầu / Android nhỏ: bớt đệm hai bên để 5 mục vẫn vừa (320px trước còn thừa 5px) */
+  .kenh nav a{padding-left:2px;padding-right:2px}
+  .kenh nav a[aria-current="page"]::after{left:2px;right:2px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}

@@ -45,7 +45,10 @@
 .kp-bn-phu{font-size:12.5px;font-weight:600;opacity:.75}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--nen);color:var(--chu);font:14.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
-  -webkit-font-smoothing:antialiased}
+  -webkit-font-smoothing:antialiased;
+  /* Hào 01/10 rà soát: trang ngắn thì chân trang vẫn dính đáy khung nhìn (không còn dải nền xám trống dưới chân trang);
+     100dvh ghi sau 100vh vì Safari iPhone tính cả thanh địa chỉ vào 100vh. */
+  min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
 a{color:inherit}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ngoc);outline-offset:2px}
 .ic{width:20px;height:20px;flex:none}
@@ -106,8 +109,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .kenh .rong::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(255,255,255,0),#fff 60%)}
 .kenh .rong::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(255,255,255,0),#fff 60%)}
 .kenh.con-trai .rong::before,.kenh.con-phai .rong::after{opacity:1}
+/* Hào 01/10 rà soát: nhảy tới #mục thì tiêu đề không bị thanh kênh dính che (kênh cao ~64px trên điện thoại, ~49px trên máy tính). */
+:target{scroll-margin-top:76px}
 
-main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start}
+main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start;
+  flex:1 0 auto;width:100%}  /* width:100% BẮT BUỘC: main có margin:0 auto, trong flex column thiếu width sẽ co theo nội dung */
 section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 
 /* ── Đầu mỗi trang con: khối trắng — biểu tượng PS5 + tiêu đề + mô tả, bên phải công tắc vùng ── */
@@ -207,6 +213,15 @@ footer a{color:#DDE2EA}
 @media (max-width:560px){
   .vung-nhan{display:none}
   .chip-vung{padding:6px 11px}
+  /* Hào 01/10 rà soát: menu 5 mục phải thấy đủ trên điện thoại (360px trước chỉ lộ 3 mục): biểu tượng xếp trên, chữ dưới,
+     5 mục chia đều bề ngang; cuộn ngang + mũi tên chỉ còn là dự phòng cho màn hẹp hơn hoặc chữ phóng to. */
+  .kenh nav{justify-content:space-between;gap:0}
+  .kenh nav a{flex:1 0 auto;flex-direction:column;gap:3px;font-size:12.5px;padding:8px 4px 10px;justify-content:center}
+  .kenh nav a[aria-current="page"]::after{left:6px;right:6px}
+}
+@media (max-width:340px){  /* iPhone SE đời đầu / Android nhỏ: bớt đệm hai bên để 5 mục vẫn vừa (320px trước còn thừa 5px) */
+  .kenh nav a{padding-left:2px;padding-right:2px}
+  .kenh nav a[aria-current="page"]::after{left:2px;right:2px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
@@ -226,20 +241,31 @@ footer a{color:#DDE2EA}
 .the-game h3 a:hover{color:var(--ngoc);text-decoration:underline}
 .the-game .nhan-loai{font-size:12px;font-weight:700;color:var(--phu);background:var(--nen);
   border:1px solid var(--vien);border-radius:99px;padding:2px 8px;white-space:nowrap}
+/* Hào 01/10 rà soát: nhãn máy (PS4/PS5) + nhãn loại cạnh nhau, xuống dòng được khi hẹp */
+.the-game .nhan-the{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px}
 .gia-vung{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 .gia-vung li{display:flex;align-items:center;justify-content:space-between;gap:10px;
   padding:7px 10px;border-radius:10px;font-variant-numeric:tabular-nums}
-.gia-vung .ten-vung{font-weight:600;color:var(--phu);font-size:13.5px}
+.gia-vung .ten-vung{font-weight:600;color:var(--phu);font-size:13.5px;white-space:nowrap;display:grid;justify-items:start;gap:2px}
+.gia-vung .nhan-re,.gia-vung .nhan-chon{font-style:normal;font-size:11px;font-weight:700;line-height:1.3}
+.gia-vung .nhan-re{color:var(--ngoc);border:1px solid var(--ngoc);border-radius:99px;padding:0 6px}
+.gia-vung .nhan-chon{color:var(--phu)}
 .gia-vung .so-tien-boc{display:grid;justify-items:end;gap:1px}
-.gia-vung .so-tien{display:flex;align-items:center;gap:6px}
+/* Hào 01/10 rà soát vòng 2: hàng giá (badge −% + giá + giá gạch) xuống dòng được — ".ten-vung" nowrap (Hồng Kông, Thái Lan) cộng hàng giá
+   không xuống dòng làm thẻ tràn ra ngoài viền ở 360px và cả trang cuộn ngang ở <= 340px với game giá lớn (UFC 6, NBA 2K27). */
+.gia-vung .so-tien{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:6px}
 .gia-vung .so-tien b{font-size:15px}
 .gia-vung .so-tien s{color:var(--phu);font-size:12.5px}
 .gia-vung .quy-doi-nho{color:var(--phu);font-size:11px}
 .gia-vung li.re-nhat{background:var(--ngoc-nhat)}
 .gia-vung li.re-nhat .ten-vung,.gia-vung li.re-nhat .so-tien b{color:var(--ngoc)}
 .gia-vung li.vung-chon{box-shadow:inset 0 0 0 1.5px var(--ngoc)}
+.gia-vung li.vung-mo .so-tien b{color:var(--phu);font-weight:600}
 .gia-vung .chua-co-gia{color:var(--phu);font-weight:600;font-size:13.5px}
 .tim-gia-trong{color:var(--phu);font-size:15px;margin:0}
+.tim-gia-luu-y{font-size:13px}
+.tim-gia-chu-giai{font-size:13px;margin-top:8px}
+#tim-gia-trang-thai a{color:var(--ngoc);font-weight:600}
 .the-game .nut-cho-sale{margin-top:2px;justify-self:start}
 
 </style>
@@ -252,13 +278,14 @@ footer a{color:#DDE2EA}
 <div class="kenh"><div class="rong"><nav aria-label="Mục"><a href="index.html"><span class="o-nha"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg></span>Trang chủ</a><a href="bai-viet.html"><img class="bt3d nav" src="bieu-tuong/tin-hot.webp" alt="" width="160" height="160">Tin hot</a><a href="giam-gia.html"><img class="bt3d nav" src="bieu-tuong/giam-gia.webp" alt="" width="160" height="160">Giảm giá</a><a href="ps-plus.html"><img class="bt3d nav" src="bieu-tuong/ps-plus.webp" alt="" width="160" height="160">PS Plus</a><a href="cong-cu.html"><img class="bt3d nav" src="bieu-tuong/cong-cu.webp" alt="" width="160" height="160">Công cụ</a></nav></div></div>
 <main>
 <section id="tim-gia">
-  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Tìm giá theo tên game</h1><p>Gõ tên game (không cần dấu, có thể viết tắt) — so giá 6 vùng PS Store, quy đổi tiền Việt.</p></div><div class="vung-chon" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div></div>
+  <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/tim-gia.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Tìm giá theo tên game</h1><p>Gõ tên game (không cần dấu; viết tắt phổ biến như gta, ff7, gow cũng được). Giá game đang khuyến mãi ở 6 vùng PS Store, quy đổi tiền Việt.</p></div><div class="vung-chon" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div></div>
   <div class="the tim-gia-o">
     <div class="o-tra">
       <input id="tim-gia-tu" type="search" autocomplete="off" inputmode="search"
              placeholder="Vd: god of war, elden ring…" aria-label="Tên game cần tìm giá">
     </div>
     <p class="phu" id="tim-gia-trang-thai" aria-live="polite"></p>
+    <p class="phu tim-gia-chu-giai">Nền xanh = vùng rẻ nhất khi mua bằng thẻ PSN · Viền = vùng bạn chọn ở công tắc</p>
     <p class="phu"><a href="ds-game-a.html">Xem danh sách game A–Z</a></p>
   </div>
   <div id="tim-gia-ket-qua" class="ds-tim-gia" aria-live="polite"></div>
@@ -344,7 +371,7 @@ footer a{color:#DDE2EA}
   ve();
 })();
 </script>
-<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.parentNode;
+<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.closest('.kenh')||n.parentNode;
 function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
 function giua(){var a=n.querySelector('[aria-current="page"]');if(a){var r=a.getBoundingClientRect(),rn=n.getBoundingClientRect();if(r.left<rn.left||r.right>rn.right)n.scrollLeft+=r.left-rn.left-(rn.width-r.width)/2;}u();}
 n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();
@@ -363,12 +390,34 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   var capNhat = document.getElementById("tim-gia-cap-nhat");
   if (!oTim || !hopKq) return;
   var DATA = null, GIA_THE = null; // GIA_THE null = chưa tải/tải lỗi -> mọi vùng rơi về tỷ giá ngân hàng
-  var NHAN_LOAI = ["", "Bản đặc biệt", "Gói nhiều game"]; // 0=game (không hiện nhãn)
+  // Hào 01/10 rà soát: loại 2 ("Gói") hiện nhãn "Gói nhiều game" sai cho cả game đơn (Gran Turismo 7, FFXVI —
+  // PS Store gắn Game Bundle) nên bỏ nhãn; chỉ còn "Bản đặc biệt". 0 = game (không nhãn).
+  var NHAN_LOAI = ["", "Bản đặc biệt", ""];
+  // Hào 01/10 rà soát: nhãn máy từ mã máy g[2] (lay-bang-gia.ma_may); mã lạ ("4R2", "4+X"...) và "" -> không nhãn.
+  var NHAN_MAY = { "4": "PS4", "5": "PS5", "45": "PS4 · PS5" };
 
+  // Hào 01/10 rà soát: chuẩn hoá RIÊNG cho ô tìm — KHÔNG đụng window.SGCS.boDau (cho-sale.js; hàm đó sinh khoá
+  // Chờ sale/ntfy nên phải giữ nguyên byte). Khác bản kia: đ/Đ -> d (trước NFD, "đua xe" không còn thành " ua xe"),
+  // bỏ dấu nháy và ™ ® © thay vì đổi thành khoảng trắng (Assassin's -> "assassins", không phải "assassin s").
   function boDau(s){
-    return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "")
-      .toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    return (s || "").replace(/đ/g, "d").replace(/Đ/g, "D").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase().replace(/[’'‘`´™®©]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
   }
+  // Số La Mã I..XX đứng riêng một từ -> số, áp ĐỐI XỨNG cho tên game lẫn chữ khách gõ ("gta 5" khớp "GTA V",
+  // "kingdom hearts 3" khớp "III"). Object.create(null): từ như "constructor" không đụng Object.prototype.
+  var LA_MA = Object.create(null);
+  "i ii iii iv v vi vii viii ix x xi xii xiii xiv xv xvi xvii xviii xix xx".split(" ").forEach(function(t, k){ LA_MA[t] = String(k + 1); });
+  function laMaSangSo(s){
+    return s.split(" ").map(function(t){ return LA_MA[t] || t; }).join(" ");
+  }
+  function tachChuSo(s){ // "gta5" -> "gta 5", "fc26" -> "fc 26"
+    return s.replace(/([a-z])([0-9])/g, "$1 $2").replace(/([0-9])([a-z])/g, "$1 $2");
+  }
+  // Bí danh gõ tay cho 2 game giá tham khảo (so-gia-21-game.json) mà tên trong dữ liệu là bản rút gọn.
+  // Khoá = tên đã boDau(); giá trị cộng thêm vào chuỗi tìm. PHẢI đồng bộ với so-gia-21-game.json.
+  var BI_DANH = Object.create(null);
+  BI_DANH["gta v"] = "grand theft auto v grand theft auto 5";
+  BI_DANH["cod black ops 7"] = "call of duty black ops 7";
   function dongVnd(x){
     return (Math.round(x / 1000) * 1000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + "đ";
   }
@@ -406,6 +455,11 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     return !!(GIA_THE && GIA_THE.the[i] != null);
   }
 
+  function ngayDmy(s){ // "2026-09-30" -> "30/09/2026"; dạng khác giữ nguyên chuỗi
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || "");
+    return m ? m[3] + "/" + m[2] + "/" + m[1] : (s || "");
+  }
+
   function taiDuLieu(){
     trangThai.textContent = "Đang tải dữ liệu…";
     return Promise.all([
@@ -415,9 +469,10 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
       DATA = ket[0];
       GIA_THE = ket[1];
       // C3: hai nguồn có ngày riêng — ghi tách, không gộp chung 1 ngày.
+      // Hào 01/10 rà soát: cả hai ngày cùng dạng dd/mm/yyyy (giá thẻ PSN lưu ISO yyyy-mm-dd).
       if (capNhat) {
-        var ngayThe = GIA_THE && GIA_THE.ngay ? GIA_THE.ngay : "chưa rõ";
-        capNhat.textContent = "Giá game cập nhật " + DATA.cap_nhat + " · giá thẻ PSN ngày " + ngayThe + ".";
+        var ngayThe = GIA_THE && GIA_THE.ngay ? ngayDmy(GIA_THE.ngay) : "chưa rõ";
+        capNhat.textContent = "Giá game cập nhật " + ngayDmy(DATA.cap_nhat) + " · giá thẻ PSN ngày " + ngayThe + ".";
       }
       trangThai.textContent = "";
       xuLyThamSoUrl();
@@ -426,32 +481,150 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     });
   }
 
-  function timKiem(tu){
-    var tokens = boDau(tu).split(" ").filter(Boolean);
-    if (!DATA || !tokens.length) return [];
-    var ket = [];
-    for (var i = 0; i < DATA.game.length; i++) {
-      var g = DATA.game[i];
-      var ten = boDau(g[0]);
-      var khop = true;
-      for (var k = 0; k < tokens.length; k++) {
-        if (ten.indexOf(tokens[k]) < 0) { khop = false; break; }
+  // Hào 01/10 rà soát: chỉ mục tìm tính MỘT lần (lần tìm đầu sau khi tải DATA), không tính lại mỗi phím gõ.
+  var CHI_MUC = null;
+  function lapChiMuc(){
+    CHI_MUC = [];
+    for (var q = 0; q < DATA.game.length; q++) {
+      var h = boDau(DATA.game[q][0]);
+      var h1 = BI_DANH[h] ? h + " " + BI_DANH[h] : h;   // h1 = tên chuẩn hoá (+ bí danh); h2 = h1 với La Mã -> số
+      var h2 = laMaSangSo(h1);
+      var tenSo = laMaSangSo(h).split(" "), ab = "";     // ab = chữ cái đầu mỗi từ, số giữ nguyên: "red dead redemption 2" -> "rdr2"
+      for (var w = 0; w < tenSo.length; w++) ab += /^[0-9]/.test(tenSo[w]) ? tenSo[w] : tenSo[w].charAt(0);
+      // p1/p2 có dấu cách ĐẦU (Hào 01/10 rà soát vòng 2): tầng 2 chỉ nhận cụm chữ/số khi nó bắt đầu ở ĐẦU một từ của tên.
+      CHI_MUC.push({ g: DATA.game[q], dai: h.length, h1: h1, h2: h2, p1: " " + tachChuSo(h1), p2: " " + tachChuSo(h2),
+        w1: h1.split(" "), w2: h2.split(" "), ab: ab });
+    }
+  }
+  // j (chữ khách gõ dính liền) có khớp ĐẦU một từ của tên rồi chạy liền qua các từ sau không? ("spiderman" ~ "spider man 2";
+  // "efootball" KHÔNG khớp "arcade football" vì không bắt đầu ở đầu từ).
+  function dinhLien(w, j){
+    for (var a = 0; a < w.length; a++) {
+      if (w[a].charAt(0) !== j.charAt(0)) continue;
+      var acc = "";
+      for (var b = a; b < w.length; b++) {
+        acc += w[b];
+        if (acc.length >= j.length) { if (acc.indexOf(j) === 0) return true; break; }
+        if (j.indexOf(acc) !== 0) break;
+      }
+    }
+    return false;
+  }
+
+  // Hào 01/10 rà soát vòng 2: từ khoá dính đuôi số La Mã ("gtav", "ffvii", "ffxvi", "gtaiv") -> tiền tố chữ (>= 2 ký tự) + SỐ viết liền
+  // ("gta5", "ff7", "ff16", "gta4"): đúng dạng "gta5"/"ff7" mà ba tầng tìm đã xử lý. Lấy đuôi DÀI nhất ("gtavi" -> "gta6", không phải
+  // "gtav"+"i"). Từ không có đuôi La Mã giữ nguyên; không từ nào đổi -> null.
+  function bienTheLaMa(t){
+    var r = [], doi = false;
+    for (var k = 0; k < t.length; k++) {
+      var tok = t[k], moi = tok;
+      for (var p = 2; p < tok.length; p++) {
+        if (LA_MA[tok.slice(p)] && /^[a-z]+$/.test(tok.slice(0, p))) { moi = tok.slice(0, p) + LA_MA[tok.slice(p)]; doi = true; break; }
+      }
+      r.push(moi);
+    }
+    return doi ? r : null;
+  }
+  // Tầng 2, nhiều từ khoá: MỖI từ phải là chuỗi con của tên (kể cả bản La Mã -> số) HOẶC (dài >= 5) dính liền khớp đầu từ của tên.
+  // ("spiderman morales" ra "Spider-Man: Miles Morales"; trước đây ghép cả câu thành một chuỗi liền nên ra 0.)
+  function moiTuKhop(c, t1, t2){
+    for (var k = 0; k < t1.length; k++) {
+      if (c.h1.indexOf(t1[k]) >= 0 || c.h2.indexOf(t2[k]) >= 0) continue;
+      if (!(t1[k].length >= 5 && (dinhLien(c.w1, t1[k]) || dinhLien(c.w2, t2[k])))) return false;
+    }
+    return true;
+  }
+
+  // Chạy ba tầng cho MỘT danh sách từ khoá t1 -> mảng [hạng1, hạng2, độ dài tên, chỉ số]; tầng sau CHỈ chạy khi tầng trước ra 0 kết quả
+  // (nên truy vấn đang đúng không đổi hành vi): 1) từng từ khoá là chuỗi con của tên (kể cả bản La Mã -> số);
+  // 2) dính liền ("spiderman", "gta5", "fc26"); 3) viết tắt chữ cái đầu ("gow", "tlou", "ff7", "rdr2").
+  function chayTang(t1){
+    var q = t1.join(" ");
+    var laMa = q.length > 1; // truy vấn đúng 1 ký tự ("v", "x", "i"): không đổi La Mã -> số
+    var t2 = laMa ? t1.map(function(t){ return LA_MA[t] || t; }) : t1;
+    var ket = [], c, i, k;
+    // Tầng 1. Sắp: khớp TRỰC TIẾP kiểu cũ trước (không mất/đổi thứ tự kết quả cũ), rồi tên bắt đầu bằng từ khoá, rồi tên ngắn.
+    for (i = 0; i < CHI_MUC.length; i++) {
+      c = CHI_MUC[i];
+      var truc = true, khop = true;
+      for (k = 0; k < t1.length; k++) {
+        if (c.h1.indexOf(t1[k]) >= 0) continue;
+        truc = false;
+        if (c.h2.indexOf(t2[k]) < 0) { khop = false; break; }
       }
       if (!khop) continue;
-      var diem = ten.indexOf(tokens[0]) === 0 ? 0 : 1; // ưu tiên tên bắt đầu bằng từ khoá
-      ket.push([diem, ten.length, g]);
+      ket.push([truc ? 0 : 1, (c.h1.indexOf(t1[0]) === 0 || c.h2.indexOf(t2[0]) === 0) ? 0 : 1, c.dai, i]);
     }
-    ket.sort(function(a, b){ return a[0] - b[0] || a[1] - b[1]; });
+    // Tầng 2: tách ranh giới chữ/số ("gta5" -> cụm "gta 5") hoặc từng từ khoá dính liền (dài >= 5) khớp đầu từ của tên.
+    // Cụm chữ/số CHỈ nhận khi bắt đầu ở đầu một từ (p1/p2 có dấu cách đầu): "t8" không còn khớp "exiT 8", "ds2" không khớp "lanDS 2".
+    if (!ket.length) {
+      var cum = tachChuSo(q), cum2 = laMa ? laMaSangSo(cum) : cum;
+      var j1 = t1.join(""), j2 = t2.join("");
+      for (i = 0; i < CHI_MUC.length; i++) {
+        c = CHI_MUC[i];
+        if ((cum !== q && (c.p1.indexOf(" " + cum) >= 0 || c.p2.indexOf(" " + cum2) >= 0)) ||
+            (j1.length >= 5 && (dinhLien(c.w1, j1) || dinhLien(c.w2, j2)))) ket.push([0, 0, c.dai, i]);
+        else if (t1.length > 1 && moiTuKhop(c, t1, t2)) ket.push([1, 0, c.dai, i]);   // khớp từng từ xếp SAU khớp cả câu liền
+      }
+    }
+    // Tầng 3: viết tắt — từ khoá đầu (>= 3 ký tự) là TIỀN TỐ chuỗi chữ cái đầu của tên, các từ khoá còn lại khớp như tầng 1;
+    // hoặc cả câu gõ liền ("ff 7" -> "ff7"; "ff vii" cũng -> "ff7" vì tính từ bản đã đổi La Mã) là tiền tố. Tên có chuỗi viết tắt ngắn (sát nhất) xếp trước.
+    if (!ket.length) {
+      var jd1 = t1.join(""), jd2 = t2.join("");
+      for (i = 0; i < CHI_MUC.length; i++) {
+        c = CHI_MUC[i];
+        var ok = false;
+        if (t1[0].length >= 3 && c.ab.indexOf(t1[0]) === 0) {
+          ok = true;
+          for (k = 1; k < t1.length; k++) {
+            if (c.h1.indexOf(t1[k]) < 0 && c.h2.indexOf(t2[k]) < 0) { ok = false; break; }
+          }
+        }
+        if (!ok && t1.length > 1 && ((jd1.length >= 3 && c.ab.indexOf(jd1) === 0) || (jd2.length >= 3 && c.ab.indexOf(jd2) === 0))) ok = true;
+        if (ok) ket.push([0, c.ab.length, c.dai, i]);
+      }
+      // "tlou2" (chữ dính số) -> thử lại như "tlou 2": "tlou" là tiền tố viết tắt, "2" khớp tên. Chỉ khi cách gõ nguyên chữ ra 0
+      // (chuỗi viết tắt của "The Last of Us Part II" là "tloup2", nên "tlou2" nguyên khối không là tiền tố).
+      var ts = tachChuSo(q).split(" ");
+      if (!ket.length && ts.length > t1.length && ts[0].length >= 3) {
+        var ts2 = ts.map(function(t){ return LA_MA[t] || t; });
+        for (i = 0; i < CHI_MUC.length; i++) {
+          c = CHI_MUC[i];
+          if (c.ab.indexOf(ts[0]) !== 0) continue;
+          var ok2 = true;
+          for (k = 1; k < ts.length; k++) {
+            if (c.h1.indexOf(ts[k]) < 0 && c.h2.indexOf(ts2[k]) < 0) { ok2 = false; break; }
+          }
+          if (ok2) ket.push([0, c.ab.length, c.dai, i]);
+        }
+      }
+    }
+    return ket;
+  }
+
+  // Trả { tong: số game khớp, ra: tối đa 20 game đầu }. Chạy ba tầng (chayTang) cho cách gõ nguyên văn; ra 0 thì thử thêm
+  // bản đổi đuôi La Mã dính liền sang số ("gtav" -> "gta5", "ffvii" -> "ff7", "ffxvi" -> "ff16").
+  function timKiem(tu){
+    var q = boDau(tu);
+    if (!DATA || !q) return { tong: 0, ra: [] };
+    if (!CHI_MUC) lapChiMuc();
+    var t1 = q.split(" ");
+    var ket = chayTang(t1);
+    if (!ket.length) {
+      var bt = bienTheLaMa(t1);
+      if (bt) ket = chayTang(bt);
+    }
+    ket.sort(function(a, b){ return a[0] - b[0] || a[1] - b[1] || a[2] - b[2] || a[3] - b[3]; });
     var ra = [];
-    for (var j = 0; j < ket.length && j < 20; j++) ra.push(ket[j][2]);
-    return ra;
+    for (var m = 0; m < ket.length && m < 20; m++) ra.push(CHI_MUC[ket[m][3]].g);
+    return { tong: ket.length, ra: ra };
   }
 
   function veThe(g){
     var ten = g[0], loai = g[1], gia = g[3];
     var slug = g[4]; // phần tử thứ 5 (dung-web.py ghép lúc dựng): slug trang game, "" hoặc thiếu = game chưa có trang
     var vungChon = window.SGVUNG ? window.SGVUNG.doc() : null;
-    var dong = [], reNhat = -1, vndReNhat = Infinity;
+    var dong = [];
     for (var i = 0; i < DATA.vung.length; i++) {
       var v = gia[i];
       if (!Array.isArray(v)) continue;
@@ -468,13 +641,30 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
         if (soHopLe(v[3])) d.vndPlus = v[3] * r; // ô thứ 4 (A5): giá hội viên PS Plus
       }
       dong.push(d);
-      // "Vùng rẻ nhất" tính theo giá thẻ (luật C) — CHỈ vùng có giá thẻ PSN bán ở VN được thắng (giống
-      // re_nhat_theo_the của dung-web.py và trang game); Ấn Độ/vùng thiếu thẻ vẫn hiện giá nhưng không nhãn rẻ nhất.
-      // Vùng chưa có giá KHÔNG xét (trước đây null bị coi là 0đ và luôn thắng).
-      if (gm != null && d.theoThe && d.ngayCu === null && !d.hoiVien && d.vndCon < vndReNhat) { vndReNhat = d.vndCon; reNhat = dong.length - 1; }
     }
-    var hangHtml = dong.map(function(d, idx){
+    // "Vùng rẻ nhất" tính theo giá thẻ (luật C) — CHỈ vùng có giá thẻ PSN bán ở VN được thắng (giống
+    // re_nhat_theo_the của dung-web.py và trang game); Ấn Độ/vùng thiếu thẻ vẫn hiện giá nhưng không nhãn rẻ nhất.
+    // Vùng chưa có giá KHÔNG xét (trước đây null bị coi là 0đ và luôn thắng).
+    // Hào 01/10 rà soát: cờ d.reNhat gắn lên chính dòng (không dùng chỉ số mảng vì bên dưới sắp lại dòng);
+    // chip chữ "Rẻ nhất" chỉ hiện khi có >= 2 vùng đủ điều kiện để so (một vùng duy nhất thì "rẻ nhất" vô nghĩa).
+    var duDieuKien = dong.filter(function(d){ return d.gm != null && d.theoThe && d.ngayCu === null && !d.hoiVien; });
+    var reNhat = null;
+    duDieuKien.forEach(function(d){ if (!reNhat || d.vndCon < reNhat.vndCon) reNhat = d; });
+    if (reNhat) reNhat.reNhat = true;
+    var coChipRe = duDieuKien.length >= 2;
+    // Hào 01/10 rà soát: sắp dòng như trang game (trang_game.py): thẻ PSN rẻ -> đắt, rồi vùng không có thẻ (mờ),
+    // rồi vùng chỉ dành hội viên; chưa có giá xuống cuối nhóm. Trước đây theo thứ tự dữ liệu (SG, HK, IN, ID, US, TH).
+    dong.sort(function(a, b){
+      return (a.hoiVien ? 1 : 0) - (b.hoiVien ? 1 : 0) || (a.theoThe ? 0 : 1) - (b.theoThe ? 0 : 1) ||
+        (a.chuaCoGia ? 1 : 0) - (b.chuaCoGia ? 1 : 0) || (a.vndCon || 0) - (b.vndCon || 0) || a.i - b.i;
+    });
+    // Chỉ có giá Ấn Độ (không thẻ PSN bán ở VN): ghi chú một câu dưới danh sách. Chỉ khi ĐÃ tải giá thẻ (GIA_THE lỗi -> không nhãn).
+    var coGia = dong.filter(function(d){ return d.gm != null && !d.hoiVien; });
+    var chiAnDo = !!GIA_THE && coGia.length > 0 && coGia.every(function(d){ return !d.theoThe && DATA.vung[d.i] === "IN"; });
+    var hangHtml = dong.map(function(d){
       var giaHtml, quyDoi = "";
+      // Vùng có giá nhưng KHÔNG có giá thẻ PSN hôm nay (Ấn Độ: không có thẻ bán ở VN) -> mờ + chú thích, không như giá mua được.
+      var mo = !!GIA_THE && !d.theoThe && !d.hoiVien && !d.chuaCoGia;
       if (d.hoiVien) {
         giaHtml = '<b class="chua-co-gia">Chỉ cho hội viên PS Plus</b>';
       } else if (d.chuaCoGia) {
@@ -486,6 +676,7 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
         // Dòng phụ nhỏ theo tỷ giá ngân hàng — chỉ hiện khi dòng chính THỰC SỰ là giá thẻ (khác số
         // với ngân hàng); vùng không có thẻ (rơi về ngân hàng) thì 2 số bằng nhau, không lặp lại.
         if (d.theoThe && d.gm > 0) quyDoi = '<span class="quy-doi-nho">≈ ' + dongVnd(d.vndConBank) + ' theo tỷ giá ngân hàng</span>';
+        else if (mo && d.gm > 0) quyDoi = '<span class="quy-doi-nho">' + (DATA.vung[d.i] === "IN" ? "Tham khảo — không có thẻ PSN ở VN" : "Tạm tính theo tỷ giá ngân hàng (chưa có giá thẻ hôm nay)") + '</span>';
         if (d.vndPlus != null) quyDoi += '<span class="quy-doi-nho">Hội viên PS Plus: ' + (d.vndPlus === 0 ? "Miễn phí" : dongVnd(d.vndPlus)) + '</span>';
       }
       if (d.cu) quyDoi += '<span class="quy-doi-nho">giá cũ (vùng chưa lấy được hôm nay)</span>';
@@ -493,12 +684,16 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
         var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d.ngayCu);
         quyDoi += '<span class="quy-doi-nho">' + (m ? 'giá ngày ' + m[3] + '/' + m[2] : 'giá cũ, chưa rõ ngày') + '</span>';
       }
-      var lop = (idx === reNhat ? "re-nhat" : "") + (vungChon === DATA.vung[d.i] ? " vung-chon" : "");
+      var laChon = vungChon === DATA.vung[d.i];
+      var lop = [d.reNhat ? "re-nhat" : "", laChon ? "vung-chon" : "", mo ? "vung-mo" : ""].filter(Boolean).join(" ");
+      var nhanVung = (d.reNhat && coChipRe ? '<em class="nhan-re">Rẻ nhất</em>' : "") + (laChon ? '<em class="nhan-chon">Bạn chọn</em>' : "");
       return '<li class="' + lop + '">' +
-        '<span class="ten-vung">' + DATA.ten_vung[d.i] + '</span>' +
+        '<span class="ten-vung">' + DATA.ten_vung[d.i] + nhanVung + '</span>' +
         '<span class="so-tien-boc"><span class="so-tien">' + giaHtml + '</span>' + quyDoi + '</span></li>';
     }).join("");
-    var nhanLoai = loai ? '<span class="nhan-loai">' + NHAN_LOAI[loai] + '</span>' : "";
+    var nl = NHAN_LOAI[loai], nm = Object.prototype.hasOwnProperty.call(NHAN_MAY, g[2]) ? NHAN_MAY[g[2]] : "";
+    var nhanLoai = (nm || nl) ? '<span class="nhan-the">' + (nm ? '<span class="nhan-loai">' + nm + '</span>' : "") +
+      (typeof nl === "string" && nl ? '<span class="nhan-loai">' + nl + '</span>' : "") + '</span>' : "";
     // "Chờ sale": mọi thẻ ở đây LẤY THẲNG từ tim-gia.json nên khoá luôn khớp được (100%, khác
     // Kho PS Plus/"Đang giảm sâu" phải lọc) — gắn nút khi có window.SGCS (nạp qua cho-sale.js).
     var khoa = window.SGCS ? window.SGCS.boDau(ten) : "";
@@ -513,7 +708,8 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
       : "";
     return '<article class="the the-game">' +
       '<div class="dau-the"><h3>' + (slug ? '<a href="game-' + escHtml(slug) + '.html">' + escHtml(ten) + '</a>' : escHtml(ten)) + '</h3>' + nhanLoai + '</div>' +
-      '<ul class="gia-vung">' + hangHtml + '</ul>' + nutChoSale + '</article>';
+      '<ul class="gia-vung">' + hangHtml + '</ul>' +
+      (chiAnDo ? '<p class="phu tim-gia-luu-y">Chỉ thấy giá ở Ấn Độ — không mua được bằng thẻ PSN bán ở VN.</p>' : "") + nutChoSale + '</article>';
   }
 
   function escHtml(s){
@@ -523,16 +719,25 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   }
 
   function ve(tu){
-    if (!tu) { hopKq.innerHTML = ""; trangThai.textContent = ""; return; }
+    // Hào 01/10 rà soát: ô trống / toàn dấu cách / toàn dấu câu = chưa gõ gì -> xoá kết quả + thông báo (trước đây: "không tìm thấy").
+    if (!tu || !boDau(tu)) { hopKq.innerHTML = ""; trangThai.textContent = ""; return; }
     // C2: dữ liệu chưa tải xong thì đừng báo "không tìm thấy" — taiDuLieu() sẽ vẽ lại khi xong.
     if (!DATA) { trangThai.textContent = "Đang tải dữ liệu…"; return; }
-    var ket = timKiem(tu);
+    var kq = timKiem(tu), ket = kq.ra;
     if (!ket.length) {
       hopKq.innerHTML = "";
-      trangThai.textContent = 'Không tìm thấy game tên "' + escHtml(tu) + '".';
+      // innerHTML + escHtml(tu): BẮT BUỘC escape vì tu có thể đến từ ?q= trên địa chỉ trang (trước đây escHtml gán vào
+      // textContent nên hiện nguyên "&amp;").
+      var tuHien = tu.trim();
+      if (tuHien.length > 60) tuHien = tuHien.slice(0, 60) + "…";
+      trangThai.innerHTML = 'Chưa có game "' + escHtml(tuHien) + '" trong danh sách khuyến mãi PS Store hôm nay. ' +
+        'Săn Game theo dõi game đang giảm giá (cộng một số game phổ biến), nên game không giảm sẽ không hiện. ' +
+        '<a href="giam-gia.html">Xem game đang giảm</a> · <a href="ds-game-a.html">Danh sách game A–Z</a>';
       return;
     }
-    trangThai.textContent = ket.length + " kết quả" + (ket.length === 20 ? " (đang chỉ hiện 20 đầu)" : "");
+    trangThai.textContent = kq.tong > ket.length
+      ? "Có " + kq.tong + " game khớp — đang hiện " + ket.length + " đầu. Gõ thêm tên hoặc phiên bản để thu hẹp."
+      : kq.tong + " kết quả";
     hopKq.innerHTML = ket.map(veThe).join("");
     if (window.SGCS) { window.SGCS.quetNut(hopKq); window.SGCS.capNhatHuyHieu(); }
   }

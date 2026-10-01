@@ -1,8 +1,17 @@
 (function(){
   var KHOA_LS = "sangame_cho_sale";
   var KHOA_DONG = "sangame_cho_sale_dong_ngay";
+  var KHOA_VUNG = "sangame_vung";  // PHẢI trùng khung_trang.py JS_VUNG (KHOA)
   var DATA_URL = "du-lieu/tim-gia.json";
   var GIA_THE_URL = "du-lieu/gia-the-vung.json";
+
+  // Hào 01/10 rà soát: cho-sale.js nạp TRƯỚC khung.js nên lúc tải trang window.SGVUNG chưa có -> trước đây luôn rơi về
+  // "US" (huy hiệu/banner sai vùng). Chưa có SGVUNG thì đọc thẳng localStorage; có rồi thì hỏi nó (nó còn giữ vùng
+  // trong biến JS khi localStorage bị chặn).
+  function vungDangChon(){
+    if (window.SGVUNG) return window.SGVUNG.doc();
+    try { return localStorage.getItem(KHOA_VUNG) || "US"; } catch (err) { return "US"; }
+  }
 
   function ngayHomNay(){
     var d = new Date();
@@ -129,10 +138,27 @@
   function datNguong(khoa, nguong){
     var ds = docDs();
     for (var i = 0; i < ds.length; i++) {
-      if (ds[i].khoa === khoa) { ds[i].nguong = (nguong == null || isNaN(nguong)) ? null : nguong; break; }
+      if (ds[i].khoa === khoa) { ds[i].nguong = nguongHopLe(nguong); break; }
     }
     luuDs(ds);
     return ds;
+  }
+  // Hào 01/10 rà soát: ngưỡng hợp lệ = số đồng >= 1000 (game không bán dưới 1.000đ). Ô cũ kiểu type=number đọc
+  // "500.000" thành 500 và "1.500.000" thành 1 -> giá trị rác < 1000 đã lưu trong máy người dùng cũ được coi như
+  // CHƯA ĐẶT (cả khi vẽ thẻ lẫn khi đếm huy hiệu/banner).
+  function nguongHopLe(n){
+    return typeof n === "number" && isFinite(n) && n >= 1000 ? n : null;
+  }
+  // Đọc chữ người dùng gõ ở ô "Đánh dấu khi giá dưới … đ" -> số đồng nguyên >= 1000, hoặc null nếu không đọc được.
+  // Nhận: "500000", "500 000", "500.000", "500,000", "1.500.000", "500k", "500 nghìn". Nhóm nghìn phải đúng kiểu
+  // (1-3 chữ số rồi các nhóm 3 chữ số CÙNG một dấu . hoặc ,) để "12345.6" không bị đọc nhầm thành số khác.
+  function docNguong(chuoi){
+    var t = String(chuoi == null ? "" : chuoi).normalize("NFC").replace(/\s+/g, "").toLowerCase();
+    var so = null, m = /^(\d+)(?:k|nghìn|nghin|ngàn|ngan)$/.exec(t);
+    if (m) so = Number(m[1]) * 1000;
+    else if (/^\d{1,3}(?:\.\d{3})+$/.test(t) || /^\d{1,3}(?:,\d{3})+$/.test(t)) so = Number(t.replace(/[.,]/g, ""));
+    else if (/^\d+$/.test(t)) so = Number(t);
+    return so != null && Number.isSafeInteger(so) && so >= 1000 ? so : null;
   }
 
   function capNhatNut(btn, dang){
@@ -150,7 +176,10 @@
     var dau = btn.hasAttribute("data-cs-vt") ? { vt: Number(btn.getAttribute("data-cs-vt")),
       goc: btn.hasAttribute("data-cs-goc") ? Number(btn.getAttribute("data-cs-goc")) : null } : null;
     if (may != null && !dau) dau = { vt: -1, goc: null };
-    capNhatNut(btn, dangChoPhienBan(khoa, may, loai, duy, dau));
+    // Hào 01/10 rà soát: mỗi nút tự mang hàm "đọc lại trạng thái từ localStorage" để bấm 1 nút thì mọi nút
+    // CÙNG KHOÁ (vd Gran Turismo 7 bản PS4 và bản PS4+PS5) cùng được làm mới — trước đây nút còn lại vẫn ★ dù đã bị thay.
+    btn.__csLamMoi = function(){ capNhatNut(btn, dangChoPhienBan(khoa, may, loai, duy, dau)); };
+    btn.__csLamMoi();
     btn.addEventListener("click", function(ev){
       ev.preventDefault();
       ev.stopPropagation();
@@ -162,9 +191,19 @@
       }
       var dang = dangChoPhienBan(khoa, may, loai, duy, dau);
       if (dang) boGame(khoa); else themGame(khoa, ten, may, loai, dau);
-      capNhatNut(btn, !dang);
+      lamMoiNutCungKhoa(khoa, btn);
       capNhatHuyHieu();
+      kiemBanner(undefined, true);
     });
+  }
+  // So khoá bằng getAttribute (không dựng selector từ khoá — khoá có thể chứa ký tự lạ). Bản thân nút vừa bấm luôn được
+  // làm mới, kể cả khi nó không còn nằm trong document.
+  function lamMoiNutCungKhoa(khoa, goc){
+    if (goc && goc.__csLamMoi) goc.__csLamMoi();
+    var ds = document.querySelectorAll("[data-cs-khoa]");
+    for (var i = 0; i < ds.length; i++) {
+      if (ds[i] !== goc && typeof ds[i].__csLamMoi === "function" && ds[i].getAttribute("data-cs-khoa") === khoa) ds[i].__csLamMoi();
+    }
   }
   function quetNut(goc){
     var ds = (goc || document).querySelectorAll("[data-cs-khoa]");
@@ -225,9 +264,10 @@
     var v = (c.dong[3] || [])[idx];
     if (giaMua(v) == null) return false;
     if (v[2] > 0) return true;
-    if (item.nguong == null) return false;
+    var ng = nguongHopLe(item.nguong);
+    if (ng == null) return false;
     var vnd = giaVndHienTai(c.dong, dataTimGia, giaThe, vungMa);
-    return vnd != null && vnd <= item.nguong;
+    return vnd != null && vnd <= ng;
   }
   function demSoDangChu(ds, d, giaThe, vungMa){
     var chiMuc = chiMucDong(d);
@@ -245,11 +285,11 @@
     var a = document.querySelector('a.nut-dau[href="cho-sale.html"]');  // Hào 30/09: gom menu — Chờ sale chỉ còn nút đầu trang
     if (!a) return;
     if (!ds.length) { boHuyHieu(a); return; }
-    var vungMa = (typeof vungMoi === "string" && vungMoi) || (window.SGVUNG ? window.SGVUNG.doc() : "US");
+    var vungMa = (typeof vungMoi === "string" && vungMoi) || vungDangChon();
     Promise.all([taiTimGiaCache(), taiGiaTheCache()]).then(function(ket){
       var d = ket[0], giaThe = ket[1];
       if (!d || !d.game) { boHuyHieu(a); return; }
-      datHuyHieu(a, demSoDangChu(ds, d, giaThe, vungMa));
+      datHuyHieu(a, demSoDangChu(docDs(), d, giaThe, vungMa));  // đọc lại danh sách lúc dữ liệu về (người dùng có thể vừa bấm ☆/Bỏ)
     });
   }
 
@@ -300,16 +340,30 @@
     document.body.insertBefore(div, document.body.firstChild);
   }
 
+  // Trang Chờ sale: banner trỏ về chính nó -> không hiện. "cho-sale.html" hoặc "/cho-sale" (GitHub Pages cho cả hai).
+  function laTrangChoSale(){
+    try { return /(^|\/)cho-sale(\.html)?\/?$/.test(String((location && location.pathname) || "")); } catch (err) { return false; }
+  }
   // C7: gọi lúc tải trang VÀ mỗi lần đổi vùng — tính lại theo vùng mới; 0 game thì gỡ banner.
-  function kiemBanner(vungMoi){
-    var ds = docDs();
-    if (!ds.length || daDongHomNay()) { goBanner(); return; }
-    var vungMa = vungMoi || (window.SGVUNG ? window.SGVUNG.doc() : "US");
+  // Hào 01/10 rà soát: chiCapNhat = true (vừa bấm ☆ / Bỏ / đổi ngưỡng) thì CHỈ cập nhật số hoặc gỡ banner đang có, KHÔNG
+  // tạo banner mới — banner mọc ra giữa lúc người dùng đang bấm sẽ đẩy nội dung xuống dưới tay họ.
+  // Hào 01/10 rà soát (Astra): lời gọi lúc tải trang (chiCapNhat rỗng) chờ tim-gia.json ~459KB; nếu trong lúc chờ người dùng
+  // bấm ☆/Bỏ/đổi ngưỡng (mỗi lần như vậy gọi lại với chiCapNhat = true) thì lời gọi cũ về sau cũng phải coi là "chỉ cập nhật",
+  // không được mọc banner mới dưới tay họ. _luotBam đếm số lần bấm; callback so với giá trị lúc gọi.
+  var _luotBam = 0;
+  function kiemBanner(vungMoi, chiCapNhat){
+    if (chiCapNhat) _luotBam++;
+    var luot = _luotBam;
+    if (laTrangChoSale() || !docDs().length || daDongHomNay()) { goBanner(); return; }
+    var vungMa = vungMoi || vungDangChon();
     Promise.all([taiTimGiaCache(), taiGiaTheCache()]).then(function(ket){
       var d = ket[0], giaThe = ket[1];
       if (!d || !d.game) { goBanner(); return; }
-      var so = demSoDangChu(ds, d, giaThe, vungMa);
-      if (so > 0) hienBanner(so); else goBanner();
+      var ds = docDs();  // đọc lại lúc dữ liệu về (người dùng có thể vừa xoá hết danh sách)
+      var so = ds.length ? demSoDangChu(ds, d, giaThe, vungMa) : 0;
+      var chiSua = chiCapNhat || luot !== _luotBam;
+      if (so > 0) { if (!chiSua || document.getElementById("cs-banner")) hienBanner(so); }
+      else goBanner();
     });
   }
 
@@ -317,6 +371,7 @@
     boDau: boDau, docDs: docDs, themGame: themGame, boGame: boGame, dangCho: dangCho,
     datNguong: datNguong, quetNut: quetNut, capNhatHuyHieu: capNhatHuyHieu, kenhNtfy: kenhNtfy,
     chiMucDong: chiMucDong, chonDong: chonDong, giaMua: giaMua, dauVan: dauVan,
+    kiemBanner: kiemBanner, docNguong: docNguong, nguongHopLe: nguongHopLe, vungDangChon: vungDangChon,
   };
 
   quetNut(document);

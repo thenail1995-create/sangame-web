@@ -45,7 +45,10 @@
 .kp-bn-phu{font-size:12.5px;font-weight:600;opacity:.75}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--nen);color:var(--chu);font:14.5px/1.55 "Be Vietnam Pro",-apple-system,"Segoe UI",sans-serif;
-  -webkit-font-smoothing:antialiased}
+  -webkit-font-smoothing:antialiased;
+  /* Hào 01/10 rà soát: trang ngắn thì chân trang vẫn dính đáy khung nhìn (không còn dải nền xám trống dưới chân trang);
+     100dvh ghi sau 100vh vì Safari iPhone tính cả thanh địa chỉ vào 100vh. */
+  min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
 a{color:inherit}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ngoc);outline-offset:2px}
 .ic{width:20px;height:20px;flex:none}
@@ -106,8 +109,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .kenh .rong::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(255,255,255,0),#fff 60%)}
 .kenh .rong::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(255,255,255,0),#fff 60%)}
 .kenh.con-trai .rong::before,.kenh.con-phai .rong::after{opacity:1}
+/* Hào 01/10 rà soát: nhảy tới #mục thì tiêu đề không bị thanh kênh dính che (kênh cao ~64px trên điện thoại, ~49px trên máy tính). */
+:target{scroll-margin-top:76px}
 
-main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start}
+main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start;
+  flex:1 0 auto;width:100%}  /* width:100% BẮT BUỘC: main có margin:0 auto, trong flex column thiếu width sẽ co theo nội dung */
 section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 
 /* ── Đầu mỗi trang con: khối trắng — biểu tượng PS5 + tiêu đề + mô tả, bên phải công tắc vùng ── */
@@ -207,6 +213,15 @@ footer a{color:#DDE2EA}
 @media (max-width:560px){
   .vung-nhan{display:none}
   .chip-vung{padding:6px 11px}
+  /* Hào 01/10 rà soát: menu 5 mục phải thấy đủ trên điện thoại (360px trước chỉ lộ 3 mục): biểu tượng xếp trên, chữ dưới,
+     5 mục chia đều bề ngang; cuộn ngang + mũi tên chỉ còn là dự phòng cho màn hẹp hơn hoặc chữ phóng to. */
+  .kenh nav{justify-content:space-between;gap:0}
+  .kenh nav a{flex:1 0 auto;flex-direction:column;gap:3px;font-size:12.5px;padding:8px 4px 10px;justify-content:center}
+  .kenh nav a[aria-current="page"]::after{left:6px;right:6px}
+}
+@media (max-width:340px){  /* iPhone SE đời đầu / Android nhỏ: bớt đệm hai bên để 5 mục vẫn vừa (320px trước còn thừa 5px) */
+  .kenh nav a{padding-left:2px;padding-right:2px}
+  .kenh nav a[aria-current="page"]::after{left:2px;right:2px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
@@ -262,8 +277,7 @@ footer a{color:#DDE2EA}
     </form>
     <div class="nhom-loi" id="nhom-ml" role="group" aria-label="Nhóm lỗi hay gặp"><button type="button" class="chip" data-nhom="mang">Kết nối mạng / máy chủ</button><button type="button" class="chip" data-nhom="tai-khoan">Tài khoản &amp; đăng nhập</button><button type="button" class="chip" data-nhom="thanh-toan">Thanh toán &amp; PS Store</button><button type="button" class="chip" data-nhom="dia">Đĩa game</button><button type="button" class="chip" data-nhom="luu-tru">Bộ nhớ &amp; thiết bị lưu trữ</button><button type="button" class="chip" data-nhom="cap-nhat">Cập nhật phần mềm</button><button type="button" class="chip" data-nhom="ung-dung">Lỗi game / ứng dụng</button></div>
     <div id="kq-ml" aria-live="polite"></div>
-    <p class="phu" style="margin:0">Nội dung biên soạn lại theo trang hỗ trợ chính hãng playstation.com, không phải bản dịch nguyên văn.
-      Không thấy mã của bạn? Mở <a href="https://www.playstation.com/en-us/support/error-codes/" rel="noopener" target="_blank">trang tra mã lỗi của Sony<svg class="ic nho" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>.</p>
+    <p class="phu" style="margin:0">Nội dung biên soạn lại theo trang hỗ trợ chính hãng playstation.com, không phải bản dịch nguyên văn.</p>
   </div>
 </section></main>
 <footer><div class="rong">
@@ -345,7 +359,7 @@ footer a{color:#DDE2EA}
   ve();
 })();
 </script>
-<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.parentNode;
+<script>(function(){var n=document.querySelector('.kenh nav');if(n){var w=n.closest('.kenh')||n.parentNode;
 function u(){w.classList.toggle('con-phai',n.scrollLeft+n.clientWidth<n.scrollWidth-4);w.classList.toggle('con-trai',n.scrollLeft>4);}
 function giua(){var a=n.querySelector('[aria-current="page"]');if(a){var r=a.getBoundingClientRect(),rn=n.getBoundingClientRect();if(r.left<rn.left||r.right>rn.right)n.scrollLeft+=r.left-rn.left-(rn.width-r.width)/2;}u();}
 n.addEventListener('scroll',u,{passive:true});addEventListener('resize',u);giua();
@@ -360,9 +374,38 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   var f = document.getElementById("o-tra-ml"), o = document.getElementById("o-ml"),
       kq = document.getElementById("kq-ml"), nhomWrap = document.getElementById("nhom-ml");
 
+  // ---- tra ma: bat dau (hàm thuần, không đụng DOM; tests/test_lo_ma_loi.py chạy thử bằng node) ----
+  // Hào 01/10 rà soát: rút mã từ chuỗi thô TRƯỚC khi chuẩn hoá. Regex lấy thẳng từ trang_ma_loi.NGUON_*
+  // nên giống hệt bản Python (trich_ma / thieu_so_cuoi / may_tu_ma / chuan_hoa_ma).
+  var TIEN_TO_2 = ["CE", "NW", "NP", "WS", "WC", "SU", "WV"];
+  var RE_MA_2 = /(?:^|[^A-Za-z0-9])(CE|NW|NP|WS|WC|SU|WV)[\s\-\u2010-\u2015\u2212_]*(?:([0-9]{4,5}|1[0-9]{5,6})[\s\-\u2010-\u2015\u2212_]+([0-9])|(1[0-9]{5,6}|[02-9][0-9]{4})([0-9]))(?![0-9]|[\-\u2010-\u2015\u2212_][0-9])/i, RE_MA_E = /(?:^|[^A-Za-z0-9])E[\s\-\u2010-\u2015\u2212_]*([0-9][0-9A-F]{7})(?![0-9A-Za-z])/i, RE_THIEU = /(?:^|[^A-Za-z0-9])(CE|NW|NP|WS|WC|SU|WV)[\s\-\u2010-\u2015\u2212_]*(1[0-9]{5}|[0-9]{4,5})(?![0-9]|[\s\-\u2010-\u2015\u2212_]*[0-9])/i;
+
+  function trichMa(tho){
+    var ds = [], m = RE_MA_2.exec(tho);
+    if(m) ds.push([m.index, m[1].toUpperCase() + "-" + (m[2] !== undefined ? m[2] : m[4]) + "-" + (m[3] !== undefined ? m[3] : m[5])]);
+    m = RE_MA_E.exec(tho);
+    if(m) ds.push([m.index, "E-" + m[1].toUpperCase()]);
+    if(!ds.length) return null;
+    return ds.length === 2 && ds[1][0] < ds[0][0] ? ds[1][1] : ds[0][1];
+  }
+
+  function thieuSoCuoi(tho){
+    var m = RE_THIEU.exec(tho);
+    return m ? m[1].toUpperCase() + "-" + m[2] : null;
+  }
+
+  function mayTuMa(ma){
+    if(ma.indexOf("E-") === 0) return "PS4";
+    var nhom = ma.split("-");
+    return nhom.length === 3 && nhom[1].length >= 6 ? "PS5" : "PS4";
+  }
+
   function chuanHoaMa(tho){
     if(!tho) return null;
-    var s = tho.replace(/[\s\-]/g, "").toUpperCase();
+    var ma = trichMa(tho);
+    if(ma) return ma;
+    if(thieuSoCuoi(tho)) return null;
+    var s = tho.replace(/[\s\-\u2010-\u2015\u2212_]/g, "").toUpperCase();
     var m = s.match(/^([A-Z]+)([0-9A-Z]+)$/);
     if(!m) return null;
     var dau = m[1], than = m[2];
@@ -370,9 +413,10 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
       if(dau !== "E" || than.length < 4) return null;
       return dau + "-" + than;
     }
-    if(than.length < 2) return null;
+    if(dau.length !== 2 || dau === "PS" || TIEN_TO_2.indexOf(dau) >= 0 || !/^[0-9]{5,8}$/.test(than)) return null;
     return dau + "-" + than.slice(0, -1) + "-" + than.slice(-1);
   }
+  // ---- tra ma: ket thuc ----
 
   function theKq(ma, tt){
     var buoc = tt.cach_sua.map(function(b){ return "<li>" + esc(b) + "</li>"; }).join("");
@@ -382,9 +426,15 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   }
   function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
 
+  // Hào 01/10 rà soát: mã chưa có trong kho -> dẫn tới ĐÚNG trang Sony của mã đó (suy máy từ mã), giữ một
+  // link phụ về trang chung (có ô tìm kiếm) làm đường lui nếu gõ sai mã/máy. Không bịa nội dung mã.
   function hienKhongThay(ma){
+    var may = mayTuMa(ma);
+    var rieng = "https://www.playstation.com/en-us/support/error-codes/" + may.toLowerCase() + "/" + esc(ma.toLowerCase()) + "/";
     kq.innerHTML = '<p class="khong-thay"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Chưa có mã <b>' + esc(ma) + '</b> trong kho của Săn Game. ' +
-      'Mở <a href="https://www.playstation.com/en-us/support/error-codes/" rel="noopener" target="_blank">trang tra mã lỗi của Sony</a> để tra trực tiếp.</span></p>';
+      '<a href="' + rieng + '" rel="noopener" target="_blank">Xem trang Sony của mã này<svg class="ic nho" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a> (' + may + ') để đọc nghĩa và cách sửa chính hãng. ' +
+      'Nếu Sony báo không tìm thấy trang, kiểm lại mã đã gõ đúng chưa, hoặc tìm trên ' +
+      '<a href="https://www.playstation.com/en-us/support/error-codes/" rel="noopener" target="_blank">trang tra mã lỗi chung của Sony<svg class="ic nho" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a> (có ô tìm kiếm).</span></p>';
   }
 
   f.addEventListener("submit", function(ev){
@@ -392,6 +442,13 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     setChipDangChon(null);
     var ma = chuanHoaMa(o.value);
     if(!ma){
+      var thieu = thieuSoCuoi(o.value);
+      if(thieu){
+        // Hào 01/10 rà soát vòng 2: ví dụ theo máy của mã đã gõ (PS5 thân 6 số -> CE-108255-1, PS4 -> CE-34878-0).
+        var vd = mayTuMa(thieu + "-0") === "PS5" ? "CE-108255-1" : "CE-34878-0";
+        kq.innerHTML = '<p class="khong-thay"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Chưa nhận ra đủ mã: bạn gõ <b>' + esc(thieu) + '</b>, mà mã PlayStation có thêm một chữ số cuối sau dấu gạch ngang (như ' + vd + '). Xem lại số cuối trên màn hình máy.</span></p>';
+        return;
+      }
       kq.innerHTML = '<p class="khong-thay"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Chưa nhận ra đây có phải mã lỗi PlayStation không. Mã thường có dạng chữ-số-số, ví dụ CE-34878-0.</span></p>';
       return;
     }
