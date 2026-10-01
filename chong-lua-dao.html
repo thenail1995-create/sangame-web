@@ -618,9 +618,10 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
    Đặt SAU khối 860 vì cùng độ ưu tiên; 4 cột từ 600px thì thẻ quá hẹp. */
 @media (min-width:600px) and (max-width:860px){.khoi-giam .ds-bia-gia{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (min-width:720px) and (max-width:860px){.khoi-giam .ds-bia-gia{grid-template-columns:repeat(4,minmax(0,1fr))}}
-/* 3 thẻ Tin hot xếp 2+1 lệch (auto-fit 260px cần >= ~885px mới đủ 3 cột) -> 3 cột đều từ 720 tới 900px; selector cụ thể hơn
+/* 3 thẻ Tin hot xếp 2+1 lệch (auto-fit 260px ra 2 cột từ ~605px tới ~900px) -> từ 580px hạ ô tối thiểu xuống 150px:
+   3 thẻ luôn 3 cột đều, 1-2 thẻ vẫn giãn kín hàng (auto-fit). Dưới 580px giữ 1 cột. Selector cụ thể hơn
    .bai-moi của bai_viet.CSS_KHOI_MOI (ghép SAU CSS_TRANG_CHU nên selector trơn sẽ bị đè) */
-@media (min-width:720px) and (max-width:900px){.dau-tin .tin-hot .bai-moi{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:580px){.dau-tin .tin-hot .bai-moi{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}}
 
 </style>
 <body>
