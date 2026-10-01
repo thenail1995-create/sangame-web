@@ -10,5 +10,34 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Return to Fabletown with The Wolf Among Us Remastered, out October 29",
+  "url": "https://blog.playstation.com/2026/10/01/return-to-fabletown-with-the-wolf-among-us-remastered-out-october-29/",
+  "ngay": "2026-10-01T20:00:49+07:00",
+  "the_loai": [
+   "PS5",
+   "Pm Studios",
+   "Telltale Games",
+   "The Wolf Among Us Remastered"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Kena: Scars of Kosmora launches 2027, Ember Lab shares story overview",
+  "url": "https://blog.playstation.com/2026/10/01/kena-scars-of-kosmora-launches-2027-ember-lab-shares-story-overview/",
+  "ngay": "2026-10-01T18:59:54+07:00",
+  "the_loai": [
+   "PS5",
+   "Ember Lab",
+   "Kena: Scars of Kosmora"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false
  }
 ]
