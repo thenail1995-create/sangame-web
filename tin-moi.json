@@ -65,5 +65,32 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Share of the Week: Marvel’s Wolverine – Logan",
+  "url": "https://blog.playstation.com/2026/10/02/share-of-the-week-marvels-wolverine-logan/",
+  "ngay": "2026-10-02T23:00:10+07:00",
+  "the_loai": [
+   "PS5",
+   "Marvel’s Wolverine",
+   "Share of the Week"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Marvel'",
+  "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Ghost of Yōtei Complete Edition – Erika Ishii interview",
+  "url": "https://blog.playstation.com/2026/10/02/ghost-of-yotei-complete-edition-erika-ishii-interview/",
+  "ngay": "2026-10-02T20:00:05+07:00",
+  "the_loai": [
+   "PS5",
+   "Ghost of Yōtei"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Ghost of'",
+  "da_viet": false
  }
 ]
