@@ -92,5 +92,19 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'Ghost of'",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Official PlayStation Podcast Episode 549: Friendly Ghosts",
+  "url": "https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts/",
+  "ngay": "2026-10-03T00:58:44+07:00",
+  "the_loai": [
+   "Uncategorized",
+   "Official PlayStation Podcast",
+   "PlayStation Blogcast"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
