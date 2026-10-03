@@ -5,6 +5,7 @@ Chạy: python3 theo_doi_tin.py [--dir <thư mục trạng thái>] [--thu]
   --thu : chế độ khô — đọc nguồn thật, in ra, KHÔNG gửi ntfy, KHÔNG ghi file trạng thái.
 Trạng thái: tin-da-thay.json; hàng đợi cho phụ tá viết bài: tin-moi.json (cả hai nằm trong --dir).
 Kênh ntfy lấy từ biến môi trường NTFY_TIN (không có thì chỉ in ra).
+Gọi viết tin (Hào 03/10): có tin đáng viết thì tạo GitHub release `viet-*` (cần GITHUB_TOKEN + GITHUB_REPOSITORY, không có thì chỉ in).
 Chỉ dùng thư viện chuẩn Python 3.12.
 """
 import argparse
@@ -16,6 +17,7 @@ import pathlib
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -49,6 +51,12 @@ NGAN_SACH_NGUON = 240  # giây tổng cho mọi nguồn một lượt
 CUA_SO = 12  # số mẫu Deals/Extra giữ lại
 LAN_GUI_TOI_DA = 3
 GOP_TOI_DA_BYTE = 3500
+VIET_GIAN_GIO = 3  # giờ tối thiểu giữa 2 lần gọi viết (Hào 03/10)
+VIET_TOI_DA = 5  # tin tối đa mỗi lần gọi viết
+VIET_HAN_GIO = 72  # chỉ viết tin trong 72 giờ gần nhất
+VIET_GIU_NGAY = 7  # release viet-* cũ hơn số ngày này thì xoá
+LOAI_BLOG_RE = re.compile(r"podcast|share of the week|blogcast|this week in playstation", re.I)
+API_GITHUB = "https://api.github.com"
 UA = {"User-Agent": "Mozilla/5.0"}
 NTFY_URL = "https://ntfy.sh/"
 GIO_VN = zoneinfo.ZoneInfo("Asia/Ho_Chi_Minh")
@@ -246,6 +254,122 @@ def so_sanh(trang_thai, du_lieu):
     return tin, tt
 
 
+# ---- Gọi viết tin (release GitHub) ---------------------------------------------------------
+def la_tin_blog(tin):
+    return tin.get("nguon") in NGUON_TEN.values()
+
+
+def dang_viet(tin):
+    """Tin đáng viết: CHỈ tin blog (trừ podcast/share of the week/…, trừ thể loại chỉ 'Uncategorized').
+    Tin store (Deals/Extra/PS Plus tháng) KHÔNG gửi viết: dùng chung URL danh mục nên routine không chống trùng được,
+    và tin_tu_sinh.py đã tự viết deal/PS Plus tháng từ dữ liệu (Astra 03/10).
+    Cố ý KHÔNG dùng TU_KHOA_HOT cho blog — từ khoá từng bỏ sót 'AI upscaling is coming to PS5' (Hào 03/10)."""
+    if la_tin_blog(tin):
+        if LOAI_BLOG_RE.search(tin.get("tieu_de", "")):
+            return False
+        tl = {str(x).strip().lower() for x in tin.get("the_loai") or []}
+        return tl != {"uncategorized"}
+    return False
+
+
+def _dt(x):
+    """ISO (str) hoặc datetime -> datetime có múi giờ; không đọc được -> None."""
+    if isinstance(x, datetime.datetime):
+        d = x
+    else:
+        try:
+            d = datetime.datetime.fromisoformat(str(x))
+        except ValueError:
+            return None
+    return d if d.tzinfo else d.replace(tzinfo=GIO_VN)
+
+
+def ly_do_khong_gui_viet(tin, bay_gio_dt):
+    """'' nếu tin được xét gửi viết; ngược lại lý do loại (dùng cho --thu và chon_tin_gui_viet)."""
+    if not dang_viet(tin):
+        return "không đáng viết (podcast/share/Uncategorized hoặc tin store)"
+    if tin.get("da_viet"):
+        return "đã viết"
+    if tin.get("da_gui_viet"):
+        return f"đã gửi viết lúc {tin['da_gui_viet']}"
+    ngay = _dt(tin.get("ngay"))
+    if ngay is None:
+        return "không đọc được ngày"
+    if bay_gio_dt - ngay > datetime.timedelta(hours=VIET_HAN_GIO):
+        return f"quá {VIET_HAN_GIO} giờ"
+    if ngay - bay_gio_dt > datetime.timedelta(minutes=10):   # ngày tương lai (lệch đồng hồ nhỏ thì cho qua) — Astra 03/10
+        return "ngày ở tương lai"
+    return ""
+
+
+def chon_tin_gui_viet(tin_moi, bay_gio, lan_goi_cuoi=None):
+    """Tối đa VIET_TOI_DA tin đáng viết, chưa viết/chưa gửi, trong VIET_HAN_GIO giờ, mới nhất trước.
+    [] nếu lần gọi cuối cách bay_gio < VIET_GIAN_GIO giờ. bay_gio/lan_goi_cuoi: chuỗi ISO hoặc datetime."""
+    bg = _dt(bay_gio)
+    if lan_goi_cuoi:
+        cu = _dt(lan_goi_cuoi)
+        if cu is not None and bg - cu < datetime.timedelta(hours=VIET_GIAN_GIO):
+            return []
+    ok = [x for x in tin_moi if not ly_do_khong_gui_viet(x, bg)]
+    ok.sort(key=lambda x: (bool(x.get("hot")), _dt(x["ngay"])), reverse=True)  # tin hot trước (vd PS Plus tháng), rồi mới nhất
+    return ok[:VIET_TOI_DA]
+
+
+def goi_api_github(phuong_thuc, duong_dan, token, body=None):
+    """(mã HTTP, JSON hoặc None). Lỗi HTTP trả mã lỗi; lỗi mạng ném ngoại lệ."""
+    req = urllib.request.Request(
+        API_GITHUB + duong_dan, method=phuong_thuc,
+        data=None if body is None else json.dumps(body, ensure_ascii=False).encode("utf-8"),
+        headers={**UA, "Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
+                 "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json; charset=utf-8"})
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT_YEU_CAU) as r:
+            raw = r.read()
+            return r.status, (json.loads(raw) if raw else None)
+    except urllib.error.HTTPError as e:
+        return e.code, None
+
+
+def tao_release_viet(tin_chon, bay_gio, repo, token, goi_api=None):
+    """POST release viet-YYYYMMDD-HHMM (giờ VN). True nếu GitHub trả 201."""
+    goi_api = goi_api or goi_api_github
+    bg = _dt(bay_gio).astimezone(GIO_VN)
+    nd = {"tin": [{k: x.get(k) for k in ("tieu_de", "url", "nguon", "ngay", "the_loai")} for x in tin_chon]}
+    body = {"tag_name": bg.strftime("viet-%Y%m%d-%H%M"), "target_commitish": "main",
+            "name": "Viết tin " + bg.strftime("%d/%m %H:%M"), "body": json.dumps(nd, ensure_ascii=False),
+            "make_latest": "false"}
+    ma, _ = goi_api("POST", f"/repos/{repo}/releases", token, body)
+    return ma == 201
+
+
+def don_release_viet(bay_gio, repo, token, goi_api=None, log=print):
+    """Xoá release + tag viet-* cũ hơn VIET_GIU_NGAY ngày. Mọi lỗi bỏ qua (chỉ log). Trả số release đã xoá."""
+    goi_api = goi_api or goi_api_github
+    bg = _dt(bay_gio)
+    xoa = 0
+    try:
+        ma, ds = goi_api("GET", f"/repos/{repo}/releases?per_page=100", token)
+        if ma != 200 or not isinstance(ds, list):
+            return 0
+        for r in ds:
+            tag = r.get("tag_name") or ""
+            ngay = _dt(r.get("published_at") or r.get("created_at"))   # created_at = ngày commit, không phải ngày đăng
+            if not tag.startswith("viet-") or ngay is None or bg - ngay <= datetime.timedelta(days=VIET_GIU_NGAY):
+                continue
+            try:
+                ma1, _ = goi_api("DELETE", f"/repos/{repo}/releases/{r['id']}", token)
+                if ma1 not in (200, 204):
+                    log(f"Dọn release {tag}: mã {ma1}, giữ tag để lượt sau thử lại")
+                    continue
+                xoa += 1
+                goi_api("DELETE", f"/repos/{repo}/git/refs/tags/{tag}", token)   # chỉ xoá tag khi release đã xoá
+            except Exception as e:
+                log(f"Dọn release {tag} lỗi (bỏ qua): {e}")
+    except Exception as e:
+        log(f"Dọn release cũ lỗi (bỏ qua): {e}")
+    return xoa
+
+
 # ---- ntfy ------------------------------------------------------------------------------------
 def gop_noi_dung(du):
     """message của thông báo gộp: tiêu đề + URL từng tin, cắt còn <= GOP_TOI_DA_BYTE byte UTF-8."""
@@ -327,7 +451,26 @@ def tom_tat(du_lieu):
     return dong
 
 
-def chay(thu_muc, thu=False, du_lieu=None, gui=None, kenh=None):
+def in_ke_hoach_viet(hang_doi, now, lan_goi_cuoi):
+    """--thu: in tin SẼ gọi viết và lý do từng tin bị loại (không gọi API)."""
+    chon = chon_tin_gui_viet(hang_doi, now, lan_goi_cuoi)
+    bg = _dt(now)
+    if lan_goi_cuoi and not chon and _dt(lan_goi_cuoi) and bg - _dt(lan_goi_cuoi) < datetime.timedelta(hours=VIET_GIAN_GIO):
+        print(f"(--thu) gọi viết: chưa đủ {VIET_GIAN_GIO} giờ từ lần gọi cuối ({lan_goi_cuoi}) — lượt này không gọi.")
+    for x in chon:
+        print(f"SẼ GỌI VIẾT {x['tieu_de']} — {x['url']}  ({x['ngay']})")
+    ids = {id(x) for x in chon}
+    for x in hang_doi:
+        if id(x) in ids:
+            continue
+        ly = ly_do_khong_gui_viet(x, bg) or f"vượt {VIET_TOI_DA} tin mới nhất"
+        print(f"LOẠI viết: {x['tieu_de']} — {ly}")
+    print(f"(--thu) {len(chon)} tin sẽ gọi viết; không gọi API GitHub.")
+
+
+def chay(thu_muc, thu=False, du_lieu=None, gui=None, kenh=None, goi_api=None, gio=None, token=None, repo=None):
+    """gio: hàm trả giờ hiện tại (ISO) — tiêm để test. token/repo: GitHub; thiếu thì chỉ in, không gọi API (Hào 03/10)."""
+    gio = gio or bay_gio
     thu_muc = pathlib.Path(thu_muc)
     f_tt, f_tin = thu_muc / "tin-da-thay.json", thu_muc / "tin-moi.json"
     trang_thai = doc_json(f_tt, {})
@@ -348,6 +491,7 @@ def chay(thu_muc, thu=False, du_lieu=None, gui=None, kenh=None):
         for t in tin:
             print(f"SẼ BÁO [{'HOT' if t['hot'] else '   '}] {t['tieu_de']} — {t['url']}")
         print(f"(--thu) {len(tin)} tin sẽ báo; không gửi ntfy, không ghi trạng thái.")
+        in_ke_hoach_viet(doc_json(f_tin, []) + tin, gio(), trang_thai.get("lan_goi_viet"))
         return tin
     kenh = kenh if kenh is not None else os.environ.get("NTFY_TIN", "").strip()
     cho_gui = list(tt_moi.get("cho_gui", [])) + [{"tin": x, "lan": 0} for x in tin]
@@ -360,8 +504,32 @@ def chay(thu_muc, thu=False, du_lieu=None, gui=None, kenh=None):
                 print(f"  {m['tin']['tieu_de']} — {m['tin']['url']}")
             cho_gui = []
     tt_moi["cho_gui"] = cho_gui
-    if tin:
-        ghi_json(f_tin, (doc_json(f_tin, []) + tin)[-GIU_TIN:])
+    hang_doi = (doc_json(f_tin, []) + tin)[-GIU_TIN:]
+    da_doi_hang = bool(tin)
+    now = gio()
+    chon = chon_tin_gui_viet(hang_doi, now, trang_thai.get("lan_goi_viet"))
+    if token and repo:
+        if chon:
+            try:
+                ok = tao_release_viet(chon, now, repo, token, goi_api)
+            except Exception as e:
+                print(f"LỖI gọi viết: {e} — lượt sau thử lại.")
+                ok = False
+            if ok:
+                for x in chon:
+                    x["da_gui_viet"] = now
+                tt_moi["lan_goi_viet"] = now
+                da_doi_hang = True
+                print(f"Đã gọi viết {len(chon)} tin.")
+            else:
+                print("Gọi viết không thành — không đánh dấu, lượt sau thử lại.")
+        don_release_viet(now, repo, token, goi_api)
+    elif chon:
+        print(f"Không có GITHUB_TOKEN/GITHUB_REPOSITORY — chỉ in {len(chon)} tin sẽ gọi viết:")
+        for x in chon:
+            print(f"  {x['tieu_de']} — {x['url']}")
+    if da_doi_hang:
+        ghi_json(f_tin, hang_doi)
     if tt_moi != trang_thai:
         ghi_json(f_tt, tt_moi)
     print(f"Xong: {len(tin)} tin mới, {len(cho_gui)} còn chờ gửi lại.")
@@ -373,7 +541,8 @@ def main(argv=None):
     ap.add_argument("--dir", default=".", help="thư mục chứa tin-da-thay.json và tin-moi.json")
     ap.add_argument("--thu", action="store_true", help="chế độ khô: không gửi ntfy, không ghi file")
     a = ap.parse_args(argv)
-    chay(a.dir, thu=a.thu)
+    chay(a.dir, thu=a.thu, token=os.environ.get("GITHUB_TOKEN", "").strip() or None,
+         repo=os.environ.get("GITHUB_REPOSITORY", "").strip() or None)
     return 0
 
 

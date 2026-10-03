@@ -2,6 +2,7 @@ import json
 import pathlib
 import sys
 import tempfile
+import datetime
 import unittest
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -368,6 +369,165 @@ class TestChay(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             t.chay(d, du_lieu=dl(), kenh="")
             t.chay(d, du_lieu=dl(plus=["A", "Z"]), kenh="")
+
+
+NOW = "2026-10-03T12:00:00+07:00"
+
+
+def tin_blog(n, tieu_de="Some news", the_loai=("PS5",), ngay="2026-10-03T08:00:00+07:00", **kw):
+    return {"nguon": "PlayStation Blog", "tieu_de": tieu_de, "url": f"https://b/{n}", "ngay": ngay,
+            "the_loai": list(the_loai), "hot": False, "ly_do_hot": "", "da_viet": False, **kw}
+
+
+class GiaApi:
+    """goi_api giả: ghi lại lời gọi, trả mã theo bảng."""
+    def __init__(self, ma_post=201, releases=None, loi=None):
+        self.goi, self.ma_post, self.releases, self.loi = [], ma_post, releases or [], loi
+
+    def __call__(self, pt, dd, token, body=None):
+        self.goi.append((pt, dd, token, body))
+        if self.loi:
+            raise self.loi
+        if pt == "POST":
+            return self.ma_post, {}
+        if pt == "GET":
+            return 200, self.releases
+        return 204, None
+
+
+class TestDangViet(unittest.TestCase):
+    def test_loc(self):
+        self.assertTrue(t.dang_viet(tin_blog(1, "AI upscaling is coming to PS5")))
+        for tde in ("Official PlayStation Podcast Episode 5", "Share of the Week: X", "PlayStation Blogcast 12",
+                    "This Week in PlayStation: news"):
+            self.assertFalse(t.dang_viet(tin_blog(1, tde)), tde)
+        self.assertFalse(t.dang_viet(tin_blog(1, the_loai=["Uncategorized"])))
+        self.assertTrue(t.dang_viet(tin_blog(1, the_loai=["Uncategorized", "PS5"])))
+        store = {"nguon": "PS Store", "tieu_de": "x", "url": "u", "ngay": NOW, "the_loai": ["PS Store"], "hot": True}
+        self.assertFalse(t.dang_viet(store))                      # tin store không gửi viết (Astra 03/10)
+        self.assertFalse(t.dang_viet({**store, "hot": False}))
+
+    def test_tin_tuong_lai_bi_loai(self):
+        mai = (datetime.datetime.fromisoformat(NOW) + datetime.timedelta(days=1)).isoformat()
+        self.assertEqual(t.ly_do_khong_gui_viet({**tin_blog(1), "ngay": mai}, datetime.datetime.fromisoformat(NOW)), "ngày ở tương lai")
+
+    def test_don_release_loi_xoa_thi_giu_tag(self):
+        goi = []
+        def api(pt, dd, tk, body=None):
+            goi.append((pt, dd))
+            if pt == "GET":
+                return 200, [{"id": 9, "tag_name": "viet-20260901-0900", "published_at": "2026-09-01T02:00:00Z"}]
+            return 500, None
+        self.assertEqual(t.don_release_viet(NOW, "o/r", "tk", goi_api=api, log=lambda *a: None), 0)
+        self.assertNotIn(("DELETE", "/repos/o/r/git/refs/tags/viet-20260901-0900"), goi)
+
+    def test_don_release_tinh_tuoi_theo_published_at(self):
+        goi = []
+        def api(pt, dd, tk, body=None):
+            goi.append((pt, dd))
+            if pt == "GET":   # created_at cũ (ngày commit) nhưng vừa đăng -> giữ
+                return 200, [{"id": 5, "tag_name": "viet-x", "created_at": "2026-09-01T00:00:00Z", "published_at": NOW}]
+            return 204, None
+        self.assertEqual(t.don_release_viet(NOW, "o/r", "tk", goi_api=api), 0)
+        self.assertEqual([g for g in goi if g[0] == "DELETE"], [])
+
+
+class TestChonGuiViet(unittest.TestCase):
+    def test_gian_3_gio(self):
+        ds = [tin_blog(1)]
+        self.assertEqual(t.chon_tin_gui_viet(ds, NOW, "2026-10-03T09:30:00+07:00"), [])
+        self.assertEqual(len(t.chon_tin_gui_viet(ds, NOW, "2026-10-03T08:30:00+07:00")), 1)
+        self.assertEqual(len(t.chon_tin_gui_viet(ds, NOW, None)), 1)
+
+    def test_toi_da_5_moi_nhat_truoc(self):
+        ds = [tin_blog(i, ngay=f"2026-10-03T0{i}:00:00+07:00") for i in range(1, 8)]
+        ra = t.chon_tin_gui_viet(ds, NOW)
+        self.assertEqual([x["url"] for x in ra], [f"https://b/{i}" for i in range(7, 2, -1)])
+
+    def test_qua_72_gio_va_da_danh_dau_bi_bo(self):
+        ds = [tin_blog(1, ngay="2026-09-30T11:00:00+07:00"), tin_blog(2, da_gui_viet="x"), tin_blog(3, da_viet=True),
+              tin_blog(4, ngay="2026-09-30T13:00:00+07:00")]
+        self.assertEqual([x["url"] for x in t.chon_tin_gui_viet(ds, NOW)], ["https://b/4"])
+
+    def test_bay_gio_datetime(self):
+        d = t._dt(NOW)
+        self.assertEqual(len(t.chon_tin_gui_viet([tin_blog(1)], d)), 1)
+
+
+class TestGoiViet(unittest.TestCase):
+    def chay(self, d, api, **kw):
+        return t.chay(d, du_lieu=dl(), kenh="", goi_api=api, gio=lambda: NOW, token="tk", repo="o/r", **kw)
+
+    def _dat(self, d, tin, tt=None):
+        (pathlib.Path(d) / "tin-moi.json").write_text(json.dumps(tin), encoding="utf-8")
+        (pathlib.Path(d) / "tin-da-thay.json").write_text(json.dumps(tt or {}), encoding="utf-8")
+
+    def test_thanh_cong_danh_dau(self):
+        with tempfile.TemporaryDirectory() as d:
+            self._dat(d, [tin_blog(1), tin_blog(2, "Official PlayStation Podcast 1")])
+            api = GiaApi()
+            self.chay(d, api)
+            post = [g for g in api.goi if g[0] == "POST"]
+            self.assertEqual(len(post), 1)
+            self.assertEqual(post[0][1], "/repos/o/r/releases")
+            self.assertEqual(post[0][2], "tk")
+            b = post[0][3]
+            self.assertEqual(b["tag_name"], "viet-20261003-1200")
+            self.assertEqual(b["name"], "Viết tin 03/10 12:00")
+            self.assertEqual(b["target_commitish"], "main")
+            self.assertEqual(b["make_latest"], "false")
+            nd = json.loads(b["body"])
+            self.assertEqual([x["url"] for x in nd["tin"]], ["https://b/1"])
+            self.assertEqual(set(nd["tin"][0]), {"tieu_de", "url", "nguon", "ngay", "the_loai"})
+            hd = json.loads((pathlib.Path(d) / "tin-moi.json").read_text(encoding="utf-8"))
+            self.assertEqual(hd[0]["da_gui_viet"], NOW)
+            self.assertNotIn("da_gui_viet", hd[1])
+            tt = json.loads((pathlib.Path(d) / "tin-da-thay.json").read_text(encoding="utf-8"))
+            self.assertEqual(tt["lan_goi_viet"], NOW)
+            # lượt sau (ngay sau đó) không gọi lại
+            api2 = GiaApi()
+            self.chay(d, api2)
+            self.assertEqual([g for g in api2.goi if g[0] == "POST"], [])
+
+    def test_loi_khong_danh_dau(self):
+        for api in (GiaApi(ma_post=500), GiaApi(loi=OSError("mạng"))):
+            with tempfile.TemporaryDirectory() as d:
+                self._dat(d, [tin_blog(1)])
+                self.chay(d, api)
+                hd = json.loads((pathlib.Path(d) / "tin-moi.json").read_text(encoding="utf-8"))
+                self.assertNotIn("da_gui_viet", hd[0])
+                tt = json.loads((pathlib.Path(d) / "tin-da-thay.json").read_text(encoding="utf-8"))
+                self.assertNotIn("lan_goi_viet", tt)
+
+    def test_thieu_token_chi_in(self):
+        with tempfile.TemporaryDirectory() as d:
+            self._dat(d, [tin_blog(1)])
+            api = GiaApi()
+            t.chay(d, du_lieu=dl(), kenh="", goi_api=api, gio=lambda: NOW)
+            self.assertEqual(api.goi, [])
+            hd = json.loads((pathlib.Path(d) / "tin-moi.json").read_text(encoding="utf-8"))
+            self.assertNotIn("da_gui_viet", hd[0])
+
+    def test_thu_khong_goi_mang_khong_ghi(self):
+        with tempfile.TemporaryDirectory() as d:
+            self._dat(d, [tin_blog(1)])
+            api = GiaApi()
+            t.chay(d, thu=True, du_lieu=dl(), goi_api=api, gio=lambda: NOW, token="tk", repo="o/r")
+            self.assertEqual(api.goi, [])
+            hd = json.loads((pathlib.Path(d) / "tin-moi.json").read_text(encoding="utf-8"))
+            self.assertNotIn("da_gui_viet", hd[0])
+
+    def test_don_release_cu(self):
+        rel = [{"id": 1, "tag_name": "viet-20260920-0900", "created_at": "2026-09-20T02:00:00Z"},
+               {"id": 2, "tag_name": "viet-20261002-0900", "created_at": "2026-10-02T02:00:00Z"},
+               {"id": 3, "tag_name": "v1.0", "created_at": "2026-01-01T00:00:00Z"}]
+        api = GiaApi(releases=rel)
+        self.assertEqual(t.don_release_viet(NOW, "o/r", "tk", api), 1)
+        xoa = [(g[0], g[1]) for g in api.goi if g[0] == "DELETE"]
+        self.assertEqual(xoa, [("DELETE", "/repos/o/r/releases/1"), ("DELETE", "/repos/o/r/git/refs/tags/viet-20260920-0900")])
+
+    def test_don_release_loi_bo_qua(self):
+        self.assertEqual(t.don_release_viet(NOW, "o/r", "tk", GiaApi(loi=OSError("x")), log=lambda m: None), 0)
 
 
 if __name__ == "__main__":

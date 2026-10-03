@@ -44,6 +44,7 @@ jobs:
       - name: Chạy theo dõi
         env:
           NTFY_TIN: ${{ secrets.NTFY_TIN }}
+          GITHUB_TOKEN: ${{ github.token }}  # Hào 03/10: tạo release viet-* gọi routine viết tin
         run: python3 ma/.github/theo-doi/theo_doi_tin.py --dir trang-thai
 
       - name: Ghi trạng thái nếu có đổi
