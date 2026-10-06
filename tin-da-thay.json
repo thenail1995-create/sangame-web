@@ -20,7 +20,8 @@
    "urn:uuid:cb10fa38-11a1-4e42-a05e-94fb7884687c",
    "urn:uuid:8a64009b-c98d-49d9-999d-6ba8a7b8fc5f",
    "urn:uuid:9a46fabf-b533-4859-aab6-50b09824cc79",
-   "urn:uuid:db85bd46-6db5-4248-89b0-481fb54ebef2"
+   "urn:uuid:db85bd46-6db5-4248-89b0-481fb54ebef2",
+   "urn:uuid:6fea0d1a-2c7b-45f4-8572-03f5cf578a66"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -42,7 +43,7 @@
    5594,
    5594,
    5594,
-   5594,
+   5593,
    5593,
    5593,
    5593,
@@ -91,5 +92,5 @@
   "Wobbly Life"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-10-06T00:20:49+07:00"
+ "lan_goi_viet": "2026-10-06T21:10:52+07:00"
 }

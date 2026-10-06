@@ -154,5 +154,20 @@
   "hot": true,
   "ly_do_hot": "tổng kho vượt đỉnh 12 lần gần nhất",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Warhammer Survivors launches November 10, new characters revealed",
+  "url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed/",
+  "ngay": "2026-10-06T21:00:51+07:00",
+  "the_loai": [
+   "PS5",
+   "Auroch Digital",
+   "Warhammer Survivors"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "da_gui_viet": "2026-10-06T21:10:52+07:00"
  }
 ]
