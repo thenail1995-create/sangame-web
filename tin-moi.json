@@ -301,5 +301,19 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
+  "url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2/",
+  "ngay": "2026-10-08T00:00:48+07:00",
+  "the_loai": [
+   "PS5",
+   "Marvel Tōkon: Fighting Souls"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Marvel'",
+  "da_viet": false,
+  "da_gui_viet": "2026-10-08T00:10:53+07:00"
  }
 ]
