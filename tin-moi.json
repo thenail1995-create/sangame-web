@@ -181,5 +181,17 @@
   "hot": true,
   "ly_do_hot": "số món giảm giá tăng 46% so với đỉnh 12 lần gần nhất",
   "da_viet": false
+ },
+ {
+  "nguon": "PS Store",
+  "tieu_de": "PS Store (US) vừa mở đợt giảm giá mới (5984 → 7939 món)",
+  "url": "https://store.playstation.com/en-us/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
+  "ngay": "2026-10-07T14:10:56+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "số món giảm giá tăng 33% so với đỉnh 12 lần gần nhất",
+  "da_viet": false
  }
 ]
