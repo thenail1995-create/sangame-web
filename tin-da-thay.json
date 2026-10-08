@@ -22,7 +22,8 @@
    "urn:uuid:9a46fabf-b533-4859-aab6-50b09824cc79",
    "urn:uuid:db85bd46-6db5-4248-89b0-481fb54ebef2",
    "urn:uuid:6fea0d1a-2c7b-45f4-8572-03f5cf578a66",
-   "urn:uuid:f57ec4f8-af35-40f0-8c61-a0ffdac36b8b"
+   "urn:uuid:f57ec4f8-af35-40f0-8c61-a0ffdac36b8b",
+   "urn:uuid:3e0c5533-afbb-427a-887e-9fd93a929fb9"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -45,13 +46,13 @@
    5140,
    5140,
    5140,
-   5140,
    5143,
    5143,
    5143,
    5143,
    5143,
-   5143
+   5143,
+   5144
   ],
   "en-SG": [
    2702,
@@ -59,7 +60,7 @@
    2702,
    2702,
    2702,
-   2702,
+   2705,
    2705,
    2705,
    2705,
@@ -91,5 +92,5 @@
   "Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-10-08T00:10:53+07:00"
+ "lan_goi_viet": "2026-10-09T00:01:31+07:00"
 }

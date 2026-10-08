@@ -411,5 +411,20 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Critical Role joins Rockbeasts, launching January 2027.",
+  "url": "https://blog.playstation.com/2026/10/08/critical-role-joins-rockbeasts-launching-january-2027/",
+  "ngay": "2026-10-09T00:00:00+07:00",
+  "the_loai": [
+   "PS5",
+   "Lichthund",
+   "Rockbeasts"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "da_gui_viet": "2026-10-09T00:01:31+07:00"
  }
 ]
