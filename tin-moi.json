@@ -440,5 +440,19 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'Marvel'",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Official PlayStation Podcast Episode 550: Now This is Podcasting",
+  "url": "https://blog.playstation.com/2026/10/09/official-playstation-podcast-episode-550-now-this-is-podcasting/",
+  "ngay": "2026-10-09T23:32:01+07:00",
+  "the_loai": [
+   "Uncategorized",
+   "Official PlayStation Podcast",
+   "PlayStation Blogcast"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
