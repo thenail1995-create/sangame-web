@@ -580,7 +580,7 @@ class TestNguonNgoaiNganSach(unittest.TestCase):
         vi_tri = [i for i, u in enumerate(thu_tu) if u in ngoai]
         self.assertTrue(vi_tri)
         self.assertGreater(min(vi_tri), max(i for i, u in enumerate(thu_tu) if u not in ngoai))   # mọi nguồn cũ xong trước nguồn ngoài đầu tiên
-        self.assertEqual([timeouts[u] for u in ngoai], [t.TIMEOUT_NGOAI] * 3)
+        self.assertEqual([timeouts[u] for u in ngoai], [t.TIMEOUT_NGOAI] * len(t.FEEDS_NGOAI))
         self.assertLessEqual(t.TIMEOUT_NGOAI, 15)
         for u in ngoai:
             self.assertEqual(thu_tu.count(u), 2)                      # 1 lần đầu + đúng 1 lần thử lại
@@ -743,6 +743,157 @@ class TestGoiViet(unittest.TestCase):
 
     def test_don_release_loi_bo_qua(self):
         self.assertEqual(t.don_release_viet(NOW, "o/r", "tk", GiaApi(loi=OSError("x")), log=lambda m: None), 0)
+
+
+# ---- 12/10: tin rò rỉ billbil-kun (RSS Bluesky: item không có <title>, chữ bài ở <description>) ----
+RSS_BSKY = """<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><link>https://bsky.app/profile/billbil-kun.bsky.social</link><title>@billbil-kun.bsky.social - billbil-kun</title>
+<item><link>https://bsky.app/profile/billbil-kun.bsky.social/post/3mxjn2i36ss2y</link><description>🚨 EXCLUSIVE 🚨&#xA;Metro 2039 - Pre-orders&#xA;&#xA;Physical versions on PS5, Xbox and PC&#xA;PS5 edition has a bonus&#xA;&#xA;🔽&#xA;🔗 https://www.dealabs.com/magazine/metro-2039-61755</description><pubDate>10 Oct 2026 13:50 +0000</pubDate><guid isPermaLink="false">at://did:plc:x/app.bsky.feed.post/3mxjn2i36ss2y</guid></item>
+<item><link>https://bsky.app/profile/billbil-kun.bsky.social/post/3mx7e725d6c2m</link><description>🚨 EXCLUSIVE 🚨&#xA;&#xA;Google&#39;s next Fitbit is called Fitbit Edge, and we got the full spec sheet&#xA;&#xA;🔽&#xA;🔗 https://www.dealabs.com/magazine/fitbit-edge-61736</description><pubDate>06 Oct 2026 11:45 +0000</pubDate><guid isPermaLink="false">at://did:plc:x/app.bsky.feed.post/3mx7e725d6c2m</guid></item>
+<item><link>https://bsky.app/profile/billbil-kun.bsky.social/post/3mw1</link><description>CONFIRMED&#xA;&#xA;XBOX Series X25 Limited Edition will cost 899.99 USD as we estimated from EUR pricing</description><pubDate>26 Aug 2026 14:51 +0000</pubDate><guid isPermaLink="false">at://did:plc:x/app.bsky.feed.post/3mw1</guid></item>
+<item><link>https://bsky.app/profile/billbil-kun.bsky.social/post/3mw2</link><description>🚨 EXCLUSIVE 🚨&#xA;&#xA;We now reveal, during PS Blackout, ALL titles for September&#39;s PS Plus Monthly Games&#xA;&#xA;🗒️ Available for all PS Plus tiers (Essential, Extra &amp; Premium)&#xA;⌛️ Sep 1st - Oct 6th, 2026 10AM UTC+2&#xA;&#xA;🔽&#xA;🔗 https://www.dealabs.com/magazine/ps-plus-septembre-2026-61681</description><pubDate>25 Aug 2026 14:53 +0000</pubDate><guid isPermaLink="false">at://did:plc:x/app.bsky.feed.post/3mw2</guid></item>
+</channel></rss>""".encode()
+
+
+class TestLeakBillbil(unittest.TestCase):
+    def test_cau_hinh(self):
+        self.assertEqual(t.FEEDS_LEAK["billbil"], "https://bsky.app/profile/billbil-kun.bsky.social/rss")
+        self.assertEqual(t.NGUON_TEN["billbil"], "billbil-kun (Dealabs)")
+        self.assertIn(t.FEEDS_LEAK["billbil"], t.FEEDS_NGOAI.values())       # đọc chung vòng nguồn ngoài (ngân sách riêng)
+
+    def test_tieu_de_bo_nhan_emoji(self):
+        td = t.tieu_de_leak
+        self.assertEqual(td("🚨 EXCLUSIVE 🚨\nMetro 2039 - Pre-orders\n\nx"), "Metro 2039 - Pre-orders")
+        self.assertEqual(td("⚠️ UPDATE ⚠️\n\nThe new controller is out"), "The new controller is out")
+        self.assertEqual(td("CONFIRMED\n\nXBOX Series X25 costs 899 USD"), "XBOX Series X25 costs 899 USD")
+        self.assertEqual(td("🚨 UPCOMING RELEASE 🚨\n\nSony is preparing a headphone 👀"), "Sony is preparing a headphone")
+        self.assertEqual(td("🚨 EXCLUSIVE 🚨\n\n🔗\nhttps://x.y/z\nDòng kế có chữ"), "Dòng kế có chữ")   # dòng rỗng chữ/chỉ link -> dòng kế
+        self.assertEqual(td("🚨 EXCLUSIVE 🚨"), "")
+        self.assertLessEqual(len(td("A" + "b" * 300)), t.TIEU_DE_LEAK_TOI_DA)
+        self.assertTrue(td("A" + "b" * 300).endswith("…"))
+
+    def test_phan_tich_rss_bluesky(self):
+        ds = t.phan_tich_rss_bsky(RSS_BSKY)
+        self.assertEqual(len(ds), 4)                                           # item không có <title> vẫn đọc được
+        self.assertEqual([d["ps"] for d in ds], [True, False, False, True])    # chỉ Metro (PS5 2 lần trong thân) và PS Plus (trong tiêu đề) qua lọc PS
+        self.assertEqual(ds[0]["tieu_de"], "Metro 2039 - Pre-orders")
+        self.assertEqual(ds[3]["tieu_de"], "We now reveal, during PS Blackout, ALL titles for September's PS Plus Monthly Games")
+        self.assertEqual(ds[3]["link_goc"], "https://www.dealabs.com/magazine/ps-plus-septembre-2026-61681")
+        self.assertEqual(ds[2]["link_goc"], "")
+        self.assertEqual(ds[3]["url"], "https://bsky.app/profile/billbil-kun.bsky.social/post/3mw2")
+        self.assertEqual(ds[3]["the_loai"], ["leak"])
+        self.assertTrue(ds[3]["ngay"].startswith("2026-08-25T21:53:00"))      # 14:53 UTC = 21:53 VN
+        self.assertIn("Essential, Extra & Premium", ds[3]["tom_tat"])
+        for xau in (b"<html>x</html>", b"<rss version='2.0'><channel><title>x</title></channel></rss>"):
+            with self.assertRaises(Exception):
+                t.phan_tich_rss_bsky(xau)
+
+    def test_loc_ps_cuc_bo(self):
+        r = t.LEAK_PS_RE
+        for co in ("on PS5", "PS Plus tiers", "the PlayStation 6", "ps portal", "DualSense Edge", "PSVR2", "PS VR2"):
+            self.assertTrue(r.search(co), co)
+        for khong in ("Xbox only", "UPS5", "Switch 2", "Pixel phone"):
+            self.assertFalse(r.search(khong), khong)
+
+    def test_so_sanh_chi_2_item_ps_qua_va_mang_truong(self):
+        rong = {"blog": [], "blog-ps-plus": [], "billbil": []}
+        _, tt = t.so_sanh({}, dl(blog=rong))                                   # lần đầu chỉ ghi mốc
+        d = dl(blog={**rong, "billbil": t.phan_tich_rss_bsky(RSS_BSKY)})
+        tin, tt2 = t.so_sanh(tt, d)
+        self.assertEqual([x["tieu_de"][:5] for x in tin], ["Metro", "We no"])
+        x = tin[1]
+        self.assertEqual((x["nguon"], x["the_loai"], x["hot"], x["da_viet"]), ("billbil-kun (Dealabs)", ["leak"], True, False))
+        self.assertEqual(x["link_goc"], "https://www.dealabs.com/magazine/ps-plus-septembre-2026-61681")
+        self.assertIn("PS Plus", x["tom_tat"])
+        self.assertEqual(len(tt2["guid"]["billbil"]), 4)                       # item không-PS vẫn ghi guid: lượt sau không xét lại
+        self.assertEqual(t.so_sanh(tt2, d)[0], [])
+
+    def test_leak_vao_hang_gui_viet_va_release_kem_link_goc(self):
+        rong = {"blog": [], "blog-ps-plus": [], "billbil": []}
+        _, tt = t.so_sanh({}, dl(blog=rong))
+        tin, _ = t.so_sanh(tt, dl(blog={**rong, "billbil": t.phan_tich_rss_bsky(RSS_BSKY)}))
+        for x in tin:
+            x["ngay"] = "2026-10-03T08:00:00+07:00"
+        self.assertTrue(all(t.dang_viet(x) for x in tin))
+        chon = t.chon_tin_gui_viet(tin + [tin_blog(1, ngay="2026-10-03T09:00:00+07:00")], NOW)
+        self.assertEqual(chon[0]["nguon"], "PlayStation Blog")                # Sony chính chủ đứng trước leak
+        self.assertEqual([x["nguon"] for x in chon[1:]], ["billbil-kun (Dealabs)"] * 2)
+        goi = []
+        def api(pt, dd, tk, body=None):
+            goi.append(body)
+            return 201, None
+        t.tao_release_viet(chon, NOW, "o/r", "tk", goi_api=api)
+        nd = json.loads(goi[0]["body"])["tin"]
+        leak = [x for x in nd if x["nguon"] == "billbil-kun (Dealabs)"]
+        self.assertEqual(len(leak), 2)
+        self.assertEqual(leak[1]["the_loai"], ["leak"])
+        self.assertTrue(leak[1]["link_goc"].startswith("https://www.dealabs.com/"))
+        self.assertIn("tom_tat", leak[1])
+        self.assertNotIn("link_goc", [x for x in nd if x["nguon"] == "PlayStation Blog"][0])
+
+    def _ps(self, mo_ta):
+        xml = ("<rss version='2.0'><channel><item><link>https://bsky.app/profile/billbil-kun.bsky.social/post/a</link><description>"
+               + mo_ta + "</description><guid>g</guid></item></channel></rss>").encode()
+        return t.phan_tich_rss_bsky(xml)[0]["ps"]
+
+    def test_loc_ps_tren_chu_da_lam_sach(self):
+        self.assertFalse(self._ps("🚨 EXCLUSIVE 🚨&#xA;&#xA;New Xbox controller revealed&#xA;Unlike PS5, it has Hall effect sticks"))   # nhắc so sánh 1 lần
+        self.assertFalse(self._ps("🚨 EXCLUSIVE 🚨&#xA;&#xA;Switch 2 bundle price&#xA;🔗 https://www.playstation.com/ps5/ https://www.dealabs.com/magazine/ps5-ps5"))   # PS chỉ nằm trong URL
+        self.assertFalse(self._ps("🚨 EXCLUSIVE 🚨&#xA;&#xA;Switch 2 bundle&#xA;&lt;a href=&quot;https://www.playstation.com/PlayStation&quot;&gt;here&lt;/a&gt;"))   # PS trong thẻ HTML thuộc tính
+        self.assertTrue(self._ps("🚨 EXCLUSIVE 🚨&#xA;&#xA;PS Plus Monthly Games for September leaked&#xA;Details soon"))   # trong tiêu đề
+        self.assertTrue(self._ps("🚨 EXCLUSIVE 🚨&#xA;&#xA;Metro 2039 pre-orders&#xA;PS5 and PlayStation 5 Pro editions"))   # >= 2 lần trong thân
+
+    def test_5_leak_va_1_tin_sony_sony_van_duoc_chon(self):
+        leak = [{**tin_blog(i, ngay=f"2026-10-03T0{i}:00:00+07:00"), "nguon": "billbil-kun (Dealabs)", "the_loai": ["leak"], "hot": True,
+                 "url": f"https://l/{i}"} for i in range(1, 6)]
+        sony = tin_blog(9, ngay="2026-10-03T01:00:00+07:00")                 # cũ nhất, không hot
+        chon = t.chon_tin_gui_viet(leak + [sony], NOW)
+        self.assertEqual(len(chon), t.VIET_TOI_DA)
+        self.assertEqual(chon[0]["url"], "https://b/9")
+        self.assertIn("https://b/9", [x["url"] for x in chon])
+        self.assertEqual(sum(la_ for la_ in map(t.la_tin_leak, chon)), 4)
+        ngoai = {**tin_ngoai("gematsu", RSS_GEMATSU, 0), "url": "https://g/1"}
+        chon2 = t.chon_tin_gui_viet([ngoai] + leak + [sony], NOW)
+        self.assertEqual([t.la_tin_leak(x) for x in chon2], [False, True, True, True, True])   # Sony > leak > ngoài khác (ngoài bị đẩy khỏi giới hạn)
+
+    def test_leak_hong_mang_khong_lam_hong_blog(self):
+        def http(url, headers=None, timeout=15):
+            if "bsky.app" in url:
+                raise OSError("bluesky chết")
+            if "/feed/" in url:
+                return RSS
+            if "gameslist" in url:
+                return json.dumps([{"games": [{"name": "X"}]}]).encode()
+            return json.dumps({"data": {"categoryGridRetrieve": {"pageInfo": {"totalCount": 5}}}}).encode()
+        d = t.lay_du_lieu(http, lambda s: None, log=lambda *_: None)
+        self.assertIsNone(d["blog"]["billbil"])
+        self.assertEqual(len(d["blog"]["blog"]), 2)
+        self.assertEqual(d["plus"], ["X"])
+        _, tt = t.so_sanh({}, dl(blog={"blog": [bai(1)], "blog-ps-plus": [], "billbil": t.phan_tich_rss_bsky(RSS_BSKY)}))
+        tin, tt2 = t.so_sanh(tt, d)                                             # billbil None: giữ guid cũ, blog vẫn chạy
+        self.assertEqual(tt2["guid"]["billbil"], tt["guid"]["billbil"])
+
+    def test_doc_leak_bang_parser_rieng(self):
+        def http(url, headers=None, timeout=15):
+            if "bsky.app" in url:
+                return RSS_BSKY
+            raise OSError("x")
+        d = t.lay_du_lieu(http, lambda s: None, log=lambda *_: None)
+        self.assertEqual(len(d["blog"]["billbil"]), 4)
+        self.assertTrue(d["blog"]["billbil"][0]["ps"])
+
+    def test_thu_in_ly_do_loai(self):
+        import contextlib, io
+        with tempfile.TemporaryDirectory() as dd:
+            du = dl(blog={"blog": [], "blog-ps-plus": [], "billbil": t.phan_tich_rss_bsky(RSS_BSKY)})
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                t.chay(dd, thu=True, du_lieu=du, gio=lambda: NOW)
+            out = buf.getvalue()
+            self.assertIn("LEAK billbil-kun (Dealabs): 4 bài", out)
+            self.assertIn("[PS ] We now reveal", out)
+            self.assertIn("[loại: không nhắc PS5/PS4/PS Plus/PlayStation…] Google's next Fitbit", out)
+            self.assertFalse((pathlib.Path(dd) / "tin-da-thay.json").exists())   # --thu không ghi file
 
 
 if __name__ == "__main__":

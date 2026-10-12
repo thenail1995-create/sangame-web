@@ -18,6 +18,7 @@ import pathlib
 import re
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -37,15 +38,23 @@ FEEDS_CHINH = {
 }
 # 12/10: 3 nguồn tin nóng NGOÀI (game mới, ngày ra mắt). CHỈ để biết tin — routine phải đối chiếu nguồn host Sony, không thì để nhap.
 # Đọc SAU mọi nguồn cũ, ngân sách thời gian riêng + timeout ngắn + 1 lần thử lại (Sol P1: nguồn ngoài chậm không được làm nguồn giá/PS Plus hết giờ).
+# 12/10: nguồn RÒ RỈ (leak) billbil-kun (Dealabs) qua RSS Bluesky — Hào duyệt tự đăng với nhãn "Rò rỉ – chưa xác nhận". Item không có <title>,
+# chữ bài nằm ở <description>; phần lớn bài không phải PlayStation nên phải lọc (xem phan_tich_rss_bsky). Đọc chung vòng nguồn ngoài (ngân sách riêng).
+FEEDS_LEAK = {"billbil": "https://bsky.app/profile/billbil-kun.bsky.social/rss"}
 FEEDS_NGOAI = {
     "gematsu": "https://www.gematsu.com/feed",
     "pushsquare": "https://www.pushsquare.com/feeds/latest",
     "pslifestyle": "https://www.playstationlifestyle.net/feed/",
+    **FEEDS_LEAK,
 }
 FEEDS = {**FEEDS_CHINH, **FEEDS_NGOAI}
 NGUON_TEN = {"blog": "PlayStation Blog", "blog-ps-plus": "PlayStation Blog (PS Plus)", "gematsu": "Gematsu",
-             "pushsquare": "Push Square", "pslifestyle": "PlayStation LifeStyle"}
+             "pushsquare": "Push Square", "pslifestyle": "PlayStation LifeStyle", "billbil": "billbil-kun (Dealabs)"}
 NGUON_NGOAI = frozenset({NGUON_TEN["gematsu"], NGUON_TEN["pushsquare"], NGUON_TEN["pslifestyle"]})
+NGUON_LEAK = frozenset({NGUON_TEN[k] for k in FEEDS_LEAK})
+LEAK_PS_RE = re.compile(r"(?<!\w)(PS5|PS4|PS6|PS Plus|PlayStation|DualSense|PS Portal|PSVR2|PS VR2)(?!\w)", re.I)
+LINK_DEALABS_RE = re.compile(r"https://www\.dealabs\.com/[^\s<>\"')\]]+", re.I)
+TIEU_DE_LEAK_TOI_DA = 120
 TOM_TAT_TOI_DA = 600       # ký tự tóm tắt RSS gửi kèm release (trang các site này trả 403 Cloudflare cho routine)
 # Gematsu gắn thể loại = nền tảng (PS5, Switch, Xbox Series…): chỉ giữ tin có PlayStation (thể loại hoặc tiêu đề)
 PS_THE_LOAI = frozenset({"ps5", "ps4", "ps6", "ps vr2", "psvr2", "playstation 5", "playstation 4"})
@@ -169,9 +178,77 @@ def phan_tich_rss(xml_bytes):
     return ra
 
 
-def lay_feed(url, http=http_get, timeout=None):
+def _bo_emoji(dong):
+    """Bỏ emoji/ký hiệu (So, Sk), ký tự điều khiển/định dạng (ZWJ…), dấu biến thể (U+FE0F)."""
+    return "".join(c for c in dong if unicodedata.category(c) not in ("So", "Sk", "Cs", "Cf", "Mn", "Cn")).strip()
+
+
+def la_dong_nhan(dong):
+    """Dòng chỉ là nhãn kiểu '🚨 EXCLUSIVE 🚨', '⚠️ UPDATE ⚠️', 'CONFIRMED', '🚨 UPCOMING RELEASE 🚨': sau khi bỏ emoji chỉ còn
+    1-4 từ IN HOA, không có số."""
+    van = _bo_emoji(dong)
+    return bool(van) and len(van) <= 30 and not re.search(r"[a-z0-9]", van) and bool(re.fullmatch(r"[A-Z][A-Z &!:\-]*", van))
+
+
+def tieu_de_leak(mo_ta):
+    """Tiêu đề từ chữ bài Bluesky: dòng có chữ đầu tiên sau khi bỏ nhãn + emoji (bỏ cả dòng chỉ có link); rỗng thì dòng kế; cắt <=120 ký tự."""
+    for dong in (mo_ta or "").splitlines():
+        if la_dong_nhan(dong):
+            continue
+        van = re.sub(r"\s+", " ", _bo_emoji(dong)).strip()
+        if not van or re.fullmatch(r"https?://\S+", van) or not re.search(r"\w", van):
+            continue
+        return van if len(van) <= TIEU_DE_LEAK_TOI_DA else van[:TIEU_DE_LEAK_TOI_DA - 1].rstrip() + "…"
+    return ""
+
+
+def lam_sach_leak(mo_ta):
+    """Chữ bài Bluesky đã bỏ HTML + URL (link playstation.com… không tính là nhắc PS)."""
+    van = html.unescape(re.sub(r"<[^>]+>", " ", mo_ta or ""))
+    return re.sub(r"\s+", " ", re.sub(r"https?://\S+", " ", van)).strip()
+
+
+def la_leak_ps(tieu_de, than_sach):
+    """Chỉ gắn PS khi từ khoá PS nằm trong tiêu đề, HOẶC xuất hiện >= 2 lần trong thân đã làm sạch (tin Xbox chỉ nhắc 'unlike PS5' thì loại)."""
+    return bool(LEAK_PS_RE.search(tieu_de or "")) or len(LEAK_PS_RE.findall(than_sach or "")) >= 2
+
+
+def phan_tich_rss_bsky(xml_bytes):
+    """RSS Bluesky (billbil-kun) -> [{guid, tieu_de, url, ngay, the_loai:['leak'], tom_tat, link_goc, ps}]. Item không có <title>: tiêu đề lấy từ
+    description (xem tieu_de_leak). `ps` = description nhắc PlayStation (LEAK_PS_RE); không PS thì so_sanh vẫn ghi guid nhưng không báo/không gửi viết."""
+    goc = ET.fromstring(xml_bytes)
+    if goc.tag != "rss" or goc.find("channel") is None:
+        raise ValueError("không phải RSS hợp lệ (thiếu rss/channel)")
+    ra = []
+    for it in goc.find("channel").findall("item"):
+        mo_ta = (it.findtext("description") or "").strip()
+        url = (it.findtext("link") or "").strip()
+        guid = (it.findtext("guid") or url).strip()
+        tieu_de = (it.findtext("title") or "").strip() or tieu_de_leak(mo_ta)
+        if not (tieu_de and guid):
+            continue
+        ngay = ""
+        pd = it.findtext("pubDate")
+        if pd:
+            try:
+                ngay = email.utils.parsedate_to_datetime(pd).astimezone(GIO_VN).replace(microsecond=0).isoformat()
+            except (TypeError, ValueError):
+                ngay = ""
+        m = LINK_DEALABS_RE.search(mo_ta)
+        sach = lam_sach_leak(mo_ta)
+        ra.append({"guid": guid, "tieu_de": tieu_de, "url": url, "ngay": ngay or bay_gio(), "the_loai": ["leak"],
+                   "tom_tat": tom_tat_rss(mo_ta), "link_goc": m.group(0).rstrip(".,;") if m else "", "ps": la_leak_ps(tieu_de, sach)})
+    if not ra:
+        raise ValueError("RSS không có bài nào có guid/link — coi là nguồn lỗi")
+    return ra
+
+
+PARSER_RIENG = {k: phan_tich_rss_bsky for k in FEEDS_LEAK}   # feed nào không phải RSS WordPress thường thì khai ở đây
+
+
+def lay_feed(url, http=http_get, timeout=None, parser=None):
     """timeout None: để http dùng mặc định; có giá trị: truyền timeout (giây) cho http(url, None, timeout)."""
-    return phan_tich_rss(http(url) if timeout is None else http(url, None, timeout))
+    return (parser or phan_tich_rss)(http(url) if timeout is None else http(url, None, timeout))
 
 
 def lay_tong_grid(cat, loc, http=http_get):
@@ -226,7 +303,7 @@ def lay_du_lieu(http=http_get, ngu=time.sleep, log=print, dong_ho=time.monotonic
     plus = thu("plus-thang", lambda: lay_game_thang(http))
     han_ngoai = dong_ho() + ngan_sach_ngoai
     for k, u in FEEDS_NGOAI.items():
-        blog[k] = thu(k, lambda u=u: lay_feed(u, http, TIMEOUT_NGOAI), han_ngoai, CHO_THU_LAI_NGOAI)
+        blog[k] = thu(k, lambda u=u, k=k: lay_feed(u, http, TIMEOUT_NGOAI, PARSER_RIENG.get(k)), han_ngoai, CHO_THU_LAI_NGOAI)
     return {"blog": blog, "deals": deals, "extra": extra, "plus": plus}
 
 
@@ -265,6 +342,8 @@ def so_sanh(trang_thai, du_lieu):
             for b in bai:
                 if b["guid"] in cu:
                     continue
+                if NGUON_TEN[khoa] in NGUON_LEAK and not b.get("ps"):
+                    continue                                     # leak không nhắc PlayStation: chỉ ghi guid (hop bên dưới), không báo
                 if b["guid"] in khac or b["guid"] in da_phat or (b["url"] and b["url"] in da_phat):
                     continue
                 hot, ly = kiem_hot(b["tieu_de"], b["the_loai"])
@@ -273,6 +352,8 @@ def so_sanh(trang_thai, du_lieu):
                 if NGUON_TEN[khoa] in NGUON_NGOAI:               # nguồn ngoài: mang theo tóm tắt + dấu hiệu PS để routine khỏi mở trang (403)
                     nguoi["tom_tat"] = b.get("tom_tat", "")
                     nguoi["goi_y_ps"] = bool(b.get("goi_y_ps"))
+                if NGUON_TEN[khoa] in NGUON_LEAK:                # leak đã qua lọc PS: coi như hot, mang tóm tắt + link Dealabs gốc
+                    nguoi.update(hot=True, ly_do_hot="rò rỉ PlayStation", tom_tat=b.get("tom_tat", ""), link_goc=b.get("link_goc", ""))
                 tin.append(nguoi)
                 da_phat.add(b["guid"])
                 if b["url"]:
@@ -323,6 +404,11 @@ def la_tin_ngoai(tin):
     return tin.get("nguon") in NGUON_NGOAI
 
 
+def la_tin_leak(tin):
+    """Tin rò rỉ từ nguồn NGUON_LEAK (đã lọc PlayStation lúc so_sanh)."""
+    return tin.get("nguon") in NGUON_LEAK and "leak" in (tin.get("the_loai") or [])
+
+
 def lien_quan_playstation(tin):
     """Tin ngoài có liên quan PlayStation, cần BẰNG CHỨNG TRỰC TIẾP: thể loại/category là nền tảng PS (PS5, PS4, PlayStation…), tiêu đề
     nhắc PS5/PS4/PlayStation/PS Plus, hoặc (Push Square) link trang game PS là link chính của bài (xem link_game_ps_chinh; link PS chỉ để
@@ -337,6 +423,8 @@ def dang_viet(tin):
     Tin store (Deals/Extra/PS Plus tháng) KHÔNG gửi viết: dùng chung URL danh mục nên routine không chống trùng được,
     và tin_tu_sinh.py đã tự viết deal/PS Plus tháng từ dữ liệu (Astra 03/10).
     Cố ý KHÔNG dùng TU_KHOA_HOT cho blog — từ khoá từng bỏ sót 'AI upscaling is coming to PS5' (Hào 03/10)."""
+    if la_tin_leak(tin):
+        return True                                           # leak PS: luôn xét gửi viết (vẫn theo giới hạn giờ/số lượng chung)
     if la_tin_blog(tin):
         if LOAI_BLOG_RE.search(tin.get("tieu_de", "")):
             return False
@@ -387,7 +475,8 @@ def chon_tin_gui_viet(tin_moi, bay_gio, lan_goi_cuoi=None):
             return []
     ok = [x for x in tin_moi if not ly_do_khong_gui_viet(x, bg)]
     # nguồn chính chủ (PS Blog) trước 3 nguồn ngoài để chúng không chen hết VIET_TOI_DA; rồi tin hot, rồi mới nhất
-    ok.sort(key=lambda x: (not la_tin_ngoai(x), bool(x.get("hot")), _dt(x["ngay"])), reverse=True)
+    # Sony chính chủ (2) > leak (1) > nguồn ngoài khác (0): leak không được chiếm hết suất của tin Sony
+    ok.sort(key=lambda x: (0 if la_tin_ngoai(x) else 1 if la_tin_leak(x) else 2, bool(x.get("hot")), _dt(x["ngay"])), reverse=True)
     return ok[:VIET_TOI_DA]
 
 
@@ -410,7 +499,8 @@ def tao_release_viet(tin_chon, bay_gio, repo, token, goi_api=None):
     """POST release viet-YYYYMMDD-HHMM (giờ VN). True nếu GitHub trả 201."""
     goi_api = goi_api or goi_api_github
     bg = _dt(bay_gio).astimezone(GIO_VN)
-    nd = {"tin": [{**{k: x.get(k) for k in ("tieu_de", "url", "nguon", "ngay", "the_loai")}, **({"tom_tat": x["tom_tat"]} if x.get("tom_tat") else {})}
+    nd = {"tin": [{**{k: x.get(k) for k in ("tieu_de", "url", "nguon", "ngay", "the_loai")}, **({"tom_tat": x["tom_tat"]} if x.get("tom_tat") else {}),
+                  **({"link_goc": x["link_goc"]} if x.get("link_goc") else {})}
                   for x in tin_chon]}
     body = {"tag_name": bg.strftime("viet-%Y%m%d-%H%M"), "target_commitish": "main",
             "name": "Viết tin " + bg.strftime("%d/%m %H:%M"), "body": json.dumps(nd, ensure_ascii=False),
@@ -528,6 +618,21 @@ def tom_tat(du_lieu):
     return dong
 
 
+def in_leak(du_lieu):
+    """--thu: liệt kê từng bài billbil-kun đọc được, bài nào qua lọc PS, bài nào loại và vì sao."""
+    for k in FEEDS_LEAK:
+        bai = du_lieu["blog"].get(k)
+        if bai is None:
+            print(f"LEAK {NGUON_TEN[k]}: LỖI đọc feed")
+            continue
+        print(f"LEAK {NGUON_TEN[k]}: {len(bai)} bài")
+        for b in bai:
+            if b.get("ps"):
+                print(f"  [PS ] {b['tieu_de']} — {b['url']} ({b['ngay']})" + (f"  link gốc: {b['link_goc']}" if b.get("link_goc") else ""))
+            else:
+                print(f"  [loại: không nhắc PS5/PS4/PS Plus/PlayStation…] {b['tieu_de']}")
+
+
 def in_ke_hoach_viet(hang_doi, now, lan_goi_cuoi):
     """--thu: in tin SẼ gọi viết và lý do từng tin bị loại (không gọi API)."""
     chon = chon_tin_gui_viet(hang_doi, now, lan_goi_cuoi)
@@ -557,6 +662,7 @@ def chay(thu_muc, thu=False, du_lieu=None, gui=None, kenh=None, goi_api=None, gi
         print(d)
     tin, tt_moi = so_sanh(trang_thai, du_lieu)
     if thu:
+        in_leak(du_lieu)
         if not trang_thai:
             print("(chưa có trạng thái — thật ra đây là lần đầu, sẽ chỉ ghi, không báo; dưới đây là phân loại hot của bài đang có)")
             for bai in du_lieu["blog"].values():
