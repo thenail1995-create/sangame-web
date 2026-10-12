@@ -11,6 +11,7 @@ Chỉ dùng thư viện chuẩn Python 3.12.
 import argparse
 import datetime
 import email.utils
+import html
 import json
 import os
 import pathlib
@@ -30,11 +31,29 @@ TU_KHOA_HOT = [
     "Horizon", "Gran Turismo", "The Last of Us", "Astro Bot", "Death Stranding", "GTA", "Resident Evil",
     "Final Fantasy", "Call of Duty", "EA Sports FC",
 ]
-FEEDS = {
+FEEDS_CHINH = {
     "blog": "https://blog.playstation.com/feed/",
     "blog-ps-plus": "https://blog.playstation.com/category/ps-plus/feed/",
 }
-NGUON_TEN = {"blog": "PlayStation Blog", "blog-ps-plus": "PlayStation Blog (PS Plus)"}
+# 12/10: 3 nguồn tin nóng NGOÀI (game mới, ngày ra mắt). CHỈ để biết tin — routine phải đối chiếu nguồn host Sony, không thì để nhap.
+# Đọc SAU mọi nguồn cũ, ngân sách thời gian riêng + timeout ngắn + 1 lần thử lại (Sol P1: nguồn ngoài chậm không được làm nguồn giá/PS Plus hết giờ).
+FEEDS_NGOAI = {
+    "gematsu": "https://www.gematsu.com/feed",
+    "pushsquare": "https://www.pushsquare.com/feeds/latest",
+    "pslifestyle": "https://www.playstationlifestyle.net/feed/",
+}
+FEEDS = {**FEEDS_CHINH, **FEEDS_NGOAI}
+NGUON_TEN = {"blog": "PlayStation Blog", "blog-ps-plus": "PlayStation Blog (PS Plus)", "gematsu": "Gematsu",
+             "pushsquare": "Push Square", "pslifestyle": "PlayStation LifeStyle"}
+NGUON_NGOAI = frozenset({NGUON_TEN["gematsu"], NGUON_TEN["pushsquare"], NGUON_TEN["pslifestyle"]})
+TOM_TAT_TOI_DA = 600       # ký tự tóm tắt RSS gửi kèm release (trang các site này trả 403 Cloudflare cho routine)
+# Gematsu gắn thể loại = nền tảng (PS5, Switch, Xbox Series…): chỉ giữ tin có PlayStation (thể loại hoặc tiêu đề)
+PS_THE_LOAI = frozenset({"ps5", "ps4", "ps6", "ps vr2", "psvr2", "playstation 5", "playstation 4"})
+# Push Square không có thể loại: bằng chứng PS là link trang game PS (pushsquare.com/games/ps5|ps4|psvr2/...) mà CHỮ CỦA LINK nằm trong tiêu đề
+# (link chính của bài, không phải link tham khảo phụ); link tới game nền tảng khác mà chữ cũng nằm trong tiêu đề thì loại.
+LINK_GAME_PUSH_RE = re.compile(r'<a\b[^>]*href="[^"]*pushsquare\.com/games/([a-z0-9]+)/[^"]*"[^>]*>(.*?)</a>', re.I | re.S)
+PS_NEN_PUSH = frozenset({"ps5", "ps4", "psvr2"})
+PS_TIEU_DE_RE = re.compile(r"(?<!\w)(PS5|PS4|PS6|PSVR2|PS VR2|PlayStation|PS Plus)(?!\w)", re.I)
 DEALS_ID = "3f772501-f6f8-49b7-abac-874a88ca4897"
 EXTRA_ID = "3a7006fe-e26f-49fe-87e5-4473d7ed0fb2"
 VUNG_DEALS = ["en-US", "en-SG"]
@@ -47,7 +66,10 @@ GIU_TIN = 200
 TOI_DA_THONG_BAO = 8
 CHO_THU_LAI = (5, 15)  # giây; 1 lần đầu + 2 lần thử lại
 TIMEOUT_YEU_CAU = 15  # giây mỗi request
-NGAN_SACH_NGUON = 240  # giây tổng cho mọi nguồn một lượt
+NGAN_SACH_NGUON = 240  # giây tổng cho các nguồn CŨ một lượt (blog, Deals, Extra, PS Plus tháng)
+NGAN_SACH_NGOAI = 45  # giây tổng RIÊNG cho 3 RSS ngoài (tính từ lúc đọc xong nguồn cũ)
+TIMEOUT_NGOAI = 15  # giây mỗi request nguồn ngoài
+CHO_THU_LAI_NGOAI = (5,)  # nguồn ngoài: 1 lần đầu + 1 lần thử lại (nguồn cũ: 2 lần thử lại)
 CUA_SO = 12  # số mẫu Deals/Extra giữ lại
 LAN_GUI_TOI_DA = 3
 GOP_TOI_DA_BYTE = 3500
@@ -55,7 +77,7 @@ VIET_GIAN_GIO = 3  # giờ tối thiểu giữa 2 lần gọi viết (Hào 03/10
 VIET_TOI_DA = 5  # tin tối đa mỗi lần gọi viết
 VIET_HAN_GIO = 72  # chỉ viết tin trong 72 giờ gần nhất
 VIET_GIU_NGAY = 7  # release viet-* cũ hơn số ngày này thì xoá
-LOAI_BLOG_RE = re.compile(r"podcast|share of the week|blogcast|this week in playstation", re.I)
+LOAI_BLOG_RE = re.compile(r"podcast|share of the week|blogcast|this week in playstation|japanese game releases", re.I)
 API_GITHUB = "https://api.github.com"
 UA = {"User-Agent": "Mozilla/5.0"}
 NTFY_URL = "https://ntfy.sh/"
@@ -78,19 +100,42 @@ class HetNganSach(Exception):
     pass
 
 
-def voi_thu_lai(ham, ngu=time.sleep, dong_ho=time.monotonic, han=None):
-    """Gọi ham(); lỗi thì chờ 5s rồi 15s thử lại; vẫn lỗi thì ném lỗi cuối. Quá hạn `han` (giờ dong_ho) thì bỏ."""
-    for i in range(len(CHO_THU_LAI) + 1):
+def voi_thu_lai(ham, ngu=time.sleep, dong_ho=time.monotonic, han=None, cho_thu=CHO_THU_LAI):
+    """Gọi ham(); lỗi thì chờ 5s rồi 15s (cho_thu) thử lại; vẫn lỗi thì ném lỗi cuối. Quá hạn `han` (giờ dong_ho) thì bỏ."""
+    for i in range(len(cho_thu) + 1):
         if han is not None and dong_ho() >= han:
             raise HetNganSach("hết ngân sách thời gian")
         try:
             return ham()
         except Exception:
-            if i == len(CHO_THU_LAI):
+            if i == len(cho_thu):
                 raise
-            if han is not None and dong_ho() + CHO_THU_LAI[i] >= han:
+            if han is not None and dong_ho() + cho_thu[i] >= han:
                 raise HetNganSach("hết ngân sách thời gian")
-            ngu(CHO_THU_LAI[i])
+            ngu(cho_thu[i])
+
+
+def tom_tat_rss(html_tho, toi_da=TOM_TAT_TOI_DA):
+    """description / content:encoded của RSS -> chữ thường, bỏ thẻ HTML + thực thể, gọn khoảng trắng, cắt ~toi_da ký tự."""
+    van = html.unescape(re.sub(r"<[^>]+>", " ", html_tho or ""))
+    van = re.sub(r"\s+", " ", van).strip()
+    return van if len(van) <= toi_da else van[:toi_da].rstrip() + "…"
+
+
+def link_game_ps_chinh(tieu_de, html_tho):
+    """Push Square (không có thể loại): True khi trong mô tả có link trang game PS (ps5/ps4/psvr2) mà CHỮ CỦA LINK nằm trong tiêu đề — tức
+    game đó là chủ đề chính của bài — và không có link game nền tảng khác nào cũng có chữ trong tiêu đề. Link PS chỉ để tham khảo = False."""
+    td = re.sub(r"\s+", " ", html.unescape(tieu_de or "")).casefold()
+    ps = khac = False
+    for m in LINK_GAME_PUSH_RE.finditer(html_tho or ""):
+        chu = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", m.group(2)))).strip().casefold()
+        if len(chu) < 3 or chu not in td:
+            continue
+        if m.group(1).lower() in PS_NEN_PUSH:
+            ps = True
+        else:
+            khac = True
+    return ps and not khac
 
 
 def phan_tich_rss(xml_bytes):
@@ -113,14 +158,20 @@ def phan_tich_rss(xml_bytes):
             except (TypeError, ValueError):
                 ngay = ""
         the_loai = [c.text.strip() for c in it.findall("category") if c.text and c.text.strip()]
-        ra.append({"guid": guid, "tieu_de": tieu_de, "url": url, "ngay": ngay or bay_gio(), "the_loai": the_loai})
+        mo_ta = it.findtext("description") or ""
+        day_du = it.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or ""
+        # tóm tắt: làm sạch description TRƯỚC; rỗng (vd chỉ có thẻ ảnh) thì mới lấy content:encoded
+        tom_tat = tom_tat_rss(mo_ta) or tom_tat_rss(day_du)
+        ra.append({"guid": guid, "tieu_de": tieu_de, "url": url, "ngay": ngay or bay_gio(), "the_loai": the_loai,
+                   "tom_tat": tom_tat, "goi_y_ps": link_game_ps_chinh(tieu_de, mo_ta + "\n" + day_du)})
     if not ra:
         raise ValueError("RSS không có bài nào có guid/link — coi là nguồn lỗi")
     return ra
 
 
-def lay_feed(url, http=http_get):
-    return phan_tich_rss(http(url))
+def lay_feed(url, http=http_get, timeout=None):
+    """timeout None: để http dùng mặc định; có giá trị: truyền timeout (giây) cho http(url, None, timeout)."""
+    return phan_tich_rss(http(url) if timeout is None else http(url, None, timeout))
 
 
 def lay_tong_grid(cat, loc, http=http_get):
@@ -156,23 +207,27 @@ def lay_game_thang(http=http_get):
     return sorted(ten)
 
 
-def lay_du_lieu(http=http_get, ngu=time.sleep, log=print, dong_ho=time.monotonic, ngan_sach=NGAN_SACH_NGUON):
+def lay_du_lieu(http=http_get, ngu=time.sleep, log=print, dong_ho=time.monotonic, ngan_sach=NGAN_SACH_NGUON, ngan_sach_ngoai=NGAN_SACH_NGOAI):
     """Trả {'blog': {khoá: [bài]|None}, 'deals': {vùng: n|None}, 'extra': {vùng: n|None}, 'plus': [tên]|None}.
-    None = nguồn lỗi lượt này (đã thử lại) hoặc hết ngân sách; phần còn lại vẫn chạy."""
+    None = nguồn lỗi lượt này (đã thử lại) hoặc hết ngân sách; phần còn lại vẫn chạy.
+    Thứ tự: nguồn CŨ (PS Blog, Deals, Extra, PS Plus tháng) trong ngân sách `ngan_sach`; XONG rồi mới đọc 3 RSS ngoài, ngân sách RIÊNG
+    `ngan_sach_ngoai`, timeout TIMEOUT_NGOAI, 1 lần thử lại — nguồn ngoài chậm/chết không bao giờ làm nguồn cũ hết giờ."""
     han = dong_ho() + ngan_sach
 
-    def thu(ten, ham):
+    def thu(ten, ham, han_nay=None, cho_thu=CHO_THU_LAI):
         try:
-            return voi_thu_lai(ham, ngu, dong_ho, han)
+            return voi_thu_lai(ham, ngu, dong_ho, han if han_nay is None else han_nay, cho_thu)
         except Exception as e:
             log(f"LỖI nguồn {ten}: {e} — bỏ qua lượt này.")
             return None
-    return {
-        "blog": {k: thu(k, lambda u=u: lay_feed(u, http)) for k, u in FEEDS.items()},
-        "deals": {v: thu(f"deals-{v}", lambda v=v: lay_tong_grid(DEALS_ID, v, http)) for v in VUNG_DEALS},
-        "extra": {v: thu(f"extra-{v}", lambda v=v: lay_tong_grid(EXTRA_ID, v, http)) for v in VUNG_EXTRA},
-        "plus": thu("plus-thang", lambda: lay_game_thang(http)),
-    }
+    blog = {k: thu(k, lambda u=u: lay_feed(u, http)) for k, u in FEEDS_CHINH.items()}
+    deals = {v: thu(f"deals-{v}", lambda v=v: lay_tong_grid(DEALS_ID, v, http)) for v in VUNG_DEALS}
+    extra = {v: thu(f"extra-{v}", lambda v=v: lay_tong_grid(EXTRA_ID, v, http)) for v in VUNG_EXTRA}
+    plus = thu("plus-thang", lambda: lay_game_thang(http))
+    han_ngoai = dong_ho() + ngan_sach_ngoai
+    for k, u in FEEDS_NGOAI.items():
+        blog[k] = thu(k, lambda u=u: lay_feed(u, http, TIMEOUT_NGOAI), han_ngoai, CHO_THU_LAI_NGOAI)
+    return {"blog": blog, "deals": deals, "extra": extra, "plus": plus}
 
 
 # ---- Logic tin -------------------------------------------------------------------------------
@@ -213,8 +268,12 @@ def so_sanh(trang_thai, du_lieu):
                 if b["guid"] in khac or b["guid"] in da_phat or (b["url"] and b["url"] in da_phat):
                     continue
                 hot, ly = kiem_hot(b["tieu_de"], b["the_loai"])
-                tin.append({"nguon": NGUON_TEN[khoa], "tieu_de": b["tieu_de"], "url": b["url"], "ngay": b["ngay"],
-                            "the_loai": b["the_loai"], "hot": hot, "ly_do_hot": ly, "da_viet": False})
+                nguoi = {"nguon": NGUON_TEN[khoa], "tieu_de": b["tieu_de"], "url": b["url"], "ngay": b["ngay"],
+                         "the_loai": b["the_loai"], "hot": hot, "ly_do_hot": ly, "da_viet": False}
+                if NGUON_TEN[khoa] in NGUON_NGOAI:               # nguồn ngoài: mang theo tóm tắt + dấu hiệu PS để routine khỏi mở trang (403)
+                    nguoi["tom_tat"] = b.get("tom_tat", "")
+                    nguoi["goi_y_ps"] = bool(b.get("goi_y_ps"))
+                tin.append(nguoi)
                 da_phat.add(b["guid"])
                 if b["url"]:
                     da_phat.add(b["url"])
@@ -259,6 +318,20 @@ def la_tin_blog(tin):
     return tin.get("nguon") in NGUON_TEN.values()
 
 
+def la_tin_ngoai(tin):
+    """Tin từ Gematsu / Push Square / PlayStation LifeStyle: chỉ để biết tin, không phải nguồn chính chủ."""
+    return tin.get("nguon") in NGUON_NGOAI
+
+
+def lien_quan_playstation(tin):
+    """Tin ngoài có liên quan PlayStation, cần BẰNG CHỨNG TRỰC TIẾP: thể loại/category là nền tảng PS (PS5, PS4, PlayStation…), tiêu đề
+    nhắc PS5/PS4/PlayStation/PS Plus, hoặc (Push Square) link trang game PS là link chính của bài (xem link_game_ps_chinh; link PS chỉ để
+    tham khảo trong mô tả không đủ). Tin chỉ Switch/Xbox/PC hoặc đa nền tảng không nhắc PS thì không."""
+    tl = [str(x).strip() for x in tin.get("the_loai") or []]
+    return (bool({x.lower() for x in tl} & PS_THE_LOAI) or any(PS_TIEU_DE_RE.search(x) for x in tl)
+            or bool(PS_TIEU_DE_RE.search(tin.get("tieu_de", ""))) or bool(tin.get("goi_y_ps")))
+
+
 def dang_viet(tin):
     """Tin đáng viết: CHỈ tin blog (trừ podcast/share of the week/…, trừ thể loại chỉ 'Uncategorized').
     Tin store (Deals/Extra/PS Plus tháng) KHÔNG gửi viết: dùng chung URL danh mục nên routine không chống trùng được,
@@ -267,6 +340,8 @@ def dang_viet(tin):
     if la_tin_blog(tin):
         if LOAI_BLOG_RE.search(tin.get("tieu_de", "")):
             return False
+        if la_tin_ngoai(tin) and not lien_quan_playstation(tin):
+            return False                                      # 3 nguồn ngoài: lọc PlayStation RIÊNG trước khi chọn gửi viết
         tl = {str(x).strip().lower() for x in tin.get("the_loai") or []}
         return tl != {"uncategorized"}
     return False
@@ -311,7 +386,8 @@ def chon_tin_gui_viet(tin_moi, bay_gio, lan_goi_cuoi=None):
         if cu is not None and bg - cu < datetime.timedelta(hours=VIET_GIAN_GIO):
             return []
     ok = [x for x in tin_moi if not ly_do_khong_gui_viet(x, bg)]
-    ok.sort(key=lambda x: (bool(x.get("hot")), _dt(x["ngay"])), reverse=True)  # tin hot trước (vd PS Plus tháng), rồi mới nhất
+    # nguồn chính chủ (PS Blog) trước 3 nguồn ngoài để chúng không chen hết VIET_TOI_DA; rồi tin hot, rồi mới nhất
+    ok.sort(key=lambda x: (not la_tin_ngoai(x), bool(x.get("hot")), _dt(x["ngay"])), reverse=True)
     return ok[:VIET_TOI_DA]
 
 
@@ -334,7 +410,8 @@ def tao_release_viet(tin_chon, bay_gio, repo, token, goi_api=None):
     """POST release viet-YYYYMMDD-HHMM (giờ VN). True nếu GitHub trả 201."""
     goi_api = goi_api or goi_api_github
     bg = _dt(bay_gio).astimezone(GIO_VN)
-    nd = {"tin": [{k: x.get(k) for k in ("tieu_de", "url", "nguon", "ngay", "the_loai")} for x in tin_chon]}
+    nd = {"tin": [{**{k: x.get(k) for k in ("tieu_de", "url", "nguon", "ngay", "the_loai")}, **({"tom_tat": x["tom_tat"]} if x.get("tom_tat") else {})}
+                  for x in tin_chon]}
     body = {"tag_name": bg.strftime("viet-%Y%m%d-%H%M"), "target_commitish": "main",
             "name": "Viết tin " + bg.strftime("%d/%m %H:%M"), "body": json.dumps(nd, ensure_ascii=False),
             "make_latest": "false"}

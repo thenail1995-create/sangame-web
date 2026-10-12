@@ -176,7 +176,7 @@ class TestNganSach(unittest.TestCase):
         d = t.lay_du_lieu(http, lambda s: gio.__setitem__(0, gio[0] + s), log=lambda *_: None, dong_ho=lambda: gio[0], ngan_sach=240)
         self.assertTrue(all(v is None for v in d["blog"].values()))
         self.assertIsNone(d["plus"])
-        self.assertLessEqual(len(goi), 3)  # sau ~240s thì ngừng gọi, không đủ 3 lần x 6 nguồn
+        self.assertLessEqual(len([u for u in goi if u not in t.FEEDS_NGOAI.values()]), 3)  # nguồn cũ: sau ~240s thì ngừng gọi, không đủ 3 lần x 6 nguồn
 
     def test_timeout_15s(self):
         self.assertEqual(t.TIMEOUT_YEU_CAU, 15)
@@ -452,6 +452,221 @@ class TestChonGuiViet(unittest.TestCase):
     def test_bay_gio_datetime(self):
         d = t._dt(NOW)
         self.assertEqual(len(t.chon_tin_gui_viet([tin_blog(1)], d)), 1)
+
+
+# ---- 12/10: 3 nguồn tin nóng ngoài (Gematsu, Push Square, PlayStation LifeStyle) -------------------
+RSS_GEMATSU = """<?xml version="1.0"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
+<item><title>Foo Quest launches February 2027 for PS5 and Switch</title><link>https://www.gematsu.com/2026/10/foo</link>
+<pubDate>Mon, 12 Oct 2026 04:00:00 +0000</pubDate><category><![CDATA[PS5]]></category><category><![CDATA[Switch]]></category><guid isPermaLink="false">https://www.gematsu.com/?p=1</guid>
+<description><![CDATA[<img src="https://x/y.jpg"> Foo Quest for PS5 &amp; Switch launches <b>February 2027</b> &hellip;]]></description></item>
+<item><title>Bar Saga announced for Switch</title><link>https://www.gematsu.com/2026/10/bar</link>
+<pubDate>Mon, 12 Oct 2026 03:00:00 +0000</pubDate><category><![CDATA[Switch]]></category><category><![CDATA[Xbox Series]]></category><guid isPermaLink="false">https://www.gematsu.com/?p=2</guid></item>
+<item><title>Baz Wars multiplatform release date set</title><link>https://www.gematsu.com/2026/10/baz</link>
+<pubDate>Mon, 12 Oct 2026 02:00:00 +0000</pubDate><category><![CDATA[PC]]></category><category><![CDATA[Xbox Series]]></category><guid isPermaLink="false">https://www.gematsu.com/?p=3</guid></item>
+</channel></rss>""".encode()
+
+RSS_PUSH = """<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>Tekken 9 Gets a Date</title><link>https://www.pushsquare.com/news/2026/10/tekken-9</link><pubDate>Mon, 12 Oct 2026 04:00:00 +0000</pubDate>
+<guid isPermaLink="false">https://www.pushsquare.com/#article-1</guid>
+<description><![CDATA[<p><strong>Soon.</strong></p><p><a href="https://www.pushsquare.com/games/ps5/tekken_9">Tekken 9</a> is coming.</p>]]></description></item>
+<item><title>Nintendo Showcase Recap</title><link>https://www.pushsquare.com/news/2026/10/nintendo</link><pubDate>Mon, 12 Oct 2026 03:00:00 +0000</pubDate>
+<guid isPermaLink="false">https://www.pushsquare.com/#article-2</guid>
+<description><![CDATA[<p><a href="https://www.pushsquare.com/games/switch/zelda">Zelda</a> stuff.</p>]]></description></item>
+</channel></rss>""".encode()
+
+RSS_PSLS = """<?xml version="1.0"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
+<item><title>Popular RPG Is 80% Off</title><link>https://www.playstationlifestyle.net/2026/10/a</link><pubDate>Mon, 12 Oct 2026 04:00:00 +0000</pubDate>
+<category>News</category><category>PS5</category><guid isPermaLink="false">https://www.playstationlifestyle.net/?p=1</guid>
+<content:encoded><![CDATA[<p>A popular RPG is on sale.</p>]]></content:encoded></item>
+<item><title>Xbox Game Pass October wave</title><link>https://www.playstationlifestyle.net/2026/10/b</link><pubDate>Mon, 12 Oct 2026 03:00:00 +0000</pubDate>
+<category>News</category><category>Xbox</category><guid isPermaLink="false">https://www.playstationlifestyle.net/?p=2</guid></item>
+</channel></rss>""".encode()
+
+
+def tin_ngoai(feed, rss, i):
+    ds = t.phan_tich_rss(rss)
+    b = ds[i]
+    return {"nguon": t.NGUON_TEN[feed], "tieu_de": b["tieu_de"], "url": b["url"], "ngay": "2026-10-03T08:00:00+07:00", "the_loai": b["the_loai"],
+            "hot": False, "ly_do_hot": "", "da_viet": False, "tom_tat": b["tom_tat"], "goi_y_ps": b["goi_y_ps"]}
+
+
+class TestNguonNgoai(unittest.TestCase):
+    def test_feeds_va_ten(self):
+        self.assertEqual(t.FEEDS["gematsu"], "https://www.gematsu.com/feed")
+        self.assertEqual(t.FEEDS["pushsquare"], "https://www.pushsquare.com/feeds/latest")
+        self.assertEqual(t.FEEDS["pslifestyle"], "https://www.playstationlifestyle.net/feed/")
+        self.assertEqual((t.NGUON_TEN["gematsu"], t.NGUON_TEN["pushsquare"], t.NGUON_TEN["pslifestyle"]),
+                         ("Gematsu", "Push Square", "PlayStation LifeStyle"))
+
+    def test_tom_tat_bo_html_thuc_the_va_cat_600(self):
+        g = t.phan_tich_rss(RSS_GEMATSU)[0]
+        self.assertEqual(g["tom_tat"], "Foo Quest for PS5 & Switch launches February 2027 …")
+        self.assertEqual(t.phan_tich_rss(RSS_PSLS)[0]["tom_tat"], "A popular RPG is on sale.")        # content:encoded khi thiếu description
+        dai = t.tom_tat_rss("<p>" + "a" * 2000 + "</p>")
+        self.assertLessEqual(len(dai), 601)
+        self.assertTrue(dai.endswith("…"))
+
+    def test_loc_playstation_ca_3_nguon(self):
+        co = lambda feed, rss, i: t.dang_viet(tin_ngoai(feed, rss, i))
+        self.assertTrue(co("gematsu", RSS_GEMATSU, 0))          # thể loại PS5 (đa nền tảng có PS)
+        self.assertFalse(co("gematsu", RSS_GEMATSU, 1))         # Switch + Xbox -> loại
+        self.assertFalse(co("gematsu", RSS_GEMATSU, 2))         # đa nền tảng không có PS -> loại
+        self.assertTrue(co("pushsquare", RSS_PUSH, 0))          # link trang game PS5
+        self.assertFalse(co("pushsquare", RSS_PUSH, 1))         # link trang game Switch -> loại
+        self.assertTrue(co("pslifestyle", RSS_PSLS, 0))
+        self.assertFalse(co("pslifestyle", RSS_PSLS, 1))
+
+    def test_so_sanh_nguon_ngoai_mang_tom_tat_va_lan_dau_chi_ghi(self):
+        d0 = dl(blog={"blog": [], "blog-ps-plus": [], "gematsu": [], "pushsquare": [], "pslifestyle": []})
+        _, tt = t.so_sanh({}, d0)
+        g = t.phan_tich_rss(RSS_GEMATSU)
+        d1 = dl(blog={"blog": [], "blog-ps-plus": [], "gematsu": g, "pushsquare": [], "pslifestyle": []})
+        tin, _ = t.so_sanh(tt, d1)
+        self.assertEqual(len(tin), 3)
+        self.assertEqual(tin[0]["nguon"], "Gematsu")
+        self.assertIn("February 2027", tin[0]["tom_tat"])
+        _, tt_dau = t.so_sanh({}, d1)
+        self.assertEqual(t.so_sanh(tt_dau, d1)[0], [])           # lần đầu chỉ ghi mốc
+
+    def test_release_kem_tom_tat_nguon_ngoai_khong_kem_o_blog(self):
+        goi = []
+        def api(pt, dd, tk, body=None):
+            goi.append(body)
+            return 201, None
+        ngoai = tin_ngoai("gematsu", RSS_GEMATSU, 0)
+        t.tao_release_viet([ngoai, tin_blog(1)], NOW, "o/r", "tk", goi_api=api)
+        tin = json.loads(goi[0]["body"])["tin"]
+        self.assertIn("February 2027", tin[0]["tom_tat"])
+        self.assertNotIn("tom_tat", tin[1])
+        self.assertEqual(tin[0]["nguon"], "Gematsu")
+
+    def test_viet_toi_da_va_chinh_chu_truoc(self):
+        ngoai = [{**tin_ngoai("gematsu", RSS_GEMATSU, 0), "url": f"https://g/{i}", "ngay": f"2026-10-03T1{i}:00:00+07:00"} for i in range(0, 1)]
+        ngoai += [{**tin_ngoai("pslifestyle", RSS_PSLS, 0), "url": f"https://p/{i}", "ngay": f"2026-10-03T1{i}:30:00+07:00"} for i in range(0, 1)]
+        ngoai += [{**tin_ngoai("pushsquare", RSS_PUSH, 0), "url": f"https://s/{i}", "ngay": f"2026-10-03T0{i}:15:00+07:00"} for i in range(1, 6)]
+        chinh = [tin_blog(1, ngay="2026-10-03T07:00:00+07:00"), tin_blog(2, ngay="2026-10-03T06:00:00+07:00")]
+        ra = t.chon_tin_gui_viet(ngoai + chinh, NOW)
+        self.assertEqual(len(ra), t.VIET_TOI_DA)                              # giới hạn giữ nguyên
+        self.assertEqual([x["url"] for x in ra[:2]], ["https://b/1", "https://b/2"])   # chính chủ trước
+        self.assertTrue(all(t.la_tin_ngoai(x) for x in ra[2:]))
+
+    def test_tin_switch_only_khong_vao_hang_gui_viet(self):
+        sw = tin_ngoai("gematsu", RSS_GEMATSU, 1)
+        self.assertEqual(t.chon_tin_gui_viet([sw], NOW), [])
+        self.assertIn("không đáng viết", t.ly_do_khong_gui_viet(sw, datetime.datetime.fromisoformat(NOW)))
+
+    def test_tin_tong_hop_japanese_game_releases_bi_loai(self):
+        x = {**tin_ngoai("gematsu", RSS_GEMATSU, 0), "tieu_de": "This Week’s Japanese Game Releases: A, B, more"}
+        self.assertFalse(t.dang_viet(x))
+
+
+# ---- 12/10 (Sol soi lại): nguồn ngoài đọc SAU nguồn cũ, ngân sách riêng; lọc PS cần bằng chứng trực tiếp; tóm tắt rỗng thì dùng content:encoded ----
+class TestNguonNgoaiNganSach(unittest.TestCase):
+    def test_doc_nguon_ngoai_sau_nguon_cu_va_timeout_ngan(self):
+        thu_tu, timeouts = [], {}
+
+        def http(url, headers=None, timeout=15):
+            thu_tu.append(url)
+            timeouts[url] = timeout
+            if url in t.FEEDS_NGOAI.values():
+                raise OSError("chậm")
+            if "/feed/" in url:
+                return RSS
+            if "gameslist" in url:
+                return json.dumps([{"games": [{"name": "X"}]}]).encode()
+            return json.dumps({"data": {"categoryGridRetrieve": {"pageInfo": {"totalCount": 5}}}}).encode()
+        d = t.lay_du_lieu(http, lambda s: None, log=lambda *_: None)
+        ngoai = set(t.FEEDS_NGOAI.values())
+        vi_tri = [i for i, u in enumerate(thu_tu) if u in ngoai]
+        self.assertTrue(vi_tri)
+        self.assertGreater(min(vi_tri), max(i for i, u in enumerate(thu_tu) if u not in ngoai))   # mọi nguồn cũ xong trước nguồn ngoài đầu tiên
+        self.assertEqual([timeouts[u] for u in ngoai], [t.TIMEOUT_NGOAI] * 3)
+        self.assertLessEqual(t.TIMEOUT_NGOAI, 15)
+        for u in ngoai:
+            self.assertEqual(thu_tu.count(u), 2)                      # 1 lần đầu + đúng 1 lần thử lại
+        self.assertIsNotNone(d["blog"]["blog"])
+        self.assertEqual(d["plus"], ["X"])
+        self.assertEqual(d["deals"]["en-US"], 5)
+        self.assertTrue(all(d["blog"][k] is None for k in t.FEEDS_NGOAI))
+
+    def test_nguon_ngoai_treo_khong_an_ngan_sach_nguon_cu_va_bi_chan_o_ngan_sach_rieng(self):
+        gio = [0.0]
+        goi = []
+
+        def http(url, headers=None, timeout=15):
+            goi.append(url)
+            if url in t.FEEDS_NGOAI.values():
+                gio[0] += 40                                           # mỗi lần đọc nguồn ngoài "treo" 40s
+                raise OSError("treo")
+            gio[0] += 1
+            if "/feed/" in url:
+                return RSS
+            if "gameslist" in url:
+                return json.dumps([{"games": [{"name": "X"}]}]).encode()
+            return json.dumps({"data": {"categoryGridRetrieve": {"pageInfo": {"totalCount": 5}}}}).encode()
+        d = t.lay_du_lieu(http, lambda s: gio.__setitem__(0, gio[0] + s), log=lambda *_: None, dong_ho=lambda: gio[0])
+        self.assertIsNotNone(d["blog"]["blog"])
+        self.assertIsNotNone(d["blog"]["blog-ps-plus"])
+        self.assertEqual((d["plus"], d["deals"]["en-US"], d["extra"]["en-SG"]), (["X"], 5, 5))   # nguồn cũ đủ hết
+        # tổng thời gian nguồn ngoài bị chặn quanh ngân sách riêng (45s) + 1 request cuối, không tới 3 x (40+5+40)
+        self.assertLess(gio[0], 6 + t.NGAN_SACH_NGOAI + 40 + 1)
+
+
+RSS_PS_PUSH_AM = """<?xml version="1.0"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
+<item><title>Zelda Gets A Date On Switch</title><link>https://www.pushsquare.com/news/2026/10/zelda</link><pubDate>Mon, 12 Oct 2026 04:00:00 +0000</pubDate>
+<guid isPermaLink="false">https://www.pushsquare.com/#a1</guid>
+<description><![CDATA[<p><a href="https://www.pushsquare.com/games/switch/zelda">Zelda</a> is coming. Unlike <a href="https://www.pushsquare.com/games/ps5/astro_bot">Astro Bot</a>, it is Nintendo only.</p>]]></description></item>
+<item><title>Big Showcase Recap</title><link>https://www.pushsquare.com/news/2026/10/recap</link><pubDate>Mon, 12 Oct 2026 03:00:00 +0000</pubDate>
+<guid isPermaLink="false">https://www.pushsquare.com/#a2</guid>
+<description><![CDATA[<p>We also saw <a href="https://www.pushsquare.com/games/ps5/tekken_9">Tekken 9</a> in passing.</p>]]></description></item>
+<item><title>Tekken 9 And Zelda Both Dated</title><link>https://www.pushsquare.com/news/2026/10/both</link><pubDate>Mon, 12 Oct 2026 02:00:00 +0000</pubDate>
+<guid isPermaLink="false">https://www.pushsquare.com/#a3</guid>
+<description><![CDATA[<p><a href="https://www.pushsquare.com/games/ps5/tekken_9">Tekken 9</a> and <a href="https://www.pushsquare.com/games/switch/zelda">Zelda</a> have dates.</p>]]></description></item>
+<item><title>Tekken 9 Gets A Date</title><link>https://www.pushsquare.com/news/2026/10/tekken</link><pubDate>Mon, 12 Oct 2026 01:00:00 +0000</pubDate>
+<guid isPermaLink="false">https://www.pushsquare.com/#a4</guid>
+<description><![CDATA[<p><a href="https://www.pushsquare.com/games/ps5/tekken_9">Tekken 9</a> arrives soon.</p>]]></description></item>
+</channel></rss>""".encode()
+
+
+class TestLocPsChatChe(unittest.TestCase):
+    def co(self, rss, i, feed="pushsquare"):
+        return t.dang_viet(tin_ngoai(feed, rss, i))
+
+    def test_link_ps_tham_khao_khong_du(self):
+        self.assertFalse(self.co(RSS_PS_PUSH_AM, 0))     # bài Switch, chỉ nhắc game PS5 để so sánh
+        self.assertFalse(self.co(RSS_PS_PUSH_AM, 1))     # link game PS5 nhưng chữ link không nằm trong tiêu đề (nhắc qua loa)
+        self.assertFalse(self.co(RSS_PS_PUSH_AM, 2))     # tiêu đề nhắc cả game PS lẫn Switch: không đủ bằng chứng chỉ-PS
+        self.assertTrue(self.co(RSS_PS_PUSH_AM, 3))      # link game PS5 là chủ đề chính (chữ link nằm trong tiêu đề)
+
+    def test_the_loai_playstation_la_bang_chung_truc_tiep(self):
+        x = {**tin_ngoai("gematsu", RSS_GEMATSU, 1), "the_loai": ["PlayStation 5"], "tieu_de": "Quiet Game gets a date"}
+        self.assertTrue(t.dang_viet(x))
+        x["the_loai"] = ["PS Plus"]
+        self.assertTrue(t.dang_viet(x))
+        x["the_loai"] = ["Nintendo Switch", "Xbox Series"]
+        self.assertFalse(t.dang_viet(x))
+
+    def test_tieu_de_khong_ghi_nen_tang_va_khong_the_loai_khong_nhan(self):
+        x = {**tin_ngoai("gematsu", RSS_GEMATSU, 1), "the_loai": [], "tieu_de": "Quiet Game gets a date", "goi_y_ps": False}
+        self.assertFalse(t.dang_viet(x))
+
+
+class TestTomTatRong(unittest.TestCase):
+    def test_description_chi_co_anh_thi_dung_content_encoded(self):
+        xml = """<?xml version="1.0"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel>
+<item><title>Quiet PS5 Game</title><link>https://www.pushsquare.com/news/x</link><guid isPermaLink="false">g1</guid>
+<description><![CDATA[<img src="https://x/y.jpg"/>]]></description>
+<content:encoded><![CDATA[<p>Real <b>summary</b> text.</p>]]></content:encoded></item>
+<item><title>Both Empty</title><link>https://www.pushsquare.com/news/y</link><guid isPermaLink="false">g2</guid>
+<description><![CDATA[<img src="https://x/y.jpg"/>]]></description></item>
+<item><title>Has Description</title><link>https://www.pushsquare.com/news/z</link><guid isPermaLink="false">g3</guid>
+<description><![CDATA[<p>From description.</p>]]></description>
+<content:encoded><![CDATA[<p>From encoded.</p>]]></content:encoded></item>
+</channel></rss>""".encode()
+        a, b, c = t.phan_tich_rss(xml)
+        self.assertEqual(a["tom_tat"], "Real summary text.")
+        self.assertEqual(b["tom_tat"], "")
+        self.assertEqual(c["tom_tat"], "From description.")
 
 
 class TestGoiViet(unittest.TestCase):
