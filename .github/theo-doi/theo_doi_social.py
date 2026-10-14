@@ -66,6 +66,9 @@ GIO_VN = datetime.timezone(datetime.timedelta(hours=7))
 DIEM_CHINH_THUC, DIEM_NGUON_THEM, DIEM_NGUON_TOI_DA = 20, 10, 40
 DIEM_TU_KHOA, DIEM_TUONG_TAC, DIEM_TRU, DIEM_KHONG_PS = 20, 20, -10, -20
 GAME_KHONG_PS = frozenset({"Switch 2", "Xbox"})
+# Sol 14/10 (soi lại): sự kiện/máy/dịch vụ không phải tên game — hai tin "State of Play" về hai game khác nhau không được gom.
+GAME_CHUNG = frozenset({"PS Plus", "State of Play", "PS5 Pro", "PS6", "Switch 2", "Xbox"})
+NGUON_LO_TOI_DA = 100        # máy chủ sg-tin nhận tối đa 120 nguồn/lô
 JACCARD_TRUNG = 0.85         # tiêu đề gần như y hệt (cùng video đăng ở 2 kênh) -> gom bất kể cửa sổ 12 giờ / loại sự kiện
 TT_HE_SO, NEN_TOI_THIEU, NEN_GIU = 3, 5, 20
 BLUESKY_LIMIT = 30
@@ -110,6 +113,7 @@ just here all can one""".split())
 _GAME_RE = [(ten, re.compile(r"(?<!\w)(?:" + mau + r")(?!\w)", re.I)) for ten, mau in GAME_LON]
 _SK_RE = [(k, re.compile(r"(?<!\w)" + re.escape(k) + r"(?!\w)", re.I)) for k in TU_KHOA_SAN_GAME]
 _LOAI_RE = [(k, re.compile(m, re.I)) for k, m in LOAI_SU_KIEN]
+RO_RI_RE = re.compile(dict(LOAI_SU_KIEN)["ro_ri"], re.I)   # cờ chưa xác nhận, tách khỏi loại sự kiện (Sol 14/10)
 NS_YT = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015", "m": "http://search.yahoo.com/mrss/"}
 DUONG_NGUON = pathlib.Path(__file__).resolve().parent / "nguon-social.json"
 
@@ -429,7 +433,8 @@ def chon_cum(tk, games, loai, dl, ci):
     tot, tot_j = None, 0.0
     for cid, c in ci.items():
         j_trung = max((jaccard(tk, t) for t in c["tk"]), default=0.0)
-        khac_game = bool(games) and bool(c["g"]) and not (set(games) & c["g"])   # Sol 14/10: GTA 6 vs Elden Ring cùng khuôn tiêu đề
+        g_moi, g_cum = set(games) - GAME_CHUNG, c["g"] - GAME_CHUNG
+        khac_game = bool(g_moi) and bool(g_cum) and not (g_moi & g_cum)   # Sol 14/10: GTA 6 vs Elden Ring cùng khuôn tiêu đề
         if j_trung >= JACCARD_TRUNG and not khac_game and abs((dl - c["cap"]).total_seconds()) <= GIO_GIU * 3600:
             if j_trung > tot_j:
                 tot, tot_j = cid, j_trung
@@ -438,6 +443,8 @@ def chon_cum(tk, games, loai, dl, ci):
             continue
         if loai != "khac" and c["l"] and loai not in c["l"]:
             continue  # hai loại sự kiện cụ thể khác nhau -> không gom
+        if khac_game:
+            continue
         j = max((jaccard(tk, t) for t in c["tk"]), default=0.0)
         ok = (bool(set(games) & c["g"]) and j >= JACCARD_CUNG_GAME) if games else j >= JACCARD_KHAC
         if ok and j > tot_j:
@@ -466,7 +473,7 @@ def cham_diem(tv):
     if not any(r.get("ps") or any(g not in GAME_KHONG_PS for g in (r.get("g") or [])) for r in tv):
         ct["khong_ps"] = DIEM_KHONG_PS
     nhan = NHAN_THEO_NHOM[min(nhoms, key=lambda x: NHOM_HANG[x])]
-    if "chinh_thuc" not in nhoms and any(r.get("l") == "ro_ri" for r in tv):
+    if "chinh_thuc" not in nhoms and any(r.get("rr") or r.get("l") == "ro_ri" for r in tv):
         nhan = "RO_RI"   # Sol 14/10: "Rumour: GTA 6 delayed" từ báo vẫn phải là chưa xác nhận
     return max(0, min(100, sum(ct.values()))), ct, nhan
 
@@ -525,7 +532,7 @@ def xu_ly(tt_cu, bai_list, nen_moi, now, nguon_da_thay=frozenset()):
         c["cap"], c["dau"] = max(c["cap"], b["dang_luc"]), min(c["dau"], b["dang_luc"])
         tt["bai"][b["id"]] = {"cum": cid, "dl": iso(b["dang_luc"]), "tk": " ".join(sorted(tk)), "tt": b["tuong_tac"],
                               "n": b["nguon"], "p": b["pub"], "bc": b["bc"], "nh": b["nhom"], "tn": b["ten_nguon"],
-                              "m": b["mang"], "u": b["url"], "t": b["tieu_de"][:200], "g": b["games"], "l": b["loai"],
+                              "m": b["mang"], "u": b["url"], "t": b["tieu_de"][:200], "g": b["games"], "l": b["loai"], "rr": bool(RO_RI_RE.search(b["tieu_de"])),
                               "kw": bool(b["tu_khoa"]), "ps": bool(b.get("ps")), "ex": vuot, "f": key not in nguon_da_thay,
                               "a": b["anh"] if (b.get("anh") and len(b["anh"]) <= 250) else None}
         b["cum_id"] = cid
@@ -546,7 +553,7 @@ def xu_ly(tt_cu, bai_list, nen_moi, now, nguon_da_thay=frozenset()):
             "id": cid, "tieu_de": dau["t"], "chu_de": games.most_common(1)[0][0] if games else None, "nhan": nhan,
             "diem": diem, "chi_tiet_diem": ct, "so_nguon": len(ten_pub), "nguon": list(ten_pub.values()),
             "bat_dau": min(r["dl"] for r in tv), "cap_nhat": max(r["dl"] for r in tv), "url": dau["u"],
-            "da_bao": bool(cc.get("da_bao")), "anh": bool(cc.get("anh")), "at": cc.get("at", 0), "hg": cc.get("hg", ""),
+            "da_bao": bool(cc.get("da_bao")), "anh": bool(cc.get("anh")), "at": cc.get("at", 0), "hg": cc.get("hg", ""), "hq": cc.get("hq", ""),
             "ff": all(r.get("f") for r in tv), "bc": all(r.get("bc") for r in tv),
             "a": [r["a"] for r in sorted(tv, key=lambda r: NHOM_HANG[r["nh"]]) if r.get("a")][:4],
             "yt": [r["u"] for r in tv if r["m"] == "youtube"][:3]}
@@ -649,7 +656,8 @@ def chia_lo(bai, cum, nguon, toi_da=LO_TOI_DA, toi_da_byte=LO_TOI_DA_BYTE, anh_m
     for loai, ds in (("cum", cum), ("bai", bai), ("nguon", nguon)):
         for p in ds:
             k = kich_thuoc(p)
-            day = len(hien[loai]) >= (anh_moi_lo if (anh_moi_lo and loai == "cum") else toi_da)
+            tran = anh_moi_lo if (anh_moi_lo and loai == "cum") else (min(toi_da, NGUON_LO_TOI_DA) if loai == "nguon" else toi_da)
+            day = len(hien[loai]) >= tran
             if (day or byte + k > toi_da_byte) and any(hien.values()):
                 lo.append(hien)
                 hien, byte = {"bai": [], "cum": [], "nguon": []}, 100
@@ -699,8 +707,8 @@ def _gui_lo(post, lo, log=print):
     return ok
 
 
-def ghi_len_may_chu(tt, thay_doi, kqn, anh_moi, post, han=None, dong_ho=time.monotonic, log=print):
-    """Đưa bản ghi vào hàng chờ chua_ghi (bai/cum/nguon), POST theo lô, chỉ xoá khỏi hàng sau ACK. Trả (lô ok, lô lỗi)."""
+def xep_hang_ghi(tt, thay_doi, kqn, log=print):
+    """Đưa bản ghi mới/đổi vào hàng chờ chua_ghi (bai/cum/nguon). Dấu 'hg' (đã ghi) CHỈ đặt sau ACK — 'hq' là dấu đang chờ (Sol 14/10)."""
     cg = tt.setdefault("chua_ghi", {})
     for k in ("bai", "cum", "nguon"):
         cg.setdefault(k, {})
@@ -711,15 +719,21 @@ def ghi_len_may_chu(tt, thay_doi, kqn, anh_moi, post, han=None, dong_ho=time.mon
         c["h"] = h
         if h != c.get("hg"):
             cg["cum"][c["id"]] = payload_cum(c)
-            c["hg"] = h
+            c["hq"] = h
     for k in kqn:
         cg["nguon"][f"{k['nguon']}|{k['mang']}"] = k
-    tong = sum(len(v) for v in cg.values())
+    tong = sum(len(v) for k, v in cg.items() if k in ("bai", "cum", "nguon"))
     if tong > CHO_TOI_DA:  # bỏ bài cũ nhất trước, in cảnh báo
         bo = sorted(cg["bai"].values(), key=lambda p: p["dang_luc"])[:tong - CHO_TOI_DA]
         for p in bo:
             del cg["bai"][p["id"]]
         log(f"CẢNH BÁO: hàng chờ ghi vượt {CHO_TOI_DA}, bỏ {len(bo)} bài cũ nhất.")
+    return cg
+
+
+def ghi_len_may_chu(tt, thay_doi, kqn, anh_moi, post, han=None, dong_ho=time.monotonic, log=print):
+    """Xếp hàng (xep_hang_ghi), POST theo lô, chỉ xoá khỏi hàng + đặt dấu đã ghi sau ACK. Trả (lô ok, lô lỗi)."""
+    cg = xep_hang_ghi(tt, thay_doi, kqn, log)
     ok_n = loi_n = 0
 
     def lam(lo, anh=None):
@@ -738,8 +752,12 @@ def ghi_len_may_chu(tt, thay_doi, kqn, anh_moi, post, han=None, dong_ho=time.mon
             cg["bai"].pop(p["id"], None)
         for p in lo["cum"]:
             cg["cum"].pop(p["id"], None)
-            if p.get("anh") and p["id"] in tt["cum"]:
-                tt["cum"][p["id"]]["anh"] = True
+            c = tt["cum"].get(p["id"])
+            if c is not None:
+                if not p.get("anh"):
+                    c["hg"] = c.get("hq") or c.get("h", "")
+                else:
+                    c["anh"] = True
         for p in lo["nguon"]:
             cg["nguon"].pop(f"{p['nguon']}|{p['mang']}", None)
         return True
@@ -808,7 +826,7 @@ def xu_ly_lenh(post, kenh, gui, tt, log=print, han=None, dong_ho=time.monotonic)
     het = (lambda: han is not None and dong_ho() >= han)
     cg = tt.setdefault("chua_ghi", {})
     lenh_cho = cg.setdefault("lenh", {})
-    for i, body in list(lenh_cho.items()):
+    for i, body in list(lenh_cho.items())[:LENH_TOI_DA]:
         if het():
             return 0
         try:
@@ -819,12 +837,13 @@ def xu_ly_lenh(post, kenh, gui, tt, log=print, han=None, dong_ho=time.monotonic)
     if het():
         return 0
     kq = post({"viec": "doc_lenh", "loai": "video"})
-    xong = 0
+    xong = thu = 0
     for l in kq.get("lenh") or []:
-        if xong >= LENH_TOI_DA or het():
+        if thu >= LENH_TOI_DA or het():   # Sol 14/10: trần tính theo LẦN THỬ, không chỉ lần thành công
             break
         if l.get("loai") != "video" or l.get("id") in lenh_cho:
             continue
+        thu += 1
         tieu = l.get("tieu_de") or l.get("cum_id") or "?"
         if not kenh:
             log(f"(không có NTFY_TIN) lệnh video chưa gửi được: {tieu}")
@@ -835,6 +854,10 @@ def xu_ly_lenh(post, kenh, gui, tt, log=print, han=None, dong_ho=time.monotonic)
             log(f"LỖI ntfy lệnh video {l.get('id')}: {e} — lượt sau thử lại.")
             continue
         body = {"viec": "cap_nhat_lenh", "id": l["id"], "trang_thai": "xong", "ket_qua": {"ntfy": True}}
+        if het():   # đã gửi ntfy mà hết giờ: nhớ để lượt sau cập nhật, không POST trễ
+            lenh_cho[l["id"]] = body
+            xong += 1
+            break
         try:
             post(body)
         except Exception as e:  # noqa: BLE001
@@ -867,16 +890,23 @@ def thu_nho(tt):
         for k in cu_nhat:
             tt["cum"].pop(k, None)
     cg = tt.get("chua_ghi") or {}
-    while len(json.dumps(cg, ensure_ascii=False).encode()) > TRAN_TRANG_THAI // 2 and any(cg.get(k) for k in ("bai", "cum", "nguon")):
-        for k in ("bai", "cum", "nguon"):   # Sol 14/10: hàng chờ phình thì cắt hàng chờ (cũ nhất) trước, giữ dấu chống trùng
-            v = cg.get(k)
-            if isinstance(v, dict) and v:
-                for kk in list(v)[:max(1, len(v) // 10)]:
-                    v.pop(kk, None)
-            elif isinstance(v, list) and v:
-                del v[:max(1, len(v) // 10)]
-    while len(json.dumps(tt, ensure_ascii=False).encode()) > TRAN_TRANG_THAI and tt["bai"]:
+    def nang(x):
+        return len(json.dumps(x, ensure_ascii=False).encode())
+    bo_cho = 0
+    for k in ("bai", "nguon", "cum"):   # Sol 14/10: hàng chờ phình -> cắt bài cũ nhất trước, cụm sau cùng (cụm bị cắt tự xếp lại vì chưa có dấu hg)
+        v = cg.get(k)
+        while isinstance(v, dict) and v and nang(cg) > TRAN_TRANG_THAI // 2:
+            ds = sorted(v, key=lambda kk: str(v[kk].get("dang_luc") or v[kk].get("cap_nhat") or ""))[:max(1, len(v) // 10)]
+            for kk in ds:
+                v.pop(kk, None)
+            bo_cho += len(ds)
+    if bo_cho:
+        print(f"CẢNH BÁO: hàng chờ ghi quá {TRAN_TRANG_THAI // 2} byte, bỏ {bo_cho} bản ghi cũ nhất.")
+    while nang(tt) > TRAN_TRANG_THAI and tt["bai"]:
         bo_bai(sorted(tt["bai"], key=lambda k: tt["bai"][k]["dl"])[:max(1, len(tt["bai"]) // 10)])
+    while nang(tt) > TRAN_TRANG_THAI and tt["cum"]:   # Sol 14/10: còn quá trần sau khi hết bài -> cắt cụm cũ nhất
+        for k in sorted(tt["cum"], key=lambda k: tt["cum"][k]["cap_nhat"])[:max(1, len(tt["cum"]) // 10)]:
+            tt["cum"].pop(k, None)
     return tt
 
 
@@ -970,9 +1000,8 @@ def chay(thu_muc, thu=False, nguon=None, ket_qua_doc=None, http=cu.http_get, ngu
             except Exception as e:  # noqa: BLE001
                 log(f"LỖI dọn sg-tin: {e}")
     else:
-        log(f"Không có SG_TIN_URL/SG_TIN_KHOA — chỉ in: {len(thay_doi)} bài, {len(tt['cum'])} cụm. Hàng chờ ghi được GIỮ (Sol 14/10).")
-        for c in tt["cum"].values():
-            c["hg"] = ""
+        xep_hang_ghi(tt, thay_doi, kqn, log)   # Sol 14/10: không POST nhưng vẫn xếp hàng, lượt có khoá sẽ gửi
+        log(f"Không có SG_TIN_URL/SG_TIN_KHOA — chỉ in: {len(thay_doi)} bài, {len(tt['cum'])} cụm; hàng chờ giữ cho lượt sau.")
     thu_nho(tt)
     if tt != tt_cu:
         thu_muc.mkdir(parents=True, exist_ok=True)

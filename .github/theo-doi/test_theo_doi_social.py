@@ -397,7 +397,8 @@ class TestGhi(unittest.TestCase):
             tt = s.chay(d, ket_qua_doc=[kq("a", "rss", [raw(1, "Elden Ring DLC")])], kenh="", gio=lambda: NOW, url_sg="", khoa_sg="",
                         log=logs.append)
             self.assertTrue(any("chỉ in" in x for x in logs))
-            self.assertEqual(tt["chua_ghi"], {})
+            # Sol 14/10 (soi lại): thiếu khoá vẫn xếp hàng để lượt có khoá gửi, không mất bài
+            self.assertEqual((len(tt["chua_ghi"]["bai"]), len(tt["chua_ghi"]["cum"])), (1, 1))
 
     def test_goi_sg_tin_khong_in_khoa(self):
         def vo(req, timeout=0):
@@ -685,3 +686,96 @@ class TestSuaSol(unittest.TestCase):
         logs = []
         s._gui_lo(lambda body: {"ok": True, "bai": 1, "cum": 0, "nguon": 0}, {"bai": [{"id": 1}, {"id": 2}], "cum": [], "nguon": []}, logs.append)
         self.assertTrue(any("1/2 bai" in x for x in logs))
+
+
+class TestSuaSolLan2(unittest.TestCase):
+    """Sol soi lại 14/10 ~20:50: dấu đã ghi sau ACK, thiếu khoá rồi có khoá, cờ rò rỉ riêng, tên chung không phải game,
+    trần lệnh theo lần thử, hết giờ sau ntfy, trần trạng thái theo cụm, trần nguồn/lô."""
+    def test_cum_bi_cat_khoi_hang_cho_duoc_xep_lai(self):
+        with tempfile.TemporaryDirectory() as d:
+            ks = [kq("a", "rss", [raw(1, "Elden Ring DLC news")], "bao")]
+            s.chay(d, ket_qua_doc=ks, kenh="", gio=lambda: NOW, url_sg="", khoa_sg="", log=lambda x: None)
+            f = pathlib.Path(d) / "social-da-thay.json"
+            tt = json.loads(f.read_text(encoding="utf-8"))
+            tt["chua_ghi"]["cum"] = {}          # giả lập thu_nho đã cắt payload cụm
+            f.write_text(json.dumps(tt), encoding="utf-8")
+            gui = []
+            post = lambda body: gui.append(body) or ({"ok": True, "lenh": []} if body["viec"] == "doc_lenh" else {"ok": True})  # noqa: E731
+            tt2 = s.chay(d, ket_qua_doc=ks, kenh="", gio=lambda: NOW, post=post, url_sg="x", khoa_sg="y", log=lambda x: None)
+            ghi = [b_ for b_ in gui if b_["viec"] == "ghi"]
+            self.assertEqual(sum(len(b_["cum"]) for b_ in ghi), 1)
+            self.assertEqual(sum(len(b_["bai"]) for b_ in ghi), 1)   # bài xếp hàng lúc thiếu khoá được gửi
+            c = next(iter(tt2["cum"].values()))
+            self.assertEqual(c["hg"], c["h"])
+            self.assertEqual(tt2["chua_ghi"]["cum"], {})
+
+    def test_post_loi_khong_dat_dau_da_ghi(self):
+        with tempfile.TemporaryDirectory() as d:
+            def post(body):
+                if body["viec"] == "ghi":
+                    raise RuntimeError("500")
+                return {"ok": True, "lenh": []}
+            tt = s.chay(d, ket_qua_doc=[kq("a", "rss", [raw(1, "Elden Ring DLC news")])], kenh="", gio=lambda: NOW, post=post,
+                        url_sg="x", khoa_sg="y", log=lambda x: None)
+            c = next(iter(tt["cum"].values()))
+            self.assertNotEqual(c.get("hg"), c["h"])
+            self.assertEqual(len(tt["chua_ghi"]["cum"]), 1)
+
+    def test_rumour_delayed_van_la_ro_ri(self):
+        x = b(1, "Rumour: GTA 6 delayed until 2027", "ign", "bao")
+        self.assertEqual(x["loai"], "release_date")
+        tt, _ = s.xu_ly({"nen": {}}, [x], {}, NOW, frozenset({"ign|rss"}))
+        self.assertEqual(next(iter(tt["cum"].values()))["nhan"], "RO_RI")
+
+    def test_state_of_play_hai_game_khong_gom(self):
+        t1 = "State of Play October 2026 recap every announcement trailer reveal date edition preorder bonus details Elden Ring"
+        t2 = "State of Play October 2026 recap every announcement trailer reveal date edition preorder bonus details Ghost of Yotei"
+        b1, b2 = b(1, t1, "a", "bao"), b(2, t2, "b", "bao")
+        self.assertIn("State of Play", b1["games"]); self.assertIn("State of Play", b2["games"])
+        tt, _ = s.xu_ly({"nen": {}}, [b1, b2], {}, NOW, frozenset({"a|rss", "b|rss"}))
+        self.assertEqual(len(tt["cum"]), 2)
+
+    def test_state_of_play_chung_van_gom_voi_game(self):
+        b1 = b(1, "State of Play announced for October 15", "a", "chinh_thuc")
+        b2 = b(2, "State of Play announced for October 15 time", "b", "bao")
+        tt, _ = s.xu_ly({"nen": {}}, [b1, b2], {}, NOW, frozenset({"a|rss", "b|rss"}))
+        self.assertEqual(len(tt["cum"]), 1)
+
+    def test_ntfy_loi_nhanh_chi_thu_3_lan(self):
+        thu = []
+        lenh = [{"id": f"{i}1111111-1111-1111-1111-111111111111", "loai": "video", "tieu_de": f"T{i}"} for i in range(9)]
+
+        def gui(x):
+            thu.append(x)
+            raise RuntimeError("ntfy 500")
+        s.xu_ly_lenh(lambda body: {"ok": True, "lenh": lenh}, "k", gui, {}, log=lambda x: None)
+        self.assertEqual(len(thu), s.LENH_TOI_DA)
+
+    def test_het_gio_sau_ntfy_nho_cap_nhat(self):
+        t = {"v": 0}
+        ghi = []
+        lenh = [{"id": "11111111-1111-1111-1111-111111111111", "loai": "video", "tieu_de": "X"}]
+
+        def gui(x):
+            t["v"] = 100   # ntfy chậm làm hết giờ
+        def post(body):
+            ghi.append(body["viec"])
+            return {"ok": True, "lenh": lenh}
+        tt = {}
+        n = s.xu_ly_lenh(post, "k", gui, tt, log=lambda x: None, han=50, dong_ho=lambda: t["v"])
+        self.assertEqual(n, 1)
+        self.assertNotIn("cap_nhat_lenh", ghi)
+        self.assertIn(lenh[0]["id"], tt["chua_ghi"]["lenh"])
+
+    def test_thu_nho_600_cum_to_duoi_tran(self):
+        to = ["x" * 40] * 120
+        tt = {"bai": {}, "cum": {f"c{i}": {"cap_nhat": f"2026-10-{1 + i % 14:02d}T00:00:00Z", "tk": to} for i in range(600)}}
+        self.assertGreater(len(json.dumps(tt).encode()), s.TRAN_TRANG_THAI)
+        s.thu_nho(tt)
+        self.assertLessEqual(len(json.dumps(tt).encode()), s.TRAN_TRANG_THAI)
+        self.assertGreater(len(tt["cum"]), 0)
+
+    def test_chia_lo_nguon_duoi_tran_may_chu(self):
+        los = s.chia_lo([], [], [{"nguon": f"n{i}", "mang": "rss"} for i in range(250)])
+        self.assertTrue(all(len(l["nguon"]) <= s.NGUON_LO_TOI_DA for l in los))
+        self.assertEqual(sum(len(l["nguon"]) for l in los), 250)
