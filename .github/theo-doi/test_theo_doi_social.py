@@ -160,12 +160,12 @@ class TestDiem(unittest.TestCase):
     def test_chinh_thuc_va_2_bao(self):
         c = self.cham([b(1, "GTA 6 trailer 3 released", "a", "chinh_thuc"), b(2, "GTA 6 trailer 3 released today", "b", "bao"),
                        b(3, "GTA 6 trailer 3 released now", "c", "bao")])
-        self.assertEqual(c["chi_tiet_diem"], {"chinh_thuc": 30, "nguon_them": 20, "tu_khoa": 20})
-        self.assertEqual((c["diem"], c["nhan"], c["so_nguon"]), (70, "CHINH_THUC", 3))
+        self.assertEqual(c["chi_tiet_diem"], {"chinh_thuc": 20, "nguon_them": 20, "tu_khoa": 20})
+        self.assertEqual((c["diem"], c["nhan"], c["so_nguon"]), (60, "CHINH_THUC", 3))
 
-    def test_nguon_them_toi_da_30(self):
-        c = self.cham([b(i, "GTA 6 trailer 3 released", n, "bao") for i, n in enumerate("abcd", 1)])
-        self.assertEqual(c["chi_tiet_diem"]["nguon_them"], 30)
+    def test_nguon_them_toi_da_40(self):
+        c = self.cham([b(i, "GTA 6 trailer 3 released", n, "bao") for i, n in enumerate("abcdef", 1)])
+        self.assertEqual(c["chi_tiet_diem"]["nguon_them"], 40)
         self.assertEqual(c["nhan"], "BAO_LON")
 
     def test_dem_publisher_khac_nhau(self):
@@ -185,7 +185,7 @@ class TestDiem(unittest.TestCase):
         nen = {"a|bluesky": [{"i": f"o{k}", "v": 10, "d": "likes+reposts", "t": "2026-10-13T00:00:00Z"} for k in range(5)]}
         bai = b(1, "Random news", "a", "bao", mang="bluesky", gio=2, tt={"likes": 100, "reposts": 10})
         c = self.cham([bai], nen)
-        self.assertEqual(c["chi_tiet_diem"], {"tuong_tac": 20})
+        self.assertEqual(c["chi_tiet_diem"], {"tuong_tac": 20, "khong_ps": -20})
         # ít hơn 5 mẫu: không cộng
         c = self.cham([b(1, "Random news", "a", "bao", mang="bluesky", gio=2, tt={"likes": 100, "reposts": 10})],
                       {"a|bluesky": nen["a|bluesky"][:4]})
@@ -245,7 +245,7 @@ class TestBao(unittest.TestCase):
             self.chay(nho, d)  # lượt 1: biết cả 3 nguồn
             _, goi = self.chay(self.kqs(), d)
             self.assertEqual(len(goi), 1)
-            self.assertTrue(goi[0]["title"].startswith("🔥 70 · CHINH_THUC · GTA 6 trailer"))
+            self.assertTrue(goi[0]["title"].startswith("🔥 60 · CHINH_THUC · GTA 6 trailer"))
             self.assertEqual(goi[0]["topic"], "k")
             self.assertEqual(goi[0]["click"], "https://x/0")  # nguồn chính thức
             _, goi = self.chay(self.kqs(), d)
@@ -608,3 +608,22 @@ class TestTrangThai(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSuaOpus(unittest.TestCase):
+    """Opus 14/10: thang điểm mới, tin không dính PlayStation bị trừ, tiêu đề y hệt ở 2 kênh gom một cụm, bỏ &amp;."""
+    def test_khong_ps_tru_20(self):
+        d, ct, _ = s.cham_diem([{"p": "n", "nh": "chinh_thuc", "kw": True, "g": ["Switch 2"], "ps": False}])
+        self.assertEqual(ct, {"chinh_thuc": 20, "tu_khoa": 20, "khong_ps": -20}); self.assertEqual(d, 20)
+
+    def test_game_lon_tinh_la_ps(self):
+        _, ct, _ = s.cham_diem([{"p": "n", "nh": "bao", "kw": False, "g": ["GTA 6"], "ps": False}])
+        self.assertNotIn("khong_ps", ct)
+
+    def test_sach_bo_amp_kep(self):
+        self.assertEqual(s.sach("PS5 &amp;amp; PC Games"), "PS5 & PC Games")
+
+    def test_tieu_de_trung_gom_qua_12_gio(self):
+        tk = s.tach_chu("Helldivers 2 - Scope of Authority Warbond | PS5 & PC Games")
+        ci = {"c1": {"tk": [tk], "g": set(), "l": {"trailer"}, "cap": NOW - datetime.timedelta(hours=20), "dau": NOW - datetime.timedelta(hours=20)}}
+        self.assertEqual(s.chon_cum(tk, [], "khac", NOW, ci), "c1")

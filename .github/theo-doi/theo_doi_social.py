@@ -61,8 +61,12 @@ CHO_THU_LAI = 5
 COOLDOWN_MAC_DINH, COOLDOWN_TOI_DA = 300, 3600
 DON_SAU_GIO_VN = 3
 GIO_VN = datetime.timezone(datetime.timedelta(hours=7))
-DIEM_CHINH_THUC, DIEM_NGUON_THEM, DIEM_NGUON_TOI_DA = 30, 10, 30
-DIEM_TU_KHOA, DIEM_TUONG_TAC, DIEM_TRU = 20, 20, -10
+# Opus 14/10 sau --thu thật: chính thức +30 làm 1 bài PR lẻ (Nintendo) đã 70 điểm -> hạ còn +20, nâng trần nguồn thêm +40,
+# trừ 20 khi cụm không dính PlayStation (Săn Game chỉ theo mảng PlayStation).
+DIEM_CHINH_THUC, DIEM_NGUON_THEM, DIEM_NGUON_TOI_DA = 20, 10, 40
+DIEM_TU_KHOA, DIEM_TUONG_TAC, DIEM_TRU, DIEM_KHONG_PS = 20, 20, -10, -20
+GAME_KHONG_PS = frozenset({"Switch 2", "Xbox"})
+JACCARD_TRUNG = 0.85         # tiêu đề gần như y hệt (cùng video đăng ở 2 kênh) -> gom bất kể cửa sổ 12 giờ / loại sự kiện
 TT_HE_SO, NEN_TOI_THIEU, NEN_GIU = 3, 5, 20
 BLUESKY_LIMIT = 30
 
@@ -146,7 +150,7 @@ def bai_id(mang, url):
 
 # ---- Phân tích từng loại nguồn (lỗi cú pháp -> ném lỗi = nguồn lỗi) ---------------------------
 def sach(s, toi_da=None):
-    van = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
+    van = re.sub(r"\s+", " ", html.unescape(html.unescape(re.sub(r"<[^>]+>", " ", s or "")))).strip()   # 2 lần: YouTube gửi "&amp;amp;"
     return van if toi_da is None or len(van) <= toi_da else van[:toi_da].rstrip() + "…"
 
 
@@ -424,6 +428,11 @@ def chon_cum(tk, games, loai, dl, ci):
     """ci: chỉ mục cụm {cid: {'tk': [..], 'g': set, 'l': set loại cụ thể, 'cap': dt bài mới nhất, 'dau': dt bài đầu}}."""
     tot, tot_j = None, 0.0
     for cid, c in ci.items():
+        j_trung = max((jaccard(tk, t) for t in c["tk"]), default=0.0)
+        if j_trung >= JACCARD_TRUNG and abs((dl - c["cap"]).total_seconds()) <= GIO_GIU * 3600:
+            if j_trung > tot_j:
+                tot, tot_j = cid, j_trung
+            continue
         if abs((dl - c["cap"]).total_seconds()) > GIO_CUM * 3600 or (dl - c["dau"]).total_seconds() > GIO_CUM_TOI_DA * 3600:
             continue
         if loai != "khac" and c["l"] and loai not in c["l"]:
@@ -453,6 +462,8 @@ def cham_diem(tv):
         ct["tuong_tac"] = DIEM_TUONG_TAC
     if nhoms <= {"ro_ri", "cong_dong"}:
         ct["tru"] = DIEM_TRU
+    if not any(r.get("ps") or any(g not in GAME_KHONG_PS for g in (r.get("g") or [])) for r in tv):
+        ct["khong_ps"] = DIEM_KHONG_PS
     return max(0, min(100, sum(ct.values()))), ct, NHAN_THEO_NHOM[min(nhoms, key=lambda x: NHOM_HANG[x])]
 
 
@@ -511,7 +522,7 @@ def xu_ly(tt_cu, bai_list, nen_moi, now, nguon_da_thay=frozenset()):
         tt["bai"][b["id"]] = {"cum": cid, "dl": iso(b["dang_luc"]), "tk": " ".join(sorted(tk)), "tt": b["tuong_tac"],
                               "n": b["nguon"], "p": b["pub"], "bc": b["bc"], "nh": b["nhom"], "tn": b["ten_nguon"],
                               "m": b["mang"], "u": b["url"], "t": b["tieu_de"][:200], "g": b["games"], "l": b["loai"],
-                              "kw": bool(b["tu_khoa"]), "ex": vuot, "f": key not in nguon_da_thay,
+                              "kw": bool(b["tu_khoa"]), "ps": bool(b.get("ps")), "ex": vuot, "f": key not in nguon_da_thay,
                               "a": b["anh"] if (b.get("anh") and len(b["anh"]) <= 250) else None}
         b["cum_id"] = cid
         thay_doi[b["id"]] = b
