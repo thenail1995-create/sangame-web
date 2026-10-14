@@ -103,7 +103,8 @@
    "https://www.gematsu.com/?p=1084132",
    "https://www.gematsu.com/?p=1084263",
    "https://www.gematsu.com/?p=1084061",
-   "https://www.gematsu.com/?p=1084286"
+   "https://www.gematsu.com/?p=1084286",
+   "https://www.gematsu.com/?p=1084293"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207487",
@@ -237,7 +238,6 @@
   "en-US": [
    5147,
    5147,
-   5147,
    5146,
    5146,
    5146,
@@ -245,6 +245,7 @@
    5146,
    5146,
    5147,
+   5146,
    5146,
    5146
   ],
@@ -258,7 +259,7 @@
    2706,
    2706,
    2706,
-   2706,
+   2703,
    2703,
    2703
   ]
