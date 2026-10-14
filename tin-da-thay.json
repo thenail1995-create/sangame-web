@@ -28,7 +28,8 @@
    "urn:uuid:c0ccd4f8-c02d-40f2-9a4f-0efa15dd389c",
    "urn:uuid:2d48a90a-6482-48a2-af92-12c5b72948fc",
    "urn:uuid:368820b2-2132-4b20-9be1-ec385b9020c0",
-   "urn:uuid:1b0f8528-801c-4f20-88f1-da147b5901fc"
+   "urn:uuid:1b0f8528-801c-4f20-88f1-da147b5901fc",
+   "urn:uuid:2f58916e-4c78-480d-ac93-164a38392b59"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -41,7 +42,8 @@
    "urn:uuid:f617fd46-2b9e-4895-8dae-419045802846",
    "urn:uuid:f4c546eb-22f1-4db9-8ce9-b8db3778a360",
    "urn:uuid:ad3df8e0-9718-4450-9f34-db1efa8fa367",
-   "urn:uuid:92265195-88ed-4cda-86ce-34d5580a8410"
+   "urn:uuid:92265195-88ed-4cda-86ce-34d5580a8410",
+   "urn:uuid:2f58916e-4c78-480d-ac93-164a38392b59"
   ],
   "gematsu": [
    "https://www.gematsu.com/?p=1083603",
@@ -188,7 +190,8 @@
    "https://www.playstationlifestyle.net/?p=937582",
    "https://www.playstationlifestyle.net/?p=937591",
    "https://www.playstationlifestyle.net/?p=937595",
-   "https://www.playstationlifestyle.net/?p=937600"
+   "https://www.playstationlifestyle.net/?p=937600",
+   "https://www.playstationlifestyle.net/?p=937604"
   ],
   "billbil": [
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mxjn2i36ss2y",
@@ -232,7 +235,7 @@
    5147,
    5147,
    5147,
-   5147,
+   5146,
    5146,
    5146,
    5146,
