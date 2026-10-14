@@ -1883,7 +1883,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-14T22:50:54+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -2072,7 +2073,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-14T22:50:54+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -2094,6 +2096,63 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "Sony has revealed the list of PS Plus Extra and Premium October 2026 games. As previously confirmed, acclaimed co-op first-person shooter Mycopunk will be making its console debut as a day-one title on the service. Complete list of games joining PS Plus Extra, Premium catalog in October 2026 Extra Premium All of the above + […] The post PS Plus Extra, Premium October Games Include Returning Title appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-14T22:50:54+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "PlayStation Plus Game Catalog and Classics Catalog lineup for October 2026 announced",
+  "url": "https://www.gematsu.com/2026/10/playstation-plus-game-catalog-and-classics-catalog-lineup-for-october-2026-announced",
+  "ngay": "2026-10-14T22:42:02+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "PlayStation Plus",
+   "SIE",
+   "SIEA",
+   "SIEE",
+   "SIEJA"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "Sony Interactive Entertainment has announced the October 2026 Game Catalog lineup for PlayStation Plus Extra …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-14T22:50:54+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "9 PS Plus Extra, Premium Games for October 2026 Announced",
+  "url": "https://www.pushsquare.com/news/2026/10/9-ps-plus-extra-premium-games-for-october-2026-announced",
+  "ngay": "2026-10-14T22:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "Spooky scary. Sony has officially announced the full lineup of games heading into PS Plus Extra and PS Plus Premium for the month of October 2026. Here's the full rundown: Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Popular PS5 Warhammer Action Game Gets Massive 75% Discount on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/14/playstation-store-sale-warhammer-40000-space-marine-2-discount",
+  "ngay": "2026-10-14T22:49:16+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Focus Entertainment",
+   "PlayStation 5",
+   "PS Store",
+   "Video Game News",
+   "Warhammer",
+   "Warhammer 40000: Space Marine 2"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'discount'",
+  "da_viet": false,
+  "tom_tat": "Fans can now grab Focus Entertainment's hit Warhammer title at a significantly lower price. The post Popular PS5 Warhammer Action Game Gets Massive 75% Discount on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-14T22:50:54+07:00"
  }
 ]
