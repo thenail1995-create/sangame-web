@@ -1,4 +1,5 @@
 import base64
+import copy
 import datetime
 import io
 import json
@@ -669,10 +670,10 @@ class TestSuaSol(unittest.TestCase):
         self.assertEqual(s.chon_cum(tk2, [], "trailer", NOW, ci), "c1")   # không rõ game thì vẫn gom
 
     def test_bao_dua_tin_don_nhan_ro_ri(self):
-        _, _, nhan = s.cham_diem([{"p": "ign", "nh": "bao", "kw": True, "g": ["GTA 6"], "ps": True, "l": "ro_ri"}])
+        _, _, nhan = s.cham_diem([{"p": "ign", "nh": "bao", "kw": True, "g": ["GTA 6"], "ps": True, "rr": True}])
         self.assertEqual(nhan, "RO_RI")
         _, _, nhan2 = s.cham_diem([{"p": "ps", "nh": "chinh_thuc", "kw": True, "g": ["GTA 6"], "ps": True},
-                                   {"p": "ign", "nh": "bao", "kw": True, "g": ["GTA 6"], "ps": True, "l": "ro_ri"}])
+                                   {"p": "ign", "nh": "bao", "kw": True, "g": ["GTA 6"], "ps": True, "rr": True}])
         self.assertEqual(nhan2, "CHINH_THUC")
 
     def test_thu_nho_cat_hang_cho_theo_byte(self):
@@ -779,3 +780,77 @@ class TestSuaSolLan2(unittest.TestCase):
         los = s.chia_lo([], [], [{"nguon": f"n{i}", "mang": "rss"} for i in range(250)])
         self.assertTrue(all(len(l["nguon"]) <= s.NGUON_LO_TOI_DA for l in los))
         self.assertEqual(sum(len(l["nguon"]) for l in los), 250)
+
+
+class TestSuaSolLan3(unittest.TestCase):
+    """Sol soi lần 3 14/10: hàng chờ không dùng chung với tt_cu, một ngân sách lệnh, cờ rr cho bài cũ + tóm tắt, ACK lô ảnh."""
+    def test_chi_hang_cho_doi_van_luu_file(self):
+        # Lượt 2 chỉ đổi hàng chờ lệnh (cập nhật lệnh lỗi sau khi đã ntfy) -> vẫn phải lưu, lượt 3 không ntfy lại.
+        with tempfile.TemporaryDirectory() as d:
+            ks = [kq("a", "rss", [raw(1, "Elden Ring DLC news")], "bao")]
+            lenh = [{"id": "11111111-1111-1111-1111-111111111111", "loai": "video", "tieu_de": "X"}]
+            st = {"co_lenh": False, "hong": True, "xong": False}
+            ntfy = []
+
+            def post(body):
+                if body["viec"] == "cap_nhat_lenh":
+                    if st["hong"]:
+                        raise RuntimeError("500")
+                    st["xong"] = True
+                if body["viec"] == "doc_lenh":
+                    return {"ok": True, "lenh": lenh if st["co_lenh"] and not st["xong"] else []}
+                return {"ok": True}
+            chay = lambda: s.chay(d, ket_qua_doc=ks, kenh="k", gio=lambda: NOW, post=post, gui=ntfy.append, url_sg="x",  # noqa: E731
+                                  khoa_sg="y", log=lambda x: None)
+            chay()
+            st["co_lenh"] = True
+            chay()
+            self.assertEqual(len(ntfy), 1)
+            st["hong"] = False
+            chay()
+            self.assertEqual(len(ntfy), 1)   # không ntfy lần 2 cho cùng lệnh
+            self.assertTrue(st["xong"])
+
+    def test_mot_ngan_sach_lenh(self):
+        goi = []
+        cho = {f"{i}1111111-1111-1111-1111-111111111111": {"viec": "cap_nhat_lenh"} for i in range(5)}
+        moi = [{"id": "a1111111-1111-1111-1111-111111111111", "loai": "video", "tieu_de": "T"}]
+        post = lambda body: goi.append(body["viec"]) or {"ok": True, "lenh": moi}  # noqa: E731
+        s.xu_ly_lenh(post, "k", lambda x: None, {"chua_ghi": {"lenh": cho}}, log=lambda x: None)
+        self.assertEqual(goi.count("cap_nhat_lenh"), s.LENH_TOI_DA)
+        self.assertNotIn("doc_lenh", goi)
+
+    def test_rr_tu_tom_tat_va_bai_cu(self):
+        # Opus 14/10 (đo thật, bác Sol): cờ chỉ xét tiêu đề — tóm tắt "interview tackling delays, and leaks" không phải tin đồn
+        r = s.chuan_hoa(kq("eg", "rss", [dict(raw(1, "Rockstar opens up on GTA 6 crunch"), tom_tat="interview tackling crunch, delays, and leaks")], "bao"), NOW)[0]
+        self.assertFalse(r["rr"])
+        ig = s.chuan_hoa(kq("ig", "rss", [dict(raw(2, "Valor Mortis Review"), tom_tat="Read the Review: https://insider-gaming.com/reviews/x")], "bao"), NOW)[0]
+        self.assertFalse(ig["rr"]); self.assertNotEqual(ig["loai"], "ro_ri")
+        self.assertTrue(s.chuan_hoa(kq("v", "rss", [raw(3, "GTA 6 release window shared by an insider")], "bao"), NOW)[0]["rr"])
+        self.assertFalse(s.chuan_hoa(kq("v", "rss", [raw(4, "Insider Gaming: Valor Mortis tips")], "bao"), NOW)[0]["rr"])
+        x = b(1, "GTA 6 delayed until 2027", "ign", "bao")
+        x["rr"] = True
+        tt, _ = s.xu_ly({"nen": {}}, [x], {}, NOW, frozenset({"ign|rss"}))
+        self.assertEqual(next(iter(tt["cum"].values()))["nhan"], "RO_RI")
+        # trạng thái cũ thiếu cờ rr -> đọc lại phải bổ sung
+        cu_ = copy.deepcopy(tt)
+        for r in cu_["bai"].values():
+            r.pop("rr", None)
+        y = b(1, "Rumour: GTA 6 delayed until 2027", "ign", "bao")
+        y["id"] = x["id"]
+        tt2, _ = s.xu_ly(cu_, [y], {}, NOW, frozenset({"ign|rss"}))
+        self.assertEqual(next(iter(tt2["cum"].values()))["nhan"], "RO_RI")
+
+    def test_ack_lo_anh_dat_dau_da_ghi(self):
+        tt = {"cum": {"c1": {"id": "c1", "tieu_de": "T", "chu_de": None, "nhan": "BAO_LON", "diem": 10, "chi_tiet_diem": {},
+                             "so_nguon": 1, "nguon": ["A"], "bat_dau": "2026-10-14T00:00:00Z", "cap_nhat": "2026-10-14T00:00:00Z",
+                             "da_bao": False, "url": "https://x/1"}}}
+        gui = []
+        s.ghi_len_may_chu(tt, {}, [], {"c1": "data:image/jpeg;base64,AAAA"}, lambda body: gui.append(body) or {"ok": True},
+                          log=lambda x: None)
+        c = tt["cum"]["c1"]
+        self.assertEqual(c["hg"], c["h"]); self.assertTrue(c["anh"])
+        self.assertEqual(len(gui), 1)
+        gui.clear()
+        s.ghi_len_may_chu(tt, {}, [], {}, lambda body: gui.append(body) or {"ok": True}, log=lambda x: None)
+        self.assertEqual(gui, [])   # lượt sau không gửi lại metadata

@@ -102,7 +102,8 @@ LOAI_SU_KIEN = [
     ("trailer", r"trailer|gameplay|teaser|reveal"), ("review", r"review|metacritic|opencritic"),
     ("phan_cung", r"ps5 pro|ps6|switch 2|dualsense|console|handheld|hardware|price hike"),
     ("nhan_su_studio", r"layoffs?|laid off|studio|joins|leaves|steps down|hires|director"),
-    ("ro_ri", r"leak|rumou?r|reportedly|insider|allegedly"),
+    # Opus 14/10 (đo thật): "insider" khớp nhầm tên trang/link Insider Gaming (27 bài thường bị gắn rò rỉ) -> loại trừ.
+    ("ro_ri", r"leak|rumou?r|reportedly|(?<![\w.-])insider(?![\s-]*gaming)|allegedly"),
 ]
 NHOM_HANG = {"chinh_thuc": 0, "bao": 1, "ro_ri": 2, "cong_dong": 3}
 NHAN_THEO_NHOM = {"chinh_thuc": "CHINH_THUC", "bao": "BAO_LON", "ro_ri": "RO_RI", "cong_dong": "TIN_DON"}
@@ -402,7 +403,7 @@ def chuan_hoa(kq, now):
              "pub": kq.get("pub") or kq["nguon"], "bc": bool(kq.get("bc")), "url": r["url"], "tieu_de": r["tieu_de"][:300],
              "tom_tat": (r.get("tom_tat") or "")[:600], "dang_luc": r["dang_luc"], "tuong_tac": r["tuong_tac"],
              "anh": r.get("anh"), "ps": bool(PS_RE.search(chu)), "tu_khoa": [k for k, re_ in _SK_RE if re_.search(chu)],
-             "loai": loai_su_kien(chu)}
+             "loai": loai_su_kien(chu), "rr": bool(RO_RI_RE.search(r["tieu_de"]))}   # cờ CHỈ xét tiêu đề: tóm tắt hay nhắc "leaks" khi bài không phải tin đồn
         b["games"] = tim_game(b)
         ra.append(b)
     return ra
@@ -473,7 +474,7 @@ def cham_diem(tv):
     if not any(r.get("ps") or any(g not in GAME_KHONG_PS for g in (r.get("g") or [])) for r in tv):
         ct["khong_ps"] = DIEM_KHONG_PS
     nhan = NHAN_THEO_NHOM[min(nhoms, key=lambda x: NHOM_HANG[x])]
-    if "chinh_thuc" not in nhoms and any(r.get("rr") or r.get("l") == "ro_ri" for r in tv):
+    if "chinh_thuc" not in nhoms and any(r.get("rr") for r in tv):
         nhan = "RO_RI"   # Sol 14/10: "Rumour: GTA 6 delayed" từ báo vẫn phải là chưa xác nhận
     return max(0, min(100, sum(ct.values()))), ct, nhan
 
@@ -517,6 +518,7 @@ def xu_ly(tt_cu, bai_list, nen_moi, now, nguon_da_thay=frozenset()):
                 thay_doi[b["id"]] = b
             cu_rec["tt"] = b["tuong_tac"]
             cu_rec["ex"] = bool(cu_rec.get("ex") or vuot)
+            cu_rec["rr"] = bool(b.get("rr") or RO_RI_RE.search(b["tieu_de"]))   # bài lưu trước khi có cờ rr
             b["cum_id"] = cu_rec["cum"]
             continue
         tk = tach_chu(b["tieu_de"])
@@ -532,7 +534,7 @@ def xu_ly(tt_cu, bai_list, nen_moi, now, nguon_da_thay=frozenset()):
         c["cap"], c["dau"] = max(c["cap"], b["dang_luc"]), min(c["dau"], b["dang_luc"])
         tt["bai"][b["id"]] = {"cum": cid, "dl": iso(b["dang_luc"]), "tk": " ".join(sorted(tk)), "tt": b["tuong_tac"],
                               "n": b["nguon"], "p": b["pub"], "bc": b["bc"], "nh": b["nhom"], "tn": b["ten_nguon"],
-                              "m": b["mang"], "u": b["url"], "t": b["tieu_de"][:200], "g": b["games"], "l": b["loai"], "rr": bool(RO_RI_RE.search(b["tieu_de"])),
+                              "m": b["mang"], "u": b["url"], "t": b["tieu_de"][:200], "g": b["games"], "l": b["loai"], "rr": bool(b.get("rr") or RO_RI_RE.search(b["tieu_de"])),
                               "kw": bool(b["tu_khoa"]), "ps": bool(b.get("ps")), "ex": vuot, "f": key not in nguon_da_thay,
                               "a": b["anh"] if (b.get("anh") and len(b["anh"]) <= 250) else None}
         b["cum_id"] = cid
@@ -754,9 +756,8 @@ def ghi_len_may_chu(tt, thay_doi, kqn, anh_moi, post, han=None, dong_ho=time.mon
             cg["cum"].pop(p["id"], None)
             c = tt["cum"].get(p["id"])
             if c is not None:
-                if not p.get("anh"):
-                    c["hg"] = c.get("hq") or c.get("h", "")
-                else:
+                c["hg"] = c.get("hq") or c.get("h", "")   # lô ảnh cũng chở đủ metadata (payload_cum(c, anh))
+                if p.get("anh"):
                     c["anh"] = True
         for p in lo["nguon"]:
             cg["nguon"].pop(f"{p['nguon']}|{p['mang']}", None)
@@ -826,18 +827,20 @@ def xu_ly_lenh(post, kenh, gui, tt, log=print, han=None, dong_ho=time.monotonic)
     het = (lambda: han is not None and dong_ho() >= han)
     cg = tt.setdefault("chua_ghi", {})
     lenh_cho = cg.setdefault("lenh", {})
+    thu = 0   # Sol 14/10 (lần 3): MỘT ngân sách lần thử cho cả gửi lại lẫn lệnh mới
     for i, body in list(lenh_cho.items())[:LENH_TOI_DA]:
         if het():
             return 0
+        thu += 1
         try:
             post(body)
             del lenh_cho[i]
         except Exception as e:  # noqa: BLE001
             log(f"LỖI gửi lại cap_nhat_lenh {i}: {e}")
-    if het():
+    if het() or thu >= LENH_TOI_DA:
         return 0
     kq = post({"viec": "doc_lenh", "loai": "video"})
-    xong = thu = 0
+    xong = 0
     for l in kq.get("lenh") or []:
         if thu >= LENH_TOI_DA or het():   # Sol 14/10: trần tính theo LẦN THỬ, không chỉ lần thành công
             break
@@ -978,11 +981,13 @@ def chay(thu_muc, thu=False, nguon=None, ket_qua_doc=None, http=cu.http_get, ngu
         in_bang(kqn, tt, dong_ho() - bat_dau)
         print(f"(--thu) {len(thay_doi)} bài mới/đổi; không ntfy, không POST, không ghi file.")
         return tt
-    tt["chua_ghi"] = tt_cu.get("chua_ghi", {})
-    tt["cho_bao"] = tt_cu.get("cho_bao", [])
+    # Sol 14/10 (lần 3): bản SAO, không dùng chung đối tượng với tt_cu — dùng chung thì phép so "tt != tt_cu" không thấy
+    # hàng chờ đổi, trạng thái không được lưu, lượt sau gửi lại/báo ntfy lặp.
+    tt["chua_ghi"] = copy.deepcopy(tt_cu.get("chua_ghi", {}))
+    tt["cho_bao"] = copy.deepcopy(tt_cu.get("cho_bao", []))
     for k in ("bao_ngay", "don_ngay"):
         if k in tt_cu:
-            tt[k] = tt_cu[k]
+            tt[k] = copy.deepcopy(tt_cu[k])
     han_ntfy = min(dong_ho() + HAN_NTFY, han_toan)
     bao_ntfy(tt, kenh, gui, now, han_ntfy, dong_ho, log)
     if post is not None:
@@ -1024,4 +1029,7 @@ def main(argv=None):
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    rc = main()
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(rc)   # Sol 14/10 (lần 3): không chờ luồng đọc nguồn còn treo (executor join lúc thoát) — trạng thái đã ghi xong
