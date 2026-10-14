@@ -615,6 +615,8 @@ class TestSuaOpus(unittest.TestCase):
     def test_khong_ps_tru_20(self):
         d, ct, _ = s.cham_diem([{"p": "n", "nh": "chinh_thuc", "kw": True, "g": ["Switch 2"], "ps": False}])
         self.assertEqual(ct, {"chinh_thuc": 20, "tu_khoa": 20, "khong_ps": -20}); self.assertEqual(d, 20)
+        _, ct2, _ = s.cham_diem([{"p": "n", "nh": "bao", "kw": False, "g": ["Switch 2"], "ps": False}])
+        self.assertNotIn("tu_khoa", ct2)
 
     def test_game_lon_tinh_la_ps(self):
         _, ct, _ = s.cham_diem([{"p": "n", "nh": "bao", "kw": False, "g": ["GTA 6"], "ps": False}])

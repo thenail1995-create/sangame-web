@@ -456,7 +456,7 @@ def cham_diem(tv):
     them = min(max(0, len(pub) - 1) * DIEM_NGUON_THEM, DIEM_NGUON_TOI_DA)
     if them:
         ct["nguon_them"] = them
-    if any(r.get("kw") or r.get("g") for r in tv):
+    if any(r.get("kw") or any(g not in GAME_KHONG_PS for g in (r.get("g") or [])) for r in tv):   # Switch 2/Xbox không tính "đúng mảng"
         ct["tu_khoa"] = DIEM_TU_KHOA
     if any(r.get("ex") for r in tv):
         ct["tuong_tac"] = DIEM_TUONG_TAC
