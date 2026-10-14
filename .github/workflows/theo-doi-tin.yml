@@ -67,3 +67,62 @@ jobs:
             done
             [ "$ok" = 1 ] || { echo "Không đẩy được trạng thái sau 3 lần"; exit 1; }
           fi
+
+  # 14/10/2026: job RIÊNG cho máy bắt tin social — không `needs`, nhánh trạng thái riêng `theo-doi-social`.
+  # Social treo/chết không được làm mất trạng thái tin cũ (job `theo-doi` ở trên không đổi một dòng).
+  social:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    concurrency:
+      group: theo-doi-social
+      cancel-in-progress: false
+    steps:
+      - name: Lấy mã theo dõi từ main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: ma
+          sparse-checkout: .github/theo-doi
+          sparse-checkout-cone-mode: false
+
+      - name: Lấy nhánh theo-doi-social (tạo nếu chưa có)
+        run: |
+          set -e
+          URL="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          if git ls-remote --exit-code --heads "$URL" theo-doi-social >/dev/null 2>&1; then
+            git clone --depth 20 --single-branch --branch theo-doi-social "$URL" trang-thai-social
+          else
+            git init -q -b theo-doi-social trang-thai-social
+            cd trang-thai-social
+            git remote add origin "$URL"
+          fi
+
+      - name: Theo dõi social
+        timeout-minutes: 5
+        env:
+          NTFY_TIN: ${{ secrets.NTFY_TIN }}
+          SG_TIN_URL: https://qkpbokksubmqvinetdtv.supabase.co/functions/v1/sg-tin
+          SG_TIN_KHOA: ${{ secrets.SG_TIN_KHOA }}
+        run: python3 ma/.github/theo-doi/theo_doi_social.py --dir trang-thai-social
+
+      - name: Ghi trạng thái social nếu có đổi
+        if: always()
+        run: |
+          cd trang-thai-social
+          [ -f social-da-thay.json ] || { echo "Chưa có trạng thái."; exit 0; }
+          git config user.name "theo-doi-bot"
+          git config user.email "theo-doi-bot@users.noreply.github.com"
+          git add social-da-thay.json
+          if git diff --cached --quiet; then
+            echo "Không đổi gì."
+          else
+            git commit -m "theo-doi-social: cập nhật trạng thái"
+            ok=0
+            for i in 1 2 3; do
+              if git push origin theo-doi-social; then ok=1; break; fi
+              echo "Đẩy lỗi lần $i — pull --rebase rồi thử lại"
+              git pull --rebase origin theo-doi-social || git rebase --abort || true
+              sleep 3
+            done
+            [ "$ok" = 1 ] || { echo "Không đẩy được trạng thái sau 3 lần"; exit 1; }
+          fi

@@ -1,0 +1,212 @@
+[
+ {
+  "khoa": "playstation",
+  "ten": "PlayStation",
+  "nhom": "chinh_thuc",
+  "youtube": "UC-2Y8dQb0S6DtpxNgAKoJKA",
+  "bluesky": "playstation.com",
+  "publisher": "playstation",
+  "bo_cu": true
+ },
+ {
+  "khoa": "playstation-asia",
+  "ten": "PlayStation Asia",
+  "nhom": "chinh_thuc",
+  "youtube": "UCR6vFk2rgmwIkGEPR-xY8xg",
+  "publisher": "playstation-asia"
+ },
+ {
+  "khoa": "playstation-japan",
+  "ten": "PlayStation Japan",
+  "nhom": "chinh_thuc",
+  "youtube": "UCaghC0OZwAdidMrbvxkcrPg",
+  "rss": "https://blog.ja.playstation.com/feed/",
+  "publisher": "playstation-japan"
+ },
+ {
+  "khoa": "rockstar",
+  "ten": "Rockstar Games",
+  "nhom": "chinh_thuc",
+  "youtube": "UC6VcWc1rAoWdBCM0JxrRQ3A",
+  "publisher": "rockstar"
+ },
+ {
+  "khoa": "xbox",
+  "ten": "Xbox",
+  "nhom": "chinh_thuc",
+  "youtube": "UCjBp_7RuDBUYbd1LegWEJ8g",
+  "rss": "https://news.xbox.com/en-us/feed/",
+  "publisher": "xbox"
+ },
+ {
+  "khoa": "nintendo",
+  "ten": "Nintendo of America",
+  "nhom": "chinh_thuc",
+  "youtube": "UCGIY_O-8vW4rfX98KlMkvRg",
+  "publisher": "nintendo"
+ },
+ {
+  "khoa": "capcom-usa",
+  "ten": "Capcom USA",
+  "nhom": "chinh_thuc",
+  "youtube": "UCW7h-1mymnJ96akzjrmiIgA",
+  "bluesky": "capcomusa.com",
+  "publisher": "capcom-usa"
+ },
+ {
+  "khoa": "square-enix",
+  "ten": "Square Enix (NA)",
+  "nhom": "chinh_thuc",
+  "youtube": "UCA5SLTAVA6unn1M-6lbo1NA",
+  "publisher": "square-enix"
+ },
+ {
+  "khoa": "bandai-namco",
+  "ten": "Bandai Namco",
+  "nhom": "chinh_thuc",
+  "youtube": "UC_ntXHv-XdKCD7CPynVvnQw",
+  "publisher": "bandai-namco"
+ },
+ {
+  "khoa": "the-game-awards",
+  "ten": "The Game Awards",
+  "nhom": "chinh_thuc",
+  "youtube": "UCqDS7KWjAPKv-7ZSlro9OiQ",
+  "bluesky": "thegameawards.com",
+  "publisher": "the-game-awards"
+ },
+ {
+  "khoa": "ign",
+  "ten": "IGN",
+  "nhom": "bao",
+  "youtube": "UCKy1dAqELo0zrOtPkf0eTMw",
+  "bluesky": "ign.com",
+  "rss": "https://www.ign.com/rss/articles/feed?tags=news",
+  "publisher": "ign"
+ },
+ {
+  "khoa": "gamespot",
+  "ten": "GameSpot",
+  "nhom": "bao",
+  "youtube": "UCbu2SsF-Or3Rsn3NxqODImw",
+  "bluesky": "gamespot.com",
+  "publisher": "gamespot"
+ },
+ {
+  "khoa": "vgc",
+  "ten": "VGC",
+  "nhom": "bao",
+  "youtube": "UCuzaJiIORaXi7DsuEs03Gow",
+  "bluesky": "videogameschronicle.com",
+  "rss": "https://www.videogameschronicle.com/feed/",
+  "publisher": "vgc"
+ },
+ {
+  "khoa": "eurogamer",
+  "ten": "Eurogamer",
+  "nhom": "bao",
+  "youtube": "UCciKycgzURdymx-GRSY2_dA",
+  "bluesky": "eurogamer.bsky.social",
+  "rss": "https://www.eurogamer.net/feed",
+  "publisher": "eurogamer"
+ },
+ {
+  "khoa": "insider-gaming",
+  "ten": "Insider Gaming",
+  "nhom": "bao",
+  "youtube": "UCPnPgDPqs4eBTTbcPI0q_FQ",
+  "bluesky": "insider-gaming.com",
+  "rss": "https://insider-gaming.com/feed/",
+  "publisher": "insider-gaming"
+ },
+ {
+  "khoa": "game-informer",
+  "ten": "Game Informer",
+  "nhom": "bao",
+  "youtube": "UCK-65DO2oOxxMwphl2tYtcw",
+  "bluesky": "gameinformer.com",
+  "rss": "https://gameinformer.com/rss.xml",
+  "publisher": "game-informer"
+ },
+ {
+  "khoa": "kotaku",
+  "ten": "Kotaku",
+  "nhom": "bao",
+  "bluesky": "kotaku.com",
+  "publisher": "kotaku"
+ },
+ {
+  "khoa": "gematsu",
+  "ten": "Gematsu",
+  "nhom": "bao",
+  "youtube": "UCcaswDIh-nrXYofcYQm6KTg",
+  "bluesky": "gematsu.com",
+  "publisher": "gematsu",
+  "bo_cu": true
+ },
+ {
+  "khoa": "push-square",
+  "ten": "Push Square",
+  "nhom": "bao",
+  "youtube": "UCbI-X9F07inmxYvQKDBOU7Q",
+  "bluesky": "pushsquare.com",
+  "publisher": "push-square",
+  "bo_cu": true
+ },
+ {
+  "khoa": "famitsu",
+  "ten": "Famitsu",
+  "nhom": "bao",
+  "youtube": "UCtPyU9cJgvvgH03PQKgaucA",
+  "bluesky": "famitsu.com",
+  "publisher": "famitsu"
+ },
+ {
+  "khoa": "automaton",
+  "ten": "Automaton",
+  "nhom": "bao",
+  "youtube": "UCabvYnvuUUbbGUrxkaFRgSA",
+  "bluesky": "automaton-media.com",
+  "rss": "https://automaton-media.com/en/feed/",
+  "publisher": "automaton"
+ },
+ {
+  "khoa": "digital-foundry",
+  "ten": "Digital Foundry",
+  "nhom": "bao",
+  "youtube": "UC9PBzalIcEQCsiIkq36PyUA",
+  "bluesky": "digitalfoundry.bsky.social",
+  "publisher": "digital-foundry"
+ },
+ {
+  "khoa": "billbil-kun",
+  "ten": "billbil-kun",
+  "nhom": "ro_ri",
+  "bluesky": "billbil-kun.bsky.social",
+  "publisher": "billbil-kun",
+  "bo_cu": true
+ },
+ {
+  "khoa": "wario64",
+  "ten": "Wario64",
+  "nhom": "cong_dong",
+  "bluesky": "wario64.bsky.social",
+  "publisher": "wario64"
+ },
+ {
+  "khoa": "jason-schreier",
+  "ten": "Jason Schreier",
+  "nhom": "bao",
+  "youtube": "UCQoOmu6mKZkXTnwZcpD8Ciw",
+  "bluesky": "jasonschreier.bsky.social",
+  "publisher": "jason-schreier"
+ },
+ {
+  "khoa": "jeff-grubb",
+  "ten": "Jeff Grubb",
+  "nhom": "bao",
+  "youtube": "UCBMPaqi9mfzRag1m7rKT1Ig",
+  "bluesky": "grubb.wtf",
+  "publisher": "jeff-grubb"
+ }
+]
