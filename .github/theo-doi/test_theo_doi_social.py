@@ -629,3 +629,59 @@ class TestSuaOpus(unittest.TestCase):
         tk = s.tach_chu("Helldivers 2 - Scope of Authority Warbond | PS5 & PC Games")
         ci = {"c1": {"tk": [tk], "g": set(), "l": {"trailer"}, "cap": NOW - datetime.timedelta(hours=20), "dau": NOW - datetime.timedelta(hours=20)}}
         self.assertEqual(s.chon_cum(tk, [], "khac", NOW, ci), "c1")
+
+
+class TestSuaSol(unittest.TestCase):
+    """Sol soi diff 14/10: lệnh có hạn + trần, thiếu khoá giữ hàng chờ, gần trùng khác game, nhãn rò rỉ, trần hàng chờ, ACK lệch."""
+    def test_lenh_toi_da_3_va_chi_doc_video(self):
+        goi, ghi = [], []
+        lenh = [{"id": f"{i}1111111-1111-1111-1111-111111111111", "loai": "video", "tieu_de": f"T{i}"} for i in range(5)]
+
+        def post(body):
+            ghi.append(body)
+            return {"ok": True, "lenh": lenh} if body["viec"] == "doc_lenh" else {"ok": True}
+        n = s.xu_ly_lenh(post, "k", goi.append, {}, log=lambda x: None)
+        self.assertEqual((n, len(goi)), (s.LENH_TOI_DA, s.LENH_TOI_DA))
+        self.assertEqual(ghi[0], {"viec": "doc_lenh", "loai": "video"})
+
+    def test_lenh_het_han_khong_goi(self):
+        ghi = []
+        n = s.xu_ly_lenh(lambda b_: ghi.append(b_) or {"ok": True, "lenh": []}, "k", lambda x: None, {}, log=lambda x: None,
+                         han=10, dong_ho=lambda: 11)
+        self.assertEqual((n, ghi), (0, []))
+
+    def test_thieu_khoa_giu_hang_cho_cu(self):
+        with tempfile.TemporaryDirectory() as d:
+            f = pathlib.Path(d) / "social-da-thay.json"
+            f.write_text(json.dumps({"chua_ghi": {"bai": {"x": {"id": "x", "dang_luc": "2026-10-14T00:00:00Z"}}, "cum": {}, "nguon": {}}}),
+                         encoding="utf-8")
+            tt = s.chay(d, ket_qua_doc=[kq("a", "rss", [])], kenh="", gio=lambda: NOW, url_sg="", khoa_sg="", log=lambda x: None)
+            self.assertIn("x", tt["chua_ghi"]["bai"])
+
+    def test_gan_trung_khac_game_khong_gom(self):
+        mau = "PlayStation State of Play October 2026 recap every announcement trailer reveal date price edition preorder bonus details showcase"
+        tk = s.tach_chu(mau + " Elden")
+        tk2 = s.tach_chu(mau + " Yotei")
+        self.assertGreaterEqual(s.jaccard(tk, tk2), s.JACCARD_TRUNG)   # đúng nhánh gần trùng
+        ci = {"c1": {"tk": [tk], "g": {"Elden Ring"}, "l": {"trailer"}, "cap": NOW, "dau": NOW}}
+        self.assertIsNone(s.chon_cum(tk2, ["Ghost of Yotei"], "trailer", NOW, ci))
+        self.assertEqual(s.chon_cum(tk2, [], "trailer", NOW, ci), "c1")   # không rõ game thì vẫn gom
+
+    def test_bao_dua_tin_don_nhan_ro_ri(self):
+        _, _, nhan = s.cham_diem([{"p": "ign", "nh": "bao", "kw": True, "g": ["GTA 6"], "ps": True, "l": "ro_ri"}])
+        self.assertEqual(nhan, "RO_RI")
+        _, _, nhan2 = s.cham_diem([{"p": "ps", "nh": "chinh_thuc", "kw": True, "g": ["GTA 6"], "ps": True},
+                                   {"p": "ign", "nh": "bao", "kw": True, "g": ["GTA 6"], "ps": True, "l": "ro_ri"}])
+        self.assertEqual(nhan2, "CHINH_THUC")
+
+    def test_thu_nho_cat_hang_cho_theo_byte(self):
+        to = "x" * 2000
+        tt = {"bai": {}, "cum": {}, "chua_ghi": {"bai": {f"b{i}": {"id": f"b{i}", "t": to} for i in range(2000)}, "cum": {}, "nguon": {}}}
+        s.thu_nho(tt)
+        self.assertLessEqual(len(json.dumps(tt["chua_ghi"]).encode()), s.TRAN_TRANG_THAI // 2)
+        self.assertGreater(len(tt["chua_ghi"]["bai"]), 0)
+
+    def test_ack_lech_in_canh_bao(self):
+        logs = []
+        s._gui_lo(lambda body: {"ok": True, "bai": 1, "cum": 0, "nguon": 0}, {"bai": [{"id": 1}, {"id": 2}], "cum": [], "nguon": []}, logs.append)
+        self.assertTrue(any("1/2 bai" in x for x in logs))

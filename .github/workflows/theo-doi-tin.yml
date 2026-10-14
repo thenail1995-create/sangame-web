@@ -9,13 +9,13 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: theo-doi-tin
-  cancel-in-progress: false
-
+# 14/10 (Sol): khoá concurrency chuyển xuống từng job — job social chạy lâu không được giữ chân lượt sau của job cũ.
 jobs:
   theo-doi:
     runs-on: ubuntu-latest
+    concurrency:
+      group: theo-doi-tin
+      cancel-in-progress: false
     timeout-minutes: 8
     steps:
       - name: Lấy mã theo dõi từ main

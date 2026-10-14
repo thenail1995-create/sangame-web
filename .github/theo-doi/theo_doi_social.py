@@ -429,7 +429,8 @@ def chon_cum(tk, games, loai, dl, ci):
     tot, tot_j = None, 0.0
     for cid, c in ci.items():
         j_trung = max((jaccard(tk, t) for t in c["tk"]), default=0.0)
-        if j_trung >= JACCARD_TRUNG and abs((dl - c["cap"]).total_seconds()) <= GIO_GIU * 3600:
+        khac_game = bool(games) and bool(c["g"]) and not (set(games) & c["g"])   # Sol 14/10: GTA 6 vs Elden Ring cùng khuôn tiêu đề
+        if j_trung >= JACCARD_TRUNG and not khac_game and abs((dl - c["cap"]).total_seconds()) <= GIO_GIU * 3600:
             if j_trung > tot_j:
                 tot, tot_j = cid, j_trung
             continue
@@ -464,7 +465,10 @@ def cham_diem(tv):
         ct["tru"] = DIEM_TRU
     if not any(r.get("ps") or any(g not in GAME_KHONG_PS for g in (r.get("g") or [])) for r in tv):
         ct["khong_ps"] = DIEM_KHONG_PS
-    return max(0, min(100, sum(ct.values()))), ct, NHAN_THEO_NHOM[min(nhoms, key=lambda x: NHOM_HANG[x])]
+    nhan = NHAN_THEO_NHOM[min(nhoms, key=lambda x: NHOM_HANG[x])]
+    if "chinh_thuc" not in nhoms and any(r.get("l") == "ro_ri" for r in tv):
+        nhan = "RO_RI"   # Sol 14/10: "Rumour: GTA 6 delayed" từ báo vẫn phải là chưa xác nhận
+    return max(0, min(100, sum(ct.values()))), ct, nhan
 
 
 def vuot_nen(b_id, v, don_vi, mau):
@@ -669,10 +673,20 @@ def goi_sg_tin(url, khoa, body, timeout=20):
     return kq
 
 
-def _gui_lo(post, lo):
+def _kiem_ack(kq, lo, log=print):
+    """Sol 14/10: máy chủ lọc bản ghi sai khuôn mà vẫn trả 200 -> so số đã nhận với số đã gửi, lệch thì in cảnh báo."""
+    if not isinstance(kq, dict):
+        return
+    for k in ("bai", "cum", "nguon"):
+        gui_k = len(lo.get(k) or [])
+        if gui_k and isinstance(kq.get(k), int) and kq[k] != gui_k:
+            log(f"CẢNH BÁO: sg-tin nhận {kq[k]}/{gui_k} {k} (bỏ {gui_k - kq[k]} bản ghi sai khuôn).")
+
+
+def _gui_lo(post, lo, log=print):
     """POST một lô; 413 -> chia đôi, thử lại mỗi nửa 1 lần. True nếu cả lô đã ACK."""
     try:
-        post({"viec": "ghi", **lo})
+        _kiem_ack(post({"viec": "ghi", **lo}), lo, log)
         return True
     except Exception as e:  # noqa: BLE001
         if "413" not in str(e) or sum(len(v) for v in lo.values()) < 2:
@@ -681,7 +695,7 @@ def _gui_lo(post, lo):
     for i in (0, 1):
         nua = {k: (v[:len(v) // 2] if i == 0 else v[len(v) // 2:]) for k, v in lo.items()}
         if any(nua.values()):
-            post({"viec": "ghi", **nua})
+            _kiem_ack(post({"viec": "ghi", **nua}), nua, log)
     return ok
 
 
@@ -714,7 +728,7 @@ def ghi_len_may_chu(tt, thay_doi, kqn, anh_moi, post, han=None, dong_ho=time.mon
             loi_n += 1
             return False
         try:
-            _gui_lo(post, lo)
+            _gui_lo(post, lo, log)
         except Exception as e:  # noqa: BLE001
             loi_n += 1
             log(f"LỖI ghi lô lên sg-tin: {e} — giữ lại hàng chờ.")
@@ -786,19 +800,29 @@ def bao_ntfy(tt, kenh, gui, now, han=None, dong_ho=time.monotonic, log=print):
     return da
 
 
-def xu_ly_lenh(post, kenh, gui, tt, log=print):
+LENH_TOI_DA = 3   # Sol 14/10: lệnh có hạn chót + tối đa 3 lệnh/lượt (không để bước bị giết trước khi lưu trạng thái)
+
+
+def xu_ly_lenh(post, kenh, gui, tt, log=print, han=None, dong_ho=time.monotonic):
     """Giai đoạn 1: lệnh video -> 1 ntfy rồi cap_nhat_lenh xong; lệnh dang để nguyên 'cho'. Cập nhật lỗi thì nhớ để lượt sau gửi lại."""
+    het = (lambda: han is not None and dong_ho() >= han)
     cg = tt.setdefault("chua_ghi", {})
     lenh_cho = cg.setdefault("lenh", {})
     for i, body in list(lenh_cho.items()):
+        if het():
+            return 0
         try:
             post(body)
             del lenh_cho[i]
         except Exception as e:  # noqa: BLE001
             log(f"LỖI gửi lại cap_nhat_lenh {i}: {e}")
-    kq = post({"viec": "doc_lenh"})
+    if het():
+        return 0
+    kq = post({"viec": "doc_lenh", "loai": "video"})
     xong = 0
     for l in kq.get("lenh") or []:
+        if xong >= LENH_TOI_DA or het():
+            break
         if l.get("loai") != "video" or l.get("id") in lenh_cho:
             continue
         tieu = l.get("tieu_de") or l.get("cum_id") or "?"
@@ -842,6 +866,15 @@ def thu_nho(tt):
         bo_bai([k for k, r in tt["bai"].items() if r["cum"] in cu_nhat])
         for k in cu_nhat:
             tt["cum"].pop(k, None)
+    cg = tt.get("chua_ghi") or {}
+    while len(json.dumps(cg, ensure_ascii=False).encode()) > TRAN_TRANG_THAI // 2 and any(cg.get(k) for k in ("bai", "cum", "nguon")):
+        for k in ("bai", "cum", "nguon"):   # Sol 14/10: hàng chờ phình thì cắt hàng chờ (cũ nhất) trước, giữ dấu chống trùng
+            v = cg.get(k)
+            if isinstance(v, dict) and v:
+                for kk in list(v)[:max(1, len(v) // 10)]:
+                    v.pop(kk, None)
+            elif isinstance(v, list) and v:
+                del v[:max(1, len(v) // 10)]
     while len(json.dumps(tt, ensure_ascii=False).encode()) > TRAN_TRANG_THAI and tt["bai"]:
         bo_bai(sorted(tt["bai"], key=lambda k: tt["bai"][k]["dl"])[:max(1, len(tt["bai"]) // 10)])
     return tt
@@ -924,7 +957,7 @@ def chay(thu_muc, thu=False, nguon=None, ket_qua_doc=None, http=cu.http_get, ngu
     bao_ntfy(tt, kenh, gui, now, han_ntfy, dong_ho, log)
     if post is not None:
         try:
-            xu_ly_lenh(post, kenh, gui, tt, log)
+            xu_ly_lenh(post, kenh, gui, tt, log, min(dong_ho() + 20, han_toan), dong_ho)
         except Exception as e:  # noqa: BLE001
             log(f"LỖI đọc lệnh từ sg-tin: {e}")
         anh_moi = lay_anh_cum(tt, tai_anh, min(dong_ho() + HAN_ANH, han_toan), dong_ho)
@@ -937,8 +970,7 @@ def chay(thu_muc, thu=False, nguon=None, ket_qua_doc=None, http=cu.http_get, ngu
             except Exception as e:  # noqa: BLE001
                 log(f"LỖI dọn sg-tin: {e}")
     else:
-        log(f"Không có SG_TIN_URL/SG_TIN_KHOA — chỉ in: {len(thay_doi)} bài, {len(tt['cum'])} cụm.")
-        tt["chua_ghi"] = {}
+        log(f"Không có SG_TIN_URL/SG_TIN_KHOA — chỉ in: {len(thay_doi)} bài, {len(tt['cum'])} cụm. Hàng chờ ghi được GIỮ (Sol 14/10).")
         for c in tt["cum"].values():
             c["hg"] = ""
     thu_nho(tt)
