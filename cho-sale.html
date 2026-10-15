@@ -123,7 +123,7 @@ section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 .dau-muc-chu{flex:1 1 300px;min-width:0}
 .dau-muc h1{margin:0;font-size:21px;line-height:1.3;font-weight:800;letter-spacing:-.01em}
 .dau-muc p{margin:2px 0 0;color:var(--phu);font-size:13.5px;max-width:760px}
-.dau-muc .vung-chon{flex:0 1 560px;min-width:300px}
+.dau-muc .vung-chon{flex:0 1 620px;min-width:300px}
 
 /* ── Khối nội dung (kiểu PSNine): tiêu đề đậm + nhãn nhỏ + "Xem thêm »" ── */
 .the{background:var(--the);border:1px solid var(--vien);border-radius:var(--r);padding:16px 18px;box-shadow:var(--bong)}
@@ -278,7 +278,7 @@ footer a{color:#DDE2EA}
 <main>
 <section id="cho-sale">
   <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/cho-sale.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Chờ sale</h1><p>Lưu game bạn muốn mua ở đây. Mỗi lần bạn mở Săn Game, game nào đang giảm sẽ hiện lên
-    đầu danh sách. Muốn điện thoại tự báo mỗi ngày, dùng ntfy (hướng dẫn ở cuối trang).</p></div><div class="vung-chon" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button></div></div></div>
+    đầu danh sách. Muốn điện thoại tự báo mỗi ngày, dùng ntfy (hướng dẫn ở cuối trang).</p></div><div class="vung-chon" data-vung-switcher role="group" aria-label="Chọn vùng xem giá"><span class="vung-nhan">Giá vùng</span><div class="vung-thanh"><span class="vung-truot" aria-hidden="true"></span><button type="button" class="chip-vung" data-vung="US" aria-pressed="true">Mỹ</button><button type="button" class="chip-vung" data-vung="HK" aria-pressed="false">Hồng Kông</button><button type="button" class="chip-vung" data-vung="SG" aria-pressed="false">Singapore</button><button type="button" class="chip-vung" data-vung="TH" aria-pressed="false">Thái Lan</button><button type="button" class="chip-vung" data-vung="ID" aria-pressed="false">Indonesia</button><button type="button" class="chip-vung" data-vung="IN" aria-pressed="false">Ấn Độ</button><button type="button" class="chip-vung" data-vung="UA" aria-pressed="false">Ukraine</button></div></div></div>
 
   <div id="cs-rong" class="the cs-rong" hidden>
     <p style="margin:0 0 6px;font-weight:700">Danh sách đang trống.</p>
@@ -427,10 +427,34 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
     if (!Array.isArray(v)) return { thieu: true, tenVung: tenVung };
     var gm = window.SGCS.giaMua(v);
     if (gm == null) return { chuaCoGia: true, tenVung: tenVung };
-    var theoThe = !!(giaThe && giaThe.the[idx] != null);
+    var thamKhao = laThamKhao(data, giaThe, idx);
+    var theoThe = !!(giaThe && giaThe.the[idx] != null) && !thamKhao;     // vùng tham khảo không bao giờ "theo thẻ"
     var rChinh = theoThe ? giaThe.the[idx] : data.ty_gia[idx];
+    if (!(rChinh > 0)) return { chuaCoGia: true, tenVung: tenVung };   // không có tỷ giá để quy đổi -> "Chưa có giá"
     return { giam: v[2] > 0, phanTram: v[2], vnd: gm * rChinh, mienPhi: gm === 0,
-             vndBank: gm * data.ty_gia[idx], theoThe: theoThe, tenVung: tenVung };
+             vndBank: gm * data.ty_gia[idx], theoThe: theoThe, tenVung: tenVung, thamKhao: thamKhao };
+  }
+  // S10/S11: vùng THAM KHẢO (chưa có thẻ PSN bán ở VN: Ấn Độ, Ukraine) — mảng tham_khao của gia-the-vung.json (cùng thứ tự "vung");
+  // file cũ không có mảng đó thì rơi về IN/UA. Vùng tham khảo hiện giá kèm chú thích nhưng KHÔNG tính "đạt ngưỡng"/đang giảm để báo.
+  function laThamKhao(data, giaThe, idx){
+    var m = data.vung[idx];
+    if (m === "IN" || m === "UA") return true;     // luôn coi IN/UA là tham khảo (OR với mảng)
+    if (giaThe && Array.isArray(giaThe.tham_khao) && giaThe.tham_khao.length === data.vung.length) return !!giaThe.tham_khao[idx];
+    return false;
+  }
+  // Căn gia-the-vung.json theo ĐÚNG thứ tự/độ dài mảng "vung" của tim-gia.json (data.vung) bằng MÃ vùng: hai file do hai bước khác nhau ghi,
+  // có thể lệch cột (vd một bên bỏ UA vì thiếu tỷ giá). Không có mảng "vung" trong giaThe (file rất cũ) thì giữ nguyên.
+  function canGiaThe(giaThe, data){
+    if (!giaThe || !Array.isArray(giaThe.vung) || !data || !Array.isArray(data.vung)) return giaThe;
+    if (giaThe.vung.join(",") === data.vung.join(",")) return giaThe;
+    var ra = { vung: data.vung.slice(), the: [], tham_khao: [], ngan_hang: [], ngay: giaThe.ngay };
+    data.vung.forEach(function(m){
+      var k = giaThe.vung.indexOf(m);
+      ra.the.push(k >= 0 && giaThe.the ? giaThe.the[k] : null);
+      ra.tham_khao.push(k >= 0 && Array.isArray(giaThe.tham_khao) ? !!giaThe.tham_khao[k] : (m === "IN" || m === "UA"));
+      ra.ngan_hang.push(k >= 0 && giaThe.ngan_hang ? giaThe.ngan_hang[k] : null);
+    });
+    return ra;
   }
 
   // Mục G: game "đã đạt ngưỡng" khi có đặt ngưỡng (item.nguong, VNĐ), game có bán ở vùng đang
@@ -438,7 +462,7 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   // Hào 01/10 rà soát: ngưỡng < 1000đ là rác do ô cũ đọc "500.000" thành 500 -> coi như chưa đặt (SGCS.nguongHopLe).
   function datNguongRoi(item, tt){
     var ng = window.SGCS.nguongHopLe(item.nguong);
-    return ng != null && !!tt && tt.vnd != null && tt.vnd <= ng;
+    return ng != null && !!tt && !tt.thamKhao && tt.vnd != null && tt.vnd <= ng;
   }
   function dongSo(n){ return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
 
@@ -466,10 +490,12 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
       nhan = '<span class="cs-nhan">−' + tt.phanTram + '%</span>';
       dong = "Đang giảm " + tt.phanTram + "% — " + dongVnd(tt.vnd) + " ở " + escHtml(tt.tenVung);
       if (tt.theoThe) quyDoi = '<p class="cs-quy-doi-nho">≈ ' + dongVnd(tt.vndBank) + ' theo tỷ giá ngân hàng</p>';
+      else if (tt.thamKhao) quyDoi = '<p class="cs-quy-doi-nho">Giá tham khảo — chưa có thẻ PSN bán ở VN</p>';
     } else {
       dong = tt.mienPhi ? "Miễn phí ở " + escHtml(tt.tenVung)
         : "Chưa giảm — " + dongVnd(tt.vnd) + " ở " + escHtml(tt.tenVung);
       if (tt.theoThe) quyDoi = '<p class="cs-quy-doi-nho">≈ ' + dongVnd(tt.vndBank) + ' theo tỷ giá ngân hàng</p>';
+      else if (tt.thamKhao) quyDoi = '<p class="cs-quy-doi-nho">Giá tham khảo — chưa có thẻ PSN bán ở VN</p>';
     }
     if (datRoi && lop.indexOf("cs-dang-giam") < 0) lop += " cs-dat-nguong";
     // C4: type=text (không phải number) để gõ được "500.000"/"500k"; docNguong đọc, sai thì hiện dòng nhắc (không xoá ngưỡng cũ).
@@ -512,12 +538,13 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   }
 
   function xepHang(x){
-    if (x.tt && x.tt.giam) return 0;
+    if (x.tt && x.tt.giam && !x.tt.thamKhao) return 0;
     if (datNguongRoi(x.item, x.tt)) return 1;
     return 2;
   }
 
   function ve(ds, data, giaThe){
+    giaThe = canGiaThe(giaThe, data);
     if (!ds.length) {
       hopDs.innerHTML = "";
       if (hopRong) hopRong.hidden = false;

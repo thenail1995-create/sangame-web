@@ -123,7 +123,7 @@ section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 .dau-muc-chu{flex:1 1 300px;min-width:0}
 .dau-muc h1{margin:0;font-size:21px;line-height:1.3;font-weight:800;letter-spacing:-.01em}
 .dau-muc p{margin:2px 0 0;color:var(--phu);font-size:13.5px;max-width:760px}
-.dau-muc .vung-chon{flex:0 1 560px;min-width:300px}
+.dau-muc .vung-chon{flex:0 1 620px;min-width:300px}
 
 /* ── Khối nội dung (kiểu PSNine): tiêu đề đậm + nhãn nhỏ + "Xem thêm »" ── */
 .the{background:var(--the);border:1px solid var(--vien);border-radius:var(--r);padding:16px 18px;box-shadow:var(--bong)}
@@ -348,7 +348,7 @@ footer a{color:#DDE2EA}
       </div>
     </div>
     <p class="phu kp-goi-cuoi">Hạ xuống gói thấp hơn thì chỉ có hiệu lực khi hết thời hạn đã trả.
-      <a href="ps-plus.html">So giá 3 gói ở 6 vùng →</a> <a href="mien-phi.html">Game tặng tháng này →</a></p>
+      <a href="ps-plus.html">So giá 3 gói ở 7 vùng →</a> <a href="mien-phi.html">Game tặng tháng này →</a></p>
   </div>
 
   <div class="the kp-gt" id="kp-vao-ra">
@@ -513,8 +513,10 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
 
   var VAO_ROI_URL = "du-lieu/kho-plus-vao-roi.json";
   var STORE_LOC = { "en-US": "en-us", "en-SG": "en-sg", "en-HK": "en-hk",
-    "en-TH": "en-th", "en-ID": "en-id", "en-IN": "en-in" };
-  var TEN_VUNG_VR = { US: "Mỹ", SG: "Singapore", HK: "Hồng Kông", TH: "Thái Lan", ID: "Indonesia", IN: "Ấn Độ" };
+    "en-TH": "en-th", "en-ID": "en-id", "en-IN": "en-in", "uk-UA": "uk-ua" };
+  // Mã vùng -> khoá locale (S6): Ukraine là "uk-UA", KHÔNG phải "en-UA" — không ghép "en-" + mã.
+  var LOC_CUA_MA = { US: "en-US", SG: "en-SG", HK: "en-HK", TH: "en-TH", ID: "en-ID", IN: "en-IN", UA: "uk-UA" };
+  var TEN_VUNG_VR = { US: "Mỹ", SG: "Singapore", HK: "Hồng Kông", TH: "Thái Lan", ID: "Indonesia", IN: "Ấn Độ", UA: "Ukraine" };
 
   var DATA = null, VAO_ROI = null, locFilter = "tat-ca", sortMode = "moi";
   var moiGhi = document.getElementById("kp-moi-ghi");
@@ -572,8 +574,8 @@ addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click'
   // vùng đó có trong file, không thì rơi về Singapore, không có vùng nào thì ẩn cả 2 dải.
   function chonVungVaoRoi(data){
     var g = window.SGVUNG ? window.SGVUNG.doc() : "US";
-    var loc = "en-" + g;
-    if (data.vung && data.vung[loc]) return loc;
+    var loc = LOC_CUA_MA[g];
+    if (loc && data.vung && data.vung[loc]) return loc;
     if (data.vung && data.vung["en-US"]) return "en-US";
     if (data.vung && data.vung["en-SG"]) return "en-SG";
     return null;

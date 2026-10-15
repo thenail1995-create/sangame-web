@@ -242,7 +242,7 @@
     return _choGiaThe;
   }
   function rateChinhTaiVung(dataTimGia, giaThe, idx){
-    if (giaThe && giaThe.the[idx] != null) return giaThe.the[idx];
+    if (giaThe && giaThe.the[idx] != null && !(dataTimGia.vung[idx] === "IN" || dataTimGia.vung[idx] === "UA")) return giaThe.the[idx];
     return dataTimGia.ty_gia[idx];
   }
   // VNĐ hiện tại của 1 game (g = bản ghi tim-gia.json) ở đúng vùng `vungMa` đang chọn — null nếu
@@ -261,6 +261,9 @@
     if (!c || !c.dong) return false;
     var idx = dataTimGia.vung.indexOf(vungMa);
     if (idx < 0) return false;
+    // S11: vùng THAM KHẢO (Ấn Độ, Ukraine: chưa có thẻ PSN bán ở VN) không tính "đang giảm/đạt ngưỡng" — không lên huy hiệu/banner
+    // (bao-ntfy.py cũng bỏ các vùng này). Mảng tham_khao của gia-the-vung.json; file cũ không có thì rơi về IN/UA.
+    if (vungMa === "IN" || vungMa === "UA" || (giaThe && Array.isArray(giaThe.tham_khao) && giaThe.tham_khao.length === dataTimGia.vung.length && giaThe.tham_khao[idx])) return false;
     var v = (c.dong[3] || [])[idx];
     if (giaMua(v) == null) return false;
     if (v[2] > 0) return true;
@@ -269,7 +272,20 @@
     var vnd = giaVndHienTai(c.dong, dataTimGia, giaThe, vungMa);
     return vnd != null && vnd <= ng;
   }
+  function canGiaTheGoc(giaThe, data){
+    if (!giaThe || !Array.isArray(giaThe.vung) || !data || !Array.isArray(data.vung)) return giaThe;
+    if (giaThe.vung.join(",") === data.vung.join(",")) return giaThe;
+    var ra = { vung: data.vung.slice(), the: [], tham_khao: [], ngan_hang: [], ngay: giaThe.ngay };
+    data.vung.forEach(function(m){
+      var k = giaThe.vung.indexOf(m);
+      ra.the.push(k >= 0 && giaThe.the ? giaThe.the[k] : null);
+      ra.tham_khao.push(k >= 0 && Array.isArray(giaThe.tham_khao) ? !!giaThe.tham_khao[k] : (m === "IN" || m === "UA"));
+      ra.ngan_hang.push(k >= 0 && giaThe.ngan_hang ? giaThe.ngan_hang[k] : null);
+    });
+    return ra;
+  }
   function demSoDangChu(ds, d, giaThe, vungMa){
+    giaThe = canGiaTheGoc(giaThe, d);
     var chiMuc = chiMucDong(d);
     var so = 0;
     ds.forEach(function(item){

@@ -123,7 +123,7 @@ section:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
 .dau-muc-chu{flex:1 1 300px;min-width:0}
 .dau-muc h1{margin:0;font-size:21px;line-height:1.3;font-weight:800;letter-spacing:-.01em}
 .dau-muc p{margin:2px 0 0;color:var(--phu);font-size:13.5px;max-width:760px}
-.dau-muc .vung-chon{flex:0 1 560px;min-width:300px}
+.dau-muc .vung-chon{flex:0 1 620px;min-width:300px}
 
 /* ── Khối nội dung (kiểu PSNine): tiêu đề đậm + nhãn nhỏ + "Xem thêm »" ── */
 .the{background:var(--the);border:1px solid var(--vien);border-radius:var(--r);padding:16px 18px;box-shadow:var(--bong)}
@@ -341,7 +341,7 @@ footer a{color:#DDE2EA}
 /* ── Thanh sắp xếp / lọc (kiểu tab 综合/史低 của trang Trung Quốc) ── */
 .thanh-loc{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--vien);padding-bottom:10px}
 .nhom-loc{display:flex;gap:6px;flex-wrap:wrap}
-.thanh-loc .vung-chon{flex:0 1 560px;min-width:0}  /* Hào 01/10 rà soát: 520 cắt chữ nút "Ấn Độ" từ 861px — cùng 560 với .dau-muc .vung-chon (khung_trang) */
+.thanh-loc .vung-chon{flex:0 1 620px;min-width:0}  /* Hào 01/10 rà soát: 520 cắt chữ nút "Ấn Độ" từ 861px; 15/10 thêm nút Ukraine (7 nút) -> 620, đo 1440px vừa khít 553/553 — cùng 620 với .dau-muc .vung-chon (khung_trang) */
 .ghi-gia{margin:-4px 0 0;font-size:12.5px;color:var(--phu)}
 .an-chu{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .tab-sx{font:inherit;font-size:13.5px;font-weight:700;padding:6px 14px;border-radius:999px;background:transparent;color:var(--phu);border:0}
@@ -636,7 +636,7 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
   <section id="plus">
     <div class="ba-cot pr-ba"><article class="the pr-the"><div class="kp-goi-bn kp-bn-1"><img src="bieu-tuong/ps-plus.webp" alt="" width="40" height="40"><div><span class="kp-bn-nhan">PlayStation Plus 12 tháng</span><span class="kp-bn-ten">Essential</span><span class="kp-bn-phu">Gói cơ bản</span></div></div><div class="pr-than"><p class="pr-nhan">Rẻ nhất hôm nay</p><p class="pr-gia">1.750.000đ</p><p class="pr-vung">Mua ở vùng <b>Hồng Kông</b> — nạp thẻ PSN Hồng Kông</p></div></article><article class="the pr-the"><div class="kp-goi-bn kp-bn-2"><img src="bieu-tuong/ps-plus.webp" alt="" width="40" height="40"><div><span class="kp-bn-nhan">PlayStation Plus 12 tháng</span><span class="kp-bn-ten">Extra</span><span class="kp-bn-phu">Có kho game</span></div></div><div class="pr-than"><p class="pr-nhan">Rẻ nhất hôm nay</p><p class="pr-gia">2.923.000đ</p><p class="pr-vung">Mua ở vùng <b>Hồng Kông</b> — nạp thẻ PSN Hồng Kông</p></div></article><article class="the pr-the"><div class="kp-goi-bn kp-bn-3"><img src="bieu-tuong/ps-plus.webp" alt="" width="40" height="40"><div><span class="kp-bn-nhan">PlayStation Plus 12 tháng</span><span class="kp-bn-ten">Deluxe / Premium</span><span class="kp-bn-phu">Gói cao nhất</span></div></div><div class="pr-than"><p class="pr-nhan">Rẻ nhất hôm nay</p><p class="pr-gia">3.500.000đ</p><p class="pr-vung">Mua ở vùng <b>Hồng Kông</b> — nạp thẻ PSN Hồng Kông</p></div></article></div>
     <div class="the pr-bang">
-      <h2>So giá 6 vùng</h2>
+      <h2>So giá 7 vùng</h2>
       <p class="phu">Mỗi ô là số tiền Việt thực trả cho gói 12 tháng: mua thẻ PSN của vùng đó ở Việt Nam rồi nạp vào tài khoản cùng vùng. Vùng rẻ lên trên.</p>
       
       <p class="phu pr-vuot">Vuốt ngang để xem Extra và Deluxe →</p>
@@ -645,8 +645,8 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
         <th scope=col class="pr-cot pr-cot-1"><span class="pr-hang"><i class="pr-cap" aria-label="Cấp 1/3">◆◇◇</i><b>Essential</b><small>Gói cơ bản</small></span></th>
         <th scope=col class="pr-cot pr-cot-2"><span class="pr-hang"><i class="pr-cap" aria-label="Cấp 2/3">◆◆◇</i><b>Extra</b><small>Có kho game</small></span></th>
         <th scope=col class="pr-cot pr-cot-3"><span class="pr-hang"><i class="pr-cap" aria-label="Cấp 3/3">◆◆◆</i><b>Deluxe / Premium</b><small>Gói cao nhất</small></span></th></tr></thead>
-      <tbody><tr><th scope=row>Hồng Kông<small class="chip-re">Rẻ nhất cả 3 gói</small></th><td class="c1 o-re"><b>1.750.000đ</b></td><td class="c2 o-re"><b>2.923.000đ</b></td><td class="c3 o-re"><b>3.500.000đ</b></td></tr><tr><th scope=row>Singapore</th><td class="c1"><b>1.956.000đ</b></td><td class="c2"><b>3.144.000đ</b></td><td class="c3"><b>3.738.000đ</b></td></tr><tr><th scope=row>Thái Lan</th><td class="c1"><b>2.053.000đ</b></td><td class="c2"><b>3.472.000đ</b></td><td class="c3"><b>4.060.000đ</b></td></tr><tr><th scope=row>Indonesia</th><td class="c1"><b>2.121.000đ</b></td><td class="c2"><b>3.591.000đ</b></td><td class="c3"><b>4.179.000đ</b></td></tr><tr><th scope=row>Mỹ</th><td class="c1"><b>2.240.000đ</b></td><td class="c2"><b>3.780.000đ</b></td><td class="c3"><b>4.480.000đ</b></td></tr><tr class=vung-mo><th scope=row>Ấn Độ<small class="vung-phu">chưa có thẻ bán ở VN*</small></th><td class="c1"><b>1.396.000đ</b></td><td class="c2"><b>2.366.000đ</b></td><td class="c3"><b>2.684.000đ</b></td></tr></tbody></table></div>
-      <p class="phu pr-chu">* Ấn Độ: chưa có thẻ PSN bán ở Việt Nam nên tính theo tỷ giá ngân hàng, chỉ để tham khảo. Mỹ gọi gói cao nhất là Premium, châu Á gọi Deluxe.</p>
+      <tbody><tr><th scope=row>Hồng Kông<small class="chip-re">Rẻ nhất cả 3 gói</small></th><td class="c1 o-re"><b>1.750.000đ</b></td><td class="c2 o-re"><b>2.923.000đ</b></td><td class="c3 o-re"><b>3.500.000đ</b></td></tr><tr><th scope=row>Singapore</th><td class="c1"><b>1.956.000đ</b></td><td class="c2"><b>3.144.000đ</b></td><td class="c3"><b>3.738.000đ</b></td></tr><tr><th scope=row>Thái Lan</th><td class="c1"><b>2.053.000đ</b></td><td class="c2"><b>3.472.000đ</b></td><td class="c3"><b>4.060.000đ</b></td></tr><tr><th scope=row>Indonesia</th><td class="c1"><b>2.121.000đ</b></td><td class="c2"><b>3.591.000đ</b></td><td class="c3"><b>4.179.000đ</b></td></tr><tr><th scope=row>Mỹ</th><td class="c1"><b>2.240.000đ</b></td><td class="c2"><b>3.780.000đ</b></td><td class="c3"><b>4.480.000đ</b></td></tr><tr class=vung-mo><th scope=row>Ukraine<small class="vung-phu">chưa có thẻ bán ở VN*</small></th><td class="c1"><b>747.000đ</b></td><td class="c2"><b>1.236.000đ</b></td><td class="c3"><b>1.431.000đ</b></td></tr><tr class=vung-mo><th scope=row>Ấn Độ<small class="vung-phu">chưa có thẻ bán ở VN*</small></th><td class="c1"><b>1.397.000đ</b></td><td class="c2"><b>2.367.000đ</b></td><td class="c3"><b>2.685.000đ</b></td></tr></tbody></table></div>
+      <p class="phu pr-chu">* Ấn Độ, Ukraine: chưa có thẻ PSN bán ở Việt Nam nên tính theo tỷ giá ngân hàng, chỉ để tham khảo. Mỹ gọi gói cao nhất là Premium, châu Á gọi Deluxe.</p>
     </div>
     <p class="phu"><svg class="ic nho" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>Giá thẻ PSN theo <a href="https://muagame.vn/psn.html?filter_attr=622" rel="noopener" target="_blank">muagame.vn</a> — lấy giá 15/10/2026.</p>
   </section>
