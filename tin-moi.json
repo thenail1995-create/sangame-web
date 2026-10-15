@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Warhammer Survivors launches November 10, new characters revealed",
-  "url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed/",
-  "ngay": "2026-10-06T21:00:51+07:00",
-  "the_loai": [
-   "PS5",
-   "Auroch Digital",
-   "Warhammer Survivors"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-06T21:10:52+07:00"
- },
- {
   "nguon": "PS Store",
   "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (3193 → 4674 món)",
   "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
@@ -3575,6 +3560,27 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Roguelite pinball shooter Appulse will launch for PC via Steam on November 26, publisher Raw …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Cinematic first-person psychological horror game Encryption announced for PC",
+  "url": "https://www.gematsu.com/2026/10/cinematic-first-person-psychological-horror-game-encryption-announced-for-pc",
+  "ngay": "2026-10-16T02:41:19+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Digital Lighthouse",
+   "Encryption",
+   "Galaxies Autumn 2026",
+   "Game Announce",
+   "Horror",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Digital Lighthouse Games has announced Encryption, a cinematic first-person psychological horror game set during a …",
   "goi_y_ps": false
  }
 ]
