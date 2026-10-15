@@ -2689,7 +2689,8 @@
   "ly_do_hot": "có từ khoá 'PS Plus'",
   "da_viet": false,
   "tom_tat": "Try these PS5 games for Halloween. Should you want to get in the mood for Halloween a week ahead of time, Sony is providing PS Plus Premium users with a two new Trials on the service's top tier, all for PS5 horror games. All available from Tuesday, 20th October 2026, members can sample the following: Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-15T20:20:58+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -2711,7 +2712,8 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "In case you missed it, PS Plus Extra and Premium users can now play an award-winning PS5 adventure game via the catalog. Developed by MoonHood, The Midnight Walk is the first game from the October 2026 catalog update to roll out. Horror adventure game The Midnight Walk now available via PS Plus Extra catalog in […] The post PlayStation Plus Adds Award-Winning 2025 PS5 Adventure Game appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-15T20:20:58+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -2833,7 +2835,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Pixel RPG Forge of the Fae will launch for PlayStation 5, Xbox Series, PlayStation 4, …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-15T20:20:58+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -2907,7 +2910,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Just gotta get through it. Rockstar Games has released the launch trailer for GTA 6 , giving us one more fresh look at the game ahead of its arrival. Watch it here: Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-15T20:20:58+07:00"
  },
  {
   "nguon": "Push Square",
@@ -2919,6 +2923,47 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Imagine if it didn't. The Game Awards will of course take place again this year, and now that we're creeping towards the big event, details on the voting process have started to emerge. As you may already know, nominees are decided by a select jury, made up of media and influencers from across the world — but there needs to be cutoff criteria that determines which games are actually eligible. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Grand Theft Auto VI launch trailer",
+  "url": "https://www.gematsu.com/2026/10/grand-theft-auto-vi-launch-trailer",
+  "ngay": "2026-10-15T20:13:59+07:00",
+  "the_loai": [
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Grand Theft Auto VI",
+   "Rockstar Games",
+   "Rockstar North",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Rockstar Games has released the launch trailer for Grand Theft Auto VI, just over one …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-15T20:20:58+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "El Paso, Elsewhere 2 demo now available for PC",
+  "url": "https://www.gematsu.com/2026/10/el-paso-elsewhere-2-demo-now-available-for-pc",
+  "ngay": "2026-10-15T20:05:17+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Demos",
+   "El Paso Elsewhere 2",
+   "Frosty Pop",
+   "Strange Scaffold",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A demo for El Paso, Elsewhere 2 is now available for PC via Steam as part …",
   "goi_y_ps": false
  }
 ]
