@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Store",
-  "tieu_de": "PS Store (US) vừa mở đợt giảm giá mới (5984 → 7939 món)",
-  "url": "https://store.playstation.com/en-us/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
-  "ngay": "2026-10-07T14:10:56+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "số món giảm giá tăng 33% so với đỉnh 12 lần gần nhất",
-  "da_viet": false
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -3596,5 +3584,17 @@
   "tom_tat": "David Hasselhoff’s Knight Rider just released a trailer hinting at the next expansion of the franchise. As revealed by a new gameplay trailer, Knight Industries Two Thousand, the iconic car from Knight Rider, will appear in Stuntman: Hollywood. Originally airing from 1982 to 1986, the Knight Rider series followed Michael Knight, played by David Hasselhoff, […] The post Knight Rider: David Hasselhoff Franchise Returns to Hollywood in a Surprising Way, Watch Trailer appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-16T05:40:55+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Animal Evolution Sim Ancestors Gets Surprise PS5 Version, Free Upgrade for PS4 Owners",
+  "url": "https://www.pushsquare.com/news/2026/10/animal-evolution-sim-ancestors-gets-surprise-ps5-version-free-upgrade-for-ps4-owners",
+  "ngay": "2026-10-16T06:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "Out on 8th December 2026. Did you ever think you'd hear of the forgotten PS4 animal evolution sim Ancestors: A Humankind Odyssey again? I most certainly didn't, but here we are with the announcement of a PS5 version coming 8th December 2026. Panache Digital Games revealed it'll be debuting on Nintendo consoles with a Switch 2 edition, which I suspect is the main reason behind today's reveal. However, in the process, the developer has also decided to put out native PS5 and Xbox Series X|S versions. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
