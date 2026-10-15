@@ -1,20 +1,6 @@
 [
  {
   "nguon": "PlayStation Blog",
-  "tieu_de": "Official PlayStation Podcast Episode 549: Friendly Ghosts",
-  "url": "https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts/",
-  "ngay": "2026-10-03T00:58:44+07:00",
-  "the_loai": [
-   "Uncategorized",
-   "Official PlayStation Podcast",
-   "PlayStation Blogcast"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false
- },
- {
-  "nguon": "PlayStation Blog",
   "tieu_de": "Players’ Choice: Vote for September’s best new game",
   "url": "https://blog.playstation.com/2026/10/05/players-choice-vote-for-septembers-best-new-game-4/",
   "ngay": "2026-10-05T21:00:16+07:00",
@@ -3542,6 +3528,26 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Saber Interactive has released a new trailer for single-player action racing game Stuntman: Hollywood introducing …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Horror Game Gets Exclusive Feature With a Unique DualSense Use & Free Update",
+  "url": "https://www.playstationlifestyle.net/2026/10/15/silverpine-creek-ps5-free-update-witch-korana",
+  "ngay": "2026-10-16T03:41:35+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "DualSense",
+   "Entertainment and Gaming",
+   "Horror",
+   "PS5",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "A recently released PS5 horror game just received a free update that adds a unique gameplay feature utilizing the DualSense controller The post PS5 Horror Game Gets Exclusive Feature With a Unique DualSense Use & Free Update appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
