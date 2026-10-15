@@ -130,7 +130,8 @@
    "https://www.gematsu.com/?p=1084396",
    "https://www.gematsu.com/?p=1084586",
    "https://www.gematsu.com/?p=1084592",
-   "https://www.gematsu.com/?p=1084661"
+   "https://www.gematsu.com/?p=1084661",
+   "https://www.gematsu.com/?p=1084675"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207487",
@@ -289,7 +290,7 @@
   "en-US": [
    5139,
    5139,
-   5139,
+   5141,
    5141,
    5141,
    5141,
@@ -303,7 +304,7 @@
   "en-SG": [
    2703,
    2703,
-   2703,
+   2732,
    2732,
    2732,
    2732,
@@ -338,5 +339,5 @@
   "Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-10-15T20:20:58+07:00"
+ "lan_goi_viet": "2026-10-15T23:20:58+07:00"
 }

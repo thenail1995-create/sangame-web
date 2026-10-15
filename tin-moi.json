@@ -3017,7 +3017,8 @@
   "ly_do_hot": "có từ khoá 'Gran Turismo'",
   "da_viet": false,
   "tom_tat": "Just a six minutes and 40 seconds opening movie. Gran Turismo 7 developer Polyphony Digital really, really loves cars. You would hope it does, anyway, since it makes one of the most successful racing series of all time. However, the Japanese team is obsessive about them, and it's proud of it. There's no better display of that in its brand new Gran Turismo 7 opening movie, which has been updated and refreshed to coincide with the release of the PS5, PS4 game's Spec IV update today. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-15T23:20:58+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3143,7 +3144,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Rockstar Games releases the launch trailer for GTA 6. The post GTA 6 Trailer Teases a Crime Spree That Spirals Out of Control appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-15T23:20:58+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3155,7 +3157,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "What a cross-over. If you're a fan of electronic music, you'll probably over the moon to learn that Justice are behind GTA 6's original score. It's an incredibly high profile collaboration; Justice are one of the biggest in the biz, with a catalogue of fantastic albums, singles, and productions stretching back into the mid 2000s. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-15T23:20:58+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3187,7 +3190,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "It's for the best. Edge of Memories , the JRPG-inspired outing by French dev Midgar, had been one of the few games willing to go head-to-head with GTA 6 . It was originally due out on 5th November, which is also when Nintendo’s Ocarina of Time remake drops, by the way. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-15T23:20:58+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3207,7 +3211,8 @@
   "ly_do_hot": "có từ khoá 'price'",
   "da_viet": false,
   "tom_tat": "A popular open-world action RPG is heavily discounted on the PlayStation Store. Ahead of Harry Potter Season 1’s release, Hogwarts Legacy‘s PS5 Pro Enhanced version is available at an 85% discount. The game originally cost $69.99. It is now available for $10.49. The offer lasts until October 22, 2026. What to expect from Hogwarts Legacy’s […] The post Popular PS5 Pro Enhanced RPG Slashes Price by 85% on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-15T23:20:58+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3220,5 +3225,25 @@
   "da_viet": false,
   "tom_tat": "Ready, fight. Unlike Steven E. de Souza’s 1994 take on Street Fighter , I don’t think it’ll take decades for Kitao Sakurai’s effort to find its fans. This latest live action attempt, starring Andrew Koji and Noah Centineo as brawl bros Ryu and Ken, understands there’s zero point in trying to transform Capcom’s gaudy fighting franchise into high art. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "CONTROL Resonant sales top one million",
+  "url": "https://www.gematsu.com/2026/10/control-resonant-sales-top-one-million",
+  "ngay": "2026-10-15T23:12:47+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "CONTROL Resonant",
+   "Remedy Entertainment",
+   "RPG",
+   "Sales"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Total sales for supernatural action RPG CONTROL Resonant have surpassed one million units, developer Remedy …",
+  "goi_y_ps": false
  }
 ]
