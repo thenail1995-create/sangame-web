@@ -1,21 +1,6 @@
 [
  {
   "nguon": "PlayStation Blog",
-  "tieu_de": "Martial arts meet fluid platforming in Elta: Defy All Gods, with a free PS5 demo out today",
-  "url": "https://blog.playstation.com/2026/10/01/martial-arts-meet-fluid-platforming-in-elta-defy-all-gods-with-a-free-ps5-demo-out-today/",
-  "ngay": "2026-10-01T22:00:44+07:00",
-  "the_loai": [
-   "PS5",
-   "Afterburner Studios",
-   "Elta: Defy All God"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-03T16:10:43+07:00"
- },
- {
-  "nguon": "PlayStation Blog",
   "tieu_de": "Share of the Week: Marvel’s Wolverine – Logan",
   "url": "https://blog.playstation.com/2026/10/02/share-of-the-week-marvels-wolverine-logan/",
   "ngay": "2026-10-02T23:00:10+07:00",
@@ -3517,6 +3502,30 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Dark fantasy roguelite action RPG Ember & Blade will launch in Early Access for PC …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Gravity Circuit 2 adds Switch 2 version, launches in spring 2027",
+  "url": "https://www.gematsu.com/2026/10/gravity-circuit-2-adds-switch-2-version-launches-in-spring-2027",
+  "ngay": "2026-10-16T02:28:02+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Clips",
+   "Dear Villagers",
+   "Domesticated Ant Games",
+   "Galaxies Autumn 2026",
+   "Gravity Circuit 2",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Side-scrolling action platformer sequel Gravity Circuit 2 will launch for PlayStation 5, Switch 2, Switch, …",
   "goi_y_ps": false
  }
 ]
