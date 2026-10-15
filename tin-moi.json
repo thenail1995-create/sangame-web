@@ -1,48 +1,6 @@
 [
  {
   "nguon": "PlayStation Blog",
-  "tieu_de": "Players’ Choice: Vote for September’s best new game",
-  "url": "https://blog.playstation.com/2026/10/05/players-choice-vote-for-septembers-best-new-game-4/",
-  "ngay": "2026-10-05T21:00:16+07:00",
-  "the_loai": [
-   "PS5",
-   "Players’ Choice"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-05T21:10:49+07:00"
- },
- {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Everything you need to know about DMZ mode in  Call of Duty: Modern Warfare 4",
-  "url": "https://blog.playstation.com/2026/10/05/everything-you-need-to-know-about-dmz-mode-in-call-of-duty-modern-warfare-4/",
-  "ngay": "2026-10-06T00:15:00+07:00",
-  "the_loai": [
-   "PS5",
-   "Activision",
-   "Call of Duty: Modern Warfare 4",
-   "Infinity Ward"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Call of Duty'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-06T00:20:49+07:00"
- },
- {
-  "nguon": "PS Plus Extra",
-  "tieu_de": "Kho PS Plus Extra: tổng số game trong kho tăng từ 418 lên 419",
-  "url": "https://store.playstation.com/en-sg/category/3a7006fe-e26f-49fe-87e5-4473d7ed0fb2/1",
-  "ngay": "2026-10-06T07:01:29+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "tổng kho vượt đỉnh 12 lần gần nhất",
-  "da_viet": false
- },
- {
-  "nguon": "PlayStation Blog",
   "tieu_de": "Warhammer Survivors launches November 10, new characters revealed",
   "url": "https://blog.playstation.com/2026/10/06/warhammer-survivors-launches-november-10-new-characters-revealed/",
   "ngay": "2026-10-06T21:00:51+07:00",
@@ -3548,6 +3506,75 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "A recently released PS5 horror game just received a free update that adds a unique gameplay feature utilizing the DualSense controller The post PS5 Horror Game Gets Exclusive Feature With a Unique DualSense Use & Free Update appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Squad coming to PS5, Xbox Series in 2027",
+  "url": "https://www.gematsu.com/2026/10/squad-coming-to-ps5-xbox-series-in-2027",
+  "ngay": "2026-10-16T02:35:44+07:00",
+  "the_loai": [
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "FPS",
+   "Galaxies Autumn 2026",
+   "Offworld Industries",
+   "Release Dates",
+   "Secret Mode",
+   "Shooter",
+   "Squad",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Secret Mode and developer Offworld Industries will release PlayStation 5 and Xbox Series of …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Monochromatic Metroidvania game Lelu launches January 21, 2027 for Xbox Series, Switch 2, and PC",
+  "url": "https://www.gematsu.com/2026/10/monochromatic-metroidvania-game-lelu-launches-january-21-2027-for-xbox-series-switch-2-and-pc",
+  "ngay": "2026-10-16T02:30:32+07:00",
+  "the_loai": [
+   "PC",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Electronic Sheep Games",
+   "Galaxies Autumn 2026",
+   "jamierowan",
+   "Lelu",
+   "Release Dates",
+   "Super Rare Originals",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Monochromatic Metroidvania game Lelu will launch for Xbox Series, Switch 2, and PC via Steam …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Appulse launches November 26",
+  "url": "https://www.gematsu.com/2026/10/appulse-launches-november-26",
+  "ngay": "2026-10-16T02:19:03+07:00",
+  "the_loai": [
+   "PC",
+   "Appulse",
+   "Clips",
+   "Galaxies Autumn 2026",
+   "Le Rado",
+   "Raw Fury",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Roguelite pinball shooter Appulse will launch for PC via Steam on November 26, publisher Raw …",
   "goi_y_ps": false
  }
 ]
