@@ -1,34 +1,6 @@
 [
  {
   "nguon": "PlayStation Blog",
-  "tieu_de": "Share of the Week: Marvel’s Wolverine – Logan",
-  "url": "https://blog.playstation.com/2026/10/02/share-of-the-week-marvels-wolverine-logan/",
-  "ngay": "2026-10-02T23:00:10+07:00",
-  "the_loai": [
-   "PS5",
-   "Marvel’s Wolverine",
-   "Share of the Week"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false
- },
- {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Ghost of Yōtei Complete Edition – Erika Ishii interview",
-  "url": "https://blog.playstation.com/2026/10/02/ghost-of-yotei-complete-edition-erika-ishii-interview/",
-  "ngay": "2026-10-02T20:00:05+07:00",
-  "the_loai": [
-   "PS5",
-   "Ghost of Yōtei"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Ghost of'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-03T16:10:43+07:00"
- },
- {
-  "nguon": "PlayStation Blog",
   "tieu_de": "Official PlayStation Podcast Episode 549: Friendly Ghosts",
   "url": "https://blog.playstation.com/2026/10/02/official-playstation-podcast-episode-549-friendly-ghosts/",
   "ngay": "2026-10-03T00:58:44+07:00",
@@ -3526,6 +3498,50 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Side-scrolling action platformer sequel Gravity Circuit 2 will launch for PlayStation 5, Switch 2, Switch, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "SPINE ‘Customization Announce’ trailer, screenshots",
+  "url": "https://www.gematsu.com/2026/10/spine-customization-announce-trailer-screenshots",
+  "ngay": "2026-10-16T02:57:32+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Galaxies Autumn 2026",
+   "Nekki",
+   "Screenshots",
+   "SPINE",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Nekki has released a new trailer and screenshots for single-player story-focused action game SPINE introducing …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Stuntman: Hollywood ‘Knight Rider’ gameplay reveal trailer",
+  "url": "https://www.gematsu.com/2026/10/stuntman-hollywood-knight-rider-gameplay-reveal-trailer",
+  "ngay": "2026-10-16T02:05:37+07:00",
+  "the_loai": [
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Galaxies Autumn 2026",
+   "Racing Games",
+   "Saber Interactive",
+   "Stuntman: Hollywood",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Saber Interactive has released a new trailer for single-player action racing game Stuntman: Hollywood introducing …",
   "goi_y_ps": false
  }
 ]
