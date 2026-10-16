@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-07T23:31:09+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Chained Echoes, Fallout 76 PS4 & PS5, MLB® The Show™ 26, MLB® The Show™ 26 Jump Start Bundle, Sniper Elite: Resistance PS4™ & PS5™, Wobbly Life",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-10-07T23:40:50+07:00",
@@ -3668,5 +3656,17 @@
   "tom_tat": "Recently, I visited Marvelous at its Shinagawa headquarters for a one-hour preview of its upcoming …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-16T11:50:52+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Pokémon Dev Already Finished with Beast of Reincarnation PS5 Patches",
+  "url": "https://www.pushsquare.com/news/2026/10/pokemon-dev-already-finished-with-beast-of-reincarnation-ps5-patches",
+  "ngay": "2026-10-16T17:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Final update on 19th October. Pokémon studio Game Freak has announced next week's Beast of Reincarnation update, arriving on 19th October 2026, will be the game's final one. The developer shared that its post-launch support of updates and patches \"is coming to a close\". It invites players to file support tickets if they encounter any issues in the future, but next week's update shall \"be the final patch in this ongoing phase of major post-launch updates\". Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
