@@ -1,46 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "No Man’s Sky coming to iOS on October 28",
-  "url": "https://www.gematsu.com/2026/10/no-mans-sky-coming-to-ios-on-october-28",
-  "ngay": "2026-10-12T21:16:38+07:00",
-  "the_loai": [
-   "Smartphone",
-   "Clips",
-   "Hello Games",
-   "No Man's Sky",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Hello Games will release No Man’s Sky for iOS on October 28, the company announced. …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Chivalware adds Switch 2 version, launches November 5",
-  "url": "https://www.gematsu.com/2026/10/chivalware-adds-switch-2-version-launches-november-5",
-  "ngay": "2026-10-12T22:25:03+07:00",
-  "the_loai": [
-   "PC",
-   "Switch 2",
-   "Chivalware",
-   "Clips",
-   "Imperfect Games",
-   "Regal Pigeon",
-   "Release Dates",
-   "The Arcade Crew",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Tile-matching roguelite action game em>Chivalware will be available for Switch 2 and PC via Steam …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Poll: Vote for Your PS5 Game of the Month (September 2026)",
   "url": "https://www.pushsquare.com/features/poll-vote-for-your-ps5-game-of-the-month-september-2026",
@@ -3739,6 +3698,48 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "C#4R4CT3R has released a demo for Tokyo 1998-set lo-fi psychological suspense adventure Rain98 for PC via …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Toxic Crusaders ‘Gameplay’ trailer",
+  "url": "https://www.gematsu.com/2026/10/toxic-crusaders-gameplay-trailer",
+  "ngay": "2026-10-16T23:55:46+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Xbox One",
+   "Xbox Series",
+   "Clips",
+   "retrware",
+   "The MIX Fall Showcase 2026",
+   "Toxic Crusaders",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Retroware has released a new gameplay trailer for side-scrolling beat ’em up game Toxic Crusaders. …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Call of Duty: Modern Warfare 4 Can Be Played Early on PS5, Here’s How",
+  "url": "https://www.playstationlifestyle.net/2026/10/16/call-of-duty-modern-warfare-4-early-access-ps5",
+  "ngay": "2026-10-17T00:00:00+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Call of Duty: Modern Warfare 4",
+   "Entertainment and Gaming",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Call of Duty'",
+  "da_viet": false,
+  "tom_tat": "Players can now play the next chapter in the Call of Duty franchise early. Modern Warfare 4 begins its early access today across multiple platforms, including PlayStation 5. The game is currently available for preorder and is scheduled for full release on October 23, 3036. The game’s premise reads, “War erupts on the Korean Peninsula […] The post Call of Duty: Modern Warfare 4 Can Be Played Early on PS5, Here’s How appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
