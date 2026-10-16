@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Review: Valor Mortis (PS5) - Imperial Ambitions, Largely Realised",
-  "url": "https://www.pushsquare.com/reviews/ps5/valor-mortis",
-  "ngay": "2026-10-12T20:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Short in a few places, but a titan where it counts. Valor Mortis is an exceedingly fresh take on the tired Soulslike genre. Its engaging first-person combat, grimdark Napoleonic setting, and impeccable level design make it a must-play for enthusiasts in an already busy gaming season, even if it does stumble in places. Developed by One More Level, the Polish studio behind the frenetic, first-person action games Ghostrunner and Ghostrunner 2 , you can expect plenty of explosive combat and vaguely terrifying platforming sections, as well as the expected multi-phase boss fights. Read the full arti…",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-12T22:01:33+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Hunter’s Moon voice cast announced",
   "url": "https://www.gematsu.com/2026/10/hunters-moon-voice-cast-announced",
@@ -3728,5 +3715,26 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'Marvel'",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "HYPERyuki: Snowboard Syndicate PC demo coming soon",
+  "url": "https://www.gematsu.com/2026/10/hyperyuki-snowboard-syndicate-pc-demo-coming-soon",
+  "ngay": "2026-10-16T23:20:40+07:00",
+  "the_loai": [
+   "PC",
+   "Acclaim",
+   "Clips",
+   "Demos",
+   "HYPERYuki: Snowboard Syndicate",
+   "Sports Games",
+   "The MIX Fall Showcase 2026",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Acclaim and developer Wabisabi Games will soon release a demo for Y2K-style extreme snowboarding …",
+  "goi_y_ps": false
  }
 ]
