@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Chained Echoes, Fallout 76 PS4 & PS5, MLB® The Show™ 26, MLB® The Show™ 26 Jump Start Bundle, Sniper Elite: Resistance PS4™ & PS5™, Wobbly Life",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-08T05:40:48+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-08T05:50:48+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Critical Role joins Rockbeasts, launching January 2027.",
   "url": "https://blog.playstation.com/2026/10/08/critical-role-joins-rockbeasts-launching-january-2027/",
@@ -3717,5 +3693,38 @@
   "tom_tat": "\"I’m most definitely playing on a PS5\". Sony’s unprecedented multi-million dollar GTA 6 PS5 marketing push is already reaping dividends. A short reaction video published by juggernaut streamer IShowSpeed shows the platform holder’s approach working in real time. The manufacturer has paid handsomely to have its console closely associated with Rockstar’s upcoming open world game, and the launch trailer is packed with PlayStation iconography, including a short statement which says the game ‘ Plays Best on PS5 ’. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-10-16T21:01:35+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Second Stone demo launches October 19",
+  "url": "https://www.gematsu.com/2026/10/second-stone-demo-launches-october-19",
+  "ngay": "2026-10-16T21:07:17+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Demos",
+   "Headup Games",
+   "Release Dates",
+   "Second Stone",
+   "Skyward Entertainment",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Publisher Headup and developer Skyward Entertainment will release a demo for action RPG Second Stone …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony Has Caused 'Friction' Between It and PlayStation Fans Over Disc Mess, Says PS1, PS2, PS3 Creator",
+  "url": "https://www.pushsquare.com/news/2026/10/sony-has-caused-friction-between-it-and-playstation-fans-over-disc-mess-says-ps1-ps2-ps3-creator",
+  "ngay": "2026-10-16T21:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Kutaragi understands both sides of the argument. The general sentiment surrounding PlayStation from hardcore players is at a real low point, spurred mostly by the firm's decision to stop making disc-based copies of PlayStation games from January 2028 onwards. It has gotten to the point where fairly innocuous pieces of news , that would usually just come and go, are attracting the ire of PlayStation fans — the brand can't do anything right at the moment, in some people's eyes. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
