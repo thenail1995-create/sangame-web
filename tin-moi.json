@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Clair Obscur: Expedition 33 Actor Outs Mysterious SEGA Game",
-  "url": "https://www.pushsquare.com/news/2026/10/clair-obscur-expedition-33-actor-outs-mysterious-sega-game",
-  "ngay": "2026-10-12T23:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "What a Cox up. Some of you may know Charlie Cox as the man behind Gustave in Clair Obscur: Expedition 33 — others might recognise him from the Daredevil TV series. But big news here is that he's been providing voicework for some unannounced SEGA title. Cox got his start in video game-related stuff with the aforementioned Clair Obscur, so it's nice to hear that he's sticking with gaming and finding more roles to fill. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-13T01:01:34+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Castlevania: Belmont's Curse Asks for No Less Than 100% Completion for the Platinum Trophy",
   "url": "https://www.pushsquare.com/news/2026/10/castlevania-belmonts-curse-asks-for-no-less-than-100percent-completion-for-the-platinum-trophy",
   "ngay": "2026-10-13T00:00:00+07:00",
@@ -3744,6 +3731,28 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "It's so ogre. Back when basically every movie got a tie-in game, Shrek 2 released on PS2, and it's fondly remembered by fans despite its rough edges. Well, if you want to feel all nostalgic, here's some good news: the co-op brawler is making its grand return in Shrek 2 Remastered. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Coral Island coming to Switch 2 this winter alongside version 1.4 update",
+  "url": "https://www.gematsu.com/2026/10/coral-island-coming-to-switch-2-this-winter-alongside-version-1-4-update",
+  "ngay": "2026-10-16T23:30:26+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Balor Games",
+   "Coral Island",
+   "Release Dates",
+   "Stairway Games",
+   "The MIX Fall Showcase 2026"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Balor Games and developer Stairway Games will release a Switch 2 version of simulation …",
   "goi_y_ps": false
  }
 ]
