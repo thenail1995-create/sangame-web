@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Phoenix Cyclops joins MARVEL Tōkon: Fighting Souls on November 2",
-  "url": "https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2/",
-  "ngay": "2026-10-08T00:00:48+07:00",
-  "the_loai": [
-   "PS5",
-   "Marvel Tōkon: Fighting Souls"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-08T00:10:53+07:00"
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Chained Echoes, Fallout 76 PS4 & PS5, MLB® The Show™ 26, MLB® The Show™ 26 Jump Start Bundle, Sniper Elite: Resistance PS4™ & PS5™, Wobbly Life",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -3673,5 +3659,27 @@
   "da_viet": false,
   "tom_tat": "The whole KITT and caboodle. I'm living for the return of racing and driving games that are going against the grain, and next year's Stuntman: Hollywood is absolutely part of that conversation. It's looking really fun in this new gameplay trailer. It's focused on showcasing the sort of stunts you'll be pulling off in its Knight Rider -themed stages, letting you get behind the wheel of KITT: Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Gets Surprise Free Version of 2019 PS4 Open-World Game",
+  "url": "https://www.playstationlifestyle.net/2026/10/16/open-world-game-ancestors-humankind-odyssey-free-ps5",
+  "ngay": "2026-10-16T19:08:38+07:00",
+  "the_loai": [
+   "News",
+   "PS4 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Ancestors: The Humankind Odyssey",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Fictions",
+   "Panache Digital Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "PS5 players have been surprised with a free upgrade of a 2019 PS4 open-world game out of nowhere. Developed by Panache Digital Games, Ancestors: The Humankind Odyssey has been rebuilt with Unreal Engine 5 for current-gen. Free PS5 upgrade of open-world survival game Ancestors: The Humankind Odyssey gets PS Store release date Ancestors: The Humankind […] The post PS5 Gets Surprise Free Version of 2019 PS4 Open-World Game appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
