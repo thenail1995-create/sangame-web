@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Chained Echoes, Fallout 76 PS4 & PS5, MLB® The Show™ 26, MLB® The Show™ 26 Jump Start Bundle, Sniper Elite: Resistance PS4™ & PS5™, Wobbly Life",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-08T05:10:49+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-10-08T05:20:48+07:00",
@@ -3700,6 +3688,29 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "In news we didn’t expect to see, a popular 2015 multiplayer action game is getting a PS5 release, and you’ll be able to play it soon. First launched in early access over a decade ago, Squad is a tactical first-person shooter developed by Offworld Industries and published by Secret Mode. Multiplayer action shooter game Squad […] The post PS5 Getting Surprise Release of Popular Decade-Old Action Game appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Where the Seeds Fall ‘Cinematic’ trailer, PC demo now available",
+  "url": "https://www.gematsu.com/2026/10/where-the-seeds-fall-cinematic-trailer-pc-demo-now-available",
+  "ngay": "2026-10-16T15:00:34+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Clips",
+   "Cygames",
+   "CygamesEdge",
+   "Demos",
+   "Trailers",
+   "Where the Seeds Fall",
+   "ZEREO"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Cygames, and developers CygamesEdge and ZEREO have released a new trailer for “leap-of-faith” action …",
   "goi_y_ps": false
  }
 ]
