@@ -1,21 +1,6 @@
 [
  {
   "nguon": "PlayStation Blog",
-  "tieu_de": "Critical Role joins Rockbeasts, launching January 2027.",
-  "url": "https://blog.playstation.com/2026/10/08/critical-role-joins-rockbeasts-launching-january-2027/",
-  "ngay": "2026-10-09T00:00:00+07:00",
-  "the_loai": [
-   "PS5",
-   "Lichthund",
-   "Rockbeasts"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-09T00:01:31+07:00"
- },
- {
-  "nguon": "PlayStation Blog",
   "tieu_de": "Share of the Week: Marvel’s Wolverine – Allies & Villains",
   "url": "https://blog.playstation.com/2026/10/09/share-of-the-week-marvels-wolverine-allies-villains/",
   "ngay": "2026-10-09T22:59:32+07:00",
@@ -3725,6 +3710,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Kutaragi understands both sides of the argument. The general sentiment surrounding PlayStation from hardcore players is at a real low point, spurred mostly by the firm's decision to stop making disc-based copies of PlayStation games from January 2028 onwards. It has gotten to the point where fairly innocuous pieces of news , that would usually just come and go, are attracting the ire of PlayStation fans — the brand can't do anything right at the moment, in some people's eyes. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "STRANGER THAN HEAVEN ‘Act 1: Kokura’ story trailer",
+  "url": "https://www.gematsu.com/2026/10/stranger-than-heaven-act-1-kokura-story-trailer",
+  "ngay": "2026-10-16T21:12:33+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Ryu Ga Gotoku Studio",
+   "SEGA",
+   "STRANGER THAN HEAVEN",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher SEGA and developer RGG Studio have released the first in a set of multiple …",
   "goi_y_ps": false
  }
 ]
