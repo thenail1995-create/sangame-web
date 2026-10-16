@@ -1,24 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Hunter’s Moon voice cast announced",
-  "url": "https://www.gematsu.com/2026/10/hunters-moon-voice-cast-announced",
-  "ngay": "2026-10-12T20:24:47+07:00",
-  "the_loai": [
-   "PS5",
-   "Horror",
-   "Hunter's Moon",
-   "Twin Swans"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Twin Swans has announced the voice cast for first-person historical narrative folk-horror game Hunter’s Moon. …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-12T22:01:33+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Bless You Again demo now available",
   "url": "https://www.gematsu.com/2026/10/bless-you-again-demo-now-available",
   "ngay": "2026-10-12T20:34:41+07:00",
@@ -3735,6 +3717,25 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Acclaim and developer Wabisabi Games will soon release a demo for Y2K-style extreme snowboarding …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Shrek 2 Remastered Microsoft Store page appears",
+  "url": "https://www.gematsu.com/2026/10/shrek-2-remastered-microsoft-store-page-appears",
+  "ngay": "2026-10-16T23:32:05+07:00",
+  "the_loai": [
+   "Xbox Series",
+   "Aspyr",
+   "Clips",
+   "Leaks",
+   "Shrek 2 Remastered",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A Microsoft Store page for the unannounced Shrek 2 Remastered developed by Aspyr has gone …",
   "goi_y_ps": false
  }
 ]
