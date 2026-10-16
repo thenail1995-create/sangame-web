@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Chained Echoes, Fallout 76 PS4 & PS5, MLB® The Show™ 26, MLB® The Show™ 26 Jump Start Bundle, Sniper Elite: Resistance PS4™ & PS5™, Wobbly Life",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-07T19:31:13+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-10-07T20:57:22+07:00",
@@ -3613,5 +3601,26 @@
   "tom_tat": "Publisher and developer Square Enix, and developer TOSE have released new information and screenshots for …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-16T08:50:51+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dementium II coming to Steam on October 20",
+  "url": "https://www.gematsu.com/2026/10/dementium-ii-coming-to-steam-on-october-20",
+  "ngay": "2026-10-16T10:01:42+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Dementium II",
+   "FPS",
+   "Horror",
+   "Release Dates",
+   "Shooter",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Atooi will release horror first-person shooter sequel Dementium II for PC via Steam on October …",
+  "goi_y_ps": false
  }
 ]
