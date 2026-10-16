@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Castlevania: Belmont's Curse Asks for No Less Than 100% Completion for the Platinum Trophy",
-  "url": "https://www.pushsquare.com/news/2026/10/castlevania-belmonts-curse-asks-for-no-less-than-100percent-completion-for-the-platinum-trophy",
-  "ngay": "2026-10-13T00:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Rose to the challenge. The Trophy list for Castlevania: Belmont's Curse has emerged online just ahead of its launch, and it's not giving away that platinum for nothing. You can view the full list on PSNProfiles (watch out for spoilers, mind) and one Trophy stands out: you need to attain 100% completion. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-13T01:01:34+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "He-Man Fans Have a New Reason to Return to Eternia as Pre-Orders Open",
   "url": "https://www.playstationlifestyle.net/2026/10/12/he-man-masters-of-the-universe-dragon-pearl-of-destruction-game-pre-order",
@@ -3753,6 +3740,24 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Balor Games and developer Stairway Games will release a Switch 2 version of simulation …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Wolf Among Us Remastered for Switch delayed to unannounced date",
+  "url": "https://www.gematsu.com/2026/10/the-wolf-among-us-remastered-for-switch-delayed-to-unannounced-date",
+  "ngay": "2026-10-17T01:36:20+07:00",
+  "the_loai": [
+   "Switch",
+   "Delays",
+   "Release Dates",
+   "Telltale Games",
+   "The Wolf Among Us Remastered"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Telltale Games has delayed the Switch version of The Wolf Among Us Remastered from its …",
   "goi_y_ps": false
  }
 ]
