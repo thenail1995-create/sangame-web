@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-07T19:20:52+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Chained Echoes, Fallout 76 PS4 & PS5, MLB® The Show™ 26, MLB® The Show™ 26 Jump Start Bundle, Sniper Elite: Resistance PS4™ & PS5™, Wobbly Life",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-10-07T19:31:13+07:00",
@@ -3595,6 +3583,30 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "Out on 8th December 2026. Did you ever think you'd hear of the forgotten PS4 animal evolution sim Ancestors: A Humankind Odyssey again? I most certainly didn't, but here we are with the announcement of a PS5 version coming 8th December 2026. Panache Digital Games revealed it'll be debuting on Nintendo consoles with a Switch 2 edition, which I suspect is the main reason behind today's reveal. However, in the process, the developer has also decided to put out native PS5 and Xbox Series X|S versions. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dragon Quest Monsters: The Withered World details online content, offline Battle Arena, and Wrangler’s Gauntlet",
+  "url": "https://www.gematsu.com/2026/10/dragon-quest-monsters-the-withered-world-details-online-content-offline-battle-arena-and-wranglers-gauntlet",
+  "ngay": "2026-10-16T05:00:36+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Dragon Quest (series)",
+   "Dragon Quest Monsters: The Withered World",
+   "RPG",
+   "Screenshots",
+   "Square Enix",
+   "TOSE"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher and developer Square Enix, and developer TOSE have released new information and screenshots for …",
   "goi_y_ps": false
  }
 ]
