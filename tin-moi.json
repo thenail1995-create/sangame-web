@@ -1,38 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Bless You Again demo now available",
-  "url": "https://www.gematsu.com/2026/10/bless-you-again-demo-now-available",
-  "ngay": "2026-10-12T20:34:41+07:00",
-  "the_loai": [
-   "PC",
-   "Bless You Again",
-   "Clips",
-   "Demos",
-   "Gino Inc.",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A demo for anime-style 3D roguelite action game Bless You Again is now available for …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Retro-Style He-Man Beat-'Em-Up Finally Hits Up PS5 and PS4 in February",
-  "url": "https://www.pushsquare.com/news/2026/10/retro-style-he-man-beat-em-up-finally-hits-up-ps5-and-ps4-in-february",
-  "ngay": "2026-10-12T21:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "By the power of Grayskull. Publisher Clear River Games has announced a release date for its wonderfully retro side-scrolling brawler, He-Man and the Masters of the Universe: Dragon Pearl of Destruction . The game with the long name finally makes its way onto both PS5 and PS4 come 4th February, 2027. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-12T22:01:33+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "No Man’s Sky coming to iOS on October 28",
   "url": "https://www.gematsu.com/2026/10/no-mans-sky-coming-to-ios-on-october-28",
   "ngay": "2026-10-12T21:16:38+07:00",
@@ -3736,6 +3704,41 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A Microsoft Store page for the unannounced Shrek 2 Remastered developed by Aspyr has gone …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Official PlayStation Podcast Episode 551: Quadruple Duty",
+  "url": "https://blog.playstation.com/2026/10/16/official-playstation-podcast-episode-551-quadruple-duty/",
+  "ngay": "2026-10-16T23:46:26+07:00",
+  "the_loai": [
+   "Uncategorized",
+   "Official PlayStation Podcast",
+   "PlayStation Blogcast"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Rain98 demo now available",
+  "url": "https://www.gematsu.com/2026/10/rain98-demo-now-available",
+  "ngay": "2026-10-16T23:34:06+07:00",
+  "the_loai": [
+   "PC",
+   "C#4R4CT3R",
+   "Clips",
+   "Demos",
+   "Rain98",
+   "Screenshots",
+   "The MIX Fall Showcase 2026",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "C#4R4CT3R has released a demo for Tokyo 1998-set lo-fi psychological suspense adventure Rain98 for PC via …",
   "goi_y_ps": false
  }
 ]
