@@ -1,42 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Chained Echoes, Fallout 76 PS4 & PS5, MLB® The Show™ 26, MLB® The Show™ 26 Jump Start Bundle, Sniper Elite: Resistance PS4™ & PS5™, Wobbly Life",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-07T21:01:33+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-07T22:50:54+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Chained Echoes, Fallout 76 PS4 & PS5, MLB® The Show™ 26, MLB® The Show™ 26 Jump Start Bundle, Sniper Elite: Resistance PS4™ & PS5™, Wobbly Life",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-10-07T23:01:27+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-10-07T23:31:09+07:00",
@@ -3627,6 +3591,72 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Inside System will release dungeon RPG collection Brave Dungeon + Dark Witch’s Story: COMBAT for …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Heavy Metal Death Can now available for PS5, Xbox Series",
+  "url": "https://www.gematsu.com/2026/10/heavy-metal-death-can-now-available-for-ps5-xbox-series",
+  "ngay": "2026-10-16T11:05:50+07:00",
+  "the_loai": [
+   "PS5",
+   "Xbox Series",
+   "Game Release",
+   "Heavy Metal Death Can",
+   "Horror",
+   "Krufs Productions",
+   "Release Dates"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Survival horror game Heavy Metal Death Can is now available for PlayStation 5 and Xbox …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Eternal Anima interview with producer Makoto Shioda and development director Katsuhisa Higuchi – Future Sight Battles, time travel, and more",
+  "url": "https://www.gematsu.com/2026/10/eternal-anima-interview-with-producer-makoto-shioda-and-development-director-katsuhisa-higuchi-future-sight-battles-time-travel-and-more",
+  "ngay": "2026-10-16T11:01:34+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "ETERNAL ANIMA",
+   "Katsuhisa Higuchi",
+   "Makoto Shioda",
+   "Marvelous",
+   "RPG",
+   "Screenshots"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Gematsu recently sat down with Eternal Anima producer Makoto Shioda and development director Katsuhisa Higuchi …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Eternal Anima hands-on gameplay preview",
+  "url": "https://www.gematsu.com/2026/10/eternal-anima-hands-on-gameplay-preview",
+  "ngay": "2026-10-16T11:00:41+07:00",
+  "the_loai": [
+   "PC",
+   "Previews",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "ETERNAL ANIMA",
+   "Gameplay",
+   "Marvelous",
+   "RPG"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Recently, I visited Marvelous at its Shinagawa headquarters for a one-hour preview of its upcoming …",
   "goi_y_ps": false
  }
 ]
