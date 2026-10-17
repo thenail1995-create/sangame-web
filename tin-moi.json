@@ -1,46 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Blind Descent launches in Early Access for PC on December 2",
-  "url": "https://www.gematsu.com/2026/10/blind-descent-launches-in-early-access-for-pc-on-december-2",
-  "ngay": "2026-10-13T02:08:01+07:00",
-  "the_loai": [
-   "PC",
-   "Blind Descent",
-   "Clips",
-   "META Publishing",
-   "Pokuch",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Cooperative science-fiction survival game Blind Descent will launch in Early Access for PC via Steam, …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Usual June delayed to January 20, 2027",
-  "url": "https://www.gematsu.com/2026/10/usual-june-delayed-to-january-20-2027",
-  "ngay": "2026-10-13T02:12:14+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Cozy After Dark Showcase 2026",
-   "Delays",
-   "Finji",
-   "Release Dates",
-   "Trailers",
-   "Usual June"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Finji has delayed supernatural third-person action adventure game Usual June from its previously planned October …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "SEGA Labelled 'Stupid Liars' After Failing to Fulfil 'All Future Paid DLC' Promise for Sonic Racing: CrossWorlds",
   "url": "https://www.pushsquare.com/news/2026/10/sega-labelled-stupid-liars-after-failing-to-fulfil-all-future-paid-dlc-promise-for-sonic-racing-crossworlds",
@@ -3779,5 +3738,31 @@
   "tom_tat": "PS5 players can pick up a DLC set for the acclaimed Jurassic World Evolution 3 for under $5 for a limited time on the PlayStation Store. The post PS5 Pro Enhanced Jurassic World Game’s DLC Is Under $5 on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-17T22:10:48+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Feature: Going Platinum: Stray Is Probably the Only Game I've Speedran for a Trophy",
+  "url": "https://www.pushsquare.com/features/going-platinum-stray-is-probably-the-only-game-ive-speedran-for-a-trophy",
+  "ngay": "2026-10-18T02:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Speed of the puma. Platinum Trophy #39: Stray Date Earned: 23rd July 2022 Read the full article on pushsquare.com",
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-18T02:10:49+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Guide: These 35+ PS5 and PS Plus Games Are Coming Out Next Week (19th-25th October)",
+  "url": "https://www.pushsquare.com/guides/these-35plus-ps5-and-ps-plus-games-are-coming-out-next-week-19th-25th-october",
+  "ngay": "2026-10-18T02:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "Call of Duty: Modern Warfare 4! Final Fantasy Resonance! BeamNG.drive! Between all the new releases and PS Plus update, PS5 owners have an eye-watering 35+ new games to look forward to next week. This includes some real major titles like Call of Duty: Modern Warfare 4 , although you can already play its campaign in Early Access if you’re so inclined. Read the full article on pushsquare.com",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-18T02:10:49+07:00"
  }
 ]
