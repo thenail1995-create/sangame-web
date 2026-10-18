@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "PS5 Digital Edition Midnight Black Japan-only model launches November 19",
-  "url": "https://www.gematsu.com/2026/10/ps5-digital-edition-midnight-black-japan-only-model-launches-november-19",
-  "ngay": "2026-10-13T08:24:38+07:00",
-  "the_loai": [
-   "PS5",
-   "Japan",
-   "PlayStation 5",
-   "Release Dates",
-   "SIE",
-   "SIEJA"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Sony Interactive Entertainment Japan Asia will release “PlayStation 5 Digital Edition Midnight Black (Console Language: …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-13T10:10:52+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Shin chan: Me and the Professor on Summer Vacation – The Endless Seven-Day Journey and Shin chan: Shiro and the Coal Town coming to Switch 2 on March 4, 2027",
   "url": "https://www.gematsu.com/2026/10/shin-chan-me-and-the-professor-on-summer-vacation-the-endless-seven-day-journey-and-shin-chan-shiro-and-the-coal-town-coming-to-switch-2-on-march-4-2027",
   "ngay": "2026-10-13T10:12:10+07:00",
@@ -3755,5 +3735,17 @@
   "tom_tat": "\"That's quite extravagant\". Sony introduced QSSR earlier this month , bringing a version of the PS5 Pro’s acclaimed PSSR upscaler to base PS5 hardware. While the technology is currently only incorporated into first-party titles Marvel’s Wolverine and Ghost of Yotei , it will be made available to third-party devs as well, with many speculating its introduction may have been timed specifically to coincide with GTA 6 . Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-10-18T09:20:45+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Street Fighter Movie Cracks Over $50M at Box Office in Opening Weekend",
+  "url": "https://www.pushsquare.com/news/2026/10/street-fighter-movie-cracks-over-usd50m-at-box-office-in-opening-weekend",
+  "ngay": "2026-10-19T06:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Round two soon? There had been some concern over whether audiences would show up for the new live action Street Fighter movie, but it managed to top the worldwide box office this weekend with a $51.1 million international haul. While optimists had been hoping for a number closer to $70 million, unless ticket sales fall off a cliff over the coming weeks, this is a decent result for the film, which was made on an $82 million budget, according to Deadline . Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
