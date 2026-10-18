@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Eerie PS5 Adventure Game Is Out Today on PlayStation Store",
-  "url": "https://www.playstationlifestyle.net/2026/10/12/time-to-wake-up-ps5-playstation-store-release-october-12",
-  "ngay": "2026-10-13T05:06:40+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "PlayStation 5",
-   "PS5",
-   "Steam",
-   "Time to Wake Up",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Fans of psychological horror and adventure games have a new title to explore The post Eerie PS5 Adventure Game Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-13T07:10:51+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "PS5 Digital Edition Midnight Black Japan-only model launches November 19",
   "url": "https://www.gematsu.com/2026/10/ps5-digital-edition-midnight-black-japan-only-model-launches-november-19",
@@ -3764,5 +3742,17 @@
   "tom_tat": "And it could get worse yet. In an impossible economy, upended by AI’s stranglehold on computing components, all hopes of the PS6 launching at a palatable price point appear to be dwindling by the day. It’s been interesting following the commentary of KeplerL2 on NeoGAF , a renowned hardware leaker who purportedly has insight into Sony’s next-gen plans. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-18T06:10:50+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "'I Don't Think We're Seeing It Here': GTA 6 Launch Trailer Not Using PS5's New QSSR Upscaler",
+  "url": "https://www.pushsquare.com/news/2026/10/i-dont-think-were-seeing-it-here-gta-6-launch-trailer-not-using-ps5s-new-qssr-upscaler",
+  "ngay": "2026-10-18T07:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "\"That's quite extravagant\". Sony introduced QSSR earlier this month , bringing a version of the PS5 Pro’s acclaimed PSSR upscaler to base PS5 hardware. While the technology is currently only incorporated into first-party titles Marvel’s Wolverine and Ghost of Yotei , it will be made available to third-party devs as well, with many speculating its introduction may have been timed specifically to coincide with GTA 6 . Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
