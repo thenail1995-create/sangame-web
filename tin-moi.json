@@ -1,25 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Shin chan: Me and the Professor on Summer Vacation – The Endless Seven-Day Journey and Shin chan: Shiro and the Coal Town coming to Switch 2 on March 4, 2027",
-  "url": "https://www.gematsu.com/2026/10/shin-chan-me-and-the-professor-on-summer-vacation-the-endless-seven-day-journey-and-shin-chan-shiro-and-the-coal-town-coming-to-switch-2-on-march-4-2027",
-  "ngay": "2026-10-13T10:12:10+07:00",
-  "the_loai": [
-   "Switch 2",
-   "h.a.n.d.",
-   "Millennium Kitchen",
-   "Neos",
-   "Shin chan: Me and the Professor on Summer Vacation - The Endless Seven-Day Journey",
-   "Shin chan: Shiro and the Coal Town"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Neos will release Switch 2 versions of Shin chan: Me and the Professor on Summer …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "BUZZ or DIE launches October 28",
   "url": "https://www.gematsu.com/2026/10/buzz-or-die-launches-october-28",
   "ngay": "2026-10-13T10:24:23+07:00",
@@ -3748,5 +3729,27 @@
   "tom_tat": "Round two soon? There had been some concern over whether audiences would show up for the new live action Street Fighter movie, but it managed to top the worldwide box office this weekend with a $51.1 million international haul. While optimists had been hoping for a number closer to $70 million, unless ticket sales fall off a cliff over the coming weeks, this is a decent result for the film, which was made on an $82 million budget, according to Deadline . Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-10-19T05:50:56+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "This Week’s Japanese Game Releases: Call of Duty: Modern Warfare 4, Final Fantasy Resonance, Nintendo Switch Sports Resort, Stupid Never Dies, more",
+  "url": "https://www.gematsu.com/2026/10/this-weeks-japanese-game-releases-call-of-duty-modern-warfare-4-final-fantasy-resonance-nintendo-switch-sports-resort-stupid-never-dies-more",
+  "ngay": "2026-10-19T05:59:46+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Smartphone",
+   "Switch",
+   "Switch 2",
+   "Xbox One",
+   "Xbox Series",
+   "Weekly Japanese Game Releases"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Final Fantasy'",
+  "da_viet": false,
+  "tom_tat": "Call of Duty: Modern Warfare 4 for PlayStation 5, Xbox Series, Switch 2, and PC, Final …",
+  "goi_y_ps": false
  }
 ]
