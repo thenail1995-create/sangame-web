@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "The Witcher 3 Remastered Patch Specifically Targets PS5, PS5 Pro Problems",
-  "url": "https://www.pushsquare.com/news/2026/10/the-witcher-3-remastered-patch-specifically-targets-ps5-ps5-pro-problems",
-  "ngay": "2026-10-13T20:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS5 Pro'",
-  "da_viet": false,
-  "tom_tat": "The improvements keep coming. CD Projekt Red has released a quick hotfix for The Witcher 3 Remastered , specifically on PS5 and PS5 Pro. This platform-exclusive patch apparently improves the game's overall stability, \"to help ensure a more reliable experience\". Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-13T23:31:15+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "ESRB rates PEAK for PS5",
   "url": "https://www.gematsu.com/2026/10/esrb-rates-peak-for-ps5",
@@ -3754,5 +3741,17 @@
   "da_viet": false,
   "tom_tat": "See the PS5 game set its opening scenes. One of 2027's weirdest yet most intriguing releases, Stranger Than Heaven from Yakuza team RGG Studio, has shared a deep dive into the PS5 game's first act, explaining what the opening hours of the experience will entail. With the game split across five different eras (1915, 1929, 1943, 1951, and 1965), this trailer explores act one, set in Kokura during 1915. As the YouTube description sets up: \"In this trailer, discover the events that lead Makoto Daito to sneak aboard the ship of a man named Orpheus, and the harsh realities and life-changing encounte…",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "'Gooner Game' Zenless Zone Zero Gets an Age Rating Increase on PS5",
+  "url": "https://www.pushsquare.com/news/2026/10/gooner-game-zenless-zone-zero-gets-an-age-rating-increase-on-ps5",
+  "ngay": "2026-10-19T21:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "But only in Europe for now. Zenless Zone Zero’s age rating has increased on the PS5 in Europe, from PEGI 12 to PEGI 16. The change is likely to reflect the current content in the game, although there’s been no alterations in the US (where it’s rated Teen) or on the App Store (where it’s 13+). Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
