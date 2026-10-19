@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Paranormal legends story-driven adventure game We Don’t Exist announced for PC",
-  "url": "https://www.gematsu.com/2026/10/paranormal-legends-story-driven-adventure-game-we-dont-exist-announced-for-pc",
-  "ngay": "2026-10-14T00:52:26+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Game Announce",
-   "Screenshots",
-   "Trailers",
-   "Versiris",
-   "We Don't Exist"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Solo developer Versiris has announced We Don’t Exist, a story-driven adventure game inspired by real-world …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Version of 2025 Surprise Hit Adventure Game Leaked",
   "url": "https://www.playstationlifestyle.net/2026/10/13/peak-ps5-version-leak",
@@ -3727,5 +3707,17 @@
   "da_viet": false,
   "tom_tat": "Testing the waters. So, it's looking increasingly likely that the PS6 will cost a significant sum of money. A report that spread far and wide over the weekend claims that continually soaring component costs will put Sony in a very difficult position as far as next-gen console launches go. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Could Sony's Bungie Build the Next Star Wars Battlefront Game?",
+  "url": "https://www.pushsquare.com/news/2026/10/could-sonys-bungie-build-the-next-star-wars-battlefront-game",
+  "ngay": "2026-10-20T01:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Skywalkers. While dev Bungie massages Marathon and revives Destiny 2’s cut content, it could be in talks to take on a new project. According to rumourmonger Quarterman – as revealed by Giant Bomb’s Jeff Grubb during his Game Mess Mornings podcast – the Sony studio may be under consideration to continue the Star Wars Battlefront franchise. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
