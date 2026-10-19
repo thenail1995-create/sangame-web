@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "The Witcher 3 Remastered PS5 Players Start to Wonder Where All the Mods Are",
-  "url": "https://www.pushsquare.com/news/2026/10/the-witcher-3-remastered-ps5-players-start-to-wonder-where-all-the-mods-are",
-  "ngay": "2026-10-14T06:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "But at least we've got hoods. It's been two weeks since the release of The Witcher 3 Remastered on PS5, and some players are starting to question where all of the mods are at. If you didn't know, Remastered brings mod support to the console versions of the game for the first time, allowing mod authors to present their creations to a wider audience. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-14T08:50:50+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "ANTONBLAST for PS5, PS4 launches October 15",
   "url": "https://www.gematsu.com/2026/10/antonblast-for-ps5-ps4-launches-october-15",
@@ -3709,5 +3696,26 @@
   "da_viet": false,
   "tom_tat": "Basket case. With a scribblecore aesthetic and a story so unhinged it’d make even Suda51 smile, Stupid Never Dies is not your average roguelite. I think that’s important, because this debut action effort from Japanese dev GPTRACK50 is entering a genre that’s quickly becoming overstuffed with options. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Star Wars Battlefront 3 Rumor Suggests Two Major Studios Could Take Over the Franchise",
+  "url": "https://www.playstationlifestyle.net/2026/10/19/star-wars-battlefront-3-developer-rumor-bungie-dice",
+  "ngay": "2026-10-20T05:59:49+07:00",
+  "the_loai": [
+   "News",
+   "Bungie",
+   "CrossPost",
+   "DICE",
+   "Entertainment and Gaming",
+   "Star Wars Battlefront",
+   "Star Wars Battlefront 3",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "An update has surfaced online about which studio might be helming Star Wars Battlefront 3. The post Star Wars Battlefront 3 Rumor Suggests Two Major Studios Could Take Over the Franchise appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
