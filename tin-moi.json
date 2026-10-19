@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Xbox announces Xbox Labs to explore ’emerging technologies’",
-  "url": "https://www.gematsu.com/2026/10/xbox-announces-xbox-labs-to-explore-emerging-technologies",
-  "ngay": "2026-10-14T02:42:03+07:00",
-  "the_loai": [
-   "Industry",
-   "Microsoft",
-   "Xbox Labs"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Xbox has announced Xbox Labs, a new initiative focused on exploring ’emerging technologies’ and their …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PlayStation Store Update Worldwide October 13, 2026",
   "url": "https://www.playstationlifestyle.net/2026/10/13/playstation-store-update-worldwide-october-13-2026",
@@ -3723,5 +3707,17 @@
   "tom_tat": "A PlayStation 5 Harry Potter game has slashed its price just two months ahead of HBO’s series premiere. The LEGO Harry Potter Collection, which sits at 4.38/5 on the PlayStation Store based on over 14,000 reviews, is now available at an 85% discount. The game, initially retailing at $39.99, is now available to purchase for […] The post Popular PS5 Harry Potter Game Slashes Price by 85% on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-20T03:31:12+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PSVR2 Darling Synth Riders Dances Away with a Spooky Free Song for Halloween",
+  "url": "https://www.pushsquare.com/news/2026/10/psvr2-darling-synth-riders-dances-away-with-a-spooky-free-song-for-halloween",
+  "ngay": "2026-10-20T04:45:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "Can't find a better price than free. In what's become something of a tradition for PSVR2 rhythm darling Synth Riders , the looming arrival of Halloween means Kluge Interactive is giving the game an update with a free new song. This year, the song in question is ' Lord & Master ' by Apashe. A bassy cinematic track, this veers back a little closer to the original vibe that Synth Riders had back when it launched, which is a most welcome return. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
