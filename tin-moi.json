@@ -1,41 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Open World Puzzler Escape Academy 2: Back 2 School Enrols on PS5 This November",
-  "url": "https://www.pushsquare.com/news/2026/10/open-world-puzzler-escape-academy-2-back-2-school-enrols-on-ps5-this-november",
-  "ngay": "2026-10-13T21:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Term time. A few years ago saw the release of a pleasant puzzle game named Escape Academy , and now, publisher iam8bit Presents and developer Coin Crew Games will soon launch the sequel. Escape Academy 2: Back 2 School is set for release on PS5 on 5th November, 2026, as revealed at the end of this new trailer: Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-14T05:40:51+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "STARDUST: Wish of Witch coming to PS5, Switch 2 in Q1 2027",
-  "url": "https://www.gematsu.com/2026/10/stardust-wish-of-witch-coming-to-ps5-switch-2-in-q1-2027",
-  "ngay": "2026-10-13T21:13:31+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Clips",
-   "Kniv Studio",
-   "release dats",
-   "RPG",
-   "Silver Lining Interactive",
-   "STARDUST: Wish of Witch",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Silver Lining Interactive and developer Kniv Studio will release pixel art strategy RPG STARDUST: …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-14T02:40:50+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "REPLACED coming to Android on December 8",
   "url": "https://www.gematsu.com/2026/10/replaced-coming-to-android-on-december-8",
@@ -3751,5 +3715,41 @@
   "da_viet": false,
   "tom_tat": "Supermassive Games has released a free update for science-fiction survival horror adventure game Directive 8020: …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Faraway launches November 5 for PS5, Xbox Series, Switch 2, Switch, and PC",
+  "url": "https://www.gematsu.com/2026/10/faraway-launches-november-5-for-ps5-xbox-series-switch-2-switch-and-pc",
+  "ngay": "2026-10-19T22:07:05+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Annapurna Interactive",
+   "Clips",
+   "Faraway",
+   "Release Dates",
+   "Steph Thirion",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Faraway, a randomly-generated, minimalistic, arcade puzzle game about a shooting star that designs constellations to …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Hands On: BeamNG.drive's Insanely Ambitious Simulation Sandbox Is a Minor Miracle on PS5",
+  "url": "https://www.pushsquare.com/features/hands-on-beamng-drives-insanely-ambitious-simulation-sandbox-is-a-minor-miracle-on-ps5",
+  "ngay": "2026-10-19T22:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Will it blend? BeamNG.drive makes its debut on PS5 today, 19th October 2026, and it's unlike anything else available on the console. Squeezing this vehicular physics simulation onto the six-year-old machine is a feat that fans of driving games shouldn't ignore. This is a truly unique offering that packs in a surprising amount of stuff to do — so much so, it's hard to know where to begin. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
