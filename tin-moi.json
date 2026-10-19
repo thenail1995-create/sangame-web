@@ -1,31 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Review: Planet Zoo 2 (PS5) - Sublime Wildlife Management Sim Is Frontier at Its Finest",
-  "url": "https://www.pushsquare.com/reviews/ps5/planet-zoo-2",
-  "ngay": "2026-10-13T19:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Something to sink your teeth into. Planet Zoo 2 is the latest creative management sim from Frontier and delivers a huge menagerie of content where your creativity can run wild. A direct sequel to 2024’s Planet Zoo Console Edition and the close cousin of Planet Coaster 2 , the game delivers what I have come to expect from Frontier’s creative management games: a robust tycoon experience, ludicrously huge potential for custom building, and a warm, immersive experience that’s fun to play. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-14T12:01:28+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Skyrim Gets Surprise DLC Drop on PS5, Its Biggest in Years",
-  "url": "https://www.pushsquare.com/news/2026/10/skyrim-gets-surprise-dlc-drop-on-ps5-its-biggest-in-years",
-  "ngay": "2026-10-13T19:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Three expansions out now. Skyrim just got its biggest DLC drop in a long time on PS5. As you may know, Bethesda periodically partners with fans to bring their mods to the game in an official capacity, dubbling them 'Creations'. They're essentially paid DLC packs. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-14T08:50:50+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Intriguing PS5 RPG With Great Reviews Out Today on PS Store",
   "url": "https://www.playstationlifestyle.net/2026/10/13/ps5-rpg-valor-mortis-out-today-ps-store",
@@ -3749,6 +3723,47 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Sony Interactive Entertainment and developer Housemarque have released the “Zenith” Update for fast-paced, cinematic …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dumpster Gang launches December 3",
+  "url": "https://www.gematsu.com/2026/10/dumpster-gang-launches-december-3",
+  "ngay": "2026-10-19T20:00:23+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Coyote House Games",
+   "Curve Games",
+   "Dumpster Gang",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Dumpster Gang, a cooperative sandbox game with mischievous raccoons for up to four players. will …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "2026 PS5 Exclusive Action Game Surprise Drops Big Free Update",
+  "url": "https://www.playstationlifestyle.net/2026/10/19/ps5-action-game-saros-zenith-free-update-details",
+  "ngay": "2026-10-19T19:57:27+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Housemarque",
+   "Saros",
+   "Sony Interactive Entertainment",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "2026’s best PS5 first-party exclusive action game is rolling out a surprise free update today for all owners. The Saros: Zenith update aims to make the game more accessible while adding replayability for those who’ve finished the campaign. Everything you need to know about PS5 action game Saros’ free Zenith update Complete patch notes and […] The post 2026 PS5 Exclusive Action Game Surprise Drops Big Free Update appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
