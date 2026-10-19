@@ -1,23 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Rumor: Grand Theft Auto VI coming to PC in Q1 2027",
-  "url": "https://www.gematsu.com/2026/10/rumor-grand-theft-auto-vi-coming-to-pc-in-q1-2027",
-  "ngay": "2026-10-13T21:04:00+07:00",
-  "the_loai": [
-   "PC",
-   "Grand Theft Auto VI",
-   "Rockstar Games",
-   "Rockstar North",
-   "Rumors"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Rockstar Games plans to release a PC version of Grand Theft Auto VI within the …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Open World Puzzler Escape Academy 2: Back 2 School Enrols on PS5 This November",
   "url": "https://www.pushsquare.com/news/2026/10/open-world-puzzler-escape-academy-2-back-2-school-enrols-on-ps5-this-november",
@@ -3749,5 +3731,25 @@
   "da_viet": false,
   "tom_tat": "Space raiders. If you’re planning to play Phantom Blade Zero this month, then you may want to start juggling your PS5’s storage space in anticipation. PlayStation Game Size reports that the Chinese-developed console exclusive will eat up a whopping ~135GB – and this is presumably without any planned launch day patches installed. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Directive 8020: A Dark Pictures Game online multiplayer mode update now available",
+  "url": "https://www.gematsu.com/2026/10/directive-8020-a-dark-pictures-game-online-multiplayer-mode-update-now-available",
+  "ngay": "2026-10-19T21:54:09+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Directive 8020: A Dark Pictures Game",
+   "Horror",
+   "Screenshots",
+   "Supermassive Games"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Supermassive Games has released a free update for science-fiction survival horror adventure game Directive 8020: …",
+  "goi_y_ps": false
  }
 ]
