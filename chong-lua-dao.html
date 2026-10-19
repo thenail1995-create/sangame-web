@@ -549,6 +549,10 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
 .kq.co-bao h4 .ic{color:var(--do)}
 .kq.chua-bao h4 .ic{color:var(--ngoc)}
 .kq ul{margin:0;padding-left:18px;font-size:14.5px}
+.kq h5{margin:6px 0 0;font-size:15px}
+.kq .chieu-chi{border-top:1px solid #F0C2C7;padding-top:8px;display:grid;gap:6px}
+.nut-lk{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border-radius:var(--r-nho);background:var(--ngoc);color:#fff;font-weight:700;font-size:16px;text-decoration:none;text-align:center}
+.nut-lk.nut-phu{background:var(--the);color:var(--ngoc-dam);border:1px solid var(--ngoc)}
 .cach-lam{list-style:none;margin:0;padding:0;display:grid;gap:10px;font-size:14.5px}
 .cach-lam li{display:grid;grid-template-columns:26px 1fr;gap:10px}
 .cach-lam .ic{color:var(--ngoc);width:22px;height:22px}
@@ -635,15 +639,15 @@ p.phu .ic{width:14px;height:14px;vertical-align:-2px;margin-right:2px;color:var(
   <div class="dau-muc"><img class="bt3d dm" src="bieu-tuong/lua-dao.webp" alt="" width="160" height="160"><div class="dau-muc-chu"><h1>Chống lừa đảo khi mua bán game</h1><p>Tra trước khi chuyển tiền, nhận diện chiêu hay gặp, và việc cần làm nếu lỡ bị lừa.</p></div></div>
   <section id="lua-dao">
 
-    <div class="the tra-so">
+    <div class="the tra-so" id="tra">
       <h3 class="tieu" style="margin:0"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>Tra trước khi chuyển tiền</h3>
-      <form class="o-tra" id="o-tra" aria-label="Tra số điện thoại, link hoặc số tài khoản">
+      <form class="o-tra" id="o-tra" method="post" action="#" aria-label="Tra số điện thoại, link hoặc số tài khoản">
         <select id="loai-tra" aria-label="Loại cần tra"><option value="phone">Số điện thoại</option><option value="url">Link, trang web</option><option value="stk">Số tài khoản</option></select>
         <input id="so-tra" inputmode="tel" autocomplete="off" placeholder="Nhập số điện thoại" aria-label="Nội dung cần tra">
         <button type="submit">Tra</button>
       </form>
       <div id="kq-tra" aria-live="polite" style="display:contents"></div>
-      <p class="phu" style="margin:0">Số điện thoại và link được tra ở <a href="https://chongluadao.vn" rel="noopener">Chống Lừa Đảo</a> (Công ty TNHH Doanh nghiệp xã hội Chống Lừa Đảo), mở trong tab mới. Số tài khoản tra bằng app nTrust của Hiệp hội An ninh mạng quốc gia. Săn Game không lưu nội dung bạn tra. Kết quả chỉ để tham khảo: <b>"không tìm thấy" không có nghĩa là an toàn</b>.</p>
+      <p class="phu" style="margin:0">Mỗi lần tra xem 2 nguồn: <b>kho Săn Game</b> (báo cáo của người dùng mà Săn Game đã đọc và duyệt) rồi <a href="https://chongluadao.vn" rel="noopener">Chống Lừa Đảo</a> (Công ty TNHH Doanh nghiệp xã hội Chống Lừa Đảo) cho số điện thoại và link, hoặc app nTrust của Hiệp hội An ninh mạng quốc gia cho số tài khoản. Nội dung bạn tra được gửi tới máy chủ Săn Game để so với kho; Săn Game không lưu nội dung đó, chỉ đếm lượt để chống dò hàng loạt. Kết quả chỉ để tham khảo: <b>"không tìm thấy" không có nghĩa là an toàn</b>.</p>
       
     </div>
 
@@ -790,39 +794,122 @@ var t=document.getElementById('len-dau');if(t){var hien=function(){t.classList.t
 addEventListener('scroll',hien,{passive:true});hien();t.addEventListener('click',function(){scrollTo({top:0,behavior:'smooth'});});}})();</script>
 <script>
 (function(){
+  var SG_SCAM_URL="https://qkpbokksubmqvinetdtv.supabase.co/functions/v1/sg-scam";
+  var CHIEU={"acc-slot": {"ten": "Bán acc, slot PSN", "dau": ["Giá tài khoản hoặc slot rẻ hơn hẳn mặt bằng chung, kèm lời giục \"chỉ còn 1 slot\".", "Đòi chuyển khoản hoặc cọc trước khi đưa thông tin đăng nhập.", "Không cho bạn tự đổi email, mật khẩu hay bật xác thực 2 lớp, nói rằng đổi là mất bảo hành.", "Hay kéo sang Zalo hoặc Telegram, ngại gọi video, xoá tin khi bị hỏi kỹ."], "tranh": "Người bán còn giữ email gốc thì lúc nào cũng lấy lại được tài khoản. Chỉ chuyển tiền sau khi đã vào được, đổi được email và mật khẩu; không chuyển trước cho người lạ."}, "the-psn": {"ten": "Thẻ PSN giá rẻ", "dau": ["Giá thẻ thấp hơn rõ so với các đại lý bạn đã biết.", "Bắt chuyển tiền trước, hứa gửi mã sau, hoặc chỉ gửi ảnh thẻ mờ.", "Mã nhận được đã bị dùng hoặc nạp không được vì khác vùng.", "Giục \"chốt nhanh kẻo hết\", không có hoá đơn, không hẹn bảo hành.", "Trang bán mới lập, bài ít, bình luận khen nghe giống hệt nhau."], "tranh": "Mua ở cửa hàng có địa chỉ và lịch sử bán rõ ràng; so với bảng Giá thẻ PSN của Săn Game trước khi chuyển. Nhận mã xong thì nạp thử ngay."}, "may-cu": {"ten": "Máy PS5 cũ, tay cầm", "dau": ["Giá thấp hơn thị trường, lý do là \"cần tiền gấp\" hoặc \"đi nước ngoài\".", "Đòi đặt cọc trước khi cho xem máy; từ chối gặp trực tiếp, chỉ chịu gửi xe hoặc ship.", "Ảnh máy trông như lấy từ chỗ khác, không có số seri hay ảnh chụp lúc này.", "Sau khi cọc thì bịa thêm phí (vận chuyển, bảo hiểm, mở khoá) để lấy thêm tiền.", "Fanpage mới lập, tên giống một cửa hàng quen thuộc."], "tranh": "Gặp trực tiếp, bật máy, thử đĩa và cổng, đăng nhập thử rồi mới trả tiền. Không cọc cho người chưa gặp."}, "nap-ho-link": {"ten": "Nạp hộ, link giả", "dau": ["Gửi link lạ để \"đăng nhập nạp\"; trang trông giống PlayStation hay ngân hàng nhưng tên miền sai.", "Xin mật khẩu, mã OTP hoặc mã xác thực với lý do nạp hộ.", "Giá nạp rẻ hơn hẳn trên PS Store.", "Bắt cài ứng dụng lạ hoặc quét mã QR do người lạ gửi."], "tranh": "Chỉ nạp ở PS Store hoặc app ngân hàng của bạn. Đọc kỹ tên miền, không đưa mật khẩu hay OTP cho ai, bật xác thực 2 lớp."}, "khac": {"ten": "Chiêu khác", "dau": ["Giá rẻ bất thường và giục chuyển tiền ngay.", "Chỉ chat, không chịu gọi video hay gặp.", "Đòi thêm phí sau khi bạn đã chuyển.", "Bảo chuyển vào tài khoản mang tên người khác, không phải tên người bán."], "tranh": "Dừng lại, kiểm đủ 5 điều ở khối bên dưới trước khi chuyển. Lỡ chuyển rồi thì gọi ngân hàng ngay."}};
   var f=document.getElementById("o-tra"), loai=document.getElementById("loai-tra"), o=document.getElementById("so-tra"), kq=document.getElementById("kq-tra");
   var nut=f.querySelector('button[type="submit"]');
   var goi={phone:["tel","Nhập số điện thoại"],url:["url","Dán link hoặc tên trang web"],stk:["numeric","Nhập số tài khoản"]};
+  var LOAI_MAY={phone:"sdt",url:"link",stk:"stk"};
+  var NHAN={sdt:"SĐT",stk:"STK",link:"Link"};
   var NTRUST='<p><b>Chống Lừa Đảo chưa tra được số tài khoản.</b> Hãy dùng app <b>nTrust</b> của Hiệp hội An ninh mạng quốc gia (miễn phí): mở app, chọn kiểm tra số tài khoản rồi nhập số.</p><p><a href="https://play.google.com/store/apps/details?id=com.nca.vn.ntrust" rel="noopener" target="_blank">Tải cho Android</a> · <a href="https://apps.apple.com/vn/app/ntrust-ph%C3%B2ng-ch%E1%BB%91ng-l%E1%BB%ABa-%C4%91%E1%BA%A3o/id6504554337" rel="noopener" target="_blank">Tải cho iPhone</a></p>';
-  // Hào 01/10 rà soát: chọn "Số tài khoản" thì ô nhập và nút Tra vô nghĩa (Chống Lừa Đảo không tra được STK) — ẩn đi, hiện thẳng
-  // hướng dẫn nTrust; đổi loại khác thì hiện lại. Phải vẽ hướng dẫn SAU lệnh xoá kq.
-  function doiLoai(){
-    var stk=loai.value==="stk";
-    o.setAttribute("inputmode",goi[loai.value][0]);o.placeholder=goi[loai.value][1];kq.innerHTML="";
-    o.style.display=stk?"none":"";if(nut)nut.style.display=stk?"none":"";
-    if(stk)hien(NTRUST);
-  }
+  var luot=0, acNay=null;   // mã lượt tra tăng dần + AbortController của lượt đang chờ
+  function huy(){luot++;if(acNay){try{acNay.abort();}catch(e){}acNay=null;}kq.textContent="";if(nut)nut.disabled=false;}
+  function doiLoai(){o.setAttribute("inputmode",goi[loai.value][0]);o.placeholder=goi[loai.value][1];huy();}
   loai.addEventListener("change",doiLoai);
-  function hien(html){kq.innerHTML='<div class="kq" style="margin:0">'+html+'</div>';}
-  f.addEventListener("submit",function(ev){
-    ev.preventDefault();
-    var v=o.value.trim(), url;
-    if(loai.value==="stk"){hien(NTRUST);return;}
-    if(loai.value==="phone"){
+  o.addEventListener("input",huy);
+  function h(tag,cls,text){var n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n;}
+  function lk(text,href,cls){var a=h("a",cls||"",text);a.href=href;a.rel="noopener";a.target="_blank";return a;}
+  // Chuẩn hoá phía trình duyệt (báo lỗi định dạng tại chỗ). Trả {q} hợp lệ hoặc {loi}.
+  function chuan(kieu,v){
+    v=(v||"").trim();
+    if(kieu==="phone"){
       var so=v.replace(/\D/g,"");
       // 84xxxxxxxxx / +84… -> 0xxxxxxxxx; số di động gõ thiếu số 0 đầu (9 chữ số) -> thêm 0. Hợp lệ: bắt đầu 0, 10 số (di động)
-      // hoặc 11 số (máy bàn 024/028 + 8 số — kẻ gian giả công an, ngân hàng hay dùng, chongluadao.vn tra được).
+      // hoặc 11 số (máy bàn 024/028 + 8 số — kẻ gian giả công an, ngân hàng hay dùng).
       if(so.indexOf("84")===0&&so.length>=11)so="0"+so.slice(2);
       else if(so.length===9&&so.charAt(0)!=="0")so="0"+so;
-      if(so.charAt(0)!=="0"||so.length<10||so.length>11){hien("<p>Số điện thoại chưa đúng. Nhập 10 số (di động) hoặc 11 số (máy bàn), ví dụ 09xx xxx xxx.</p>");return;}
-      url="https://chongluadao.vn/analyze/?q="+so+"&type=phone";
-    }else{
-      if(!v||v.indexOf(".")<0){hien("<p>Link chưa đúng. Dán cả địa chỉ trang, ví dụ tenmien.com.</p>");return;}
-      if(!/^https?:\/\//i.test(v))v="https://"+v;
-      url="https://chongluadao.vn/analyze/?q="+encodeURIComponent(v)+"&type=url&mode=standard";
+      if(so.charAt(0)!=="0"||so.length<10||so.length>11)return {loi:"Số điện thoại chưa đúng. Nhập 10 số (di động) hoặc 11 số (máy bàn), ví dụ 09xx xxx xxx."};
+      return {q:so};
     }
-    window.open(url,"_blank","noopener");
-    hien('<p>Đã mở kết quả ở Chống Lừa Đảo trong tab mới. Chưa thấy tab mới? <a href="'+url+'" rel="noopener" target="_blank">Bấm vào đây</a>.</p><p class="phu">Nhớ: "không tìm thấy" chỉ có nghĩa là chưa ai báo, không có nghĩa là an toàn.</p>');
+    if(kieu==="stk"){
+      var s=v.replace(/\D/g,"");
+      if(s.length<6||s.length>19)return {loi:"Số tài khoản chưa đúng. Nhập từ 6 đến 19 chữ số."};
+      return {q:s};
+    }
+    if(!v||v.indexOf(".")<0)return {loi:"Link chưa đúng. Dán cả địa chỉ trang, ví dụ tenmien.com."};
+    if(!/^https?:\/\//i.test(v))v="https://"+v;
+    return {q:v};
+  }
+  window.SG_TRA_CHUAN=chuan;
+  function hop(cls){var d=h("div","kq"+(cls?" "+cls:""));d.style.margin="0";return d;}
+  function loiDinhDang(msg){kq.textContent="";var d=hop();d.appendChild(h("p","",msg));kq.appendChild(d);}
+  // Phần dưới mọi kết quả: tra thêm ở nguồn ngoài + nút góp tin. Luôn hiện, kể cả khi edge lỗi.
+  function duoi(kieu,q){
+    var d=hop();
+    if(kieu==="stk"){var n=h("div");n.innerHTML=NTRUST;d.appendChild(n);}
+    else{
+      var url="https://chongluadao.vn/analyze/?q="+(kieu==="phone"?q+"&type=phone":encodeURIComponent(q)+"&type=url&mode=standard");
+      d.appendChild(h("p","","Muốn chắc hơn, tra thêm ở nguồn thứ hai:"));
+      d.appendChild(lk("Tra thêm ở Chống Lừa Đảo",url,"nut-lk"));
+    }
+    d.appendChild(h("p","phu","Bạn vừa gặp vụ lừa? Kể lại để người khác tránh được."));
+    var g=h("a","nut-lk nut-phu","Góp tin scam");g.href="gop-tin-scam.html?n=web";d.appendChild(g);
+    kq.appendChild(d);
+  }
+  function chieuKhoi(ma){
+    var c=CHIEU[ma];if(!c)return null;
+    var d=h("div","chieu-chi");d.appendChild(h("h5","",c.ten+" — dấu hiệu hay gặp"));
+    var ul=h("ul");for(var i=0;i<c.dau.length;i++)ul.appendChild(h("li","",c.dau[i]));d.appendChild(ul);
+    var p=h("p","");p.appendChild(h("b","","Cách phòng tránh: "));p.appendChild(document.createTextNode(c.tranh));d.appendChild(p);
+    return d;
+  }
+  function veTrung(r){
+    var d=hop("co-bao");
+    d.appendChild(h("h4","","Có "+(+r.so_bao||0)+" báo cáo đã được Săn Game duyệt về thông tin này"));
+    var ch=(r.chieu||[]).filter(function(m){return CHIEU[m];});
+    if(ch.length)d.appendChild(h("p","","Chiêu được báo: "+ch.map(function(m){return CHIEU[m].ten;}).join(", ")));
+    if(r.lan_cuoi)d.appendChild(h("p","","Lần gần nhất: "+r.lan_cuoi));
+    if(r.ngan_hang&&r.ngan_hang.length)d.appendChild(h("p","","Ngân hàng đi kèm: "+r.ngan_hang.join(", ")));
+    if(r.di_kem&&r.di_kem.length){
+      d.appendChild(h("p","","Thông tin đi kèm trong các báo cáo (đã che):"));
+      var ul=h("ul");
+      r.di_kem.forEach(function(x){ul.appendChild(h("li","",(NHAN[x.loai]||"")+" "+x.che+(x.ngan_hang?" ("+x.ngan_hang+")":"")));});
+      d.appendChild(ul);
+    }
+    if(r.ten_che&&r.ten_che.length)d.appendChild(h("p","","Tên được báo (đã che): "+r.ten_che.join(", ")));
+    ch.forEach(function(m){var c=chieuKhoi(m);if(c)d.appendChild(c);});
+    var m=h("p");m.appendChild(lk("Muốn biết thêm? Nhắn Săn Game","https://m.me/1311028212103362","nut-lk"));d.appendChild(m);
+    d.appendChild(h("p","phu","Đây là báo cáo của người dùng, Săn Game đã đọc nhưng chưa phải kết luận của cơ quan chức năng."));
+    d.appendChild(h("p","phu","Bạn bị báo nhầm? Nhắn Săn Game để được xem xét gỡ."));
+    kq.appendChild(d);
+  }
+  function veChua(){
+    var d=hop("chua-bao"),p=h("p");
+    p.appendChild(document.createTextNode("Kho Săn Game chưa có ai báo — "));
+    p.appendChild(h("b","","không có nghĩa là an toàn"));
+    p.appendChild(document.createTextNode(". Kẻ gian hay đổi số, đổi tài khoản mới, nên chưa ai kịp báo."));
+    d.appendChild(p);kq.appendChild(d);
+  }
+  function veLoi(msg){var d=hop();d.appendChild(h("p","",msg));kq.appendChild(d);}
+  function gui(kieu,q,ac,xong){
+    if(typeof fetch!=="function"){xong(0,null);return;}
+    var tm=setTimeout(function(){if(ac)ac.abort();xong(0,null);xong=function(){};},15000);
+    var opt={method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({hanh_dong:"tra",loai:LOAI_MAY[kieu],q:q})};
+    if(ac)opt.signal=ac.signal;
+    fetch(SG_SCAM_URL,opt).then(function(r){
+      return r.json().then(function(j){return {s:r.status,j:j};},function(){return {s:r.status,j:null};});
+    }).then(function(x){clearTimeout(tm);xong(x.s,x.j);},function(){clearTimeout(tm);xong(0,null);});
+  }
+  f.addEventListener("submit",function(ev){
+    ev.preventDefault();
+    var kieu=loai.value, c=chuan(kieu,o.value);
+    if(c.loi){loiDinhDang(c.loi);return;}
+    huy();
+    var ma=luot, ac=typeof AbortController==="function"?new AbortController():null;
+    acNay=ac;
+    var cho=hop();cho.appendChild(h("p","","Đang tra kho Săn Game…"));kq.appendChild(cho);
+    if(nut)nut.disabled=true;
+    gui(kieu,c.q,ac,function(s,j){
+      if(ma!==luot)return;   // lượt cũ (đã đổi loại/sửa ô/tra lượt mới): bỏ, không vẽ
+      acNay=null;
+      if(nut)nut.disabled=false;
+      kq.textContent="";
+      if(s===200&&j&&j.ok===true){if(j.trung===true)veTrung(j);else veChua();}
+      else if(s===429)veLoi("Bạn tra hơi nhiều, thử lại sau một lúc. Trong lúc chờ, tra ở nguồn thứ hai bên dưới.");
+      else if(s===400)veLoi("Kho Săn Game không nhận định dạng này. Kiểm lại thông tin bạn nhập.");
+      else veLoi("Chưa tra được kho Săn Game lúc này. Bạn vẫn tra được ở nguồn thứ hai bên dưới.");
+      duoi(kieu,c.q);
+    });
   });
 })();
 </script>
