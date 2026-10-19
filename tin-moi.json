@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Escape Academy 2: Back 2 School comes to PS5 on November 5",
-  "url": "https://blog.playstation.com/2026/10/13/escape-academy-2-back-2-school-comes-to-ps5-on-november-5/",
-  "ngay": "2026-10-13T19:04:54+07:00",
-  "the_loai": [
-   "PS5",
-   "Coin Crew Games",
-   "Escape Academy 2: Back 2 School"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-13T20:31:14+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Review: Planet Zoo 2 (PS5) - Sublime Wildlife Management Sim Is Frontier at Its Finest",
   "url": "https://www.pushsquare.com/reviews/ps5/planet-zoo-2",
@@ -3740,6 +3725,30 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "A recently released PS5 action adventure game is at risk of being delisted from the PlayStation Store as its developer has gone bankrupt. GTA-like AA game Samson was developed and published by Liquid Swords, founded in 2020 by Christofer Sundberg, who previously led Just Cause developer Avalanche Studios. Why players fear PS5 action adventure game […] The post GTA-Like PS5 Action Game at Risk of Delisting as Dev Goes Under appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Saros ‘Zenith’ update now available",
+  "url": "https://www.gematsu.com/2026/10/saros-zenith-update-now-available",
+  "ngay": "2026-10-19T19:05:43+07:00",
+  "the_loai": [
+   "PS5",
+   "Clips",
+   "Housemarque",
+   "Saros",
+   "Screenshots",
+   "Shooter",
+   "SIE",
+   "SIEA",
+   "SIEE",
+   "TPS",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Sony Interactive Entertainment and developer Housemarque have released the “Zenith” Update for fast-paced, cinematic …",
   "goi_y_ps": false
  }
 ]
