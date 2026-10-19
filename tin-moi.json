@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Modern Warfare 4 Is the Latest Call of Duty to Launch without a PS5 Platinum Trophy",
-  "url": "https://www.pushsquare.com/news/2026/10/modern-warfare-4-is-the-latest-call-of-duty-to-launch-without-a-ps5-platinum-trophy",
-  "ngay": "2026-10-14T00:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Call of Duty'",
-  "da_viet": false,
-  "tom_tat": "Back to HQ. Call of Duty is set to continue a trend that's been frustrating fans for a good few years; the PS5 version of the next instalment will arrive without a platinum Trophy. That's because Call of Duty: Modern Warfare 4 will be part of the Call of Duty HQ launcher when it arrives later this month. Because the game is not technically a standalone app, it's counted as DLC, so won't have a full Trophy list. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-14T02:40:50+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Paranormal legends story-driven adventure game We Don’t Exist announced for PC",
   "url": "https://www.gematsu.com/2026/10/paranormal-legends-story-driven-adventure-game-we-dont-exist-announced-for-pc",
@@ -3727,6 +3714,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Gotcha Gotcha Games has released the RPG Maker U2U “P2D Map Editor Demo” for PC via …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Poll: Would You Pay $1,000 for a PS6?",
+  "url": "https://www.pushsquare.com/features/poll-would-you-pay-usd1000-for-a-ps6",
+  "ngay": "2026-10-20T01:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Testing the waters. So, it's looking increasingly likely that the PS6 will cost a significant sum of money. A report that spread far and wide over the weekend claims that continually soaring component costs will put Sony in a very difficult position as far as next-gen console launches go. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
