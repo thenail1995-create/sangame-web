@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Rumour: GTA 6 Will Be Ported to PC in Record Time Following its Debut on PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/rumour-gta-6-will-be-ported-to-pc-in-record-time-following-its-debut-on-ps5",
-  "ngay": "2026-10-13T22:15:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Console yourselves. Rockstar Games is known for prioritising console platforms for its games, with PC versions following many months if not years later. Well, if a new report is accurate, GTA 6 might not take very long at all to break that rule. According to GamesBeat , the hotly anticipated open world game is coming to PC in the first quarter of 2027 — just a few months following its launch on PS5. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-13T23:31:15+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Acclaimed PS4, PS5 Co-Op Game Discounted by 70% on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/13/playstation-store-sale-it-takes-two-discount",
@@ -3724,5 +3711,24 @@
   "da_viet": false,
   "tom_tat": "Will it be stimulating? Publisher Saber Interactive has released a playable demo for its controversial driving business sim game, Rideshare \"Stimulator\" . Available now on PS5, the demo eats up around 24 GB. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Obsession Horror Movie Gets Unexpected Video Game Crossover Just in Time for Halloween",
+  "url": "https://www.playstationlifestyle.net/2026/10/19/fortnite-obsession-crossover-one-wish-willow-trailer",
+  "ngay": "2026-10-19T23:20:42+07:00",
+  "the_loai": [
+   "News",
+   "CrossPost",
+   "Entertainment and Gaming",
+   "Obsession",
+   "One Wish Willow",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Epic Games’ Fortnite has teased a haunting crossover with Curry Barker‘s Obsession this Halloween. But the Battle Royale hasn’t revealed what’s in store for horror fans yet. Fortnite’s official account shared an eight-second video on X that teased the world of One Wish Willow with a tape, an unidentified spooky female figure, and a haunting […] The post Obsession Horror Movie Gets Unexpected Video Game Crossover Just in Time for Halloween appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
