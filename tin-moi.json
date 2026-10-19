@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Escape Academy 2: Back 2 School adds PS5 version, launches November 5",
-  "url": "https://www.gematsu.com/2026/10/escape-academy-2-back-2-school-adds-ps5-version-launches-november-5",
-  "ngay": "2026-10-13T19:20:17+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Coin Crew Games",
-   "Escape Academy 2: Back 2 School",
-   "iam8bit",
-   "Puzzle Games",
-   "Release Dates"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Puzzle adventure game sequel Escape Academy 2: Back 2 School will launch for PlayStation 5, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-13T23:31:15+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "The Witcher 3 Remastered Patch Specifically Targets PS5, PS5 Pro Problems",
   "url": "https://www.pushsquare.com/news/2026/10/the-witcher-3-remastered-patch-specifically-targets-ps5-ps5-pro-problems",
@@ -3764,5 +3742,17 @@
   "da_viet": false,
   "tom_tat": "Publisher Headup and developer Sluggerfly have released a free update for Super Meat Boy 3D …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Snoop Dogg and Singing Are All Over Stranger Than Heaven's Act 1 Deep Dive Trailer",
+  "url": "https://www.pushsquare.com/news/2026/10/snoop-dogg-and-singing-are-all-over-stranger-than-heavens-act-1-deep-dive-trailer",
+  "ngay": "2026-10-19T20:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "See the PS5 game set its opening scenes. One of 2027's weirdest yet most intriguing releases, Stranger Than Heaven from Yakuza team RGG Studio, has shared a deep dive into the PS5 game's first act, explaining what the opening hours of the experience will entail. With the game split across five different eras (1915, 1929, 1943, 1951, and 1965), this trailer explores act one, set in Kokura during 1915. As the YouTube description sets up: \"In this trailer, discover the events that lead Makoto Daito to sneak aboard the ship of a man named Orpheus, and the harsh realities and life-changing encounte…",
+  "goi_y_ps": true
  }
 ]
