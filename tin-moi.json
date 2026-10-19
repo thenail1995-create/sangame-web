@@ -1,23 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "ID@Xbox Showcase set for October 20",
-  "url": "https://www.gematsu.com/2026/10/idxbox-showcase-set-for-october-20",
-  "ngay": "2026-10-14T00:19:14+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox One",
-   "Xbox Series",
-   "ID@Xbox Showcase: 2026.10.20",
-   "Microsoft"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Microsoft will host an ID@Xbox Showcase in partnership with IGN on October 20 at 10:00 …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Modern Warfare 4 Is the Latest Call of Duty to Launch without a PS5 Platinum Trophy",
   "url": "https://www.pushsquare.com/news/2026/10/modern-warfare-4-is-the-latest-call-of-duty-to-launch-without-a-ps5-platinum-trophy",
@@ -3720,6 +3702,26 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Virtual reality cooperative heist game PAYDAY: Aces High will launch for SteamVR and Quest on …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "RPG Maker U2U ‘P2D Map Editor Demo’ now available",
+  "url": "https://www.gematsu.com/2026/10/rpg-maker-u2u-p2d-map-editor-demo-now-available",
+  "ngay": "2026-10-20T00:03:51+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Demos",
+   "Gotcha Gotcha Games",
+   "RPG",
+   "RPG Maker U2U",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Gotcha Gotcha Games has released the RPG Maker U2U “P2D Map Editor Demo” for PC via …",
   "goi_y_ps": false
  }
 ]
