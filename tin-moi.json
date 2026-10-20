@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "PlayStation Plus Game Catalog for October: Mafia: The Old Country, Horizon Forbidden West, Mycopunk and more",
-  "url": "https://blog.playstation.com/2026/10/14/playstation-plus-game-catalog-for-october-mafia-the-old-country-horizon-forbidden-west-mycopunk-and-more/",
-  "ngay": "2026-10-14T22:30:18+07:00",
-  "the_loai": [
-   "PlayStation Plus"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-14T22:50:54+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS Plus Extra, Premium October Games Include Returning Title",
   "url": "https://www.playstationlifestyle.net/2026/10/14/ps-plus-extra-premium-october-2026-games-full-list",
@@ -3691,5 +3678,17 @@
   "da_viet": false,
   "tom_tat": "Now a multiplayer event in Battlefield 6. If you want the newest content from the Dead Space universe, you won't be booting up the latest PS5 creation starring Isaac Clarke — you'll actually just be playing Battlefield 6 . The shooter has a new time-limited event that starts today and runs until 10th November 2026, all themed around Dead Space. This is a PvE version of the Battlefield mode Rush, and it features \"environments, weapons, cosmetics and even gameplay mechanics adapted from\" the survival horror series. Development was led by EA Motive, which developed the most recent PS5 remake of t…",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PS Plus Extra",
+  "tieu_de": "Kho PS Plus Extra: tổng số game trong kho tăng từ 420 lên 421",
+  "url": "https://store.playstation.com/en-sg/category/3a7006fe-e26f-49fe-87e5-4473d7ed0fb2/1",
+  "ngay": "2026-10-21T00:01:29+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "tổng kho vượt đỉnh 12 lần gần nhất",
+  "da_viet": false
  }
 ]
