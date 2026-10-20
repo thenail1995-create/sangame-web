@@ -1,33 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Metro 2039 Dev Puts PS5 Pre-Orders Live and Confirms DLC",
-  "url": "https://www.pushsquare.com/news/2026/10/metro-2039-dev-puts-ps5-pre-orders-live-and-confirms-dlc",
-  "ngay": "2026-10-14T20:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "It's a £60 / $70 game. 4A Games has made Metro 2039 available to pre-order on the PS Store in the last 24 hours, revealing its price point and two editions to choose from. Metro 2039 has been confirmed as a £59.99 / $69.99 release if you're picking the base version, though a Deluxe Edition offers more for an extra £25 / $30. The latter bundles in a digital art book and soundtrack, a Specialist Pack with early item unlocks, and most importantly: a post-launch story expansion. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-15T14:10:49+07:00"
- },
- {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Gran Turismo 7’s Spec IV (Part 1) launches today and a first look at DualSense wireless controller – Gran Turismo Limited Edition",
-  "url": "https://blog.playstation.com/2026/10/14/gran-turismo-7s-spec-iv-part-1-launches-today-and-a-first-look-at-dualsense-wireless-controller-gran-turismo-limited-edition/",
-  "ngay": "2026-10-14T20:00:48+07:00",
-  "the_loai": [
-   "PS5",
-   "Gran Turismo 7",
-   "Polyphony Digital"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-14T22:50:54+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "The Legend of Zelda: Ocarina of Time remake ‘Overview’ trailer",
   "url": "https://www.gematsu.com/2026/10/the-legend-of-zelda-ocarina-of-time-remake-overview-trailer",
@@ -3712,6 +3684,32 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "PS Plus members looking to play something different from high-profile PS5 and PS4 games should check out these underrated hidden gems before they leave the catalog. All the games mentioned below are still in the 2026 catalog at the time of this writing, but they can leave at any time with little notice. These hidden […] The post Try These Underrated PlayStation Plus Games Before They Leave appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "How Final Fantasy Resonance uses Visions to change how we see the series",
+  "url": "https://blog.playstation.com/2026/10/20/how-final-fantasy-resonance-uses-visions-to-change-how-we-see-the-series/",
+  "ngay": "2026-10-20T20:30:11+07:00",
+  "the_loai": [
+   "PS5",
+   "Final Fantasy Resonance",
+   "Square Enix"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Final Fantasy'",
+  "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS Store Must Copy Steam If PC Players' Campaign Against AI Content Succeeds",
+  "url": "https://www.pushsquare.com/news/2026/10/ps-store-must-copy-steam-if-pc-players-campaign-against-ai-content-succeeds",
+  "ngay": "2026-10-20T20:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Steam Next Fest is a disaster. There's currently a huge push for an all-encompassing Steam filter that would allow users to disqualify any game that uses AI-generated assets from their search results. The campaign, which is underway across all of the usual social media platforms like Reddit, X (formerly Twitter), and Discord, has gained serious momentum because of this year's Steam Next Fest, which began yesterday, on the 19th October. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
