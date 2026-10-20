@@ -1,31 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Trials Studio RedLynx Looks Set to Close as Ubisoft Continues Major Restructure",
-  "url": "https://www.pushsquare.com/news/2026/10/trials-studio-redlynx-looks-set-to-close-as-ubisoft-continues-major-restructure",
-  "ngay": "2026-10-14T21:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Trials and tribulations. Publisher Ubisoft intends to shut down RedLynx, the Finnish development studio behind the beloved Trials series. As reported by GamesIndustry.biz , Ubisoft released a statement in which it confirms its plans. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-15T14:10:49+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Review: Tales of Eternia Remastered (PS5) - Classic PlayStation RPG Shows Its Age",
-  "url": "https://www.pushsquare.com/reviews/ps5/tales-of-eternia-remastered",
-  "ngay": "2026-10-14T22:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Third time's the charm. Growing up, Tales was one of my favorite Japanese RPG series, one that I wished got as much attention as Final Fantasy and Persona . With the success of the latest entry, 2021’s Tales of Arise , Bandai Namco has sought to port some of the older games to modern platforms. Many of them have aged well, including Graces f, Xillia , and Berseria . Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T14:10:49+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "PlayStation Plus Game Catalog for October: Mafia: The Old Country, Horizon Forbidden West, Mycopunk and more",
   "url": "https://blog.playstation.com/2026/10/14/playstation-plus-game-catalog-for-october-mafia-the-old-country-horizon-forbidden-west-mycopunk-and-more/",
@@ -3686,5 +3660,36 @@
   "da_viet": false,
   "tom_tat": "AMD FidelityFX Super Resolution Upscaling 4.1 is coming to Xbox, starting on the ROG Xbox …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Game Pass adds Final Fantasy VII Remake Intergrade, The Seance of Blake Manor, and more in late October",
+  "url": "https://www.gematsu.com/2026/10/game-pass-adds-final-fantasy-vii-remake-intergrade-the-seance-of-blake-manor-and-more-in-late-october",
+  "ngay": "2026-10-20T23:08:11+07:00",
+  "the_loai": [
+   "PC",
+   "Smartphone",
+   "Xbox One",
+   "Xbox Series",
+   "Microsoft",
+   "Xbox Game Pass"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Final Fantasy'",
+  "da_viet": false,
+  "tom_tat": "Microsoft has announced new titles coming to Game Pass in late October, including Final Fantasy …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "The Best Dead Space Can Get Now Is a Crossover in a Different Game",
+  "url": "https://www.pushsquare.com/news/2026/10/the-best-dead-space-can-get-now-is-a-crossover-in-a-different-game",
+  "ngay": "2026-10-20T23:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Now a multiplayer event in Battlefield 6. If you want the newest content from the Dead Space universe, you won't be booting up the latest PS5 creation starring Isaac Clarke — you'll actually just be playing Battlefield 6 . The shooter has a new time-limited event that starts today and runs until 10th November 2026, all themed around Dead Space. This is a PvE version of the Battlefield mode Rush, and it features \"environments, weapons, cosmetics and even gameplay mechanics adapted from\" the survival horror series. Development was led by EA Motive, which developed the most recent PS5 remake of t…",
+  "goi_y_ps": true
  }
 ]
