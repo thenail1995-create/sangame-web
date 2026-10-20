@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Dark cosmic fantasy strategy RPG Myths from the Maw announced for PC",
-  "url": "https://www.gematsu.com/2026/10/dark-cosmic-fantasy-strategy-rpg-myths-from-the-maw-announced-for-pc",
-  "ngay": "2026-10-14T20:04:25+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Game Announce",
-   "Half Human Games",
-   "Myths from the Maw",
-   "RPG",
-   "Screenshots",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Dwerve developer Half Human Games has announced Myths from the Maw, a dark cosmic fantasy …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "The Killing Stone launches October 21 for PS5, Xbox Series, and PC",
   "url": "https://www.gematsu.com/2026/10/the-killing-stone-launches-october-21-for-ps5-xbox-series-and-pc",
   "ngay": "2026-10-14T20:02:44+07:00",
@@ -3705,5 +3684,17 @@
   "da_viet": false,
   "tom_tat": "Rockstar drops PS Plus support again. This month's PS Plus Extra and PS Plus Premium game update is now live for PS5, PS4 players (or some of it is, if you are in the UK, USA, or Japan), which means it's time to learn what titles will be taken off the service in November 2026. We already know that GTA 5 is leaving PS Plus Extra, as per a message from Sony, but the full list has now been shared in the Last Chance to Play section. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Mortal Shell 2 Gets Even Better in Big Free Content Patch, Live Now on PS5",
+  "url": "https://www.pushsquare.com/news/2026/10/mortal-shell-2-gets-even-better-in-big-free-content-patch-live-now-on-ps5",
+  "ngay": "2026-10-20T21:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "15 new dungeons, 10 extra tarstones, and more. Cold Symmetry has announced and launched a new Mortal Shell 2 update all at once that enhances the Souls-like with more content, items, and base game tweaks. The free patch is out now on PS5. Dubbed the Rotten Autumn update, the trailer above teases what's in store, but for a complete rundown, here are the big additions to the game: Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
