@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Gundam Games 40th Anniversary Broadcast set for October 28",
-  "url": "https://www.gematsu.com/2026/10/gundam-games-40th-anniversary-broadcast-set-for-october-28",
-  "ngay": "2026-10-14T10:19:45+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Smartphone",
-   "Xbox Series",
-   "Bandai Namco",
-   "Gundam Rogue Orbit",
-   "Mobile Suit Gundam: Battle Operation 3",
-   "SD Gundam G Generation ETERNAL"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Bandai Namco will host the “Gundam Games 40th Anniversary Broadcast” on October 28 at 20:00 …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-14T12:01:28+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Sonic Racing: CrossWorlds's Final Year One DLC Pack Is Live Now on PS5",
   "url": "https://www.pushsquare.com/news/2026/10/sonic-racing-crossworldss-final-year-one-dlc-pack-is-live-now-on-ps5",
@@ -3717,6 +3695,20 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "In collab with Edgerunners season 2. CD Projekt Red has announced it's got yet another Cyberpunk 2077 patch on the way, this time in collaboration with the second season of its anime TV show spin-off, Edgerunners . The developer will update the RPG to version 2.5 on 22nd October 2026, and tomorrow it will have a REDstream to share what's in store. The blog post teases \"cyberware customization, a new dual-wielding playstyle, and more\". Presumably, it will all link into the TV series in some way. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-20T19:10:57+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Ace Combat 8 Carpet Bombs a Massive List of Bugs in an Upcoming Patch on PS5",
+  "url": "https://www.pushsquare.com/news/2026/10/ace-combat-8-carpet-bombs-a-massive-list-of-bugs-in-an-upcoming-patch-on-ps5",
+  "ngay": "2026-10-20T19:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Fix two! Developer Bandai Namco Aces has published details on an upcoming patch for Ace Combat 8: Wings of Theve . Scheduled to go live on 23rd October, the update makes a ton of fixes and adjustments to both the campaign and the online multiplayer modes. Read the full article on pushsquare.com",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-20T19:10:57+07:00"
  }
 ]
