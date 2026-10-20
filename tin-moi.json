@@ -1,61 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Xbox Nano Controller announced",
-  "url": "https://www.gematsu.com/2026/10/xbox-nano-controller-announced",
-  "ngay": "2026-10-14T23:12:03+07:00",
-  "the_loai": [
-   "PC",
-   "Smartphone",
-   "Xbox One",
-   "Xbox Series",
-   "Microsoft",
-   "Xbox Nano Controller"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Xbox has announced the Xbox Nano Controller, a new controller “designed to fit nearly every …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Charming PS5 Adventure RPG Is Out Today on PlayStation Store",
-  "url": "https://www.playstationlifestyle.net/2026/10/14/the-witchs-bakery-ps5-release-october-14",
-  "ngay": "2026-10-14T23:17:35+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "PS5",
-   "Sunny Labs",
-   "The Witch's Bakery",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "After a delayed August launch, a charming PlayStation game is now available on the PlayStation Store. Developed by Sunny Labs and published by Silver Lining Interactive, The Witch’s Bakery launches on the PlayStation 5, Xbox Series, Switch 2, Switch, and PC. Physical editions are available for $34.99. The developers revealed that the release push from […] The post Charming PS5 Adventure RPG Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T11:10:47+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Kotaro Uchikoshi establishes new studio CRASH KEYS",
-  "url": "https://www.gematsu.com/2026/10/kotaro-uchikoshi-establishes-new-studio-crash-keys",
-  "ngay": "2026-10-14T23:26:28+07:00",
-  "the_loai": [
-   "Industry",
-   "CRASH KEYS",
-   "Kotaro Uchikoshi"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Zero Escape and AI: The Somnium Files creator Kotaro Uchikoshi has announced the establishment of …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Call of Duty Can't Let Go of Shipment, Added to Modern Warfare 4 Just Days After Release",
   "url": "https://www.pushsquare.com/news/2026/10/call-of-duty-cant-let-go-of-shipment-added-to-modern-warfare-4-just-days-after-release",
@@ -3680,6 +3624,67 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Exploration-based action adventure game Chronoscript: The Endless End will launch for Xbox Series and PC …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Mouthwashing coming to PS5, Xbox Series, PS4, and Switch on October 29",
+  "url": "https://www.gematsu.com/2026/10/mouthwashing-coming-to-ps5-xbox-series-ps4-and-switch-on-october-29",
+  "ngay": "2026-10-21T00:59:07+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch",
+   "Xbox Series",
+   "Clips",
+   "CRITICAL REFLEX",
+   "CRITICAL REFLEX: 2026.10.20",
+   "Horror",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Mouthwashing",
+   "Release Dates",
+   "Trailers",
+   "Wrong Organ"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher CRITICAL REFLEX and developer Wrong Organ will release horror game Mouthwashing for PlayStation 5, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "DreamWorks Shrek 2 Remastered announced for PS5, Xbox Series, Switch 2, Switch, and PC",
+  "url": "https://www.gematsu.com/2026/10/dreamworks-shrek-2-remastered-announced-for-ps5-xbox-series-switch-2-switch-and-pc",
+  "ngay": "2026-10-21T00:33:18+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Aspyr",
+   "Clips",
+   "Game Announce",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Shrek 2 Remastered",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Aspyr has announced DreamWorks Shrek 2 Remastered for PlayStation 5, Xbox Series, Switch 2, Switch, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "JRPG Villion: Code Adds to the Insanity of PS5's January Release Schedule",
+  "url": "https://www.pushsquare.com/news/2026/10/jrpg-villion-code-adds-to-the-insanity-of-ps5s-january-release-schedule",
+  "ngay": "2026-10-21T01:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "With character designs by one of my fave artists. The vacuum created by GTA 6 expands into next year, with January already looking like a hectic period for PS5 games. Highlights include Ananta , Stranger Than Heaven , and Until Dawn 2 – but now Idea Factory International is throwing its hat into the arena. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
