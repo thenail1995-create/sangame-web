@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Mini Review: Toy Story: Retro Roundup (PS5) - This Fun Toy Box Provides a Nostalgic Buzz",
-  "url": "https://www.pushsquare.com/reviews/ps5/toy-story-retro-roundup",
-  "ngay": "2026-10-14T23:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A child's play thing. Toy Story: Retro Roundup is a collection of video games from the franchise's early days, plus A Bug's Life as a bonus throw-in. While not everything here is particularly great, there are more than enough nostalgia punches and modern-day features to feel like you're getting your money's worth. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-15T11:10:47+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Xbox Nano Controller announced",
   "url": "https://www.gematsu.com/2026/10/xbox-nano-controller-announced",
@@ -3673,5 +3660,26 @@
   "da_viet": false,
   "tom_tat": "FEVer Dreams out now. Bethesda definitely seems to be going a bit harder on bringing its official Creations to PS5. Just like with Skyrim earlier in the month, modding team Kinggath Creations has released a new DLC for Fallout 4 , in partnership with Bethesda. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Chronoscript: The Endless End adds Xbox Series version",
+  "url": "https://www.gematsu.com/2026/10/chronoscript-the-endless-end-adds-xbox-series-version",
+  "ngay": "2026-10-21T00:08:32+07:00",
+  "the_loai": [
+   "PC",
+   "Xbox Series",
+   "Chronoscript: The Endless End",
+   "Clips",
+   "DeskWorks!",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Shueisha Games",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Exploration-based action adventure game Chronoscript: The Endless End will launch for Xbox Series and PC …",
+  "goi_y_ps": false
  }
 ]
