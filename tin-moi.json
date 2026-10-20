@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Gundam Rogue Orbit Blowout Confirmed for Gundam's 40 Year Anniversary Broadcast This Month",
-  "url": "https://www.pushsquare.com/news/2026/10/gundam-rogue-orbit-blowout-confirmed-for-gundams-40-year-anniversary-broadcast-this-month",
-  "ngay": "2026-10-14T18:45:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Rogue orbiting. It's an important time for Gundam in regards to video games, and not just because the fantastic looking Gundam Rogue Orbit is locked in for a March 2027 release. Indeed, it's apparently been 40 whole years since Gundam first stepped onto the gaming scene (I'm honestly not sure which title is being used as the starting point) and so an official celebratory broadcast has been announced. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-14T19:40:56+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "GTA 6 Tech Will Help Create the Next Rockstar Game, Won't Be Another 8-Year Wait",
   "url": "https://www.pushsquare.com/news/2026/10/gta-6-tech-will-help-create-the-next-rockstar-game-wont-be-another-8-year-wait",
   "ngay": "2026-10-14T19:30:00+07:00",
@@ -3697,6 +3684,27 @@
   "ly_do_hot": "có từ khoá 'Final Fantasy'",
   "da_viet": false,
   "tom_tat": "Dragon Quest fans got to see the first three games in the legendary franchise remade in Square Enix’s wonderful HD-2D art style. While a Final Fantasy equivalent will hopefully happen someday, fans are getting Final Fantasy Resonance in the meantime. An enhanced adaptation of the mobile game Brave Exvius, the first FF HD-2D game looks […] The post Final Fantasy Resonance (PS5) Review: HD-2D Continues to Shine appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Ys VIII: Lacrimosa of DANA coming to Switch 2 on February 25, 2027",
+  "url": "https://www.gematsu.com/2026/10/ys-viii-lacrimosa-of-dana-coming-to-switch-2-on-february-25-2027",
+  "ngay": "2026-10-20T20:14:26+07:00",
+  "the_loai": [
+   "Switch 2",
+   "Clips",
+   "Falcom",
+   "NIS America",
+   "RPG",
+   "Trailers",
+   "Ys (series)",
+   "Ys VIII: Lacrimosa of DANA"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher NIS America and developer Falcom will release a Switch 2 version of action RPG …",
   "goi_y_ps": false
  }
 ]
