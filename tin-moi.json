@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Call of Duty Can't Let Go of Shipment, Added to Modern Warfare 4 Just Days After Release",
-  "url": "https://www.pushsquare.com/news/2026/10/call-of-duty-cant-let-go-of-shipment-added-to-modern-warfare-4-just-days-after-release",
-  "ngay": "2026-10-14T23:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Call of Duty'",
-  "da_viet": false,
-  "tom_tat": "Shipment map on 27th October. Call of Duty: Modern Warfare 4 will be fully out and available on PS5 from 23rd October 2026, and just four days later, it will have its default multiplayer map that basically overrules every other new location in the game: Shipment. Exactly like the Treyarch entries, which eventually just become another way of playing Nuketown, the Infinity Ward titles have been all about Shipment, dating back to Call of Duty 4: Modern Warfare . Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Sker: The Bleeding Veil announced for PS5, Xbox Series, and PC",
   "url": "https://www.gematsu.com/2026/10/sker-the-bleeding-veil-announced-for-ps5-xbox-series-and-pc",
@@ -3233,7 +3221,8 @@
   "ly_do_hot": "có từ khoá 'Final Fantasy'",
   "da_viet": false,
   "tom_tat": "Crystal clear. For well over a decade now, some Final Fantasy fans have been demanding a return to a more traditional gameplay structure. And while Final Fantasy Resonance is a far cry from being a mainline AAA Final Fantasy game, it provides a glimpse of what a modern instalment could look like, if it adhered to old-school sensibilities. Resonance is built on the foundations laid by Final Fantasy Brave Exvius — the now defunct mobile game. But this isn't just some weird console port; it's a full-on rework that strips Exvius of its free-to-play systems and reimagines it as a classic turn-based…",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-21T01:20:49+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3250,7 +3239,8 @@
   "ly_do_hot": "có từ khoá 'Final Fantasy'",
   "da_viet": false,
   "tom_tat": "Dragon Quest fans got to see the first three games in the legendary franchise remade in Square Enix’s wonderful HD-2D art style. While a Final Fantasy equivalent will hopefully happen someday, fans are getting Final Fantasy Resonance in the meantime. An enhanced adaptation of the mobile game Brave Exvius, the first FF HD-2D game looks […] The post Final Fantasy Resonance (PS5) Review: HD-2D Continues to Shine appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T01:20:49+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3428,7 +3418,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Narrative retro science-fiction horror first-person shooter DERELIKT will launch for PC via Steam on November …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T01:20:49+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3451,7 +3442,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Compile Heart-developed action RPG Villion: Code will launchfor PlayStation 5, Switch 2, PlayStation 4, Switch, …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T01:20:49+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3603,7 +3595,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "FEVer Dreams out now. Bethesda definitely seems to be going a bit harder on bringing its official Creations to PS5. Just like with Skyrim earlier in the month, modding team Kinggath Creations has released a new DLC for Fallout 4 , in partnership with Bethesda. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-21T01:20:49+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3685,6 +3678,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "With character designs by one of my fave artists. The vacuum created by GTA 6 expands into next year, with January already looking like a hectic period for PS5 games. Highlights include Ananta , Stranger Than Heaven , and Until Dawn 2 – but now Idea Factory International is throwing its hat into the arena. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Croak adds Xbox Series version, launches in March 2027",
+  "url": "https://www.gematsu.com/2026/10/croak-adds-xbox-series-version-launches-in-march-2027",
+  "ngay": "2026-10-21T00:03:31+07:00",
+  "the_loai": [
+   "PC",
+   "Xbox Series",
+   "Clips",
+   "Croak",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Release Dates",
+   "Trailers",
+   "WoodRunner Games"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Side-scrolling precision platformer Croak will launch for Xbox Series and PC via Steam and Microsoft …",
   "goi_y_ps": false
  }
 ]
