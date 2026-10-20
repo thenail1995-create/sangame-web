@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "ANTONBLAST for PS5, PS4 launches October 15",
-  "url": "https://www.gematsu.com/2026/10/antonblast-for-ps5-ps4-launches-october-15",
-  "ngay": "2026-10-14T06:33:32+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "ANTONBLAST",
-   "Joystick Ventures",
-   "Release Dates",
-   "Summitsphere"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Side-scrolling action platformer ANTONBLAST will launch for PlayStation 5 and PlayStation 4 on October 15, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-14T08:50:50+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "First PS Plus Extra Game Removal for November 2026 Confirmed",
   "url": "https://www.pushsquare.com/news/2026/10/first-ps-plus-extra-game-removal-for-november-2026-confirmed",
@@ -3722,5 +3702,17 @@
   "da_viet": false,
   "tom_tat": "An update has surfaced online about which studio might be helming Star Wars Battlefront 3. The post Star Wars Battlefront 3 Rumor Suggests Two Major Studios Could Take Over the Franchise appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus Extra",
+  "tieu_de": "Kho PS Plus Extra: tổng số game trong kho tăng từ 419 lên 420",
+  "url": "https://store.playstation.com/en-sg/category/3a7006fe-e26f-49fe-87e5-4473d7ed0fb2/1",
+  "ngay": "2026-10-20T07:01:23+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "tổng kho vượt đỉnh 12 lần gần nhất",
+  "da_viet": false
  }
 ]
