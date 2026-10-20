@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Acts of Blood launches December 4 for PC, in 2027 for PS5 and Xbox Series",
-  "url": "https://www.gematsu.com/2026/10/acts-of-blood-launches-december-4-for-pc-in-2027-for-ps5-and-xbox-series",
-  "ngay": "2026-10-15T01:34:49+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Acts of Blood",
-   "Big Fan Games",
-   "Clips",
-   "Eksil Team",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Beat ’em up action game Acts of Blood will launch for PC via Steam and Microsoft …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T01:59:29+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Popular PlayStation Plus PS5 Action Game Surprise Drops Free DLC",
   "url": "https://www.playstationlifestyle.net/2026/10/14/popular-ps-plus-ps5-action-game-free-dlc",
@@ -3703,6 +3680,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Ubisoft and developer Ubisoft Annecy will release a Switch 2 version of multiplayer open-world …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "EA Boxing Series Fight Night Back for Another Round, New Game Teased",
+  "url": "https://www.pushsquare.com/news/2026/10/ea-boxing-series-fight-night-back-for-another-round-new-game-teased",
+  "ngay": "2026-10-21T02:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "\"Fight Night is coming back\". EA has revealed that its Fight Night boxing franchise, which ran during the PS2 and PS3 days, is returning. A new social media account has been set up, and its first post teases: \"To everyone who stayed in our corner: Fight Night is coming back.\" Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
