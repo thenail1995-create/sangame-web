@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Harold Halibut coming to Switch 2 on November 12",
-  "url": "https://www.gematsu.com/2026/10/harold-halibut-coming-to-switch-2-on-november-12",
-  "ngay": "2026-10-15T01:22:50+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Clips",
-   "Harold Halibut",
-   "IGN Fan Fest 2026: Fall Edition",
-   "Release Dates",
-   "Slow Bros.",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Slow Bros. will release handmade stop motion-inspired adventure game Harold Halibut for Switch 2 on …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Acts of Blood launches December 4 for PC, in 2027 for PS5 and Xbox Series",
   "url": "https://www.gematsu.com/2026/10/acts-of-blood-launches-december-4-for-pc-in-2027-for-ps5-and-xbox-series",
   "ngay": "2026-10-15T01:34:49+07:00",
@@ -3699,5 +3679,30 @@
   "da_viet": false,
   "tom_tat": "Up to 50% off $24.99 game. Telltale Games has revealed a range of price discounts for The Wolf Among Us Remastered based on whether you own the original PS4 version and if you're a PS Plus subscriber. Launching next week on 29th October 2026, the remastered PS5 version has a new story trailer (viewable above), which should set the scene nicely for the first game. Of course, The Wolf Among Us 2 then debuts in 2027 — or, rather, that is the latest release window for the oft-delayed title. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Riders Republic coming to Switch 2 on December 9 alongside Offline Play",
+  "url": "https://www.gematsu.com/2026/10/riders-republic-coming-to-switch-2-on-december-9-alongside-offline-play",
+  "ngay": "2026-10-21T00:00:37+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch 2",
+   "Xbox One",
+   "Xbox Series",
+   "Clips",
+   "Release Dates",
+   "Riders Republic",
+   "Trailers",
+   "Ubisoft",
+   "Ubisoft Annecy"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Ubisoft and developer Ubisoft Annecy will release a Switch 2 version of multiplayer open-world …",
+  "goi_y_ps": false
  }
 ]
