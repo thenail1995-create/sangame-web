@@ -1,39 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "4 Penny Coffins launches October 27",
-  "url": "https://www.gematsu.com/2026/10/4-penny-coffins-launches-october-27",
-  "ngay": "2026-10-15T01:31:22+07:00",
-  "the_loai": [
-   "PC",
-   "4 Penny Coffins",
-   "Clips",
-   "Horror",
-   "IGN Fan Fest 2026: Fall Edition",
-   "Other Ocean",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "4 Penny Coffins, an 1888-set social investigation game that includes both a solo mode and …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Hideo Kojima Shows There's No Hard Feelings After Physint Axe by Visiting Sony City",
-  "url": "https://www.pushsquare.com/news/2026/10/hideo-kojima-shows-theres-no-hard-feelings-after-physint-axe-by-visiting-sony-city",
-  "ngay": "2026-10-15T02:15:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Joy division. Hideo Kojima posed for photos outside Sony City this week – about a month after PlayStation dramatically axed his upcoming espionage action game, Physint . In one of the most dramatic turnarounds in gaming industry history , Xbox swooped in to save Metal Gear Solid spiritual successor, leaving fans agitated at Sony’s more recent decisions. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-15T08:10:46+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Xbox Polling Players on Whether Fallout, Elder Scrolls, or Even Minecraft Should Go Exclusive",
   "url": "https://www.pushsquare.com/news/2026/10/xbox-polling-players-on-whether-fallout-elder-scrolls-or-even-minecraft-should-go-exclusive",
@@ -3697,6 +3663,39 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Cooking simulation game Arctic Eggs is now available for Xbox Series for $9.99, and is …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Scramble Knights Online launches in Early Access on October 26",
+  "url": "https://www.gematsu.com/2026/10/scramble-knights-online-launches-in-early-access-on-october-26",
+  "ngay": "2026-10-21T00:20:33+07:00",
+  "the_loai": [
+   "PC",
+   "Xbox Series",
+   "Clips",
+   "Funktronic Labs",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Release Dates",
+   "Scramble Knights Online",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Massively multiplayer online game-lite action RPG Scramble Knights Online will launch in Early Access for …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Worried About PS6 Price? Next Xbox Could Be as Much as $1,800",
+  "url": "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800",
+  "ngay": "2026-10-21T03:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'price'",
+  "da_viet": false,
+  "tom_tat": "And a PS6 could be priced similarly. No matter how well they run games or how much better they make them look, the chatter surrounding the next-gen PS6 and Xbox Helix will almost certainly be dominated by their price points. Video game technology has reached a point where graphical leaps aren't so obvious anymore, meaning manufacturers have to justify the next console investment in other ways. An investment as much as $1,800, though? That's an entirely different conversation. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
