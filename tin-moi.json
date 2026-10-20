@@ -1,28 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "1999 TOKOYO Building launches November 10",
-  "url": "https://www.gematsu.com/2026/10/1999-tokoyo-building-launches-november-10",
-  "ngay": "2026-10-14T10:09:07+07:00",
-  "the_loai": [
-   "PC",
-   "1999 TOKOYO Building",
-   "Clips",
-   "Gameplay",
-   "Kodansha",
-   "Release Dates",
-   "TOKOYO FUDOSAN",
-   "Trailers",
-   "Visual Novel"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Neo-nostalgic horror adventure game 1999TOKOYO Building will launch for PC via Steam on November 10, …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Gundam Games 40th Anniversary Broadcast set for October 28",
   "url": "https://www.gematsu.com/2026/10/gundam-games-40th-anniversary-broadcast-set-for-october-28",
   "ngay": "2026-10-14T10:19:45+07:00",
@@ -3728,5 +3706,17 @@
   "tom_tat": "Or the full lineup if you're outside the UK, USA, and Japan. Today's the day for your monthly PS Plus Extra and PS Plus Premium update to come into force, with the October 2026 refresh bringing nine new additions. Obviously, because Sony is experimenting with the rollout of these games, how many you gain access to today depends on where you live. The vast majority of countries get the complete selection today, but if you're in the UK, USA, or Japan, it's only the following five games: Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-20T16:10:52+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Another Huge Cyberpunk 2077 PS5 Update Incoming, Patch 2.5 Revealed in Livestream Tomorrow",
+  "url": "https://www.pushsquare.com/news/2026/10/another-huge-cyberpunk-2077-ps5-update-incoming-patch-2-5-revealed-in-livestream-tomorrow",
+  "ngay": "2026-10-20T18:15:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "In collab with Edgerunners season 2. CD Projekt Red has announced it's got yet another Cyberpunk 2077 patch on the way, this time in collaboration with the second season of its anime TV show spin-off, Edgerunners . The developer will update the RPG to version 2.5 on 22nd October 2026, and tomorrow it will have a REDstream to share what's in store. The blog post teases \"cyberware customization, a new dual-wielding playstyle, and more\". Presumably, it will all link into the TV series in some way. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
