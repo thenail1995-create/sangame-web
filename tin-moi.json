@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Gran Turismo Limited Edition DualSense Controller announced",
-  "url": "https://www.gematsu.com/2026/10/gran-turismo-limited-edition-dualsense-controller-announced",
-  "ngay": "2026-10-14T20:20:42+07:00",
-  "the_loai": [
-   "PS5",
-   "Clips",
-   "DualSense",
-   "Gran Turismo 7",
-   "Polyphony Digital",
-   "Racing Games",
-   "SIE",
-   "SIEA",
-   "SIEE",
-   "SIEJA",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Gran Turismo'",
-  "da_viet": false,
-  "tom_tat": "Sony Interactive Entertainment has announced the Gran Turismo Limited Edition DualSense Controller in commemoration of …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T05:01:30+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "PlayStation Celebrates 30 Years of Gran Turismo with a Stunning PS5 Controller",
   "url": "https://www.pushsquare.com/news/2026/10/playstation-celebrates-30-years-of-gran-turismo-with-a-stunning-ps5-controller",
@@ -3601,7 +3576,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Pocketpair will release the next major update for Palworld, dubbed “Side by Side,” this winter, …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-20T22:10:58+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3623,7 +3599,8 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "PS Plus members looking to play something different from high-profile PS5 and PS4 games should check out these underrated hidden gems before they leave the catalog. All the games mentioned below are still in the 2026 catalog at the time of this writing, but they can leave at any time with little notice. These hidden […] The post Try These Underrated PlayStation Plus Games Before They Leave appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-20T22:10:58+07:00"
  },
  {
   "nguon": "PlayStation Blog",
@@ -3637,7 +3614,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'Final Fantasy'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-20T22:10:58+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3661,7 +3639,8 @@
   "ly_do_hot": "có từ khoá 'PS Plus'",
   "da_viet": false,
   "tom_tat": "Rockstar drops PS Plus support again. This month's PS Plus Extra and PS Plus Premium game update is now live for PS5, PS4 players (or some of it is, if you are in the UK, USA, or Japan), which means it's time to learn what titles will be taken off the service in November 2026. We already know that GTA 5 is leaving PS Plus Extra, as per a message from Sony, but the full list has now been shared in the Last Chance to Play section. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-20T22:10:58+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3673,7 +3652,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "15 new dungeons, 10 extra tarstones, and more. Cold Symmetry has announced and launched a new Mortal Shell 2 update all at once that enhances the Souls-like with more content, items, and base game tweaks. The free patch is out now on PS5. Dubbed the Rotten Autumn update, the trailer above teases what's in store, but for a complete rundown, here are the big additions to the game: Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-20T22:10:58+07:00"
  },
  {
   "nguon": "PS Store",
@@ -3685,6 +3665,18 @@
   ],
   "hot": true,
   "ly_do_hot": "số món giảm giá tăng 48% so với đỉnh 12 lần gần nhất",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Store",
+  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (4047 → 5195 món)",
+  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
+  "ngay": "2026-10-20T22:10:54+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "số món giảm giá tăng 28% so với đỉnh 12 lần gần nhất",
   "da_viet": false
  }
 ]
