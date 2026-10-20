@@ -1,62 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Gorgeous New PS5 DualSense Controller Gets Price and Release Date",
-  "url": "https://www.playstationlifestyle.net/2026/10/14/gran-turismo-7-ps5-dualsense-controller-price-release-date",
-  "ngay": "2026-10-15T00:36:42+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "DualSense",
-   "DualSense Wireless Controller - Gran Turismo Limited Edition",
-   "Entertainment and Gaming",
-   "PlayStation",
-   "PlayStation 5",
-   "PS5",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'price'",
-  "da_viet": false,
-  "tom_tat": "PlayStation has unveiled a new limited-edition PS5 controller. The post Gorgeous New PS5 DualSense Controller Gets Price and Release Date appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T01:59:29+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "JDM: Ph4ntom Driver announced for PC",
-  "url": "https://www.gematsu.com/2026/10/jdm-ph4ntom-driver-announced-for-pc",
-  "ngay": "2026-10-15T00:38:02+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Game Announce",
-   "Gaming Factory",
-   "IGN Fan Fest 2026: Fall Edition",
-   "JDM: Ph4ntom Driver",
-   "Racing Games",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "JDM: Japanese Drift Master developer Gaming factory has announced JDM: Ph4ntom Driver, a standalone supernatural …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Study Finds Almost Half of PS5 Disc Backlash Came from Fake Accounts",
-  "url": "https://www.pushsquare.com/news/2026/10/study-finds-almost-half-of-ps5-disc-backlash-came-from-fake-accounts",
-  "ngay": "2026-10-15T01:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "No disc, no buy? A really fascinating piece of research published by Cyabra reveals almost half of the replies to official PlayStation channels spotlighting August’s blackout campaign were “inauthentic” – or, in other words, fake. In the aftermath of its decision to stop manufacturing physical games in 2028 , fans mobilised to create a boycott at the end of August, which encouraged players to disconnect their consoles and stay offline. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T08:10:46+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Harold Halibut coming to Switch 2 on November 12",
   "url": "https://www.gematsu.com/2026/10/harold-halibut-coming-to-switch-2-on-november-12",
@@ -3705,5 +3648,56 @@
   "da_viet": false,
   "tom_tat": "Surreal corporate horror deckbuilder Mr. Magpie’s Harmless Card Game will launch for PlayStation 5, Xbox …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "EA Sports Fight Night teases return",
+  "url": "https://www.gematsu.com/2026/10/ea-sports-fight-night-teases-return",
+  "ngay": "2026-10-21T01:15:58+07:00",
+  "the_loai": [
+   "Industry",
+   "EA",
+   "EA Sports",
+   "Fight Night Next",
+   "Sports Games",
+   "Teasers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A new EA Sports Fight Night is in development, Electronic Arts has teased. The company …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Graytail adds Xbox Series version",
+  "url": "https://www.gematsu.com/2026/10/graytail-adds-xbox-series-version",
+  "ngay": "2026-10-21T00:27:46+07:00",
+  "the_loai": [
+   "PC",
+   "Xbox Series",
+   "Clips",
+   "Concode",
+   "Graytail",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "2.5D pixel art mystery action adventure game Graytail will launch for Xbox Series and PC …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS Plus Discounts Announced for The Wolf Among Us Remastered PS5",
+  "url": "https://www.pushsquare.com/news/2026/10/ps-plus-discounts-announced-for-the-wolf-among-us-remastered-ps5",
+  "ngay": "2026-10-21T02:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "Up to 50% off $24.99 game. Telltale Games has revealed a range of price discounts for The Wolf Among Us Remastered based on whether you own the original PS4 version and if you're a PS Plus subscriber. Launching next week on 29th October 2026, the remastered PS5 version has a new story trailer (viewable above), which should set the scene nicely for the first game. Of course, The Wolf Among Us 2 then debuts in 2027 — or, rather, that is the latest release window for the oft-delayed title. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
