@@ -1,40 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Summer Eternal announces ‘incendiary, physics-driven RPG’ Red Rooster for PS5, Xbox Series, Switch 2, and PC",
-  "url": "https://www.gematsu.com/2026/10/summer-eternal-announces-incendiary-physics-driven-rpg-red-rooster-for-ps5-xbox-series-switch-2-and-pc",
-  "ngay": "2026-10-14T20:57:21+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Game Announce",
-   "Red Rooster",
-   "RPG",
-   "Screenshots",
-   "Summer Eternal"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Summer Eternal, one of the multiple studios founded by former Disco Elysium developers, has announced …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T14:10:49+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Epic's Pivot to AI-Driven Game Development Is Somehow Much Worse Than You May Realise",
-  "url": "https://www.pushsquare.com/news/2026/10/epics-pivot-to-ai-driven-game-development-is-somehow-much-worse-than-you-may-realise",
-  "ngay": "2026-10-14T21:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Unreal Engine will push AI. Epic boss Tim Sweeney caused a serious stir earlier this week when he publicly declared that the Fortnite developer is transitioning towards \"AI first\" production , using AI-driven tech to (supposedly) streamline all facets of game development. As you can imagine, Sweeney's incredibly pro-AI stance has attracted a lot of criticism, as conversations around the integrity of elements like generative AI, and the overall usefulness of AI workflows to continue to rage on. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Trials Studio RedLynx Looks Set to Close as Ubisoft Continues Major Restructure",
   "url": "https://www.pushsquare.com/news/2026/10/trials-studio-redlynx-looks-set-to-close-as-ubisoft-continues-major-restructure",
@@ -3676,6 +3641,50 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Narrative retro science-fiction horror first-person shooter DERELIKT will launch for PC via Steam on November …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Villion: Code launches January 26, 2027 in the west",
+  "url": "https://www.gematsu.com/2026/10/villion-code-launches-january-26-2027-in-the-west",
+  "ngay": "2026-10-20T23:01:35+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Compile Heart",
+   "Idea Factory International",
+   "Release Dates",
+   "RPG",
+   "Villion: Code"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Compile Heart-developed action RPG Villion: Code will launchfor PlayStation 5, Switch 2, PlayStation 4, Switch, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "AMD FSR Upscaling 4.1 coming to Xbox Series; FSR Diamond coming to Project Helix",
+  "url": "https://www.gematsu.com/2026/10/amd-fsr-upscaling-4-1-coming-to-xbox-series-fsr-diamond-coming-to-project-helix",
+  "ngay": "2026-10-20T22:53:51+07:00",
+  "the_loai": [
+   "Project Helix",
+   "Xbox Series",
+   "AMD",
+   "Clips",
+   "Microsoft",
+   "ROG Xbox Ally",
+   "Xbox Series S",
+   "Xbox Series X"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "AMD FidelityFX Super Resolution Upscaling 4.1 is coming to Xbox, starting on the ROG Xbox …",
   "goi_y_ps": false
  }
 ]
