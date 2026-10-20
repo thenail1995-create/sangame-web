@@ -198,7 +198,8 @@
    "https://www.gematsu.com/?p=1085241",
    "https://www.gematsu.com/?p=1085433",
    "https://www.gematsu.com/?p=1085431",
-   "https://www.gematsu.com/?p=1085391"
+   "https://www.gematsu.com/?p=1085391",
+   "https://www.gematsu.com/?p=1085494"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207487",
@@ -435,13 +436,13 @@
  },
  "deals_ds": {
   "en-US": [
-   5164,
    5168,
    5168,
    5168,
    5168,
    5168,
    5168,
+   5169,
    5169,
    5169,
    5169,
@@ -449,7 +450,7 @@
    5169
   ],
   "en-SG": [
-   5195,
+   5199,
    5199,
    5199,
    5199,
@@ -465,7 +466,7 @@
  },
  "extra_ds": {
   "en-SG": [
-   420,
+   421,
    421,
    421,
    421,

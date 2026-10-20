@@ -1,31 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Arizona Sunshine remake launches January 21, 2027",
-  "url": "https://www.gematsu.com/2026/10/arizona-sunshine-remake-launches-january-21-2027",
-  "ngay": "2026-10-15T00:11:55+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Arizona Sunshine",
-   "Clips",
-   "IGN Fan Fest 2026: Fall Edition",
-   "Release Dates",
-   "Shooter",
-   "TPS",
-   "Trailers",
-   "Vertigo Games"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "The fully flat-screen third-person shooter remake of Arizona Sunshine will launch for PlayStation 5, Xbox …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T01:59:29+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Gorgeous New PS5 DualSense Controller Gets Price and Release Date",
   "url": "https://www.playstationlifestyle.net/2026/10/14/gran-turismo-7-ps5-dualsense-controller-price-release-date",
@@ -3705,6 +3679,31 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher CRITICAL REFLEX and developer Mike Klubnika will release Buckshot Roulette for PlayStation 5, PlayStation …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Mr. Magpie’s Harmless Card Game adds PS5, Xbox Series, and Switch 2 versions, launches in early 2027",
+  "url": "https://www.gematsu.com/2026/10/mr-magpies-harmless-card-game-adds-ps5-xbox-series-and-switch-2-versions-launches-in-early-2027",
+  "ngay": "2026-10-21T00:14:52+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Behaviour Interactive",
+   "Clips",
+   "Gambit Digital",
+   "Giant Light Studios",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Mr. Magpie's Harmless Card Game",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Surreal corporate horror deckbuilder Mr. Magpie’s Harmless Card Game will launch for PlayStation 5, Xbox …",
   "goi_y_ps": false
  }
 ]
