@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "EA Reckons Battlefield 6 Deserves a Game of the Year Edition",
-  "url": "https://www.pushsquare.com/news/2026/10/ea-reckons-battlefield-6-deserves-a-game-of-the-year-edition",
-  "ngay": "2026-10-14T08:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "With a grand total of 1 GOTY award. According to a Game of the Year tracking website, Battlefield 6 won a single Game of the Year award from just over 700 outlets. And that's enough to warrant and justify a Game of the Year edition of the shooter on PS5, apparently. The new version was made available yesterday, and it puts one of its key art images in gold and combines it with a new trailer, viewable above. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "FreeStyle Football 2 launches December 3",
   "url": "https://www.gematsu.com/2026/10/freestyle-football-2-launches-december-3",
@@ -3730,5 +3718,26 @@
   "tom_tat": "PS Store has revealed the list of games leaving PS Plus Extra and Premium in November 2026, as the October lineup has begun rolling out in regions where it’s midday Tuesday, the 20th. As we recently shared, Grand Theft Auto V headlines the games departing next month. List of games leaving PS Plus Extra, Premium […] The post Games Leaving PlayStation Plus in November 2026 Confirmed appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-20T09:40:48+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Culdcept BEGINS for PC launches October 28",
+  "url": "https://www.gematsu.com/2026/10/culdcept-begins-for-pc-launches-october-28",
+  "ngay": "2026-10-20T09:30:17+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Culdcept BEGINS",
+   "Neos",
+   "Release Dates",
+   "RPG",
+   "Sales",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "The PC version of board and card game fusion Culdcept BEGINS will launch via Steam …",
+  "goi_y_ps": false
  }
 ]
