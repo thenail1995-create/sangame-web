@@ -1,28 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "The Killing Stone launches October 21 for PS5, Xbox Series, and PC",
-  "url": "https://www.gematsu.com/2026/10/the-killing-stone-launches-october-21-for-ps5-xbox-series-and-pc",
-  "ngay": "2026-10-14T20:02:44+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Question",
-   "Release Dates",
-   "The Killing Stone",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Story-driven card battler The Killing Stone will leave Early Access and launch for PlayStation 5, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T05:01:30+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Gran Turismo Limited Edition DualSense Controller announced",
   "url": "https://www.gematsu.com/2026/10/gran-turismo-limited-edition-dualsense-controller-announced",
   "ngay": "2026-10-14T20:20:42+07:00",
@@ -3696,5 +3674,17 @@
   "da_viet": false,
   "tom_tat": "15 new dungeons, 10 extra tarstones, and more. Cold Symmetry has announced and launched a new Mortal Shell 2 update all at once that enhances the Souls-like with more content, items, and base game tweaks. The free patch is out now on PS5. Dubbed the Rotten Autumn update, the trailer above teases what's in store, but for a complete rundown, here are the big additions to the game: Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PS Store",
+  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (2733 → 4047 món)",
+  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
+  "ngay": "2026-10-20T22:01:31+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "số món giảm giá tăng 48% so với đỉnh 12 lần gần nhất",
+  "da_viet": false
  }
 ]
