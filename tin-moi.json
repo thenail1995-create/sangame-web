@@ -1,68 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Drova II: Torn Lands announced for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
-  "url": "https://www.gematsu.com/2026/10/drova-ii-torn-lands-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
-  "ngay": "2026-10-15T17:45:56+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Xbox One",
-   "Xbox Series",
-   "Clips",
-   "Deck13 Spotlight",
-   "Drova II: Torn Lands",
-   "Game Announce",
-   "Just2D",
-   "Screenshots",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Deck13 Spotlight and developer Just2D have announced Drova: Forsaken Kin sequel Drova II: Torn …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T15:40:50+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "holoVillage: Our Cozy Days coming to Switch 2 on October 22",
-  "url": "https://www.gematsu.com/2026/10/holovillage-our-cozy-days-coming-to-switch-2-on-october-22",
-  "ngay": "2026-10-15T15:20:55+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Clips",
-   "holo Indie",
-   "holoVillage: Our Cozy Days",
-   "Release Dates",
-   "Roboqlo",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher holo Indie and developer Roboqlo will release a Switch 2 version of slow-life simulation …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Arc System Works to establish Arc System Works Tokyo Studio “Takumi”",
-  "url": "https://www.gematsu.com/2026/10/arc-system-works-to-establish-arc-system-works-tokyo-studio-takumi",
-  "ngay": "2026-10-15T15:15:54+07:00",
-  "the_loai": [
-   "Industry",
-   "Arc System Works",
-   "Arc System Works Tokyo Studio \"Takumi\""
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Arc System Works has announced that it will establish a new development studio, Arc System …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "GTA 6 Launch Trailer Available to Watch Right Now, Captured on PS5",
   "url": "https://www.pushsquare.com/news/2026/10/gta-6-launch-trailer-available-to-watch-right-now-captured-on-ps5",
@@ -3653,7 +3590,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-21T19:50:59+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3665,6 +3603,76 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Game breaks even after one week. Valor Mortis is now officially making a profit for developer One More Level and publisher Lyrical Games, as revealed by the latter on social media. It took just one week on the market for it to break even, meaning all the costs of the game's development have been recouped. Now, henceforth, Valor Mortis is turning a profit. Official sales numbers have not been shared yet, but anecdotally, I've seen far more chatter and discussion surrounding Valor Mortis compared to the two Ghostrunner games, which One More Level did previously. Read the full article on pushsqua…",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-21T19:50:59+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Console Archives Raiden Project launches October 22",
+  "url": "https://www.gematsu.com/2026/10/console-archives-raiden-project-launches-october-22",
+  "ngay": "2026-10-21T17:15:20+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch 2",
+   "Clips",
+   "Console Archives",
+   "Hamster Corporation",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Console Archives Raiden Project will launch for PlayStation 5 and Switch 2 on October 22 …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T19:50:59+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Arcade Archives Ace Driver Victory Lap launches October 22",
+  "url": "https://www.gematsu.com/2026/10/arcade-archives-ace-driver-victory-lap-launches-october-22",
+  "ngay": "2026-10-21T15:15:35+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Arcade Archives",
+   "Arcade Archives 2",
+   "Clips",
+   "Hamster Corporation",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Arcade Archives 2 Ace Driver Victory Lap will launch for PlayStation 5, Xbox Series, and …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T19:50:59+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Apothecary Diaries: The False Imperial Brother launches March 18, 2027",
+  "url": "https://www.gematsu.com/2026/10/the-apothecary-diaries-the-false-imperial-brother-launches-march-18-2027",
+  "ngay": "2026-10-21T15:05:50+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Clips",
+   "Gust",
+   "Koei Tecmo",
+   "Release Dates",
+   "The Apothecary Diaries: The False Imperial Brother",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Mystery solving adventure game The Apothecary Diaries: The False Imperial Brother will launch for PlayStation …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T19:50:59+07:00"
  }
 ]
