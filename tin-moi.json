@@ -1,52 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "JRPG-Inspired Edge of Memories Ducks GTA 6, Delayed to a 'Quieter Period' on PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/jrpg-inspired-edge-of-memories-ducks-gta-6-delayed-to-a-quieter-period-on-ps5",
-  "ngay": "2026-10-15T22:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "It's for the best. Edge of Memories , the JRPG-inspired outing by French dev Midgar, had been one of the few games willing to go head-to-head with GTA 6 . It was originally due out on 5th November, which is also when Nintendo’s Ocarina of Time remake drops, by the way. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-15T23:20:58+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Popular PS5 Pro Enhanced RPG Slashes Price by 85% on PlayStation Store",
-  "url": "https://www.playstationlifestyle.net/2026/10/15/hogwarts-legacy-ps5-pro-enhanced-85-percent-off-playstation-store",
-  "ngay": "2026-10-15T22:52:41+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "Hogwarts Legacy",
-   "PlayStation Store",
-   "PS5",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'price'",
-  "da_viet": false,
-  "tom_tat": "A popular open-world action RPG is heavily discounted on the PlayStation Store. Ahead of Harry Potter Season 1’s release, Hogwarts Legacy‘s PS5 Pro Enhanced version is available at an 85% discount. The game originally cost $69.99. It is now available for $10.49. The offer lasts until October 22, 2026. What to expect from Hogwarts Legacy’s […] The post Popular PS5 Pro Enhanced RPG Slashes Price by 85% on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T23:20:58+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Movie Review: Street Fighter - Gaudy Testosterone-Fuelled Action Film Is Fun But Not a Knockout",
-  "url": "https://www.pushsquare.com/features/movie-review-street-fighter-gaudy-testosterone-fuelled-action-film-is-fun-but-not-a-knockout",
-  "ngay": "2026-10-15T23:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Ready, fight. Unlike Steven E. de Souza’s 1994 take on Street Fighter , I don’t think it’ll take decades for Kitao Sakurai’s effort to find its fans. This latest live action attempt, starring Andrew Koji and Noah Centineo as brawl bros Ryu and Ken, understands there’s zero point in trying to transform Capcom’s gaudy fighting franchise into high art. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-17T09:31:06+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "CONTROL Resonant sales top one million",
   "url": "https://www.gematsu.com/2026/10/control-resonant-sales-top-one-million",
@@ -3410,7 +3363,8 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "The best and most popular PS5 role-playing game on PS Plus is surprising players with another free update, and it’s a big one. CD Projekt RED will fully reveal Cyberpunk 2077 update 2.5 in a livestream today, but an overview was leaked by a content creator with early access. What we know about PS Plus […] The post Best PS5 Role-Playing Game on PS Plus Getting Big Free Update appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T23:01:30+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3494,7 +3448,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-21T23:01:30+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3533,7 +3488,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "The PlayStation 5 version of cooperative adventure game RV There Yet? will launch on October …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T23:01:30+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3590,7 +3546,8 @@
   "ly_do_hot": "có từ khoá 'sale'",
   "da_viet": false,
   "tom_tat": "Recommended games going cheap. Planet of the Deals is the PS Store's latest sale, running from now until 4th November, 2026. As always, there are thousands of PS5 and PS4 games on offer, and that's an awful lot of potential purchases to scroll through. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T23:01:30+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3645,5 +3602,62 @@
   "da_viet": false,
   "tom_tat": "Sweeping changes to Microsoft subscription in 2027. Sony’s been criticised for a lot this generation, but to its credit it looks like it’ll be proved correct about Xbox Game Pass . It feels like a long time ago now, but I remember at the start of the PS5 era, the manufacturer was under intense pressure to follow Microsoft’s business model. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Cyberpunk 2077 version 2.5 ‘Edgerunners II’ update detailed",
+  "url": "https://www.gematsu.com/2026/10/cyberpunk-2077-version-2-5-edgerunners-ii-update-detailed",
+  "ngay": "2026-10-21T22:53:27+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "CD Projekt RED",
+   "Clips",
+   "Cyberpunk 2077",
+   "RPG",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "CD Projekt RED and co-development partner Virtuos have detailed the newly announced version 2.5 “Edgerunners …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Peak Isn't the Only 'Friendslop' Game Coming Soon to PS5",
+  "url": "https://www.pushsquare.com/news/2026/10/peak-isnt-the-only-friendslop-game-coming-soon-to-ps5",
+  "ngay": "2026-10-21T23:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Peak-aboo. In case you missed it, one of 2025's biggest hits — Peak — is heading onto PS5 at last. As it turns out, this isn't the only so-called \"friendslop\" game bound for Sony's console in the near future. Friendslop is a term coined to describe a particular brand of online co-op games, with Peak being a great example. Others might include things like Content Warning , or even Escape the Backrooms — basically any co-op game with a lower budget that's built for chaos. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Users Can Play Sequel to Popular PS4 Action Game for Free",
+  "url": "https://www.playstationlifestyle.net/2026/10/21/let-it-die-inferno-free-demo-action-game-ps5",
+  "ngay": "2026-10-21T22:54:47+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "GungHo Online Entertainment",
+   "Let It Die Inferno",
+   "PlayStation",
+   "PlayStation 5",
+   "Supertrick Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "PlayStation 5 owners looking for a new challenge can now dive into Let It Die Inferno for free via a newly released demo on the PlayStation Store. Developed by Supertrick Games and published by GungHo Online Entertainment, the online action title serves as a follow-up to the cult classic 2016 hack and slash game Let […] The post PS5 Users Can Play Sequel to Popular PS4 Action Game for Free appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-21T23:01:30+07:00"
  }
 ]
