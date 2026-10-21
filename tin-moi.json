@@ -1,42 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Fire Emblem: Fortune’s Weave Expansion Pass announced",
-  "url": "https://www.gematsu.com/2026/10/fire-emblem-fortunes-weave-expansion-pass-announced",
-  "ngay": "2026-10-15T08:03:17+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Clips",
-   "DLC",
-   "Fire Emblem: Fortune's Weave",
-   "Intelligent Systems",
-   "Nintendo",
-   "RPG",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Nintendo and developer Intelligent Systems have announced the Fire Emblem: Fortune’s Weave Expansion Pass. …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "(For Southeast Asia) Gran Turismo 7’s Spec IV (Part 1) launches today and a first look at DualSense wireless controller – Gran Turismo Limited Edition",
-  "url": "https://blog.playstation.com/2026/10/14/20261015-gt7/",
-  "ngay": "2026-10-15T09:06:55+07:00",
-  "the_loai": [
-   "PS5",
-   "Gran Turismo 7",
-   "Polyphony Digital"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-15T11:10:47+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Monster Hunter Wilds Prologue Demo for Switch 2 launches October 19",
   "url": "https://www.gematsu.com/2026/10/monster-hunter-wilds-prologue-demo-for-switch-2-launches-october-19",
   "ngay": "2026-10-15T09:20:55+07:00",
@@ -3720,6 +3684,48 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "The cuts continue. Xbox’s unprecedented job cuts will continue this month, November, and January, according to a fresh Fortune article, focusing on CEO Asha Sharma. In yet another executive profile, reporter Sebastian Herrera reveals that Sharma has slashed 1,868 jobs so far, with 3,200 total planned. It sounds like we’ll get more news about what some of those will entail in the coming days. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Crimson Desert DLC ‘Charting the Unknown’ – ‘Features Overview’ trailer",
+  "url": "https://www.gematsu.com/2026/10/crimson-desert-dlc-charting-the-unknown-features-overview-trailer",
+  "ngay": "2026-10-21T06:00:14+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Crimson Desert",
+   "DLC",
+   "Pearl Abyss",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Pearl Abyss has has released a six-minute features overview trailer for open-world action adventure game Crimson …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Rustown launches June 30, 2027 for Xbox Series, PC",
+  "url": "https://www.gematsu.com/2026/10/rustown-launches-june-30-2027-for-xbox-series-pc",
+  "ngay": "2026-10-21T00:24:22+07:00",
+  "the_loai": [
+   "PC",
+   "Xbox Series",
+   "Clips",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Plotrick",
+   "Release Dates",
+   "Rustown",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Post-apocalyptic story-driven stealth adventure game Rustown will launch for Xbox Series and PC via Steam …",
   "goi_y_ps": false
  }
 ]
