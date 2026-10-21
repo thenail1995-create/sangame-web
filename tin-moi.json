@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "CONTROL Resonant sales top one million",
-  "url": "https://www.gematsu.com/2026/10/control-resonant-sales-top-one-million",
-  "ngay": "2026-10-15T23:12:47+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "CONTROL Resonant",
-   "Remedy Entertainment",
-   "RPG",
-   "Sales"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Total sales for supernatural action RPG CONTROL Resonant have surpassed one million units, developer Remedy …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T09:31:06+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "PS5's Saros Already an Official Award Winner",
   "url": "https://www.pushsquare.com/news/2026/10/ps5s-saros-already-an-official-award-winner",
@@ -3659,5 +3638,26 @@
   "tom_tat": "PlayStation 5 owners looking for a new challenge can now dive into Let It Die Inferno for free via a newly released demo on the PlayStation Store. Developed by Supertrick Games and published by GungHo Online Entertainment, the online action title serves as a follow-up to the cult classic 2016 hack and slash game Let […] The post PS5 Users Can Play Sequel to Popular PS4 Action Game for Free appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-21T23:01:30+07:00"
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "PlayStation Indies: 9 must-play horror games for the spooky season",
+  "url": "https://blog.playstation.com/2026/10/21/playstation-indies-9-must-play-horror-games-for-the-spooky-season/",
+  "ngay": "2026-10-21T23:00:31+07:00",
+  "the_loai": [
+   "PS5",
+   "CloverPit",
+   "Escape the Backrooms",
+   "Fangtopia",
+   "Graveyard Keeper 2",
+   "Hunter's Moon",
+   "Phasmophobia",
+   "Reanimal",
+   "Silver Pines",
+   "The Midnight Walk"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
