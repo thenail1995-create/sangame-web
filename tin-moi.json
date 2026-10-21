@@ -3493,7 +3493,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-22T02:01:35+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3581,7 +3582,8 @@
   "ly_do_hot": "có từ khoá 'price'",
   "da_viet": false,
   "tom_tat": "Gaming for the Soul. There are vanishingly few true PS5 exclusive games, and I suppose you could say Demon’s Souls doesn’t technically count as it’s a remake. Nevertheless, this is one of the titles Sony never officially ported to PC, and it’s a masterpiece . Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-22T02:01:35+07:00"
  },
  {
   "nguon": "PlayStation Blog",
@@ -3594,7 +3596,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-22T02:01:35+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3606,7 +3609,8 @@
   "ly_do_hot": "có từ khoá 'Spider-Man'",
   "da_viet": false,
   "tom_tat": "If you can believe it. Beyond Good & Evil 2 was announced 18 years ago . Eighteen! And apparently, the game still exists, despite all odds. Despite its completely wrecked development cycle(s), and despite the fact that Ubisoft's just recently gone through a massive company-wide restructuring. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-22T02:01:35+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3647,6 +3651,7 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "But how much will it matter? Following rumours that Microsoft’s next-gen Xbox Helix could cost as much as $1,800, noted hardware snoop KeplerL2 says the PS6 currently costs Sony around $200 less to manufacture. Given current trends that number could change, but it’s always been expected that Sony’s new system would be leaner and cheaper than its rival’s new device. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-22T02:01:35+07:00"
  }
 ]
