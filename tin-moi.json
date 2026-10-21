@@ -1,30 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Edge of Memories delayed to December 3",
-  "url": "https://www.gematsu.com/2026/10/edge-of-memories-delayed-to-december-3",
-  "ngay": "2026-10-15T19:00:09+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Delays",
-   "Edge of Memories",
-   "Midgar Studio",
-   "Nacon",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Nacon and developer Midgar Studio have delayed action RPG Edge of Memories from its previously …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T15:40:50+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Old school-inspired open-world RPG Lair of the Leviathan announced for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
   "url": "https://www.gematsu.com/2026/10/old-school-inspired-open-world-rpg-lair-of-the-leviathan-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
   "ngay": "2026-10-15T17:55:12+07:00",
@@ -3704,5 +3680,23 @@
   "da_viet": false,
   "tom_tat": "Extraordinary. I wasn't sure what to expect going into the announcement trailer for Ordinary Oddness , and it's left me with more questions than answers, but I think that's sort of the point. This is a new open world RPG from publisher Tencent and developer COSMICPUP, and its 22-minute debut video is quite something: Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Second PS5 System Update for October 2026 Rolled Out",
+  "url": "https://www.playstationlifestyle.net/2026/10/21/ps5-system-software-firmware-update-october-21",
+  "ngay": "2026-10-21T18:40:41+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Sony Interactive Entertainment has stealth-dropped PS5 system software update 26.07-14.20.00 — the second firmware update for October 2026. Like the previous update, don’t expect anything exciting from this one. PS5 system software update 26.07-14.20.00 patch notes (October 21, 2026) “We’ve improved the messages and usability on some screens,” the lone patch note reads. So, just […] The post Second PS5 System Update for October 2026 Rolled Out appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
