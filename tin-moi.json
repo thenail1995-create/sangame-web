@@ -1,32 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Star Wars Zero Company Adds Modifiers, Cuts Upgrade Costs, More in Massive Update",
-  "url": "https://www.pushsquare.com/news/2026/10/star-wars-zero-company-adds-modifiers-cuts-upgrade-costs-more-in-massive-update",
-  "ngay": "2026-10-16T00:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Tactical download. EA and Bit Reactor have released a huge game update for Star Wars Zero Company , the good but rough-around-the-edges strategy game set in a galaxy far, far away. The update brings the game to version 1.2, and it's available now on all platforms, including PS5 of course. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-16T15:01:29+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Control Resonant Cuts Through the Crazy PS5 Release Schedule with 1 Million Sales",
-  "url": "https://www.pushsquare.com/news/2026/10/control-resonant-cuts-through-the-crazy-ps5-release-schedule-with-1-million-sales",
-  "ngay": "2026-10-16T01:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Faster than Alan Wake 2. Control Resonant has sold one million copies since its release on 24th September, marking a sturdy start for the Remedy developed action game in a particularly busy schedule. It took the Finnish firm’s previous title Alan Wake 2 about two months to reach the same milestone, although that game’s PC version was restricted to the Epic Games Store which may have impeded its sales somewhat. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-16T02:31:16+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Cyberpunk 2's Director Is a Big Reason to Be Hyped for the Secretive 2077 Sequel",
   "url": "https://www.pushsquare.com/news/2026/10/cyberpunk-2s-director-is-a-big-reason-to-be-hyped-for-the-secretive-2077-sequel",
   "ngay": "2026-10-16T01:30:00+07:00",
@@ -3657,5 +3631,30 @@
   "da_viet": false,
   "tom_tat": "Gaming for the Soul. There are vanishingly few true PS5 exclusive games, and I suppose you could say Demon’s Souls doesn’t technically count as it’s a remake. Nevertheless, this is one of the titles Sony never officially ported to PC, and it’s a masterpiece . Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Once Human’s Isles of Abyss expansion launches on PS5 tomorrow",
+  "url": "https://blog.playstation.com/2026/10/21/once-humans-isles-of-abyss-expansion-launches-on-ps5-tomorrow/",
+  "ngay": "2026-10-22T00:00:37+07:00",
+  "the_loai": [
+   "PS5",
+   "Once Human"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Rumour: Beyond Good & Evil 2 Isn't Dead Yet, and It's Being Compared to PS5's Spider-Man Games",
+  "url": "https://www.pushsquare.com/news/2026/10/rumour-beyond-good-and-evil-2-isnt-dead-yet-and-its-being-compared-to-ps5s-spider-man-games",
+  "ngay": "2026-10-22T00:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Spider-Man'",
+  "da_viet": false,
+  "tom_tat": "If you can believe it. Beyond Good & Evil 2 was announced 18 years ago . Eighteen! And apparently, the game still exists, despite all odds. Despite its completely wrecked development cycle(s), and despite the fact that Ubisoft's just recently gone through a massive company-wide restructuring. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
