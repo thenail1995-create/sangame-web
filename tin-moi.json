@@ -1,31 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Famitsu Sales: 10/5/26 – 10/11/26",
-  "url": "https://www.gematsu.com/2026/10/famitsu-sales-10-5-26-10-11-26",
-  "ngay": "2026-10-15T20:10:25+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Dragon's Dogma II: Dark Arisen",
-   "Earth Defense Force 5",
-   "Famitsu",
-   "Famitsu Sales",
-   "Japan",
-   "Kingdom Hearts Collection [I ~ III]",
-   "Sales"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Famitsu has published its estimated physical game software data for Japan for the week of …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T12:40:50+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Hokko Spaces launches October 29 for Switch, PC",
   "url": "https://www.gematsu.com/2026/10/hokko-spaces-launches-october-29-for-switch-pc",
   "ngay": "2026-10-15T20:00:01+07:00",
@@ -3723,5 +3698,17 @@
   "da_viet": false,
   "tom_tat": "Get a full overview of Charting the Unknown. Crimson Desert studio Pearl Abyss doesn't do things by halves; it's demonstrated how it's the literal embodiment of the phrase \"go big or go home\" in the video game industry. After a stupidly large base game and an absurd amount of post-launch patches, the developer is delivering its biggest update yet in the Charting the Unknown expansion. A fresh overview trailer teases what to expect from the big DLC, covering everything from the new story quests to extra features. Check it out above. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS5 Firmware Update 26.07-14.20.00 Available to Download Now",
+  "url": "https://www.pushsquare.com/news/2026/10/ps5-firmware-update-26-07-14-20-00-available-to-download-now",
+  "ngay": "2026-10-21T16:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "What does version 26.07-14.20.00 do? Sony has today pushed live a new PS5 firmware patch that updates the console to version number 26.07-14.20.00. The new firmware is live now, so you should be prompted to download it shortly. As per the official PlayStation website , the single patch note for update 26.07-14.20.00 is as follows: Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
