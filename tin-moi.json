@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Reverie in the Moonlight coming to Switch 2, Switch on November 19",
-  "url": "https://www.gematsu.com/2026/10/reverie-in-the-moonlight-coming-to-switch-2-switch-on-november-19",
-  "ngay": "2026-10-15T10:21:11+07:00",
-  "the_loai": [
-   "Switch",
-   "Switch 2",
-   "Clips",
-   "Release Dates",
-   "Reverie in the Moonlight",
-   "room6",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "room6 will release Reverie in the Moonlight, a roguelike action game where players, along with …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Idle simulation game Gundam Blitz Order announced for iOS, Android",
   "url": "https://www.gematsu.com/2026/10/idle-simulation-game-gundam-blitz-order-announced-for-ios-android",
   "ngay": "2026-10-15T10:31:53+07:00",
@@ -3737,5 +3717,26 @@
   "tom_tat": "COSMICPUP STUDIO, a subsidiary of Tencent Games, has announced Ordinary Oddness, a “nothing-stays-oddinary open-world RPG” coming …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-21T10:31:09+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Paper Shredder adds Xbox Series version, launches this winter",
+  "url": "https://www.gematsu.com/2026/10/paper-shredder-adds-xbox-series-version-launches-this-winter",
+  "ngay": "2026-10-21T00:21:59+07:00",
+  "the_loai": [
+   "PC",
+   "Xbox Series",
+   "Clips",
+   "Embers",
+   "ID@Xbox Showcase: 2026.10.20",
+   "Paper Shredder",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Incremental game Paper Shredder will launch for Xbox Series and PC via Steam and Microsoft …",
+  "goi_y_ps": false
  }
 ]
