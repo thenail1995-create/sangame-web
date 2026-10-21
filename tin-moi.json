@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Ancestors: The Humankind Odyssey coming to PS5, Xbox Series, and Switch 2 on December 8",
-  "url": "https://www.gematsu.com/2026/10/ancestors-the-humankind-odyssey-coming-to-ps5-xbox-series-and-switch-2-on-december-8",
-  "ngay": "2026-10-16T02:40:19+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Ancestors: The Humankind Odyssey",
-   "Clips",
-   "Fictions",
-   "Galaxies Autumn 2026",
-   "Panache Digital Games",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Fictions and developer Panache Digital Games will release PlayStation 5, Xbox Series, and Switch …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T15:01:29+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "'Call of Duty Tax' Blamed for Softer CoD Reception by Marketing Lead",
   "url": "https://www.pushsquare.com/news/2026/10/call-of-duty-tax-blamed-for-softer-cod-reception-by-marketing-lead",
@@ -3630,5 +3606,24 @@
   "da_viet": false,
   "tom_tat": "Price and pre-order details confirmed. If you’re looking to upgrade your audio experience for GTA 6 , Sony has confirmed that it will launch its new revamped PlayStation Pulse headset alongside Rockstar’s highly anticipated game on 19th November. Pre-orders will open on PS Direct next week, from 10AM local time on 29th October. The PS Blog also mentions that you’ll be able to purchase from “participating retailers” – presumably Amazon, Best Buy, et al. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "EA’s New Mass Effect Game Is Being Canceled for a Heartbreaking Reason",
+  "url": "https://www.playstationlifestyle.net/2026/10/21/ea-new-mass-effect-game-canceled-heartbreaking-reason",
+  "ngay": "2026-10-22T04:09:18+07:00",
+  "the_loai": [
+   "News",
+   "BioWare",
+   "Electronic Arts",
+   "Entertainment and Gaming",
+   "Mass Effect",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The new Mass Effect game may never see the light of day following EA’s latest announcement. The fifth installment in the beloved sci-fi franchise had been in development for nearly five years since its initial reveal. EA will shut down its long-running development studio BioWare as part of a plan to cut 400 jobs, reports […] The post EA’s New Mass Effect Game Is Being Canceled for a Heartbreaking Reason appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
