@@ -1,40 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "GTA 6 Trailer Teases a Crime Spree That Spirals Out of Control",
-  "url": "https://www.playstationlifestyle.net/2026/10/15/gta-6-launch-trailer-jason-lucia",
-  "ngay": "2026-10-15T21:49:38+07:00",
-  "the_loai": [
-   "News",
-   "CrossPost",
-   "Entertainment and Gaming",
-   "Grand Theft Auto VI",
-   "GTA 6",
-   "PS5",
-   "Rockstar Games",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Rockstar Games releases the launch trailer for GTA 6. The post GTA 6 Trailer Teases a Crime Spree That Spirals Out of Control appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T23:20:58+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "GTA 6's Original Music Score Is Composed by Excellent French Electronic Duo Justice",
-  "url": "https://www.pushsquare.com/news/2026/10/gta-6s-original-music-score-is-composed-by-excellent-french-electronic-duo-justice",
-  "ngay": "2026-10-15T22:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "What a cross-over. If you're a fan of electronic music, you'll probably over the moon to learn that Justice are behind GTA 6's original score. It's an incredibly high profile collaboration; Justice are one of the biggest in the biz, with a catalogue of fantastic albums, singles, and productions stretching back into the mid 2000s. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-15T23:20:58+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Hitman: Absolution – Nintendo Switch 2 Edition launches October 22",
   "url": "https://www.gematsu.com/2026/10/hitman-absolution-nintendo-switch-2-edition-launches-october-22",
@@ -3645,6 +3610,48 @@
   "ly_do_hot": "có từ khoá 'sale'",
   "da_viet": false,
   "tom_tat": "Recommended games going cheap. Planet of the Deals is the PS Store's latest sale, running from now until 4th November, 2026. As always, there are thousands of PS5 and PS4 games on offer, and that's an awful lot of potential purchases to scroll through. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "CRYMELIGHT demo now available",
+  "url": "https://www.gematsu.com/2026/10/crymelight-demo-now-available",
+  "ngay": "2026-10-21T22:11:09+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Clips",
+   "CRYMELIGHT",
+   "Demos",
+   "FuRyu",
+   "Trailers",
+   "Winning Entertainment Group"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A demo for “dark bishoujo” roguelike action game CRYMELIGHT is now available for PlayStation 5, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Award-Winning 2024 Adventure Game Gets PS5 Release Date",
+  "url": "https://www.playstationlifestyle.net/2026/10/21/mouthwashing-2024-adventure-game-ps5-release-date",
+  "ngay": "2026-10-21T22:13:44+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Mouthwashing",
+   "PS5",
+   "Video Game News",
+   "Wrong Organ"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Swedish developer Wrong Organ's critically acclaimed 2024 horror adventure game is coming soon to PS5 The post Award-Winning 2024 Adventure Game Gets PS5 Release Date appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
