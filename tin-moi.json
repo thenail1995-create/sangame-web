@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "GTA 6 Launch Trailer Available to Watch Right Now, Captured on PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/gta-6-launch-trailer-available-to-watch-right-now-captured-on-ps5",
-  "ngay": "2026-10-15T20:10:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Just gotta get through it. Rockstar Games has released the launch trailer for GTA 6 , giving us one more fresh look at the game ahead of its arrival. Watch it here: Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-15T20:20:58+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "GTA 6 Barely Makes the Cut for The Game Awards' Game of the Year Vote",
   "url": "https://www.pushsquare.com/news/2026/10/gta-6-barely-makes-the-cut-for-the-game-awards-game-of-the-year-vote",
   "ngay": "2026-10-15T20:00:00+07:00",
@@ -3674,5 +3661,28 @@
   "tom_tat": "Mystery solving adventure game The Apothecary Diaries: The False Imperial Brother will launch for PlayStation …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-21T19:50:59+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Best PS5 Role-Playing Game on PS Plus Getting Big Free Update",
+  "url": "https://www.playstationlifestyle.net/2026/10/21/ps-plus-ps5-rpg-cyberpunk-2077-free-game-update-2-5",
+  "ngay": "2026-10-21T19:58:44+07:00",
+  "the_loai": [
+   "News",
+   "PlayStation Plus News - PS4, PS3, PS Vita",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "CD Projekt RED",
+   "Cyberpunk 2077",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "PlayStation Plus",
+   "PS Plus",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "The best and most popular PS5 role-playing game on PS Plus is surprising players with another free update, and it’s a big one. CD Projekt RED will fully reveal Cyberpunk 2077 update 2.5 in a livestream today, but an overview was leaked by a content creator with early access. What we know about PS Plus […] The post Best PS5 Role-Playing Game on PS Plus Getting Big Free Update appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
