@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Hokko Spaces launches October 29 for Switch, PC",
-  "url": "https://www.gematsu.com/2026/10/hokko-spaces-launches-october-29-for-switch-pc",
-  "ngay": "2026-10-15T20:00:01+07:00",
-  "the_loai": [
-   "PC",
-   "Switch",
-   "Clips",
-   "Hokko Spaces",
-   "Release Dates",
-   "Team17",
-   "Trailers",
-   "Wonderscope Games"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Diorama-style sandbox design game Hokko Spaces will launch for Switch and PC via Steam on …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Edge of Memories delayed to December 3",
   "url": "https://www.gematsu.com/2026/10/edge-of-memories-delayed-to-december-3",
   "ngay": "2026-10-15T19:00:09+07:00",
@@ -3713,5 +3692,17 @@
   "tom_tat": "What does version 26.07-14.20.00 do? Sony has today pushed live a new PS5 firmware patch that updates the console to version number 26.07-14.20.00. The new firmware is live now, so you should be prompted to download it shortly. As per the official PlayStation website , the single patch note for update 26.07-14.20.00 is as follows: Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-21T16:40:54+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "You've Not Seen Anything Like This Bizarre PS5 Open World RPG, Ordinary Oddness",
+  "url": "https://www.pushsquare.com/news/2026/10/youve-not-seen-anything-like-this-bizarre-ps5-open-world-rpg-ordinary-oddness",
+  "ngay": "2026-10-21T18:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Extraordinary. I wasn't sure what to expect going into the announcement trailer for Ordinary Oddness , and it's left me with more questions than answers, but I think that's sort of the point. This is a new open world RPG from publisher Tencent and developer COSMICPUP, and its 22-minute debut video is quite something: Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
