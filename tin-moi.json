@@ -1,35 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Old school-inspired open-world RPG Lair of the Leviathan announced for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
-  "url": "https://www.gematsu.com/2026/10/old-school-inspired-open-world-rpg-lair-of-the-leviathan-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
-  "ngay": "2026-10-15T17:55:12+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Xbox One",
-   "Xbox Series",
-   "Clips",
-   "Deck13 Spotlight",
-   "Game Announce",
-   "Lair of the Leviathan",
-   "Nostalgic Realms",
-   "RPG",
-   "Screenshots",
-   "Trailers",
-   "Whiskybarrel Studios"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Deck13 Spotlight and developers Nostalgic Realms and Whiskybarrel Studios have announced old school-inspired open-world …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T15:40:50+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Forge of the Fae launches in March 2027",
   "url": "https://www.gematsu.com/2026/10/forge-of-the-fae-launches-in-march-2027",
   "ngay": "2026-10-15T17:50:08+07:00",
@@ -3698,5 +3669,17 @@
   "da_viet": false,
   "tom_tat": "Sony Interactive Entertainment has stealth-dropped PS5 system software update 26.07-14.20.00 — the second firmware update for October 2026. Like the previous update, don’t expect anything exciting from this one. PS5 system software update 26.07-14.20.00 patch notes (October 21, 2026) “We’ve improved the messages and usability on some screens,” the lone patch note reads. So, just […] The post Second PS5 System Update for October 2026 Rolled Out appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "PlayStation Store’s Planet of the Deals promotion is live now",
+  "url": "https://blog.playstation.com/2026/10/21/playstation-stores-planet-of-the-deals-promotion-is-live-now/",
+  "ngay": "2026-10-21T19:00:08+07:00",
+  "the_loai": [
+   "PS5"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
