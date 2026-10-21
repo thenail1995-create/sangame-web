@@ -1,29 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "MR. RECORDS reveals Level Editor",
-  "url": "https://www.gematsu.com/2026/10/mr-records-reveals-level-editor",
-  "ngay": "2026-10-16T02:50:13+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Galaxies Autumn 2026",
-   "Glee-Cheese Studio",
-   "MR. RECORDS",
-   "Rhythm Games",
-   "Wired Productions"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Wired Productions and developer Glee-Cheese Studio have revealed the Level Editor for rhythm adventure …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T08:50:51+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Ancestors: The Humankind Odyssey coming to PS5, Xbox Series, and Switch 2 on December 8",
   "url": "https://www.gematsu.com/2026/10/ancestors-the-humankind-odyssey-coming-to-ps5-xbox-series-and-switch-2-on-december-8",
   "ngay": "2026-10-16T02:40:19+07:00",
@@ -3640,6 +3617,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "In a galaxy hopefully not too far away. EA will pull together its two top first-person shooter teams – Apex Legends’ Respawn and Battlefield’s DICE – to create a new Star Wars Battlefront game, Variety reports. The site cites “multiple sources” familiar with the publisher’s plans, although nothing has been officially confirmed. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony's Revamped PS5 Pulse Headset Launches Alongside GTA 6, on 19th November",
+  "url": "https://www.pushsquare.com/news/2026/10/sonys-revamped-ps5-pulse-headset-launches-alongside-gta-6-on-19th-november",
+  "ngay": "2026-10-22T02:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Price and pre-order details confirmed. If you’re looking to upgrade your audio experience for GTA 6 , Sony has confirmed that it will launch its new revamped PlayStation Pulse headset alongside Rockstar’s highly anticipated game on 19th November. Pre-orders will open on PS Direct next week, from 10AM local time on 29th October. The PS Blog also mentions that you’ll be able to purchase from “participating retailers” – presumably Amazon, Best Buy, et al. Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
