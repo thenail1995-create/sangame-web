@@ -1,33 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Forge of the Fae launches in March 2027",
-  "url": "https://www.gematsu.com/2026/10/forge-of-the-fae-launches-in-march-2027",
-  "ngay": "2026-10-15T17:50:08+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Xbox One",
-   "Xbox Series",
-   "Clips",
-   "Datadyne",
-   "Deck13 Spotlight",
-   "Forge of the Fae",
-   "Release Dates",
-   "RPG",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Pixel RPG Forge of the Fae will launch for PlayStation 5, Xbox Series, PlayStation 4, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T20:20:58+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Drova II: Torn Lands announced for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
   "url": "https://www.gematsu.com/2026/10/drova-ii-torn-lands-announced-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
   "ngay": "2026-10-15T17:45:56+07:00",
@@ -3681,5 +3654,17 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "First-Person Soulslike Valor Mortis an Official Success, Now Turning a Profit",
+  "url": "https://www.pushsquare.com/news/2026/10/first-person-soulslike-valor-mortis-an-official-success-now-turning-a-profit",
+  "ngay": "2026-10-21T19:15:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Game breaks even after one week. Valor Mortis is now officially making a profit for developer One More Level and publisher Lyrical Games, as revealed by the latter on social media. It took just one week on the market for it to break even, meaning all the costs of the game's development have been recouped. Now, henceforth, Valor Mortis is turning a profit. Official sales numbers have not been shared yet, but anecdotally, I've seen far more chatter and discussion surrounding Valor Mortis compared to the two Ghostrunner games, which One More Level did previously. Read the full article on pushsqua…",
+  "goi_y_ps": true
  }
 ]
