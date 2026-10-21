@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "A Bird Story now available for PS5, Xbox Series, and Switch",
-  "url": "https://www.gematsu.com/2026/10/a-bird-story-now-available-for-ps5-xbox-series-and-switch",
-  "ngay": "2026-10-16T00:18:01+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "A Bird Story",
-   "Clips",
-   "Freebird Games",
-   "Game Release",
-   "Release Dates",
-   "Serenity Forge",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Serenity Forge and To the Moon developer Freebird Games have released A Bird Story, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T18:01:31+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Star Wars Zero Company Adds Modifiers, Cuts Upgrade Costs, More in Massive Update",
   "url": "https://www.pushsquare.com/news/2026/10/star-wars-zero-company-adds-modifiers-cuts-upgrade-costs-more-in-massive-update",
@@ -3668,6 +3644,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "As Halloween approaches, an iconic character from the 2026 blockbuster Obsession has made its way into a video game The post Obsession’s New Video Game Crossover Has Every Inde Navarrette Fan Saying the Same Thing appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "One of PS5's Best Exclusive Games Is at an All-Time Low Price",
+  "url": "https://www.pushsquare.com/news/2026/10/one-of-ps5s-best-exclusive-games-is-at-an-all-time-low-price",
+  "ngay": "2026-10-21T23:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'price'",
+  "da_viet": false,
+  "tom_tat": "Gaming for the Soul. There are vanishingly few true PS5 exclusive games, and I suppose you could say Demon’s Souls doesn’t technically count as it’s a remake. Nevertheless, this is one of the titles Sony never officially ported to PC, and it’s a masterpiece . Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
