@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Hitman: Absolution – Nintendo Switch 2 Edition launches October 22",
-  "url": "https://www.gematsu.com/2026/10/hitman-absolution-nintendo-switch-2-edition-launches-october-22",
-  "ngay": "2026-10-15T22:19:48+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Clips",
-   "Feral Interactive",
-   "Hitman: Absolution",
-   "IO Interactive",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Feral Interactive will release IO Interactive-developed stealth action game Hitman: Absolution – Nintendo Switch 2 …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "JRPG-Inspired Edge of Memories Ducks GTA 6, Delayed to a 'Quieter Period' on PS5",
   "url": "https://www.pushsquare.com/news/2026/10/jrpg-inspired-edge-of-memories-ducks-gta-6-delayed-to-a-quieter-period-on-ps5",
@@ -3652,6 +3632,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Swedish developer Wrong Organ's critically acclaimed 2024 horror adventure game is coming soon to PS5 The post Award-Winning 2024 Adventure Game Gets PS5 Release Date appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony Said Xbox Game Pass Isn't Sustainable, Now It Seems the Gravy Train Is Almost Over",
+  "url": "https://www.pushsquare.com/news/2026/10/sony-said-xbox-game-pass-isnt-sustainable-now-it-seems-the-gravy-train-is-almost-over",
+  "ngay": "2026-10-21T22:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Sweeping changes to Microsoft subscription in 2027. Sony’s been criticised for a lot this generation, but to its credit it looks like it’ll be proved correct about Xbox Game Pass . It feels like a long time ago now, but I remember at the start of the PS5 era, the manufacturer was under intense pressure to follow Microsoft’s business model. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
