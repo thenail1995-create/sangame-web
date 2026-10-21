@@ -1,30 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Story-driven driving exploration game AfterZero: The Last Drive announced for PS5, Xbox Series, and PC",
-  "url": "https://www.gematsu.com/2026/10/story-driven-driving-exploration-game-afterzero-the-last-drive-announced-for-ps5-xbox-series-and-pc",
-  "ngay": "2026-10-16T02:21:10+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "3DClouds",
-   "AfterZero: The Last Drive",
-   "Clips",
-   "Galaxies Autumn 2026",
-   "Game Announce",
-   "Screenshots",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "3DClouds has announced AfterZero: The Last Drive, a story-driven single-player driving survival adventure game coming …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T15:01:29+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "MR. RECORDS reveals Level Editor",
   "url": "https://www.gematsu.com/2026/10/mr-records-reveals-level-editor",
   "ngay": "2026-10-16T02:50:13+07:00",
@@ -3653,5 +3629,17 @@
   "tom_tat": "But how much will it matter? Following rumours that Microsoft’s next-gen Xbox Helix could cost as much as $1,800, noted hardware snoop KeplerL2 says the PS6 currently costs Sony around $200 less to manufacture. Given current trends that number could change, but it’s always been expected that Sony’s new system would be leaner and cheaper than its rival’s new device. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-22T02:01:35+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Star Wars Battlefront 3 in Dev at DICE and Respawn, Multiple Sources Say",
+  "url": "https://www.pushsquare.com/news/2026/10/star-wars-battlefront-3-in-dev-at-dice-and-respawn-multiple-sources-say",
+  "ngay": "2026-10-22T02:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "In a galaxy hopefully not too far away. EA will pull together its two top first-person shooter teams – Apex Legends’ Respawn and Battlefield’s DICE – to create a new Star Wars Battlefront game, Variety reports. The site cites “multiple sources” familiar with the publisher’s plans, although nothing has been officially confirmed. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
