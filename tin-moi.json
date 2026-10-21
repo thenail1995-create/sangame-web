@@ -1,45 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Fate/EXTRA Record characters trailer – Rival’s Side",
-  "url": "https://www.gematsu.com/2026/10/fate-extra-record-characters-trailer-rivals-side",
-  "ngay": "2026-10-15T18:45:45+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Aniplex",
-   "Clips",
-   "Fate (series)",
-   "Fate/EXTRA Record",
-   "Meteorise",
-   "RPG",
-   "Trailers",
-   "Type-Moon"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T15:40:50+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Viral Hit Supermarket Simulator Finally Opens Its Doors on PS5 This November",
-  "url": "https://www.pushsquare.com/news/2026/10/viral-hit-supermarket-simulator-finally-opens-its-doors-on-ps5-this-november",
-  "ngay": "2026-10-15T21:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Physical edition on the way. You may recall last year that Supermarket Simulator — the viral hit management sim — was announced for release on PS5. It's been awfully quiet for a while now, but it's now been confirmed exactly when the game is heading to consoles. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-17T12:40:50+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Getting Promising New RPG by Acclaimed Devs",
   "url": "https://www.playstationlifestyle.net/2026/10/15/ps5-rpg-red-rooster-by-disco-elysium-devs",
@@ -3682,5 +3642,34 @@
   "da_viet": false,
   "tom_tat": "A 2023 PS5 and PS4 action adventure game has been delisted from the PS Store without a warning. Developed by Tessera Studios and published by Outright Games, Transformers: EarthSpark – Expedition is the latest in a long list of Outright titles that have been removed from sale. PS5, PS4 action adventure game Transformers: EarthSpark – […] The post Fun 2023 PS5 Action Game Delisted From PS Store Without Notice appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "RV There Yet? for PS5 launches October 29",
+  "url": "https://www.gematsu.com/2026/10/rv-there-yet-for-ps5-launches-october-29",
+  "ngay": "2026-10-21T21:08:47+07:00",
+  "the_loai": [
+   "PS5",
+   "Nuggets Entertainment",
+   "Release Dates",
+   "RV There Yet?"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "The PlayStation 5 version of cooperative adventure game RV There Yet? will launch on October …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Preview: 3 Hours with Stranger Than Heaven Left Me Partly Convinced, Partly Concerned, and Craving Gyudon",
+  "url": "https://www.pushsquare.com/previews/3-hours-with-stranger-than-heaven-left-me-partly-convinced-partly-concerned-and-craving-gyudon",
+  "ngay": "2026-10-21T21:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Much Ado about everything. Last week, SEGA invited me down to London to go hands-on with its upcoming historical action game Stranger Than Heaven one final time before its launch on 15th January, 2027. This was my third time playing the game, but while previous demos had focused solely on the combat, here I was able to get a taste of the wider campaign Yakuza dev RGG Studio is creating. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
