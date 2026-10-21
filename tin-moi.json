@@ -1,58 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Peak climbs its way onto PS5 October 22",
-  "url": "https://blog.playstation.com/2026/10/15/peak-climbs-its-way-onto-ps5-october-22/",
-  "ngay": "2026-10-16T00:00:08+07:00",
-  "the_loai": [
-   "PS5",
-   "Aggro Crab",
-   "Landfall",
-   "Peak"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-16T02:31:16+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "PEAK coming to PS5, Xbox Series, and Switch 2 on October 22",
-  "url": "https://www.gematsu.com/2026/10/peak-coming-to-ps5-xbox-series-and-switch-2-on-october-22",
-  "ngay": "2026-10-16T00:02:43+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Aggro Crab",
-   "Clips",
-   "Landfall",
-   "PEAK",
-   "Release Dates",
-   "Skybound Games",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Aggro Crab and Landfall will release cooperative climbing game PEAK for PlayStation 5, Xbox Series, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T18:01:31+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Fans of Baldur's Gate and Old-School RPGs Need to See Lair of Leviathan",
-  "url": "https://www.pushsquare.com/news/2026/10/fans-of-baldurs-gate-and-old-school-rpgs-need-to-see-lair-of-leviathan",
-  "ngay": "2026-10-16T00:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Adventuring to PS5. If you're into old-school, traditionally designed RPGs, then you've got to take a look at Lair of Leviathan . This turn-based, pixelated adventure is heading to PS5 and PS4 at some point in 2027, and its goal is to bring back that classic sense of being on a proper journey through a fantastical world. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-16T18:01:31+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "A Bird Story now available for PS5, Xbox Series, and Switch",
   "url": "https://www.gematsu.com/2026/10/a-bird-story-now-available-for-ps5-xbox-series-and-switch",
@@ -3668,6 +3615,59 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Devolver Digital and developer Croteam have announced Serious Sam: The Third Encounter, the long-awaited …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Bloody Hell Hotel launches in 2027",
+  "url": "https://www.gematsu.com/2026/10/bloody-hell-hotel-launches-in-2027",
+  "ngay": "2026-10-21T23:25:42+07:00",
+  "the_loai": [
+   "PC",
+   "bloody hell hotel",
+   "Clips",
+   "Gambit Digital",
+   "Horror",
+   "Release Dates",
+   "tralers",
+   "Unfold Games"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Vampire hotel simulation game Bloody Hell Hotel will launch for PC via Steam in 2027, publisher …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Guide: Stage Tour Setlist: All Confirmed Songs and Artists",
+  "url": "https://www.pushsquare.com/guides/stage-tour-setlist-all-confirmed-songs-and-artists",
+  "ngay": "2026-10-21T23:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Every song revealed so far. Stage Tour is basically Guitar Hero and Rock Band reborn on PS5, complete with a brand new set of plastic instrument peripherals and a giant setlist of songs to play. Set for release on 10th December, 2026, you might be wondering which tunes you'll be able to jam along to, and in this guide, we've listed every artist and track revealed for the game so far. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Obsession’s New Video Game Crossover Has Every Inde Navarrette Fan Saying the Same Thing",
+  "url": "https://www.playstationlifestyle.net/2026/10/21/fortnite-nikki-skin-obsession-fans-reaction",
+  "ngay": "2026-10-21T23:21:13+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "CrossPost",
+   "Entertainment and Gaming",
+   "Fortnite",
+   "Obsession",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "As Halloween approaches, an iconic character from the 2026 blockbuster Obsession has made its way into a video game The post Obsession’s New Video Game Crossover Has Every Inde Navarrette Fan Saying the Same Thing appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
