@@ -1,25 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Idle simulation game Gundam Blitz Order announced for iOS, Android",
-  "url": "https://www.gematsu.com/2026/10/idle-simulation-game-gundam-blitz-order-announced-for-ios-android",
-  "ngay": "2026-10-15T10:31:53+07:00",
-  "the_loai": [
-   "Smartphone",
-   "Bandai Namco",
-   "Clips",
-   "Game Announce",
-   "Gundam Blitz Order",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Bandai Namco has announced Gundam Blitz Order, a free-to-play idle simulation game for iOS and …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Touhou Koumakyou: New Classic – the Embodiment of Scarlet Devil physical edition for Switch 2, Switch launches December 17 in Japan",
   "url": "https://www.gematsu.com/2026/10/touhou-koumakyou-new-classic-the-embodiment-of-scarlet-devil-physical-edition-for-switch-2-switch-launches-december-17-in-japan",
   "ngay": "2026-10-15T10:44:45+07:00",
@@ -3737,6 +3718,27 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Incremental game Paper Shredder will launch for Xbox Series and PC via Steam and Microsoft …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Romance visual novel bundle Einstein Yori Ai o Komete + APOLLOCRISIS coming to Switch in 2027 in Japan",
+  "url": "https://www.gematsu.com/2026/10/romance-visual-novel-bundle-einstein-yori-ai-o-komete-apollocrisis-coming-to-switch-in-2027-in-japan",
+  "ngay": "2026-10-21T11:19:15+07:00",
+  "the_loai": [
+   "Switch",
+   "Einstein Yori Ai o Komete + APOLLOCRISIS",
+   "Famitsu",
+   "GLOVETY",
+   "Japan",
+   "Prototype Ltd.",
+   "Release Dates",
+   "Visual Novel"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "PROTOTYPE will release romance visual novel bundle Einstein Yori Ai o Komete + APOLLOCRISIS for …",
   "goi_y_ps": false
  }
 ]
