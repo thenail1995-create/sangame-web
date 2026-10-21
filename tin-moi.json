@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "PS5's Saros Already an Official Award Winner",
-  "url": "https://www.pushsquare.com/news/2026/10/ps5s-saros-already-an-official-award-winner",
-  "ngay": "2026-10-15T23:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Credited for its sound and music. The year isn't done yet with new PS5 game releases, but Housemarque's own Saros has already begun winning awards. The PS5 title has been recognised at the 2026 Music + Sound Awards , which are voted on by industry professionals. It's won the following three awards: Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-16T18:01:31+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Peak climbs its way onto PS5 October 22",
   "url": "https://blog.playstation.com/2026/10/15/peak-climbs-its-way-onto-ps5-october-22/",
@@ -3659,5 +3646,28 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Serious Sam: The Third Encounter announced for PC",
+  "url": "https://www.gematsu.com/2026/10/serious-sam-the-third-encounter-announced-for-pc",
+  "ngay": "2026-10-21T23:13:23+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Croteam",
+   "Devolver Digital",
+   "FPS",
+   "Game Announce",
+   "Screenshots",
+   "Serious Sam: The Third Encounter",
+   "Shooter",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Devolver Digital and developer Croteam have announced Serious Sam: The Third Encounter, the long-awaited …",
+  "goi_y_ps": false
  }
 ]
