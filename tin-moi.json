@@ -1,46 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Grand Theft Auto VI launch trailer",
-  "url": "https://www.gematsu.com/2026/10/grand-theft-auto-vi-launch-trailer",
-  "ngay": "2026-10-15T20:13:59+07:00",
-  "the_loai": [
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Grand Theft Auto VI",
-   "Rockstar Games",
-   "Rockstar North",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Rockstar Games has released the launch trailer for Grand Theft Auto VI, just over one …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-15T20:20:58+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "El Paso, Elsewhere 2 demo now available for PC",
-  "url": "https://www.gematsu.com/2026/10/el-paso-elsewhere-2-demo-now-available-for-pc",
-  "ngay": "2026-10-15T20:05:17+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Demos",
-   "El Paso Elsewhere 2",
-   "Frosty Pop",
-   "Strange Scaffold",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A demo for El Paso, Elsewhere 2 is now available for PC via Steam as part …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Remake of Decade-Old PS4 Action Game Gets Release Date",
   "url": "https://www.playstationlifestyle.net/2026/10/15/ps5-action-game-arizona-sunshine-remake-release-date",
@@ -3684,5 +3643,50 @@
   "da_viet": false,
   "tom_tat": "Yes, you can play as Maomao the Cat. Light novel, manga, and anime sensation The Apothecary Diaries is coming to the PS5 on 18th March, according to a new Japanese trailer. While I’m still waiting for English PR – and will update once Koei Tecmo sends that through – a new trailer confirms that characters Jinshi and Maomao the Cat will be playable at certain points in the campaign, alongside the protagonist herself. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Pratfall coming to PS5, Xbox Series, and Switch 2",
+  "url": "https://www.gematsu.com/2026/10/pratfall-coming-to-ps5-xbox-series-and-switch-2",
+  "ngay": "2026-10-21T20:05:27+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Daedalic Entertainment",
+   "Pratfall",
+   "Quad Head",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Daedalic Entertainment and developer Quad Head will release cooperative cave digging and falling game …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Beloved PlayStation 2 & PS3-Era Action Game Series Returning",
+  "url": "https://www.playstationlifestyle.net/2026/10/21/playstation-action-game-series-fight-night-returning",
+  "ngay": "2026-10-21T20:22:18+07:00",
+  "the_loai": [
+   "News",
+   "PS2 / PlayStation 2",
+   "PS3 / PlayStation 3 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "PS6 News, Rumors, Trophies, Reviews, and More",
+   "EA",
+   "Electronic Arts",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Fight Night",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A fan-favorite PlayStation 2 and PS3-era action game series is making a surprise return, publisher Electronic Arts has announced. Boxing franchise Fight Night hasn’t seen a new entry in 15 years, but that’s all set to change. EA action game series Fight Night hasn’t seen a new entry since PlayStation 3’s Fight Night Champion EA […] The post Beloved PlayStation 2 & PS3-Era Action Game Series Returning appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
