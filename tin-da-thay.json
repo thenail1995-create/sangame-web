@@ -40,7 +40,8 @@
    "urn:uuid:081ec981-b33a-4792-828e-ae621330ab71",
    "urn:uuid:aabdbfb9-b17c-43b5-99f7-a06b2f6fe494",
    "urn:uuid:43862db6-5672-4ff9-a2ab-5ec9cc696994",
-   "urn:uuid:0cb3a50c-2b93-4e56-ba4d-0a2176c2e652"
+   "urn:uuid:0cb3a50c-2b93-4e56-ba4d-0a2176c2e652",
+   "urn:uuid:88f649a4-cecd-4b2e-bfb2-335dd634f5c0"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -232,7 +233,8 @@
    "https://www.gematsu.com/?p=1085792",
    "https://www.gematsu.com/?p=1081798",
    "https://www.gematsu.com/?p=1085788",
-   "https://www.gematsu.com/?p=1085803"
+   "https://www.gematsu.com/?p=1085803",
+   "https://www.gematsu.com/?p=1085727"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207487",
@@ -396,7 +398,8 @@
    "https://www.pushsquare.com/#article-207988",
    "https://www.pushsquare.com/#article-207952",
    "https://www.pushsquare.com/#article-207989",
-   "https://www.pushsquare.com/#article-207996"
+   "https://www.pushsquare.com/#article-207996",
+   "https://www.pushsquare.com/#article-207998"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -513,7 +516,6 @@
  },
  "deals_ds": {
   "en-US": [
-   4026,
    4025,
    4022,
    4022,
@@ -524,6 +526,7 @@
    4020,
    4020,
    4020,
+   4019,
    4019
   ],
   "en-SG": [
@@ -564,5 +567,5 @@
   "Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-10-22T17:10:54+07:00"
+ "lan_goi_viet": "2026-10-22T20:11:00+07:00"
 }
