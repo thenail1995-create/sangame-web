@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "No Rest for the Wicked details new class systems, version 1.0 enhancements",
-  "url": "https://www.gematsu.com/2026/10/no-rest-for-the-wicked-details-new-class-systems-version-1-0-enhancements",
-  "ngay": "2026-10-16T22:30:08+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Clips",
-   "Gameplay",
-   "Moon Studios",
-   "No Rest for the Wicked",
-   "RPG",
-   "Screenshots"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Moon Studios has shared new information on the version 1.0 release of action RPG No …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T03:20:51+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "'1.0 Roughly Doubles the Size of the Game': No Rest for the Wicked Confirms March 2027 Release on PS5",
   "url": "https://www.pushsquare.com/news/2026/10/1-0-roughly-doubles-the-size-of-the-game-no-rest-for-the-wicked-confirms-march-2027-release-on-ps5",
@@ -3540,6 +3516,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "\"We were making a great game\". A Mass Effect 5 trailer, made using “pre-production assets”, appears to have leaked on Reddit following dev BioWare’s closure this week. While it’s difficult to corroborate the validity of the footage, it does not initially appear to be AI. It was also reported by IGN earlier today that a new trailer for the game had been created internally. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Feature: Is Cyberpunk 2077 Patch 2.5 Worth Returning to Night City For?",
+  "url": "https://www.pushsquare.com/features/is-cyberpunk-2077-patch-2-5-worth-returning-to-night-city-for",
+  "ngay": "2026-10-23T00:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The huge Edgerunners 2 update. CD Projekt Red shocked everyone when it announced that a major new Cyberpunk 2077 update would be dropping around the same time as the Edgerunners 2 anime. While I imagine some fans might have expected a small surprise to coincide with the show, the scale of Patch 2.5 is pretty crazy — it's far bigger than it ever needed to be. Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
