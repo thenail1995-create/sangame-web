@@ -239,7 +239,8 @@
    "https://www.gematsu.com/?p=1085812",
    "https://www.gematsu.com/?p=1085826",
    "https://www.gematsu.com/?p=1085851",
-   "https://www.gematsu.com/?p=1085846"
+   "https://www.gematsu.com/?p=1085846",
+   "https://www.gematsu.com/?p=1085858"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207487",
@@ -409,7 +410,8 @@
    "https://www.pushsquare.com/#article-207999",
    "https://www.pushsquare.com/#article-208007",
    "https://www.pushsquare.com/#article-207997",
-   "https://www.pushsquare.com/#article-208010"
+   "https://www.pushsquare.com/#article-208010",
+   "https://www.pushsquare.com/#article-207888"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -532,13 +534,13 @@
   "en-US": [
    4019,
    4019,
-   4019,
    4018,
    4018,
    4018,
    4018,
    4018,
    4018,
+   4020,
    4020,
    4020,
    4020
@@ -546,13 +548,13 @@
   "en-SG": [
    2656,
    2656,
+   2655,
+   2655,
+   2655,
+   2655,
+   2655,
+   2655,
    2656,
-   2655,
-   2655,
-   2655,
-   2655,
-   2655,
-   2655,
    2656,
    2656,
    2656
@@ -581,5 +583,5 @@
   "Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-10-22T20:11:00+07:00"
+ "lan_goi_viet": "2026-10-22T23:20:53+07:00"
 }

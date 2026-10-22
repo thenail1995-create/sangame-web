@@ -1,48 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "STRANGER THAN HEAVEN ‘Act 1: Kokura’ story trailer",
-  "url": "https://www.gematsu.com/2026/10/stranger-than-heaven-act-1-kokura-story-trailer",
-  "ngay": "2026-10-16T21:12:33+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Ryu Ga Gotoku Studio",
-   "SEGA",
-   "STRANGER THAN HEAVEN",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher SEGA and developer RGG Studio have released the first in a set of multiple …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T06:31:06+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS5 Gets Classic RPG Remaster Today on PlayStation Store",
-  "url": "https://www.playstationlifestyle.net/2026/10/16/tales-of-eternia-remastered-ps5-playstation-store-release",
-  "ngay": "2026-10-16T21:29:04+07:00",
-  "the_loai": [
-   "News",
-   "PS4 News, Trophies, Reviews, and More",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Bandai Namco",
-   "Entertainment and Gaming",
-   "Tales of Eternia Remastered",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A fan-favorite action role-playing game’s PlayStation 5 remaster is now available on the PlayStation Store. The enhanced version is developed by TOSE and published by Bandai Namco Entertainment. Tales of Eternia Remastered has finally arrived for PS5, alongside PS4, via the PS Store. The latest release brings numerous visual and gameplay improvements for the beloved […] The post PS5 Gets Classic RPG Remaster Today on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T03:20:51+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Promising Western PS5 Action Game Gets Release Date, New Trailer",
   "url": "https://www.playstationlifestyle.net/2026/10/16/western-ps5-action-game-release-date-guns-of-eschaton",
@@ -3372,7 +3329,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "PM Studios will release a physical edition of publisher Arc Games and developer Thekla’s narrative …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-22T23:20:53+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3419,7 +3377,8 @@
   "ly_do_hot": "có từ khoá 'Marvel'",
   "da_viet": false,
   "tom_tat": "Gone berserk. Marvel's Wolverine has clearly done well for itself in terms of sales, with new data from PS Store charts as well as Circana painting a very positive picture. The recent superhero action title from Insomniac Games launched last month exclusively for PS5, and in terms of the PS Store, it was September's number one game in North America, coming in second place on the European chart. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-22T23:20:53+07:00"
  },
  {
   "nguon": "PlayStation Blog",
@@ -3433,7 +3392,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-22T23:20:53+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3455,7 +3415,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "Farming adventure RPG Luma Island will launch for PlayStation 5 and Xbox Series on December …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-22T23:20:53+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3539,7 +3500,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "Give it a go. Regular readers will know I’m pretty Alice in Wonderland obsessed, so I’ve been keeping a keen eye on CRYMELIGHT . This is the latest bishoujo effort from dev FuRyu, and I actually went hands-on with it at Gamescom . I was impressed how dense and interesting it all was. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-22T23:20:53+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3560,5 +3522,36 @@
   "da_viet": false,
   "tom_tat": "Aspyr has released a Switch 2 version of Shadow of the Tomb Raider: Definitive Edition …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Cult of the Lamb – Nintendo Switch 2 Edition now available",
+  "url": "https://www.gematsu.com/2026/10/cult-of-the-lamb-nintendo-switch-2-edition-now-available",
+  "ngay": "2026-10-22T23:14:47+07:00",
+  "the_loai": [
+   "Switch 2",
+   "Cult of the Lamb",
+   "Devolver Digital",
+   "Game Release",
+   "Massive Monster",
+   "Release Dates"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Devolver Digital and developer Massive Monster have released Cult of the Lamb – Nintendo …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Dispatch PS5 Marks First Anniversary with New Commentary, Storyboard Modes",
+  "url": "https://www.pushsquare.com/news/2026/10/dispatch-ps5-marks-first-anniversary-with-new-commentary-storyboard-modes",
+  "ngay": "2026-10-22T23:15:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Free for Deluxe Edition owners. PS5 story game Dispatch turns one year old today, 22nd October 2026. Happy birthday to Dispatch! To celebrate the occasion, Adhoc Studio has released new DLC that adds new commentary and storyboard modes to the experience. Anyone who owns the Deluxe Edition of Dispatch gets the content for free, while base game owners can pay $10.99 to access it. That content should be available now. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
