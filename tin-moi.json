@@ -1,29 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "ZERO PARADES: Director’s Cut coming to Switch 2 on November 3 alongside PS5 version",
-  "url": "https://www.gematsu.com/2026/10/zero-parades-directors-cut-coming-to-switch-2-on-november-3-alongside-ps5-version",
-  "ngay": "2026-10-16T02:46:45+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Clips",
-   "Galaxies Autumn 2026",
-   "Release Dates",
-   "RPG",
-   "Trailers",
-   "ZA/UM",
-   "ZERO PARADES: For Dead Spies"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "ZA/UM will release a Switch 2 version of espionage RPG ZERO PARADES: Director’s Cut alongside …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T11:50:52+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Ember & Blade launches in Early Access for PC on January 8, 2027",
   "url": "https://www.gematsu.com/2026/10/ember-blade-launches-in-early-access-for-pc-on-january-8-2027",
   "ngay": "2026-10-16T02:36:48+07:00",
@@ -3617,6 +3594,26 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher KOMODO and developer Crypton Future Media will release Hatsune Miku Connecting Puzzle TAMAGOTORI Deluxe …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Phantom Blade Zero launch trailer, PS5 physical editions launch in 2027",
+  "url": "https://www.gematsu.com/2026/10/phantom-blade-zero-launch-trailer-ps5-physical-editions-launch-in-2027",
+  "ngay": "2026-10-22T09:11:33+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Clips",
+   "Phantom Blade Zero",
+   "RPG",
+   "S-GAME",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "S-GAME has released the launch trailer for Wuxia action RPG Phantom Blade Zero, as well …",
   "goi_y_ps": false
  }
 ]
