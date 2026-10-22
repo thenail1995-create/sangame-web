@@ -1,47 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Appulse launches November 26",
-  "url": "https://www.gematsu.com/2026/10/appulse-launches-november-26",
-  "ngay": "2026-10-16T02:19:03+07:00",
-  "the_loai": [
-   "PC",
-   "Appulse",
-   "Clips",
-   "Galaxies Autumn 2026",
-   "Le Rado",
-   "Raw Fury",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Roguelite pinball shooter Appulse will launch for PC via Steam on November 26, publisher Raw …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Cinematic first-person psychological horror game Encryption announced for PC",
-  "url": "https://www.gematsu.com/2026/10/cinematic-first-person-psychological-horror-game-encryption-announced-for-pc",
-  "ngay": "2026-10-16T02:41:19+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Digital Lighthouse",
-   "Encryption",
-   "Galaxies Autumn 2026",
-   "Game Announce",
-   "Horror",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Digital Lighthouse Games has announced Encryption, a cinematic first-person psychological horror game set during a …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Knight Rider: David Hasselhoff Franchise Returns to Hollywood in a Surprising Way, Watch Trailer",
   "url": "https://www.playstationlifestyle.net/2026/10/15/stuntman-hollywood-knight-rider-gameplay-trailer",
@@ -3580,6 +3538,33 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "V good. With the release of Patch 2.5 , Cyberpunk 2077 players on PS5 now have access to user-created mods — and there are 52 of them to choose from at launch. Just like The Witcher 3 Remastered , downloading and installing mods is really easy: you just click the new 'Mods' option on the title's main menu, and then you're just a button press away from adding them to your game. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Tomb Raider: Legacy of Atlantis – the evolution of Lara Croft’s design",
+  "url": "https://blog.playstation.com/2026/10/22/tomb-raider-legacy-of-atlantis-the-evolution-of-lara-crofts-design/",
+  "ngay": "2026-10-22T18:59:38+07:00",
+  "the_loai": [
+   "PS5",
+   "Crystal Dynamics",
+   "Flying Wild Hog",
+   "Tomb Raider"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Despite BioWare Closure, Mass Effect TV Series Is Reportedly Still in Development",
+  "url": "https://www.pushsquare.com/news/2026/10/despite-bioware-closure-mass-effect-tv-series-is-reportedly-still-in-development",
+  "ngay": "2026-10-22T19:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The show must go on. In a bombshell announcement, publisher EA confirmed it's closing the celebrated RPG developer BioWare amid an eye-watering 400-person layoff . The studio's next game, a fourth Mass Effect entry, has been cancelled as a result — but it seems we haven't seen the last of the franchise just yet. Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
