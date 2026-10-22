@@ -1,31 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Squad coming to PS5, Xbox Series in 2027",
-  "url": "https://www.gematsu.com/2026/10/squad-coming-to-ps5-xbox-series-in-2027",
-  "ngay": "2026-10-16T02:35:44+07:00",
-  "the_loai": [
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "FPS",
-   "Galaxies Autumn 2026",
-   "Offworld Industries",
-   "Release Dates",
-   "Secret Mode",
-   "Shooter",
-   "Squad",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Secret Mode and developer Offworld Industries will release PlayStation 5 and Xbox Series of …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T15:01:29+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Monochromatic Metroidvania game Lelu launches January 21, 2027 for Xbox Series, Switch 2, and PC",
   "url": "https://www.gematsu.com/2026/10/monochromatic-metroidvania-game-lelu-launches-january-21-2027-for-xbox-series-switch-2-and-pc",
   "ngay": "2026-10-16T02:30:32+07:00",
@@ -3606,5 +3581,17 @@
   "tom_tat": "New model. In case you missed it, Sony announced a special, limited edition DualSense PS5 controller that celebrates the Gran Turismo series' 30th anniversary. It's a really nice-looking controller, with go-faster stripes on the touchpad, carbon fibre-like detailing, and a bunch of racing-inspired decals. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-22T17:10:54+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Dawnwalker PS5 Patch 1.1 Is Available to Download Now, 13GB Update with Over 1,100 Improvements",
+  "url": "https://www.pushsquare.com/news/2026/10/dawnwalker-ps5-patch-1-1-is-available-to-download-now-13gb-update-with-over-1100-improvements",
+  "ngay": "2026-10-22T17:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Get all the patch notes here. As promised by developer Rebel Wolves last week, a new Dawnwalker update has gone live today that marks the PS5 game's first major overhaul and slate of enhancements. The patch is 12.882GB on PS5, and you can download it now. Since the studio already published some of the highlights in a social media graphic last week, there aren't that many surprises in the patch notes. The main additions are indeed the Draught of Mind Rebirth, the ability to pet animals, an easier difficulty mode, improved combat targeting, and camera adjustments. Read the full article on pushsq…",
+  "goi_y_ps": true
  }
 ]
