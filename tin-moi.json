@@ -1,54 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Popular PS4, PS5 Naruto Game Slashes Price by 67% on PlayStation Store",
-  "url": "https://www.playstationlifestyle.net/2026/10/16/naruto-boruto-ultimate-ninja-storm-connections-ps5-67-percent-off",
-  "ngay": "2026-10-16T22:09:04+07:00",
-  "the_loai": [
-   "News",
-   "PS4 News, Trophies, Reviews, and More",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Bandai Namco Entertainment",
-   "Entertainment and Gaming",
-   "Naruto x Boruto Ultimate Ninja Storm Connections",
-   "PlayStation Store",
-   "PS4",
-   "PS5",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'price'",
-  "da_viet": false,
-  "tom_tat": "Naruto anime fans can now grab a popular action-fighting game at 67% discount. The post Popular PS4, PS5 Naruto Game Slashes Price by 67% on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T00:10:50+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "HorrorVale: Deadluxe Edition for PS5, Xbox Series, PS4, Xbox One, and Switch launches October 31",
-  "url": "https://www.gematsu.com/2026/10/horrorvale-deadluxe-edition-for-ps5-xbox-series-ps4-xbox-one-and-switch-launches-october-31",
-  "ngay": "2026-10-16T22:17:44+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "Switch",
-   "Xbox One",
-   "Xbox Series",
-   "BatWorks Software",
-   "Electric Airship",
-   "Horror",
-   "HorrorVale",
-   "Release Dates",
-   "RPG"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Horror RPG HorrorVale: Deadluxe Edition will launch for PlayStation 5, Xbox Series, PlayStation 4, Xbox …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T00:10:50+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "No Rest for the Wicked details new class systems, version 1.0 enhancements",
   "url": "https://www.gematsu.com/2026/10/no-rest-for-the-wicked-details-new-class-systems-version-1-0-enhancements",
@@ -3554,5 +3505,41 @@
   "da_viet": false,
   "tom_tat": "A trailer for the cancelled next entry in the Mass Effect series has seemingly leaked …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dispatch coming to iOS, Android on December 9; Deluxe Edition Commentary and Storyboard modes update now available",
+  "url": "https://www.gematsu.com/2026/10/dispatch-coming-to-ios-android-on-december-9-deluxe-edition-commentary-and-storyboard-modes-update-now-available",
+  "ngay": "2026-10-22T23:56:36+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Smartphone",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "AdHoc Studio",
+   "Clips",
+   "Dispatch",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "AdHoc Studio will release superhero workplace comedy adventure game Dispatch for iOS and Android on …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Mass Effect 5 Trailer Allegedly Leaks Following BioWare Closure",
+  "url": "https://www.pushsquare.com/news/2026/10/mass-effect-5-trailer-allegedly-leaks-following-bioware-closure",
+  "ngay": "2026-10-22T23:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "\"We were making a great game\". A Mass Effect 5 trailer, made using “pre-production assets”, appears to have leaked on Reddit following dev BioWare’s closure this week. While it’s difficult to corroborate the validity of the footage, it does not initially appear to be AI. It was also reported by IGN earlier today that a new trailer for the game had been created internally. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
