@@ -238,7 +238,8 @@
    "https://www.gematsu.com/?p=1085727",
    "https://www.gematsu.com/?p=1085812",
    "https://www.gematsu.com/?p=1085826",
-   "https://www.gematsu.com/?p=1085851"
+   "https://www.gematsu.com/?p=1085851",
+   "https://www.gematsu.com/?p=1085846"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207487",
@@ -532,7 +533,6 @@
    4019,
    4019,
    4019,
-   4019,
    4018,
    4018,
    4018,
@@ -540,19 +540,20 @@
    4018,
    4018,
    4020,
+   4020,
    4020
   ],
   "en-SG": [
    2656,
    2656,
    2656,
+   2655,
+   2655,
+   2655,
+   2655,
+   2655,
+   2655,
    2656,
-   2655,
-   2655,
-   2655,
-   2655,
-   2655,
-   2655,
    2656,
    2656
   ]
