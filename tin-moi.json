@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Vixen 357 coming to PS5, Xbox Series, PS4, Xbox One, Switch, and PC on October 23",
-  "url": "https://www.gematsu.com/2026/10/vixen-357-coming-to-ps5-xbox-series-ps4-xbox-one-switch-and-pc-on-october-23",
-  "ngay": "2026-10-16T22:48:06+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Xbox One",
-   "Xbox Series",
-   "Masaya Games",
-   "Ratalaika Games",
-   "Release Dates",
-   "Shinyuden",
-   "Vixen 357"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Ratalaika Games and developer Shinyuden will release mech strategy RPG Vixen 357 for PlayStation …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T00:10:50+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Share of the Week: Marvel’s Wolverine – Suits",
   "url": "https://blog.playstation.com/2026/10/16/share-of-the-week-marvels-wolverine-suits/",
@@ -3528,5 +3503,17 @@
   "da_viet": false,
   "tom_tat": "Calls them \"the future to maintaining growth and momentum\". Saber Interactive's CEO, Matthew Karch, believes the double-A game space, which has long been absent in the push towards major triple-A productions, is key to survival in a turbulent industry. He has pointed to the recent release of Hellraiser: Revival as evidence that mid-budget titles can thrive among heavier hitters. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Promising Sci-Fi RPG Exodus Changes Its Main Character's Face After Fan Criticism",
+  "url": "https://www.pushsquare.com/news/2026/10/promising-sci-fi-rpg-exodus-changes-its-main-characters-face-after-fan-criticism",
+  "ngay": "2026-10-23T01:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Mugged. It's still a good six months or so until Exodus releases on PS5, so developer Archetype Entertainment's got plenty of time to tweak its Mass Effect -style RPG. And that's exactly what it's done with the game's main character, Jun. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
