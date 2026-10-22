@@ -41,7 +41,8 @@
    "urn:uuid:aabdbfb9-b17c-43b5-99f7-a06b2f6fe494",
    "urn:uuid:43862db6-5672-4ff9-a2ab-5ec9cc696994",
    "urn:uuid:0cb3a50c-2b93-4e56-ba4d-0a2176c2e652",
-   "urn:uuid:88f649a4-cecd-4b2e-bfb2-335dd634f5c0"
+   "urn:uuid:88f649a4-cecd-4b2e-bfb2-335dd634f5c0",
+   "urn:uuid:2ee5f779-22c3-401b-8a05-d42ad547584d"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -235,7 +236,8 @@
    "https://www.gematsu.com/?p=1085788",
    "https://www.gematsu.com/?p=1085803",
    "https://www.gematsu.com/?p=1085727",
-   "https://www.gematsu.com/?p=1085812"
+   "https://www.gematsu.com/?p=1085812",
+   "https://www.gematsu.com/?p=1085826"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207487",
@@ -525,7 +527,7 @@
    4020,
    4020,
    4020,
-   4020,
+   4019,
    4019,
    4019,
    4019,
@@ -545,7 +547,7 @@
    2657,
    2657,
    2657,
-   2657,
+   2656,
    2656
   ]
  },

@@ -1,42 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Video: I Built the PS1 LEGO Set, and Nearly Lost My Mind",
-  "url": "https://www.pushsquare.com/features/video-i-built-the-ps1-lego-set-and-nearly-lost-my-mind",
-  "ngay": "2026-10-16T19:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Bricking it. PlayStation recently sent me the PS1 LEGO set, which is made up of a whopping 1,911 pieces. I’ve never actually built a large LEGO set before; in fact, the last time I dabbled in LEGO was probably making some rubbish house in primary school, 20-something years ago. This LEGO set faithfully recreates the 1994 console, with a full analogue stick-less controller and a working lid that reveals two sliding dioramas of Ape Escape and Gran Turismo . Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS Store Drops Free Casual PS5, PS4 Game With Easy Trophies",
-  "url": "https://www.playstationlifestyle.net/2026/10/16/free-ps5-ps4-game-ecchi-memories-ps-store",
-  "ngay": "2026-10-16T19:36:43+07:00",
-  "the_loai": [
-   "News",
-   "PS4 News, Trophies, Reviews, and More",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Ecchi Memories",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "PlayStation Store",
-   "PS Store",
-   "Video Game News",
-   "Yabai Games"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "If you’re looking for something casual this weekend, the PlayStation Store has just dropped a free PS5 and PS4 game that won’t take too much of your time. If you’re alone for the evening, you might want to try the memory game Ecchi Memories. Just make sure you’re alone when you play it. Free PS4, […] The post PS Store Drops Free Casual PS5, PS4 Game With Easy Trophies appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T21:01:35+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "'Game First, Then Movie': Ed Boon Responds to Street Fighter vs Mortal Kombat Crossover Pitch",
   "url": "https://www.pushsquare.com/news/2026/10/game-first-then-movie-ed-boon-responds-to-street-fighter-vs-mortal-kombat-crossover-pitch",
   "ngay": "2026-10-16T20:00:00+07:00",
@@ -3561,5 +3525,41 @@
   "da_viet": false,
   "tom_tat": "Gone berserk. Marvel's Wolverine has clearly done well for itself in terms of sales, with new data from PS Store charts as well as Circana painting a very positive picture. The recent superhero action title from Insomniac Games launched last month exclusively for PS5, and in terms of the PS Store, it was September's number one game in North America, coming in second place on the European chart. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Marvel’s Wolverine: Photo Mode guide",
+  "url": "https://blog.playstation.com/2026/10/22/marvels-wolverine-photo-mode-guide/",
+  "ngay": "2026-10-22T21:00:31+07:00",
+  "the_loai": [
+   "PS5",
+   "Insomniac",
+   "Marvel’s Wolverine"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Marvel'",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Luma Island for PS5, Xbox Series launches December 2",
+  "url": "https://www.gematsu.com/2026/10/luma-island-for-ps5-xbox-series-launches-december-2",
+  "ngay": "2026-10-22T21:05:44+07:00",
+  "the_loai": [
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Feel Free Games",
+   "Luma Island",
+   "Release Dates",
+   "RPG",
+   "Screenshots",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "Farming adventure RPG Luma Island will launch for PlayStation 5 and Xbox Series on December …",
+  "goi_y_ps": false
  }
 ]
