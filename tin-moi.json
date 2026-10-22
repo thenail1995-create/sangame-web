@@ -1,32 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Guns of Eschaton launches December 8",
-  "url": "https://www.gematsu.com/2026/10/guns-of-eschaton-launches-december-8",
-  "ngay": "2026-10-16T02:52:03+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "4Divinity",
-   "Clips",
-   "Eschatology Entertainment",
-   "FPS",
-   "Galaxies Autumn 2026",
-   "Guns of Eschaton",
-   "Release Dates",
-   "Shooter",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Mystical Western Soulslike first-person shooter Guns of Eschaton will launch for PlayStation 5, Xbox Series, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T05:40:55+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "ZERO PARADES: Director’s Cut coming to Switch 2 on November 3 alongside PS5 version",
   "url": "https://www.gematsu.com/2026/10/zero-parades-directors-cut-coming-to-switch-2-on-november-3-alongside-ps5-version",
   "ngay": "2026-10-16T02:46:45+07:00",
@@ -3622,5 +3596,27 @@
   "tom_tat": "An all-time low for an all-time great. If you’ve never played Fumito Ueda’s iconic Shadow of the Colossus , you really have no excuse now: Bluepoint’s brilliant PS4 remake of the PS2 all-timer currently costs less than a frothy coffee. The game’s 75% off in the US , making it just $4.99; in the UK it’s an even-better 88% off, meaning you can expect to pay just £3.59. No PS Plus membership is required to unlock these deals. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-22T08:10:48+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Hatsune Miku Connecting Puzzle TAMAGOTORI Deluxe coming to PS5, PS4, and PC on October 29",
+  "url": "https://www.gematsu.com/2026/10/hatsune-miku-connecting-puzzle-tamagotori-deluxe-coming-to-ps5-ps4-and-pc-on-october-29",
+  "ngay": "2026-10-22T08:13:57+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Crypton Future Media",
+   "Hatsune Miku Connecting Puzzle TAMAGOTORI Deluxe",
+   "Hatsune Miku: Connecting Puzzle TAMAGOTORI",
+   "KOMODO",
+   "Puzzle Games",
+   "Release Dates"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher KOMODO and developer Crypton Future Media will release Hatsune Miku Connecting Puzzle TAMAGOTORI Deluxe …",
+  "goi_y_ps": false
  }
 ]
