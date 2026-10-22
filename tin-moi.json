@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Over 1,100 Improvements Promised in The Blood of Dawnwalker Patch 1.1",
-  "url": "https://www.pushsquare.com/news/2026/10/over-1100-improvements-promised-in-the-blood-of-dawnwalker-patch-1-1",
-  "ngay": "2026-10-16T21:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Coming to PS5 next week. Dawnwalker developer Rebel Wolves has revealed a new PS5 patch for the RPG arriving next week will be packing more than 1,100 \"improvements and fixes\", and an infographic highlights the biggest ones. This is the major update the studio teased last month, where it spoke of an easier difficulty setting and some tweaks to combat and controls. The enhancements have indeed made it into patch 1.1, which goes live at some point next week. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-17T03:20:51+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Popular PS4, PS5 Naruto Game Slashes Price by 67% on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/16/naruto-boruto-ultimate-ninja-storm-connections-ps5-67-percent-off",
@@ -3546,5 +3533,26 @@
   "da_viet": false,
   "tom_tat": "It's gonna be big. PC and mobile undoubtedly rule the gaming market in China, but Sony is putting up an impressive fight. Earlier in the generation, it built a successful campaign around console exclusive Black Myth: Wukong , and now it’s poised to repeat the feat with next week’s Phantom Blade Zero . Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Rumor: Canceled Mass Effect: Universe trailer leaks",
+  "url": "https://www.gematsu.com/2026/10/rumor-canceled-mass-effect-universe-trailer-leaks",
+  "ngay": "2026-10-22T23:46:13+07:00",
+  "the_loai": [
+   "Industry",
+   "BioWare",
+   "Clips",
+   "EA",
+   "Leaks",
+   "Mass Effect (202X)",
+   "Rumors",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A trailer for the cancelled next entry in the Mass Effect series has seemingly leaked …",
+  "goi_y_ps": false
  }
 ]
