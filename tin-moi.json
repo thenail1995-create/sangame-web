@@ -1,30 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "SPINE ‘Customization Announce’ trailer, screenshots",
-  "url": "https://www.gematsu.com/2026/10/spine-customization-announce-trailer-screenshots",
-  "ngay": "2026-10-16T02:57:32+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Clips",
-   "Galaxies Autumn 2026",
-   "Nekki",
-   "Screenshots",
-   "SPINE",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Nekki has released a new trailer and screenshots for single-player story-focused action game SPINE introducing …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T08:50:51+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Stuntman: Hollywood ‘Knight Rider’ gameplay reveal trailer",
   "url": "https://www.gematsu.com/2026/10/stuntman-hollywood-knight-rider-gameplay-reveal-trailer",
   "ngay": "2026-10-16T02:05:37+07:00",
@@ -3616,6 +3592,28 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Horror RPG Pocket Mirror: GoldenerTraum is now available for PlayStation 5, PlayStation 4, and Switch …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Do Not Feed the Monkeys 2099 for PS4, Switch now available",
+  "url": "https://www.gematsu.com/2026/10/do-not-feed-the-monkeys-2099-for-ps4-switch-now-available",
+  "ngay": "2026-10-22T13:29:44+07:00",
+  "the_loai": [
+   "PS4",
+   "Switch",
+   "Clips",
+   "Do Not Feed the Monkeys 2099",
+   "Fictiorama Studios",
+   "Game Release",
+   "Joystick Ventures",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Security cameras observation game Do Not Feed the Monkeys 2099 is now available for PlayStation …",
   "goi_y_ps": false
  }
 ]
