@@ -1,31 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Gravity Circuit 2 adds Switch 2 version, launches in spring 2027",
-  "url": "https://www.gematsu.com/2026/10/gravity-circuit-2-adds-switch-2-version-launches-in-spring-2027",
-  "ngay": "2026-10-16T02:28:02+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Clips",
-   "Dear Villagers",
-   "Domesticated Ant Games",
-   "Galaxies Autumn 2026",
-   "Gravity Circuit 2",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Side-scrolling action platformer sequel Gravity Circuit 2 will launch for PlayStation 5, Switch 2, Switch, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-16T05:40:55+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "SPINE ‘Customization Announce’ trailer, screenshots",
   "url": "https://www.gematsu.com/2026/10/spine-customization-announce-trailer-screenshots",
   "ngay": "2026-10-16T02:57:32+07:00",
@@ -3617,6 +3592,30 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "enish has announced Is It Wrong to Try to Pick Up Girls in a Dungeon? …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Pocket Mirror: GoldenerTraum now available for PS5, PS4, and Switch",
+  "url": "https://www.gematsu.com/2026/10/pocket-mirror-goldenertraum-now-available-for-ps5-ps4-and-switch",
+  "ngay": "2026-10-22T12:08:58+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "Switch",
+   "AstralShift",
+   "Game Release",
+   "Horror",
+   "KOMODO",
+   "Pocket Mirror: GoldenerTraum",
+   "Release Dates",
+   "RPG",
+   "VisuStella"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Horror RPG Pocket Mirror: GoldenerTraum is now available for PlayStation 5, PlayStation 4, and Switch …",
   "goi_y_ps": false
  }
 ]
