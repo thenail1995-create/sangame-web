@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "'1.0 Roughly Doubles the Size of the Game': No Rest for the Wicked Confirms March 2027 Release on PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/1-0-roughly-doubles-the-size-of-the-game-no-rest-for-the-wicked-confirms-march-2027-release-on-ps5",
-  "ngay": "2026-10-16T22:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Version 1.0 gameplay revealed. Having been delayed out of its previously planned October release on PS5, No Rest for the Wicked has now nailed down March 2027 as its release month. Remember, this is the arrival of version 1.0, which stands to be a significant update on the early access build that's currently available on other platforms. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-17T03:20:51+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Vixen 357 coming to PS5, Xbox Series, PS4, Xbox One, Switch, and PC on October 23",
   "url": "https://www.gematsu.com/2026/10/vixen-357-coming-to-ps5-xbox-series-ps4-xbox-one-switch-and-pc-on-october-23",
@@ -3529,5 +3516,17 @@
   "da_viet": false,
   "tom_tat": "The huge Edgerunners 2 update. CD Projekt Red shocked everyone when it announced that a major new Cyberpunk 2077 update would be dropping around the same time as the Edgerunners 2 anime. While I imagine some fans might have expected a small surprise to coincide with the show, the scale of Patch 2.5 is pretty crazy — it's far bigger than it ever needed to be. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Hellraiser 'Performing Extremely Well' Says Saber Boss in Bid for Return of AA Games",
+  "url": "https://www.pushsquare.com/news/2026/10/hellraiser-performing-extremely-well-says-saber-boss-in-bid-for-return-of-aa-games",
+  "ngay": "2026-10-23T00:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Calls them \"the future to maintaining growth and momentum\". Saber Interactive's CEO, Matthew Karch, believes the double-A game space, which has long been absent in the push towards major triple-A productions, is key to survival in a turbulent industry. He has pointed to the recent release of Hellraiser: Revival as evidence that mid-budget titles can thrive among heavier hitters. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
