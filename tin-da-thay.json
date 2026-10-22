@@ -388,7 +388,8 @@
    "https://www.pushsquare.com/#article-207965",
    "https://www.pushsquare.com/#article-207963",
    "https://www.pushsquare.com/#article-207964",
-   "https://www.pushsquare.com/#article-207969"
+   "https://www.pushsquare.com/#article-207969",
+   "https://www.pushsquare.com/#article-207976"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -504,7 +505,6 @@
  "deals_ds": {
   "en-US": [
    8892,
-   8892,
    8858,
    8665,
    8196,
@@ -514,13 +514,14 @@
    6604,
    6361,
    6128,
-   5752
+   5752,
+   4548
   ],
   "en-SG": [
    2655,
-   2655,
    2656,
    2656,
+   2657,
    2657,
    2657,
    2657,
