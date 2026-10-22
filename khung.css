@@ -51,7 +51,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .tim-goi-y a:hover{color:#fff;text-decoration:underline}
 .tim-khoi{flex:1;max-width:560px;margin:0 auto}
 .tim-khoi .tim-nhanh{max-width:none}
-.nut-dau{position:relative;flex:none;display:flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:13.5px;color:#fff;
+.nut-dau{position:relative;flex:none;margin-left:auto;display:flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;font-size:13.5px;color:#fff;
   border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:8px 14px}
 .nut-dau:hover{background:rgba(255,255,255,.1)}
 .nut-dau .ic{width:17px;height:17px;color:var(--vang)}
@@ -73,6 +73,16 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
   border:1px solid var(--vien-dam);border-radius:999px;padding:7px 14px}
 .tab-con a:hover{color:var(--ngoc);border-color:var(--ngoc)}
 .tab-con a[aria-current="page"]{background:var(--ngoc);border-color:var(--ngoc);color:#fff}
+/* 22/10: thanh tab PlayStation cấp 1 (đậm hơn) + nhóm tab cũ làm cấp 2 bên dưới (chữ nhỏ hơn) */
+.tab-ps a{font-weight:700;border-color:var(--ngoc-nhat);background:var(--ngoc-nhat);color:var(--ngoc-dam)}
+.tab-ps a:hover{background:var(--the)}
+.tab-ps a[aria-current="page"]{background:var(--ngoc-dam);border-color:var(--ngoc-dam);color:#fff}
+.tab-ps + .tab-con{margin-top:-6px}
+.tab-ps + .tab-con a{font-size:12.5px;padding:4px 11px}
+/* 22/10: mục menu Steam/Xbox/Nintendo = chấm tròn màu hãng (không dùng logo hãng) + nhãn "Sắp có" khi chưa có dữ liệu */
+.o-cham{width:12px;height:24px;display:grid;place-items:center;flex:none}
+.o-cham i{width:10px;height:10px;border-radius:50%;display:block}
+.sap-co{font-size:10.5px;font-weight:700;line-height:1.5;background:var(--xam-thanh);color:var(--phu);border-radius:5px;padding:0 6px}
 .bt3d.nav{width:24px;height:24px;border-radius:6px;flex:none;box-shadow:0 1px 2px rgba(0,20,60,.3)}
 .o-nha{width:24px;height:24px;border-radius:6px;flex:none;display:grid;place-items:center;color:#fff;
   background:linear-gradient(150deg,#1757B8,var(--ps) 60%,#00245E);box-shadow:0 1px 2px rgba(0,20,60,.3)}
@@ -88,8 +98,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,su
 .kenh .rong::before{content:"‹";left:0;padding-left:8px;background:linear-gradient(to left,rgba(255,255,255,0),#fff 60%)}
 .kenh .rong::after{content:"›";right:0;justify-content:flex-end;padding-right:8px;background:linear-gradient(to right,rgba(255,255,255,0),#fff 60%)}
 .kenh.con-trai .rong::before,.kenh.con-phai .rong::after{opacity:1}
-/* Hào 01/10 rà soát: nhảy tới #mục thì tiêu đề không bị thanh kênh dính che (kênh cao ~64px trên điện thoại, ~49px trên máy tính). */
-:target{scroll-margin-top:76px}
+/* Hào 01/10 rà soát: nhảy tới #mục thì tiêu đề không bị thanh kênh dính che (kênh cao ~81px trên điện thoại từ 22/10 vì có dòng nhãn "Sắp có", ~49px trên máy tính). */
+:target{scroll-margin-top:92px}
 
 main{max-width:1200px;margin:0 auto;padding:20px 24px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-content:start;
   flex:1 0 auto;width:100%}  /* width:100% BẮT BUỘC: main có margin:0 auto, trong flex column thiếu width sẽ co theo nội dung */
@@ -195,8 +205,15 @@ footer a{color:#DDE2EA}
   /* Hào 01/10 rà soát: menu 5 mục phải thấy đủ trên điện thoại (360px trước chỉ lộ 3 mục): biểu tượng xếp trên, chữ dưới,
      5 mục chia đều bề ngang; cuộn ngang + mũi tên chỉ còn là dự phòng cho màn hẹp hơn hoặc chữ phóng to. */
   .kenh nav{justify-content:space-between;gap:0}
-  .kenh nav a{flex:1 0 auto;flex-direction:column;gap:3px;font-size:12.5px;padding:8px 4px 10px;justify-content:center}
-  .kenh nav a[aria-current="page"]::after{left:6px;right:6px}
+  .kenh nav a{flex:1 0 auto;flex-direction:column;gap:3px;font-size:12px;padding:8px 3px 10px;justify-content:flex-start;align-items:center}
+  .kenh nav a[aria-current="page"]::after{left:3px;right:3px}
+  /* 22/10: 6 mục (Trang chủ + 5) — chấm màu xếp trên chữ như ảnh 3D, nhãn "Sắp có" nhỏ xíu dưới tên */
+  .o-cham{width:24px}
+  .sap-co{font-size:9.5px;padding:0 4px;line-height:1.4}
+  .tab-ps a{padding:6px 12px}
+}
+@media (max-width:380px){  /* 22/10: 6 mục menu vừa khít ở 360px (thêm Steam/Xbox/Nintendo) */
+  .kenh nav a{font-size:11.5px;padding-left:1px;padding-right:1px}
 }
 @media (max-width:340px){  /* iPhone SE đời đầu / Android nhỏ: bớt đệm hai bên để 5 mục vẫn vừa (320px trước còn thừa 5px) */
   .kenh nav a{padding-left:2px;padding-right:2px}

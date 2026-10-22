@@ -313,8 +313,8 @@
   // moi_vao — xem trang_kho_plus.build_du_lieu()); không có dữ liệu (file thiếu/rỗng) thì ẩn,
   // không suy đoán.
   function capNhatHuyHieuKhoPlus(){
-    // Hào 30/09: gom menu — Kho PS Plus không còn là mục menu: huy hiệu lên menu PS Plus (mọi trang) + tab Kho (nhóm PS Plus).
-    var ds = document.querySelectorAll('.kenh nav a[href="ps-plus.html"], .tab-con a[href="kho-plus.html"]');
+    // Hào 30/09: gom menu — Kho PS Plus không còn là mục menu. 22/10: menu theo nền tảng — huy hiệu chỉ còn trên tab Kho PS Plus (thanh tab PlayStation).
+    var ds = document.querySelectorAll('.tab-con a[href="kho-plus.html"]');
     if (!ds || !ds.length) return;
     var xoa = function(){ for (var i = 0; i < ds.length; i++) boHuyHieu(ds[i]); };
     fetch("du-lieu/kho-plus.json").then(function(r){ return r.json(); }).then(function(d){
