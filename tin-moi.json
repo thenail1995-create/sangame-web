@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Rain98 demo now available",
-  "url": "https://www.gematsu.com/2026/10/rain98-demo-now-available",
-  "ngay": "2026-10-16T23:34:06+07:00",
-  "the_loai": [
-   "PC",
-   "C#4R4CT3R",
-   "Clips",
-   "Demos",
-   "Rain98",
-   "Screenshots",
-   "The MIX Fall Showcase 2026",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "C#4R4CT3R has released a demo for Tokyo 1998-set lo-fi psychological suspense adventure Rain98 for PC via …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Toxic Crusaders ‘Gameplay’ trailer",
   "url": "https://www.gematsu.com/2026/10/toxic-crusaders-gameplay-trailer",
   "ngay": "2026-10-16T23:55:46+07:00",
@@ -3535,5 +3514,28 @@
   "tom_tat": "Publisher Koei Tecmo and developer Team NINJA have released the results of the Alpha Demo …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-23T08:31:09+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Next: The Portopia Serial Murder Case launches March 4, 2027 in Japan",
+  "url": "https://www.gematsu.com/2026/10/next-the-portopia-serial-murder-case-launches-march-4-2027-in-japan",
+  "ngay": "2026-10-23T10:27:01+07:00",
+  "the_loai": [
+   "PC",
+   "Switch",
+   "Switch 2",
+   "G-MODE Corporation",
+   "Game Studio",
+   "Japan",
+   "Next: The Portopia Serial Murder Case",
+   "Release Dates",
+   "room6",
+   "Visual Novel"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Next: The Portopia Serial Murder Case, the September-announced remake of the 1983-released, Yuji Hori-created Famicom …",
+  "goi_y_ps": false
  }
 ]
