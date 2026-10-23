@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Usual June adds Xbox Series version",
-  "url": "https://www.gematsu.com/2026/10/usual-june-adds-xbox-series-version",
-  "ngay": "2026-10-17T00:20:05+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox Series",
-   "Clips",
-   "Finji",
-   "The MIX Fall Showcase 2026",
-   "Trailers",
-   "Usual June"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Supernatural third-person action adventure game Usual June will launch for Xbox Series and PC via …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "The Shrek 2 Video Game Is Getting a Remaster, Leaks via Xbox Store",
   "url": "https://www.pushsquare.com/news/2026/10/the-shrek-2-video-game-is-getting-a-remaster-leaks-via-xbox-store",
@@ -3540,6 +3520,30 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Free-to-play creature companionship fantasy world RPG Azur Promilia will launch for PC, iOS, and Android on …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Romancing SaGa 2: Revenge of the Seven shipments and digital sales top one million",
+  "url": "https://www.gematsu.com/2026/10/romancing-saga-2-revenge-of-the-seven-shipments-and-digital-sales-top-one-million",
+  "ngay": "2026-10-23T12:50:00+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Romancing SaGa 2: Revenge of the Seven",
+   "RPG",
+   "Sales",
+   "Square Enix"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Total shipments and digital sales for Romancing SaGa 2: Revenge of the Seven have surpassed …",
   "goi_y_ps": false
  }
 ]
