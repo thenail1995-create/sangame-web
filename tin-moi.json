@@ -1,45 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "The Saros: Zenith update out today, brings more ways to play for newcomers and veterans alike",
-  "url": "https://blog.playstation.com/2026/10/19/the-saros-zenith-update-out-today-brings-more-ways-to-play-for-newcomers-and-veterans-alike/",
-  "ngay": "2026-10-19T19:05:05+07:00",
-  "the_loai": [
-   "PS5",
-   "Housemarque",
-   "Saros"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-19T21:20:56+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Rumour: AAA Assassin's Creed Game Set in China Was Cancelled Just Last Year",
-  "url": "https://www.pushsquare.com/news/2026/10/rumour-aaa-assassins-creed-game-set-in-china-was-cancelled-just-last-year",
-  "ngay": "2026-10-19T19:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "It was Destiny. Assassin's Creed was on track to bring its trademark brand of stealth-action to China via a brand new AAA title — but it seems as though the project was cancelled before it could really take off. According to a report from MP1st , the game was called Assassin's Creed Destiny, and it was set in 206 BCE — several years after Assassin's Creed Jade, the free-to-play mobile release that's currently in development. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Saros' Massive Zenith Update Is Available Now on PS5, Free for All Players",
-  "url": "https://www.pushsquare.com/news/2026/10/saros-massive-zenith-update-is-available-now-on-ps5-free-for-all-players",
-  "ngay": "2026-10-19T19:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "Boss rush! New Game+! More! Developer Housemarque has just released the Zenith update for Saros , expanding the PS5 shooter with brand new content and features, and it's available now for free. Weighing in at 3.5 GB, the update brings the game to version 2.0, and it contains various exciting new ways to engage with the roguelite third-person shooter — especially for those that have already completed the campaign. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-19T21:20:56+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "GTA-Like PS5 Action Game at Risk of Delisting as Dev Goes Under",
   "url": "https://www.playstationlifestyle.net/2026/10/19/ps5-action-game-samson-dev-bankrupt",
@@ -3572,5 +3532,54 @@
   "da_viet": false,
   "tom_tat": "\"Capcom sincerely apologizes\". Japanese publisher Capcom has released a statement regarding a recent data breach, which has resulted in the unauthorised access to nearly 12 million Capcom ID accounts. Capcom ID is a free unified account system that grants access to online play in certain Capcom games, enables cross-platform play, and more. If you've played a Capcom game in the last five years or so, you will almost certainly have an account. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Share of the Week: 007 First Light",
+  "url": "https://blog.playstation.com/2026/10/23/share-of-the-week-007-first-light/",
+  "ngay": "2026-10-23T23:00:57+07:00",
+  "the_loai": [
+   "PS5",
+   "007 First Light",
+   "Share of the Week"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Look Outside coming to PS5, Switch 2, PS4, and Switch on October 30",
+  "url": "https://www.gematsu.com/2026/10/look-outside-coming-to-ps5-switch-2-ps4-and-switch-on-october-30",
+  "ngay": "2026-10-23T23:08:35+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Devolver Digital",
+   "Francis Coulombe",
+   "Horror",
+   "Look Outside",
+   "Release Dates",
+   "RPG"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Devolver Digital and developer Francis Coulombe will release pixel art survival horror RPG Look …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Poll: Are You Taking Time Off for GTA 6?",
+  "url": "https://www.pushsquare.com/features/poll-are-you-taking-time-off-for-gta-6",
+  "ngay": "2026-10-23T23:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "USA set for a massive financial hit on 19th November. We're now less than a month away from the arrival of GTA 6 , and according to recent reporting , its launch day alone may cost America $1 billion. That's because an estimated 1.5 million workers are planning to take 19th November 2026 as a day off, allowing them to fully immerse themselves in Jason and Lucia's adventure throughout the day. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
