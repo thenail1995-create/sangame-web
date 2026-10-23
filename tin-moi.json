@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Talking Point: What Are You Playing This Weekend? - Issue 654",
-  "url": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-654",
-  "ngay": "2026-10-17T06:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Scrib doon. The days are getting shorter and the cooler weather is easing in — at least here in the UK. Fortunately there are about a bazillion games to play. Here's what's keeping us busy. Graham Banas Now that Control: Resonant has a disc version, I no longer have to pretend like it hasn't released yet. So that's going to be my weekend. I'll be spending it with my favourite developer and I wouldn't have it any other way! Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "PS5 JRPG Atelier Karia Adding GTA San Andreas-Style Weight Mechanic After Overwhelming Fan Vote",
   "url": "https://www.pushsquare.com/news/2026/10/ps5-jrpg-atelier-karia-adding-gta-san-andreas-style-weight-mechanic-after-overwhelming-fan-vote",
   "ngay": "2026-10-17T07:00:00+07:00",
@@ -3537,5 +3525,24 @@
   "da_viet": false,
   "tom_tat": "\"Worst Call of Duty ever\". Call of Duty: Modern Warfare 4 is officially available for everyone, after a complicated release rollout which saw the campaign unlock for some last week and extraction mode DMZ for others on Tuesday. Feeling bullish, Infinity Ward opened up the competitive multiplayer suite earlier than expected overnight , which means you can play the full game now. Our review will follow in the coming days. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Troublemaker 3: Fallen Dynasty announced for PC",
+  "url": "https://www.gematsu.com/2026/10/troublemaker-3-fallen-dynasty-announced-for-pc",
+  "ngay": "2026-10-23T16:30:29+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Game Announce",
+   "Gamecom Team",
+   "Trailers",
+   "Troublemaker 3: Fallen Dynasty"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Gamecom Team has announced open-world action comedy beat ’em up game sequel Troublemaker 3: Fallen …",
+  "goi_y_ps": false
  }
 ]
