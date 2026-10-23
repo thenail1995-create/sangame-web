@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Street Fighter Movie Cracks Over $50M at Box Office in Opening Weekend",
-  "url": "https://www.pushsquare.com/news/2026/10/street-fighter-movie-cracks-over-usd50m-at-box-office-in-opening-weekend",
-  "ngay": "2026-10-19T06:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Round two soon? There had been some concern over whether audiences would show up for the new live action Street Fighter movie, but it managed to top the worldwide box office this weekend with a $51.1 million international haul. While optimists had been hoping for a number closer to $70 million, unless ticket sales fall off a cliff over the coming weeks, this is a decent result for the film, which was made on an $82 million budget, according to Deadline . Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-19T05:50:56+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "This Week’s Japanese Game Releases: Call of Duty: Modern Warfare 4, Final Fantasy Resonance, Nintendo Switch Sports Resort, Stupid Never Dies, more",
   "url": "https://www.gematsu.com/2026/10/this-weeks-japanese-game-releases-call-of-duty-modern-warfare-4-final-fantasy-resonance-nintendo-switch-sports-resort-stupid-never-dies-more",
@@ -3411,7 +3398,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "The version 7.2 update for Genshin Impact, dubbed “Hour of Ruin,” will launch on November …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-23T22:10:55+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3423,7 +3411,8 @@
   "ly_do_hot": "có từ khoá 'Call of Duty'",
   "da_viet": false,
   "tom_tat": "\"Worst Call of Duty ever\". Call of Duty: Modern Warfare 4 is officially available for everyone, after a complicated release rollout which saw the campaign unlock for some last week and extraction mode DMZ for others on Tuesday. Feeling bullish, Infinity Ward opened up the competitive multiplayer suite earlier than expected overnight , which means you can play the full game now. Our review will follow in the coming days. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-23T22:10:55+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3522,7 +3511,8 @@
   "ly_do_hot": "có từ khoá 'Marvel'",
   "da_viet": false,
   "tom_tat": "A best-selling PS5 exclusive action adventure game is at its lowest price in a new PS Store deal that includes all of its DLC. Marvel’s Spider-Man 2 Digital Deluxe Edition is 60% off as part of the Planet of the Deals promotion. Spider-Man 2 Digital Deluxe Edition price at an all-time low in new PS […] The post Hottest PS5 Exclusive Action Game 60% Off on PS Store With DLC appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-23T22:10:55+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3567,6 +3557,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Back to Akihabara. I’ve not had a chance to finish reading STEINS;GATE RE:BOOT yet, and considering how busy my current work schedule is, I think I’m going to put it down for now and concede defeat. (I do intend to get back to it at some point.) However, I still wanted to get something up on the site about this visual novel, which is a second re-release of the 2009 time traveller tale, developed by MAGES. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-23T22:10:55+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Popular PS4, PS5 Horror Game Slashes Price by 60% on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/23/dead-by-daylight-ps5-60-percent-off-playstation-store",
+  "ngay": "2026-10-23T22:10:22+07:00",
+  "the_loai": [
+   "News",
+   "Dead by Daylight",
+   "Entertainment and Gaming",
+   "PlayStation 5",
+   "PlayStation Store",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'price'",
+  "da_viet": false,
+  "tom_tat": "PlayStation Store is offering a limited-time discount on a popular PS4 and PS5 horror game. Dead by Daylight from Starbreeze Publishing AB, which features blood and gore, intense violence, and strong language, is currently being offered for sale at slashed prices. According to the official PlayStation Store, players can save 60% on the Standard Edition, […] The post Popular PS4, PS5 Horror Game Slashes Price by 60% on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-23T22:10:55+07:00"
  }
 ]
