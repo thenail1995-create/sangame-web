@@ -1,29 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Coral Island coming to Switch 2 this winter alongside version 1.4 update",
-  "url": "https://www.gematsu.com/2026/10/coral-island-coming-to-switch-2-this-winter-alongside-version-1-4-update",
-  "ngay": "2026-10-16T23:30:26+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Balor Games",
-   "Coral Island",
-   "Release Dates",
-   "Stairway Games",
-   "The MIX Fall Showcase 2026"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Balor Games and developer Stairway Games will release a Switch 2 version of simulation …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-17T03:20:51+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "The Wolf Among Us Remastered for Switch delayed to unannounced date",
   "url": "https://www.gematsu.com/2026/10/the-wolf-among-us-remastered-for-switch-delayed-to-unannounced-date",
   "ngay": "2026-10-17T01:36:20+07:00",
@@ -3551,5 +3528,17 @@
   "ly_do_hot": "",
   "da_viet": false,
   "da_gui_viet": "2026-10-23T19:08:15+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Thai Rapper Lisa's 'Tarantino' Music Video Squeezes in PS5 Product Placement",
+  "url": "https://www.pushsquare.com/news/2026/10/thai-rapper-lisas-tarantino-music-video-squeezes-in-ps5-product-placement",
+  "ngay": "2026-10-23T19:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "\"Death Proof, I do all my own stunts\". Blackpink star Lisa released her highly anticipated new Press Play EP overnight, alongside latest single Tarantino . And as expected, the PlayStation global ambassador squeezed in a PS5 reference towards the end of the music video. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
