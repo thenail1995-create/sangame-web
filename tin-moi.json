@@ -1,40 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "This Week’s Japanese Game Releases: Call of Duty: Modern Warfare 4, Final Fantasy Resonance, Nintendo Switch Sports Resort, Stupid Never Dies, more",
-  "url": "https://www.gematsu.com/2026/10/this-weeks-japanese-game-releases-call-of-duty-modern-warfare-4-final-fantasy-resonance-nintendo-switch-sports-resort-stupid-never-dies-more",
-  "ngay": "2026-10-19T05:59:46+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Smartphone",
-   "Switch",
-   "Switch 2",
-   "Xbox One",
-   "Xbox Series",
-   "Weekly Japanese Game Releases"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Final Fantasy'",
-  "da_viet": false,
-  "tom_tat": "Call of Duty: Modern Warfare 4 for PlayStation 5, Xbox Series, Switch 2, and PC, Final …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Samson Dev Goes Bankrupt Just a Month After Gritty Open World Game's Arrival on PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/samson-dev-goes-bankrupt-just-a-month-after-gritty-open-world-games-arrival-on-ps5",
-  "ngay": "2026-10-19T18:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The Tyndalston Story's over. Just about a month after it was released on PS5, the developer behind Samson: A Tyndalston Story is reportedly bankrupt. Liquid Swords launched the open world game for PC back in April of this year, but it didn't arrive on Sony's console until the 21st September. It's obviously starting to look like the title didn't do the necessary sales numbers. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-19T18:11:01+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS Store Drops Great PS5 Adventure Game You May Have Missed",
   "url": "https://www.playstationlifestyle.net/2026/10/19/ps5-adventure-game-tenebris-somnia-ps-store",
@@ -3579,5 +3544,43 @@
   "tom_tat": "PlayStation Store is offering a limited-time discount on a popular PS4 and PS5 horror game. Dead by Daylight from Starbreeze Publishing AB, which features blood and gore, intense violence, and strong language, is currently being offered for sale at slashed prices. According to the official PlayStation Store, players can save 60% on the Standard Edition, […] The post Popular PS4, PS5 Horror Game Slashes Price by 60% on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-23T22:10:55+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Helldivers 3? Not Unless It's Very Different from Helldivers 2, Says Arrowhead",
+  "url": "https://www.pushsquare.com/news/2026/10/helldivers-3-not-unless-its-very-different-from-helldivers-2-says-arrowhead",
+  "ngay": "2026-10-23T22:15:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Players are \"keeping the game alive\". One of the more successful recent attempts at a live service game is Helldivers 2 , published by Sony and developed by Arrowhead Studios. It seems the latter is in no rush to follow it up with a Helldivers 3. Speaking to Rock Paper Shotgun , chief creative officer Johan Pilestedt says a third game in the co-op shooter series would only get made if it's very different from the current game, or if players simply stopped showing up. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "2026’s Biggest PS5 Shooter Is Out Today on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/23/call-of-duty-modern-warfare-4-ps5-release-october-23",
+  "ngay": "2026-10-23T22:17:25+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Activision",
+   "Call of Duty",
+   "Call of Duty: Modern Warfare 4",
+   "Entertainment and Gaming",
+   "Infinity Ward",
+   "PlayStation Store",
+   "PS Store",
+   "PS5",
+   "PS5 Pro",
+   "Shooter",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS5 Pro'",
+  "da_viet": false,
+  "tom_tat": "The wait is now over for 2026’s biggest PlayStation 5 shooter. The new title offers intense action and a military shooting experience. Activision’s Call of Duty: Modern Warfare 4 finally landed on the PlayStation Store today. Call of Duty: Modern Warfare 4 comes with enhanced visual features built specifically for the PS5 Pro alongside the […] The post 2026’s Biggest PS5 Shooter Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
