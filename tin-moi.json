@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Official PlayStation Podcast Episode 551: Quadruple Duty",
-  "url": "https://blog.playstation.com/2026/10/16/official-playstation-podcast-episode-551-quadruple-duty/",
-  "ngay": "2026-10-16T23:46:26+07:00",
-  "the_loai": [
-   "Uncategorized",
-   "Official PlayStation Podcast",
-   "PlayStation Blogcast"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Rain98 demo now available",
   "url": "https://www.gematsu.com/2026/10/rain98-demo-now-available",
@@ -3157,7 +3143,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "One of the best PS5 exclusive RPGs is at its lowest price on the PS Store in a brand-new, limited-time deal. Developed by the now-shuttered Bluepoint Games, Demon’s Souls 2020 remake’s Digital Deluxe Edition is a whopping 85% off in the Planet of the Deals promotion. Demon’s Souls Digital Deluxe Edition at a historic low […] The post Awesome PS5 Exclusive RPG 85% Off on PS Store, DLC Included appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-23T08:31:09+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3169,7 +3156,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "On the back of the blackout. Consumers responded to social media’s big PS5 blackout campaign by rewarding Sony with its best US sales month since May 2025, as the price hiked console comfortably outsold the Switch 2 in units and dollar sales in September. Unit sales of the PS5 increased 22% year-over-year, while the Xbox Series X|S dropped another 27% and Switch 2 fell 14%. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-23T08:31:09+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3232,7 +3220,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Even more friendly. Developer Fuse Games has pushed a new game update for Star Wars: Galactic Racer, and it makes a much-requested improvement to the game's online multiplayer. As promised a while ago, the studio has doubled the size of parties you can form with friends; with this new update installed, you're able to party up with groups of up to six players, rather than just three. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-23T08:31:09+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3502,7 +3491,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A beloved collection of classic action-adventure games for PlayStation 4 and PlayStation 5 is available at a discount on the PlayStation Store. The collection currently holds an average rating of 4.16 out of 5 from more than 12,000 player ratings. Tomb Raider I-III Remastered Starring Lara Croft is available on the PlayStation Store at 80% […] The post 3 Beloved PS4, PS5 Adventure Game Remasters Are 80% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-23T08:31:09+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3522,5 +3512,28 @@
   "da_viet": false,
   "tom_tat": "The Game Boy – Nintendo Classics app will add Avenging Spirit, Mole Mania, and Pinball: …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Wo Long 2: Wings of Ember Alpha Demo survey results announced",
+  "url": "https://www.gematsu.com/2026/10/wo-long-2-wings-of-ember-alpha-demo-survey-results-announced",
+  "ngay": "2026-10-23T08:27:17+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Koei Tecmo",
+   "RPG",
+   "Screenshots",
+   "Team Ninja",
+   "Wo Long 2: Wings of Ember"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Koei Tecmo and developer Team NINJA have released the results of the Alpha Demo …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-23T08:31:09+07:00"
  }
 ]
