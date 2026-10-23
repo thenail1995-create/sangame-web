@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "The Shrek 2 Video Game Is Getting a Remaster, Leaks via Xbox Store",
-  "url": "https://www.pushsquare.com/news/2026/10/the-shrek-2-video-game-is-getting-a-remaster-leaks-via-xbox-store",
-  "ngay": "2026-10-17T00:15:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "It's so ogre. Back when basically every movie got a tie-in game, Shrek 2 released on PS2, and it's fondly remembered by fans despite its rough edges. Well, if you want to feel all nostalgic, here's some good news: the co-op brawler is making its grand return in Shrek 2 Remastered. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Coral Island coming to Switch 2 this winter alongside version 1.4 update",
   "url": "https://www.gematsu.com/2026/10/coral-island-coming-to-switch-2-this-winter-alongside-version-1-4-update",
@@ -3547,5 +3535,21 @@
   "tom_tat": "Total shipments and digital sales for Romancing SaGa 2: Revenge of the Seven have surpassed …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-23T14:31:09+07:00"
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Saros: creating the epic Overlords of Carcosa",
+  "url": "https://blog.playstation.com/2026/10/23/saros-creating-the-epic-overlords-of-carcosa/",
+  "ngay": "2026-10-23T18:59:40+07:00",
+  "the_loai": [
+   "PS5",
+   "Housemarque",
+   "Nixxes",
+   "Saros"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "da_gui_viet": "2026-10-23T19:08:15+07:00"
  }
 ]
