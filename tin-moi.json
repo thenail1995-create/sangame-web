@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Faraway launches November 5 for PS5, Xbox Series, Switch 2, Switch, and PC",
-  "url": "https://www.gematsu.com/2026/10/faraway-launches-november-5-for-ps5-xbox-series-switch-2-switch-and-pc",
-  "ngay": "2026-10-19T22:07:05+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Annapurna Interactive",
-   "Clips",
-   "Faraway",
-   "Release Dates",
-   "Steph Thirion",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Faraway, a randomly-generated, minimalistic, arcade puzzle game about a shooting star that designs constellations to …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-20T00:31:10+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Hands On: BeamNG.drive's Insanely Ambitious Simulation Sandbox Is a Minor Miracle on PS5",
   "url": "https://www.pushsquare.com/features/hands-on-beamng-drives-insanely-ambitious-simulation-sandbox-is-a-minor-miracle-on-ps5",
@@ -3561,6 +3536,18 @@
   "ly_do_hot": "có từ khoá 'price'",
   "da_viet": false,
   "tom_tat": "A popular PlayStation 5 RPG is now available at a massive discount on the PlayStation Store. The game currently has a rating of 4.55 out of 5 based on over 167,000 ratings. The title has also won over 200 ‘Best of’ awards. Fallout 4 Game of the Year edition is now 75% off. The game […] The post Beloved PS5 RPG Slashes Price by 75% on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS5's War Against Jailbreaks Triggers Fresh Wave of Criticism",
+  "url": "https://www.pushsquare.com/news/2026/10/ps5s-war-against-jailbreaks-triggers-fresh-wave-of-criticism",
+  "ngay": "2026-10-25T23:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "But it's nothing new. Sony’s battle against PS5 jailbreaks is bringing a fresh wave of criticism, as it requires players to update their firmware in order to play certain games. The Japanese giant – already on thin ice online due to its decision to cease manufacturing discs – has been deploying updates at an increased rate , as it responds to hacks which have opened up its console. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
