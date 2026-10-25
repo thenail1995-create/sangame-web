@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Hideo Kojima Back in the Cyberpunk Universe for Edgerunners Season 2",
-  "url": "https://www.pushsquare.com/news/2026/10/hideo-kojima-back-in-the-cyberpunk-universe-for-edgerunners-season-2",
-  "ngay": "2026-10-19T22:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Kojima's character makes a cameo appearance. Having appeared as Hideyoshi Oshima in a Cyberpunk 2077 quest (if you searched hard enough), Metal Gear Solid and Death Stranding creator Hideo Kojima will return to the Cyberpunk 2077 universe for a cameo appearance in the anime TV show Cyberpunk: Edgerunners . Season two debuts on Netflix tomorrow, 20th October 2026, and the series' official social media channels have revealed a Kojima cameo will be included in the new set of episodes. He again plays Oshima, the director of Braindance, which is the technology Cyberpunk 2077 lightly fiddles with as…",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Pro Enhanced Action Game Is 65% Off on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/19/anger-foot-ps5-pro-enhanced-65-percent-off-playstation-store",
@@ -3550,5 +3538,30 @@
   "da_viet": false,
   "tom_tat": "I see. Us Shenmue fans know a thing or two about waiting around, so it’s no real surprise to see Shenmue 3 Enhanced delayed. The PS5 re-release of Ys Net’s sequel – published by ININ – had been due out in 2026, but as the year has progressed, a postponement into 2027 always seemed inevitable. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dragon Ball Xenoverse 2 10th anniversary update launches October 27",
+  "url": "https://www.gematsu.com/2026/10/dragon-ball-xenoverse-2-10th-anniversary-update-launches-october-27",
+  "ngay": "2026-10-25T14:15:19+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Xbox One",
+   "Xbox Series",
+   "Bandai Namco",
+   "Clips",
+   "Dimps",
+   "Dragon Ball Xenoverse 2",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Publisher Bandai Namco and developer Dimps will release the Dragon Ball Xenoverse 2 10th anniversary …",
+  "goi_y_ps": false
  }
 ]
