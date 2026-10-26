@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "In Time for Halloween, Directive 8020 Adds Online Multiplayer in Major Update on PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/in-time-for-halloween-directive-8020-adds-online-multiplayer-in-major-update-on-ps5",
-  "ngay": "2026-10-19T23:45:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Here's The Thing. Developer Supermassive Games has just released a big new update for its latest Dark Pictures horror adventure, Directive 8020 . The free update adds online multiplayer to the sci-fi narrative game, letting up to five players (a copy of the game each is required) enjoy the experience together without the need to be in the same room. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-20T00:31:10+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "PAYDAY: Aces High launches November 5",
   "url": "https://www.gematsu.com/2026/10/payday-aces-high-launches-november-5",
@@ -3575,5 +3562,27 @@
   "tom_tat": "Total sales for Sonic X Shadow Generations have surpassed three million units worldwide, SEGA announced. …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-26T10:10:47+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "This Week’s Japanese Game Releases: Phantom Blade Zero, ANOMALITH, more",
+  "url": "https://www.gematsu.com/2026/10/this-weeks-japanese-game-releases-phantom-blade-zero-anomalith-more",
+  "ngay": "2026-10-26T10:29:14+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Smartphone",
+   "Switch",
+   "Switch 2",
+   "Xbox One",
+   "Xbox Series",
+   "Weekly Japanese Game Releases"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Phantom Blade Zero for PlayStation 5 and PC, and ANOMALITH for PlayStation 5, Switch 2, and …",
+  "goi_y_ps": false
  }
 ]
