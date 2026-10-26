@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Culdcept BEGINS for PC launches October 28",
-  "url": "https://www.gematsu.com/2026/10/culdcept-begins-for-pc-launches-october-28",
-  "ngay": "2026-10-20T09:30:17+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Culdcept BEGINS",
-   "Neos",
-   "Release Dates",
-   "RPG",
-   "Sales",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "The PC version of board and card game fusion Culdcept BEGINS will launch via Steam …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "5 October 2026 PS Plus Extra, Premium Games Available to Download Now",
   "url": "https://www.pushsquare.com/news/2026/10/5-october-2026-ps-plus-extra-premium-games-available-to-download-now",
@@ -3467,7 +3446,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "The PlayStation Store has dropped a free PS5 game out of nowhere, and players seem to be enjoying it. Published by Cudit Games, Dominoes Together brings the classic tile-based game to consoles, and it supports both single-player and online multiplayer modes. Dominoes Together is a free PS5 game with fun trophies, including Platinum Dominoes Together’s […] The post PS Store Surprise Drops Relaxing Free PS5 Game, Players Like It appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-26T20:10:52+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3544,7 +3524,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "GSC Game World has released the version 2.1 update “The Zone Lookout” for post-apocalyptical first-person …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-26T20:10:52+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3556,7 +3537,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Debuts on 13th January 2027. With its main Fallout TV series an absolute hit, with two seasons already under its belt, Amazon Prime is expanding its scope with another adaptation, this time of the management sim spin-off, Fallout Shelter . In that game, which eventually came to PS4, you took up the role of Overseer in a vault and looked after your citizens. You'd give them food, homes, power, and generally the best life possible while expanding the vault with new rooms and functions. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-26T20:10:52+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3579,6 +3561,20 @@
   "ly_do_hot": "có từ khoá 'price'",
   "da_viet": false,
   "tom_tat": "A fan-favorite 2022 PS5 and PS4 exclusive action RPG is at its lowest price in a new limited-time PS Store deal. Guerrilla Games’ Horizon Forbidden West is 70% off as part of the Planet of the Deals promotion. Horizon Forbidden West is $14.99 for the first time in fantastic-value PS Store deal PS5 and PS4 […] The post Popular PS5 Exclusive RPG 70% Off on PS Store, Lowest Price appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-26T20:10:52+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Tomb Raider's PS5 Remake Tipped to Be Just as Long as the PS1 Classic",
+  "url": "https://www.pushsquare.com/news/2026/10/tomb-raiders-ps5-remake-tipped-to-be-just-as-long-as-the-ps1-classic",
+  "ngay": "2026-10-26T20:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Spend roughly 15 hours as Lara Croft. When I was doing research for this article, I had it in my head the original Tomb Raider on PS1 was likely a maximum of eight hours long, like most action-adventure titles of the generation. To my surprise, though, checking How Long to Beat revealed it to be a meaty adventure at roughly 15 hours long! Read the full article on pushsquare.com",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-26T20:10:52+07:00"
  }
 ]
