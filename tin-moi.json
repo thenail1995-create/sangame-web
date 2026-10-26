@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Cyberpunk 2077 version 2.5 update launches October 22",
-  "url": "https://www.gematsu.com/2026/10/cyberpunk-2077-version-2-5-update-launches-october-22",
-  "ngay": "2026-10-20T17:05:19+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "CD Projekt RED",
-   "Cyberpunk 2077",
-   "Release Dates",
-   "RPG"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "CD Projekt RED will release the version 2.5 update for Cyberpunk 2077 on October 22 …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T07:31:07+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Review: Final Fantasy Resonance (PS5) - Square's Series Returns to Its Roots to Fantastic Effect",
   "url": "https://www.pushsquare.com/reviews/ps5/final-fantasy-resonance",
@@ -3572,6 +3550,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "36 Trophies for PS5 action game. Scheduled to release on 29th October 2026, the Trophy list for Phantom Blade Zero has gone live on PS5. The full list is published on Exophase , revealing 36 Trophies — including a Platinum Trophy, of course — for players to unlock. With the launch just days away, I uploaded my Phantom Blade Zero PS5 review overnight, awarding it a 9/10 score and saying: \"An intense and fast-paced combat system is the star, with so much variety backing it and incredible enemies to test it.\" Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Save Mass Effect Petition Rockets Past 200,000 Signatures as Fans Ask EA to Continue the Series",
+  "url": "https://www.pushsquare.com/news/2026/10/save-mass-effect-petition-rockets-past-200000-signatures-as-fans-ask-ea-to-continue-the-series",
+  "ngay": "2026-10-26T22:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "My favourite petition on the Citadel. Over 200,000 fans have signed an online petition to save Mass Effect . This movement began late last week, after BioWare's closure had been confirmed. The developer had been working on the next Mass Effect — seemingly codenamed Mass Effect Universe — but unsurprisingly, the project is now cancelled. Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
