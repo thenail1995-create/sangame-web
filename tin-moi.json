@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Store",
-  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (2733 → 4047 món)",
-  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
-  "ngay": "2026-10-20T22:01:31+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "số món giảm giá tăng 48% so với đỉnh 12 lần gần nhất",
-  "da_viet": false
- },
- {
-  "nguon": "PS Store",
   "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (4047 → 5195 món)",
   "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
   "ngay": "2026-10-20T22:10:54+07:00",
@@ -3553,5 +3541,17 @@
   "tom_tat": "Siege of Castle Doom dated. Dotemu and Tribute Games have finally revealed more details about the upcoming DLC for their retro-inspired beat-'em-up, Marvel Cosmic Invasion . Titled Siege of Castle Doom, the DLC pack is scheduled to launch for the PS5 and PS4 game on 10th November, 2026, as revealed in this new trailer: Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-10-27T02:31:14+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Round Up: Phantom Blade Zero PS5 Reviews Are In, and It's Another Game of the Year Contender",
+  "url": "https://www.pushsquare.com/features/round-up-phantom-blade-zero-ps5-reviews-are-in-and-its-another-game-of-the-year-contender",
+  "ngay": "2026-10-27T03:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Weaponised fun. The first batch of reviews have arrived for Phantom Blade Zero , the console-exclusive PS5 action game from developer S-GAME. This is one of those titles that has always impressed whenever it's shown up, with super-expressive animation, sharp combat, and imaginative boss encounters. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
