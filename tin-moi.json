@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Review: Final Fantasy Resonance (PS5) - Square's Series Returns to Its Roots to Fantastic Effect",
-  "url": "https://www.pushsquare.com/reviews/ps5/final-fantasy-resonance",
-  "ngay": "2026-10-20T20:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Final Fantasy'",
-  "da_viet": false,
-  "tom_tat": "Crystal clear. For well over a decade now, some Final Fantasy fans have been demanding a return to a more traditional gameplay structure. And while Final Fantasy Resonance is a far cry from being a mainline AAA Final Fantasy game, it provides a glimpse of what a modern instalment could look like, if it adhered to old-school sensibilities. Resonance is built on the foundations laid by Final Fantasy Brave Exvius — the now defunct mobile game. But this isn't just some weird console port; it's a full-on rework that strips Exvius of its free-to-play systems and reimagines it as a classic turn-based…",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-21T01:20:49+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Final Fantasy Resonance (PS5) Review: HD-2D Continues to Shine",
   "url": "https://www.playstationlifestyle.net/review/937809-final-fantasy-resonance-review",
@@ -3563,5 +3550,27 @@
   "da_viet": false,
   "tom_tat": "My favourite petition on the Citadel. Over 200,000 fans have signed an online petition to save Mass Effect . This movement began late last week, after BioWare's closure had been confirmed. The developer had been working on the next Mass Effect — seemingly codenamed Mass Effect Universe — but unsurprisingly, the project is now cancelled. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Acclaimed PS5 Action Game Is 75% Off on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/26/the-last-of-us-part-i-digital-deluxe-edition-ps5-deal",
+  "ngay": "2026-10-26T22:56:05+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "PlayStation 5",
+   "PS5",
+   "Sony",
+   "Sony Interactive Entertainment",
+   "The Last of Us Part 1",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'The Last of Us'",
+  "da_viet": false,
+  "tom_tat": "A widely acclaimed action game on PS5 is being offered at a tremendous discount. The post Acclaimed PS5 Action Game Is 75% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
