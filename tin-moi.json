@@ -1,31 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "DERELIKT launches November 13 for PC, later for PS5 and Xbox Series",
-  "url": "https://www.gematsu.com/2026/10/derelikt-launches-november-13-for-pc-later-for-ps5-and-xbox-series",
-  "ngay": "2026-10-20T22:41:37+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "DERELIKT",
-   "FPS",
-   "Hyperstrange",
-   "Release Dates",
-   "Shooter",
-   "Trailers",
-   "Visuwyg"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Narrative retro science-fiction horror first-person shooter DERELIKT will launch for PC via Steam on November …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T01:20:49+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Villion: Code launches January 26, 2027 in the west",
   "url": "https://www.gematsu.com/2026/10/villion-code-launches-january-26-2027-in-the-west",
   "ngay": "2026-10-20T23:01:35+07:00",
@@ -3552,5 +3527,17 @@
   "da_viet": false,
   "tom_tat": "Each one more punchable than the last. It’s a shame Until Dawn 2 couldn’t make it out in time for Halloween, but there’s no shortage of other games to play on the PS5 right now , is there? Sony is instead targeting a 28th January release date for the sequel, developed by first-party studio Firesprite. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Rare Insight into PS5 Sales Pattern Reveals Significant Wolverine Bump",
+  "url": "https://www.pushsquare.com/news/2026/10/rare-insight-into-ps5-sales-pattern-reveals-significant-wolverine-bump",
+  "ngay": "2026-10-27T04:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Wolverine'",
+  "da_viet": false,
+  "tom_tat": "Good job, bub. Circana sells its insight into US hardware sales, so it’s rare we get an actual glimpse into the PS5’s sales pattern quite like this. But analyst Mat Piscatella , who last week said Marvel’s Wolverine was the primary driver behind Sony’s console sales in September, has responded to the doubters with an actual graph. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
