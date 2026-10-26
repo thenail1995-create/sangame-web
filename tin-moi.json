@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "How Final Fantasy Resonance uses Visions to change how we see the series",
-  "url": "https://blog.playstation.com/2026/10/20/how-final-fantasy-resonance-uses-visions-to-change-how-we-see-the-series/",
-  "ngay": "2026-10-20T20:30:11+07:00",
-  "the_loai": [
-   "PS5",
-   "Final Fantasy Resonance",
-   "Square Enix"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Final Fantasy'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-20T22:10:58+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "PS Store Must Copy Steam If PC Players' Campaign Against AI Content Succeeds",
   "url": "https://www.pushsquare.com/news/2026/10/ps-store-must-copy-steam-if-pc-players-campaign-against-ai-content-succeeds",
@@ -3543,6 +3528,18 @@
   "ly_do_hot": "có từ khoá 'Ghost of'",
   "da_viet": false,
   "tom_tat": "Sony studio makes cuts. Sucker Punch Productions, the Sony-owned PlayStation Studio and Ghost of Yotei developer, has reportedly made cuts to its workforce. According to Aftermath , who cite an unnamed ex-Sucker Punch employee, at least 26 jobs have been slashed. It's estimated that the studio employs roughly 230 people. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Hear About Assassin's Creed's Future This Week in Franchise Update",
+  "url": "https://www.pushsquare.com/news/2026/10/hear-about-assassins-creeds-future-this-week-in-franchise-update",
+  "ngay": "2026-10-27T00:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "BF Resynced's New Game Plus update out tomorrow. Ubisoft will share an update on the future of the Assassin's Creed franchise later this week, in a Fall 2026 Update that is scheduled to go live on Thursday, 29th October 2026. In the broadcast, head of content Jean Guesdon will \"share another update on what’s ahead for Assassin’s Creed. While there won’t be any major reveals, we want to keep you informed on the franchise’s progress.\" Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
