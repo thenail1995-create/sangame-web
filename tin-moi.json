@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "RPG Maker U2U ‘P2D Map Editor Demo’ now available",
-  "url": "https://www.gematsu.com/2026/10/rpg-maker-u2u-p2d-map-editor-demo-now-available",
-  "ngay": "2026-10-20T00:03:51+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Demos",
-   "Gotcha Gotcha Games",
-   "RPG",
-   "RPG Maker U2U",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Gotcha Gotcha Games has released the RPG Maker U2U “P2D Map Editor Demo” for PC via …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Poll: Would You Pay $1,000 for a PS6?",
   "url": "https://www.pushsquare.com/features/poll-would-you-pay-usd1000-for-a-ps6",
@@ -3573,5 +3553,19 @@
   "da_viet": false,
   "tom_tat": "Now has until 13th December 2026. The deadline relating to Arkane Lyon's search for a new owner has been extended by one month, Microsoft confirmed. The developer and Microsoft previously set a cut-off point of 13th November 2026, but that has now been extended to 13th December, as per comments from a representative: \"We have extended the consultation period by one additional month as we explore options, including finding a partner to support the studio through the development work still ahead,\" PC Gamer was told. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Celebrate Helldivers 2 Liberty Day 2026 with in-game gifts today",
+  "url": "https://blog.playstation.com/2026/10/26/celebrate-helldivers-2-liberty-day-2026-with-in-game-gifts-today/",
+  "ngay": "2026-10-26T17:00:05+07:00",
+  "the_loai": [
+   "PS5",
+   "Helldivers 2"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "da_gui_viet": "2026-10-26T17:10:51+07:00"
  }
 ]
