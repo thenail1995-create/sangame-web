@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Poll: Would You Pay $1,000 for a PS6?",
-  "url": "https://www.pushsquare.com/features/poll-would-you-pay-usd1000-for-a-ps6",
-  "ngay": "2026-10-20T01:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Testing the waters. So, it's looking increasingly likely that the PS6 will cost a significant sum of money. A report that spread far and wide over the weekend claims that continually soaring component costs will put Sony in a very difficult position as far as next-gen console launches go. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-20T03:31:12+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Could Sony's Bungie Build the Next Star Wars Battlefront Game?",
   "url": "https://www.pushsquare.com/news/2026/10/could-sonys-bungie-build-the-next-star-wars-battlefront-game",
   "ngay": "2026-10-20T01:45:00+07:00",
@@ -3567,5 +3554,25 @@
   "ly_do_hot": "",
   "da_viet": false,
   "da_gui_viet": "2026-10-26T17:10:51+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Highly Anticipated PS5 Exclusive RPG Gets Amazing Reviews",
+  "url": "https://www.playstationlifestyle.net/2026/10/26/ps5-rpg-phantom-blade-zero-awesome-reviews",
+  "ngay": "2026-10-26T18:26:54+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Phantom Blade Zero",
+   "S-Game",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A highly anticipated PS5 console exclusive action RPG turned out to be a surprise hit with critics, earning rave reviews. S-Game’s Phantom Blade Zero will launch soon on the PS Store and Steam, and it looks like players are in for a great time. Surprise hit PS5 console exclusive action RPG Phantom Blade Zero launches […] The post Highly Anticipated PS5 Exclusive RPG Gets Amazing Reviews appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
