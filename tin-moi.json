@@ -1,29 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "PAYDAY: Aces High launches November 5",
-  "url": "https://www.gematsu.com/2026/10/payday-aces-high-launches-november-5",
-  "ngay": "2026-10-20T00:02:44+07:00",
-  "the_loai": [
-   "PC",
-   "Quest",
-   "Clips",
-   "Fast Travel Games",
-   "FPS",
-   "PAYDAY: Aces High",
-   "Release Dates",
-   "Shooter",
-   "Starbreeze Studios",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Virtual reality cooperative heist game PAYDAY: Aces High will launch for SteamVR and Quest on …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "RPG Maker U2U ‘P2D Map Editor Demo’ now available",
   "url": "https://www.gematsu.com/2026/10/rpg-maker-u2u-p2d-map-editor-demo-now-available",
   "ngay": "2026-10-20T00:03:51+07:00",
@@ -3583,6 +3560,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Phantom Blade Zero for PlayStation 5 and PC, and ANOMALITH for PlayStation 5, Switch 2, and …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Microsoft Gives Dishonored Dev More Time to Find a Buyer, Needs a Partner to Finish Blade",
+  "url": "https://www.pushsquare.com/news/2026/10/microsoft-gives-dishonored-dev-more-time-to-find-a-buyer-needs-a-partner-to-finish-blade",
+  "ngay": "2026-10-26T16:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Now has until 13th December 2026. The deadline relating to Arkane Lyon's search for a new owner has been extended by one month, Microsoft confirmed. The developer and Microsoft previously set a cut-off point of 13th November 2026, but that has now been extended to 13th December, as per comments from a representative: \"We have extended the consultation period by one additional month as we explore options, including finding a partner to support the studio through the development work still ahead,\" PC Gamer was told. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
