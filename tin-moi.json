@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Another Huge Cyberpunk 2077 PS5 Update Incoming, Patch 2.5 Revealed in Livestream Tomorrow",
-  "url": "https://www.pushsquare.com/news/2026/10/another-huge-cyberpunk-2077-ps5-update-incoming-patch-2-5-revealed-in-livestream-tomorrow",
-  "ngay": "2026-10-20T18:15:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "In collab with Edgerunners season 2. CD Projekt Red has announced it's got yet another Cyberpunk 2077 patch on the way, this time in collaboration with the second season of its anime TV show spin-off, Edgerunners . The developer will update the RPG to version 2.5 on 22nd October 2026, and tomorrow it will have a REDstream to share what's in store. The blog post teases \"cyberware customization, a new dual-wielding playstyle, and more\". Presumably, it will all link into the TV series in some way. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-20T19:10:57+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Ace Combat 8 Carpet Bombs a Massive List of Bugs in an Upcoming Patch on PS5",
   "url": "https://www.pushsquare.com/news/2026/10/ace-combat-8-carpet-bombs-a-massive-list-of-bugs-in-an-upcoming-patch-on-ps5",
   "ngay": "2026-10-20T19:00:00+07:00",
@@ -3574,6 +3561,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "\"An exclusive of sorts\" on AMD's cutting-edge architecture. There’s understandable concern about the price of next-gen hardware, and I think that’s undoubtedly going to dominate discussion around the PS6. But let’s not forget that Sony tends to make incredible consoles, and it’s going to be exciting to see what the Japanese giant achieves with its new devices. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Round Up: Modern Warfare 4 Is the Highest-Rated Call of Duty in 15 Years",
+  "url": "https://www.pushsquare.com/features/round-up-modern-warfare-4-is-the-highest-rated-call-of-duty-in-15-years",
+  "ngay": "2026-10-26T21:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Call of Duty'",
+  "da_viet": false,
+  "tom_tat": "Reviews are in. This year's rendition of Call of Duty has arrived, and with it the first batch of reviews. It seems this might be one to pay attention to, as Call of Duty: Modern Warfare 4 is the highest-rated entry in the series in 15 years. With a Metascore of 86, it's the best-reviewed game in the long-running franchise since Call of Duty: Modern Warfare 3 (2011), which managed an 88 . Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
