@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Store",
-  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (4047 → 5195 món)",
-  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
-  "ngay": "2026-10-20T22:10:54+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "số món giảm giá tăng 28% so với đỉnh 12 lần gần nhất",
-  "da_viet": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "A New PlayStation Promo Suggests Sony's Bought the Kena IP from Ember Lab",
   "url": "https://www.pushsquare.com/news/2026/10/a-new-playstation-promo-suggests-sonys-bought-the-kena-ip-from-ember-lab",
@@ -3552,6 +3540,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Weaponised fun. The first batch of reviews have arrived for Phantom Blade Zero , the console-exclusive PS5 action game from developer S-GAME. This is one of those titles that has always impressed whenever it's shown up, with super-expressive animation, sharp combat, and imaginative boss encounters. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Rumour: Silent Hill 1 Remake Aiming for 2027 PS5 Release",
+  "url": "https://www.pushsquare.com/news/2026/10/rumour-silent-hill-1-remake-aiming-for-2027-ps5-release",
+  "ngay": "2026-10-27T03:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Voice cast members leaked. The remake of the PS1 survival horror classic Silent Hill is targeting a PS5 release in 2027, a new MP1st report claims. The website — which has proved increasingly reliable in the past 12 months — suggests Bloober Team and Konami are planning on putting out the remake next year. In addition, it claims that Gabrielle Fritz and Jade Matthew are part of the voice cast. Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
