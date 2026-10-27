@@ -50,7 +50,8 @@
    "urn:uuid:e0f04030-303e-43a3-9293-4f832fc6dd42",
    "urn:uuid:2f602121-f505-40a4-98e1-d6e14574338d",
    "urn:uuid:c25ccb29-ece8-4a10-afc2-b59b71981b39",
-   "urn:uuid:9f14a5fe-ddb0-41c9-bf61-5453ba19cda8"
+   "urn:uuid:9f14a5fe-ddb0-41c9-bf61-5453ba19cda8",
+   "urn:uuid:0b8f558c-1c39-4f90-8c07-6ccede15509d"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -603,7 +604,9 @@
    "https://www.playstationlifestyle.net/?post_type=review&p=938047",
    "https://www.playstationlifestyle.net/?p=938050",
    "https://www.playstationlifestyle.net/?p=938055",
-   "https://www.playstationlifestyle.net/?p=938051"
+   "https://www.playstationlifestyle.net/?p=938051",
+   "https://www.playstationlifestyle.net/?p=938070",
+   "https://www.playstationlifestyle.net/?p=938052"
   ],
   "billbil": [
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mxjn2i36ss2y",
@@ -647,7 +650,7 @@
    4018,
    4018,
    4018,
-   4018,
+   4019,
    4019,
    4019,
    4019,
@@ -661,7 +664,7 @@
    2646,
    2646,
    2646,
-   2646,
+   2647,
    2647,
    2647,
    2647,
