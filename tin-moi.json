@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Chronoscript: The Endless End adds Xbox Series version",
-  "url": "https://www.gematsu.com/2026/10/chronoscript-the-endless-end-adds-xbox-series-version",
-  "ngay": "2026-10-21T00:08:32+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox Series",
-   "Chronoscript: The Endless End",
-   "Clips",
-   "DeskWorks!",
-   "ID@Xbox Showcase: 2026.10.20",
-   "Shueisha Games",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Exploration-based action adventure game Chronoscript: The Endless End will launch for Xbox Series and PC …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Mouthwashing coming to PS5, Xbox Series, PS4, and Switch on October 29",
   "url": "https://www.gematsu.com/2026/10/mouthwashing-coming-to-ps5-xbox-series-ps4-and-switch-on-october-29",
   "ngay": "2026-10-21T00:59:07+07:00",
@@ -3548,6 +3527,25 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Sales updates for RE Requiem, Pragmata, and Onimusha. Capcom has provided a sales update for all of its best-selling games, as part of its second-quarter results for fiscal year 2026. And it's business as usual for the publisher: its legacy titles continue to sell strongly, and Capcom's new releases are performing well too. Looking at its three biggest hitters for 2026, Resident Evil Requiem has now sold 8.51 million copies, Pragmata is now at 2.73 million units, and Onimusha: Way of the Sword has managed 1.78 million sales after almost two months on the market. Read the full article on pushsq…",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "BLEACH Mirrors High launches October 28",
+  "url": "https://www.gematsu.com/2026/10/bleach-mirrors-high-launches-october-28",
+  "ngay": "2026-10-27T18:00:19+07:00",
+  "the_loai": [
+   "Smartphone",
+   "Bandai Namco",
+   "BLEACH Mirrors High",
+   "Clips",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Free-to-play “immersive 13 Court Guard Squads action” game BLEACH Mirrors High will launch for iOS …",
   "goi_y_ps": false
  }
 ]
