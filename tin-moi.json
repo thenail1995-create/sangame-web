@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Graytail adds Xbox Series version",
-  "url": "https://www.gematsu.com/2026/10/graytail-adds-xbox-series-version",
-  "ngay": "2026-10-21T00:27:46+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox Series",
-   "Clips",
-   "Concode",
-   "Graytail",
-   "ID@Xbox Showcase: 2026.10.20",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "2.5D pixel art mystery action adventure game Graytail will launch for Xbox Series and PC …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "PS Plus Discounts Announced for The Wolf Among Us Remastered PS5",
   "url": "https://www.pushsquare.com/news/2026/10/ps-plus-discounts-announced-for-the-wolf-among-us-remastered-ps5",
@@ -3496,5 +3476,18 @@
   "da_viet": false,
   "tom_tat": "This means war. Warhorse Studios, the team behind the highly-regarded Kingdom Come: Deliverance series, has confirmed it has been the victim of a cyberattack. Posting about the matter on its social channels, the studio is \"working with cybersecurity specialists to secure our systems and understand the full extent of what happened.\" Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Where Winds Meet’s climactic Hutuo Battlefield narrative arc revealed, out Nov 13",
+  "url": "https://blog.playstation.com/2026/10/27/where-winds-meets-climactic-hutuo-battlefield-narrative-arc-revealed-out-nov-13/",
+  "ngay": "2026-10-27T22:01:34+07:00",
+  "the_loai": [
+   "PS5",
+   "Where Winds Meet"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
