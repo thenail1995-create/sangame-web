@@ -1,28 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Crimson Desert DLC ‘Charting the Unknown’ – ‘Features Overview’ trailer",
-  "url": "https://www.gematsu.com/2026/10/crimson-desert-dlc-charting-the-unknown-features-overview-trailer",
-  "ngay": "2026-10-21T06:00:14+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Crimson Desert",
-   "DLC",
-   "Pearl Abyss",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Pearl Abyss has has released a six-minute features overview trailer for open-world action adventure game Crimson …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T10:31:09+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Rustown launches June 30, 2027 for Xbox Series, PC",
   "url": "https://www.gematsu.com/2026/10/rustown-launches-june-30-2027-for-xbox-series-pc",
   "ngay": "2026-10-21T00:24:22+07:00",
@@ -3484,6 +3462,18 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "Out in 2027. Publisher Funcom has announced Conan Exiles Enhanced for PS5, a massive upgrade to the open world action survival game. This souped-up version of the popular title was first released for PC earlier this year, but now it's officially coming to PS5 in early 2027. Here's the trailer: Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 PS5 File Size Has Been Reported, and It's an Absolute Monster",
+  "url": "https://www.pushsquare.com/news/2026/10/gta-6-ps5-file-size-has-been-reported-and-its-an-absolute-monster",
+  "ngay": "2026-10-28T00:45:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Make some room. If you were wondering how much space you'd need on your PS5's SSD for GTA 6 , well, it seems the answer is \"a lot.\" X user PlayStation Game Size , who pretty reliably surfaces the install sizes for games on PS5, has reported the file size for the hotly anticipated open world crime action title, and I think you're probably gonna need to clear some room. Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
