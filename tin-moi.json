@@ -1,30 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Villion: Code launches January 26, 2027 in the west",
-  "url": "https://www.gematsu.com/2026/10/villion-code-launches-january-26-2027-in-the-west",
-  "ngay": "2026-10-20T23:01:35+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Compile Heart",
-   "Idea Factory International",
-   "Release Dates",
-   "RPG",
-   "Villion: Code"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Compile Heart-developed action RPG Villion: Code will launchfor PlayStation 5, Switch 2, PlayStation 4, Switch, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T01:20:49+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "AMD FSR Upscaling 4.1 coming to Xbox Series; FSR Diamond coming to Project Helix",
   "url": "https://www.gematsu.com/2026/10/amd-fsr-upscaling-4-1-coming-to-xbox-series-fsr-diamond-coming-to-project-helix",
   "ngay": "2026-10-20T22:53:51+07:00",
@@ -3549,5 +3525,17 @@
   "tom_tat": "Good job, bub. Circana sells its insight into US hardware sales, so it’s rare we get an actual glimpse into the PS5’s sales pattern quite like this. But analyst Mat Piscatella , who last week said Marvel’s Wolverine was the primary driver behind Sony’s console sales in September, has responded to the doubters with an actual graph. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-27T05:40:49+07:00"
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "(For Southeast Asia) Crunchyroll Arrives for PS5 and PS4 users in Indonesia, Malaysia and Thailand",
+  "url": "https://blog.playstation.com/2026/10/26/20261027-roll/",
+  "ngay": "2026-10-27T09:01:28+07:00",
+  "the_loai": [
+   "Uncategorized"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
