@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Rustown launches June 30, 2027 for Xbox Series, PC",
-  "url": "https://www.gematsu.com/2026/10/rustown-launches-june-30-2027-for-xbox-series-pc",
-  "ngay": "2026-10-21T00:24:22+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox Series",
-   "Clips",
-   "ID@Xbox Showcase: 2026.10.20",
-   "Plotrick",
-   "Release Dates",
-   "Rustown",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Post-apocalyptic story-driven stealth adventure game Rustown will launch for Xbox Series and PC via Steam …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "‘Nothing-stays-oddinary’ open-world RPG Ordinary Oddness announced for PS5, Xbox Series, and PC",
   "url": "https://www.gematsu.com/2026/10/nothing-stays-oddinary-open-world-rpg-ordinary-oddness-announced-for-ps5-xbox-series-and-pc",
   "ngay": "2026-10-21T08:33:32+07:00",
@@ -3475,5 +3454,25 @@
   "da_viet": false,
   "tom_tat": "Make some room. If you were wondering how much space you'd need on your PS5's SSD for GTA 6 , well, it seems the answer is \"a lot.\" X user PlayStation Game Size , who pretty reliably surfaces the install sizes for games on PS5, has reported the file size for the hotly anticipated open world crime action title, and I think you're probably gonna need to clear some room. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Players Will Need Storage Expansion for GTA 6",
+  "url": "https://www.playstationlifestyle.net/2026/10/27/gta-6-ps5-file-size-pre-load-release-times",
+  "ngay": "2026-10-28T01:02:06+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Grand Theft Auto VI",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Now is a good time for PS5 players to invest in SSD storage expansion, as the PS Store‘s backend has leaked GTA 6‘s download size. The game is reportedly 210GB, so you’ll need to clear out a ton of space if you don’t want to fork out money for a new SSD. GTA 6 PS5 […] The post PS5 Players Will Need Storage Expansion for GTA 6 appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
