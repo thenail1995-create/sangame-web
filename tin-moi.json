@@ -1,45 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "PS Plus Discounts Announced for The Wolf Among Us Remastered PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/ps-plus-discounts-announced-for-the-wolf-among-us-remastered-ps5",
-  "ngay": "2026-10-21T02:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS Plus'",
-  "da_viet": false,
-  "tom_tat": "Up to 50% off $24.99 game. Telltale Games has revealed a range of price discounts for The Wolf Among Us Remastered based on whether you own the original PS4 version and if you're a PS Plus subscriber. Launching next week on 29th October 2026, the remastered PS5 version has a new story trailer (viewable above), which should set the scene nicely for the first game. Of course, The Wolf Among Us 2 then debuts in 2027 — or, rather, that is the latest release window for the oft-delayed title. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-21T04:20:51+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Riders Republic coming to Switch 2 on December 9 alongside Offline Play",
-  "url": "https://www.gematsu.com/2026/10/riders-republic-coming-to-switch-2-on-december-9-alongside-offline-play",
-  "ngay": "2026-10-21T00:00:37+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch 2",
-   "Xbox One",
-   "Xbox Series",
-   "Clips",
-   "Release Dates",
-   "Riders Republic",
-   "Trailers",
-   "Ubisoft",
-   "Ubisoft Annecy"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Ubisoft and developer Ubisoft Annecy will release a Switch 2 version of multiplayer open-world …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T13:31:13+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "EA Boxing Series Fight Night Back for Another Round, New Game Teased",
   "url": "https://www.pushsquare.com/news/2026/10/ea-boxing-series-fight-night-back-for-another-round-new-game-teased",
   "ngay": "2026-10-21T02:30:00+07:00",
@@ -3489,5 +3450,49 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Mysterious PS5 Life Sim Is Out Today on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/27/village-in-the-shade-ps5-release",
+  "ngay": "2026-10-27T22:28:45+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "NIS America",
+   "PS5",
+   "Video Game News",
+   "Village in the Shade"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A new PlayStation 5 life simulation game that combines the cozy routines of rural living with an unsettling hidden mystery is available on the PlayStation Store. Developed by NIS America, Inc., the game is available on PS5, other modern consoles, and PC. On October 27, 2026, it was announced that a new cozy game called […] The post Mysterious PS5 Life Sim Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Popular PS4, PS5 Jurassic World Game Is 75% Off on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/27/jurassic-world-evolution-2-ps5-deal",
+  "ngay": "2026-10-27T22:22:54+07:00",
+  "the_loai": [
+   "News",
+   "PS4 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Frontier Developments",
+   "Jurassic World",
+   "Jurassic World Evolution 2",
+   "PlayStation Store",
+   "PS4",
+   "PS5",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "PlayStation owners can now own a popular Jurassic World game at a low price. The post Popular PS4, PS5 Jurassic World Game Is 75% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
