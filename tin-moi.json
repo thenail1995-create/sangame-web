@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Sci-fi atmospheric adventure game Magenta Down announced for Xbox Series, PC",
-  "url": "https://www.gematsu.com/2026/10/sci-fi-atmospheric-adventure-game-magenta-down-announced-for-xbox-series-pc",
-  "ngay": "2026-10-21T00:01:42+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox Series",
-   "2 Ton Studios",
-   "Clips",
-   "Game Announce",
-   "ID@Xbox Showcase: 2026.10.20",
-   "Magenta Down",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Unto the End developer 2 Ton Studios has announced Magenta Down, a science-fiction atmospheric adventure …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Buckshot Roulette coming to PS5, PS4, and Switch",
   "url": "https://www.gematsu.com/2026/10/buckshot-roulette-coming-to-ps5-ps4-and-switch",
   "ngay": "2026-10-21T01:04:21+07:00",
@@ -3521,5 +3500,19 @@
   "da_viet": false,
   "tom_tat": "Worth a test drive. Publisher Giants Software has made its sim racing game, Project Motor Racing , free to play on PS5, giving you the chance to try the full game for a limited time. The title typically costs $49.99/£44.99, but all this week — 26th October to 1st November — the full game has been made available as a free trial. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Terrible Lizards dev discusses twisting familiar dinosaur designs, out Oct 29",
+  "url": "https://blog.playstation.com/2026/10/27/terrible-lizards-dev-discusses-twisting-familiar-dinosaur-designs-out-oct-29/",
+  "ngay": "2026-10-27T21:00:38+07:00",
+  "the_loai": [
+   "PS5",
+   "Terrible Lizards",
+   "WDR Studios"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
