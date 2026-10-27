@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Croak adds Xbox Series version, launches in March 2027",
-  "url": "https://www.gematsu.com/2026/10/croak-adds-xbox-series-version-launches-in-march-2027",
-  "ngay": "2026-10-21T00:03:31+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox Series",
-   "Clips",
-   "Croak",
-   "ID@Xbox Showcase: 2026.10.20",
-   "Release Dates",
-   "Trailers",
-   "WoodRunner Games"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Side-scrolling precision platformer Croak will launch for Xbox Series and PC via Steam and Microsoft …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Sci-fi atmospheric adventure game Magenta Down announced for Xbox Series, PC",
   "url": "https://www.gematsu.com/2026/10/sci-fi-atmospheric-adventure-game-magenta-down-announced-for-xbox-series-pc",
   "ngay": "2026-10-21T00:01:42+07:00",
@@ -3530,5 +3509,17 @@
   "tom_tat": "It’s wild to think that The Wolf Among Us originally came out in 2013 and 2014. But more than 12 years later, Telltale’s most interesting game is back on modern consoles as The Wolf Among Us Remastered. With a wonderful art style that has stood the test of time, a story that still resonates, and […] The post The Wolf Among Us Remastered (PS5) Review: Telltale’s Masterpiece Returns appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-27T20:10:56+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sim Racer Project Motor Racing Is Free to Play All This Week on PS5, No PS Plus Required",
+  "url": "https://www.pushsquare.com/news/2026/10/sim-racer-project-motor-racing-is-free-to-play-all-this-week-on-ps5-no-ps-plus-required",
+  "ngay": "2026-10-27T20:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "Worth a test drive. Publisher Giants Software has made its sim racing game, Project Motor Racing , free to play on PS5, giving you the chance to try the full game for a limited time. The title typically costs $49.99/£44.99, but all this week — 26th October to 1st November — the full game has been made available as a free trial. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
