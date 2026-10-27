@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Store",
-  "tieu_de": "PS Store (US) vừa mở đợt giảm giá mới (5534 → 7652 món)",
-  "url": "https://store.playstation.com/en-us/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
-  "ngay": "2026-10-21T14:10:52+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "số món giảm giá tăng 38% so với đỉnh 12 lần gần nhất",
-  "da_viet": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Guide: All PS Plus Games Available Now",
   "url": "https://www.pushsquare.com/guides/all-ps-plus-games-available-now",
@@ -3475,6 +3463,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A sleeper hit 2022 PS5 historical action RPG is under $5 on the PS Store in an amazing deal that includes its DLC. Developed by the now-defunct Spiders, Steelrising Bastille Edition is discounted as part of the Planet of the Deals promotion that runs until November 5. Steelrising Bastille Edition is 90% off on PS […] The post Sleeper Hit 2022 PS5 RPG Under $5 on PS Store, DLC Included appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Enchanting PS5 Open-World Game Sets Release Date Window",
+  "url": "https://www.playstationlifestyle.net/2026/10/27/aloft-ps5-console-release-announcement",
+  "ngay": "2026-10-28T02:22:59+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Aloft",
+   "Entertainment and Gaming",
+   "Funcom",
+   "PlayStation 5",
+   "PS5",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A new open-world survival game is headed to PlayStation 5 soon. The post Enchanting PS5 Open-World Game Sets Release Date Window appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
