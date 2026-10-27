@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "PlayStation Store’s Planet of the Deals promotion is live now",
-  "url": "https://blog.playstation.com/2026/10/21/playstation-stores-planet-of-the-deals-promotion-is-live-now/",
-  "ngay": "2026-10-21T19:00:08+07:00",
-  "the_loai": [
-   "PS5"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-21T19:50:59+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "First-Person Soulslike Valor Mortis an Official Success, Now Turning a Profit",
   "url": "https://www.pushsquare.com/news/2026/10/first-person-soulslike-valor-mortis-an-official-success-now-turning-a-profit",
@@ -3507,5 +3494,17 @@
   "da_viet": false,
   "tom_tat": "Each week Sony brings PlayStation 4, PlayStation 5, PlayStation VR, and PlayStation Plus owners new content, add-ons, games, and more. Here is the complete global PlayStation Store update. PlayStation LifeStyle catalogs the PlayStation Store updates for the major regions across the globe. Check back every Tuesday to keep up to date with each week’s PlayStation […] The post PlayStation Store Update Worldwide October 27, 2026 appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Review: Silver Pines (PS5) - Lynchian Metroidvania Is a Cut Above",
+  "url": "https://www.pushsquare.com/reviews/ps5/silver-pines",
+  "ngay": "2026-10-28T04:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "It's Friday once again. Silver Pines may be one of the most stylish indies you’ll play this year. Inspired by the likes of David Lynch’s Twin Peaks and the Silent Hill series, this metroidvania is dripping with atmosphere, filled with tantalising secrets, and offers a solid challenge for survival horror fans. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
