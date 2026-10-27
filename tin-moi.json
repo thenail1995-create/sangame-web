@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Red Kiss adds Xbox Series version, launches in 2027",
-  "url": "https://www.gematsu.com/2026/10/red-kiss-adds-xbox-series-version-launches-in-2027",
-  "ngay": "2026-10-21T00:25:16+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox Series",
-   "Clips",
-   "Fellow Traveller",
-   "ID@Xbox Showcase: 2026.10.20",
-   "Red Kiss",
-   "Trailers",
-   "Wispfire"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Red Kiss, a “dark and stylish” narrative RPG about a house of vampire spies navigating …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Pixel art creature-collecting simulator Waveling Island announced for Xbox Series, PC",
   "url": "https://www.gematsu.com/2026/10/pixel-art-creature-collecting-simulator-waveling-island-announced-for-xbox-series-pc",
   "ngay": "2026-10-21T00:16:14+07:00",
@@ -3561,6 +3540,24 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Top Hat Studio will host “Top Hat Studios Presents: Fall Showcase 2026” on November 2 …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Pokemon UNITE to end service on March 23, 2027",
+  "url": "https://www.gematsu.com/2026/10/pokemon-unite-to-end-service-on-march-23-2027",
+  "ngay": "2026-10-27T12:25:02+07:00",
+  "the_loai": [
+   "Smartphone",
+   "Switch",
+   "Pokemon (series)",
+   "Pokemon UNITE",
+   "TiMi Studio Group"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The Pokemon Company and developer TiMi Studio Group will end service for free-to-play multiplayer online …",
   "goi_y_ps": false
  }
 ]
