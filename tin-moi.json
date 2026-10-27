@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Worried About PS6 Price? Next Xbox Could Be as Much as $1,800",
-  "url": "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800",
-  "ngay": "2026-10-21T03:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'price'",
-  "da_viet": false,
-  "tom_tat": "And a PS6 could be priced similarly. No matter how well they run games or how much better they make them look, the chatter surrounding the next-gen PS6 and Xbox Helix will almost certainly be dominated by their price points. Video game technology has reached a point where graphical leaps aren't so obvious anymore, meaning manufacturers have to justify the next console investment in other ways. An investment as much as $1,800, though? That's an entirely different conversation. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T04:20:51+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Acclaimed Low-Poly Horror Mouthwashing Spits Out a PS5 Release Next Week",
   "url": "https://www.pushsquare.com/news/2026/10/acclaimed-low-poly-horror-mouthwashing-spits-out-a-ps5-release-next-week",
   "ngay": "2026-10-21T03:45:00+07:00",
@@ -3488,5 +3475,17 @@
   "da_viet": false,
   "tom_tat": "XSEED Games has revealed its cozy life sim’s PlayStation 5 release date. The game was initially released on Windows PC via Steam, Nintendo Switch, Nintendo Switch 2, and Google Play Games. It has sold 300,000 units since. Little Chicken Game Company has developed the game. Moonlight Peaks is all set to release on the PlayStation […] The post Cozy PS5 Life Sim Gets Release Date on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Mystery Cyberpunk 2077 Patch Out Now on PS5",
+  "url": "https://www.pushsquare.com/news/2026/10/mystery-cyberpunk-2077-patch-out-now-on-ps5",
+  "ngay": "2026-10-27T23:15:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'out now'",
+  "da_viet": false,
+  "tom_tat": "No patch notes for 2.500.200. A new Cyberpunk 2077 patch is available to download now on PS5, but there's currently no official mention of what it actually does. The update weighs in at a not-insignificant 1.2GB, and it arrives just five days after Patch 2.5 , which was of course a major content drop. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
