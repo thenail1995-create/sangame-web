@@ -1,40 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Acclaimed Low-Poly Horror Mouthwashing Spits Out a PS5 Release Next Week",
-  "url": "https://www.pushsquare.com/news/2026/10/acclaimed-low-poly-horror-mouthwashing-spits-out-a-ps5-release-next-week",
-  "ngay": "2026-10-21T03:45:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Just in time for Halloween. Gritty low-poly horror Mouthwashing was first announced for the PS5 all the way back in January 2025, but it’ll finally make its debut on Sony’s system next week. Out on 29th October, the critically acclaimed fear-fest follows the “dying crew of a shipwrecked space freighter”. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-21T07:31:07+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PlayStation Store Update Worldwide October 20, 2026",
-  "url": "https://www.playstationlifestyle.net/2026/10/20/playstation-store-update-worldwide-october-20-2026",
-  "ngay": "2026-10-21T04:00:00+07:00",
-  "the_loai": [
-   "News",
-   "PlayStation Plus News - PS4, PS3, PS Vita",
-   "PlayStation VR: News, Rumors, Specs",
-   "PS4 News, Trophies, Reviews, and More",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "PSLS Originals",
-   "PSN",
-   "PlayStation Store Update"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false,
-  "tom_tat": "Each week Sony brings PlayStation 4, PlayStation 5, PlayStation VR, and PlayStation Plus owners new content, add-ons, games, and more. Here is the complete global PlayStation Store update. PlayStation LifeStyle catalogs the PlayStation Store updates for the major regions across the globe. Check back every Tuesday to keep up to date with each week’s PlayStation […] The post PlayStation Store Update Worldwide October 20, 2026 appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T04:20:51+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Beloved PS2 Action-Adventure Game Gets Release Date Trailer for Next Month",
   "url": "https://www.playstationlifestyle.net/2026/10/20/beloved-ps2-action-adventure-game-release-date-trailer-for-next-month",
@@ -3487,5 +3452,38 @@
   "da_viet": false,
   "tom_tat": "No patch notes for 2.500.200. A new Cyberpunk 2077 patch is available to download now on PS5, but there's currently no official mention of what it actually does. The update weighs in at a not-insignificant 1.2GB, and it arrives just five days after Patch 2.5 , which was of course a major content drop. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "TV Show Review: Cyberpunk: Edgerunners 2 - Slick Night City Sequel Struggles to Match Its Predecessor",
+  "url": "https://www.pushsquare.com/features/tv-show-review-cyberpunk-edgerunners-2-slick-night-city-sequel-struggles-to-match-its-predecessor",
+  "ngay": "2026-10-28T00:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Keep scrolling. Cyberpunk: Edgerunners 2 doesn't really need to exist, but I'm ultimately glad that it does. Season 1 told a perfectly self-contained story — complete with a brutally definitive ending — and so a follow-up was always going to seem somewhat unnecessary. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Horror Game Gets Free Map & DLC Today on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/27/halloween-the-game-free-map-paid-dlc-ps5",
+  "ngay": "2026-10-28T00:02:28+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Halloween: The Game",
+   "Illfonic",
+   "PlayStation",
+   "PlayStation 5",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "Horror fans have a fresh reason to revisit this PS5 horror game, which launched earlier this year. The latest update arrives just before Halloween, bringing free and paid content. Halloween: The Game has received its first post-launch content update. Developer IllFonic and co-publisher Gun Interactive have introduced a new map called “Tower Farm,” alongside several […] The post PS5 Horror Game Gets Free Map & DLC Today on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
