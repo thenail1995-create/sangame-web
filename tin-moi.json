@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Pixel art creature-collecting simulator Waveling Island announced for Xbox Series, PC",
-  "url": "https://www.gematsu.com/2026/10/pixel-art-creature-collecting-simulator-waveling-island-announced-for-xbox-series-pc",
-  "ngay": "2026-10-21T00:16:14+07:00",
-  "the_loai": [
-   "PC",
-   "Xbox Series",
-   "BerserkBoy Games",
-   "Clips",
-   "Game Announce",
-   "ID@Xbox Showcase: 2026.10.20",
-   "Screenshots",
-   "Trailers",
-   "Waveling Island"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Berserk Boy developer BerserkBoy Games has announced Waveling Island, a pixel art creature-collecting simulator. It …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Free Fallout 4 DLC Sees Modders Bring Back Original Voice Actors for a Spooky Adventure on PS5",
   "url": "https://www.pushsquare.com/news/2026/10/free-fallout-4-dlc-sees-modders-bring-back-original-voice-actors-for-a-spooky-adventure-on-ps5",
@@ -3559,5 +3537,18 @@
   "da_viet": false,
   "tom_tat": "The Pokemon Company and developer TiMi Studio Group will end service for free-to-play multiplayer online …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Final 3 PS Plus Extra Games for October 2026 Available to Download Now",
+  "url": "https://www.pushsquare.com/news/2026/10/final-3-ps-plus-extra-games-for-october-2026-available-to-download-now",
+  "ngay": "2026-10-27T16:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "New additions for UK, USA, and Japan out now. For any PS Plus Extra subscribers in the UK, USA, and Japan, today marks the final drop of PS5 titles for October 2026. Everyone else in the world received access to the games last week, but Sony's experiment means select members have had to wait until today for the complete lineup. Read the full article on pushsquare.com",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-27T16:10:50+07:00"
  }
 ]

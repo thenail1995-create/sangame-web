@@ -485,7 +485,8 @@
    "https://www.pushsquare.com/#article-208105",
    "https://www.pushsquare.com/#article-208162",
    "https://www.pushsquare.com/#article-208159",
-   "https://www.pushsquare.com/#article-208154"
+   "https://www.pushsquare.com/#article-208154",
+   "https://www.pushsquare.com/#article-208133"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -627,7 +628,6 @@
  },
  "deals_ds": {
   "en-US": [
-   4023,
    4022,
    4019,
    4019,
@@ -638,13 +638,14 @@
    4018,
    4018,
    4018,
+   4018,
    4018
   ],
   "en-SG": [
-   2655,
    2653,
    2647,
    2647,
+   2646,
    2646,
    2646,
    2646,
@@ -678,5 +679,5 @@
   "Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-10-27T12:01:24+07:00"
+ "lan_goi_viet": "2026-10-27T16:10:50+07:00"
 }
