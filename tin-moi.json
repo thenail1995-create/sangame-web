@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Cyberpunk 2077 version 2.5 ‘Edgerunners II’ update detailed",
-  "url": "https://www.gematsu.com/2026/10/cyberpunk-2077-version-2-5-edgerunners-ii-update-detailed",
-  "ngay": "2026-10-21T22:53:27+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "CD Projekt RED",
-   "Clips",
-   "Cyberpunk 2077",
-   "RPG",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "CD Projekt RED and co-development partner Virtuos have detailed the newly announced version 2.5 “Edgerunners …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-22T08:10:48+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Peak Isn't the Only 'Friendslop' Game Coming Soon to PS5",
   "url": "https://www.pushsquare.com/news/2026/10/peak-isnt-the-only-friendslop-game-coming-soon-to-ps5",
@@ -3534,5 +3511,19 @@
   "da_viet": false,
   "tom_tat": "A PS5 console-exclusive sci-fi action game in a long-running Bandai Namco Entertainment series has been announced. Mobile Suit Gundam: Battle Operation 3 is the next game in the free-to-play team combat franchise, coming to PS5 and PC. PS5 sci-fi action game Mobile Suit Gundam: Battle Operation 3 has yet to be dated Mobile Suit Gundam: Battle […] The post PS5 Gets Console-Exclusive Sci-Fi Game in Popular Franchise appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Suit up as Astro Bot in Rayman Legends Retold",
+  "url": "https://blog.playstation.com/2026/10/28/suit-up-as-astro-bot-in-rayman-legends-retold/",
+  "ngay": "2026-10-28T20:01:45+07:00",
+  "the_loai": [
+   "PS5",
+   "Astro Bot",
+   "Rayman Legends Retold"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Astro Bot'",
+  "da_viet": false
  }
 ]
