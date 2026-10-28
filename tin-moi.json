@@ -1,38 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Award-Winning 2024 Adventure Game Gets PS5 Release Date",
-  "url": "https://www.playstationlifestyle.net/2026/10/21/mouthwashing-2024-adventure-game-ps5-release-date",
-  "ngay": "2026-10-21T22:13:44+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "Mouthwashing",
-   "PS5",
-   "Video Game News",
-   "Wrong Organ"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Swedish developer Wrong Organ's critically acclaimed 2024 horror adventure game is coming soon to PS5 The post Award-Winning 2024 Adventure Game Gets PS5 Release Date appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-22T08:10:48+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Sony Said Xbox Game Pass Isn't Sustainable, Now It Seems the Gravy Train Is Almost Over",
-  "url": "https://www.pushsquare.com/news/2026/10/sony-said-xbox-game-pass-isnt-sustainable-now-it-seems-the-gravy-train-is-almost-over",
-  "ngay": "2026-10-21T22:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Sweeping changes to Microsoft subscription in 2027. Sony’s been criticised for a lot this generation, but to its credit it looks like it’ll be proved correct about Xbox Game Pass . It feels like a long time ago now, but I remember at the start of the PS5 era, the manufacturer was under intense pressure to follow Microsoft’s business model. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Cyberpunk 2077 version 2.5 ‘Edgerunners II’ update detailed",
   "url": "https://www.gematsu.com/2026/10/cyberpunk-2077-version-2-5-edgerunners-ii-update-detailed",
@@ -3523,5 +3490,49 @@
   "da_viet": false,
   "tom_tat": "Producer's comments don't line up with the headlines. Headlines based on a Capcom producer's comments this week have suggested the Resident Evil series may end within the next decade. Setting aside the fact the actual quotes don't quite suggest that, the suggestion would mean the firm is saying goodbye to its best-selling IP — and that is not going to happen in a world where brand names are more important to companies than ever before, especially after a successful film adaptation. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Neverness to Everness version 1.5 update ‘Once Upon a Glitched Call’ launches November 11",
+  "url": "https://www.gematsu.com/2026/10/neverness-to-everness-version-1-5-update-once-upon-a-glitched-call-launches-november-11",
+  "ngay": "2026-10-28T19:49:17+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Smartphone",
+   "Clips",
+   "Hotta Studio",
+   "Neverness to Everness",
+   "Perfect World Games",
+   "Release Dates",
+   "RPG",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "The version 1.5 update for free-to-play supernatural urban open-world action RPG Neverness to Everness, dubbed …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Gets Console-Exclusive Sci-Fi Game in Popular Franchise",
+  "url": "https://www.playstationlifestyle.net/2026/10/28/ps5-sci-fi-game-mobile-suit-gundam-battle-operation-3",
+  "ngay": "2026-10-28T19:42:37+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Bandai Namco Entertainment",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Mobile Suit Gundam",
+   "Mobile Suit Gundam: Battle Operation 3",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A PS5 console-exclusive sci-fi action game in a long-running Bandai Namco Entertainment series has been announced. Mobile Suit Gundam: Battle Operation 3 is the next game in the free-to-play team combat franchise, coming to PS5 and PC. PS5 sci-fi action game Mobile Suit Gundam: Battle Operation 3 has yet to be dated Mobile Suit Gundam: Battle […] The post PS5 Gets Console-Exclusive Sci-Fi Game in Popular Franchise appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
