@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Feature: 40+ PS5, PS4 Games to Buy in PS Store's Planet of the Deals Sale",
-  "url": "https://www.pushsquare.com/features/40plus-ps5-ps4-games-to-buy-in-ps-stores-planet-of-the-deals-sale",
-  "ngay": "2026-10-21T22:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'sale'",
-  "da_viet": false,
-  "tom_tat": "Recommended games going cheap. Planet of the Deals is the PS Store's latest sale, running from now until 4th November, 2026. As always, there are thousands of PS5 and PS4 games on offer, and that's an awful lot of potential purchases to scroll through. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T23:01:30+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "CRYMELIGHT demo now available",
   "url": "https://www.gematsu.com/2026/10/crymelight-demo-now-available",
@@ -3525,6 +3512,27 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Console Archives xxx will launch for PlayStation 5 and Switch 2 on October 29 for …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Mobile Suit Gundam: Battle Operation 3 announced for PS5, PC",
+  "url": "https://www.gematsu.com/2026/10/mobile-suit-gundam-battle-operation-3-announced-for-ps5-pc",
+  "ngay": "2026-10-28T18:25:57+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Bandai Namco",
+   "Bandai Namco Forge Digitals",
+   "Clips",
+   "Game Announce",
+   "Mobile Suit Gundam: Battle Operation 3",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Bandai Namco and developer Bandai Namco Forge Digitals have announced free-to-play team battle action …",
   "goi_y_ps": false
  }
 ]
