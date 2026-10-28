@@ -1,41 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Peak Isn't the Only 'Friendslop' Game Coming Soon to PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/peak-isnt-the-only-friendslop-game-coming-soon-to-ps5",
-  "ngay": "2026-10-21T23:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Peak-aboo. In case you missed it, one of 2025's biggest hits — Peak — is heading onto PS5 at last. As it turns out, this isn't the only so-called \"friendslop\" game bound for Sony's console in the near future. Friendslop is a term coined to describe a particular brand of online co-op games, with Peak being a great example. Others might include things like Content Warning , or even Escape the Backrooms — basically any co-op game with a lower budget that's built for chaos. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-22T05:01:48+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS5 Users Can Play Sequel to Popular PS4 Action Game for Free",
-  "url": "https://www.playstationlifestyle.net/2026/10/21/let-it-die-inferno-free-demo-action-game-ps5",
-  "ngay": "2026-10-21T22:54:47+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "GungHo Online Entertainment",
-   "Let It Die Inferno",
-   "PlayStation",
-   "PlayStation 5",
-   "Supertrick Games",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "PlayStation 5 owners looking for a new challenge can now dive into Let It Die Inferno for free via a newly released demo on the PlayStation Store. Developed by Supertrick Games and published by GungHo Online Entertainment, the online action title serves as a follow-up to the cult classic 2016 hack and slash game Let […] The post PS5 Users Can Play Sequel to Popular PS4 Action Game for Free appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T23:01:30+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "PlayStation Indies: 9 must-play horror games for the spooky season",
   "url": "https://blog.playstation.com/2026/10/21/playstation-indies-9-must-play-horror-games-for-the-spooky-season/",
@@ -3525,5 +3489,45 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'Astro Bot'",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Rayman Legends Retold reveals PS5-exclusive ASTRO BOT costume",
+  "url": "https://www.gematsu.com/2026/10/rayman-legends-retold-reveals-ps5-exclusive-astro-bot-costume",
+  "ngay": "2026-10-28T20:18:36+07:00",
+  "the_loai": [
+   "PS5",
+   "Clips",
+   "Rayman Legends Retold",
+   "Trailers",
+   "Ubisoft",
+   "Ubisoft Milan",
+   "Ubisoft Montpellier"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Astro Bot'",
+  "da_viet": false,
+  "tom_tat": "The PlayStation 5 version of Rayman Legends Retold will feature an exclusive costume based on …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS Store Drops Intriguing PS5 Exclusive Adventure Game",
+  "url": "https://www.playstationlifestyle.net/2026/10/28/ps5-adventure-game-hunters-moon-ps-store",
+  "ngay": "2026-10-28T20:16:38+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Hunter's Moon",
+   "Twin Swans",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The PlayStation Store quietly dropped an intriguing PS5 exclusive adventure game inspired by real-life events. Hunter’s Moon is a historical narrative folk-horror game set in a rural village in the 17th century. PS5 historical adventure game Hunter’s Moon is brought to us by industry veterans Hunter’s Moon is developed by Twin Swans, a studio founded […] The post PS Store Drops Intriguing PS5 Exclusive Adventure Game appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
