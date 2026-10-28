@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Fans Have Done What SEGA's Scared to Do: Remaster the Craziest Yakuza Game",
-  "url": "https://www.pushsquare.com/news/2026/10/fans-have-done-what-segas-scared-to-do-remaster-the-craziest-yakuza-game",
-  "ngay": "2026-10-21T21:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Not-so-Dead Souls. If you're at all familiar with Yakuza: Dead Souls , then congratulations, you're True Fan (capitalised) of SEGA's long-running series. Unfortunately, the frankly insane spin-off, which sees series protagonist Kiryu and his pals shoot their way through a zombie-plagued Kamurocho, has been firmly locked to the PS3 ever since it was released back in 2012. Criminal. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Feature: 40+ PS5, PS4 Games to Buy in PS Store's Planet of the Deals Sale",
   "url": "https://www.pushsquare.com/features/40plus-ps5-ps4-games-to-buy-in-ps-stores-planet-of-the-deals-sale",
   "ngay": "2026-10-21T22:00:00+07:00",
@@ -3516,6 +3504,27 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Arcade Archives 2 Prehistoric Isle will launch for PlayStation 5 and Xbox Series, and Arcade …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Console Archives Marl Jong launches October 29",
+  "url": "https://www.gematsu.com/2026/10/console-archives-marl-jong-launches-october-29",
+  "ngay": "2026-10-28T17:05:37+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch 2",
+   "Clips",
+   "Console Archives",
+   "Console Archives Marl Jong",
+   "Hamster Corporation",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Console Archives xxx will launch for PlayStation 5 and Switch 2 on October 29 for …",
   "goi_y_ps": false
  }
 ]
