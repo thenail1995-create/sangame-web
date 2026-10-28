@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "LET IT DIE: INFERNO demo now available",
-  "url": "https://www.gematsu.com/2026/10/let-it-die-inferno-demo-now-available",
-  "ngay": "2026-10-21T21:12:54+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Clips",
-   "Demos",
-   "GungHo Online Entertainment",
-   "LET IT DIE: INFERNO",
-   "Supertrick Games",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A demo for LET IT DIE: INFERNO is now available for PlayStation 5 and PC …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-22T11:10:49+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Fans Have Done What SEGA's Scared to Do: Remaster the Craziest Yakuza Game",
   "url": "https://www.pushsquare.com/news/2026/10/fans-have-done-what-segas-scared-to-do-remaster-the-craziest-yakuza-game",
@@ -3516,5 +3494,28 @@
   "tom_tat": "Hoppers. Developer Panic Stations has just launched its debut game, Frog Sqwad , on PS5, a few months following its initial release on PC. Available now, Frog Sqwad is an online co-op multiplayer game in which a group of up to eight players dive into the sewers, gather what they can, and hope to fulfil a quota from the Swamp King. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-10-28T18:01:30+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Arcade Archives Prehistoric Isle launches October 29",
+  "url": "https://www.gematsu.com/2026/10/arcade-archives-prehistoric-isle-launches-october-29",
+  "ngay": "2026-10-28T16:05:38+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "Switch",
+   "Xbox Series",
+   "Arcade Archives",
+   "Arcade Archives 2",
+   "Clips",
+   "Hamster Corporation",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Arcade Archives 2 Prehistoric Isle will launch for PlayStation 5 and Xbox Series, and Arcade …",
+  "goi_y_ps": false
  }
 ]
