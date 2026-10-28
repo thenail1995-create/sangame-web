@@ -1,38 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Sony's Revamped PS5 Pulse Headset Launches Alongside GTA 6, on 19th November",
-  "url": "https://www.pushsquare.com/news/2026/10/sonys-revamped-ps5-pulse-headset-launches-alongside-gta-6-on-19th-november",
-  "ngay": "2026-10-22T02:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Price and pre-order details confirmed. If you’re looking to upgrade your audio experience for GTA 6 , Sony has confirmed that it will launch its new revamped PlayStation Pulse headset alongside Rockstar’s highly anticipated game on 19th November. Pre-orders will open on PS Direct next week, from 10AM local time on 29th October. The PS Blog also mentions that you’ll be able to purchase from “participating retailers” – presumably Amazon, Best Buy, et al. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-22T05:01:48+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "EA’s New Mass Effect Game Is Being Canceled for a Heartbreaking Reason",
-  "url": "https://www.playstationlifestyle.net/2026/10/21/ea-new-mass-effect-game-canceled-heartbreaking-reason",
-  "ngay": "2026-10-22T04:09:18+07:00",
-  "the_loai": [
-   "News",
-   "BioWare",
-   "Electronic Arts",
-   "Entertainment and Gaming",
-   "Mass Effect",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The new Mass Effect game may never see the light of day following EA’s latest announcement. The fifth installment in the beloved sci-fi franchise had been in development for nearly five years since its initial reveal. EA will shut down its long-running development studio BioWare as part of a plan to cut 400 jobs, reports […] The post EA’s New Mass Effect Game Is Being Canceled for a Heartbreaking Reason appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "All PS Plus Deluxe Members in Korea Get a Free Upgrade as Cloud Streaming Arrives",
   "url": "https://www.pushsquare.com/news/2026/10/all-ps-plus-deluxe-members-in-korea-get-a-free-upgrade-as-cloud-streaming-arrives",
   "ngay": "2026-10-22T06:00:00+07:00",
@@ -3527,5 +3495,38 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'Call of Duty'",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Review: Call of Duty: Modern Warfare 4 (PS5) - Same Old Multiplayer Drags Down Stellar Package",
+  "url": "https://www.pushsquare.com/reviews/ps5/call-of-duty-modern-warfare-4",
+  "ngay": "2026-10-29T00:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Call of Duty'",
+  "da_viet": false,
+  "tom_tat": "Duty is still calling. By this point, Call of Duty fans are familiar with the fluctuating quality of the FPS giant’s yearly release schedule: it’s basically a constant cycle of proclaiming the series is dead, then confidently stating we’re so back. Modern Warfare 4 , thankfully, lands in the latter. The conclusion to the rebooted Modern Warfare series, which started back in 2019, is exactly the confident high-budget blockbuster experience that I’m personally looking for with the series. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Striking New PS5 DualSense Controllers Revealed, Out Soon",
+  "url": "https://www.playstationlifestyle.net/2026/10/28/ps5-prism-collection-dualsense-controllers-release-date-price",
+  "ngay": "2026-10-29T00:35:09+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "DualSense",
+   "Entertainment and Gaming",
+   "PlayStatation 5",
+   "PS5",
+   "PS5 Prism Collection",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "PlayStation has revealed the first look at a new lineup of PS5 DualSense controllers. The fresh lineup features a rare and breathtaking pattern. The PS5 Prism Collection features three striking transparent designs for DualSense wireless controllers and PlayStation 5 console covers. The three color options are Flare Orange, Emerald Green, and Graphite Gray. The new […] The post Striking New PS5 DualSense Controllers Revealed, Out Soon appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
