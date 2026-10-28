@@ -1,23 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "RV There Yet? for PS5 launches October 29",
-  "url": "https://www.gematsu.com/2026/10/rv-there-yet-for-ps5-launches-october-29",
-  "ngay": "2026-10-21T21:08:47+07:00",
-  "the_loai": [
-   "PS5",
-   "Nuggets Entertainment",
-   "Release Dates",
-   "RV There Yet?"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "The PlayStation 5 version of cooperative adventure game RV There Yet? will launch on October …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-21T23:01:30+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Preview: 3 Hours with Stranger Than Heaven Left Me Partly Convinced, Partly Concerned, and Craving Gyudon",
   "url": "https://www.pushsquare.com/previews/3-hours-with-stranger-than-heaven-left-me-partly-convinced-partly-concerned-and-craving-gyudon",
@@ -3504,5 +3486,24 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Digimon Alysion pre-registration now available",
+  "url": "https://www.gematsu.com/2026/10/digimon-alysion-pre-registration-now-available",
+  "ngay": "2026-10-28T11:32:24+07:00",
+  "the_loai": [
+   "Smartphone",
+   "Bandai Namco",
+   "Clips",
+   "Digimon Alysion",
+   "Screenshots",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Pre-registration for Digimon Alysion, the free-to-play mobile game based on Digimon Card Game, is now …",
+  "goi_y_ps": false
  }
 ]
