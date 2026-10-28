@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "PlayStation Indies: 9 must-play horror games for the spooky season",
-  "url": "https://blog.playstation.com/2026/10/21/playstation-indies-9-must-play-horror-games-for-the-spooky-season/",
-  "ngay": "2026-10-21T23:00:31+07:00",
-  "the_loai": [
-   "PS5",
-   "CloverPit",
-   "Escape the Backrooms",
-   "Fangtopia",
-   "Graveyard Keeper 2",
-   "Hunter's Moon",
-   "Phasmophobia",
-   "Reanimal",
-   "Silver Pines",
-   "The Midnight Walk"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-22T02:01:35+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Serious Sam: The Third Encounter announced for PC",
   "url": "https://www.gematsu.com/2026/10/serious-sam-the-third-encounter-announced-for-pc",
@@ -3529,5 +3507,17 @@
   "da_viet": false,
   "tom_tat": "The PlayStation Store quietly dropped an intriguing PS5 exclusive adventure game inspired by real-life events. Hunter’s Moon is a historical narrative folk-horror game set in a rural village in the 17th century. PS5 historical adventure game Hunter’s Moon is brought to us by industry veterans Hunter’s Moon is developed by Twin Swans, a studio founded […] The post PS Store Drops Intriguing PS5 Exclusive Adventure Game appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS5 Exclusive Astro Bot Outfit Revealed for Rayman Remake",
+  "url": "https://www.pushsquare.com/news/2026/10/ps5-exclusive-astro-bot-outfit-revealed-for-rayman-remake",
+  "ngay": "2026-10-28T20:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Astro Bot'",
+  "da_viet": false,
+  "tom_tat": "Out on 3rd December. Ubisoft and Sony have announced a collaboration for the PS5 remake of Rayman Legends that sees the fan-favourite character Astro Bot appear in the game. The little guy that could will be an outfit you can customise Rayman with, and it only appears in the PS5 version of the game. This is a free costume that's built into the game, and you'll unlock it once you meet Victor Velour in his shop. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
