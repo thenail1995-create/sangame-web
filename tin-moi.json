@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Stranger Than Heaven hands-on report: brutal combat and the glitz of show business intermix",
-  "url": "https://blog.playstation.com/2026/10/21/stranger-than-heaven-hands-on-report-brutal-combat-and-the-glitz-of-show-business-intermix/",
-  "ngay": "2026-10-21T21:01:18+07:00",
-  "the_loai": [
-   "PS5",
-   "Rgg Studio",
-   "Sega",
-   "Stranger Than Heaven"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-21T23:01:30+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Fun 2023 PS5 Action Game Delisted From PS Store Without Notice",
   "url": "https://www.playstationlifestyle.net/2026/10/21/ps5-action-game-transformers-earthspark-delisted",
@@ -3513,5 +3497,17 @@
   "da_viet": false,
   "tom_tat": "Nitrome has announced Bad Ice-Cream Triple Scoop, a remaster of its arcade puzzle flash game …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Guide: GTA 6 Release Times and Preload: When Can You Start Playing?",
+  "url": "https://www.pushsquare.com/guides/gta-6-release-times-and-preload-when-can-you-start-playing",
+  "ngay": "2026-10-28T07:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "All the GTA 6 release info you need. Probably the most anticipated game of all time, GTA 6 is now just a few weeks away. As the launch draws closer, we're covering everything you need to know about its PS5 launch, including preload options and release times. In this GTA 6 guide , we cover the GTA 6 release times and preload . <toc expand=\"none\"> Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
