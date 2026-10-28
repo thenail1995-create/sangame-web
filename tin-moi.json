@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Tomb Raider: Legacy of Atlantis – the evolution of Lara Croft’s design",
-  "url": "https://blog.playstation.com/2026/10/22/tomb-raider-legacy-of-atlantis-the-evolution-of-lara-crofts-design/",
-  "ngay": "2026-10-22T18:59:38+07:00",
-  "the_loai": [
-   "PS5",
-   "Crystal Dynamics",
-   "Flying Wild Hog",
-   "Tomb Raider"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-22T20:11:00+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Despite BioWare Closure, Mass Effect TV Series Is Reportedly Still in Development",
   "url": "https://www.pushsquare.com/news/2026/10/despite-bioware-closure-mass-effect-tv-series-is-reportedly-still-in-development",
@@ -3520,5 +3504,28 @@
   "da_viet": false,
   "tom_tat": "Did it level up? November’s release schedule is starting to fill out, and NetMarble has quietly added another title to the calendar: its action RPG adaptation of the hit Korean webtoon, Solo Leveling: Arise Overdrive . Already available on PC, this is a retelling of the original material – with some bonus scenarios for good measure. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Dark PS5 Sci-Fi Game’s DLC Sets Release Date on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/28/cronos-lazarus-ps5-dlc-release-date",
+  "ngay": "2026-10-29T04:00:00+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Bloober Team",
+   "Cronos: The New Dawn",
+   "Entertainment and Gaming",
+   "PlayStation 5",
+   "PlayStation Store",
+   "PS Store",
+   "PS5",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The dark survival horror PS5 game’s upcoming DLC has a PlayStation Store launch date. Developed and published by Bloober Team, the third-person, single-player title was originally released last year. Cronos: Lazarus, the story expansion for sci-fi game Cronos: The New Dawn, will officially be released for PlayStation 5 on December 3, 2026. The paid DLC […] The post Dark PS5 Sci-Fi Game’s DLC Sets Release Date on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
