@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Bloody Hell Hotel launches in 2027",
-  "url": "https://www.gematsu.com/2026/10/bloody-hell-hotel-launches-in-2027",
-  "ngay": "2026-10-21T23:25:42+07:00",
-  "the_loai": [
-   "PC",
-   "bloody hell hotel",
-   "Clips",
-   "Gambit Digital",
-   "Horror",
-   "Release Dates",
-   "tralers",
-   "Unfold Games"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Vampire hotel simulation game Bloody Hell Hotel will launch for PC via Steam in 2027, publisher …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Guide: Stage Tour Setlist: All Confirmed Songs and Artists",
   "url": "https://www.pushsquare.com/guides/stage-tour-setlist-all-confirmed-songs-and-artists",
@@ -3385,7 +3364,8 @@
   "ly_do_hot": "có từ khoá 'Resident Evil'",
   "da_viet": false,
   "tom_tat": "Producer's comments don't line up with the headlines. Headlines based on a Capcom producer's comments this week have suggested the Resident Evil series may end within the next decade. Setting aside the fact the actual quotes don't quite suggest that, the suggestion would mean the firm is saying goodbye to its best-selling IP — and that is not going to happen in a world where brand names are more important to companies than ever before, especially after a successful film adaptation. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-28T21:10:50+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3408,7 +3388,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "The version 1.5 update for free-to-play supernatural urban open-world action RPG Neverness to Everness, dubbed …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-28T21:10:50+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3443,7 +3424,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'Astro Bot'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-28T21:10:50+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3463,7 +3445,8 @@
   "ly_do_hot": "có từ khoá 'Astro Bot'",
   "da_viet": false,
   "tom_tat": "The PlayStation 5 version of Rayman Legends Retold will feature an exclusive costume based on …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-28T21:10:50+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3495,7 +3478,8 @@
   "ly_do_hot": "có từ khoá 'Astro Bot'",
   "da_viet": false,
   "tom_tat": "Out on 3rd December. Ubisoft and Sony have announced a collaboration for the PS5 remake of Rayman Legends that sees the fan-favourite character Astro Bot appear in the game. The little guy that could will be an outfit you can customise Rayman with, and it only appears in the PS5 version of the game. This is a free costume that's built into the game, and you'll unlock it once you meet Victor Velour in his shop. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-28T21:10:50+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3520,5 +3504,17 @@
   "da_viet": false,
   "tom_tat": "A 2022 PS5 and PS4 open-world fantasy RPG is a whopping 95% off in a new PS Store deal that includes its DLC. Developed by Nine Dots and published by Deep Silver, Outward Definitive Edition is cheaper than a gallon of milk in the Planet of the Deals promotion. Outward Definitive Edition is just $1.99 […] The post 2022 PS5 RPG Is Cheaper Than Bread on PS Store, DLC Included appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "No Man's Sky Adds Creepy New Items, Big Quality-of-Life Changes in Latest Major Update",
+  "url": "https://www.pushsquare.com/news/2026/10/no-mans-sky-adds-creepy-new-items-big-quality-of-life-changes-in-latest-major-update",
+  "ngay": "2026-10-28T21:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Out now. Hello Games has just revealed and released its latest major free update for the ever-evolving No Man's Sky . This update, named Forsaken, launches in line with the game's arrival on iOS, and it throws in some seasonally spooky new things to see and do — and plenty more besides. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
