@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "CRYMELIGHT demo now available",
-  "url": "https://www.gematsu.com/2026/10/crymelight-demo-now-available",
-  "ngay": "2026-10-21T22:11:09+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Clips",
-   "CRYMELIGHT",
-   "Demos",
-   "FuRyu",
-   "Trailers",
-   "Winning Entertainment Group"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A demo for “dark bishoujo” roguelike action game CRYMELIGHT is now available for PlayStation 5, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-22T08:10:48+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Award-Winning 2024 Adventure Game Gets PS5 Release Date",
   "url": "https://www.playstationlifestyle.net/2026/10/21/mouthwashing-2024-adventure-game-ps5-release-date",
@@ -3534,5 +3511,17 @@
   "da_viet": false,
   "tom_tat": "Publisher Bandai Namco and developer Bandai Namco Forge Digitals have announced free-to-play team battle action …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Will the Resident Evil Series Be Over in the Next 10 Years? Of Course Not",
+  "url": "https://www.pushsquare.com/news/2026/10/will-the-resident-evil-series-be-over-in-the-next-10-years-of-course-not",
+  "ngay": "2026-10-28T19:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Resident Evil'",
+  "da_viet": false,
+  "tom_tat": "Producer's comments don't line up with the headlines. Headlines based on a Capcom producer's comments this week have suggested the Resident Evil series may end within the next decade. Setting aside the fact the actual quotes don't quite suggest that, the suggestion would mean the firm is saying goodbye to its best-selling IP — and that is not going to happen in a world where brand names are more important to companies than ever before, especially after a successful film adaptation. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
