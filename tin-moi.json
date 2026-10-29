@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Rumor: Canceled Mass Effect: Universe trailer leaks",
-  "url": "https://www.gematsu.com/2026/10/rumor-canceled-mass-effect-universe-trailer-leaks",
-  "ngay": "2026-10-22T23:46:13+07:00",
-  "the_loai": [
-   "Industry",
-   "BioWare",
-   "Clips",
-   "EA",
-   "Leaks",
-   "Mass Effect (202X)",
-   "Rumors",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A trailer for the cancelled next entry in the Mass Effect series has seemingly leaked …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Dispatch coming to iOS, Android on December 9; Deluxe Edition Commentary and Storyboard modes update now available",
   "url": "https://www.gematsu.com/2026/10/dispatch-coming-to-ios-android-on-december-9-deluxe-edition-commentary-and-storyboard-modes-update-now-available",
   "ngay": "2026-10-22T23:56:36+07:00",
@@ -3171,7 +3150,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Solo Leveling: ARISE OVERDRIVE will launch for PlayStation 5 and Xbox Series on November 3 …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-29T09:31:30+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3236,7 +3216,8 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "Sony Interactive Entertainment has announced the November 2026 Monthly Games lineup for PlayStation Plus Essential …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-29T09:31:30+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3302,7 +3283,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Cronos: The New Dawn story downloadable content “Cronos: Lazarus” will launch on December 3, developer …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-29T09:31:30+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3580,7 +3562,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-29T09:31:30+07:00"
  },
  {
   "nguon": "PlayStation Blog",
@@ -3594,6 +3577,26 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-10-29T09:31:30+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "TAITO Milestones 5 announced for Switch",
+  "url": "https://www.gematsu.com/2026/10/taito-milestones-5-announced-for-switch",
+  "ngay": "2026-10-29T09:20:53+07:00",
+  "the_loai": [
+   "Switch",
+   "Clips",
+   "Game Announce",
+   "TAITO",
+   "TAITO Milestones 5",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "TAITO has announced TAITO Milestones 5 for Switch. It will launch both physically and digitally …",
+  "goi_y_ps": false
  }
 ]
