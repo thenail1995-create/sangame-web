@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Feature: Is Cyberpunk 2077 Patch 2.5 Worth Returning to Night City For?",
-  "url": "https://www.pushsquare.com/features/is-cyberpunk-2077-patch-2-5-worth-returning-to-night-city-for",
-  "ngay": "2026-10-23T00:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The huge Edgerunners 2 update. CD Projekt Red shocked everyone when it announced that a major new Cyberpunk 2077 update would be dropping around the same time as the Edgerunners 2 anime. While I imagine some fans might have expected a small surprise to coincide with the show, the scale of Patch 2.5 is pretty crazy — it's far bigger than it ever needed to be. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-23T02:20:56+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Hellraiser 'Performing Extremely Well' Says Saber Boss in Bid for Return of AA Games",
   "url": "https://www.pushsquare.com/news/2026/10/hellraiser-performing-extremely-well-says-saber-boss-in-bid-for-return-of-aa-games",
   "ngay": "2026-10-23T00:30:00+07:00",
@@ -3615,5 +3602,17 @@
   "da_viet": false,
   "tom_tat": "Publisher Bushiroad Games and developer Frontwing will release magical school-set fantasy visual novels Lilac: side …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "New GTA 6 Gameplay, Screenshots, Details Revealed as PS5 Launch Nears",
+  "url": "https://www.pushsquare.com/news/2026/10/new-gta-6-gameplay-screenshots-details-revealed-as-ps5-launch-nears",
+  "ngay": "2026-10-29T16:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "GTA 6 briefly appears in South Park. In exactly three weeks' time, GTA 6 will be out on PS5. You have probably already seen enough to know whether you are playing it or not (and we have got details on the GTA 6 release times and preload date ), but for anyone still on the fence, Rockstar has even more gameplay, screenshots, and gameplay details to entice. First of all, the game appeared in South Park (yes, really). As seen in the video below, a TV presenter shows off the game and how you can throw dog poo at people you walk past. It's actual GTA 6 gameplay inside the animated TV show: Read the…",
+  "goi_y_ps": true
  }
 ]
