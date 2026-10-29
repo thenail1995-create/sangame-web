@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS5 Zombie Shooter Is Now Under $10 on PlayStation Store",
-  "url": "https://www.playstationlifestyle.net/2026/10/24/world-war-z-aftermath-ps5-75-percent-off-playstation-store",
-  "ngay": "2026-10-24T22:00:00+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "PlayStation Store",
-   "Saber Interactive",
-   "Video Game News",
-   "World War Z: Aftermath"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "PlayStation 5 gamers can now purchase a zombie shooter game by Saber Interactive at a low price. The game is reportedly available for less than $10 on the PlayStation Store through November 5, 2026. World War Z: Aftermath is reportedly 75% off on the PlayStation Store, reducing its price to $9.99. This limited-time deal is […] The post PS5 Zombie Shooter Is Now Under $10 on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-24T22:01:29+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Feature: Star Wars: Galactic Racer Is the Blueprint for a New Burnout, and I Need It to Happen",
   "url": "https://www.pushsquare.com/features/star-wars-galactic-racer-is-the-blueprint-for-a-new-burnout-and-i-need-it-to-happen",
@@ -3342,7 +3321,8 @@
   "ly_do_hot": "có từ khoá 'Final Fantasy'",
   "da_viet": false,
   "tom_tat": "Famitsu has published its estimated physical game software data for Japan for the week of …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-30T04:10:50+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3587,7 +3567,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Leaf blowing simulation game Leaf Blower Co. will launch for PlayStation 5 and Xbox Series …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-30T04:10:50+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3621,7 +3602,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "Deep Silver and 4A Games have released a free next-gen update for two popular PS4 shooters, bringing free upgrades to PS5 players. Players can revisit the acclaimed shooters with enhanced visuals at no extra cost. The Metro Redux Next-Gen Update brings visual enhancements, improved performance, and new features to Metro 2033 Redux and Metro: Last […] The post Free PS5 Upgrade for Popular PS4 FPS Games Is Available Now appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-30T04:10:50+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3633,7 +3615,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Bungie needs 12 months for production and porting. PlayStation developer Bungie has confirmed it'll likely need until the first few months of 2028 to complete the unvaulting process of old Destiny 2 content it recently promised to bring back . A new community update post shares a predicted timeline for the content unvault, with the studio currently at the pre-production stage. It expects to be at this point until January or February of next year, and then it'll enter full production for about 12 months, placing a finish line at the beginning of 2028. \"It's a lot of content,\" said Bungie. Read…",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-30T04:10:50+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3646,5 +3629,28 @@
   "da_viet": false,
   "tom_tat": "But doesn't rule them out in the future. After the success of Assassin's Creed: Black Flag Resynced , publisher Ubisoft has confirmed it currently does not have any other remakes of previous entries in the series in development. As of mid-July 2026, we knew Black Flag Resynced had sold three million copies , and the number will have only gone up since then. It was deemed a big success, and the rumours were that Ubisoft was determining whether to create further remakes based on its sales stats. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Remake of Popular PSP Adventure Game Out Today on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/10/29/steins-gate-reboot-ps5-switch-2-new-gamma-worldline",
+  "ngay": "2026-10-30T04:07:22+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "MAGES. Inc",
+   "PlayStation",
+   "PlayStation 5",
+   "Steins;Gate",
+   "Steins;Gate Re:Boot",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Spike Chunsoft’s classic time-travel adventure game arrives on the PS Store today with upgraded graphics and improved audio. Based on a popular Japanese novel of the same name, the remake is also available on PC, Xbox, and Nintendo consoles. Steins;Gate Re:Boot is now available on the PlayStation Store for PS5, with the standard edition priced […] The post PS5 Remake of Popular PSP Adventure Game Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-30T04:10:50+07:00"
  }
 ]
