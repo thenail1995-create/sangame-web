@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Share of the Week: 007 First Light",
-  "url": "https://blog.playstation.com/2026/10/23/share-of-the-week-007-first-light/",
-  "ngay": "2026-10-23T23:00:57+07:00",
-  "the_loai": [
-   "PS5",
-   "007 First Light",
-   "Share of the Week"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Look Outside coming to PS5, Switch 2, PS4, and Switch on October 30",
   "url": "https://www.gematsu.com/2026/10/look-outside-coming-to-ps5-switch-2-ps4-and-switch-on-october-30",
@@ -3651,6 +3637,25 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "New adventure game will bring a hand-drawn fantasy world to PlayStation 5. The post Gorgeous PlayStation 5 Adventure Game Gets First Trailer, Release Date appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Report: The Elder Scrolls VI subtitled Sentinel",
+  "url": "https://www.gematsu.com/2026/10/report-the-elder-scrolls-vi-subtitled-sentinel",
+  "ngay": "2026-10-29T23:28:03+07:00",
+  "the_loai": [
+   "Industry",
+   "Bethesda Game Studios",
+   "Bethesda Softworks",
+   "RPG",
+   "Rumors",
+   "The Elder Scrolls VI"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The 2018-announced sixth entry in the Elder Scrolls series is officially titled The Elder Scrolls …",
   "goi_y_ps": false
  }
 ]
