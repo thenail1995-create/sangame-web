@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Dispatch coming to iOS, Android on December 9; Deluxe Edition Commentary and Storyboard modes update now available",
-  "url": "https://www.gematsu.com/2026/10/dispatch-coming-to-ios-android-on-december-9-deluxe-edition-commentary-and-storyboard-modes-update-now-available",
-  "ngay": "2026-10-22T23:56:36+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Smartphone",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "AdHoc Studio",
-   "Clips",
-   "Dispatch",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "AdHoc Studio will release superhero workplace comedy adventure game Dispatch for iOS and Android on …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-23T02:20:56+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Mass Effect 5 Trailer Allegedly Leaks Following BioWare Closure",
   "url": "https://www.pushsquare.com/news/2026/10/mass-effect-5-trailer-allegedly-leaks-following-bioware-closure",
@@ -3597,6 +3572,30 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "TAITO has announced TAITO Milestones 5 for Switch. It will launch both physically and digitally …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dokapon Kingdom: Connect 2 announced for Switch 2, Switch, and PC",
+  "url": "https://www.gematsu.com/2026/10/dokapon-kingdom-connect-2-announced-for-switch-2-switch-and-pc",
+  "ngay": "2026-10-29T10:22:45+07:00",
+  "the_loai": [
+   "PC",
+   "Switch",
+   "Switch 2",
+   "Clips",
+   "Compile Heart",
+   "Dokapon Kingdom: Connect 2",
+   "Game Announce",
+   "Idea Factory International",
+   "RPG",
+   "Sting",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publishers Compile Heart and Idea Factory International, and developer Sting have announced RPG-style board game …",
   "goi_y_ps": false
  }
 ]
