@@ -1,31 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Promising Sci-Fi RPG Exodus Changes Its Main Character's Face After Fan Criticism",
-  "url": "https://www.pushsquare.com/news/2026/10/promising-sci-fi-rpg-exodus-changes-its-main-characters-face-after-fan-criticism",
-  "ngay": "2026-10-23T01:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Mugged. It's still a good six months or so until Exodus releases on PS5, so developer Archetype Entertainment's got plenty of time to tweak its Mass Effect -style RPG. And that's exactly what it's done with the game's main character, Jun. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-23T02:20:56+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Gears of War: E-Day, Cancelled Last-Minute for PS5, May Have Cost Half a Billion to Make",
-  "url": "https://www.pushsquare.com/news/2026/10/gears-of-war-e-day-cancelled-last-minute-for-ps5-may-have-cost-half-a-billion-to-make",
-  "ngay": "2026-10-23T02:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Fenix down. Gears of War: E-Day may be one of the most expensive games ever, making Microsoft’s decision to cancel an almost-complete PS5 version of the game even more bemusing. Kotaku started the speculation earlier today when it cited sources who claim the third-person shooter cost an eye-watering $500 million to make. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-23T05:21:14+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "3 Beloved PS4, PS5 Adventure Game Remasters Are 80% Off on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/22/tomb-raider-i-iii-remastered-ps5-80-percent-off",
@@ -3619,5 +3593,37 @@
   "tom_tat": "Plus more balance changes to general difficulty. Having just adjusted the behaviour of its worst enemy and made a baffling puzzle actually solvable, Silent Hill: Townfall is back with yet another round of changes and updates to its overall difficulty. Update 1.6 is available to download now on PS5, and first and foremost, it adds a hard difficulty mode. The experience already had a tougher difficulty setting in the form of Nightmare Mode, but this new hard mode sits in between that and the normal option. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-10-29T18:50:47+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA-Inspired PS5 Open World Goes Full Tycoon in Upcoming Update",
+  "url": "https://www.pushsquare.com/news/2026/10/gta-inspired-ps5-open-world-goes-full-tycoon-in-upcoming-update",
+  "ngay": "2026-10-29T19:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Manage city logistics in new mode. The real GTA 6 may be right around the corner, but Hotta Studio’s anime-inspired open world NTE is getting a big update on 11th November to keep you occupied in the meantime. And as has become customary for Heathereau, there’s a lot to look forward to here, including two new characters, story quests, and more. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Long-Awaited PS5 Exclusive RPG Out on PS Store, Players Love It",
+  "url": "https://www.playstationlifestyle.net/2026/10/29/ps5-rpg-phantom-blade-zero-out-on-ps-store",
+  "ngay": "2026-10-29T19:37:13+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Phantom Blade Zero",
+   "S-Game",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "S-Game’s highly anticipated PS5 console exclusive action RPG is finally out on the PS Store, and players are already in love with it. Semi-open-world wuxia RPG Phantom Blade Zero has already wooed critics, and now players have the chance to check it out for themselves. PS5 console exclusive RPG Phantom Blade Zero launched to a […] The post Long-Awaited PS5 Exclusive RPG Out on PS Store, Players Love It appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
