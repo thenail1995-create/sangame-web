@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Helldivers 3? Not Unless It's Very Different from Helldivers 2, Says Arrowhead",
-  "url": "https://www.pushsquare.com/news/2026/10/helldivers-3-not-unless-its-very-different-from-helldivers-2-says-arrowhead",
-  "ngay": "2026-10-23T22:15:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Players are \"keeping the game alive\". One of the more successful recent attempts at a live service game is Helldivers 2 , published by Sony and developed by Arrowhead Studios. It seems the latter is in no rush to follow it up with a Helldivers 3. Speaking to Rock Paper Shotgun , chief creative officer Johan Pilestedt says a third game in the co-op shooter series would only get made if it's very different from the current game, or if players simply stopped showing up. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-24T01:20:50+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "2026’s Biggest PS5 Shooter Is Out Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/23/call-of-duty-modern-warfare-4-ps5-release-october-23",
@@ -3642,5 +3629,25 @@
   "da_viet": false,
   "tom_tat": "All weapons tested. What are the best weapons in Phantom Blade Zero ? In this guide, I'm going to cover all of the game's weapons, detailing their strengths and weaknesses, while also giving them an overall rating. For the purposes of this guide, I've tested each weapon against both groups of enemies and singular bosses. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA 6 Makes It Harder to Get Away With Crime With New Tracking Details",
+  "url": "https://www.playstationlifestyle.net/2026/10/29/gta-6-police-crime-tracking-details",
+  "ngay": "2026-10-29T22:45:26+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Grand Theft Auto VI",
+   "GTA 6",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "A newly revealed GTA 6 feature could make committing crimes more challenging for players. The upcoming open-world game is being developed and published by Rockstar Games. Police behavior in GTA 6 will be more sophisticated than in previous installments of the franchise. In previous games, players could often evade police by breaking away from a […] The post GTA 6 Makes It Harder to Get Away With Crime With New Tracking Details appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
