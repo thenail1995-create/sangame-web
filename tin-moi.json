@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Look Outside coming to PS5, Switch 2, PS4, and Switch on October 30",
-  "url": "https://www.gematsu.com/2026/10/look-outside-coming-to-ps5-switch-2-ps4-and-switch-on-october-30",
-  "ngay": "2026-10-23T23:08:35+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Devolver Digital",
-   "Francis Coulombe",
-   "Horror",
-   "Look Outside",
-   "Release Dates",
-   "RPG"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Devolver Digital and developer Francis Coulombe will release pixel art survival horror RPG Look …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-24T01:20:50+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Poll: Are You Taking Time Off for GTA 6?",
   "url": "https://www.pushsquare.com/features/poll-are-you-taking-time-off-for-gta-6",
@@ -3656,6 +3632,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "The 2018-announced sixth entry in the Elder Scrolls series is officially titled The Elder Scrolls …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Rumour: The Elder Scrolls 6 Reveal as Soon as Next Month, Named Sentinel",
+  "url": "https://www.pushsquare.com/news/2026/10/rumour-the-elder-scrolls-6-reveal-as-soon-as-next-month-named-sentinel",
+  "ngay": "2026-10-29T23:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Big reveal might not be far away. Bethesda plans to make Sentinel the subtitle to The Elder Scrolls VI , and it could confirm the full name as soon as next month, says The Verge scribe Tom Warren. In a fresh report, the writer states that \"sources familiar with Bethesda's plans\" indicate The Elder Scrolls VI: Sentinel is the official title, and the announcement could take place in November, when Skyrim turns 15 years old (yes, it really has been that long). Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
