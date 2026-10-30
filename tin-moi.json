@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "S.T.A.L.K.E.R. 2: Heart of Chornobyl version 2.1 update ‘The Zone Lookout’ now available",
-  "url": "https://www.gematsu.com/2026/10/stalker-2-heart-of-chornobyl-version-2-1-update-the-zone-lookout-now-available",
-  "ngay": "2026-10-26T19:34:27+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "FPS",
-   "GSC Game World",
-   "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-   "Shooter",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "GSC Game World has released the version 2.1 update “The Zone Lookout” for post-apocalyptical first-person …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-26T20:10:52+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Amazon Prime Turns Fallout Shelter into a 'Competition' TV Show",
   "url": "https://www.pushsquare.com/news/2026/10/amazon-prime-turns-fallout-shelter-into-a-competition-tv-show",
@@ -3685,5 +3662,18 @@
   "da_viet": false,
   "tom_tat": "Families criticised Activision for including videos. Activision has apologised and promised to remove footage of a real-life tragedy from Call of Duty: Modern Warfare 4 . Victims’ families understandably reacted angrily when it emerged that news footage from 2022’s Itaewon disaster was included in the game to illustrate a fictional invasion from North Korea. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Share of the Week: Costumes",
+  "url": "https://blog.playstation.com/2026/10/30/share-of-the-week-costumes-3/",
+  "ngay": "2026-10-30T23:00:50+07:00",
+  "the_loai": [
+   "PS5",
+   "Share of the Week"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
