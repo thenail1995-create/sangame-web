@@ -1,43 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Tomb Raider: Legacy of Atlantis ’30th Anniversary’ teaser trailer",
-  "url": "https://www.gematsu.com/2026/10/tomb-raider-legacy-of-atlantis-30th-anniversary-teaser-trailer",
-  "ngay": "2026-10-25T23:35:08+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Amazon Games",
-   "Clips",
-   "Crystal Dynamics",
-   "Flying Wild Hog",
-   "Tomb Raider: Legacy of Atlantis",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Amazon Games and developers Crystal Dynamics and Flying Wild Hog have released a new …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-26T03:50:55+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Review: Phantom Blade Zero (PS5) - One of the Generation's Greatest Action Experiences",
-  "url": "https://www.pushsquare.com/reviews/ps5/phantom-blade-zero",
-  "ngay": "2026-10-26T07:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "I got Soul but I'm not a Soulslike. Should you ever wonder what it might feel like to be the coolest person on the planet, then Phantom Blade Zero is utterly hell-bent on fulfilling that fantasy. The western debut from S-GAME makes a punchy, stylish, and deep combat system the nucleus of an adventure full of action and flair. It’s presented with a swagger that leans into pleasure, with an incredible game feel that lends every one of your moves an extreme degree of satisfaction. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-26T07:10:47+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Sonic X Shadow Generations sales top three million",
   "url": "https://www.gematsu.com/2026/10/sonic-x-shadow-generations-sales-top-three-million",
   "ngay": "2026-10-26T08:18:46+07:00",
@@ -3674,5 +3637,39 @@
   "tom_tat": "Promised discounts not appearing. The launch of The Wolf Among Us Remastered has not gone as smoothly as TellTale Games would have liked, as many fans are reporting not being able to access the discounted upgrade offer they were promised. Last week, the developer shared price discounts that owners of the PS4 version of The Wolf Among Us could take advantage of, should they want to upgrade to the remastered PS5 edition. Also open to PS Plus members, those were: Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-10-30T19:40:53+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "The Scale of Crimson Desert Just Got Even More Absurd After New PS5 DLC",
+  "url": "https://www.pushsquare.com/news/2026/10/the-scale-of-crimson-desert-just-got-even-more-absurd-after-new-ps5-dlc",
+  "ngay": "2026-10-30T20:15:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A scarily big map after Charting the Unknown. Crimson Desert has always been a ridiculously huge open world game, but now this week's new Charting the Unknown DLC has launched, its sheer size has reached new levels. The base game becomes just a corner of the map once you've got Charting the Unknown installed. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Remaster of Sega PS3 RPG Released Out of Nowhere",
+  "url": "https://www.playstationlifestyle.net/2026/10/30/ps3-rpg-resonance-of-fate-ps5-remaster",
+  "ngay": "2026-10-30T20:02:37+07:00",
+  "the_loai": [
+   "News",
+   "PS3 / PlayStation 3 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Resonance of Fate",
+   "Sega",
+   "tri-Ace",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A 2010 Sega PS3 RPG has received a surprise PS5 and PC remaster, and it’s out now on the PlayStation Store. Resonance of Fate already has a 4K/HD Edition for the PS4. Considering the original’s reception, we weren’t expecting a third outing for the title. 2010 RPG Resonance of Fate gets PS5 console exclusive remaster […] The post PS5 Remaster of Sega PS3 RPG Released Out of Nowhere appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
