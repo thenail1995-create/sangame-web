@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Sony's New Walkman Is a Real Status Symbol, with a $6,000 Price Point to Match",
-  "url": "https://www.pushsquare.com/news/2026/10/sonys-new-walkman-is-a-real-status-symbol-with-a-usd6000-price-point-to-match",
-  "ngay": "2026-10-25T00:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'price'",
-  "da_viet": false,
-  "tom_tat": "Sound good? Aside from PlayStation, it’s probably fair to say the Walkman is Sony’s most iconic product. The portable music player has declined in importance as the world has embraced smartphones, but the Japanese giant does continue to manufacture them for legacy purposes. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "PS5's Release Schedule Is Insane Next Week, And It's Just Added Another Must Play",
   "url": "https://www.pushsquare.com/news/2026/10/ps5s-release-schedule-is-insane-next-week-and-its-just-added-another-must-play",
   "ngay": "2026-10-25T00:30:00+07:00",
@@ -3494,7 +3482,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Its most requested addition. It's been more than three whole years since Assassin's Creed Valhalla got its \"final\" update, all the way back in February 2023. But somehow, and for some reason, Ubisoft has actually gone back to its best-selling instalment, and is about to deliver Valhalla's most requested patch. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-30T07:20:48+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3517,7 +3506,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Cate Blanchett and Hideo Kojima‘s meeting has caught Metal Gear Solid fans’ attention. Her visit has reignited speculation that she could play one of the game series’ most iconic characters. Kojima, the creator of Metal Gear Solid, shared three photos with the Oscar-winning actress on X. He wrote in Japanese, “With Cate Blanchett,” and tagged […] The post Cate Blanchett’s Kojima Productions Visit Raises One Big Metal Gear Solid Question appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-30T07:20:48+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3568,7 +3558,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "\"In fact, it keeps getting worse\". During its summer livestream earlier in the year, Xbox CEO Asha Sharma made a big song and dance about her company’s return to console exclusivity. Many first-party titles, like Halo: Campaign Evolved , released on the PS5 under previous boss Phil Spencer’s leadership. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-30T07:20:48+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3651,6 +3642,27 @@
   "ly_do_hot": "có từ khoá 'out now'",
   "da_viet": false,
   "tom_tat": "Priced at £19.99 / $24.99. If Crimson Desert and all its post-launch additions weren't already enough, studio Pearl Abyss has released a mammoth expansion in Charting the Unknown , available now on PS5 for £19.99 / $24.99. You can catch the new launch trailer for the expansion above. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-10-30T07:20:48+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Resonance of Fate Enhanced Remaster now available for PS5, PC",
+  "url": "https://www.gematsu.com/2026/10/resonance-of-fate-enhanced-remaster-now-available-for-ps5-pc",
+  "ngay": "2026-10-30T07:15:42+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Game Release",
+   "Resonance of Fate 4K/HD Edition",
+   "RPG",
+   "tri-Ace"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "tri-Ace has announced Resonance of Fate Enhanced Remaster for PlayStation 5 and PC (Steam). It …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-30T07:20:48+07:00"
  }
 ]
