@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "PS5's Release Schedule Is Insane Next Week, And It's Just Added Another Must Play",
-  "url": "https://www.pushsquare.com/news/2026/10/ps5s-release-schedule-is-insane-next-week-and-its-just-added-another-must-play",
-  "ngay": "2026-10-25T00:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "How about a survival horror RPG? Putting together next week’s PS5 releases , I was utterly flabbergasted by the number of truly great games on the way. But not long after I completed my guide, Devolver Digital added another title to the list: the acclaimed survival horror and RPG mash-up Look Outside which is launching on 30th October. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-25T01:11:07+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Feature: PS5 Answers 'Bleakest' Month with a 22% Upswing in Sales",
   "url": "https://www.pushsquare.com/features/ps5-answers-bleakest-month-with-a-22percent-upswing-in-sales",
   "ngay": "2026-10-25T21:30:00+07:00",
@@ -3664,5 +3651,23 @@
   "tom_tat": "tri-Ace has announced Resonance of Fate Enhanced Remaster for PlayStation 5 and PC (Steam). It …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-30T07:20:48+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Death Stranding Isolations teaser trailer, first details",
+  "url": "https://www.gematsu.com/2026/10/death-stranding-isolations-teaser-trailer-first-details",
+  "ngay": "2026-10-30T08:40:14+07:00",
+  "the_loai": [
+   "Anime",
+   "Clips",
+   "Death Stranding Isolations",
+   "Kojima Productions",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Death Stranding'",
+  "da_viet": false,
+  "tom_tat": "Kojima Productions has released a teaser trailer and new information for Death Stranding Isolations, the …",
+  "goi_y_ps": false
  }
 ]
