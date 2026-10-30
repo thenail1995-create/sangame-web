@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Celebrate Helldivers 2 Liberty Day 2026 with in-game gifts today",
-  "url": "https://blog.playstation.com/2026/10/26/celebrate-helldivers-2-liberty-day-2026-with-in-game-gifts-today/",
-  "ngay": "2026-10-26T17:00:05+07:00",
-  "the_loai": [
-   "PS5",
-   "Helldivers 2"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-26T17:10:51+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Highly Anticipated PS5 Exclusive RPG Gets Amazing Reviews",
   "url": "https://www.playstationlifestyle.net/2026/10/26/ps5-rpg-phantom-blade-zero-awesome-reviews",
@@ -3681,6 +3667,28 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "A March 2026 PS Plus game has been scheduled to shut down, but the good news is that players still have some time to enjoy it. Developed by HB Studios and published by 2K, 2025 PS5 golf game PGA Tour 2K25 will retire its online services in early 2029. PS Plus game PGA Tour 2K25 […] The post March 2026 PS Plus Game Already Has a Shutdown Date appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "WORLD OF HORROR ‘AS BELOW SO ABOVE’ update now available for PC, launches in 2027 for PS4 and Switch",
+  "url": "https://www.gematsu.com/2026/10/world-of-horror-as-below-so-above-update-now-available-for-pc-launches-in-2027-for-ps4-and-switch",
+  "ngay": "2026-10-30T21:12:40+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "Switch",
+   "Horror",
+   "Panstasz",
+   "RPG",
+   "Screenshots",
+   "World of Horror",
+   "Ysbryd Games"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Publisher Ysbryd Games and developer Panstasz have released a major free update for Cosmic horror …",
   "goi_y_ps": false
  }
 ]
