@@ -1,32 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Dragon Ball Xenoverse 2 10th anniversary update launches October 27",
-  "url": "https://www.gematsu.com/2026/10/dragon-ball-xenoverse-2-10th-anniversary-update-launches-october-27",
-  "ngay": "2026-10-25T14:15:19+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Xbox One",
-   "Xbox Series",
-   "Bandai Namco",
-   "Clips",
-   "Dimps",
-   "Dragon Ball Xenoverse 2",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Publisher Bandai Namco and developer Dimps will release the Dragon Ball Xenoverse 2 10th anniversary …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-26T03:50:55+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Tomb Raider: Legacy of Atlantis ’30th Anniversary’ teaser trailer",
   "url": "https://www.gematsu.com/2026/10/tomb-raider-legacy-of-atlantis-30th-anniversary-teaser-trailer",
   "ngay": "2026-10-25T23:35:08+07:00",
@@ -3682,6 +3656,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "$10 upgrade for current PS4 owners. Who had the PS3 role-playing game Resonance of Fate receiving a second remaster for PS5 on their 2026 bingo card? Having already been enhanced on PS4, the quirky RPG has been treated to an \"enhanced remaster\", out today on PS5. This latest version features two additional enhancements over the PS4 remaster: even better graphics and the ability to play it at double the speed. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "The Wolf Among Us Remastered Hit with PS5 Upgrade Pricing Issues",
+  "url": "https://www.pushsquare.com/news/2026/10/the-wolf-among-us-remastered-hit-with-ps5-upgrade-pricing-issues",
+  "ngay": "2026-10-30T19:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Promised discounts not appearing. The launch of The Wolf Among Us Remastered has not gone as smoothly as TellTale Games would have liked, as many fans are reporting not being able to access the discounted upgrade offer they were promised. Last week, the developer shared price discounts that owners of the PS4 version of The Wolf Among Us could take advantage of, should they want to upgrade to the remastered PS5 edition. Also open to PS Plus members, those were: Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
