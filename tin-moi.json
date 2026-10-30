@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Feature: PS5 Answers 'Bleakest' Month with a 22% Upswing in Sales",
-  "url": "https://www.pushsquare.com/features/ps5-answers-bleakest-month-with-a-22percent-upswing-in-sales",
-  "ngay": "2026-10-25T21:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "How much does the enthusiast discourse matter? I’ve been covering PlayStation since the early PS3 days, and aside from the PSN outage in 2011 , I can’t think of a worse month for the brand than September 2026. PS5’s public image was on the floor, with the ramifications of a widely publicised “ blackout ” campaign ongoing, the cancellation of Physint (and its subsequent adoption by Xbox ), a poorly received State of Play , and lower than expected reviews for Marvel’s Wolverine . Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-25T21:40:50+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Beloved PS5 RPG Slashes Price by 75% on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/25/fallout-4-game-of-the-year-edition-ps5-75-percent-off",
@@ -3668,6 +3655,26 @@
   "ly_do_hot": "có từ khoá 'Death Stranding'",
   "da_viet": false,
   "tom_tat": "Kojima Productions has released a teaser trailer and new information for Death Stranding Isolations, the …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Petit Planet launches December 4",
+  "url": "https://www.gematsu.com/2026/10/petit-planet-launches-december-4",
+  "ngay": "2026-10-30T09:08:42+07:00",
+  "the_loai": [
+   "PC",
+   "Smartphone",
+   "Clips",
+   "miHoYo",
+   "Petit Planet",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Cosmic life simulation game Petit Planet will launch for PC via Epic Games Store and …",
   "goi_y_ps": false
  }
 ]
