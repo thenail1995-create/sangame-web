@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Romancing SaGa 3: Destinies United details traveling companions, systems, and battle mechanics",
-  "url": "https://www.gematsu.com/2026/10/romancing-saga-3-destinies-united-details-traveling-companions-systems-and-battle-mechanics",
-  "ngay": "2026-10-26T21:59:07+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Romancing SaGa 3: Destinies United",
-   "RPG",
-   "Screenshots",
-   "Square Enix"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Square Enix has released new information and screenshots for Romancing SaGa 3: Destinies United introducing …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-27T08:50:48+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Spooky PS5 World-Building Game Is Out Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/26/fangtopia-ps5-playstation-store-release-october-26",
@@ -3695,5 +3672,31 @@
   "tom_tat": "Free-to-play open-world action adventure RPG Silver Palace will launch for PlayStation 5, PC via client …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-31T11:20:48+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Final Fantasy XIV: Evercold expansion delayed to February 23, 2027",
+  "url": "https://www.gematsu.com/2026/10/final-fantasy-xiv-evercold-expansion-delayed-to-february-23-2027",
+  "ngay": "2026-10-31T11:25:20+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "DLC",
+   "Final Fantasy XIV",
+   "MMORPG",
+   "Release Dates",
+   "RPG",
+   "Square Enix",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Final Fantasy'",
+  "da_viet": false,
+  "tom_tat": "Final Fantasy XIV: Evercold, the patch 8.0 expansion for Final Fantasy XIV, will launch on …",
+  "goi_y_ps": false
  }
 ]
