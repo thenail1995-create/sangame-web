@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Final Fantasy's 40th Anniversary Album Picks Just One Track from Each Main Game, and It'll Split Fan Opinion",
-  "url": "https://www.pushsquare.com/news/2026/10/final-fantasys-40th-anniversary-album-picks-just-one-track-from-each-main-game-and-itll-split-fan-opinion",
-  "ngay": "2026-10-26T21:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Final Fantasy'",
-  "da_viet": false,
-  "tom_tat": "There can only be one. Square Enix has announced Final Fantasy 40th Anniversary: The Crystal Edition — a 16-track series-spanning album that's out in January. Hold on, 16 tracks? Is that all? Yep, it's made up of just one track per mainline Final Fantasy game. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Romancing SaGa 3: Destinies United details traveling companions, systems, and battle mechanics",
   "url": "https://www.gematsu.com/2026/10/romancing-saga-3-destinies-united-details-traveling-companions-systems-and-battle-mechanics",
@@ -3684,5 +3672,28 @@
   "tom_tat": "Company looking for someone to lead initiative. A new PlayStation job listing has sparked a fresh wave of fan concerns regarding dynamic pricing on the PS Store . Spotted by The Game Post , the role – for a Senior Director of Digital Games Monetisation – includes some phrases which have spooked gamers, including a reference to “intelligent pricing”. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-10-31T08:20:46+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Silver Palace launches December 14",
+  "url": "https://www.gematsu.com/2026/10/silver-palace-launches-december-14",
+  "ngay": "2026-10-31T11:15:39+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Smartphone",
+   "Clips",
+   "Elementa",
+   "Release Dates",
+   "Silver Palace",
+   "Silver Studio",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Free-to-play open-world action adventure RPG Silver Palace will launch for PlayStation 5, PC via client …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-10-31T11:20:48+07:00"
  }
 ]
