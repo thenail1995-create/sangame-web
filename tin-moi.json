@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Ghost of Yotei Dev Sucker Punch Hit with Layoffs as Leadership Eyes Next PlayStation Project",
-  "url": "https://www.pushsquare.com/news/2026/10/ghost-of-yotei-dev-sucker-punch-hit-with-layoffs-as-leadership-eyes-next-playstation-project",
-  "ngay": "2026-10-26T23:45:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Ghost of'",
-  "da_viet": false,
-  "tom_tat": "Sony studio makes cuts. Sucker Punch Productions, the Sony-owned PlayStation Studio and Ghost of Yotei developer, has reportedly made cuts to its workforce. According to Aftermath , who cite an unnamed ex-Sucker Punch employee, at least 26 jobs have been slashed. It's estimated that the studio employs roughly 230 people. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-27T02:31:14+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Hear About Assassin's Creed's Future This Week in Franchise Update",
   "url": "https://www.pushsquare.com/news/2026/10/hear-about-assassins-creeds-future-this-week-in-franchise-update",
   "ngay": "2026-10-27T00:30:00+07:00",
@@ -3699,5 +3686,17 @@
   "da_viet": false,
   "tom_tat": "A video reel showcasing what appears to be work-in-progress footage of a Revelations: Persona remake …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Rumour: Days Gone Dev to Announce and Launch New PS5 Game in 2027",
+  "url": "https://www.pushsquare.com/news/2026/11/rumour-days-gone-dev-to-announce-and-launch-new-ps5-game-in-2027",
+  "ngay": "2026-11-01T07:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Third-person game with co-op, it's reported. Bend Studio, the first-party team best known for Days Gone , plans to reveal and potentially even release its next game in 2027. That's according to a new MP1st report , which shares more details on the project. The outlet claims an announcement will take place next year and it's \"much further along in development\" than you might think, so much so that Bend Studio is also planning to release it in 2027. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
