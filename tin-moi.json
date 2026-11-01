@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Capcom Says Onimusha: Way of the Sword Isn't Too Easy, and the Player Data Proves It",
-  "url": "https://www.pushsquare.com/news/2026/10/capcom-says-onimusha-way-of-the-sword-isnt-too-easy-and-the-player-data-proves-it",
-  "ngay": "2026-10-27T01:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Honed to perfection. Before its release, there was a lot of discussion around Onimusha: Way of the Sword's difficulty. Basically, some players argued that the game's demo was too easy. Enemies lacked aggression, and although Capcom promised a greater challenge in the full thing, not everyone was convinced. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Square Enix’s Latest PS5 RPG Remake Gets Exciting New Details",
   "url": "https://www.playstationlifestyle.net/2026/10/26/romancing-saga-3-destinies-united-new-details",
@@ -3697,6 +3685,25 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "But is it real? Atlus apparently can’t keep a secret. Alleged footage of a Persona 1 Remake has emerged online, although in this age of AI generated content it’s incredibly difficult to ascertain whether this is legit or not. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Petit Planet coming to Switch 2 in 2027",
+  "url": "https://www.gematsu.com/2026/11/petit-planet-coming-to-switch-2-in-2027",
+  "ngay": "2026-11-01T19:00:44+07:00",
+  "the_loai": [
+   "Switch 2",
+   "Clips",
+   "miHoYo",
+   "Petit Planet",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "miHoYo will release a Switch 2 version of free-to-play cosmic life simulation game Petit Planet …",
   "goi_y_ps": false
  }
 ]
