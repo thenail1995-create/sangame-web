@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "TV Show Review: Cyberpunk: Edgerunners 2 - Slick Night City Sequel Struggles to Match Its Predecessor",
-  "url": "https://www.pushsquare.com/features/tv-show-review-cyberpunk-edgerunners-2-slick-night-city-sequel-struggles-to-match-its-predecessor",
-  "ngay": "2026-10-28T00:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Keep scrolling. Cyberpunk: Edgerunners 2 doesn't really need to exist, but I'm ultimately glad that it does. Season 1 told a perfectly self-contained story — complete with a brutally definitive ending — and so a follow-up was always going to seem somewhat unnecessary. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Horror Game Gets Free Map & DLC Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/27/halloween-the-game-free-map-paid-dlc-ps5",
@@ -3695,5 +3683,25 @@
   "da_viet": false,
   "tom_tat": "Absolute cinema. Sony is getting the ball rolling on Until Dawn 2 , its narrative horror adventure game making its debut in a few short months. The PS5 exclusive title, developed by Firesprite, launches on 28th January 2027, but you can get a good look at the game before then, as the company plans to show it off in a fancy live event this December. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "HARMA launches in Early Access on November 17",
+  "url": "https://www.gematsu.com/2026/11/harma-launches-in-early-access-on-november-17",
+  "ngay": "2026-11-03T00:00:15+07:00",
+  "the_loai": [
+   "PC",
+   "Astrolabe Games",
+   "Clips",
+   "harma",
+   "INDIRECT SHINE",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Roguelike cooperative deckbuilder HARMA will launch in Early Access for PC via Steam on November …",
+  "goi_y_ps": false
  }
 ]
