@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Final 3 PS Plus Extra Games for October 2026 Available to Download Now",
-  "url": "https://www.pushsquare.com/news/2026/10/final-3-ps-plus-extra-games-for-october-2026-available-to-download-now",
-  "ngay": "2026-10-27T16:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS Plus'",
-  "da_viet": false,
-  "tom_tat": "New additions for UK, USA, and Japan out now. For any PS Plus Extra subscribers in the UK, USA, and Japan, today marks the final drop of PS5 titles for October 2026. Everyone else in the world received access to the games last week, but Sony's experiment means select members have had to wait until today for the complete lineup. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-27T16:10:50+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Capcom's Best Games Continue to Sell, 2026 Releases All Perform Well",
-  "url": "https://www.pushsquare.com/news/2026/10/capcoms-best-games-continue-to-sell-2026-releases-all-perform-well",
-  "ngay": "2026-10-27T17:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Sales updates for RE Requiem, Pragmata, and Onimusha. Capcom has provided a sales update for all of its best-selling games, as part of its second-quarter results for fiscal year 2026. And it's business as usual for the publisher: its legacy titles continue to sell strongly, and Capcom's new releases are performing well too. Looking at its three biggest hitters for 2026, Resident Evil Requiem has now sold 8.51 million copies, Pragmata is now at 2.73 million units, and Onimusha: Way of the Sword has managed 1.78 million sales after almost two months on the market. Read the full article on pushsq…",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "BLEACH Mirrors High launches October 28",
   "url": "https://www.gematsu.com/2026/10/bleach-mirrors-high-launches-october-28",
@@ -3682,5 +3657,38 @@
   "da_viet": false,
   "tom_tat": "We're on version 02.000.003 now. Here's a quick one: Saros developer Housemarque has today updated the PS5 exclusive and issued version 02.000.003, available to download now. It's a very simple set of patch notes that predominantly focuses on bug fixes, like issues in the Overlord Rush mode and problems affecting Trophy unlocks. Perhaps the most interesting note in relation to changing when the Saros: Zenith splash screen appears. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony Fighting GTA 6 PS5 Piracy with New Firmware Demands",
+  "url": "https://www.pushsquare.com/news/2026/11/sony-fighting-gta-6-ps5-piracy-with-new-firmware-demands",
+  "ngay": "2026-11-02T19:45:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Today's new PS5 firmware reportedly required. PlayStation appears to be taking absolutely no risks, as it closes in on the launch of GTA 6 for its platform while fending off PS5 jailbreak, piracy, and hacking attempts. From the start of last month, hackers began cracking the PS5 firmware via AI tools on firmware v7.00 through v13.60. In response, Sony has issued multiple PS5 firmware updates to cut down on potential emulators for the current-gen box going forward. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 System Update Rolled Out to Ring in November 2026",
+  "url": "https://www.playstationlifestyle.net/2026/11/02/ps5-system-software-firmware-update-november-2-2026",
+  "ngay": "2026-11-02T19:42:00+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "exclude_from_yahoo",
+   "PS5 System Software Update",
+   "PS5 system update",
+   "PS5 Update",
+   "Sony Interactive Entertainment",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Sony Interactive Entertainment quietly rolled out PS5 system software update 26.07-14.22.00 on November 1. From the looks of it, this firmware revision combats (or attempts to combat) the most recent PS5 jailbreak yet again ahead of GTA VI‘s launch. PS5 system software update 26.07-14.22.00 patch notes (November 2, 2026) Patch notes for November’s first PS5 […] The post PS5 System Update Rolled Out to Ring in November 2026 appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
