@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Where Winds Meet’s climactic Hutuo Battlefield narrative arc revealed, out Nov 13",
-  "url": "https://blog.playstation.com/2026/10/27/where-winds-meets-climactic-hutuo-battlefield-narrative-arc-revealed-out-nov-13/",
-  "ngay": "2026-10-27T22:01:34+07:00",
-  "the_loai": [
-   "PS5",
-   "Where Winds Meet"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-27T23:10:57+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Mysterious PS5 Life Sim Is Out Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/27/village-in-the-shade-ps5-release",
@@ -3699,6 +3685,29 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Starbrew Games will release a PlayStation 5 version of cozy adventure game Duck Side of …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "PowerWash Simulator 2 DLC ‘Barbie Pack’ launches December 3",
+  "url": "https://www.gematsu.com/2026/11/powerwash-simulator-2-dlc-barbie-pack-launches-december-3",
+  "ngay": "2026-11-02T22:05:14+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "DLC",
+   "FuturLab",
+   "PowerWash Simulator 2",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "PowerWash Simulator 2 downloadable content “Barbie Pack” will launch on December 3 for $7.99 / …",
   "goi_y_ps": false
  }
 ]
