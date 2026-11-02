@@ -1,45 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Terrifying PS5 Game Out Today on PlayStation Store Right Before Halloween",
-  "url": "https://www.playstationlifestyle.net/2026/10/27/remothered-red-nuns-legacy-ps5-playstation-store-release-october-27",
-  "ngay": "2026-10-27T21:40:31+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "Halloween",
-   "Horror",
-   "PlayStation 5",
-   "PlayStation Store",
-   "PS Store",
-   "PS5",
-   "Remothered",
-   "Remothered: Red Nun’s Legacy",
-   "Stormind Games",
-   "survival horror",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A new Italian neo-giallo survival horror game has hit the PlayStation Store. Players can purchase the single-player title on the PlayStation 5 and other modern consoles days before Halloween. It offers a terrifying journey filled with dangerous enemies and disturbing revelations. Developed by Stormind Games, Remothered: Red Nun’s Legacy is available for PS5 starting today. […] The post Terrifying PS5 Game Out Today on PlayStation Store Right Before Halloween appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-28T15:01:29+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Kingdom Come Developer Warhorse Studios Suffers Cyberattack, Full Impact Unknown",
-  "url": "https://www.pushsquare.com/news/2026/10/kingdom-come-developer-warhorse-studios-suffers-cyberattack-full-impact-unknown",
-  "ngay": "2026-10-27T22:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "This means war. Warhorse Studios, the team behind the highly-regarded Kingdom Come: Deliverance series, has confirmed it has been the victim of a cyberattack. Posting about the matter on its social channels, the studio is \"working with cybersecurity specialists to secure our systems and understand the full extent of what happened.\" Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Where Winds Meet’s climactic Hutuo Battlefield narrative arc revealed, out Nov 13",
   "url": "https://blog.playstation.com/2026/10/27/where-winds-meets-climactic-hutuo-battlefield-narrative-arc-revealed-out-nov-13/",
@@ -3704,5 +3664,41 @@
   "da_viet": false,
   "tom_tat": "\"There was some resistance\". Final Fantasy Resonance has seemingly gone down really, really well with fans of the franchise — and so it's surprising to hear that Square Enix's leadership were apparently against the idea of the game. Resonance is very much a callback to classic Final Fantasy in terms of gameplay and structure; some would go as far to argue that it's just what the property needs at this point. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "‘90s style sci-fi horror Derelikt launches Nov 13 on PS5",
+  "url": "https://blog.playstation.com/2026/11/02/90s-style-sci-fi-horror-derelikt-launches-nov-13-on-ps5/",
+  "ngay": "2026-11-02T22:00:26+07:00",
+  "the_loai": [
+   "PS5",
+   "Derelikt",
+   "Hyperstrange",
+   "Visuwyg"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Duck Side of the Moon coming to PS5 on November 17 alongside ‘Homegrown’ update",
+  "url": "https://www.gematsu.com/2026/11/duck-side-of-the-moon-coming-to-ps5-on-november-17-alongside-homegrown-update",
+  "ngay": "2026-11-02T21:59:00+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Clips",
+   "Duck Side of the Moon",
+   "Release Dates",
+   "Starbrew Games",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Starbrew Games will release a PlayStation 5 version of cozy adventure game Duck Side of …",
+  "goi_y_ps": false
  }
 ]
