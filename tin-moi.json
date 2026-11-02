@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Aloft and Conan Exiles Enhanced launch on PS5 in early 2027",
-  "url": "https://blog.playstation.com/2026/10/27/aloft-and-conan-exiles-enhanced-launch-on-ps5-in-early-2027/",
-  "ngay": "2026-10-27T23:00:43+07:00",
-  "the_loai": [
-   "PS5",
-   "Aloft",
-   "Conan Exiles",
-   "Funcom"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-27T23:10:57+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "One Piece Trailer Gives Straw Hat Pirates Fans a Perfect Video Game Crossover They’ll Love",
   "url": "https://www.playstationlifestyle.net/2026/10/27/fortnite-pirate-themed-mini-season-one-piece-trailer",
@@ -3708,5 +3692,18 @@
   "da_viet": false,
   "tom_tat": "Out on PS5 from 3rd December 2026. One of the classics that helped create an entire genre, stealth masterpiece Thief: The Dark Project is coming to PS5 in remastered form next month, from 3rd December 2026. This new version of the 1998 game has been remastered using Nightdive Studios' KEX Engine to produce a new edition running at 4K and 120 frames-per-second. It's got all the content of the base game, the three extra missions from Thief: Gold, and an entirely new campaign in the form of The Tarnished Mirror. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Players’ Choice: Vote for October’s best new game",
+  "url": "https://blog.playstation.com/2026/11/02/players-choice-vote-for-octobers-best-new-game-4/",
+  "ngay": "2026-11-02T23:00:44+07:00",
+  "the_loai": [
+   "PS5",
+   "Players’ Choice"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
