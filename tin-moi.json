@@ -1,23 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Pokemon UNITE to end service on March 23, 2027",
-  "url": "https://www.gematsu.com/2026/10/pokemon-unite-to-end-service-on-march-23-2027",
-  "ngay": "2026-10-27T12:25:02+07:00",
-  "the_loai": [
-   "Smartphone",
-   "Switch",
-   "Pokemon (series)",
-   "Pokemon UNITE",
-   "TiMi Studio Group"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The Pokemon Company and developer TiMi Studio Group will end service for free-to-play multiplayer online …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Final 3 PS Plus Extra Games for October 2026 Available to Download Now",
   "url": "https://www.pushsquare.com/news/2026/10/final-3-ps-plus-extra-games-for-october-2026-available-to-download-now",
@@ -3687,6 +3669,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Give it a Trophy. Sometimes, a game will crop up that I really want to write about, but can't because it's not available on PlayStation. Nubby's Number Factory is one of those games. Originally released on PC in March 2025, this bizarre little roguelike is so up my street, and I'm very pleased to be able to say it's heading to Sony's systems in the future. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Housemarque Issues Saros PS5 Patch for Bug Fixes, Update Out Now",
+  "url": "https://www.pushsquare.com/news/2026/11/housemarque-issues-saros-ps5-patch-for-bug-fixes-update-out-now",
+  "ngay": "2026-11-02T19:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'out now'",
+  "da_viet": false,
+  "tom_tat": "We're on version 02.000.003 now. Here's a quick one: Saros developer Housemarque has today updated the PS5 exclusive and issued version 02.000.003, available to download now. It's a very simple set of patch notes that predominantly focuses on bug fixes, like issues in the Overlord Rush mode and problems affecting Trophy unlocks. Perhaps the most interesting note in relation to changing when the Saros: Zenith splash screen appears. Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
