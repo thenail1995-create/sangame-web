@@ -1,54 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "MARVEL Cosmic Invasion DLC ‘The Siege of Castle Doom’ reveals new game mode",
-  "url": "https://www.gematsu.com/2026/10/marvel-cosmic-invasion-dlc-the-siege-of-castle-doom-reveals-new-game-mode",
-  "ngay": "2026-10-26T23:04:29+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox One",
-   "Xbox Series",
-   "Clips",
-   "DLC",
-   "Dotemu",
-   "MARVEL Cosmic Invasion",
-   "Trailers",
-   "Tribute Games"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false,
-  "tom_tat": "Publisher Dotemu and developer Tribute Games have released a new trailer for MARVEL Cosmic Invasion …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-27T12:01:24+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "The Mortuary Assistant developer releases free micro horror game Playable Archive for PC",
-  "url": "https://www.gematsu.com/2026/10/the-mortuary-assistant-developer-releases-free-micro-horror-game-playable-archive-for-pc",
-  "ngay": "2026-10-26T22:21:26+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "DarkStone Digital",
-   "DreadXP",
-   "Game Announce",
-   "Horror",
-   "Playable Archive",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "Publisher DreadXP and The Mortuary Assistant developer DarkStone Digital have announced Playable Archive, a free, …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Top Hat Studios Presents: Fall Showcase 2026 set for November 2",
   "url": "https://www.gematsu.com/2026/10/top-hat-studios-presents-fall-showcase-2026-set-for-november-2",
   "ngay": "2026-10-26T22:00:39+07:00",
@@ -3709,5 +3661,36 @@
   "da_viet": false,
   "tom_tat": "Milestone achieved in just three days. Phantom Blade Zero sold over four million copies during its first three days on the market across PS5 and PC, studio S-GAME has announced. Having released on 29th October 2026, the new action game achieved the milestone by the end of the weekend. \"Thank you everyone from the bottom of our hearts for all the love and support,\" the developer said on social media. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "20 years of PlayStation Store – devs share the great games that surprised them most",
+  "url": "https://blog.playstation.com/2026/11/02/20-years-of-playstation-store-devs-share-the-great-games-that-surprised-them-most/",
+  "ngay": "2026-11-02T18:01:50+07:00",
+  "the_loai": [
+   "PS5",
+   "Balatro",
+   "Dragon Quest XI: Echos of an Elusive Age",
+   "God of War",
+   "Inscryption",
+   "Inside",
+   "Shadow of the Colossus",
+   "Uncharted 2: Among Thieves"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'God of War'",
+  "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Yakuza Creator's Gang of Dragon PS5 Game and New Studio Officially Dead",
+  "url": "https://www.pushsquare.com/news/2026/11/yakuza-creators-gang-of-dragon-ps5-game-and-new-studio-officially-dead",
+  "ngay": "2026-11-02T18:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Dissolved days ago on 31st October. Gang of Dragon , the Yakuza -esque title Toshiro Nagoshi planned to make with a newly set-up developer under NetEase, will never see the light of day. Nagoshi Studio has now officially been closed, as of 31st October 2026. This news had been expected for some time, as reports dating back to March 2026 detail publisher NetEase pulling its funding . The game had only been revealed a few months prior at The Game Awards . Now we know for sure the studio and PS5 game are both gone, as a notice has appeared in the Japanese government gazette Kanpo (via Gematsu ).…",
+  "goi_y_ps": false
  }
 ]
