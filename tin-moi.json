@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "(For Southeast Asia) Crunchyroll Arrives for PS5 and PS4 users in Indonesia, Malaysia and Thailand",
-  "url": "https://blog.playstation.com/2026/10/26/20261027-roll/",
-  "ngay": "2026-10-27T09:01:28+07:00",
-  "the_loai": [
-   "Uncategorized"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Auroch Digital to lay off 25 percent of staff",
   "url": "https://www.gematsu.com/2026/10/auroch-digital-to-lay-off-25-percent-of-staff",
@@ -3717,5 +3705,25 @@
   "tom_tat": "Battle Royale tops five million concurrent players. In case you haven’t been paying attention, Fortnite is running a pirate-themed season with One Piece crossover content available right now. But the big news is the discovery of a Pirate Shop , which makes the entire Item Shop free for two weeks. If you’re running in a squad, then everyone on your team gets the reward. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-02T06:01:16+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Phantom Blade Zero sales top four million in 72 hours",
+  "url": "https://www.gematsu.com/2026/11/phantom-blade-zero-sales-top-four-million-in-72-hours",
+  "ngay": "2026-11-02T09:59:03+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Phantom Blade Zero",
+   "RPG",
+   "S-GAME",
+   "Sales"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Total sales for Wuxia action RPG Phantom Blade Zero have surpassed four million units in …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-02T10:01:24+07:00"
  }
 ]
