@@ -1,51 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Neverness to Everness version 1.5 update ‘Once Upon a Glitched Call’ launches November 11",
-  "url": "https://www.gematsu.com/2026/10/neverness-to-everness-version-1-5-update-once-upon-a-glitched-call-launches-november-11",
-  "ngay": "2026-10-28T19:49:17+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Smartphone",
-   "Clips",
-   "Hotta Studio",
-   "Neverness to Everness",
-   "Perfect World Games",
-   "Release Dates",
-   "RPG",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "The version 1.5 update for free-to-play supernatural urban open-world action RPG Neverness to Everness, dubbed …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-28T21:10:50+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS5 Gets Console-Exclusive Sci-Fi Game in Popular Franchise",
-  "url": "https://www.playstationlifestyle.net/2026/10/28/ps5-sci-fi-game-mobile-suit-gundam-battle-operation-3",
-  "ngay": "2026-10-28T19:42:37+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Bandai Namco Entertainment",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "Mobile Suit Gundam",
-   "Mobile Suit Gundam: Battle Operation 3",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A PS5 console-exclusive sci-fi action game in a long-running Bandai Namco Entertainment series has been announced. Mobile Suit Gundam: Battle Operation 3 is the next game in the free-to-play team combat franchise, coming to PS5 and PC. PS5 sci-fi action game Mobile Suit Gundam: Battle Operation 3 has yet to be dated Mobile Suit Gundam: Battle […] The post PS5 Gets Console-Exclusive Sci-Fi Game in Popular Franchise appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-31T05:10:44+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Suit up as Astro Bot in Rayman Legends Retold",
   "url": "https://blog.playstation.com/2026/10/28/suit-up-as-astro-bot-in-rayman-legends-retold/",
@@ -3641,5 +3595,38 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Skyrim's Successor Finally Re-Revealed as The Elder Scrolls 6: Sentinel",
+  "url": "https://www.pushsquare.com/news/2026/11/skyrims-successor-finally-re-revealed-as-the-elder-scrolls-6-sentinel",
+  "ngay": "2026-11-03T22:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Bethesda unveils its next RPG. It's official: The Elder Scrolls 6: Sentinel is the full title of Bethesda's next open world RPG. The subtitle has been announced as part of the developer's 40th anniversary celebrations. Confirmation comes via a very brief trailer at the end of the company's new video, which you can watch below. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Remaster of 1998 Classic Action Game Gets Release Date",
+  "url": "https://www.playstationlifestyle.net/2026/11/03/ps5-action-game-thief-remastered-release-date",
+  "ngay": "2026-11-03T22:32:23+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Atari",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Nightdive Studios",
+   "Thief: The Dark Project Remastered",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The PS5 remaster of a 1998 classic action game has finally received a release date, and it’s out very soon. Thief: The Dark Project Remastered will launch for both the PS5 and PS4, and preorders are live now on the PS Store. Action game Thief: The Dark Project Remastered will launch on PS5 in December […] The post PS5 Remaster of 1998 Classic Action Game Gets Release Date appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
