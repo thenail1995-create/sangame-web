@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Several Capcom console classics rated in Korea",
-  "url": "https://www.gematsu.com/2026/10/several-capcom-console-classics-rated-in-korea",
-  "ngay": "2026-10-27T21:01:13+07:00",
-  "the_loai": [
-   "Industry",
-   "Capcom",
-   "Fictions",
-   "Game Rating and Administration Committee of Korea",
-   "Leaks",
-   "Lumines Arise",
-   "Sword of the Sea"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The Game Rating and Administration Committee of Korea has rated several classic Capcom titles, suggesting …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Moonlight Peaks coming to PS5 on November 17",
   "url": "https://www.gematsu.com/2026/10/moonlight-peaks-coming-to-ps5-on-november-17",
   "ngay": "2026-10-27T20:08:36+07:00",
@@ -3673,5 +3653,19 @@
   "da_viet": false,
   "tom_tat": "Two games in one, actually. You have got to wait another couple of weeks to gain access to the official set of new PS Plus Premium games for this month, but in the meantime, there's been a bonus addition to the service. Not announced or highlighted by Sony or publisher Deep Silver, the new PS5 version of Metro Redux — which improves and enhances Metro 2033 and Metro: Last Light — has been added to PS Plus Premium. The old PS4 version was on there already, but now the listing has been updated to support the PS5 edition too. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Helldivers 2: new poisonous Terminid types, more bug caves spawn across the galaxy today",
+  "url": "https://blog.playstation.com/2026/11/03/helldivers-2-new-poisonous-terminid-types-more-bug-caves-spawn-across-the-galaxy-today/",
+  "ngay": "2026-11-03T20:02:22+07:00",
+  "the_loai": [
+   "PS5",
+   "Arrowhead Game Studios",
+   "Helldivers 2"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
