@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Bad Ice-Cream Resort announced for Switch, PC",
-  "url": "https://www.gematsu.com/2026/10/bad-ice-cream-resort-announced-for-switch-pc",
-  "ngay": "2026-10-28T00:15:28+07:00",
-  "the_loai": [
-   "PC",
-   "Switch",
-   "Bad Ice-Cream Resort",
-   "Clips",
-   "Game Announce",
-   "Nitrome",
-   "Puzzle Games",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Following this morning’s announcement of the remastered Bad Ice-Cream Triple Scoop, Nitrome has announced Bad …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "ArcheAge Chronicles launches in Early Access for PC on November 3",
   "url": "https://www.gematsu.com/2026/10/archeage-chronicles-launches-in-early-access-for-pc-on-november-3",
   "ngay": "2026-10-27T23:38:26+07:00",
@@ -3719,5 +3698,18 @@
   "da_viet": false,
   "tom_tat": "Nintendo has released a four-minute overview trailer for Pikmin 4 – Nintendo Switch 2 Edition …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "November 2026 PS Plus Essential Games Available to Download Now",
+  "url": "https://www.pushsquare.com/news/2026/11/november-2026-ps-plus-essential-games-available-to-download-now",
+  "ngay": "2026-11-03T16:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "Tour a Dead Island, board a Monster Train. Today's the day for Sony's penultimate PS Plus Essential update of 2026, which delivers a further three PS5, PS4 games for members to download and play. Here's what PlayStation has to offer this month, available to redeem until 1st December 2026: Read the full article on pushsquare.com",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-03T16:10:57+07:00"
  }
 ]
