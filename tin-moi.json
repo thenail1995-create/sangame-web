@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Review: Call of Duty: Modern Warfare 4 (PS5) - Same Old Multiplayer Drags Down Stellar Package",
-  "url": "https://www.pushsquare.com/reviews/ps5/call-of-duty-modern-warfare-4",
-  "ngay": "2026-10-29T00:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Call of Duty'",
-  "da_viet": false,
-  "tom_tat": "Duty is still calling. By this point, Call of Duty fans are familiar with the fluctuating quality of the FPS giant’s yearly release schedule: it’s basically a constant cycle of proclaiming the series is dead, then confidently stating we’re so back. Modern Warfare 4 , thankfully, lands in the latter. The conclusion to the rebooted Modern Warfare series, which started back in 2019, is exactly the confident high-budget blockbuster experience that I’m personally looking for with the series. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-29T03:25:50+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Striking New PS5 DualSense Controllers Revealed, Out Soon",
   "url": "https://www.playstationlifestyle.net/2026/10/28/ps5-prism-collection-dualsense-controllers-release-date-price",
@@ -3645,5 +3632,30 @@
   "da_viet": false,
   "tom_tat": "The sands of time. If you thought that the re-reveal for The Elder Scrolls 6: Sentinel was signalling some kind of blowout in the relatively near future, then I've got bad news for you. Reiterating that the finished game is still a long way off, the ever-informative Jason Schreier made things clear on social media, posting: \"Sorry to say is still more than 2 years away!\" Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Long-Awaited PS4, PS5 RPG Gets Release Window & Trailer",
+  "url": "https://www.playstationlifestyle.net/2026/11/03/hyperspace-neptunia-unlimited-2027-release",
+  "ngay": "2026-11-04T02:52:38+07:00",
+  "the_loai": [
+   "News",
+   "PS4 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Compile Heart",
+   "Entertainment and Gaming",
+   "Hyperdimension Neptunia",
+   "Hyperspace Neptunia: Unlimited",
+   "Idea Factory",
+   "Neptunia",
+   "PS4",
+   "PS5",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Popular PS5 series is returning with a new mainline RPG in 2027. The post Long-Awaited PS4, PS5 RPG Gets Release Window & Trailer appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
