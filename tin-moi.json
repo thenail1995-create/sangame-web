@@ -1,64 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Former Fall Guys Devs Are Bringing Their Co-Op Platformer Frog Sqwad to PS5 Today",
-  "url": "https://www.pushsquare.com/news/2026/10/former-fall-guys-devs-are-bringing-their-co-op-platformer-frog-sqwad-to-ps5-today",
-  "ngay": "2026-10-28T17:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Hoppers. Developer Panic Stations has just launched its debut game, Frog Sqwad , on PS5, a few months following its initial release on PC. Available now, Frog Sqwad is an online co-op multiplayer game in which a group of up to eight players dive into the sewers, gather what they can, and hope to fulfil a quota from the Swamp King. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-28T18:01:30+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Arcade Archives Prehistoric Isle launches October 29",
-  "url": "https://www.gematsu.com/2026/10/arcade-archives-prehistoric-isle-launches-october-29",
-  "ngay": "2026-10-28T16:05:38+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "Switch",
-   "Xbox Series",
-   "Arcade Archives",
-   "Arcade Archives 2",
-   "Clips",
-   "Hamster Corporation",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Arcade Archives 2 Prehistoric Isle will launch for PlayStation 5 and Xbox Series, and Arcade …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T06:31:07+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Console Archives Marl Jong launches October 29",
-  "url": "https://www.gematsu.com/2026/10/console-archives-marl-jong-launches-october-29",
-  "ngay": "2026-10-28T17:05:37+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Clips",
-   "Console Archives",
-   "Console Archives Marl Jong",
-   "Hamster Corporation",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Console Archives xxx will launch for PlayStation 5 and Switch 2 on October 29 for …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T00:10:51+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Mobile Suit Gundam: Battle Operation 3 announced for PS5, PC",
   "url": "https://www.gematsu.com/2026/10/mobile-suit-gundam-battle-operation-3-announced-for-ps5-pc",
@@ -3651,6 +3592,59 @@
   ],
   "hot": true,
   "ly_do_hot": "số món giảm giá tăng 20% so với đỉnh 12 lần gần nhất",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Elder Scrolls VI: Sentinel subtitle announced",
+  "url": "https://www.gematsu.com/2026/11/the-elder-scrolls-vi-sentinel-subtitle-announced",
+  "ngay": "2026-11-03T22:08:25+07:00",
+  "the_loai": [
+   "Industry",
+   "Bethesda Game Studios",
+   "Bethesda Softworks",
+   "Clips",
+   "The Elder Scrolls VI: Sentinel",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The 2018-announced sixth entry in the Elder Scrolls series is officially titled The Elder Scrolls …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "First PS Plus Premium November 2026 Game Is Out Already",
+  "url": "https://www.playstationlifestyle.net/2026/11/03/ps-plus-premium-november-2026-metro-redux",
+  "ngay": "2026-11-03T22:03:52+07:00",
+  "the_loai": [
+   "News",
+   "PlayStation Plus News - PS4, PS3, PS Vita",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Metro Redux",
+   "PlayStation Plus",
+   "PS Plus",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "PS Plus Premium has surprise-dropped the first November 2026 game, and it’s a native PS5 version of a fan favorite. Metro Redux‘s new PS5 port has quietly been added to Premium classics. Its PS4 version is already part of the catalog. PS Plus Premium kicks off November 2026 with Metro Redux PS5 version The full […] The post First PS Plus Premium November 2026 Game Is Out Already appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Store",
+  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (3169 → 5995 món)",
+  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
+  "ngay": "2026-11-03T22:10:54+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "số món giảm giá tăng 89% so với đỉnh 12 lần gần nhất",
   "da_viet": false
  }
 ]

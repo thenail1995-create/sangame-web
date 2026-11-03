@@ -374,7 +374,8 @@
    "https://www.gematsu.com/?p=1087051",
    "https://www.gematsu.com/?p=1087062",
    "https://www.gematsu.com/?p=1087160",
-   "https://www.gematsu.com/?p=1087188"
+   "https://www.gematsu.com/?p=1087188",
+   "https://www.gematsu.com/?p=1087225"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207487",
@@ -835,7 +836,8 @@
    "https://www.playstationlifestyle.net/?p=938395",
    "https://www.playstationlifestyle.net/?p=938404",
    "https://www.playstationlifestyle.net/?p=938415",
-   "https://www.playstationlifestyle.net/?p=938400"
+   "https://www.playstationlifestyle.net/?p=938400",
+   "https://www.playstationlifestyle.net/?p=938425"
   ],
   "billbil": [
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mxjn2i36ss2y",
@@ -877,16 +879,16 @@
  "deals_ds": {
   "en-US": [
    4025,
+   4024,
+   4024,
+   4024,
+   4024,
+   4024,
+   4024,
+   4024,
+   4024,
+   4024,
    4025,
-   4024,
-   4024,
-   4024,
-   4024,
-   4024,
-   4024,
-   4024,
-   4024,
-   4024,
    4025
   ],
   "en-SG": [
@@ -900,8 +902,8 @@
    2648,
    2648,
    2648,
-   2648,
-   3169
+   3169,
+   5995
   ]
  },
  "extra_ds": {
