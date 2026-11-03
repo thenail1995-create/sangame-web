@@ -1,24 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Digimon Alysion pre-registration now available",
-  "url": "https://www.gematsu.com/2026/10/digimon-alysion-pre-registration-now-available",
-  "ngay": "2026-10-28T11:32:24+07:00",
-  "the_loai": [
-   "Smartphone",
-   "Bandai Namco",
-   "Clips",
-   "Digimon Alysion",
-   "Screenshots",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Pre-registration for Digimon Alysion, the free-to-play mobile game based on Digimon Card Game, is now …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Former Fall Guys Devs Are Bringing Their Co-Op Platformer Frog Sqwad to PS5 Today",
   "url": "https://www.pushsquare.com/news/2026/10/former-fall-guys-devs-are-bringing-their-co-op-platformer-frog-sqwad-to-ps5-today",
@@ -3659,5 +3640,17 @@
   "da_viet": false,
   "tom_tat": "Nowhere to be seen on PlayStation Direct. Sony may be taking steps to wind down sales of its PSVR2 headset, as it's been spotted that the VR device is no longer being sold through some of its official regional outlets and at third-party retailers. For a few weeks now, fans have been picking up on the fact PSVR2 no longer appears on the official PlayStation Direct website in the USA. I did a search of the website today, and the headset is nowhere to be seen. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Store",
+  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (2648 → 3169 món)",
+  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
+  "ngay": "2026-11-03T22:01:25+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "số món giảm giá tăng 20% so với đỉnh 12 lần gần nhất",
+  "da_viet": false
  }
 ]
