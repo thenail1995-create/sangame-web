@@ -1,39 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Bad Ice-Cream Triple Scoop announced for Switch, PC",
-  "url": "https://www.gematsu.com/2026/10/bad-ice-cream-triple-scoop-announced-for-switch-pc",
-  "ngay": "2026-10-27T18:15:56+07:00",
-  "the_loai": [
-   "PC",
-   "Switch",
-   "Bad Ice-Cream Triple Scoop",
-   "Clips",
-   "Game Announce",
-   "Nitrome",
-   "Puzzle Games",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Nitrome has announced Bad Ice-Cream Triple Scoop, a remaster of its arcade puzzle flash game …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Guide: GTA 6 Release Times and Preload: When Can You Start Playing?",
-  "url": "https://www.pushsquare.com/guides/gta-6-release-times-and-preload-when-can-you-start-playing",
-  "ngay": "2026-10-28T07:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "All the GTA 6 release info you need. Probably the most anticipated game of all time, GTA 6 is now just a few weeks away. As the launch draws closer, we're covering everything you need to know about its PS5 launch, including preload options and release times. In this GTA 6 guide , we cover the GTA 6 release times and preload . <toc expand=\"none\"> Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-28T08:40:50+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
   "url": "https://blog.playstation.com/2026/10/27/20261028-sale/",
@@ -3658,6 +3624,42 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Many titles getting an additional $1 million. While the vast majority of its four million sales have no doubt been made on PC, Sony’s enjoying a big win with the console exclusive Phantom Blade Zero right now. And at a press conference in Shanghai earlier today, it recommitted to its ongoing China Hero Project, which is now in its fourth phase. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Sonic Racing: CrossWorlds Year Two begins today with Duel Mode, new characters, gadgets and more",
+  "url": "https://blog.playstation.com/2026/11/03/sonic-racing-crossworlds-year-two-begins-today-with-duel-mode-new-characters-gadgets-and-more/",
+  "ngay": "2026-11-03T21:00:04+07:00",
+  "the_loai": [
+   "PS5",
+   "Sega",
+   "Sonic Racing: Crossworlds"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Bill & Ted’s Excellent Adventure: Arcade announced for PS5, Xbox Series, Switch, and PC",
+  "url": "https://www.gematsu.com/2026/11/bill-teds-excellent-adventure-arcade-announced-for-ps5-xbox-series-switch-and-pc",
+  "ngay": "2026-11-03T18:15:27+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Xbox Series",
+   "Art of Play",
+   "Bill & Ted's Excellent Adventure: Arcade",
+   "Clips",
+   "Game Announce",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Art of Play has announced side-scrolling arcade action adventure game Bill & Ted’s Excellent Adventure: …",
   "goi_y_ps": false
  }
 ]
