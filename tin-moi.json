@@ -1,50 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Aloft adds PS5 version, launches in early 2027",
-  "url": "https://www.gematsu.com/2026/10/aloft-adds-ps5-version-launches-in-early-2027",
-  "ngay": "2026-10-27T23:13:54+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Aloft",
-   "Astrolabe Interactive",
-   "Clips",
-   "Funcom",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Floating islands-set cooperative sandbox survival game Aloft will launch for PlayStation 5 alongside its full …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-28T08:40:50+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Wonderful Neoran Valley ‘Welcome to the Valley’ trailer",
-  "url": "https://www.gematsu.com/2026/10/wonderful-neoran-valley-welcome-to-the-valley-trailer",
-  "ngay": "2026-10-27T21:51:49+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Clips",
-   "Nara Studio",
-   "RPG",
-   "Trailers",
-   "Wonderful Neoran Valley"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Nara Studio has released a new trailer for Wonderful Neoran Valley, its upcoming narrative-driven roguelite …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-28T15:01:29+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Nintendo Indie World Showcase set for October 28",
   "url": "https://www.gematsu.com/2026/10/nintendo-indie-world-showcase-set-for-october-28",
   "ngay": "2026-10-27T21:04:39+07:00",
@@ -3696,5 +3652,29 @@
   "da_viet": false,
   "tom_tat": "No claptrap detected. Publisher 2K Games has announced a major sales milestone for its super popular looter shooter series, Borderlands . The franchise has now sold more than 100 million copies to date, across all platforms and games. It's marked the occasion with this video: Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS Store Black Friday Sale Begins Tomorrow with Thousands of PS5 Deals",
+  "url": "https://www.pushsquare.com/news/2026/11/ps-store-black-friday-sale-begins-tomorrow-with-thousands-of-ps5-deals",
+  "ngay": "2026-11-03T19:15:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'sale'",
+  "da_viet": false,
+  "tom_tat": "Here's a teaser of some games on offer. Sony has announced its big PS Store sale for Black Friday will begin tomorrow, 4th November 2026. It's promising \"thousands\" of deals across PS5 and PS4 titles, and it's even shared a list of a few of the standout games that'll be discounted. We don't know how much cheaper they'll be yet, but Sony has shared the following will be part of the Black Friday sale: Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sonic Racing: CrossWorlds Gets Massive Update, Godzilla DLC Today as Year Two Begins",
+  "url": "https://www.pushsquare.com/news/2026/11/sonic-racing-crossworlds-gets-massive-update-godzilla-dlc-today-as-year-two-begins",
+  "ngay": "2026-11-03T19:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The race goes on. Sonic Racing: CrossWorlds has been getting some great DLC and post-launch support from SEGA, and that's set to continue for another year, starting today, 3rd November 2026. A major game update is set to be released today, bringing the kart racer to version 2.0.0 and marking the beginning of the game's official Year Two. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
