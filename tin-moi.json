@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Mobile Suit Gundam: Battle Operation 3 announced for PS5, PC",
-  "url": "https://www.gematsu.com/2026/10/mobile-suit-gundam-battle-operation-3-announced-for-ps5-pc",
-  "ngay": "2026-10-28T18:25:57+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Bandai Namco",
-   "Bandai Namco Forge Digitals",
-   "Clips",
-   "Game Announce",
-   "Mobile Suit Gundam: Battle Operation 3",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Bandai Namco and developer Bandai Namco Forge Digitals have announced free-to-play team battle action …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-31T08:20:46+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Will the Resident Evil Series Be Over in the Next 10 Years? Of Course Not",
   "url": "https://www.pushsquare.com/news/2026/10/will-the-resident-evil-series-be-over-in-the-next-10-years-of-course-not",
@@ -3506,7 +3484,8 @@
   "ly_do_hot": "có từ khoá 'PS Plus'",
   "da_viet": false,
   "tom_tat": "Two games in one, actually. You have got to wait another couple of weeks to gain access to the official set of new PS Plus Premium games for this month, but in the meantime, there's been a bonus addition to the service. Not announced or highlighted by Sony or publisher Deep Silver, the new PS5 version of Metro Redux — which improves and enhances Metro 2033 and Metro: Last Light — has been added to PS Plus Premium. The old PS4 version was on there already, but now the listing has been updated to support the PS5 edition too. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-03T22:20:53+07:00"
  },
  {
   "nguon": "PlayStation Blog",
@@ -3520,7 +3499,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-03T22:20:53+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3546,7 +3526,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-03T22:20:53+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3633,7 +3614,8 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "PS Plus Premium has surprise-dropped the first November 2026 game, and it’s a native PS5 version of a fan favorite. Metro Redux‘s new PS5 port has quietly been added to Premium classics. Its PS4 version is already part of the catalog. PS Plus Premium kicks off November 2026 with Metro Redux PS5 version The full […] The post First PS Plus Premium November 2026 Game Is Out Already appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-03T22:20:53+07:00"
  },
  {
   "nguon": "PS Store",
@@ -3646,5 +3628,18 @@
   "hot": true,
   "ly_do_hot": "số món giảm giá tăng 89% so với đỉnh 12 lần gần nhất",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 PS5 File Size Confirmed to Be 212GB, Physical Map Available But Not in Boxed Copies",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-file-size-confirmed-to-be-212gb-physical-map-available-but-not-in-boxed-copies",
+  "ngay": "2026-11-03T22:15:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Preload brought forward two days. Rockstar Games has today shared more details on the launch of GTA 6 , across both its digital and physical versions on PS5. Rumoured last week via a social media account, it has now been confirmed that GTA 6 requires 212GB of space to be downloaded and installed. You'll be able to preload the game, and that option has actually been brought forward by two days. Read the full article on pushsquare.com",
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-03T22:20:53+07:00"
  }
 ]
