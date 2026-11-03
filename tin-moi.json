@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Modern Warfare 4 Season 1: Everything you need to know for November 6 launch",
-  "url": "https://blog.playstation.com/2026/10/28/modern-warfare-4-season-1-everything-you-need-to-know-for-november-6-launch/",
-  "ngay": "2026-10-29T00:15:17+07:00",
-  "the_loai": [
-   "PS5",
-   "Activision",
-   "Call of Duty: Modern Warfare 4"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Call of Duty'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-29T03:25:50+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Review: Call of Duty: Modern Warfare 4 (PS5) - Same Old Multiplayer Drags Down Stellar Package",
   "url": "https://www.pushsquare.com/reviews/ps5/call-of-duty-modern-warfare-4",
@@ -3648,5 +3633,17 @@
   "da_viet": false,
   "tom_tat": "Popular action game is now available on the PlayStation Store at a massive discount.. The post Acclaimed PS4 Adventure Game Series Is 75% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "The Elder Scrolls 6: Sentinel Is Still 'At Least Two Years Away' as Disappointment Follows New Trailer",
+  "url": "https://www.pushsquare.com/news/2026/11/the-elder-scrolls-6-sentinel-is-still-at-least-two-years-away-as-disappointment-follows-new-trailer",
+  "ngay": "2026-11-04T02:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The sands of time. If you thought that the re-reveal for The Elder Scrolls 6: Sentinel was signalling some kind of blowout in the relatively near future, then I've got bad news for you. Reiterating that the finished game is still a long way off, the ever-informative Jason Schreier made things clear on social media, posting: \"Sorry to say is still more than 2 years away!\" Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
