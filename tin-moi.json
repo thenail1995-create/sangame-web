@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Moonlight Peaks coming to PS5 on November 17",
-  "url": "https://www.gematsu.com/2026/10/moonlight-peaks-coming-to-ps5-on-november-17",
-  "ngay": "2026-10-27T20:08:36+07:00",
-  "the_loai": [
-   "PS5",
-   "Little Chicken Game Company",
-   "Marvelous Europe",
-   "Moonlight Peaks",
-   "Release Dates",
-   "XSEED Games"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publishers XSEED Games and Marvelous Europe, and developer Little Chicken Game Company will release gothic …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-28T18:01:30+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Bad Ice-Cream Triple Scoop announced for Switch, PC",
   "url": "https://www.gematsu.com/2026/10/bad-ice-cream-triple-scoop-announced-for-switch-pc",
   "ngay": "2026-10-27T18:15:56+07:00",
@@ -3667,5 +3647,17 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony Commits to China Hero Project with Further Investment into Promising PS5 Games",
+  "url": "https://www.pushsquare.com/news/2026/11/sony-commits-to-china-hero-project-with-further-investment-into-promising-ps5-games",
+  "ngay": "2026-11-03T20:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Many titles getting an additional $1 million. While the vast majority of its four million sales have no doubt been made on PC, Sony’s enjoying a big win with the console exclusive Phantom Blade Zero right now. And at a press conference in Shanghai earlier today, it recommitted to its ongoing China Hero Project, which is now in its fourth phase. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
