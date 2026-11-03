@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "(For Southeast Asia) PlayStation 11.11 Power Deals returns from 30 October to 12 November 2026",
-  "url": "https://blog.playstation.com/2026/10/27/20261028-sale/",
-  "ngay": "2026-10-28T09:01:10+07:00",
-  "the_loai": [
-   "Peripherals & accessories",
-   "PlayStation Store"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-28T11:51:09+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Digimon Alysion pre-registration now available",
   "url": "https://www.gematsu.com/2026/10/digimon-alysion-pre-registration-now-available",
@@ -3660,6 +3646,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Art of Play has announced side-scrolling arcade action adventure game Bill & Ted’s Excellent Adventure: …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony Seemingly Winding Down PSVR2 Sales, Gone from USA Store",
+  "url": "https://www.pushsquare.com/news/2026/11/sony-seemingly-winding-down-psvr2-sales-gone-from-usa-store",
+  "ngay": "2026-11-03T21:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Nowhere to be seen on PlayStation Direct. Sony may be taking steps to wind down sales of its PSVR2 headset, as it's been spotted that the VR device is no longer being sold through some of its official regional outlets and at third-party retailers. For a few weeks now, fans have been picking up on the fact PSVR2 no longer appears on the official PlayStation Direct website in the USA. I did a search of the website today, and the headset is nowhere to be seen. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
