@@ -64,7 +64,8 @@
    "urn:uuid:4bc5178a-2218-41d0-ae58-6b803b081118",
    "urn:uuid:8940083b-f471-4bc2-af69-1b1118b6a14c",
    "urn:uuid:c52b8567-37cb-4c7f-8526-2990965f943b",
-   "urn:uuid:47c55e61-d037-46e6-8cbe-6128ad50e1b7"
+   "urn:uuid:47c55e61-d037-46e6-8cbe-6128ad50e1b7",
+   "urn:uuid:59dcdd39-e893-4669-ae10-91f06f6e51f1"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -663,7 +664,8 @@
    "https://www.pushsquare.com/#article-208486",
    "https://www.pushsquare.com/#article-207812",
    "https://www.pushsquare.com/#article-208496",
-   "https://www.pushsquare.com/#article-208471"
+   "https://www.pushsquare.com/#article-208471",
+   "https://www.pushsquare.com/#article-208504"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -870,13 +872,13 @@
    4024,
    4024,
    4024,
+   4023,
+   4023,
+   4023,
+   4023,
+   4023,
+   4023,
    4024,
-   4023,
-   4023,
-   4023,
-   4023,
-   4023,
-   4023,
    4024
   ],
   "en-SG": [
@@ -884,13 +886,13 @@
    2647,
    2647,
    2647,
+   2646,
+   2646,
+   2646,
+   2646,
+   2646,
+   2646,
    2647,
-   2646,
-   2646,
-   2646,
-   2646,
-   2646,
-   2646,
    2647
   ]
  },
