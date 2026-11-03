@@ -1,23 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "PlayStation Plus Monthly Games for November: Dead Island 2, Tomb Raider IV – VI Remastered, Monster Train 2",
-  "url": "https://blog.playstation.com/2026/10/28/playstation-plus-monthly-games-for-november-dead-island-2-tomb-raider-iv-vi-remastered-monster-train-2/",
-  "ngay": "2026-10-28T22:31:43+07:00",
-  "the_loai": [
-   "PlayStation Plus",
-   "Dead Island 2",
-   "Monster Train 2",
-   "Monthly Games",
-   "PS Plus",
-   "Tomb Raider IV-Vi Remastered"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-29T00:10:51+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "PS Plus Essential Games for November 2026 Announced",
   "url": "https://www.pushsquare.com/news/2026/10/ps-plus-essential-games-for-november-2026-announced",
@@ -3638,6 +3620,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Decide Push Square's GOTM. Ah, October, otherwise known as the month before GTA 6 . Indeed, it was an incredibly busy 31 days for new PS5 releases, following on from an equally manic September — and that's going to make this latest Game of the Month poll all the more intriguing. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Classic PS2 Action Game’s PS5 Remaster Is Out Today on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/03/godzilla-destroy-all-monsters-melee-remastered-ps5-release-november-3",
+  "ngay": "2026-11-04T00:11:52+07:00",
+  "the_loai": [
+   "News",
+   "PS2 / PlayStation 2",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Atari",
+   "Entertainment and Gaming",
+   "Godzilla: Destroy All Monsters Melee Remastered",
+   "PS2",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A classic PlayStation 2 game has received a remaster for PlayStation 5. It is now available on the PlayStation Store. The standard edition costs $29.99, while the Digital Deluxe Edition costs $34.99. Godzilla: Destroy All Monsters Melee Remastered launched with fully enhanced visuals and is available on the PS Store. It features gameplay improvements and […] The post Classic PS2 Action Game’s PS5 Remaster Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
