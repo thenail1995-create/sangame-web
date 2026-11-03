@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Suit up as Astro Bot in Rayman Legends Retold",
-  "url": "https://blog.playstation.com/2026/10/28/suit-up-as-astro-bot-in-rayman-legends-retold/",
-  "ngay": "2026-10-28T20:01:45+07:00",
-  "the_loai": [
-   "PS5",
-   "Astro Bot",
-   "Rayman Legends Retold"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Astro Bot'",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-28T21:10:50+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Rayman Legends Retold reveals PS5-exclusive ASTRO BOT costume",
   "url": "https://www.gematsu.com/2026/10/rayman-legends-retold-reveals-ps5-exclusive-astro-bot-costume",
@@ -3627,6 +3612,26 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "The PS5 remaster of a 1998 classic action game has finally received a release date, and it’s out very soon. Thief: The Dark Project Remastered will launch for both the PS5 and PS4, and preorders are live now on the PS Store. Action game Thief: The Dark Project Remastered will launch on PS5 in December […] The post PS5 Remaster of 1998 Classic Action Game Gets Release Date appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA VI PS5 Preload Going Live Sooner Than We Thought",
+  "url": "https://www.playstationlifestyle.net/2026/11/03/gta-vi-ps5-preload-information-details",
+  "ngay": "2026-11-03T22:55:03+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Grand Theft Auto VI",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Rockstar Games has shared GTA VI PS5 preload details, and players will be able to download the game sooner than we thought. Preloads will go live next Tuesday, November 10 — a little over a week before the game’s November 19 launch. GTA VI PS5 preload information You’ll need to preorder GTA VI to preload […] The post GTA VI PS5 Preload Going Live Sooner Than We Thought appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
