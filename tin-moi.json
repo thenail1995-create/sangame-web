@@ -1,24 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Nintendo Indie World Showcase set for October 28",
-  "url": "https://www.gematsu.com/2026/10/nintendo-indie-world-showcase-set-for-october-28",
-  "ngay": "2026-10-27T21:04:39+07:00",
-  "the_loai": [
-   "Switch",
-   "Switch 2",
-   "Nintendo",
-   "Nintendo Direct",
-   "Nintendo Direct: 2026.10.28"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Nintendo will host an Indie World Showcase on October 28 at 7:00 a.m. PT / …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Several Capcom console classics rated in Korea",
   "url": "https://www.gematsu.com/2026/10/several-capcom-console-classics-rated-in-korea",
   "ngay": "2026-10-27T21:01:13+07:00",
@@ -3679,5 +3661,17 @@
   "tom_tat": "The race goes on. Sonic Racing: CrossWorlds has been getting some great DLC and post-launch support from SEGA, and that's set to continue for another year, starting today, 3rd November 2026. A major game update is set to be released today, bringing the kart racer to version 2.0.0 and marking the beginning of the game's official Year Two. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-03T19:20:49+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Bonus PS Plus Premium Game Is Out Now for PS5",
+  "url": "https://www.pushsquare.com/news/2026/11/bonus-ps-plus-premium-game-is-out-now-for-ps5",
+  "ngay": "2026-11-03T19:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "Two games in one, actually. You have got to wait another couple of weeks to gain access to the official set of new PS Plus Premium games for this month, but in the meantime, there's been a bonus addition to the service. Not announced or highlighted by Sony or publisher Deep Silver, the new PS5 version of Metro Redux — which improves and enhances Metro 2033 and Metro: Last Light — has been added to PS Plus Premium. The old PS4 version was on there already, but now the listing has been updated to support the PS5 edition too. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
