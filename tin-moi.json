@@ -1,74 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "AYAKASHI Fishing Folktails coming west in mid-2027",
-  "url": "https://www.gematsu.com/2026/10/ayakashi-fishing-folktails-coming-west-in-mid-2027",
-  "ngay": "2026-10-28T22:30:23+07:00",
-  "the_loai": [
-   "Switch",
-   "Switch 2",
-   "AYAKASHI Fishing Folktails",
-   "Imagineer",
-   "Localization",
-   "Natsume",
-   "Release Dates",
-   "Screenshots"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Natsume will release fishing adventure game AYAKASHI Fishing Folktails for Switch 2 and Switch in …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "The Great Villainess: Strategy of Lily coming to PS5, Switch 2 on December 2",
-  "url": "https://www.gematsu.com/2026/10/the-great-villainess-strategy-of-lily-coming-to-ps5-switch-2-on-december-2",
-  "ngay": "2026-10-28T22:15:22+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Alliance Arts",
-   "Clips",
-   "One or EIGHT",
-   "Release Dates",
-   "The Great Villainess: Strategy of Lily",
-   "Trailers",
-   "WSS playground"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "One or EIGHT, WSS playground, and Alliance Arts will release crowd-controlling turn-based strategy game The …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T16:37:29+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Cronos: The New Dawn story DLC ‘Cronos: Lazarus’ launches December 3",
-  "url": "https://www.gematsu.com/2026/10/cronos-the-new-dawn-story-dlc-cronos-lazarus-launches-december-3",
-  "ngay": "2026-10-28T22:00:09+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Bloober Team",
-   "Clips",
-   "Cronos: The New Dawn",
-   "DLC",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Cronos: The New Dawn story downloadable content “Cronos: Lazarus” will launch on December 3, developer …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T09:31:30+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "BAKUDO adds Switch 2 version, launches in 2027",
   "url": "https://www.gematsu.com/2026/10/bakudo-adds-switch-2-version-launches-in-2027",
   "ngay": "2026-10-28T21:30:36+07:00",
@@ -3577,6 +3509,63 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T17:40:50+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Console Archives Elevator Action launches November 5",
+  "url": "https://www.gematsu.com/2026/11/console-archives-elevator-action-launches-november-5",
+  "ngay": "2026-11-04T17:05:33+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch 2",
+   "Clips",
+   "Console Archives",
+   "Console Archives Elevator Action",
+   "Hamster Corporation",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Console Archives Elevator Action will launch for PlayStation 5 and Switch 2 on November 5 …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Arcade Archives Exzisus launches November 5",
+  "url": "https://www.gematsu.com/2026/11/arcade-archives-exzisus-launches-november-5",
+  "ngay": "2026-11-04T15:15:33+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Arcade Archives",
+   "Arcade Archives 2",
+   "Clips",
+   "Hamster Corporation",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Arcade Archives 2 Exzisus will launch for PlayStation 5, Xbox Series, and Switch 2, and …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T18:40:43+07:00",
   "the_loai": [
    "PS Store"
   ],
