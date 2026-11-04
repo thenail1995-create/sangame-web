@@ -1,33 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Fate/EXTRA Record characters trailer – ALICE",
-  "url": "https://www.gematsu.com/2026/10/fate-extra-record-characters-trailer-alice",
-  "ngay": "2026-10-29T18:00:56+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Aniplex",
-   "Clips",
-   "Fate (series)",
-   "Fate/EXTRA Record",
-   "Meteorise",
-   "RPG",
-   "Trailers",
-   "Type-Moon"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T13:31:12+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "PlayStation Partner Awards 2026 Japan Asia set for December 3",
   "url": "https://www.gematsu.com/2026/10/playstation-partner-awards-2026-japan-asia-set-for-december-3",
   "ngay": "2026-10-29T13:20:03+07:00",
@@ -3331,5 +3304,27 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Brutal PS5 Soulslike Doubles Weapon Movesets in Major Combat Overhaul",
+  "url": "https://www.playstationlifestyle.net/2026/11/04/lords-of-the-fallen-ii-combat",
+  "ngay": "2026-11-05T00:25:10+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "CI Games",
+   "Entertainment and Gaming",
+   "Lords of the Fallen",
+   "Lords of the Fallen 2",
+   "PlayStation 5",
+   "PS5",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The team behind a Soulslike currently in development overhauled its combat system. The development team revealed this update in a YouTube devlog. Independent developer CI Games, credited with making Lords of the Fallen, has revealed the major changes made to the sequel. The development series, called Lifting the Veil, gives players and game development enthusiasts […] The post Brutal PS5 Soulslike Doubles Weapon Movesets in Major Combat Overhaul appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
