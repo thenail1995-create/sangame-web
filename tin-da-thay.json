@@ -69,7 +69,8 @@
    "urn:uuid:eb1f9ac9-7ebc-43bf-8f3e-be579c34ed77",
    "urn:uuid:74bfdcf4-a0e1-497a-8f83-d12089c00ac8",
    "urn:uuid:0656b92a-49d6-4bae-a548-1577678f5de2",
-   "urn:uuid:3e1b1d2b-17dc-4702-87ea-6f3c092645ea"
+   "urn:uuid:3e1b1d2b-17dc-4702-87ea-6f3c092645ea",
+   "urn:uuid:0d12d367-a789-4138-8efb-b29b9e5bf3ea"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -87,7 +88,6 @@
    "urn:uuid:78aa95ff-ff5e-44c7-8a13-ee887620db3c"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1083603",
    "https://www.gematsu.com/?p=1083579",
    "https://www.gematsu.com/?p=1083323",
    "https://www.gematsu.com/?p=1083552",
@@ -386,7 +386,8 @@
    "https://www.gematsu.com/?p=1087317",
    "https://www.gematsu.com/?p=1087326",
    "https://www.gematsu.com/?p=1087258",
-   "https://www.gematsu.com/?p=1087259"
+   "https://www.gematsu.com/?p=1087259",
+   "https://www.gematsu.com/?p=1087178"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207450",
@@ -929,7 +930,7 @@
    5994,
    5994,
    5994,
-   5994
+   3911
   ]
  },
  "extra_ds": {

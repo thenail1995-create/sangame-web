@@ -1,42 +1,6 @@
 [
  {
   "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS Plus Action Game Surprise Drops New Feature After 2 Years",
-  "url": "https://www.playstationlifestyle.net/2026/10/29/ps-plus-game-star-wars-phantom-menace-trophies",
-  "ngay": "2026-10-29T19:53:23+07:00",
-  "the_loai": [
-   "News",
-   "PlayStation Plus News - PS4, PS3, PS Vita",
-   "PS4 News, Trophies, Reviews, and More",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "PlayStation Plus",
-   "PS Plus",
-   "Star Wars Episode I: The Phantom Menace",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false,
-  "tom_tat": "A PS5 and PS4 action game that was added to the PS Plus Premium classics catalog in 2024 has received a surprise update. When it launched on the service and the PS Store, Star Wars Episode I – The Phantom Menace didn’t support trophies. That’s no longer the case. PS Plus Premium PS5, PS4 game […] The post PS Plus Action Game Surprise Drops New Feature After 2 Years appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T21:50:54+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Konami Records Strong Profit Having Made Excellent Games Again",
-  "url": "https://www.pushsquare.com/news/2026/10/konami-records-strong-profit-having-made-excellent-games-again",
-  "ngay": "2026-10-29T20:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Make good games, make good money. Konami is back to making new games in its catalogue of classic franchises, and the work is beginning to pay off. Within its latest financial report, the publisher has recorded a 75.1% increase in profit compared to the previous year, and from April to September 2026, it achieved a 44.3% increase in sales. So, what did it do during the previous quarter to achieve that? It released fantastic games. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Pro Overlooked by Sony Yet Again, Players Upset",
   "url": "https://www.playstationlifestyle.net/2026/10/29/no-ps5-pro-support-for-covers-upsets-players",
   "ngay": "2026-10-29T20:47:44+07:00",
@@ -3440,5 +3404,38 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "PlayStation Store: October 2026’s top downloads",
+  "url": "https://blog.playstation.com/2026/11/04/playstation-store-october-2026s-top-downloads/",
+  "ngay": "2026-11-04T22:00:16+07:00",
+  "the_loai": [
+   "PS5",
+   "PlayStation Store",
+   "Top Downloads"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Wonderfall launches December 9",
+  "url": "https://www.gematsu.com/2026/11/wonderfall-launches-december-9",
+  "ngay": "2026-11-04T22:00:53+07:00",
+  "the_loai": [
+   "PC",
+   "Attaboy Interactive",
+   "Clips",
+   "Release Dates",
+   "Trailers",
+   "Wonderfall"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Narrative adventure game Wonderfall will launch for PC via Steam on December 9, developer Attaboy …",
+  "goi_y_ps": false
  }
 ]
