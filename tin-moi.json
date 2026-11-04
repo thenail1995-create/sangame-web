@@ -1,53 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "(For Southeast Asia) First look inside the Prism Collection, with three new transparent designs for PS5 accessories",
-  "url": "https://blog.playstation.com/2026/10/28/20261029-ps5/",
-  "ngay": "2026-10-29T09:03:29+07:00",
-  "the_loai": [
-   "Peripherals & accessories",
-   "Prism Collection"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-29T09:31:30+07:00"
- },
- {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Phantom Blade Zero: How boss weapons transform combat and exploration",
-  "url": "https://blog.playstation.com/2026/10/28/phantom-blade-zero-how-boss-weapons-transform-combat-and-exploration/",
-  "ngay": "2026-10-29T09:00:00+07:00",
-  "the_loai": [
-   "PS5",
-   "Phantom Blade Zero",
-   "S-Game"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-10-29T09:31:30+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "TAITO Milestones 5 announced for Switch",
-  "url": "https://www.gematsu.com/2026/10/taito-milestones-5-announced-for-switch",
-  "ngay": "2026-10-29T09:20:53+07:00",
-  "the_loai": [
-   "Switch",
-   "Clips",
-   "Game Announce",
-   "TAITO",
-   "TAITO Milestones 5",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "TAITO has announced TAITO Milestones 5 for Switch. It will launch both physically and digitally …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Dokapon Kingdom: Connect 2 announced for Switch 2, Switch, and PC",
   "url": "https://www.gematsu.com/2026/10/dokapon-kingdom-connect-2-announced-for-switch-2-switch-and-pc",
@@ -3454,5 +3406,51 @@
   "da_viet": false,
   "tom_tat": "Hua, Deadly Betrothed nerfed in PS5 patch. S-GAME has today published the first major Phantom Blade Zero update for PS5 and PC, available to download now on both platforms. It's a relatively normal list of updates and tweaks, comprising bug fixes and adjustments — until you see that one of the game's earlier bosses has been nerfed a touch. Hua, Deadly Bethrothed, an optional boss fight in the first main Weeping Creek Valley region, has had her grab attacks made less frequent. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "This JRPG Series Lightly Inspired by the Console Wars Is Finally Getting a New PS5 Sequel",
+  "url": "https://www.pushsquare.com/news/2026/11/this-jrpg-series-lightly-inspired-by-the-console-wars-is-finally-getting-a-new-ps5-sequel",
+  "ngay": "2026-11-04T21:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "NepNep. Hyperdimension Neptunia intrigued me when it first released on the PS3, because its cast of characters were loosely inspired by the various console platforms, like PlayStation, Xbox, and (at the time) Wii. The series gained a cult following and spawned dozens of sequels, spin-offs, and re-releases. But there hasn’t been a new mainline entry since 2015. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS4 Gets Surprise System Update for November 2026",
+  "url": "https://www.playstationlifestyle.net/2026/11/04/ps4-surprise-system-update-november-2026",
+  "ngay": "2026-11-04T20:57:02+07:00",
+  "the_loai": [
+   "News",
+   "PS4 News, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "PS4 System Software Update",
+   "PS4 system update",
+   "PS4 Update",
+   "Sony Interactive Entertainment",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Sony Interactive Entertainment rolled out PS4 system software update 14.02 out of nowhere this morning, and it brings some unwelcome “improvements” for the modding/jailbreaking community. As it continues to crack down on PS5 jailbreaks, Sony decided to patch some security exploits and vulnerabilities on the last-gen console, too. PS4 system software update 14.02 patch notes […] The post PS4 Gets Surprise System Update for November 2026 appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T21:10:51+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
  }
 ]
