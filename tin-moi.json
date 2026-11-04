@@ -1,25 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Bao Bao’s Cozy Cleaning Services now available for Switch",
-  "url": "https://www.gematsu.com/2026/10/bao-baos-cozy-cleaning-services-now-available-for-switch",
-  "ngay": "2026-10-28T21:26:10+07:00",
-  "the_loai": [
-   "Switch",
-   "Bao Bao's Cozy Cleaning Services",
-   "Destroyer Doggo",
-   "Game Release",
-   "Nintendo Direct: 2026.10.28",
-   "Release Dates"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Cozy cleaning simulation game Bao Bao’s Cozy Cleaning Services is now available for Switch via …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Lost & Found Co. coming to Switch 2, Switch in early 2027",
   "url": "https://www.gematsu.com/2026/10/lost-found-co-coming-to-switch-2-switch-in-early-2027",
   "ngay": "2026-10-28T21:25:50+07:00",
@@ -3526,5 +3507,17 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Lara Croft's PS1 to PS5 Glow-Up to Be Revealed in Tomb Raider Cover Story",
+  "url": "https://www.pushsquare.com/news/2026/11/lara-crofts-ps1-to-ps5-glow-up-to-be-revealed-in-tomb-raider-cover-story",
+  "ngay": "2026-11-04T19:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Game Informer to share new details. A comprehensive deep dive into the 30-year history of Lara Croft and the Tomb Raider series shall be the focus of next month's Game Informer magazine. Across 18 pages of the upcoming issue, it'll dedicate 12 of them to next year's Tomb Raider: Legacy of Atlantis remake. Then, in another six pages, it's got a retrospective covering the classic franchise. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
