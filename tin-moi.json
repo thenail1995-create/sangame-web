@@ -1,24 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Report: The Elder Scrolls VI subtitled Sentinel",
-  "url": "https://www.gematsu.com/2026/10/report-the-elder-scrolls-vi-subtitled-sentinel",
-  "ngay": "2026-10-29T23:28:03+07:00",
-  "the_loai": [
-   "Industry",
-   "Bethesda Game Studios",
-   "Bethesda Softworks",
-   "RPG",
-   "Rumors",
-   "The Elder Scrolls VI"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The 2018-announced sixth entry in the Elder Scrolls series is officially titled The Elder Scrolls …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Rumour: The Elder Scrolls 6 Reveal as Soon as Next Month, Named Sentinel",
   "url": "https://www.pushsquare.com/news/2026/10/rumour-the-elder-scrolls-6-reveal-as-soon-as-next-month-named-sentinel",
@@ -3297,5 +3278,17 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Poll: Is Phantom Blade Zero Too Hard?",
+  "url": "https://www.pushsquare.com/features/poll-is-phantom-blade-zero-too-hard",
+  "ngay": "2026-11-05T02:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "At the blade's edge. Now that Phantom Blade Zero's been out for a good few days, I thought it'd be interesting to check in on how everyone's finding the experience in terms of difficulty. This has been a constant topic ever since the game was first announced, with onlookers initially questioning whether it would be a hard-as-nails Soulslike. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
