@@ -1,28 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Wild Blue Skies for Switch now available",
-  "url": "https://www.gematsu.com/2026/10/wild-blue-skies-for-switch-now-available",
-  "ngay": "2026-10-29T00:15:47+07:00",
-  "the_loai": [
-   "Switch",
-   "Balor Games",
-   "Chuhai Labs",
-   "Clips",
-   "Game Release",
-   "Release Dates",
-   "Trailers",
-   "VITEI Backroom",
-   "Wild Blue Skies"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The Switch version of on-rails shooter Wild Blue Skies is now available for Switch via …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "EXODUS ‘Liberating the Kay’ mission gameplay",
   "url": "https://www.gematsu.com/2026/10/exodus-liberating-the-kay-mission-gameplay",
   "ngay": "2026-10-29T00:14:29+07:00",
@@ -3614,5 +3592,17 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Secret PS4 Firmware Update 14.02 to Fight New Wave of Piracy, Hacking",
+  "url": "https://www.pushsquare.com/news/2026/11/secret-ps4-firmware-update-14-02-to-fight-new-wave-of-piracy-hacking",
+  "ngay": "2026-11-04T17:15:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Security fixes made to system software. Sony has deployed an unannounced PS4 firmware update in the last couple of hours for its last-gen PS4 console that is designed to combat the current wave of piracy, hacking, and jailbreaks targeting PlayStation consoles. The PS5 has received plenty of system patches in the past few weeks, and now the PS4 is subject to a firmware update. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
