@@ -1,32 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Everything is Crab coming to iOS and Android on November 24; PS5, Xbox Series, Switch 2, and Switch on January 26, 2027",
-  "url": "https://www.gematsu.com/2026/10/everything-is-crab-coming-to-ios-and-android-on-november-24-ps5-xbox-series-switch-2-and-switch-on-january-26-2027",
-  "ngay": "2026-10-28T21:27:31+07:00",
-  "the_loai": [
-   "PS5",
-   "Smartphone",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Clips",
-   "Everything is Crab",
-   "Nintendo Direct: 2026.10.28",
-   "Odd Dreams Digital",
-   "Release Dates",
-   "Secret Mode",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Secret Mode and developer Odd Dreams Digital will release roguelite evolution game Everything is …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T19:40:53+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Bao Bao’s Cozy Cleaning Services now available for Switch",
   "url": "https://www.gematsu.com/2026/10/bao-baos-cozy-cleaning-services-now-available-for-switch",
   "ngay": "2026-10-28T21:26:10+07:00",
@@ -3534,6 +3508,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T19:20:45+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T19:31:06+07:00",
   "the_loai": [
    "PS Store"
   ],
