@@ -865,7 +865,8 @@
    "https://www.playstationlifestyle.net/?p=938495",
    "https://www.playstationlifestyle.net/?p=938499",
    "https://www.playstationlifestyle.net/?p=938502",
-   "https://www.playstationlifestyle.net/?p=938506"
+   "https://www.playstationlifestyle.net/?p=938506",
+   "https://www.playstationlifestyle.net/?p=938508"
   ],
   "billbil": [
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mxjn2i36ss2y",
@@ -923,7 +924,6 @@
    5994,
    5994,
    5994,
-   5994,
    3911,
    3522,
    3522,
@@ -931,6 +931,7 @@
    3522,
    3522,
    3518,
+   3516,
    3516
   ]
  },
@@ -956,38 +957,6 @@
   "Secret Neighbor",
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
- "cho_gui": [
-  {
-   "tin": {
-    "nguon": "PS Plus",
-    "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-    "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-    "ngay": "2026-11-04T23:10:45+07:00",
-    "the_loai": [
-     "PS Store"
-    ],
-    "hot": true,
-    "ly_do_hot": "danh sách game tháng PS Plus đổi",
-    "da_viet": false
-   },
-   "lan": 1
-  },
-  {
-   "tin": {
-    "nguon": "Push Square",
-    "tieu_de": "Mini Review: Godzilla: Destroy All Monsters Melee Remastered (PS5) - Nostalgic Kaiju Brawls in This Fun But Meagre Package",
-    "url": "https://www.pushsquare.com/reviews/ps5/godzilla-destroy-all-monsters-melee-remastered",
-    "ngay": "2026-11-04T23:00:00+07:00",
-    "the_loai": [],
-    "hot": false,
-    "ly_do_hot": "",
-    "da_viet": false,
-    "tom_tat": "Godzilla is approaching the generator, the generator is losing power. Godzilla: Destroy All Monsters Melee was a grand arena brawler in its day, especially if you consider yourself a fan of the king of the monsters. With a fun roster of characters, an impressive array of arenas, and solid gameplay, the title was a kaiju fan's dream. That sentiment is still true with this remaster. Outside of a couple of small tweaks, the core gameplay that was such a success nearly 25 years ago is still intact. Read the full article on pushsquare.com",
-    "goi_y_ps": true,
-    "da_gui_viet": "2026-11-04T23:11:15+07:00"
-   },
-   "lan": 1
-  }
- ],
+ "cho_gui": [],
  "lan_goi_viet": "2026-11-04T23:11:15+07:00"
 }

@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Virtua Fighter Crossroads adds Lionel Rafale",
-  "url": "https://www.gematsu.com/2026/10/virtua-fighter-crossroads-adds-lionel-rafale",
-  "ngay": "2026-10-29T22:06:13+07:00",
-  "the_loai": [
-   "Industry",
-   "Clips",
-   "Fighting Games",
-   "Ryu Ga Gotoku Studio",
-   "Screenshots",
-   "SEGA",
-   "Trailers",
-   "Virtua Fighter Crossroads"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher SEGA and developer RGG Studio have released a new trailer for Virtua Fighter Crossroads …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "The Dark Queen of Mortholme coming to PS5, Xbox Series, and Switch on December 3",
   "url": "https://www.gematsu.com/2026/10/the-dark-queen-of-mortholme-coming-to-ps5-xbox-series-and-switch-on-december-3",
   "ngay": "2026-10-29T21:31:47+07:00",
@@ -3395,5 +3374,29 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS4 DC Action Game Is 90% Off on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/04/lego-dc-super-villains-ps4-deal",
+  "ngay": "2026-11-04T23:10:43+07:00",
+  "the_loai": [
+   "News",
+   "PS4 News, Trophies, Reviews, and More",
+   "DC",
+   "Entertainment and Gaming",
+   "LEGO",
+   "LEGO DC Super-Villains",
+   "PlayStation 4",
+   "PlayStation Store",
+   "PS Store",
+   "PS4",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The PlayStation Store is offering a massive price cut on a PS4 DC action game. Released by Warner Bros. Interactive, LEGO DC Super-Villains is currently 90% off on the PS Store. The action game is a spin-off of the LEGO Batman series, and its price has dropped from its original launch price of $59.99 to […] The post PS4 DC Action Game Is 90% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
