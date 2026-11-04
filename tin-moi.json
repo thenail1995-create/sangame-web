@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Rumour: The Elder Scrolls 6 Reveal as Soon as Next Month, Named Sentinel",
-  "url": "https://www.pushsquare.com/news/2026/10/rumour-the-elder-scrolls-6-reveal-as-soon-as-next-month-named-sentinel",
-  "ngay": "2026-10-29T23:45:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Big reveal might not be far away. Bethesda plans to make Sentinel the subtitle to The Elder Scrolls VI , and it could confirm the full name as soon as next month, says The Verge scribe Tom Warren. In a fresh report, the writer states that \"sources familiar with Bethesda's plans\" indicate The Elder Scrolls VI: Sentinel is the official title, and the announcement could take place in November, when Skyrim turns 15 years old (yes, it really has been that long). Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Assassin's Creed Valhalla Gets New Game+ Patch, More Than Three Years After Its 'Final' Update",
   "url": "https://www.pushsquare.com/news/2026/10/assassins-creed-valhalla-gets-new-gameplus-patch-more-than-three-years-after-its-final-update",
   "ngay": "2026-10-30T01:15:00+07:00",
@@ -3151,7 +3139,8 @@
   "ly_do_hot": "có từ khoá 'Call of Duty'",
   "da_viet": false,
   "tom_tat": "October's top sellers revealed. Sony has released the PS Store download charts for the month of October 2026, and PS5's bestsellers make for interesting reading. Well, sort of. It's no shock to learn that Call of Duty: Modern Warfare 4 has taken the top spot in both North America and Europe, but a touch more surprising is what's going on beneath it. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-05T02:20:57+07:00"
  },
  {
   "nguon": "PS Plus",
@@ -3175,7 +3164,8 @@
   "ly_do_hot": "có từ khoá 'God of War'",
   "da_viet": false,
   "tom_tat": "Lau-May. Developer Santa Monica Studio has just announced its upcoming game, God of War Laufey , has been delayed. Originally planned for release on 16th February 2027, the PS5 exclusive action game will now launch just over three months later on 20th May. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-05T02:20:57+07:00"
  },
  {
   "nguon": "PS Plus",
@@ -3209,7 +3199,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "The team behind a Soulslike currently in development overhauled its combat system. The development team revealed this update in a YouTube devlog. Independent developer CI Games, credited with making Lords of the Fallen, has revealed the major changes made to the sequel. The development series, called Lifting the Veil, gives players and game development enthusiasts […] The post Brutal PS5 Soulslike Doubles Weapon Movesets in Major Combat Overhaul appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-05T02:20:57+07:00"
  },
  {
   "nguon": "PS Plus",
@@ -3241,7 +3232,8 @@
   "ly_do_hot": "có từ khoá 'God of War'",
   "da_viet": false,
   "tom_tat": "Publisher Sony Interactive Entertainment and developer Santa Monica Studio have delayed God of War Laufey …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-05T02:20:57+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3290,5 +3282,18 @@
   "da_viet": false,
   "tom_tat": "At the blade's edge. Now that Phantom Blade Zero's been out for a good few days, I thought it'd be interesting to check in on how everyone's finding the experience in terms of difficulty. This has been a constant topic ever since the game was first announced, with onlookers initially questioning whether it would be a hard-as-nails Soulslike. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS5 Dynamic Pricing Impacts New PS Store Black Friday Offers, Roughly $5 Variations in Prices",
+  "url": "https://www.pushsquare.com/news/2026/11/ps5-dynamic-pricing-impacts-new-ps-store-black-friday-offers-roughly-usd5-variations-in-prices",
+  "ngay": "2026-11-05T02:15:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Three first-party PS5 games seemingly affected. It seems that the dynamic pricing issues Sony is currently experimenting with on the PS Store is impacting what kind of discounts PS5 owners are receiving in today's new PS Store Black Friday sale. With evidence from the Cheap Ass Gamer social media account, there are reports first-party PS5 titles Death Stranding 2 , Astro Bot , and the Complete Edition of Horizon Forbidden West are all affected. Read the full article on pushsquare.com",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-05T02:20:57+07:00"
  }
 ]
