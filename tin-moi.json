@@ -1,45 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "The Dark Queen of Mortholme coming to PS5, Xbox Series, and Switch on December 3",
-  "url": "https://www.gematsu.com/2026/10/the-dark-queen-of-mortholme-coming-to-ps5-xbox-series-and-switch-on-december-3",
-  "ngay": "2026-10-29T21:31:47+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch",
-   "Xbox Series",
-   "Monster Theater",
-   "Mosu",
-   "Rhine Games",
-   "The Dark Queen of Mortholme"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Rhine Games, in cooperation with Monster Theater, will release Mosu-developed side-scrolling action adventure game …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T13:31:12+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Adorable Adventures coming to Switch 2 on November 12",
-  "url": "https://www.gematsu.com/2026/10/adorable-adventures-coming-to-switch-2-on-november-12",
-  "ngay": "2026-10-29T21:27:39+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Adorable Adventures",
-   "PQube",
-   "Release Dates",
-   "Wild Sheep Studio"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher PQube and developer Wild Sheep Studio will release a Switch 2 version of cozy …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "The Duskbloods delayed to 2027",
   "url": "https://www.gematsu.com/2026/10/the-duskbloods-delayed-to-2027",
   "ngay": "2026-10-29T21:06:21+07:00",
@@ -3398,5 +3359,39 @@
   "da_viet": false,
   "tom_tat": "The PlayStation Store is offering a massive price cut on a PS4 DC action game. Released by Warner Bros. Interactive, LEGO DC Super-Villains is currently 90% off on the PS Store. The action game is a spin-off of the LEGO Batman series, and its price has dropped from its original launch price of $59.99 to […] The post PS4 DC Action Game Is 90% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Explosive PS5 Shooter Is Out Today on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/04/void-breaker-ps5-playstation-store-release-november-4",
+  "ngay": "2026-11-04T23:29:18+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "PlayStation 5",
+   "PlayStation Store",
+   "PS5",
+   "Stubby Games",
+   "Video Game News",
+   "Void/Breaker"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A roguelite first-person shooter title has arrived on the PlayStation Store. The post Explosive PS5 Shooter Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T23:31:10+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
  }
 ]
