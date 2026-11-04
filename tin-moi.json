@@ -1,47 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Lost & Found Co. coming to Switch 2, Switch in early 2027",
-  "url": "https://www.gematsu.com/2026/10/lost-found-co-coming-to-switch-2-switch-in-early-2027",
-  "ngay": "2026-10-28T21:25:50+07:00",
-  "the_loai": [
-   "Switch",
-   "Switch 2",
-   "Bit Egg",
-   "Clips",
-   "Lost & Found Co.",
-   "Nintendo Direct: 2026.10.28",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Bit Egg will release hidden object adventure game Lost and Found Co. for Switch 2 …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Floor Plan: Slap Out Of It! adds Switch 2 and Switch versions, launches in spring 2027",
-  "url": "https://www.gematsu.com/2026/10/floor-plan-slap-out-of-it-adds-switch-2-and-switch-versions-launches-in-spring-2027",
-  "ngay": "2026-10-28T21:24:02+07:00",
-  "the_loai": [
-   "PC",
-   "Switch",
-   "Switch 2",
-   "Floor Plan: Slap Out Of It!",
-   "Nintendo Direct: 2026.10.28",
-   "Release Dates",
-   "Turbo Button"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Floor Plan: Slap Out Of It!, a “slap-and-solve adventure” game set in a “slapstick comedy …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Finding Polka coming to Switch in spring 2027",
   "url": "https://www.gematsu.com/2026/10/finding-polka-coming-to-switch-in-spring-2027",
   "ngay": "2026-10-28T21:23:40+07:00",
@@ -3519,5 +3478,31 @@
   "da_viet": false,
   "tom_tat": "Game Informer to share new details. A comprehensive deep dive into the 30-year history of Lara Croft and the Tomb Raider series shall be the focus of next month's Game Informer magazine. Across 18 pages of the upcoming issue, it'll dedicate 12 of them to next year's Tomb Raider: Legacy of Atlantis remake. Then, in another six pages, it's got a retrospective covering the classic franchise. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Bringing Jin Sakai back to life for Ghost of Yōtei: Most Wanted",
+  "url": "https://blog.playstation.com/2026/11/04/bringing-jin-sakai-back-to-life-for-ghost-of-yotei-most-wanted/",
+  "ngay": "2026-11-04T20:00:36+07:00",
+  "the_loai": [
+   "PS5",
+   "Ghost of Yōtei",
+   "Sucker Punch Productions"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Ghost of'",
+  "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Guide: Stellar Blade Guide: A Full 100% Walkthrough",
+  "url": "https://www.pushsquare.com/guides/stellar-blade-guide-a-full-100percent-walkthrough",
+  "ngay": "2026-11-04T16:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "How to rid the world of Naytibas on PS5, PC, and now Switch 2. Stellar Blade is Korean developer Shift Up's console debut, focusing on buxom heroine Eve in her battle against the nefarious Naytibas. Available from 26th April 2024 on PS5, 11th June 2025 on PC, and 5th November 2026 on Switch 2, we awarded the outing an 8/10 in our Stellar Blade review . \"Eve’s inaugural outing is largely excellent across the board, and destined to become a firm favourite among PS5 enthusiasts,\" we concluded. In this Stellar Blade guide , we've included a full walkthrough of all the areas and environments which…",
+  "goi_y_ps": true
  }
 ]
