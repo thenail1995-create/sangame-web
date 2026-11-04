@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Petit Planet launches December 4",
-  "url": "https://www.gematsu.com/2026/10/petit-planet-launches-december-4",
-  "ngay": "2026-10-30T09:08:42+07:00",
-  "the_loai": [
-   "PC",
-   "Smartphone",
-   "Clips",
-   "miHoYo",
-   "Petit Planet",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Cosmic life simulation game Petit Planet will launch for PC via Epic Games Store and …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Seeker Eye adds Switch 2 version, launches February 25, 2027 in Japan",
   "url": "https://www.gematsu.com/2026/10/seeker-eye-adds-switch-2-version-launches-february-25-2027-in-japan",
   "ngay": "2026-10-30T10:32:21+07:00",
@@ -3271,6 +3251,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-05T05:50:46+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-05T06:01:18+07:00",
   "the_loai": [
    "PS Store"
   ],
