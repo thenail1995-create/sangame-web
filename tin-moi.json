@@ -1,39 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Guide: Phantom Blade Zero: Best Weapons and Where to Find Them",
-  "url": "https://www.pushsquare.com/guides/phantom-blade-zero-best-weapons-and-where-to-find-them",
-  "ngay": "2026-10-29T22:45:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "All weapons tested. What are the best weapons in Phantom Blade Zero ? In this guide, I'm going to cover all of the game's weapons, detailing their strengths and weaknesses, while also giving them an overall rating. For the purposes of this guide, I've tested each weapon against both groups of enemies and singular bosses. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-30T10:31:08+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "GTA 6 Makes It Harder to Get Away With Crime With New Tracking Details",
-  "url": "https://www.playstationlifestyle.net/2026/10/29/gta-6-police-crime-tracking-details",
-  "ngay": "2026-10-29T22:45:26+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "Grand Theft Auto VI",
-   "GTA 6",
-   "Rockstar Games",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "A newly revealed GTA 6 feature could make committing crimes more challenging for players. The upcoming open-world game is being developed and published by Rockstar Games. Police behavior in GTA 6 will be more sophisticated than in previous installments of the franchise. In previous games, players could often evade police by breaking away from a […] The post GTA 6 Makes It Harder to Get Away With Crime With New Tracking Details appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T01:01:31+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "X-Men PS5 Game Gets Exciting Update After Marvel’s Wolverine",
   "url": "https://www.playstationlifestyle.net/2026/10/29/x-men-ps5-game-update-insomniac-games-job-listings",
@@ -3319,5 +3285,37 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "God of War Laufey delayed to May 20, 2027",
+  "url": "https://www.gematsu.com/2026/11/god-of-war-laufey-delayed-to-may-20-2027",
+  "ngay": "2026-11-05T00:05:55+07:00",
+  "the_loai": [
+   "PS5",
+   "Delays",
+   "God of War Laufey",
+   "Release Dates",
+   "Santa Monica Studio",
+   "SIE",
+   "SIEA"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'God of War'",
+  "da_viet": false,
+  "tom_tat": "Publisher Sony Interactive Entertainment and developer Santa Monica Studio have delayed God of War Laufey …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "'A Tired Parent Mode': The Witcher 3 Dev Explains the Point of Remaster's Accessibility Options",
+  "url": "https://www.pushsquare.com/news/2026/11/a-tired-parent-mode-the-witcher-3-dev-explains-the-point-of-remasters-accessibility-options",
+  "ngay": "2026-11-05T01:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A Bard's Ballad. One of the biggest additions to The Witcher 3: Wild Hunt Remastered is a suite of accessibility options, letting players tweak various aspects of the game in order to tone down its mechanical friction. When used in conjunction with the game's easier difficulty setting, you can transform Geralt's adventure into a very laid back, story-focused experience. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
