@@ -1,40 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Magical PS5 Life Sim Gets Trailer, Sets Release Date",
-  "url": "https://www.playstationlifestyle.net/2026/10/28/witchbrook-ps5-release-date",
-  "ngay": "2026-10-29T04:05:32+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Chucklefish",
-   "Entertainment and Gaming",
-   "PlayStation",
-   "PlayStation 5",
-   "Video Game News",
-   "Witchbrook"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Fans of a magical life simulation game have received a promising update, with its release date now officially confirmed. The announcement also came with a new trailer offering a glimpse into the game’s magical world ahead of its launch on PlayStation 5. Developed by Chucklefish and Robotality, the magical life simulation game Witchbrook is set […] The post Magical PS5 Life Sim Gets Trailer, Sets Release Date appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T06:31:07+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "This Classic PS1 Star Wars Game Just Got a Neat PS5 Enhancement",
-  "url": "https://www.pushsquare.com/news/2026/10/this-classic-ps1-star-wars-game-just-got-a-neat-ps5-enhancement",
-  "ngay": "2026-10-29T05:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Go back to The Phantom Menace for a Platinum. The video game adaptation of Star Wars: Episode I - The Phantom Menace from the PS1 generation looks to be getting a facelift on PS5 and PS4 in the form of a new Trophy list. When it launched on PS Plus Premium a few years ago, The Phantom Menace came without a set of Trophies. Now, though, Exophase is pulling Trophy lists as of a few hours ago. Expect the ports to be updated with these Trophies in the coming days — and yes, it does have a Platinum Trophy. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T06:31:07+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Kyoto Xanadu demo now available in Japan, Asia",
   "url": "https://www.gematsu.com/2026/10/kyoto-xanadu-demo-now-available-in-japan-asia",
@@ -3639,6 +3604,30 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T15:01:23+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Store",
+  "tieu_de": "PS Store (US) vừa mở đợt giảm giá mới (4599 → 9440 món)",
+  "url": "https://store.playstation.com/en-us/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
+  "ngay": "2026-11-04T15:10:46+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "số món giảm giá tăng 105% so với đỉnh 12 lần gần nhất",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T15:10:46+07:00",
   "the_loai": [
    "PS Store"
   ],
