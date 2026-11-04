@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Silent Hill: Townfall Keeps Changing Difficulty, Patch 1.6 Adds Hard Mode",
-  "url": "https://www.pushsquare.com/news/2026/10/silent-hill-townfall-keeps-changing-difficulty-patch-1-6-adds-hard-mode",
-  "ngay": "2026-10-29T18:45:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Plus more balance changes to general difficulty. Having just adjusted the behaviour of its worst enemy and made a baffling puzzle actually solvable, Silent Hill: Townfall is back with yet another round of changes and updates to its overall difficulty. Update 1.6 is available to download now on PS5, and first and foremost, it adds a hard difficulty mode. The experience already had a tougher difficulty setting in the form of Nightmare Mode, but this new hard mode sits in between that and the normal option. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-29T18:50:47+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "GTA-Inspired PS5 Open World Goes Full Tycoon in Upcoming Update",
   "url": "https://www.pushsquare.com/news/2026/10/gta-inspired-ps5-open-world-goes-full-tycoon-in-upcoming-update",
   "ngay": "2026-10-29T19:30:00+07:00",
@@ -3434,6 +3421,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T21:31:10+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T21:40:48+07:00",
   "the_loai": [
    "PS Store"
   ],
