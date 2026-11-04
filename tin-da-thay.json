@@ -390,7 +390,6 @@
    "https://www.gematsu.com/?p=1087178"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-207451",
    "https://www.pushsquare.com/#article-207429",
    "https://www.pushsquare.com/#article-207438",
    "https://www.pushsquare.com/#article-207428",
@@ -689,7 +688,8 @@
    "https://www.pushsquare.com/#article-208517",
    "https://www.pushsquare.com/#article-208614",
    "https://www.pushsquare.com/#article-208616",
-   "https://www.pushsquare.com/#article-208619"
+   "https://www.pushsquare.com/#article-208619",
+   "https://www.pushsquare.com/#article-208578"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -924,14 +924,14 @@
    5994,
    5994,
    5994,
-   5994,
    3911,
    3522,
    3522,
    3522,
    3522,
    3522,
-   3518
+   3518,
+   3516
   ]
  },
  "extra_ds": {
@@ -951,11 +951,43 @@
   ]
  },
  "plus_thang": [
-  "EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5)",
-  "F1® 25",
-  "Hunt: Showdown 1896",
-  "Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows"
+  "Dead Island 2",
+  "Monster Train 2",
+  "Secret Neighbor",
+  "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
- "cho_gui": [],
- "lan_goi_viet": "2026-11-04T20:10:46+07:00"
+ "cho_gui": [
+  {
+   "tin": {
+    "nguon": "PS Plus",
+    "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+    "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+    "ngay": "2026-11-04T23:10:45+07:00",
+    "the_loai": [
+     "PS Store"
+    ],
+    "hot": true,
+    "ly_do_hot": "danh sách game tháng PS Plus đổi",
+    "da_viet": false
+   },
+   "lan": 1
+  },
+  {
+   "tin": {
+    "nguon": "Push Square",
+    "tieu_de": "Mini Review: Godzilla: Destroy All Monsters Melee Remastered (PS5) - Nostalgic Kaiju Brawls in This Fun But Meagre Package",
+    "url": "https://www.pushsquare.com/reviews/ps5/godzilla-destroy-all-monsters-melee-remastered",
+    "ngay": "2026-11-04T23:00:00+07:00",
+    "the_loai": [],
+    "hot": false,
+    "ly_do_hot": "",
+    "da_viet": false,
+    "tom_tat": "Godzilla is approaching the generator, the generator is losing power. Godzilla: Destroy All Monsters Melee was a grand arena brawler in its day, especially if you consider yourself a fan of the king of the monsters. With a fun roster of characters, an impressive array of arenas, and solid gameplay, the title was a kaiju fan's dream. That sentiment is still true with this remaster. Outside of a couple of small tweaks, the core gameplay that was such a success nearly 25 years ago is still intact. Read the full article on pushsquare.com",
+    "goi_y_ps": true,
+    "da_gui_viet": "2026-11-04T23:11:15+07:00"
+   },
+   "lan": 1
+  }
+ ],
+ "lan_goi_viet": "2026-11-04T23:11:15+07:00"
 }
