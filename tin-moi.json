@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "PlayStation Plus Monthly Games lineup for November 2026 announced",
-  "url": "https://www.gematsu.com/2026/10/playstation-plus-monthly-games-lineup-for-november-2026-announced",
-  "ngay": "2026-10-28T22:30:27+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "PlayStation Plus",
-   "SIE",
-   "SIEA",
-   "SIEE",
-   "SIEJA"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false,
-  "tom_tat": "Sony Interactive Entertainment has announced the November 2026 Monthly Games lineup for PlayStation Plus Essential …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T09:31:30+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "AYAKASHI Fishing Folktails coming west in mid-2027",
   "url": "https://www.gematsu.com/2026/10/ayakashi-fishing-folktails-coming-west-in-mid-2027",
   "ngay": "2026-10-28T22:30:23+07:00",
@@ -3586,6 +3565,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T17:31:08+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T17:40:50+07:00",
   "the_loai": [
    "PS Store"
   ],
