@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "'It Hasn't Made Any Difference': Gears of War PS5 Cancellation Fails to Boost Xbox",
-  "url": "https://www.pushsquare.com/news/2026/10/it-hasnt-made-any-difference-gears-of-war-ps5-cancellation-fails-to-boost-xbox",
-  "ngay": "2026-10-30T02:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "\"In fact, it keeps getting worse\". During its summer livestream earlier in the year, Xbox CEO Asha Sharma made a big song and dance about her company’s return to console exclusivity. Many first-party titles, like Halo: Campaign Evolved , released on the PS5 under previous boss Phil Spencer’s leadership. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T07:20:48+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Free PS5 Upgrade for Popular PS4 FPS Games Is Available Now",
   "url": "https://www.playstationlifestyle.net/2026/10/29/metro-redux-free-ps5-upgrade",
@@ -3291,5 +3278,17 @@
   "da_viet": false,
   "tom_tat": "Cozy life simulation game Pokemon Pokopia paid downloadable content “Expansion Pass Part 2: Dazzling Decorations” …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-05T03:10:42+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
  }
 ]
