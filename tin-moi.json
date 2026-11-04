@@ -1,28 +1,6 @@
 [
  {
   "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS5 Pro Overlooked by Sony Yet Again, Players Upset",
-  "url": "https://www.playstationlifestyle.net/2026/10/29/no-ps5-pro-support-for-covers-upsets-players",
-  "ngay": "2026-10-29T20:47:44+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "PlayStation 5 Pro",
-   "PS5 Pro",
-   "Sony Interactive Entertainment",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS5 Pro'",
-  "da_viet": false,
-  "tom_tat": "PS5 Pro players are criticizing Sony after it emerged that its new Prism Collection won’t support the pricey hardware. PS5 Pro-compatible console covers are few and far between, with the upgraded hardware mainly getting a few limited-edition covers since launch. Players lament lack of PS5 Pro support when it comes to accessories Revealed yesterday, the […] The post PS5 Pro Overlooked by Sony Yet Again, Players Upset appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T21:50:54+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
   "tieu_de": "Hit PS5 Action Game Is Dirt Cheap on PS Store, DLC Included",
   "url": "https://www.playstationlifestyle.net/2026/10/29/metro-exodus-ps-store-deal-october-2026",
   "ngay": "2026-10-29T21:12:10+07:00",
@@ -3437,5 +3415,17 @@
   "da_viet": false,
   "tom_tat": "Narrative adventure game Wonderfall will launch for PC via Steam on December 9, developer Attaboy …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T22:11:25+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
  }
 ]
