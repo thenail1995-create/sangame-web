@@ -1,39 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Lilac coming to Switch on November 5",
-  "url": "https://www.gematsu.com/2026/10/lilac-coming-to-switch-on-november-5",
-  "ngay": "2026-10-29T10:31:10+07:00",
-  "the_loai": [
-   "Switch",
-   "Bushiroad Games",
-   "Clips",
-   "Frontwing",
-   "Lilac: side Witch",
-   "Release Dates",
-   "Trailers",
-   "Visual Novel"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Bushiroad Games and developer Frontwing will release magical school-set fantasy visual novels Lilac: side …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "New GTA 6 Gameplay, Screenshots, Details Revealed as PS5 Launch Nears",
-  "url": "https://www.pushsquare.com/news/2026/10/new-gta-6-gameplay-screenshots-details-revealed-as-ps5-launch-nears",
-  "ngay": "2026-10-29T16:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "GTA 6 briefly appears in South Park. In exactly three weeks' time, GTA 6 will be out on PS5. You have probably already seen enough to know whether you are playing it or not (and we have got details on the GTA 6 release times and preload date ), but for anyone still on the fence, Rockstar has even more gameplay, screenshots, and gameplay details to entice. First of all, the game appeared in South Park (yes, really). As seen in the video below, a TV presenter shows off the game and how you can throw dog poo at people you walk past. It's actual GTA 6 gameplay inside the animated TV show: Read the…",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-29T18:50:47+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Silent Hill: Townfall Keeps Changing Difficulty, Patch 1.6 Adds Hard Mode",
   "url": "https://www.pushsquare.com/news/2026/10/silent-hill-townfall-keeps-changing-difficulty-patch-1-6-adds-hard-mode",
@@ -3434,6 +3400,40 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T21:20:48+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Games Leaving PS Plus in December May Include Day-One Hit",
+  "url": "https://www.playstationlifestyle.net/2026/11/04/games-leaving-ps-plus-december-2026-predictions",
+  "ngay": "2026-11-04T21:25:24+07:00",
+  "the_loai": [
+   "News",
+   "PlayStation Plus News - PS4, PS3, PS Vita",
+   "PS4 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "PlayStation Plus",
+   "PS Plus",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "In the coming weeks, Sony will reveal the full list of games leaving PS Plus Extra and Premium in December 2026, and we’re back with our monthly predictions for upcoming departures based on the service’s pattern. Those who still haven’t started last year’s day-one drop, Skate Story, are advised to do so now. Games expected […] The post Games Leaving PS Plus in December May Include Day-One Hit appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T21:31:10+07:00",
   "the_loai": [
    "PS Store"
   ],
