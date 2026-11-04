@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Meccha Chameleon version 4.2.0 update now available, adds ‘Team Battle’ mode and more",
-  "url": "https://www.gematsu.com/2026/10/meccha-chameleon-version-4-2-0-update-now-available-adds-team-battle-mode-and-more",
-  "ngay": "2026-10-28T21:19:21+07:00",
-  "the_loai": [
-   "PC",
-   "Switch 2",
-   "Clips",
-   "LEMORION",
-   "Meccha Chameleon",
-   "Nintendo Direct: 2026.10.28",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "LEMORION has released the version 4.2.0 update for multiplayer hide-and-seek game Meccha Chameleon, which adds …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "(For Southeast Asia) First look inside the Prism Collection, with three new transparent designs for PS5 accessories",
   "url": "https://blog.playstation.com/2026/10/28/20261029-ps5/",
@@ -3462,5 +3442,17 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "First Phantom Blade Zero PS5 Update Makes an Early, Deadly Boss Easier",
+  "url": "https://www.pushsquare.com/news/2026/11/first-phantom-blade-zero-ps5-update-makes-an-early-deadly-boss-easier",
+  "ngay": "2026-11-04T20:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Hua, Deadly Betrothed nerfed in PS5 patch. S-GAME has today published the first major Phantom Blade Zero update for PS5 and PC, available to download now on both platforms. It's a relatively normal list of updates and tweaks, comprising bug fixes and adjustments — until you see that one of the game's earlier bosses has been nerfed a touch. Hua, Deadly Bethrothed, an optional boss fight in the first main Weeping Creek Valley region, has had her grab attacks made less frequent. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
