@@ -1,54 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Famitsu Sales: 10/19/26 – 10/25/26",
-  "url": "https://www.gematsu.com/2026/10/famitsu-sales-10-19-26-10-25-26",
-  "ngay": "2026-10-29T20:05:55+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Call of Duty: Modern Warfare 4",
-   "Famitsu",
-   "Famitsu Sales",
-   "Final Fantasy Resonance",
-   "Japan",
-   "Nintendo Switch Sports Resort",
-   "One Piece: Grand Gourmet",
-   "Sales"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Final Fantasy'",
-  "da_viet": false,
-  "tom_tat": "Famitsu has published its estimated physical game software data for Japan for the week of …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T04:10:50+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "D.C.5 ~Da Capo 5~ Future Link coming to PS4, Switch on February 25, 2027 in Japan",
-  "url": "https://www.gematsu.com/2026/10/d-c-5-da-capo-5-future-link-coming-to-ps4-switch-on-february-25-2027-in-japan",
-  "ngay": "2026-10-29T18:30:24+07:00",
-  "the_loai": [
-   "PS4",
-   "Switch",
-   "CIRCUS",
-   "D.C.5 ~Da Capo 5~ Future Link",
-   "Entergram",
-   "Japan",
-   "Release Dates",
-   "Visual Novel"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Entergram will release CIRCUS-developed school romance visual novel D.C.5 ~Da Capo 5~ Future Link for …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T13:31:12+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Fate/EXTRA Record characters trailer – ALICE",
   "url": "https://www.gematsu.com/2026/10/fate-extra-record-characters-trailer-alice",
   "ngay": "2026-10-29T18:00:56+07:00",
@@ -3349,6 +3301,30 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-05T00:10:49+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS5 Exclusive God of War Laufey Has Officially Been Delayed by Three Months",
+  "url": "https://www.pushsquare.com/news/2026/11/ps5-exclusive-god-of-war-laufey-has-officially-been-delayed-by-three-months",
+  "ngay": "2026-11-05T00:15:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'God of War'",
+  "da_viet": false,
+  "tom_tat": "Lau-May. Developer Santa Monica Studio has just announced its upcoming game, God of War Laufey , has been delayed. Originally planned for release on 16th February 2027, the PS5 exclusive action game will now launch just over three months later on 20th May. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-05T00:20:48+07:00",
   "the_loai": [
    "PS Store"
   ],
