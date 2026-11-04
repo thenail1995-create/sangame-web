@@ -1,51 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Grand Theft Auto VI: Original Score launches December 11",
-  "url": "https://www.gematsu.com/2026/10/grand-theft-auto-vi-original-score-launches-december-11",
-  "ngay": "2026-10-29T20:24:25+07:00",
-  "the_loai": [
-   "PS5",
-   "Xbox Series",
-   "Grand Theft Auto VI",
-   "Release Dates",
-   "Rockstar Games",
-   "Rockstar North"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Rockstar Games will release the Grand Theft Auto VI: Original Score by French electronic duo …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T01:01:31+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "The Grimm Reapress and the Drearytale Monster launches May 13, 2027 in the west",
-  "url": "https://www.gematsu.com/2026/10/the-grimm-reapress-and-the-drearytale-monster-launches-may-13-2027-in-the-west",
-  "ngay": "2026-10-29T20:17:49+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Clips",
-   "Nippon Ichi Software",
-   "NIS America",
-   "Release Dates",
-   "Screenshots",
-   "The Grimm Reapress and the Drearytale Monster",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "NIS America will release storybook adventure game The Grimm Reapress and the Drearytale Monster for …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T01:01:31+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Famitsu Sales: 10/19/26 – 10/25/26",
   "url": "https://www.gematsu.com/2026/10/famitsu-sales-10-19-26-10-25-26",
   "ngay": "2026-10-29T20:05:55+07:00",
@@ -3370,6 +3325,30 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-05T00:01:27+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Early Access PS5 Racer Outperforms Every October Release Apart from Call of Duty",
+  "url": "https://www.pushsquare.com/news/2026/11/early-access-ps5-racer-outperforms-every-october-release-apart-from-call-of-duty",
+  "ngay": "2026-11-05T00:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Call of Duty'",
+  "da_viet": false,
+  "tom_tat": "October's top sellers revealed. Sony has released the PS Store download charts for the month of October 2026, and PS5's bestsellers make for interesting reading. Well, sort of. It's no shock to learn that Call of Duty: Modern Warfare 4 has taken the top spot in both North America and Europe, but a touch more surprising is what's going on beneath it. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-05T00:10:49+07:00",
   "the_loai": [
    "PS Store"
   ],
