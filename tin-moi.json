@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Crimson Desert's Huge DLC, Charting the Unknown, Out Now on PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/crimson-deserts-huge-dlc-charting-the-unknown-out-now-on-ps5",
-  "ngay": "2026-10-30T05:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'out now'",
-  "da_viet": false,
-  "tom_tat": "Priced at £19.99 / $24.99. If Crimson Desert and all its post-launch additions weren't already enough, studio Pearl Abyss has released a mammoth expansion in Charting the Unknown , available now on PS5 for £19.99 / $24.99. You can catch the new launch trailer for the expansion above. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-30T07:20:48+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Resonance of Fate Enhanced Remaster now available for PS5, PC",
   "url": "https://www.gematsu.com/2026/10/resonance-of-fate-enhanced-remaster-now-available-for-ps5-pc",
@@ -3287,5 +3274,17 @@
   "da_viet": false,
   "tom_tat": "A PS5 action-adventure game has added an Uncharted-themed item that players must earn through gameplay. As revealed on X by The Last of Us account, The Last of Us II will reward players for completing the game with two Uncharted skins for two key characters. As shown in the highlight, players who complete the celebrated […] The post PS5 Action-Adventure Game’s Remaster Adds Uncharted Outfits You Have to Earn appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-05T04:50:44+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
  }
 ]
