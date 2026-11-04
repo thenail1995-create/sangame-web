@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "No New Assassin's Creed Remakes in the Works at Ubisoft",
-  "url": "https://www.pushsquare.com/news/2026/10/no-new-assassins-creed-remakes-in-the-works-at-ubisoft",
-  "ngay": "2026-10-30T03:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "But doesn't rule them out in the future. After the success of Assassin's Creed: Black Flag Resynced , publisher Ubisoft has confirmed it currently does not have any other remakes of previous entries in the series in development. As of mid-July 2026, we knew Black Flag Resynced had sold three million copies , and the number will have only gone up since then. It was deemed a big success, and the rumours were that Ubisoft was determining whether to create further remakes based on its sales stats. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Remake of Popular PSP Adventure Game Out Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/29/steins-gate-reboot-ps5-switch-2-new-gamma-worldline",
@@ -3289,5 +3277,17 @@
   "da_viet": false,
   "tom_tat": "PS5 fans can finally enjoy a beautiful action RPG more than a year after its original launch. Developed by Netmarble Neo and published by Netmarble, the game is now out on the PlayStation Store. Solo Leveling: Arise Overdrive is now available for PlayStation 5 owners on the PS Store. The role-playing game first launched last […] The post Gorgeous PS5 Action RPG Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-05T03:50:46+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
  }
 ]
