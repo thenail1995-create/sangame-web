@@ -1,24 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "The Duskbloods delayed to 2027",
-  "url": "https://www.gematsu.com/2026/10/the-duskbloods-delayed-to-2027",
-  "ngay": "2026-10-29T21:06:21+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Delays",
-   "FromSoftware",
-   "Release Dates",
-   "The Duskbloods"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "FromSoftware has delayed player-versus-player-versus-environment-based multiplayer action game The Duskbloods from its previously planned 2026 release …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Gothic Remake ‘Feature Update 1’ now available, adds Photo Mode and more",
   "url": "https://www.gematsu.com/2026/10/gothic-remake-feature-update-1-now-available-adds-photo-mode-and-more",
   "ngay": "2026-10-29T21:02:32+07:00",
@@ -3387,6 +3369,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T23:31:10+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T23:40:45+07:00",
   "the_loai": [
    "PS Store"
   ],
