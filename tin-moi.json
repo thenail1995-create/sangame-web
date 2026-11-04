@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Seeker Eye adds Switch 2 version, launches February 25, 2027 in Japan",
-  "url": "https://www.gematsu.com/2026/10/seeker-eye-adds-switch-2-version-launches-february-25-2027-in-japan",
-  "ngay": "2026-10-30T10:32:21+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Clips",
-   "Horror",
-   "Japan",
-   "MAGES.",
-   "Release Dates",
-   "Seeker Eye",
-   "Trailers",
-   "Visual Novel"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "“Non-science” occult suspense visual novel Seeker Eye will launch for PlayStation 5, Switch 2, and …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T13:31:12+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Death Stranding Isolations Anime TV Series Gets First Trailer, Out in 2027",
   "url": "https://www.pushsquare.com/news/2026/10/death-stranding-isolations-anime-tv-series-gets-first-trailer-out-in-2027",
@@ -3269,5 +3244,25 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Gripping PS5 Pro Enhanced Action-Adventure Game Is 85% Off on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/04/control-ultimate-edition-ps5-pro-85-percent-off",
+  "ngay": "2026-11-05T06:26:09+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Control Ultimate Edition",
+   "Entertainment and Gaming",
+   "PlayStation 5",
+   "PlayStation Store",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS5 Pro'",
+  "da_viet": false,
+  "tom_tat": "A PlayStation 5 action-adventure game is available on the PlayStation Store at a massive discount. The post Gripping PS5 Pro Enhanced Action-Adventure Game Is 85% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
