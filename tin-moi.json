@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Leaf Blower Co. for PS5, Xbox Series launches November 13",
-  "url": "https://www.gematsu.com/2026/10/leaf-blower-co-for-ps5-xbox-series-launches-november-13",
-  "ngay": "2026-10-29T23:51:48+07:00",
-  "the_loai": [
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Forklift Interactive",
-   "Leaf Blower Co.",
-   "LifT Games",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Leaf blowing simulation game Leaf Blower Co. will launch for PlayStation 5 and Xbox Series …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T04:10:50+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "'It Hasn't Made Any Difference': Gears of War PS5 Cancellation Fails to Boost Xbox",
   "url": "https://www.pushsquare.com/news/2026/10/it-hasnt-made-any-difference-gears-of-war-ps5-cancellation-fails-to-boost-xbox",
@@ -3293,5 +3271,25 @@
   "hot": true,
   "ly_do_hot": "danh sách game tháng PS Plus đổi",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Pokemon Pokopia DLC ‘Expansion Pass Part 2: Dazzling Decorations’ launches December 9",
+  "url": "https://www.gematsu.com/2026/11/pokemon-pokopia-dlc-expansion-pass-part-2-dazzling-decorations-launches-december-9",
+  "ngay": "2026-11-04T21:05:20+07:00",
+  "the_loai": [
+   "Switch 2",
+   "DLC",
+   "Game Freak",
+   "Koei Tecmo",
+   "Pokemon (series)",
+   "Pokemon Pokopia",
+   "Release Dates"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Cozy life simulation game Pokemon Pokopia paid downloadable content “Expansion Pass Part 2: Dazzling Decorations” …",
+  "goi_y_ps": false
  }
 ]
