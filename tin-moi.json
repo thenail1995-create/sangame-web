@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Solo Leveling: Arise Overdrive Brings the Hit Webtoon to PS5 Next Week",
-  "url": "https://www.pushsquare.com/news/2026/10/solo-leveling-arise-overdrive-brings-the-hit-webtoon-to-ps5-next-week",
-  "ngay": "2026-10-29T03:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Did it level up? November’s release schedule is starting to fill out, and NetMarble has quietly added another title to the calendar: its action RPG adaptation of the hit Korean webtoon, Solo Leveling: Arise Overdrive . Already available on PC, this is a retelling of the original material – with some bonus scenarios for good measure. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-29T06:31:07+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Dark PS5 Sci-Fi Game’s DLC Sets Release Date on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/28/cronos-lazarus-ps5-dlc-release-date",
@@ -3652,6 +3639,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T14:31:05+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T14:40:45+07:00",
   "the_loai": [
    "PS Store"
   ],
