@@ -1,29 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Gothic Remake ‘Feature Update 1’ now available, adds Photo Mode and more",
-  "url": "https://www.gematsu.com/2026/10/gothic-remake-feature-update-1-now-available-adds-photo-mode-and-more",
-  "ngay": "2026-10-29T21:02:32+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Alkimia Interactive",
-   "Clips",
-   "Gothic Remake",
-   "RPG",
-   "THQ Nordic",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher THQ Nordic and developer Alkimia Interactive have released the first features update for Gothic …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T13:31:12+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Grand Theft Auto VI: Original Score launches December 11",
   "url": "https://www.gematsu.com/2026/10/grand-theft-auto-vi-original-score-launches-december-11",
   "ngay": "2026-10-29T20:24:25+07:00",
@@ -3381,6 +3358,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T23:40:45+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-05T00:01:27+07:00",
   "the_loai": [
    "PS Store"
   ],
