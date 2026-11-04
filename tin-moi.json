@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Resonance of Fate Enhanced Remaster now available for PS5, PC",
-  "url": "https://www.gematsu.com/2026/10/resonance-of-fate-enhanced-remaster-now-available-for-ps5-pc",
-  "ngay": "2026-10-30T07:15:42+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Game Release",
-   "Resonance of Fate 4K/HD Edition",
-   "RPG",
-   "tri-Ace"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "tri-Ace has announced Resonance of Fate Enhanced Remaster for PlayStation 5 and PC (Steam). It …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T07:20:48+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Death Stranding Isolations teaser trailer, first details",
   "url": "https://www.gematsu.com/2026/10/death-stranding-isolations-teaser-trailer-first-details",
   "ngay": "2026-10-30T08:40:14+07:00",
@@ -3280,6 +3260,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-05T04:50:44+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-05T05:01:17+07:00",
   "the_loai": [
    "PS Store"
   ],
