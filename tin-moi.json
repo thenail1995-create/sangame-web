@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Legendary Singer Thought GTA 6 Is a TV Show Despite Being Part of Its Soundtrack",
-  "url": "https://www.playstationlifestyle.net/2026/10/28/gta-6-legendary-singer-surprise-appearance",
-  "ngay": "2026-10-29T03:01:11+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Cliff Richard",
-   "CrossPost",
-   "Entertainment and Gaming",
-   "Grand Theft Auto VI",
-   "GTA 6",
-   "Rockstar Games",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "A legendary singer has a surprising misunderstanding about GTA 6, despite having a song featured in the game. The musician thought the highly anticipated title was a TV game show. Cliff Richard‘s 1976 hit “Devil Woman” was featured in the GTA VI: An Extended Look presentation. It was also featured in the game’s extended look, […] The post Legendary Singer Thought GTA 6 Is a TV Show Despite Being Part of Its Soundtrack appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T03:25:50+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Alien Isolation 2's PS5 Release Window May Have Been Narrowed",
   "url": "https://www.pushsquare.com/news/2026/10/alien-isolation-2s-ps5-release-window-may-have-been-narrowed",
@@ -3053,7 +3030,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Many titles getting an additional $1 million. While the vast majority of its four million sales have no doubt been made on PC, Sony’s enjoying a big win with the console exclusive Phantom Blade Zero right now. And at a press conference in Shanghai earlier today, it recommitted to its ongoing China Hero Project, which is now in its fourth phase. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-04T14:01:22+07:00"
  },
  {
   "nguon": "PlayStation Blog",
@@ -3102,7 +3080,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Nowhere to be seen on PlayStation Direct. Sony may be taking steps to wind down sales of its PSVR2 headset, as it's been spotted that the VR device is no longer being sold through some of its official regional outlets and at third-party retailers. For a few weeks now, fans have been picking up on the fact PSVR2 no longer appears on the official PlayStation Direct website in the USA. I did a search of the website today, and the headset is nowhere to be seen. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-04T14:01:22+07:00"
  },
  {
   "nguon": "PS Store",
@@ -3207,7 +3186,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Bethesda unveils its next RPG. It's official: The Elder Scrolls 6: Sentinel is the full title of Bethesda's next open world RPG. The subtitle has been announced as part of the developer's 40th anniversary celebrations. Confirmation comes via a very brief trailer at the end of the company's new video, which you can watch below. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-04T14:01:22+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3634,7 +3614,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Happinet Corporation and developer Adglobe have released the first update for fantasy war strategy …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-04T14:01:22+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3657,7 +3638,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Capcom has announced a collaboration with manga series Delicious in Dungeon for Dragon’s Dogma II: Dark …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-04T14:01:22+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3676,5 +3658,17 @@
   "da_viet": false,
   "tom_tat": "Immersive art adventure game CaTHaRSiS: The last of atelier will launch for PC via Steam …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T14:01:22+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
  }
 ]
