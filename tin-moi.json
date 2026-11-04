@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Golf Has Never Been More Chaotic Than in This Viral Multiplayer Hit, Coming to PS5 in 2027",
-  "url": "https://www.pushsquare.com/news/2026/10/golf-has-never-been-more-chaotic-than-in-this-viral-multiplayer-hit-coming-to-ps5-in-2027",
-  "ngay": "2026-10-29T02:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Super Battle Golf coming to consoles. You may have missed this game earlier in the year, but over in PC Land, a multiplayer title named Super Battle Golf made quite an impact back in February. Well, it's finally making its way to consoles; the game is hitting up PS5 on 25th March, 2027. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T15:50:46+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Legendary Singer Thought GTA 6 Is a TV Show Despite Being Part of Its Soundtrack",
   "url": "https://www.playstationlifestyle.net/2026/10/28/gta-6-legendary-singer-surprise-appearance",
@@ -3670,6 +3657,24 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Capcom has announced a collaboration with manga series Delicious in Dungeon for Dragon’s Dogma II: Dark …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "CaTHaRSiS: The last of atelier launches December 1",
+  "url": "https://www.gematsu.com/2026/11/catharsis-the-last-of-atelier-launches-december-1",
+  "ngay": "2026-11-04T10:05:47+07:00",
+  "the_loai": [
+   "PC",
+   "CaTHaRSiS: The last of atelier",
+   "Kodansha",
+   "Mana (company)",
+   "Release Dates"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Immersive art adventure game CaTHaRSiS: The last of atelier will launch for PC via Steam …",
   "goi_y_ps": false
  }
 ]
