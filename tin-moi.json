@@ -1,29 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "RACCOIN: Chaos Max Edition for PS5, Xbox Series, and Switch 2 launches November 10",
-  "url": "https://www.gematsu.com/2026/10/raccoin-chaos-max-edition-for-ps5-xbox-series-and-switch-2-launches-november-10",
-  "ngay": "2026-10-28T21:21:16+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Clips",
-   "Doraccoon",
-   "Nintendo Direct: 2026.10.28",
-   "RACCOIN: Coin Pusher Roguelike",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Publisher Playstack and developer Doraccoon will release roguelike deckbuilder RACCOIN: Chaos Max Edition for PlayStation …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-29T12:40:50+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Petal Runner adds Switch 2 version, launches March 8, 2027",
   "url": "https://www.gematsu.com/2026/10/petal-runner-adds-switch-2-version-launches-march-8-2027",
   "ngay": "2026-10-28T21:20:16+07:00",
@@ -3479,6 +3456,18 @@
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T20:10:46+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "danh sách game tháng PS Plus đổi",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Plus",
+  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
+  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
+  "ngay": "2026-11-04T20:20:46+07:00",
   "the_loai": [
    "PS Store"
   ],
