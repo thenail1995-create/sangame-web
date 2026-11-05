@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Honkai: Star Rail version 4.7 update ‘Now, Lay Laughter to All Stars’ launches November 11",
-  "url": "https://www.gematsu.com/2026/10/honkai-star-rail-version-4-7-update-now-lay-laughter-to-all-stars-launches-november-11",
-  "ngay": "2026-10-30T20:18:21+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Smartphone",
-   "Clips",
-   "Honkai: Star Rail",
-   "miHoYo",
-   "Release Dates",
-   "RPG",
-   "Screenshots",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "The version 4.7 update for Honkai: Star Rail, dubbed “Now, Lay Laughter to All Stars,” …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-30T22:50:51+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5, PS4 Action Game Series Being Delisted, Last Chance to Buy",
   "url": "https://www.playstationlifestyle.net/2026/10/30/ps5-ps4-action-game-street-outlaws-delisted",
@@ -3284,6 +3260,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Nintendo Switch 2 has sold 26.35 million units and Switch has sold 157.20 million units …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "PS5 shipments top 97.9 million, Marvel’s Wolverine tops 2.4 million",
+  "url": "https://www.gematsu.com/2026/11/ps5-shipments-top-97-9-million-marvels-wolverine-tops-2-4-million",
+  "ngay": "2026-11-05T13:44:41+07:00",
+  "the_loai": [
+   "PS5",
+   "Marvel's Wolverine",
+   "PlayStation 5",
+   "Sales",
+   "SIE",
+   "SIEA",
+   "SIEE",
+   "SIEJA"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Marvel'",
+  "da_viet": false,
+  "tom_tat": "PlayStation 5 has shipped 97.9 million units worldwide, Sony announced in its financial results for …",
   "goi_y_ps": false
  }
 ]
