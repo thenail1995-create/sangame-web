@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Quirky RPG Resonance of Fate Is Back with an 'Enhanced Remaster' for PS5",
-  "url": "https://www.pushsquare.com/news/2026/10/quirky-rpg-resonance-of-fate-is-back-with-an-enhanced-remaster-for-ps5",
-  "ngay": "2026-10-30T18:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "$10 upgrade for current PS4 owners. Who had the PS3 role-playing game Resonance of Fate receiving a second remaster for PS5 on their 2026 bingo card? Having already been enhanced on PS4, the quirky RPG has been treated to an \"enhanced remaster\", out today on PS5. This latest version features two additional enhancements over the PS4 remaster: even better graphics and the ability to play it at double the speed. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-30T19:40:53+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "The Wolf Among Us Remastered Hit with PS5 Upgrade Pricing Issues",
   "url": "https://www.pushsquare.com/news/2026/10/the-wolf-among-us-remastered-hit-with-ps5-upgrade-pricing-issues",
   "ngay": "2026-10-30T19:30:00+07:00",
@@ -3268,6 +3255,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "$35 for the t-shirt, $65 for the hoodie. You won't play The Elder Scrolls VI: Sentinel for at least another two years, Bloomberg journalist Jason Schreier claims , but that's not stopping Bethesda from selling you something today: merchandise. Yes, not a single second of gameplay — or any actual footage of the RPG whatsoever — has been made public. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Honkai: Nexus Anima launches in spring 2027; final closed beta test begins November 25",
+  "url": "https://www.gematsu.com/2026/11/honkai-nexus-anima-launches-in-spring-2027-final-closed-beta-test-begins-november-25",
+  "ngay": "2026-11-05T11:20:01+07:00",
+  "the_loai": [
+   "PC",
+   "Smartphone",
+   "Clips",
+   "Honkai: Nexus Anima",
+   "miHoYo",
+   "RPG",
+   "Screenshots",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Open-world creature-catching adventure RPG Honkai: Nexus Anima will launch for PC, iOS, and Android in …",
   "goi_y_ps": false
  }
 ]
