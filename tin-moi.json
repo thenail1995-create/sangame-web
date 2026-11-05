@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Poll: Are You Happy with Your PS Plus Essential Games for November 2026?",
-  "url": "https://www.pushsquare.com/features/poll-are-you-happy-with-your-ps-plus-essential-games-for-november-2026",
-  "ngay": "2026-11-01T01:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS Plus'",
-  "da_viet": false,
-  "tom_tat": "Plus or minus? November's PS Plus Essential games were revealed earlier this week, and I think it's quite an interesting selection. That's because all three games offer something completely different. We've got a fairly big-name headliner, a collection of remastered adventures, and a highly-rated indie on our hands. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-01T01:21:52+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Rumor: Persona remake footage appears online",
   "url": "https://www.gematsu.com/2026/10/rumor-persona-remake-footage-appears-online",
@@ -3247,5 +3234,17 @@
   "da_viet": false,
   "tom_tat": "Wild West-themed turn-based strategy game sequel Hard West II will launch for PlayStation 5 and …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "There's Demand to Remake Final Fantasy 6 from Within Square Enix, Says Series Boss",
+  "url": "https://www.pushsquare.com/news/2026/11/theres-demand-to-remake-final-fantasy-6-from-within-square-enix-says-series-boss",
+  "ngay": "2026-11-06T01:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Final Fantasy'",
+  "da_viet": false,
+  "tom_tat": "A Terra-ble idea? Could a remake of Final Fantasy 6 happen at some point? The idea's been floating around for a while, but we're now, apparently, at a point where Square Enix employees want to see it. This is according to series veteran and current brand manager Yoshinori Kitase, who specifically notes that there's an internal demand for said remake while speaking to IGN . Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
