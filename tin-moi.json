@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Rumour: Alleged Persona 1 Remake Gameplay Leaks Online",
-  "url": "https://www.pushsquare.com/news/2026/11/rumour-alleged-persona-1-remake-gameplay-leaks-online",
-  "ngay": "2026-11-01T08:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "But is it real? Atlus apparently can’t keep a secret. Alleged footage of a Persona 1 Remake has emerged online, although in this age of AI generated content it’s incredibly difficult to ascertain whether this is legit or not. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Petit Planet coming to Switch 2 in 2027",
   "url": "https://www.gematsu.com/2026/11/petit-planet-coming-to-switch-2-in-2027",
@@ -3268,5 +3256,26 @@
   "tom_tat": "Sony has provided a promising update on the development of the PlayStation 6's development ahead of its launch. The post PlayStation 6 Gets Promising Development Update From Sony appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-06T05:50:43+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Action Game Gets Free Bayonetta Crossover DLC",
+  "url": "https://www.playstationlifestyle.net/2026/11/05/ps5-action-game-gets-free-bayonetta-crossover-dlc",
+  "ngay": "2026-11-06T06:13:41+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Bayonetta",
+   "Entertainment and Gaming",
+   "PlayStation 5",
+   "PS5",
+   "Stellar Blade",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "A PlayStation 5 action game has crossed over with an iconic Sega classic. The post PS5 Action Game Gets Free Bayonetta Crossover DLC appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
