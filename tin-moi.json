@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "The Scale of Crimson Desert Just Got Even More Absurd After New PS5 DLC",
-  "url": "https://www.pushsquare.com/news/2026/10/the-scale-of-crimson-desert-just-got-even-more-absurd-after-new-ps5-dlc",
-  "ngay": "2026-10-30T20:15:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A scarily big map after Charting the Unknown. Crimson Desert has always been a ridiculously huge open world game, but now this week's new Charting the Unknown DLC has launched, its sheer size has reached new levels. The base game becomes just a corner of the map once you've got Charting the Unknown installed. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-31T05:10:44+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Remaster of Sega PS3 RPG Released Out of Nowhere",
   "url": "https://www.playstationlifestyle.net/2026/10/30/ps3-rpg-resonance-of-fate-ps5-remaster",
@@ -3283,6 +3270,26 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Bandai Namco will release free-to-play battle royale game My Hero Ultra Rumble for iOS and …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "DAMON and BABY free update ‘RISE OF THE ORACLE’ announced alongside Switch 2 version",
+  "url": "https://www.gematsu.com/2026/11/damon-and-baby-free-update-rise-of-the-oracle-announced-alongside-switch-2-version",
+  "ngay": "2026-11-05T13:29:11+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Arc System Works",
+   "DAMON and BABY",
+   "Screenshots"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "Arc System Works has announced top-down action adventure shooter DAMON and BABY free update “RISE …",
   "goi_y_ps": false
  }
 ]
