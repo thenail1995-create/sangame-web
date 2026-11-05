@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Talking Point: What Are You Playing This Weekend? - Issue 656",
-  "url": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-656",
-  "ngay": "2026-10-31T07:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Raise hell. Another week has come to a close, and that means it's time for us to WAYP together. I love how eclectic these articles have become over the years; it's always interesting to see what everyone's playing. Aaron Bayne I recently started Zero Parades: For Dead Spies Director's Cut , since I fancied something a bit slower-paced. Really digging it so far. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "PS5 Dynamic Pricing Concerns Revived by New Sony Job Listing",
   "url": "https://www.pushsquare.com/news/2026/10/ps5-dynamic-pricing-concerns-revived-by-new-sony-job-listing",
   "ngay": "2026-10-31T08:00:00+07:00",
@@ -3242,5 +3230,24 @@
   "da_viet": false,
   "tom_tat": "Available from 10th November. IO Interactive has announced a Starter Pack for 007 First Light will be released on the PS Store in the coming days that lets all PS5 owners play the game's introductory mission for free. The download will be available from 10th November 2026 on PS5, and grants access to the Against the Odds level at the start of the campaign. In this mission, you'll be introduced to the world and the style of gameplay IO Interactive went for after Hitman 3 . Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Grand Theft Auto VI launch screenshots",
+  "url": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-launch-screenshots",
+  "ngay": "2026-11-05T22:20:24+07:00",
+  "the_loai": [
+   "PS5",
+   "Xbox Series",
+   "Grand Theft Auto VI",
+   "Rockstar Games",
+   "Rockstar North",
+   "Screenshots"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Rockstar Games has released a gallery of nearly 40 launch screenshots for Grand Theft Auto …",
+  "goi_y_ps": false
  }
 ]

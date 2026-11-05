@@ -89,7 +89,6 @@
    "urn:uuid:78aa95ff-ff5e-44c7-8a13-ee887620db3c"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1083337",
    "https://www.gematsu.com/?p=1083292",
    "https://www.gematsu.com/?p=1083263",
    "https://www.gematsu.com/?p=1083259",
@@ -388,7 +387,8 @@
    "https://www.gematsu.com/?p=1087422",
    "https://www.gematsu.com/?p=1087374",
    "https://www.gematsu.com/?p=1087427",
-   "https://www.gematsu.com/?p=1087430"
+   "https://www.gematsu.com/?p=1087430",
+   "https://www.gematsu.com/?p=1087438"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207521",
@@ -916,7 +916,7 @@
   "en-US": [
    5673,
    5673,
-   5673,
+   5674,
    5674,
    5674,
    5674,
@@ -930,7 +930,6 @@
   "en-SG": [
    3514,
    3514,
-   3514,
    3515,
    3515,
    3515,
@@ -939,6 +938,7 @@
    3515,
    3515,
    3516,
+   3517,
    3517
   ]
  },
