@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "New Call of Duty to Remove 'Appalling' Footage of Real-Life Tragedy",
-  "url": "https://www.pushsquare.com/news/2026/10/new-call-of-duty-to-remove-appalling-footage-of-real-life-tragedy",
-  "ngay": "2026-10-30T23:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Call of Duty'",
-  "da_viet": false,
-  "tom_tat": "Families criticised Activision for including videos. Activision has apologised and promised to remove footage of a real-life tragedy from Call of Duty: Modern Warfare 4 . Victims’ families understandably reacted angrily when it emerged that news footage from 2022’s Itaewon disaster was included in the game to illustrate a fictional invasion from North Korea. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Share of the Week: Costumes",
   "url": "https://blog.playstation.com/2026/10/30/share-of-the-week-costumes-3/",
@@ -3234,6 +3222,32 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Japanese giant riding high. Sony’s transition away from electronics and into entertainment is paying serious dividends, after a killer quarter has prompted it to lift its operating income outlook for the fiscal year through March 2027. The Japanese giant now expects to pull ¥1.87 trillion (~$11.8 billion) in profit, up 15% on its previous prediction. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Fate/EXTRA Record characters trailer – Lil’ Ronnie Faction",
+  "url": "https://www.gematsu.com/2026/11/fate-extra-record-characters-trailer-lil-ronnie-faction",
+  "ngay": "2026-11-05T18:30:33+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Aniplex",
+   "Clips",
+   "Fate (series)",
+   "Fate/EXTRA Record",
+   "Meteorise",
+   "RPG",
+   "Trailers",
+   "Type-Moon"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
   "goi_y_ps": false
  }
 ]
