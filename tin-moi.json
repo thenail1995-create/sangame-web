@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "The Wolf Among Us Remastered Hit with PS5 Upgrade Pricing Issues",
-  "url": "https://www.pushsquare.com/news/2026/10/the-wolf-among-us-remastered-hit-with-ps5-upgrade-pricing-issues",
-  "ngay": "2026-10-30T19:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Promised discounts not appearing. The launch of The Wolf Among Us Remastered has not gone as smoothly as TellTale Games would have liked, as many fans are reporting not being able to access the discounted upgrade offer they were promised. Last week, the developer shared price discounts that owners of the PS4 version of The Wolf Among Us could take advantage of, should they want to upgrade to the remastered PS5 edition. Also open to PS Plus members, those were: Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-30T19:40:53+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "The Scale of Crimson Desert Just Got Even More Absurd After New PS5 DLC",
   "url": "https://www.pushsquare.com/news/2026/10/the-scale-of-crimson-desert-just-got-even-more-absurd-after-new-ps5-dlc",
   "ngay": "2026-10-30T20:15:00+07:00",
@@ -3279,6 +3266,23 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Open-world creature-catching adventure RPG Honkai: Nexus Anima will launch for PC, iOS, and Android in …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "My Hero Ultra Rumble coming to iOS, Android",
+  "url": "https://www.gematsu.com/2026/11/my-hero-ultra-rumble-coming-to-ios-android",
+  "ngay": "2026-11-05T11:49:49+07:00",
+  "the_loai": [
+   "Smartphone",
+   "Bandai Namco",
+   "Jump",
+   "My Hero Ultra Rumble"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Bandai Namco will release free-to-play battle royale game My Hero Ultra Rumble for iOS and …",
   "goi_y_ps": false
  }
 ]
