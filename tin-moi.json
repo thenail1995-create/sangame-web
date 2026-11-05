@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "New Mass Effect Cancelled So EA Can Focus on Star Wars Battlefront 3",
-  "url": "https://www.pushsquare.com/news/2026/10/new-mass-effect-cancelled-so-ea-can-focus-on-star-wars-battlefront-3",
-  "ngay": "2026-10-30T22:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "So says new Bloomberg report. The next Mass Effect game was cancelled and BioWare shut down because publisher EA wished to focus on a new Star Wars: Battlefront title instead of bringing both to market. That is according to a new Bloomberg report from journalist Jason Schreier, who explains the situation EA was facing a few months ago. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-30T22:50:51+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Wild PS4, PS5 Action Game Drops to $5.99 on PlayStation Store With 85% Off",
   "url": "https://www.playstationlifestyle.net/2026/10/30/maneater-ps4-ps5-deal",
@@ -3231,6 +3218,31 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Does that include PS6? Amid ever-increasing hardware prices, driven by an AI-led drain on memory components, Sony has reassured investors that it’s secured enough inventory to meet its hardware projections through March 2028. In its new financial report , the manufacturer acknowledged the following: Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Famitsu Sales: 10/26/26 – 11/1/26",
+  "url": "https://www.gematsu.com/2026/11/famitsu-sales-10-26-26-11-1-26",
+  "ngay": "2026-11-05T20:06:18+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Famitsu",
+   "Famitsu Sales",
+   "Final Fantasy Resonance",
+   "Hello Kitty Party Land",
+   "Japan",
+   "Minecraft",
+   "Nintendo Switch Sports Resort",
+   "Sales"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Final Fantasy'",
+  "da_viet": false,
+  "tom_tat": "Famitsu has published its estimated physical game software data for Japan for the week of …",
   "goi_y_ps": false
  }
 ]
