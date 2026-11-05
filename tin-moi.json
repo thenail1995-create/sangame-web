@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "PS5 Dynamic Pricing Concerns Revived by New Sony Job Listing",
-  "url": "https://www.pushsquare.com/news/2026/10/ps5-dynamic-pricing-concerns-revived-by-new-sony-job-listing",
-  "ngay": "2026-10-31T08:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Company looking for someone to lead initiative. A new PlayStation job listing has sparked a fresh wave of fan concerns regarding dynamic pricing on the PS Store . Spotted by The Game Post , the role – for a Senior Director of Digital Games Monetisation – includes some phrases which have spooked gamers, including a reference to “intelligent pricing”. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-31T08:20:46+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Silver Palace launches December 14",
   "url": "https://www.gematsu.com/2026/10/silver-palace-launches-december-14",
@@ -3249,5 +3236,17 @@
   "da_viet": false,
   "tom_tat": "Rockstar Games has released a gallery of nearly 40 launch screenshots for Grand Theft Auto …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Rockstar Reveals Even More GTA 6 Screenshots as PS5 Release Draws Closer",
+  "url": "https://www.pushsquare.com/news/2026/11/rockstar-reveals-even-more-gta-6-screenshots-as-ps5-release-draws-closer",
+  "ngay": "2026-11-05T22:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Check them all out here. You're exactly two weeks away from playing GTA 6 . To celebrate the fact, developer Rockstar has shared another batch of screenshots that are designed to showcase Vice City at its best, and the world beyond. Take a look below at a whopping 37 new screenshots: Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
