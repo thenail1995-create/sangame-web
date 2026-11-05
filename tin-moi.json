@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "This New PS5 Visual Novel Is Absolutely Bursting with Style",
-  "url": "https://www.pushsquare.com/news/2026/10/this-new-ps5-visual-novel-is-absolutely-bursting-with-style",
-  "ngay": "2026-10-30T22:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "No word on a western release just yet. Those of you reading the re-release of Steins;Gate this week may want to keep a close eye on Japanese dev MAGES’ latest effort, Seeker Eye . The game’s due out in Japan on 25th February, and while there’s no word on an English localisation just yet, I’m pretty confident it’ll make its way overseas eventually. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-31T02:01:25+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Ambitious PS5 Action RPG Arrives on PlayStation Store Today",
   "url": "https://www.playstationlifestyle.net/2026/10/30/queens-domain-ps5-playstation-store-release-october-30",
@@ -3242,5 +3229,17 @@
   "da_viet": false,
   "tom_tat": "\"I'm no hero\". Sony has officially confirmed sales figures for Marvel's Wolverine for the first time, as part of its recent financial update . According to the report, the PS5 exclusive superhero action adventure has sold 2.4 million units as of 4th November, 2026. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS6 Development on Track, Sony Making 'Solid Progress' Towards Next-Gen",
+  "url": "https://www.pushsquare.com/news/2026/11/ps6-development-on-track-sony-making-solid-progress-towards-next-gen",
+  "ngay": "2026-11-05T19:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Update from Sony CFO Lin Tao. Work on the PS6 and the next console generation as a whole is currently \"progressing as scheduled\" at PlayStation, it's been confirmed. Speaking alongside the release of Sony's latest quarterly financial results , CFO Lin Tao said the company is on track to deliver its next PlayStation system, and it intends to make \"solid progress\" towards the next generation within the next fiscal year (via VGC ). Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
