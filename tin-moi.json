@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Inspired by Classic FromSoftware, Queen's Domain Looks a Fascinating PS5 Adventure",
-  "url": "https://www.pushsquare.com/news/2026/10/inspired-by-classic-fromsoftware-queens-domain-looks-a-fascinating-ps5-adventure",
-  "ngay": "2026-10-31T00:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Out now for $20 on PS5. There are far too many promising indie games releasing every week to keep up, but this one, Queen's Domain , has really caught my eye. It releases onto PS5 today for £17.75 / $19.99, and it's inspired by King's Field , the series FromSoftware made before Demon's Souls . Essentially, it's an RPG blending retro visuals and the fantasy RPG genre to create a difficult adventure based around combat and exploration. You travel to an island called the Isle of Naesied, where your father disappeared. From there, an adventure ensues. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-10-31T02:01:25+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Gorgeous PS5 Console Exclusive Is Out Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/10/30/suri-the-seventh-note-ps5-playstation-store-release-october-30",
@@ -3254,5 +3241,17 @@
   "da_viet": false,
   "tom_tat": "Spellgarden will release a Switch version of cozy thrift shop management game Thrifty Business, the …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Assassin's Creed Valhalla New Game+ Patch Is Way Bigger Than Anticipated, Adds PS5 Pro Support",
+  "url": "https://www.pushsquare.com/news/2026/11/assassins-creed-valhalla-new-gameplus-patch-is-way-bigger-than-anticipated-adds-ps5-pro-support",
+  "ngay": "2026-11-05T21:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS5 Pro'",
+  "da_viet": false,
+  "tom_tat": "By Odin's beard. Assassin's Creed Valhalla has received its promised New Game+ patch, and the update is actually way more in-depth than I think most people anticipated. It's been over three years since Ubisoft released Valhalla's \"final\" patch, but the developer clearly felt as though it had unfinished business. New Game+ ended up being the single most requested feature — and now, it's finally here. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
