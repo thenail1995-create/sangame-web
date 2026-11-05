@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Official PlayStation Podcast Episode 552: Shivering Silver",
-  "url": "https://blog.playstation.com/2026/10/30/official-playstation-podcast-episode-552-shivering-silver/",
-  "ngay": "2026-10-30T23:55:53+07:00",
-  "the_loai": [
-   "Uncategorized",
-   "Official PlayStation Podcast",
-   "PlayStation Blogcast"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Inspired by Classic FromSoftware, Queen's Domain Looks a Fascinating PS5 Adventure",
   "url": "https://www.pushsquare.com/news/2026/10/inspired-by-classic-fromsoftware-queens-domain-looks-a-fascinating-ps5-adventure",
@@ -3250,5 +3236,23 @@
   "hot": true,
   "ly_do_hot": "có từ khoá 'PS5 Pro'",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Thrifty Business coming to Switch",
+  "url": "https://www.gematsu.com/2026/11/thrifty-business-coming-to-switch",
+  "ngay": "2026-11-05T21:12:16+07:00",
+  "the_loai": [
+   "Switch",
+   "Clips",
+   "Spellgarden Games",
+   "Thrifty Business",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Spellgarden will release a Switch version of cozy thrift shop management game Thrifty Business, the …",
+  "goi_y_ps": false
  }
 ]
