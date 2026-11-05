@@ -1,55 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Silver Palace launches December 14",
-  "url": "https://www.gematsu.com/2026/10/silver-palace-launches-december-14",
-  "ngay": "2026-10-31T11:15:39+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Smartphone",
-   "Clips",
-   "Elementa",
-   "Release Dates",
-   "Silver Palace",
-   "Silver Studio",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Free-to-play open-world action adventure RPG Silver Palace will launch for PlayStation 5, PC via client …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-31T11:20:48+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Final Fantasy XIV: Evercold expansion delayed to February 23, 2027",
-  "url": "https://www.gematsu.com/2026/10/final-fantasy-xiv-evercold-expansion-delayed-to-february-23-2027",
-  "ngay": "2026-10-31T11:25:20+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Clips",
-   "DLC",
-   "Final Fantasy XIV",
-   "MMORPG",
-   "Release Dates",
-   "RPG",
-   "Square Enix",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Final Fantasy'",
-  "da_viet": false,
-  "tom_tat": "Final Fantasy XIV: Evercold, the patch 8.0 expansion for Final Fantasy XIV, will launch on …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-10-31T14:20:48+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Guide: These 28+ PS5 and PS Plus Games Are Coming Out Next Week (2nd-8th November)",
   "url": "https://www.pushsquare.com/guides/these-28plus-ps5-and-ps-plus-games-are-coming-out-next-week-2nd-8th-november",
@@ -3174,7 +3124,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'PS5 Pro'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-05T23:40:45+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3216,7 +3167,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "Available from 10th November. IO Interactive has announced a Starter Pack for 007 First Light will be released on the PS Store in the coming days that lets all PS5 owners play the game's introductory mission for free. The download will be available from 10th November 2026 on PS5, and grants access to the Against the Odds level at the start of the campaign. In this mission, you'll be introduced to the world and the style of gameplay IO Interactive went for after Hitman 3 . Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-05T23:40:45+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3247,6 +3199,41 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Check them all out here. You're exactly two weeks away from playing GTA 6 . To celebrate the fact, developer Rockstar has shared another batch of screenshots that are designed to showcase Vice City at its best, and the world beyond. Take a look below at a whopping 37 new screenshots: Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-05T23:40:45+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Stellar Blade's Free Bayonetta Crossover Outfits Are Available Now on PS5, PC",
+  "url": "https://www.pushsquare.com/news/2026/11/stellar-blades-free-bayonetta-crossover-outfits-are-available-now-on-ps5-pc",
+  "ngay": "2026-11-05T23:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "Witch will you pick? Action game royalty has officially arrived in Sony and ShiftUp's fan favourite hack-and-slasher, Stellar Blade . The sci-fi action title has been updated with a selection of new outfits for Eve, all inspired by SEGA's beloved Bayonetta series. They're freely available to all players. Read the full article on pushsquare.com",
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-05T23:40:45+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "2026 PS5 GOTY Contender Gets Free Demo on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/05/007-first-light-ps5-free-demo-starter-pack",
+  "ngay": "2026-11-05T23:31:56+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "007 First Light",
+   "Entertainment and Gaming",
+   "IO Interactive",
+   "PS5",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "IO Interactive's critically acclaimed action game is getting a free demo on the PlayStation Store for PS5 owners. The post 2026 PS5 GOTY Contender Gets Free Demo on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-05T23:40:45+07:00"
  }
 ]

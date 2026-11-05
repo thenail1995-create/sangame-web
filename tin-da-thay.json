@@ -391,7 +391,6 @@
    "https://www.gematsu.com/?p=1087438"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-207530",
    "https://www.pushsquare.com/#article-207526",
    "https://www.pushsquare.com/#article-207533",
    "https://www.pushsquare.com/#article-207532",
@@ -690,7 +689,8 @@
    "https://www.pushsquare.com/#article-208682",
    "https://www.pushsquare.com/#article-208639",
    "https://www.pushsquare.com/#article-208693",
-   "https://www.pushsquare.com/#article-208694"
+   "https://www.pushsquare.com/#article-208694",
+   "https://www.pushsquare.com/#article-208697"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -873,7 +873,8 @@
    "https://www.playstationlifestyle.net/?p=938533",
    "https://www.playstationlifestyle.net/?p=938538",
    "https://www.playstationlifestyle.net/?p=938539",
-   "https://www.playstationlifestyle.net/?p=938548"
+   "https://www.playstationlifestyle.net/?p=938548",
+   "https://www.playstationlifestyle.net/?p=938559"
   ],
   "billbil": [
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mxjn2i36ss2y",
@@ -925,10 +926,9 @@
    5674,
    5674,
    5674,
-   5674
+   5673
   ],
   "en-SG": [
-   3515,
    3515,
    3515,
    3515,
@@ -938,6 +938,7 @@
    3517,
    3517,
    3517,
+   3521,
    3521,
    3521
   ]
@@ -965,5 +966,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-05T20:31:07+07:00"
+ "lan_goi_viet": "2026-11-05T23:40:45+07:00"
 }
