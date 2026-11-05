@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Rumor: Persona remake footage appears online",
-  "url": "https://www.gematsu.com/2026/10/rumor-persona-remake-footage-appears-online",
-  "ngay": "2026-11-01T05:35:02+07:00",
-  "the_loai": [
-   "Industry",
-   "ATLUS",
-   "Clips",
-   "Gameplay",
-   "Leaks",
-   "Persona (series)",
-   "Rumors"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A video reel showcasing what appears to be work-in-progress footage of a Revelations: Persona remake …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Rumour: Days Gone Dev to Announce and Launch New PS5 Game in 2027",
   "url": "https://www.pushsquare.com/news/2026/11/rumour-days-gone-dev-to-announce-and-launch-new-ps5-game-in-2027",
@@ -3251,5 +3231,29 @@
   "tom_tat": "A Terra-ble idea? Could a remake of Final Fantasy 6 happen at some point? The idea's been floating around for a while, but we're now, apparently, at a point where Square Enix employees want to see it. This is according to series veteran and current brand manager Yoshinori Kitase, who specifically notes that there's an internal demand for said remake while speaking to IGN . Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-06T02:40:49+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Supernatural PS5 Western RPG Finally Gets Console Release Date",
+  "url": "https://www.playstationlifestyle.net/2026/11/05/hard-west-2-ps5-release-date",
+  "ngay": "2026-11-06T03:11:33+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Good Shepherd Entertainment",
+   "Hard West",
+   "Hard West 2",
+   "Ice Code Games",
+   "PS5",
+   "Release Date",
+   "RPG",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Ice Code Games' 2022 RPG Hard West 2 brings its supernatural Wild West setting and turn-based tactical combat to PS5 this year. The post Supernatural PS5 Western RPG Finally Gets Console Release Date appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
