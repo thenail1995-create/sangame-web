@@ -1,19 +1,6 @@
 [
  {
   "nguon": "PlayStation Blog",
-  "tieu_de": "Share of the Week: Costumes",
-  "url": "https://blog.playstation.com/2026/10/30/share-of-the-week-costumes-3/",
-  "ngay": "2026-10-30T23:00:50+07:00",
-  "the_loai": [
-   "PS5",
-   "Share of the Week"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false
- },
- {
-  "nguon": "PlayStation Blog",
   "tieu_de": "Official PlayStation Podcast Episode 552: Shivering Silver",
   "url": "https://blog.playstation.com/2026/10/30/official-playstation-podcast-episode-552-shivering-silver/",
   "ngay": "2026-10-30T23:55:53+07:00",
@@ -3249,5 +3236,19 @@
   "da_viet": false,
   "tom_tat": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Assassin’s Creed Valhalla: new update brings New Game+, upgraded PSSR support for PS5 Pro today",
+  "url": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/",
+  "ngay": "2026-11-05T21:00:38+07:00",
+  "the_loai": [
+   "PS5",
+   "Assassin’s Creed Valhalla",
+   "Ubisoft"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS5 Pro'",
+  "da_viet": false
  }
 ]
