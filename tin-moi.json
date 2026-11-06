@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Nagoshi Studio shuts down",
-  "url": "https://www.gematsu.com/2026/11/nagoshi-studio-shuts-down",
-  "ngay": "2026-11-02T10:16:59+07:00",
-  "the_loai": [
-   "Industry",
-   "Nagoshi Studio",
-   "NetEase Games"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Nagoshi Studio, the Shinjuku, Tokyo-based founded by Yakuza series creator Toshiro Nagoshi under NetEase Games …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "New PS5 Firmware Update Available Now as Sony Cracks Down on Jailbreaks",
   "url": "https://www.pushsquare.com/news/2026/11/new-ps5-firmware-update-available-now-as-sony-cracks-down-on-jailbreaks",
@@ -3277,5 +3261,17 @@
   "da_viet": false,
   "tom_tat": "Kuro Games will release the version 3.8 update for free-to-play open-world action RPG Wuthering Waves, …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Here's What The Expanse: Osiris Reborn's Recast Main Character Looks and Sounds Like",
+  "url": "https://www.pushsquare.com/news/2026/11/heres-what-the-expanse-osiris-reborns-recast-main-character-looks-and-sounds-like",
+  "ngay": "2026-11-06T21:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "New face and voice revealed. Developer and publisher Owlcat Games has revealed the new face and voice of the male protagonist in The Expanse: Osiris Reborn . Following negative feedback from fans, the company announced it would be recasting the role and making updates to the character's appearance. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
