@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Phantom Blade Zero sales top four million in 72 hours",
-  "url": "https://www.gematsu.com/2026/11/phantom-blade-zero-sales-top-four-million-in-72-hours",
-  "ngay": "2026-11-02T09:59:03+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Phantom Blade Zero",
-   "RPG",
-   "S-GAME",
-   "Sales"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Total sales for Wuxia action RPG Phantom Blade Zero have surpassed four million units in …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-02T10:01:24+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Nagoshi Studio shuts down",
   "url": "https://www.gematsu.com/2026/11/nagoshi-studio-shuts-down",
   "ngay": "2026-11-02T10:16:59+07:00",
@@ -3274,5 +3254,28 @@
   "tom_tat": "“Dual-dimension, action-adventure shop manager” Acornia: Mirror Worlds will launch for PlayStation 5, Xbox Series, Switch …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-06T21:10:50+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Wuthering Waves version 3.8 update ‘Lilies in a Dying Dream’ launches November 12",
+  "url": "https://www.gematsu.com/2026/11/wuthering-waves-version-3-8-update-lilies-in-a-dying-dream-launches-november-12",
+  "ngay": "2026-11-06T19:00:07+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Smartphone",
+   "Xbox Series",
+   "Clips",
+   "Kuro Games",
+   "Release Dates",
+   "RPG",
+   "Trailers",
+   "Wuthering Waves"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Kuro Games will release the version 3.8 update for free-to-play open-world action RPG Wuthering Waves, …",
+  "goi_y_ps": false
  }
 ]
