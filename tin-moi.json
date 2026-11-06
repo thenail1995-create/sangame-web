@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Soon Playable on PS5, Nubby's Number Factory Is the Strangest Roguelike You'll See Today",
-  "url": "https://www.pushsquare.com/news/2026/11/soon-playable-on-ps5-nubbys-number-factory-is-the-strangest-roguelike-youll-see-today",
-  "ngay": "2026-11-02T19:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Give it a Trophy. Sometimes, a game will crop up that I really want to write about, but can't because it's not available on PlayStation. Nubby's Number Factory is one of those games. Originally released on PC in March 2025, this bizarre little roguelike is so up my street, and I'm very pleased to be able to say it's heading to Sony's systems in the future. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-03T08:40:47+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Housemarque Issues Saros PS5 Patch for Bug Fixes, Update Out Now",
   "url": "https://www.pushsquare.com/news/2026/11/housemarque-issues-saros-ps5-patch-for-bug-fixes-update-out-now",
   "ngay": "2026-11-02T19:30:00+07:00",
@@ -3289,6 +3276,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Experience will release dungeon RPG Demon Kill Demon: Yomi 1984 for PlayStation 5, PlayStation 4, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Following BioWare Closure, a Documentary About the Legendary Studio Has Been Announced",
+  "url": "https://www.pushsquare.com/news/2026/11/following-bioware-closure-a-documentary-about-the-legendary-studio-has-been-announced",
+  "ngay": "2026-11-06T22:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Massive Effect coming next year. In case you missed the news, publisher Electronic Arts recently pulled the plug on one of its most revered studios, BioWare, as part of a wider round of layoffs . The developer, known for its many beloved contributions to the RPG genre, is sadly no more, and the game it was working on, a new Mass Effect, was also cancelled. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
