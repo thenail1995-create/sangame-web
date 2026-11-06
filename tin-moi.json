@@ -1,40 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Sony Fighting GTA 6 PS5 Piracy with New Firmware Demands",
-  "url": "https://www.pushsquare.com/news/2026/11/sony-fighting-gta-6-ps5-piracy-with-new-firmware-demands",
-  "ngay": "2026-11-02T19:45:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Today's new PS5 firmware reportedly required. PlayStation appears to be taking absolutely no risks, as it closes in on the launch of GTA 6 for its platform while fending off PS5 jailbreak, piracy, and hacking attempts. From the start of last month, hackers began cracking the PS5 firmware via AI tools on firmware v7.00 through v13.60. In response, Sony has issued multiple PS5 firmware updates to cut down on potential emulators for the current-gen box going forward. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-02T20:20:50+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS5 System Update Rolled Out to Ring in November 2026",
-  "url": "https://www.playstationlifestyle.net/2026/11/02/ps5-system-software-firmware-update-november-2-2026",
-  "ngay": "2026-11-02T19:42:00+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "exclude_from_yahoo",
-   "PS5 System Software Update",
-   "PS5 system update",
-   "PS5 Update",
-   "Sony Interactive Entertainment",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Sony Interactive Entertainment quietly rolled out PS5 system software update 26.07-14.22.00 on November 1. From the looks of it, this firmware revision combats (or attempts to combat) the most recent PS5 jailbreak yet again ahead of GTA VI‘s launch. PS5 system software update 26.07-14.22.00 patch notes (November 2, 2026) Patch notes for November’s first PS5 […] The post PS5 System Update Rolled Out to Ring in November 2026 appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-02T20:20:50+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Console Exclusive Victorian RPG Gets Release Date",
   "url": "https://www.playstationlifestyle.net/2026/11/02/ps5-rpg-silver-palace-release-date",
@@ -3289,5 +3254,48 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS4 Remasters of Beloved PS3 Open World Games Are 70% Off on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/06/assassins-creed-ezio-collection-ps4-70-percent-off",
+  "ngay": "2026-11-06T23:10:25+07:00",
+  "the_loai": [
+   "News",
+   "PlayStation Plus News - PS4, PS3, PS Vita",
+   "Assassin’s Creed The Ezio Collection",
+   "Entertainment and Gaming",
+   "PlayStation Store",
+   "PS3",
+   "PS4",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "The PS4 remastered collection of beloved PS3 open-world games is on deep discount. Assassin’s Creed The Ezio Collection is a 2016 compilation of three remastered games. On the PlayStation Store, The Ezio Collection is 70% off, down from its original release price of $39.99 to $11.99. The mature-rated game features blood, intense violence, sexual content, […] The post PS4 Remasters of Beloved PS3 Open World Games Are 70% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Pro Enhanced Remake of PS2 Classic Is 72% Off on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/06/silent-hill-2-ps5-pro-72-percent-off",
+  "ngay": "2026-11-06T23:04:21+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Bloober Team",
+   "Entertainment and Gaming",
+   "Konami",
+   "PS5 Pro",
+   "Silent Hill 2",
+   "Silent Hill 2 Remake",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS5 Pro'",
+  "da_viet": false,
+  "tom_tat": "A hit PS5 Pro horror games, which is also a remake of a PS2 classic, can be bought for under $20 on the PlayStation Store. The post PS5 Pro Enhanced Remake of PS2 Classic Is 72% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
