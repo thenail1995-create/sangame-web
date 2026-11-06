@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "This Week’s Japanese Game Releases: The Legend of Zelda: Ocarina of Time, CRYMELIGHT, more",
-  "url": "https://www.gematsu.com/2026/11/this-weeks-japanese-game-releases-the-legend-of-zelda-ocarina-of-time-crymelight-more",
-  "ngay": "2026-11-01T22:35:50+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Smartphone",
-   "Switch",
-   "Switch 2",
-   "Xbox One",
-   "Xbox Series",
-   "Weekly Japanese Game Releases"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The remake of The Legend of Zelda: Ocarina of Time for Switch 2, and CRYMELIGHT …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Marvel PS4 Fighting Game Is 84% Off on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/11/01/marvel-vs-capcom-infinite-deluxe-edition-ps4-deal",
@@ -3277,6 +3255,24 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "No more Ranger Rumble. One of PlayStation's mobile games is shutting up shop, and it's doing so before it's managed to launch globally. You may recall Ratchet & Clank: Ranger Rumble , a mobile multiplayer game set within Insomniac Games' beloved sci-fi universe. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "MR. ELEVATOR coming to PS5 on November 27",
+  "url": "https://www.gematsu.com/2026/11/mr-elevator-coming-to-ps5-on-november-27",
+  "ngay": "2026-11-06T16:00:28+07:00",
+  "the_loai": [
+   "PS5",
+   "GIFT TEN INDUSTRY",
+   "MR. ELEVATOR",
+   "Puzzle Games",
+   "Release Dates"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "GIFT TEN INDUSTRY will release a PlayStation 5 version of bizarre puzzle game MR. ELEVATOR on …",
   "goi_y_ps": false
  }
 ]
