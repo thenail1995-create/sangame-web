@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Final Fantasy Resonance Producer Had to Fight Square Enix Execs Who Wanted Cheap Port of Dead Mobile Game",
-  "url": "https://www.pushsquare.com/news/2026/11/final-fantasy-resonance-producer-had-to-fight-square-enix-execs-who-wanted-cheap-port-of-dead-mobile-game",
-  "ngay": "2026-11-02T21:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Final Fantasy'",
-  "da_viet": false,
-  "tom_tat": "\"There was some resistance\". Final Fantasy Resonance has seemingly gone down really, really well with fans of the franchise — and so it's surprising to hear that Square Enix's leadership were apparently against the idea of the game. Resonance is very much a callback to classic Final Fantasy in terms of gameplay and structure; some would go as far to argue that it's just what the property needs at this point. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-03T02:20:53+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "‘90s style sci-fi horror Derelikt launches Nov 13 on PS5",
   "url": "https://blog.playstation.com/2026/11/02/90s-style-sci-fi-horror-derelikt-launches-nov-13-on-ps5/",
@@ -3313,6 +3300,25 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A famous open-world survival game for PS4 and PS5 has abruptly disappeared from the PlayStation Store. Starsand, a mystic survival game set among the dunes of an arcane desert, is reportedly no longer on the PS Store. As Physical Forever reported on Facebook, Starsand has reportedly been delisted from the PlayStation Store (PS4 and PS5), […] The post PS4, PS5 Open-World Game Abruptly Disappears From PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Hozy for PS5, Xbox Series launches November 9",
+  "url": "https://www.gematsu.com/2026/11/hozy-for-ps5-xbox-series-launches-november-9",
+  "ngay": "2026-11-07T02:38:23+07:00",
+  "the_loai": [
+   "PS5",
+   "Xbox Series",
+   "Come On Games",
+   "Hozy",
+   "Release Dates",
+   "tinyBuild"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Cozy renovation and cleaning game Hozy will launch for PlayStation 5 and Xbox Series on …",
   "goi_y_ps": false
  }
 ]
