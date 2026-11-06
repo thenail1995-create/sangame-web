@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "New PS5 Firmware Update Available Now as Sony Cracks Down on Jailbreaks",
-  "url": "https://www.pushsquare.com/news/2026/11/new-ps5-firmware-update-available-now-as-sony-cracks-down-on-jailbreaks",
-  "ngay": "2026-11-02T17:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "What does version 26.07-14.22.00 do? Sony has released another system software update for PS5, hot on the heels of the last one from less than a fortnight ago. Version 26.07-14.22.00 is available to download and install now, and the singular patch note makes it fairly clear what it's targeting: Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-02T17:10:51+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Phantom Blade Zero Is an Instant Hit with 4 Million Sales on PS5, PC",
   "url": "https://www.pushsquare.com/news/2026/11/phantom-blade-zero-is-an-instant-hit-with-4-million-sales-on-ps5-pc",
   "ngay": "2026-11-02T17:30:00+07:00",
@@ -3273,5 +3260,29 @@
   "da_viet": false,
   "tom_tat": "New face and voice revealed. Developer and publisher Owlcat Games has revealed the new face and voice of the male protagonist in The Expanse: Osiris Reborn . Following negative feedback from fans, the company announced it would be recasting the role and making updates to the character's appearance. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Ragnarok Console Project ‘A New Ragnarok Adventure Awaits’ trailer",
+  "url": "https://www.gematsu.com/2026/11/ragnarok-console-project-a-new-ragnarok-adventure-awaits-trailer",
+  "ngay": "2026-11-06T15:45:58+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Daewon Media Game Lab",
+   "Gravity",
+   "Ragnarok Console Project",
+   "RPG",
+   "Trailers",
+   "Waycoder"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publishers Gravity and Daewon Media Game Lab, and developer Waycoder have released a new trailer …",
+  "goi_y_ps": false
  }
 ]
