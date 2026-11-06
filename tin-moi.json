@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "HoYoverse's Animal Crossing Rival Skips PS5 for Switch 2",
-  "url": "https://www.pushsquare.com/news/2026/11/hoyoverses-animal-crossing-rival-skips-ps5-for-switch-2",
-  "ngay": "2026-11-01T20:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "New cosy game picks Nintendo. HoYoverse is undoubtedly gunning for the Animal Crossing audience with its next title Petit Planet , so it’s perhaps no surprise to see the Chinese dev focus on Switch 2 with its upcoming cosy title. However, it’s noteworthy as the juggernaut Chinese dev has brought practically all of its releases to Sony’s system since Genshin Impact – its ginormous open world RPG which launched during the peak of the pandemic in 2020. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-01T20:10:44+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Manage a Dessert Shop with an Actual God in Honkai: Star Rail's Climactic PS5 Update",
   "url": "https://www.pushsquare.com/news/2026/11/manage-a-dessert-shop-with-an-actual-god-in-honkai-star-rails-climactic-ps5-update",
   "ngay": "2026-11-01T20:30:00+07:00",
@@ -3272,5 +3259,25 @@
   "da_viet": false,
   "tom_tat": "Paragon action. A petition to save BioWare is set to be presented before the Canadian government. The country's law states that any public petition with at least 500 signatures must be added to the House's agenda — and this fan-driven effort has amassed over 2,300 at the time of writing. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Japanese Rural Life Adventure now available for PS4",
+  "url": "https://www.gematsu.com/2026/11/japanese-rural-life-adventure-now-available-for-ps4",
+  "ngay": "2026-11-06T12:02:27+07:00",
+  "the_loai": [
+   "PS4",
+   "G-MODE Corporation",
+   "Game Release",
+   "GAME START LLC",
+   "Japanese Rural Life Adventure",
+   "Release Dates"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher G-MODE Corporation and developer GAME START LLC have released a PlayStation 4 version of …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-06T12:10:45+07:00"
  }
 ]
