@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Godzilla: Destroy All Monsters Melee Remastered fighter guide",
-  "url": "https://blog.playstation.com/2026/11/02/godzilla-destroy-all-monsters-melee-remastered-fighter-guide/",
-  "ngay": "2026-11-02T21:01:16+07:00",
-  "the_loai": [
-   "PS5",
-   "Atari",
-   "Godzilla: Destroy All Monsters Melee Remastered",
-   "Pipeworks Studios"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-02T23:20:52+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Hit 2022 PS5 Action Game 80% Off on PS Store, DLC Included",
   "url": "https://www.playstationlifestyle.net/2026/11/02/sifu-ps-store-deal-november-2026",
@@ -3309,5 +3293,19 @@
   "da_viet": false,
   "tom_tat": "A popular comedy sim is heavily discounted on the PlayStation Store. Originally released in 2022, Goat Simulator 3 is now 70% off on PS4 and PS5. The discount brings the usual $29.99 price down to $8.99. However, the offer is available for a limited time only, until November 21. Developed by Coffee Stain North and […] The post Wacky PS4, PS5 Comedy Game Is 70% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Hozy brings calm, tactile home restoration to PS5 on November 9",
+  "url": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/",
+  "ngay": "2026-11-07T00:00:12+07:00",
+  "the_loai": [
+   "PS5",
+   "Hozy",
+   "Tinybuild"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
