@@ -1,24 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Petit Planet coming to Switch 2 in 2027",
-  "url": "https://www.gematsu.com/2026/11/petit-planet-coming-to-switch-2-in-2027",
-  "ngay": "2026-11-01T19:00:44+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Clips",
-   "miHoYo",
-   "Petit Planet",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "miHoYo will release a Switch 2 version of free-to-play cosmic life simulation game Petit Planet …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "HoYoverse's Animal Crossing Rival Skips PS5 for Switch 2",
   "url": "https://www.pushsquare.com/news/2026/11/hoyoverses-animal-crossing-rival-skips-ps5-for-switch-2",
@@ -3276,6 +3257,18 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "A PlayStation 5 action game has crossed over with an iconic Sega classic. The post PS5 Action Game Gets Free Bayonetta Crossover DLC appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Petition to Save Mass Effect Dev BioWare to Be Considered by Canada's Government",
+  "url": "https://www.pushsquare.com/news/2026/11/petition-to-save-mass-effect-dev-bioware-to-be-considered-by-canadas-government",
+  "ngay": "2026-11-06T07:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Paragon action. A petition to save BioWare is set to be presented before the Canadian government. The country's law states that any public petition with at least 500 signatures must be added to the House's agenda — and this fan-driven effort has amassed over 2,300 at the time of writing. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
