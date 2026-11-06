@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Fortnite's Pirate Shop Unlocks the Entire Item Shop for Free",
-  "url": "https://www.pushsquare.com/news/2026/11/fortnites-pirate-shop-unlocks-the-entire-item-shop-for-free",
-  "ngay": "2026-11-02T06:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "Battle Royale tops five million concurrent players. In case you haven’t been paying attention, Fortnite is running a pirate-themed season with One Piece crossover content available right now. But the big news is the discovery of a Pirate Shop , which makes the entire Item Shop free for two weeks. If you’re running in a squad, then everyone on your team gets the reward. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-02T06:01:16+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Phantom Blade Zero sales top four million in 72 hours",
   "url": "https://www.gematsu.com/2026/11/phantom-blade-zero-sales-top-four-million-in-72-hours",
@@ -3260,6 +3247,29 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Going offline. The end of the year is always a prime time for PS5 game delistings and server closures, but fortunately we’re being spared a large list this year. There are about eight titles with impending changes you need to be aware of, so here’s the full list: Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Acornia: Mirror Worlds launches in spring 2027",
+  "url": "https://www.gematsu.com/2026/11/acornia-mirror-worlds-launches-in-spring-2027",
+  "ngay": "2026-11-06T16:05:51+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Acornia: Mirror Worlds",
+   "Clips",
+   "Release Dates",
+   "Splashteam",
+   "The Arcade Crew",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "“Dual-dimension, action-adventure shop manager” Acornia: Mirror Worlds will launch for PlayStation 5, Xbox Series, Switch …",
   "goi_y_ps": false
  }
 ]
