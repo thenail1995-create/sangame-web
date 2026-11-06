@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Housemarque Issues Saros PS5 Patch for Bug Fixes, Update Out Now",
-  "url": "https://www.pushsquare.com/news/2026/11/housemarque-issues-saros-ps5-patch-for-bug-fixes-update-out-now",
-  "ngay": "2026-11-02T19:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'out now'",
-  "da_viet": false,
-  "tom_tat": "We're on version 02.000.003 now. Here's a quick one: Saros developer Housemarque has today updated the PS5 exclusive and issued version 02.000.003, available to download now. It's a very simple set of patch notes that predominantly focuses on bug fixes, like issues in the Overlord Rush mode and problems affecting Trophy unlocks. Perhaps the most interesting note in relation to changing when the Saros: Zenith splash screen appears. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-02T20:20:50+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Sony Fighting GTA 6 PS5 Piracy with New Firmware Demands",
   "url": "https://www.pushsquare.com/news/2026/11/sony-fighting-gta-6-ps5-piracy-with-new-firmware-demands",
   "ngay": "2026-11-02T19:45:00+07:00",
@@ -3289,5 +3276,18 @@
   "da_viet": false,
   "tom_tat": "Massive Effect coming next year. In case you missed the news, publisher Electronic Arts recently pulled the plug on one of its most revered studios, BioWare, as part of a wider round of layoffs . The developer, known for its many beloved contributions to the RPG genre, is sadly no more, and the game it was working on, a new Mass Effect, was also cancelled. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Share of the Week: Shadows",
+  "url": "https://blog.playstation.com/2026/11/06/share-of-the-week-shadows-2/",
+  "ngay": "2026-11-06T23:00:21+07:00",
+  "the_loai": [
+   "PS5",
+   "Share of the Week"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
