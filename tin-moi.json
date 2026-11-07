@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Players’ Choice: Vote for October’s best new game",
-  "url": "https://blog.playstation.com/2026/11/02/players-choice-vote-for-octobers-best-new-game-4/",
-  "ngay": "2026-11-02T23:00:44+07:00",
-  "the_loai": [
-   "PS5",
-   "Players’ Choice"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-02T23:20:52+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Travis Touchdown 'Will Definitely Be Back' for No More Heroes 20th Anniversary",
   "url": "https://www.pushsquare.com/news/2026/11/travis-touchdown-will-definitely-be-back-for-no-more-heroes-20th-anniversary",
@@ -3292,5 +3278,17 @@
   "tom_tat": "No need to be sheepish about it. Platinum Trophy #40: Cult of the Lamb Date Earned: 11th October 2022 Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-08T04:20:49+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony Indefinitely Delays Another PS5 Peripheral Days Before Release",
+  "url": "https://www.pushsquare.com/news/2026/11/sony-indefinitely-delays-another-ps5-peripheral-days-before-release",
+  "ngay": "2026-11-08T07:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Desktop speakers switched off for now. Sony has indefinitely delayed the PS5’s official Pulse Elevate desktop speakers, which were originally due to deploy days from now, on 12th November. In a brief update on the PS Blog , the manufacturer said that it had “identified a production issue with the product and have made the decision to delay the launch”. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
