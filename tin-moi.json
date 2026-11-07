@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "‘90s style sci-fi horror Derelikt launches Nov 13 on PS5",
-  "url": "https://blog.playstation.com/2026/11/02/90s-style-sci-fi-horror-derelikt-launches-nov-13-on-ps5/",
-  "ngay": "2026-11-02T22:00:26+07:00",
-  "the_loai": [
-   "PS5",
-   "Derelikt",
-   "Hyperstrange",
-   "Visuwyg"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-02T23:20:52+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Duck Side of the Moon coming to PS5 on November 17 alongside ‘Homegrown’ update",
   "url": "https://www.gematsu.com/2026/11/duck-side-of-the-moon-coming-to-ps5-on-november-17-alongside-homegrown-update",
@@ -3328,5 +3312,17 @@
   "tom_tat": "Cozy renovation and cleaning game Hozy will launch for PlayStation 5 and Xbox Series on …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-07T03:31:08+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Talking Point: What Are You Playing This Weekend? - Issue 657",
+  "url": "https://www.pushsquare.com/features/talking-point-what-are-you-playing-this-weekend-issue-657",
+  "ngay": "2026-11-07T07:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Killing time. Another week has come to a conclusion, and we are very much in the GTA 6 evacuation zone now. Less than two weeks until Rockstar's sequel, folks. Jamie O'Neill I've only managed about three hours on Lone Survivor: The Director's Cut , so I'll break out the PS Vita, because I can't leave that masked protagonist stuck in a disease riddled city, after all. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
