@@ -1,32 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Thief: The Dark Project Remastered launches December 3",
-  "url": "https://www.gematsu.com/2026/11/thief-the-dark-project-remastered-launches-december-3",
-  "ngay": "2026-11-02T22:21:54+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox One",
-   "Xbox Series",
-   "Atari",
-   "Eidos Montreal",
-   "Nightdive Studios",
-   "Release Dates",
-   "Thief: The Dark Project Remastered"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Thief: The Dark Project Remastered, a modern revival of the 1998 classic from Looking Glass …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-02T23:20:52+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Castaway Diary: Portal to the Unknown Isles Early Access delayed to 2027",
   "url": "https://www.gematsu.com/2026/11/castaway-diary-portal-to-the-unknown-isles-early-access-delayed-to-2027",
   "ngay": "2026-11-02T22:36:57+07:00",
@@ -3304,5 +3278,27 @@
   "tom_tat": "Code-in-box. An image of GTA 6’s physical edition has emerged on Reddit , ahead of its release later in the month. The anticipated open world game – which won’t include a disc – looks practically identical to every other PS5 release, in a sealed blue plastic case with the usual logos and layout. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-07T22:10:53+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Aniplex and CYBIRD announce dark fantasy visual novel LunaReverse for Switch, PC",
+  "url": "https://www.gematsu.com/2026/11/aniplex-and-cybird-announce-dark-fantasy-visual-novel-lunareverse-for-switch-pc",
+  "ngay": "2026-11-07T17:00:58+07:00",
+  "the_loai": [
+   "PC",
+   "Switch",
+   "Aniplex",
+   "Clips",
+   "CYBIRD",
+   "Game Announce",
+   "LunaReverse",
+   "Trailers",
+   "Visual Novel"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Aniplex and developer CYBIRD have announced LunaReverse, a dark fantasy visual novel coming to …",
+  "goi_y_ps": false
  }
 ]
