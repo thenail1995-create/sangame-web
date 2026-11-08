@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "HARMA launches in Early Access on November 17",
-  "url": "https://www.gematsu.com/2026/11/harma-launches-in-early-access-on-november-17",
-  "ngay": "2026-11-03T00:00:15+07:00",
-  "the_loai": [
-   "PC",
-   "Astrolabe Games",
-   "Clips",
-   "harma",
-   "INDIRECT SHINE",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Roguelike cooperative deckbuilder HARMA will launch in Early Access for PC via Steam on November …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Roguelike deckbuilder My Ransomware Can’t Be This Cute?! to be published by Top Hat Studios",
   "url": "https://www.gematsu.com/2026/11/roguelike-deckbuilder-my-ransomware-cant-be-this-cute-to-be-published-by-top-hat-studios",
   "ngay": "2026-11-03T00:10:49+07:00",
@@ -3288,6 +3268,25 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Bandai Namco has released a teaser trailer for My Hero Ultra Rumble Mobile, its newly …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "El Shaddai: Zero Nine Reversi now available for PC",
+  "url": "https://www.gematsu.com/2026/11/el-shaddai-zero-nine-reversi-now-available-for-pc",
+  "ngay": "2026-11-08T22:15:46+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "crim",
+   "El Shaddai: Zero Nine Reversi",
+   "Game Announce",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "crim has released El Shaddai: Zero Nine Reversi, “a board game that puts a bold …",
   "goi_y_ps": false
  }
 ]
