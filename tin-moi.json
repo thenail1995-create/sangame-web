@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Helldivers 2: new poisonous Terminid types, more bug caves spawn across the galaxy today",
-  "url": "https://blog.playstation.com/2026/11/03/helldivers-2-new-poisonous-terminid-types-more-bug-caves-spawn-across-the-galaxy-today/",
-  "ngay": "2026-11-03T20:02:22+07:00",
-  "the_loai": [
-   "PS5",
-   "Arrowhead Game Studios",
-   "Helldivers 2"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-03T22:20:53+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Sony Commits to China Hero Project with Further Investment into Promising PS5 Games",
   "url": "https://www.pushsquare.com/news/2026/11/sony-commits-to-china-hero-project-with-further-investment-into-promising-ps5-games",
@@ -3290,5 +3275,28 @@
   "da_viet": false,
   "tom_tat": "Still not sure what it is. Remember Sea of Remnants ? Announced for PS5 last year during a summer State of Play , we've yet to see very much of the actual game so far, but it seems it won't be long before we can actually play it for ourselves. That's because a closed beta test is scheduled for 3rd December 2026, and console platforms are being included for the first time. A select number of players will be able to check it out when it opens at 4pm PT on that date. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Warhammer 40,000: Dark Heresy launches January 28, 2027 for PS5, Xbox Series, and PC, later for Switch 2",
+  "url": "https://www.gematsu.com/2026/11/warhammer-40000-dark-heresy-launches-january-28-2027-for-ps5-xbox-series-and-pc-later-for-switch-2",
+  "ngay": "2026-11-09T23:13:25+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Owlcat Games",
+   "Release Dates",
+   "RPG",
+   "Trailers",
+   "Warhammer 40000: Dark Heresy"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Party-based, story-driven cRPG Warhammer 40,000: Dark Heresy will launch for PlayStation 5, Xbox Series, and …",
+  "goi_y_ps": false
  }
 ]
