@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "The Backworld launches in Q2 2027",
-  "url": "https://www.gematsu.com/2026/11/the-backworld-launches-in-q2-2027",
-  "ngay": "2026-11-03T00:09:36+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Release Dates",
-   "The Backworld",
-   "Top Hat Studios",
-   "Top Hat Studios Presents: Fall Showcase 2026",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "The Backworld, a turn-based RPG with narrative-driven horror elements, will launch for PC via Steam …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "2D pixel action game RGB: Execution to be published by Top Hat Studios",
   "url": "https://www.gematsu.com/2026/11/2d-pixel-action-game-rgb-execution-to-be-published-by-top-hat-studios",
   "ngay": "2026-11-03T00:06:35+07:00",
@@ -3290,5 +3270,26 @@
   "da_viet": false,
   "tom_tat": "The remake of Prinny Party: Going Overboard! for PlayStation 5, Switch 2, Switch, and PC, …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "PlayStation Portal Midnight Black Japan-only model announced",
+  "url": "https://www.gematsu.com/2026/11/playstation-portal-midnight-black-japan-only-model-announced",
+  "ngay": "2026-11-09T08:52:35+07:00",
+  "the_loai": [
+   "PS5",
+   "Clips",
+   "PlayStation Plus",
+   "PlayStation Portal",
+   "SIE",
+   "SIEJA",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "Sony Interactive Entertainment Japan Asia has announced a Japanese-language-only SKU for PlayStation Portal in Midnight …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-09T09:01:19+07:00"
  }
 ]
