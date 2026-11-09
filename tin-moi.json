@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "2D pixel action game RGB: Execution to be published by Top Hat Studios",
-  "url": "https://www.gematsu.com/2026/11/2d-pixel-action-game-rgb-execution-to-be-published-by-top-hat-studios",
-  "ngay": "2026-11-03T00:06:35+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Purechito",
-   "RGB: Execution",
-   "Top Hat Studios",
-   "Top Hat Studios Presents: Fall Showcase 2026",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Top Hat Studios will publish Purechito-developed 2D pixel action game RGB: Execution when it launches …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Retro-inspired horror anthology Spooky Tales to be published by Top Hat Studios",
   "url": "https://www.gematsu.com/2026/11/retro-inspired-horror-anthology-spooky-tales-to-be-published-by-top-hat-studios",
   "ngay": "2026-11-03T00:04:12+07:00",
@@ -3291,5 +3271,24 @@
   "tom_tat": "Sony Interactive Entertainment Japan Asia has announced a Japanese-language-only SKU for PlayStation Portal in Midnight …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-09T09:01:19+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle announced for iOS, Android",
+  "url": "https://www.gematsu.com/2026/11/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-ios-android",
+  "ngay": "2026-11-09T10:57:58+07:00",
+  "the_loai": [
+   "Smartphone",
+   "Dragon Quest (series)",
+   "Dragon Quest RPG: The Cursed Tree and the Chosen Isle",
+   "Game Announce",
+   "RPG",
+   "Square Enix"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Square Enix has announced Dragon Quest RPG: The Cursed Tree and the Chosen Isle, “the …",
+  "goi_y_ps": false
  }
 ]
