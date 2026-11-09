@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Store",
-  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (2648 → 3169 món)",
-  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
-  "ngay": "2026-11-03T22:01:25+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "số món giảm giá tăng 20% so với đỉnh 12 lần gần nhất",
-  "da_viet": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "The Elder Scrolls VI: Sentinel subtitle announced",
   "url": "https://www.gematsu.com/2026/11/the-elder-scrolls-vi-sentinel-subtitle-announced",
@@ -3317,5 +3305,29 @@
   "tom_tat": "Cozy life simulation game Wish Upon a Llama will launch for PlayStation 5, Xbox Series, …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-10T01:40:56+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA VI Update Gives Cardi B, Travis Scott, & More a Bigger Role That Goes Beyond Radio Stations",
+  "url": "https://www.playstationlifestyle.net/2026/11/09/gta-6-real-life-concert-travis-scott-cardi-b-miami",
+  "ngay": "2026-11-10T01:44:44+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Cardi B",
+   "CrossPost",
+   "Entertainment and Gaming",
+   "Grand Theft Auto VI",
+   "Grand Theft Auto VI: The Festival",
+   "GTA 6",
+   "Rockstar Games",
+   "Travis Scott",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Rockstar Games is giving Cardi B, Travis Scott, and others a major role in GTA VI. The video game publisher is bringing the world of GTA 6 into real life with a music festival soon after the long-awaited game’s launch. In an update shared by Rockstar Games on X, a Grand Theft Auto VI: The […] The post GTA VI Update Gives Cardi B, Travis Scott, & More a Bigger Role That Goes Beyond Radio Stations appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
