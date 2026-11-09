@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Store",
-  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (3169 → 5995 món)",
-  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
-  "ngay": "2026-11-03T22:10:54+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "số món giảm giá tăng 89% so với đỉnh 12 lần gần nhất",
-  "da_viet": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "GTA 6 PS5 File Size Confirmed to Be 212GB, Physical Map Available But Not in Boxed Copies",
   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-file-size-confirmed-to-be-212gb-physical-map-available-but-not-in-boxed-copies",
@@ -3316,5 +3304,17 @@
   "tom_tat": "Warhammered. Good news: Warhammer 40,000: Dark Heresy has just been handed a release date. Bad news: It's only adding to the avalanche of PS5 games launching across January and February. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-10T04:50:51+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Pre-Orders Outperform Even Take-Two's Expectations, GTA 5 Just Keeps on Selling",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-pre-orders-outperform-even-take-twos-expectations-gta-5-just-keeps-on-selling",
+  "ngay": "2026-11-10T05:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "GTA 5 now at 235 million sales. We won't know how well GTA 6 is selling during its pre-order phase until after the game's launch next week, but with the biggest entertainment release of all time projected and now Take-Two CEO Strauss Zelnick talking up the numbers, we could be looking at some absurd sales stats. Speaking alongside the publication of financial reports, Zelnick said GTA 6 pre-orders are \"running far in excess of our expectations\". The game has been available to pre-order 25th June 2026, so they'll have been available for almost five months when GTA 6 finally comes out on 19th No…",
+  "goi_y_ps": true
  }
 ]
