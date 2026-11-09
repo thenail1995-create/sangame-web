@@ -1,23 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy ‘Overview’ trailer",
-  "url": "https://www.gematsu.com/2026/11/pikmin-4-nintendo-switch-2-edition-dandori-academy-overview-trailer",
-  "ngay": "2026-11-03T06:05:25+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Clips",
-   "Nintendo",
-   "Pikmin 4 - Nintendo Switch 2 Edition + Dandori Academy",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Nintendo has released a four-minute overview trailer for Pikmin 4 – Nintendo Switch 2 Edition …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "November 2026 PS Plus Essential Games Available to Download Now",
   "url": "https://www.pushsquare.com/news/2026/11/november-2026-ps-plus-essential-games-available-to-download-now",
@@ -3259,5 +3241,17 @@
   "da_viet": false,
   "tom_tat": "Varsity jacket for $3,300. You may need to turn to crime in order to afford UK retailer Selfridges’ exclusive roster of GTA 6 merch. Available online and in-store now, items include a £2,500 (~$3,352) varsity jacket with the Rockstar and GTA 6 logos emblazoned on them. You can also get a leather Burger Shot takeaway bag for £125 (~$167). Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6: The Festival Is a One-Off Live Music Event, Partly Presented By PlayStation",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-the-festival-is-a-one-off-live-music-event-partly-presented-by-playstation",
+  "ngay": "2026-11-09T21:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Held in Miami of course. Rockstar Games has announced GTA 6 : The Festival, a special live music event being held to celebrate the launch of the open world action game. Presented in partnership with PlayStation, the one-off event takes place in Miami, Florida on 21st November, 2026. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
