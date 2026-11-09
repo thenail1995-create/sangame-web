@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Sony Commits to China Hero Project with Further Investment into Promising PS5 Games",
-  "url": "https://www.pushsquare.com/news/2026/11/sony-commits-to-china-hero-project-with-further-investment-into-promising-ps5-games",
-  "ngay": "2026-11-03T20:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Many titles getting an additional $1 million. While the vast majority of its four million sales have no doubt been made on PC, Sony’s enjoying a big win with the console exclusive Phantom Blade Zero right now. And at a press conference in Shanghai earlier today, it recommitted to its ongoing China Hero Project, which is now in its fourth phase. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-04T14:01:22+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Sonic Racing: CrossWorlds Year Two begins today with Duel Mode, new characters, gadgets and more",
   "url": "https://blog.playstation.com/2026/11/03/sonic-racing-crossworlds-year-two-begins-today-with-duel-mode-new-characters-gadgets-and-more/",
@@ -3298,5 +3285,17 @@
   "da_viet": false,
   "tom_tat": "Party-based, story-driven cRPG Warhammer 40,000: Dark Heresy will launch for PlayStation 5, Xbox Series, and …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Capcom Just Sold 5 Million Copies of Resident Evil Games in 3 Months",
+  "url": "https://www.pushsquare.com/news/2026/11/capcom-just-sold-5-million-copies-of-resident-evil-games-in-3-months",
+  "ngay": "2026-11-09T23:45:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Resident Evil'",
+  "da_viet": false,
+  "tom_tat": "1.1 million for Resident Evil 4 alone. Capcom recently shared the sales of its back catalogue of released titles are at their strongest point in the firm's history, and through another update to its list of Platinum Titles , we can put hard numbers to that claim. In short, all the publisher's main franchises are pulling their weight, but the consistent sales of past Resident Evil games are just staggering. In the past three months, the series has sold another five million units overall. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
