@@ -1,19 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Grand Theft Auto VI pre-download begins November 10",
-  "url": "https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/",
-  "ngay": "2026-11-03T22:28:13+07:00",
-  "the_loai": [
-   "PS5",
-   "Grand Theft Auto VI"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-04T01:21:35+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Skyrim's Successor Finally Re-Revealed as The Elder Scrolls 6: Sentinel",
   "url": "https://www.pushsquare.com/news/2026/11/skyrims-successor-finally-re-revealed-as-the-elder-scrolls-6-sentinel",
@@ -3320,5 +3306,21 @@
   "tom_tat": "All editions revealed. Atelier Karia: The Night Kingdom & the Guide of Memories attracted attention recently for including a system where its eponymous protagonist could get fat . That’s because this upcoming PS5 RPG from Koei Tecmo takes the “you are what you eat” mantra and makes it a gameplay mechanic, with the heroine absorbing all kinds of abilities depending on what you feed her. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-10T08:01:24+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Switch 2 and Switch system updates version 23.5.0 now available",
+  "url": "https://www.gematsu.com/2026/11/switch-2-and-switch-system-updates-version-23-5-0-now-available",
+  "ngay": "2026-11-10T08:37:42+07:00",
+  "the_loai": [
+   "Switch",
+   "Switch 2",
+   "Nintendo"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Nintendo has released Switch 2 and Switch system updates version 23.5.0. The updates add support …",
+  "goi_y_ps": false
  }
 ]
