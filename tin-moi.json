@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Skyrim's Successor Finally Re-Revealed as The Elder Scrolls 6: Sentinel",
-  "url": "https://www.pushsquare.com/news/2026/11/skyrims-successor-finally-re-revealed-as-the-elder-scrolls-6-sentinel",
-  "ngay": "2026-11-03T22:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Bethesda unveils its next RPG. It's official: The Elder Scrolls 6: Sentinel is the full title of Bethesda's next open world RPG. The subtitle has been announced as part of the developer's 40th anniversary celebrations. Confirmation comes via a very brief trailer at the end of the company's new video, which you can watch below. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-04T14:01:22+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Remaster of 1998 Classic Action Game Gets Release Date",
   "url": "https://www.playstationlifestyle.net/2026/11/03/ps5-action-game-thief-remastered-release-date",
@@ -3321,6 +3308,23 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Nintendo has released Switch 2 and Switch system updates version 23.5.0. The updates add support …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Super Mario Party Jamboree version 2.4.0 update now available, adds GameShare using GameChat on Switch 2",
+  "url": "https://www.gematsu.com/2026/11/super-mario-party-jamboree-version-2-4-0-update-now-available-adds-gameshare-using-gamechat-on-switch-2",
+  "ngay": "2026-11-10T09:00:16+07:00",
+  "the_loai": [
+   "Switch 2",
+   "Nintendo",
+   "Super Mario Party Jamboree",
+   "Super Mario Party Jamboree - Nintendo Switch 2 Edition + Jamboree TV"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Nintendo has released the version 2.4.0 update for Super Mario Party Jamboree, which adds GameShare …",
   "goi_y_ps": false
  }
 ]
