@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Guide: Stellar Blade Guide: A Full 100% Walkthrough",
-  "url": "https://www.pushsquare.com/guides/stellar-blade-guide-a-full-100percent-walkthrough",
-  "ngay": "2026-11-04T16:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "How to rid the world of Naytibas on PS5, PC, and now Switch 2. Stellar Blade is Korean developer Shift Up's console debut, focusing on buxom heroine Eve in her battle against the nefarious Naytibas. Available from 26th April 2024 on PS5, 11th June 2025 on PC, and 5th November 2026 on Switch 2, we awarded the outing an 8/10 in our Stellar Blade review . \"Eve’s inaugural outing is largely excellent across the board, and destined to become a firm favourite among PS5 enthusiasts,\" we concluded. In this Stellar Blade guide , we've included a full walkthrough of all the areas and environments which…",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-05T11:31:04+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Feature: 50+ PS5, PS4 Games to Buy in PS Store's Huge Black Friday Sale",
   "url": "https://www.pushsquare.com/features/50plus-ps5-ps4-games-to-buy-in-ps-stores-huge-black-friday-sale",
   "ngay": "2026-11-04T20:00:00+07:00",
@@ -3402,5 +3389,17 @@
   "da_viet": false,
   "tom_tat": "A PS5 remaster of a beloved PS2 game is now available to buy on the PlayStation Store. The post PS5 Remaster of Beloved PS2 Game Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Poll: Is GTA 6 Being Stuck at 30fps on PS5 a Dealbreaker?",
+  "url": "https://www.pushsquare.com/features/poll-is-gta-6-being-stuck-at-30fps-on-ps5-a-dealbreaker",
+  "ngay": "2026-11-11T03:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Doubled trouble. Your (potential) nightmare has become a reality: GTA 6 runs at just 30 frames-per-second on PS5 and PS5 Pro. The target frame rate was confirmed earlier today by Rockstar Games itself , prompting an outpouring of relative disappointment from those who were banking on a silky 60fps experience. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
