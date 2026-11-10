@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T17:40:50+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Console Archives Elevator Action launches November 5",
   "url": "https://www.gematsu.com/2026/11/console-archives-elevator-action-launches-november-5",
@@ -3378,5 +3366,17 @@
   "da_viet": false,
   "tom_tat": "Rockstar Games has confirmed a cloud gaming option for its upcoming blockbuster. However, PlayStation Portal owners face a catch. The latest GTA VI cloud streaming update means players will need a PS5 to enjoy the game on Sony’s handheld. In its November 10 announcement, Rockstar confirmed that Grand Theft Auto VI will support Xbox Cloud […] The post GTA VI Cloud Streaming Update Is Bad News for PS Portal Players appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Preload Is Now Available for All Digital Pre-Orders, Download to Your PS5 Now",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-preload-is-now-available-for-all-digital-pre-orders-download-to-your-ps5-now",
+  "ngay": "2026-11-11T00:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "It's almost time. Publisher and developer Rockstar Games has announced that preloading for the highly anticipated GTA 6 is now available to everyone who pre-ordered digitally. In other words, if you pre-ordered the game via the PS Store, you can now begin downloading and installing the game on your PS5 to ensure it's ready to go come launch day. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
