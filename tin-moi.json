@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Marvel Tokon's Magik Gets Fired Up with Free New Costume for All Players",
-  "url": "https://www.pushsquare.com/news/2026/11/marvel-tokons-magik-gets-fired-up-with-free-new-costume-for-all-players",
-  "ngay": "2026-11-04T19:15:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "Seeing red. If you're playing Marvel Tokon: Fighting Souls , you'll probably be aware of the recent DLC and updates to the superhero fighter. Phoenix Cyclops has joined the roster as the first post-launch character, and to celebrate his arrival, developer Arc System Works has provided all players with a fun bonus. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -3381,6 +3369,23 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Publisher Xbox Game Studios and developer Obsidian Entertainment will release The Outer Worlds 2 downloadable …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Mouse Work launches December 7",
+  "url": "https://www.gematsu.com/2026/11/mouse-work-launches-december-7",
+  "ngay": "2026-11-11T01:29:05+07:00",
+  "the_loai": [
+   "Switch 2",
+   "Mouse Work",
+   "Nitrome",
+   "Release Dates"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Party game Mouse Work will launch for Switch 2 on December 7, developer Nitrome announced. …",
   "goi_y_ps": false
  }
 ]
