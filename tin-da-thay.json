@@ -75,7 +75,8 @@
    "urn:uuid:bf5b6edb-aacb-4134-872b-a98488bc137f",
    "urn:uuid:cc2954a3-02e5-471e-8715-e8fc9c6d60c8",
    "urn:uuid:65324c02-5a6a-44e3-857a-30c74b866e14",
-   "urn:uuid:6cf4b6a1-33a9-486a-b835-31644a10f202"
+   "urn:uuid:6cf4b6a1-33a9-486a-b835-31644a10f202",
+   "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -90,10 +91,10 @@
    "urn:uuid:ad3df8e0-9718-4450-9f34-db1efa8fa367",
    "urn:uuid:92265195-88ed-4cda-86ce-34d5580a8410",
    "urn:uuid:2f58916e-4c78-480d-ac93-164a38392b59",
-   "urn:uuid:78aa95ff-ff5e-44c7-8a13-ee887620db3c"
+   "urn:uuid:78aa95ff-ff5e-44c7-8a13-ee887620db3c",
+   "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1084113",
    "https://www.gematsu.com/?p=1083829",
    "https://www.gematsu.com/?p=1084023",
    "https://www.gematsu.com/?p=1084117",
@@ -392,10 +393,10 @@
    "https://www.gematsu.com/?p=1087850",
    "https://www.gematsu.com/?p=1087832",
    "https://www.gematsu.com/?p=1087862",
-   "https://www.gematsu.com/?p=1087728"
+   "https://www.gematsu.com/?p=1087728",
+   "https://www.gematsu.com/?p=1087915"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-207618",
    "https://www.pushsquare.com/#article-207705",
    "https://www.pushsquare.com/#article-207676",
    "https://www.pushsquare.com/#article-207709",
@@ -694,7 +695,8 @@
    "https://www.pushsquare.com/#article-208889",
    "https://www.pushsquare.com/#article-208887",
    "https://www.pushsquare.com/#article-208893",
-   "https://www.pushsquare.com/#article-208886"
+   "https://www.pushsquare.com/#article-208886",
+   "https://www.pushsquare.com/#article-208907"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -953,7 +955,7 @@
    5680,
    5680,
    5680,
-   5680,
+   5685,
    5685,
    5685,
    5685,
@@ -967,8 +969,8 @@
    3523,
    3523,
    3523,
-   3523,
    3524,
+   3523,
    3523,
    3523,
    3523
@@ -983,7 +985,7 @@
    420,
    420,
    420,
-   420,
+   419,
    419,
    419,
    419,
