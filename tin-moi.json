@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T14:10:44+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T14:31:05+07:00",
@@ -3321,5 +3309,17 @@
   "da_viet": false,
   "tom_tat": "Bandai Namco confirms. Do you remember Unknown 9: Awakening ? Published by Bandai Namco, the story-driven stealth-action title had a fairly hard marketing push ahead of its release back in October 2024 — but it was labelled a \"failure\" just months after its launch. It was a commercial disaster, selling way below expectations, and developer Reflector Entertainment was subsequently hit with layoffs, before revealing that it would be put to work on an existing Bandai Namco property. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Marathon's Fate Hangs in the Balance as Bungie Details Its Game-Saving PvE Update",
+  "url": "https://www.pushsquare.com/news/2026/11/marathons-fate-hangs-in-the-balance-as-bungie-details-its-game-saving-pve-update",
+  "ngay": "2026-11-10T22:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Symbiosis still on for December. Bungie has reconfirmed that Marathon's major 'Symbiosis' update will launch on the 8th December. You may recall that it was delayed back in September. Many believe that this patch will be the troubled shooter's make-or-break moment, as Marathon's player numbers remain concerningly low. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
