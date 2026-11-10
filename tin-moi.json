@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T20:31:07+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "First Phantom Blade Zero PS5 Update Makes an Early, Deadly Boss Easier",
-  "url": "https://www.pushsquare.com/news/2026/11/first-phantom-blade-zero-ps5-update-makes-an-early-deadly-boss-easier",
-  "ngay": "2026-11-04T20:45:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Hua, Deadly Betrothed nerfed in PS5 patch. S-GAME has today published the first major Phantom Blade Zero update for PS5 and PC, available to download now on both platforms. It's a relatively normal list of updates and tweaks, comprising bug fixes and adjustments — until you see that one of the game's earlier bosses has been nerfed a touch. Hua, Deadly Bethrothed, an optional boss fight in the first main Weeping Creek Valley region, has had her grab attacks made less frequent. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-05T11:31:04+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "This JRPG Series Lightly Inspired by the Console Wars Is Finally Getting a New PS5 Sequel",
   "url": "https://www.pushsquare.com/news/2026/11/this-jrpg-series-lightly-inspired-by-the-console-wars-is-finally-getting-a-new-ps5-sequel",
@@ -3420,5 +3395,37 @@
   "da_viet": false,
   "tom_tat": "A new expansion will add weapons, missions, and locations to the sci-fi RPG this December. The Outer Worlds 2 will receive its first story DLC, Side Effects Guaranteed, on December 2. According to the PlayStation Blog, the story begins when the crew of the Incognito receives a distress signal from a derelict ship. Its crew […] The post Sci-Fi PS5 RPG Expansion Adds 5 Powerful Weapons & Strange New Region appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Fairgame$ canceled",
+  "url": "https://www.gematsu.com/2026/11/fairgame-canceled",
+  "ngay": "2026-11-11T03:58:47+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Cancelled",
+   "Fairgame$",
+   "Haven Interactive Studios",
+   "SIE",
+   "SIEA"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Sony Interactive Entertainment has canceled development subsidiary Haven Interactive Studios’ May 2023-announced multiplayer shooter Fairgame$, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony Cancels Fairgames After Years of Work on PS5 Live Service Shooter",
+  "url": "https://www.pushsquare.com/news/2026/11/sony-cancels-fairgames-after-years-of-work-on-ps5-live-service-shooter",
+  "ngay": "2026-11-11T04:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Haven Studio becomes a support team. PlayStation has officially cancelled Fairgames , the PS5 and PC live service shooter it had in production at Haven Studio. The news comes from Bloomberg journalist Jason Schreier, though it's been sourced from an internal email distributed to PlayStation employees, and a company spokesperson has commented on the story. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
