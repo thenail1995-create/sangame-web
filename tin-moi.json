@@ -1,28 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Console Archives Elevator Action launches November 5",
-  "url": "https://www.gematsu.com/2026/11/console-archives-elevator-action-launches-november-5",
-  "ngay": "2026-11-04T17:05:33+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Clips",
-   "Console Archives",
-   "Console Archives Elevator Action",
-   "Hamster Corporation",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Console Archives Elevator Action will launch for PlayStation 5 and Switch 2 on November 5 …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-04T20:10:46+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Arcade Archives Exzisus launches November 5",
   "url": "https://www.gematsu.com/2026/11/arcade-archives-exzisus-launches-november-5",
   "ngay": "2026-11-04T15:15:33+07:00",
@@ -3378,5 +3356,26 @@
   "da_viet": false,
   "tom_tat": "It's almost time. Publisher and developer Rockstar Games has announced that preloading for the highly anticipated GTA 6 is now available to everyone who pre-ordered digitally. In other words, if you pre-ordered the game via the PS Store, you can now begin downloading and installing the game on your PS5 to ensure it's ready to go come launch day. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Devolver Digital and BlackLight Games announce roguelike auto-battler All Army Attack for PC",
+  "url": "https://www.gematsu.com/2026/11/devolver-digital-and-blacklight-games-announce-roguelike-auto-battler-all-army-attack-for-pc",
+  "ngay": "2026-11-11T00:13:01+07:00",
+  "the_loai": [
+   "PC",
+   "All Army Attack",
+   "BlackLight Games",
+   "Clips",
+   "Devolver Digital",
+   "Game Announce",
+   "Screenshots",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Devolver Digital and developer BlackLight Games have announced All Army Attack, a “chaotic, large-scale …",
+  "goi_y_ps": false
  }
 ]
