@@ -1,24 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Game Pass adds Escape Academy 2: Back 2 School, Thronefall, Warhammer Survivors, and more in early to mid November",
-  "url": "https://www.gematsu.com/2026/11/game-pass-adds-escape-academy-2-back-2-school-thronefall-warhammer-survivors-and-more-in-early-to-mid-november",
-  "ngay": "2026-11-04T01:10:31+07:00",
-  "the_loai": [
-   "PC",
-   "Smartphone",
-   "Xbox One",
-   "Xbox Series",
-   "Microsoft",
-   "Xbox Game Pass"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Microsoft has announced new titles coming to Game Pass in early to mid November, including …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Control Resonant Is Remedy's Fastest Selling Game Ever, Led to a Massive Boost in Revenue",
   "url": "https://www.pushsquare.com/news/2026/11/control-resonant-is-remedys-fastest-selling-game-ever-led-to-a-massive-boost-in-revenue",
@@ -3303,5 +3284,17 @@
   "tom_tat": "Chippin' in. What are the best Cyberpunk 2077 mods on PS5? In this guide, I'm going to highlight which mods I think are well worth installing to make your dark future experience more enticing. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-10T18:50:52+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Don't Worry, No Last Minute Delays: GTA 6 Has Officially Gone Gold",
+  "url": "https://www.pushsquare.com/news/2026/11/dont-worry-no-last-minute-delays-gta-6-has-officially-gone-gold",
+  "ngay": "2026-11-10T19:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Gold Theft Auto. In case there was any doubt remaining, GTA 6 will definitely be making its debut on 19th November, 2026, with no risk of another delay of some kind. That's because it's finally been confirmed the game has gone gold, which essentially means the open world action title is ready for release. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
