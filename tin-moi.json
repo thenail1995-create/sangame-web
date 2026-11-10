@@ -1,30 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Dragon’s Dogma II: Dark Arisen x Delicious in Dungeon collaboration announced",
-  "url": "https://www.gematsu.com/2026/11/dragons-dogma-ii-dark-arisen-x-delicious-in-dungeon-collaboration-announced",
-  "ngay": "2026-11-04T07:45:53+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Capcom",
-   "Clips",
-   "Dragon's Dogma II",
-   "Dragon's Dogma II: Dark Arisen",
-   "Screenshots",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Capcom has announced a collaboration with manga series Delicious in Dungeon for Dragon’s Dogma II: Dark …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-04T14:01:22+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "CaTHaRSiS: The last of atelier launches December 1",
   "url": "https://www.gematsu.com/2026/11/catharsis-the-last-of-atelier-launches-december-1",
   "ngay": "2026-11-04T10:05:47+07:00",
@@ -3315,5 +3291,27 @@
   "da_viet": false,
   "tom_tat": "Improved clarity and ray traced shadows on PS5 Pro. Rockstar Games has today revealed what sort of benefits playing GTA 6 on a PS5 Pro will provide. No matter whether you play on a base PS5 or a PS5 Pro, though, the game will target 30 frames-per-second, a new post on the developer's website confirms: Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS Store on Console Quietly Adds Convenient New Section",
+  "url": "https://www.playstationlifestyle.net/2026/11/10/ps-store-console-hardware-section-added",
+  "ngay": "2026-11-10T21:30:00+07:00",
+  "the_loai": [
+   "News",
+   "PS4 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "PlayStation Store",
+   "PS Store",
+   "Sony Interactive Entertainment",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The PS Store on console has quietly added a handy new section that players will appreciate. As spotted by users, a dedicated “hardware” section has popped up, with several subcategories that make it easy to browse. PS Store on console makes it easier to purchase hardware We’ve seen hardware advertised on the PS Store before, […] The post PS Store on Console Quietly Adds Convenient New Section appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
