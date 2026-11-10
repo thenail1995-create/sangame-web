@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T14:31:05+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T14:40:45+07:00",
@@ -3321,5 +3309,20 @@
   "da_viet": false,
   "tom_tat": "Symbiosis still on for December. Bungie has reconfirmed that Marathon's major 'Symbiosis' update will launch on the 8th December. You may recall that it was delayed back in September. Many believe that this patch will be the troubled shooter's make-or-break moment, as Marathon's player numbers remain concerningly low. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Pre-load Grand Theft Auto VI on PS5 starting today",
+  "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+  "ngay": "2026-11-10T22:41:17+07:00",
+  "the_loai": [
+   "PS5",
+   "Grand Theft Auto VI",
+   "Rockstar Games",
+   "Take-Two Interactive"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
