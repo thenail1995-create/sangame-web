@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Bill & Ted Rock Out on PS5 in New Side-Scrolling Arcade Adventure",
-  "url": "https://www.pushsquare.com/news/2026/11/bill-and-ted-rock-out-on-ps5-in-new-side-scrolling-arcade-adventure",
-  "ngay": "2026-11-03T23:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Yes way. Bill & Ted's Excellent Adventure Arcade has just been announced for PS5, and it looks like a potential banger. Based on the first Bill & Ted movie of the same name, this is a side-scrolling action game — for up to two players — where the eternally optimistic duo travel between different time periods in order to recruit famous historical figures. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-04T07:40:49+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Hyperspace Neptunia: Unlimited coming west in 2027 for PS5, Switch 2, PS4, Switch, and PC",
   "url": "https://www.gematsu.com/2026/11/hyperspace-neptunia-unlimited-coming-west-in-2027-for-ps5-switch-2-ps4-switch-and-pc",
@@ -3305,5 +3292,25 @@
   "da_viet": false,
   "tom_tat": "Update 1.08 available to download now. Could the excellent Silent Hill 2 remake finally be fixed on base PS5 and PS5 Pro? That's what a new patch for the game seems to be suggesting. A new update for the survival horror remake, dedicated entirely to PS5 and PS5 Pro, is live now, bringing it up to version 1.08. The patch notes speak of addressing all the graphical issues that have quietly plagued the game for months now. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle unveiled",
+  "url": "https://www.gematsu.com/2026/11/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-unveiled",
+  "ngay": "2026-11-10T18:00:11+07:00",
+  "the_loai": [
+   "Smartphone",
+   "Clips",
+   "Dragon Quest (series)",
+   "Dragon Quest RPG: The Cursed Tree and the Chosen Isle",
+   "RPG",
+   "Square Enix",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Square Enix and developer WFS have officially unveiled Dragon Quest RPG: The Cursed Tree …",
+  "goi_y_ps": false
  }
 ]
