@@ -1,23 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "CaTHaRSiS: The last of atelier launches December 1",
-  "url": "https://www.gematsu.com/2026/11/catharsis-the-last-of-atelier-launches-december-1",
-  "ngay": "2026-11-04T10:05:47+07:00",
-  "the_loai": [
-   "PC",
-   "CaTHaRSiS: The last of atelier",
-   "Kodansha",
-   "Mana (company)",
-   "Release Dates"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Immersive art adventure game CaTHaRSiS: The last of atelier will launch for PC via Steam …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -3312,6 +3294,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "The PS Store on console has quietly added a handy new section that players will appreciate. As spotted by users, a dedicated “hardware” section has popped up, with several subcategories that make it easy to browse. PS Store on console makes it easier to purchase hardware We’ve seen hardware advertised on the PS Store before, […] The post PS Store on Console Quietly Adds Convenient New Section appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "2D action platformer isekizima: Ruins and Tails Journey launches January 19, 2027 for PC, later for Switch",
+  "url": "https://www.gematsu.com/2026/11/2d-action-platformer-isekizima-ruins-and-tails-journey-launches-january-19-2027-for-pc-later-for-switch",
+  "ngay": "2026-11-10T21:50:17+07:00",
+  "the_loai": [
+   "PC",
+   "Switch",
+   "Clips",
+   "isekizima: Ruins and Tails Journey",
+   "Release Dates",
+   "Screenshots",
+   "TamagawaSoft",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "2D action platformer isekizima: Ruins and Tails Journey will launch for PC via Steam on …",
   "goi_y_ps": false
  }
 ]
