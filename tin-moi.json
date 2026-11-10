@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T18:50:43+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Marvel Tokon's Magik Gets Fired Up with Free New Costume for All Players",
   "url": "https://www.pushsquare.com/news/2026/11/marvel-tokons-magik-gets-fired-up-with-free-new-costume-for-all-players",
@@ -3370,6 +3358,29 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Just a bunch of QR codes in reality. Sony has begun advertising PS5 hardware and accessories directly through the console's PS Store via a new Hardware tab at the end of its horizontal scroller. The new page promotes PS5 consoles, controllers, the PS Portal, headsets, PSVR2, and PS5 Covers. There's then a part below it that details the sort of benefits you get by ordering through PlayStation Direct. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Outer Worlds 2 DLC ‘Side Effects Guaranteed’ launches December 2",
+  "url": "https://www.gematsu.com/2026/11/the-outer-worlds-2-dlc-side-effects-guaranteed-launches-december-2",
+  "ngay": "2026-11-11T01:17:44+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "DLC",
+   "Microsoft",
+   "Obsidian Entertainment",
+   "Release Dates",
+   "The Outer Worlds 2",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Publisher Xbox Game Studios and developer Obsidian Entertainment will release The Outer Worlds 2 downloadable …",
   "goi_y_ps": false
  }
 ]
