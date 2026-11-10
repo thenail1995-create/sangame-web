@@ -76,7 +76,8 @@
    "urn:uuid:cc2954a3-02e5-471e-8715-e8fc9c6d60c8",
    "urn:uuid:65324c02-5a6a-44e3-857a-30c74b866e14",
    "urn:uuid:6cf4b6a1-33a9-486a-b835-31644a10f202",
-   "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
+   "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86",
+   "urn:uuid:dc73a8dc-1979-49e2-ab98-cdaf930e9c87"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -397,7 +398,6 @@
    "https://www.gematsu.com/?p=1087835"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-207676",
    "https://www.pushsquare.com/#article-207709",
    "https://www.pushsquare.com/#article-207712",
    "https://www.pushsquare.com/#article-207632",
@@ -696,7 +696,8 @@
    "https://www.pushsquare.com/#article-208893",
    "https://www.pushsquare.com/#article-208886",
    "https://www.pushsquare.com/#article-208907",
-   "https://www.pushsquare.com/#article-208896"
+   "https://www.pushsquare.com/#article-208896",
+   "https://www.pushsquare.com/#article-208900"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -953,7 +954,7 @@
    5685,
    5685,
    5685,
-   5685,
+   5684,
    5684,
    5684,
    5684,
@@ -968,7 +969,7 @@
    3523,
    3523,
    3523,
-   3523,
+   3521,
    3521,
    3521,
    3521,
@@ -1000,5 +1001,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-10T22:01:30+07:00"
+ "lan_goi_viet": "2026-11-11T01:10:51+07:00"
 }

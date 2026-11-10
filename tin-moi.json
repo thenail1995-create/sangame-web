@@ -1,42 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Arcade Archives Exzisus launches November 5",
-  "url": "https://www.gematsu.com/2026/11/arcade-archives-exzisus-launches-november-5",
-  "ngay": "2026-11-04T15:15:33+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Arcade Archives",
-   "Arcade Archives 2",
-   "Clips",
-   "Hamster Corporation",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Arcade Archives 2 Exzisus will launch for PlayStation 5, Xbox Series, and Switch 2, and …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-04T20:10:46+07:00"
- },
- {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T18:40:43+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -3192,7 +3155,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-11T01:10:51+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3287,7 +3251,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-11T01:10:51+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3343,7 +3308,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Rockstar Games has confirmed a cloud gaming option for its upcoming blockbuster. However, PlayStation Portal owners face a catch. The latest GTA VI cloud streaming update means players will need a PS5 to enjoy the game on Sony’s handheld. In its November 10 announcement, Rockstar confirmed that Grand Theft Auto VI will support Xbox Cloud […] The post GTA VI Cloud Streaming Update Is Bad News for PS Portal Players appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-11T01:10:51+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3355,7 +3321,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "It's almost time. Publisher and developer Rockstar Games has announced that preloading for the highly anticipated GTA 6 is now available to everyone who pre-ordered digitally. In other words, if you pre-ordered the game via the PS Store, you can now begin downloading and installing the game on your PS5 to ensure it's ready to go come launch day. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-11T01:10:51+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3376,6 +3343,33 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Devolver Digital and developer BlackLight Games have announced All Army Attack, a “chaotic, large-scale …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "The Outer Worlds 2’s first DLC arrives December 2",
+  "url": "https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2/",
+  "ngay": "2026-11-11T01:00:31+07:00",
+  "the_loai": [
+   "PS5",
+   "Obsidian Entertainment",
+   "The Outer Worlds 2"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "da_gui_viet": "2026-11-11T01:10:51+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS Store Adds PS5 Hardware Tab, But It's Extremely Limited",
+  "url": "https://www.pushsquare.com/news/2026/11/ps-store-adds-ps5-hardware-tab-but-its-extremely-limited",
+  "ngay": "2026-11-11T01:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Just a bunch of QR codes in reality. Sony has begun advertising PS5 hardware and accessories directly through the console's PS Store via a new Hardware tab at the end of its horizontal scroller. The new page promotes PS5 consoles, controllers, the PS Portal, headsets, PSVR2, and PS5 Covers. There's then a part below it that details the sort of benefits you get by ordering through PlayStation Direct. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
