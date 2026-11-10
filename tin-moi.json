@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "This JRPG Series Lightly Inspired by the Console Wars Is Finally Getting a New PS5 Sequel",
-  "url": "https://www.pushsquare.com/news/2026/11/this-jrpg-series-lightly-inspired-by-the-console-wars-is-finally-getting-a-new-ps5-sequel",
-  "ngay": "2026-11-04T21:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "NepNep. Hyperdimension Neptunia intrigued me when it first released on the PS3, because its cast of characters were loosely inspired by the various console platforms, like PlayStation, Xbox, and (at the time) Wii. The series gained a cult following and spawned dozens of sequels, spin-offs, and re-releases. But there hasn’t been a new mainline entry since 2015. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-05T08:31:02+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS4 Gets Surprise System Update for November 2026",
   "url": "https://www.playstationlifestyle.net/2026/11/04/ps4-surprise-system-update-november-2026",
@@ -3242,7 +3229,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Publisher Xbox Game Studios and developer Obsidian Entertainment will release The Outer Worlds 2 downloadable …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-11T04:20:50+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3271,7 +3259,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Record breaker. It was always going to be big, but with a week until release, Rockstar has now confirmed that GTA 6 is the most pre-ordered digital game in PS Store history. Confirmation comes courtesy of the PS Blog , in a post from Sony’s Tim Turi. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-11T04:20:50+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3291,7 +3280,8 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "PlayStation Plus subscribers have several new games to look forward to this November. Sony has announced the November lineup for its Extra and Premium tiers, adding several games to the Game Catalog and two more titles for Premium members. According to the PlayStation blog, the November lineup includes Death Stranding 2: On the Beach, Like […] The post PS Plus Extra, Premium November Games Include Heavy Hitters appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-11T04:20:50+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3303,7 +3293,8 @@
   "ly_do_hot": "có từ khoá 'PS Plus'",
   "da_viet": false,
   "tom_tat": "End of the road. Sony will kill the ability to stream PlayStation games on the PC beginning 10th December, with the platform holder stating fewer than 0.4% of eligible PS Plus Premium subscribers used it. Members of the manufacturer’s most expensive tier can currently stream and play titles from the PS Plus Premium catalogue using a PC app, which will be discontinued next month. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-11T04:20:50+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3338,7 +3329,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Doubled trouble. Your (potential) nightmare has become a reality: GTA 6 runs at just 30 frames-per-second on PS5 and PS5 Pro. The target frame rate was confirmed earlier today by Rockstar Games itself , prompting an outpouring of relative disappointment from those who were banking on a silky 60fps experience. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-11T04:20:50+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3427,5 +3419,24 @@
   "da_viet": false,
   "tom_tat": "Haven Studio becomes a support team. PlayStation has officially cancelled Fairgames , the PS5 and PC live service shooter it had in production at Haven Studio. The news comes from Bloomberg journalist Jason Schreier, though it's been sourced from an internal email distributed to PlayStation employees, and a company spokesperson has commented on the story. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Enchanting PS5 Adventure Game Hits PlayStation Store Today",
+  "url": "https://www.playstationlifestyle.net/2026/11/10/unpetrified-echoes-of-nature-ps5-release",
+  "ngay": "2026-11-11T04:12:08+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Mindscape",
+   "Unpetrified: Echoes of Nature",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A PlayStation 5 adventure game is now available for purchase on the PlayStation Store. The game is priced at $29.99. Unpetrified: Echoes of Nature is a game developed by Dreamhunt Studio. The synopsis of the game reads, “Be a stone Golem and try to save Nature with the help of an adorable Fox! Reconnect ancient […] The post Enchanting PS5 Adventure Game Hits PlayStation Store Today appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
