@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T14:40:45+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T15:01:23+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "PS Store",
   "tieu_de": "PS Store (US) vừa mở đợt giảm giá mới (4599 → 9440 món)",
   "url": "https://store.playstation.com/en-us/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
@@ -3324,5 +3300,42 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Teenage Mutant Ninja Turtles: Splintered Fate ‘Shell Squad Co-Op Update’ now available",
+  "url": "https://www.gematsu.com/2026/11/teenage-mutant-ninja-turtles-splintered-fate-shell-squad-co-op-update-now-available",
+  "ngay": "2026-11-10T23:00:18+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox One",
+   "Xbox Series",
+   "Clips",
+   "Screenshots",
+   "Super Evil Megacorp",
+   "Teenage Mutant Ninja Turtles: Splintered Fate",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Super Evil Megacorp has released the “Shell Squad Co-Op Update” for Teenage Mutant Ninja Turtles: …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Beloved Co-Op Adventure Big Walk in Hot Water After Failing to Disclose AI Usage",
+  "url": "https://www.pushsquare.com/news/2026/11/beloved-co-op-adventure-big-walk-in-hot-water-after-failing-to-disclose-ai-usage",
+  "ngay": "2026-11-10T23:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Walk of shame. Big Walk , one of the most highly-rated games of 2026, has suddenly found itself in a spot of bother, and it's all thanks to those controversial AI tools. This story stems from the Independent Games Festival Awards (IGF); some of the jurors have taken a hard stance against usage of generative AI or LLM technology. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
