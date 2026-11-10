@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "GTA VI PS5 Preload Going Live Sooner Than We Thought",
-  "url": "https://www.playstationlifestyle.net/2026/11/03/gta-vi-ps5-preload-information-details",
-  "ngay": "2026-11-03T22:55:03+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "Grand Theft Auto VI",
-   "Rockstar Games",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Rockstar Games has shared GTA VI PS5 preload details, and players will be able to download the game sooner than we thought. Preloads will go live next Tuesday, November 10 — a little over a week before the game’s November 19 launch. GTA VI PS5 preload information You’ll need to preorder GTA VI to preload […] The post GTA VI PS5 Preload Going Live Sooner Than We Thought appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-04T01:21:35+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "POPUCOM for PS5 launches November 17",
   "url": "https://www.gematsu.com/2026/11/popucom-for-ps5-launches-november-17",
@@ -3324,6 +3303,22 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Imagineer and developer SUCCESS Corporation will release Medabots Classics Plus for PC via Steam …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Bandai Namco to shut down Reflector Entertainment",
+  "url": "https://www.gematsu.com/2026/11/bandai-namco-to-shut-down-reflector-entertainment",
+  "ngay": "2026-11-10T11:55:13+07:00",
+  "the_loai": [
+   "Industry",
+   "Bandai Namco",
+   "Reflector Entertainment"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Bandai Namco has passed a resolution to dissolve and liquidate consolidated subsidiary Reflector Entertainment, the …",
   "goi_y_ps": false
  }
 ]
