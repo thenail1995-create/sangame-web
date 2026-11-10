@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Store",
-  "tieu_de": "PS Store (US) vừa mở đợt giảm giá mới (4599 → 9440 món)",
-  "url": "https://store.playstation.com/en-us/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
-  "ngay": "2026-11-04T15:10:46+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "số món giảm giá tăng 105% so với đỉnh 12 lần gần nhất",
-  "da_viet": false
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -3337,5 +3325,27 @@
   "da_viet": false,
   "tom_tat": "Walk of shame. Big Walk , one of the most highly-rated games of 2026, has suddenly found itself in a spot of bother, and it's all thanks to those controversial AI tools. This story stems from the Independent Games Festival Awards (IGF); some of the jurors have taken a hard stance against usage of generative AI or LLM technology. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS5 Fantasy Adventure Remaster Sets Release Date & Trailer",
+  "url": "https://www.playstationlifestyle.net/2026/11/10/the-falconeer-revolution-remaster-ps5-release-date",
+  "ngay": "2026-11-10T23:19:56+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Release Date",
+   "The Falconeer",
+   "The Falconeer: Revolution Remaster",
+   "Tomas Sala",
+   "Trailers",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "An underrated aerial combat adventure is making its way to the PlayStation Store. Developed by independent developer Tomas Sala, the upcoming release is a remaster of The Falconeer. The Falconeer: Revolution Remaster is coming to PS5 on December 2, 2026, publisher Wired Productions announced Tuesday. The announcement also included a new trailer showcasing the upcoming […] The post PS5 Fantasy Adventure Remaster Sets Release Date & Trailer appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
