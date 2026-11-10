@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T14:01:22+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T14:10:44+07:00",
@@ -3320,6 +3308,18 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "2D action platformer isekizima: Ruins and Tails Journey will launch for PC via Steam on …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Unknown 9 Dev Being Shut Down Two Years After Disaster PS5 Launch",
+  "url": "https://www.pushsquare.com/news/2026/11/unknown-9-dev-being-shut-down-two-years-after-disaster-ps5-launch",
+  "ngay": "2026-11-10T22:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Bandai Namco confirms. Do you remember Unknown 9: Awakening ? Published by Bandai Namco, the story-driven stealth-action title had a fairly hard marketing push ahead of its release back in October 2024 — but it was labelled a \"failure\" just months after its launch. It was a commercial disaster, selling way below expectations, and developer Reflector Entertainment was subsequently hit with layoffs, before revealing that it would be put to work on an existing Bandai Namco property. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
