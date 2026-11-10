@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "South of Midnight's Director Wouldn't Have Funded It, Says Xbox's Approach Was Unsustainable",
-  "url": "https://www.pushsquare.com/news/2026/11/south-of-midnights-director-wouldnt-have-funded-it-says-xboxs-approach-was-unsustainable",
-  "ngay": "2026-11-03T23:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "David Sears explains. South of Midnight is the latest title from Compulsion Games, a studio that used to be under Microsoft's umbrella before it reclaimed its independence earlier this year . It seemingly underperformed, even with ports to other platforms, including PS5, just under a year after its Xbox launch. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-04T10:50:48+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Intriguing PS5 RPG Is Out Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/11/03/zero-parades-directors-cut-ps5-playstation-store-release-november-3",
@@ -3312,5 +3299,28 @@
   "tom_tat": "Nintendo does what Sony doesn't. If even a Nintendo platform has a digital storefront feature and you don't, then you truly are behind the times. The firm notoriously playing catch-up in this space has today confirmed the Nintendo eShop will be receiving the ability to gift digital games. The PS Store , which will eventually be the only place you can buy new PlayStation games, still doesn't allow it. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-10T15:50:51+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "NIGHTMARE OPERATOR to be published by Shueisha Games",
+  "url": "https://www.gematsu.com/2026/11/nightmare-operator-to-be-published-by-shueisha-games",
+  "ngay": "2026-11-10T16:00:02+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "DDDistortion",
+   "Horror",
+   "NIGHTMARE OPERATOR",
+   "Screenshots",
+   "Shooter",
+   "Shueisha Games",
+   "TPS",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Shueisha Games will publish DDDistortion-developed third-person action horror shooter NIGHTMARE OPERATOR when it launches for PC …",
+  "goi_y_ps": false
  }
 ]
