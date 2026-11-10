@@ -1,40 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Dragon's Dogma 2 Is Getting Anime Crossover Updates Now, So Start Praying for Berserk",
-  "url": "https://www.pushsquare.com/news/2026/11/dragons-dogma-2-is-getting-anime-crossover-updates-now-so-start-praying-for-berserk",
-  "ngay": "2026-11-04T10:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Delicious in Dungeon comes to the RPG. Dragon's Dogma 2 players have had a damn good run over the last few months, and Capcom doesn't appear to be stopping anytime soon. Having released the excellent Dark Arisen expansion in October — and reviving the RPG's popularity in the process — the developer is starting to roll out collaborations. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-04T10:50:48+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Brigandine: Abyss first update now available; updates roadmap announced",
-  "url": "https://www.gematsu.com/2026/11/brigandine-abyss-first-update-now-available-updates-roadmap-announced",
-  "ngay": "2026-11-04T08:05:43+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Adglobe",
-   "Brigandine: Abyss",
-   "Happinet",
-   "RPG"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Happinet Corporation and developer Adglobe have released the first update for fantasy war strategy …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-04T14:01:22+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Dragon’s Dogma II: Dark Arisen x Delicious in Dungeon collaboration announced",
   "url": "https://www.gematsu.com/2026/11/dragons-dogma-ii-dark-arisen-x-delicious-in-dungeon-collaboration-announced",
@@ -3315,5 +3280,40 @@
   "da_viet": false,
   "tom_tat": "Special delivery. How the hell am I only learning about Tanuki: Pon's Summer now? It's out today on PS5 for $19.99 / £15.99 / €19.99. Somehow, this is a game that we've never covered — despite the fact that it looks bloody brilliant. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Falconeer: Revolution Remaster coming to PS5, Xbox Series on December 2",
+  "url": "https://www.gematsu.com/2026/11/the-falconeer-revolution-remaster-coming-to-ps5-xbox-series-on-december-2",
+  "ngay": "2026-11-10T21:17:30+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Release Dates",
+   "RPG",
+   "The Falconeer: Revolution Remaster",
+   "Tomas Sala",
+   "Trailers",
+   "Wired Productions"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Wired Productions and developer Tomas Sala will release aerial combat RPG remaster The Falconeer: …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 PS5 Pro Features Revealed, 30fps Target on Both Consoles",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-pro-features-revealed-30fps-target-on-both-consoles",
+  "ngay": "2026-11-10T21:15:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS5 Pro'",
+  "da_viet": false,
+  "tom_tat": "Improved clarity and ray traced shadows on PS5 Pro. Rockstar Games has today revealed what sort of benefits playing GTA 6 on a PS5 Pro will provide. No matter whether you play on a base PS5 or a PS5 Pro, though, the game will target 30 frames-per-second, a new post on the developer's website confirms: Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
