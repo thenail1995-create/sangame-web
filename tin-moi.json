@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T22:11:25+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS Plus Premium Members Get Bonus Freebie for November 2026",
   "url": "https://www.playstationlifestyle.net/2026/11/04/ps-plus-bonus-free-game-trial-november-2026",
@@ -3467,5 +3455,17 @@
   "tom_tat": "PS5 joins the 100 mil club. The PS5 has now officially surpassed the 100 million sales milestone. This news comes via Sony itself, which has just released newly updated figures for the current-gen console. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-11T16:40:52+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "First November 2026 PS Plus Extra Game Available to Download Now",
+  "url": "https://www.pushsquare.com/news/2026/11/first-november-2026-ps-plus-extra-game-available-to-download-now",
+  "ngay": "2026-11-11T17:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "For all UK and USA members. One of the very few benefits to Sony's new experiment of delaying the release of PS Plus Extra games in select regions is that you do get one new game the day after the reveal. Rather than having to wait until next week, Hell Let Loose is already available for UK and USA members. Those in Japan will get access tomorrow, 12th November, and then the rest of the world can play starting Tuesday, 17th November. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
