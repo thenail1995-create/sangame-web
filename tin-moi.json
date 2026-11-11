@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-05T00:10:49+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "PS5 Exclusive God of War Laufey Has Officially Been Delayed by Three Months",
   "url": "https://www.pushsquare.com/news/2026/11/ps5-exclusive-god-of-war-laufey-has-officially-been-delayed-by-three-months",
@@ -3502,5 +3490,27 @@
   "da_viet": false,
   "tom_tat": "Life in plastic, it's fantastic. The only Barbie title I've played, prior to Barbie Rewind , is a PC game named Fashion Designer, in which you choose clothes based on particular themes, then apply patterns, accessories, and colours. You could print them out and put them on real Barbie dolls — a nice idea. Sadly, Fashion Designer isn't among the games included in Barbie Rewind, but what is in this retro compilation is similarly simple and enjoyable, for the most part. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS Plus Users Shouldn’t Claim New PS5 Action Game Right Away",
+  "url": "https://www.playstationlifestyle.net/2026/11/11/ps-plus-game-hell-let-loose-license-warning",
+  "ngay": "2026-11-11T21:45:12+07:00",
+  "the_loai": [
+   "News",
+   "PlayStation Plus News - PS4, PS3, PS Vita",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Hell Let Loose",
+   "PlayStation Plus",
+   "PS Plus",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "PS Plus Extra and Premium users are warned not to download an August 2026 game without checking their PS5 libraries first. Team17’s multiplayer action shooter Hell Let Loose is joining the catalog today. However, the game was offered as a day-one monthly title in October 2021, which means many subscribers risk overriding their existing license. […] The post PS Plus Users Shouldn’t Claim New PS5 Action Game Right Away appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
