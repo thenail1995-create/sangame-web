@@ -1,24 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Meg’s Monster coming to PS5 on March 1, 2027",
-  "url": "https://www.gematsu.com/2026/11/megs-monster-coming-to-ps5-on-march-1-2027",
-  "ngay": "2026-11-05T00:45:31+07:00",
-  "the_loai": [
-   "PS5",
-   "Meg's Monster",
-   "Odencat",
-   "Release Dates",
-   "RPG"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Odencat will release a PlayStation 5 version of RPG adventure game Meg’s Monster on March …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-05T05:31:02+07:00"
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -2453,7 +2434,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Symbiosis still on for December. Bungie has reconfirmed that Marathon's major 'Symbiosis' update will launch on the 8th December. You may recall that it was delayed back in September. Many believe that this patch will be the troubled shooter's make-or-break moment, as Marathon's player numbers remain concerningly low. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-12T05:01:25+07:00"
  },
  {
   "nguon": "PlayStation Blog",
@@ -2507,7 +2489,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Walk of shame. Big Walk , one of the most highly-rated games of 2026, has suddenly found itself in a spot of bother, and it's all thanks to those controversial AI tools. This story stems from the Independent Games Festival Awards (IGF); some of the jurors have taken a hard stance against usage of generative AI or LLM technology. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-12T05:01:25+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3329,7 +3312,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Life in plastic, it's fantastic. The only Barbie title I've played, prior to Barbie Rewind , is a PC game named Fashion Designer, in which you choose clothes based on particular themes, then apply patterns, accessories, and colours. You could print them out and put them on real Barbie dolls — a nice idea. Sadly, Fashion Designer isn't among the games included in Barbie Rewind, but what is in this retro compilation is similarly simple and enjoyable, for the most part. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-12T05:01:25+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3507,7 +3491,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Silver Lining Interactive and developed Painted Black Games have delayed cozy survival horror adventure …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-12T05:01:25+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3531,6 +3516,19 @@
   "ly_do_hot": "có từ khoá 'Resident Evil'",
   "da_viet": false,
   "tom_tat": "Top accolade at the Golden Joystick Awards. Resident Evil Requiem has been crowned the Ultimate Game of the Year at the Golden Joystick Awards, the first major games award ceremony of 2026. Alongside the biggest award, it was also named the Console Game of the Year, and it won categories celebrating the best lead performer (Angela Sant'Albano as Grace Ashcroft) and the best game trailer. Most of the Golden Joystick Awards are decided by a public vote, and the race for Ultimate Game of the Year was extremely close. Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-12T05:01:25+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "'You'll Own Nothing': Sony Wins Hall of Shame Award for Deciding to Kill Physical Discs",
+  "url": "https://www.pushsquare.com/news/2026/11/youll-own-nothing-sony-wins-hall-of-shame-award-for-deciding-to-kill-physical-discs",
+  "ngay": "2026-11-12T05:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Shonky Award goes to PlayStation. I can't imagine this is something Hermen Hulst will want to display on his mantelpiece: PlayStation and Sony have won a Hall of Shame award, called a Shonky Award, from an Australian outlet for its decision to stop making physical discs. Choice , an Australian website, runs an annual Hall of Shame series , known as the Shonky Awards, where it highlights the \"worst products and services uncovered by our experts this year\". In 2026, PlayStation finds itself with a Shonky Award alongside Virgin Australia, Ticketmaster, and more companies. Read the full article on…",
+  "goi_y_ps": false
  }
 ]
