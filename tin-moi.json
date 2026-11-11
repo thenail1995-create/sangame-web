@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T21:50:46+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "PlayStation Store: October 2026’s top downloads",
   "url": "https://blog.playstation.com/2026/11/04/playstation-store-october-2026s-top-downloads/",
@@ -3451,6 +3439,24 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "PlayStation 5 has shipped more than 100 million units worldwide as of November 10, 2026, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Legend of Heroes: Trails beyond the Horizon sequel to launch by September 2027 in Japan",
+  "url": "https://www.gematsu.com/2026/11/the-legend-of-heroes-trails-beyond-the-horizon-sequel-to-launch-by-september-2027-in-japan",
+  "ngay": "2026-11-11T12:21:56+07:00",
+  "the_loai": [
+   "Industry",
+   "Falcom",
+   "Release Dates",
+   "RPG",
+   "Trails (series)"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Horizon'",
+  "da_viet": false,
+  "tom_tat": "Falcom will release a sequel to The Legend of Heroes: Trails beyond the Horizon, the …",
   "goi_y_ps": false
  }
 ]
