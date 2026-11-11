@@ -1,24 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Wonderfall launches December 9",
-  "url": "https://www.gematsu.com/2026/11/wonderfall-launches-december-9",
-  "ngay": "2026-11-04T22:00:53+07:00",
-  "the_loai": [
-   "PC",
-   "Attaboy Interactive",
-   "Clips",
-   "Release Dates",
-   "Trailers",
-   "Wonderfall"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Narrative adventure game Wonderfall will launch for PC via Steam on December 9, developer Attaboy …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -2906,7 +2887,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "An underrated aerial combat adventure is making its way to the PlayStation Store. Developed by independent developer Tomas Sala, the upcoming release is a remaster of The Falconeer. The Falconeer: Revolution Remaster is coming to PS5 on December 2, 2026, publisher Wired Productions announced Tuesday. The announcement also included a new trailer showcasing the upcoming […] The post PS5 Fantasy Adventure Remaster Sets Release Date & Trailer appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-11T16:40:52+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3064,7 +3046,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Just a bunch of QR codes in reality. Sony has begun advertising PS5 hardware and accessories directly through the console's PS Store via a new Hardware tab at the end of its horizontal scroller. The new page promotes PS5 consoles, controllers, the PS Portal, headsets, PSVR2, and PS5 Covers. There's then a part below it that details the sort of benefits you get by ordering through PlayStation Direct. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-11T16:40:52+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3175,7 +3158,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A PS5 remaster of a beloved PS2 game is now available to buy on the PlayStation Store. The post PS5 Remaster of Beloved PS2 Game Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-11T16:40:52+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3200,7 +3184,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Ask your doctor about DLC. Obsidian still wants to carry out its post-launch DLC plans for The Outer Worlds 2 , having lost 25% of its workforce in a recent round of layoffs. It's today announced an expansion called Side Effect Guaranteed will release in two parts: the first launches for PS5 on 2nd December 2026, and then the second arrives in Spring 2027. See it in action in the trailer. The new DLC takes place just before the end of the main game, so if you've already finished a playthrough, there'll be a new option on the starting menu screen that lets you access the content through a new c…",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-11T16:40:52+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3469,5 +3454,18 @@
   "tom_tat": "Sony Interactive Entertainment is rolling out PS Portal system software update 7.3.2 — the handheld remote player’s third firmware update in less than two months. The latest patch makes unspecified “improvements” ahead of GTA VI‘s launch. PS Portal system software update 7.3.2 patch notes (November 10/11, 2026) “We’ve improved system software performance and stability,” the […] The post PlayStation Portal System Update 7.3.2 Rolling Out Now appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-11T13:40:47+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS5 Has Officially Crossed 100 Million Sales, Sony Confirms",
+  "url": "https://www.pushsquare.com/news/2026/11/ps5-has-officially-crossed-100-million-sales-sony-confirms",
+  "ngay": "2026-11-11T16:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "PS5 joins the 100 mil club. The PS5 has now officially surpassed the 100 million sales milestone. This news comes via Sony itself, which has just released newly updated figures for the current-gen console. Read the full article on pushsquare.com",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-11T16:40:52+07:00"
  }
 ]
