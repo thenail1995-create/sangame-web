@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-05T01:40:44+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Poll: Is Phantom Blade Zero Too Hard?",
   "url": "https://www.pushsquare.com/features/poll-is-phantom-blade-zero-too-hard",
@@ -3516,6 +3504,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Reach for the Skyrim. The Elder Scrolls 5: Skyrim is officially 15 years old today, having originally launched on the 11th November, 2011. And no, Bethesda doesn't have a new re-release lined up or anything like that, so the memes will have to be put on hold for now. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Roguelite action RPG Conan: The Black Pyramid announced for PC",
+  "url": "https://www.gematsu.com/2026/11/roguelite-action-rpg-conan-the-black-pyramid-announced-for-pc",
+  "ngay": "2026-11-12T01:00:57+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Conan: The Black Pyramid",
+   "Game Announce",
+   "Games Farm",
+   "Grindstone (company)",
+   "RPG",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Grindstone and developer Games Farm have announced Conan: The Black Pyramid, a roguelite action …",
   "goi_y_ps": false
  }
 ]
