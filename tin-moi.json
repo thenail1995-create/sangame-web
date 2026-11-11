@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Poll: Is Phantom Blade Zero Too Hard?",
-  "url": "https://www.pushsquare.com/features/poll-is-phantom-blade-zero-too-hard",
-  "ngay": "2026-11-05T02:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "At the blade's edge. Now that Phantom Blade Zero's been out for a good few days, I thought it'd be interesting to check in on how everyone's finding the experience in terms of difficulty. This has been a constant topic ever since the game was first announced, with onlookers initially questioning whether it would be a hard-as-nails Soulslike. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "PS5 Dynamic Pricing Impacts New PS Store Black Friday Offers, Roughly $5 Variations in Prices",
   "url": "https://www.pushsquare.com/news/2026/11/ps5-dynamic-pricing-impacts-new-ps-store-black-friday-offers-roughly-usd5-variations-in-prices",
   "ngay": "2026-11-05T02:15:00+07:00",
@@ -3530,6 +3518,31 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Grindstone and developer Games Farm have announced Conan: The Black Pyramid, a roguelite action …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Road of Dust and Sorrow delayed to February 19, 2027",
+  "url": "https://www.gematsu.com/2026/11/the-road-of-dust-and-sorrow-delayed-to-february-19-2027",
+  "ngay": "2026-11-12T02:50:52+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Delays",
+   "Painted Black Games",
+   "Release Dates",
+   "Silver Lining Interactive",
+   "The Road of Dust and Sorrow",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Silver Lining Interactive and developed Painted Black Games have delayed cozy survival horror adventure …",
   "goi_y_ps": false
  }
 ]
