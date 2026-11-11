@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-05T01:20:47+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-05T01:40:44+07:00",
@@ -3516,6 +3504,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "All the cancelled projects and those that remain. Video games are cancelled internally all the time, but never in PlayStation's personal history have those cancellations had to happen in such a public manner. The current PS5 generation has seen the platform holder try to win the live service space, and a few years later, it's having to cancel most of the projects it revealed in attempting to achieve that. To try and get a piece of the Fortnite pie, Sony made a hard and deliberate push into the Games as a Service space at the start of the PS5 generation. It acquired Destiny 2 studio Bungie to h…",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Skyrim Celebrates 15th Anniversary with DLC Bundle, Big Sales, and More",
+  "url": "https://www.pushsquare.com/news/2026/11/skyrim-celebrates-15th-anniversary-with-dlc-bundle-big-sales-and-more",
+  "ngay": "2026-11-12T00:15:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Reach for the Skyrim. The Elder Scrolls 5: Skyrim is officially 15 years old today, having originally launched on the 11th November, 2011. And no, Bethesda doesn't have a new re-release lined up or anything like that, so the memes will have to be put on hold for now. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
