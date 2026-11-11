@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "PlayStation Store: October 2026’s top downloads",
-  "url": "https://blog.playstation.com/2026/11/04/playstation-store-october-2026s-top-downloads/",
-  "ngay": "2026-11-04T22:00:16+07:00",
-  "the_loai": [
-   "PS5",
-   "PlayStation Store",
-   "Top Downloads"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-04T23:11:15+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Wonderfall launches December 9",
   "url": "https://www.gematsu.com/2026/11/wonderfall-launches-december-9",
@@ -3457,6 +3442,27 @@
   "ly_do_hot": "có từ khoá 'Horizon'",
   "da_viet": false,
   "tom_tat": "Falcom will release a sequel to The Legend of Heroes: Trails beyond the Horizon, the …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PlayStation Portal System Update 7.3.2 Rolling Out Now",
+  "url": "https://www.playstationlifestyle.net/2026/11/10/ps-portal-system-software-update-november-10-11",
+  "ngay": "2026-11-11T13:11:35+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "PlayStation Portal",
+   "PS Portal",
+   "Sony Interactive Entertainment",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'out now'",
+  "da_viet": false,
+  "tom_tat": "Sony Interactive Entertainment is rolling out PS Portal system software update 7.3.2 — the handheld remote player’s third firmware update in less than two months. The latest patch makes unspecified “improvements” ahead of GTA VI‘s launch. PS Portal system software update 7.3.2 patch notes (November 10/11, 2026) “We’ve improved system software performance and stability,” the […] The post PlayStation Portal System Update 7.3.2 Rolling Out Now appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
