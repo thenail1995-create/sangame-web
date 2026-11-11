@@ -1,38 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "God of War Laufey delayed to May 20, 2027",
-  "url": "https://www.gematsu.com/2026/11/god-of-war-laufey-delayed-to-may-20-2027",
-  "ngay": "2026-11-05T00:05:55+07:00",
-  "the_loai": [
-   "PS5",
-   "Delays",
-   "God of War Laufey",
-   "Release Dates",
-   "Santa Monica Studio",
-   "SIE",
-   "SIEA"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'God of War'",
-  "da_viet": false,
-  "tom_tat": "Publisher Sony Interactive Entertainment and developer Santa Monica Studio have delayed God of War Laufey …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-05T02:20:57+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "'A Tired Parent Mode': The Witcher 3 Dev Explains the Point of Remaster's Accessibility Options",
-  "url": "https://www.pushsquare.com/news/2026/11/a-tired-parent-mode-the-witcher-3-dev-explains-the-point-of-remasters-accessibility-options",
-  "ngay": "2026-11-05T01:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A Bard's Ballad. One of the biggest additions to The Witcher 3: Wild Hunt Remastered is a suite of accessibility options, letting players tweak various aspects of the game in order to tone down its mechanical friction. When used in conjunction with the game's easier difficulty setting, you can transform Geralt's adventure into a very laid back, story-focused experience. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -3515,5 +3482,40 @@
   "da_viet": false,
   "tom_tat": "ISPs are reporting big surges. If you needed another clue as to how big GTA 6 is going to be, internet service providers in a number of countries are reporting inflated traffic figures in the wake of preload access. Millions of eager fans have pre-ordered the open world action title on PS Store — in fact, it's the most pre-ordered game on the digital storefront ever — and ahead of its launch, they're able to download the game to their PS5s to ensure it's ready to roll come 19th November. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Don’t Fret launches December 8",
+  "url": "https://www.gematsu.com/2026/11/dont-fret-launches-december-8",
+  "ngay": "2026-11-12T00:04:36+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Digital Pajamas",
+   "Don't Fret",
+   "Horror",
+   "Release Dates",
+   "Scary Kid Studios",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "First-person psychological horror game Don’t Fret will launch for PlayStation 5, Xbox Series, and PC …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Feature: What Sony Live Service PS5 Games Are Still Alive?",
+  "url": "https://www.pushsquare.com/features/what-sony-live-service-ps5-games-are-still-alive",
+  "ngay": "2026-11-12T00:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "All the cancelled projects and those that remain. Video games are cancelled internally all the time, but never in PlayStation's personal history have those cancellations had to happen in such a public manner. The current PS5 generation has seen the platform holder try to win the live service space, and a few years later, it's having to cancel most of the projects it revealed in attempting to achieve that. To try and get a piece of the Fortnite pie, Sony made a hard and deliberate push into the Games as a Service space at the start of the PS5 generation. It acquired Destiny 2 studio Bungie to h…",
+  "goi_y_ps": false
  }
 ]
