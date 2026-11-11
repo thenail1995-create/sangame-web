@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T23:31:10+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-04T23:40:45+07:00",
@@ -3482,5 +3470,28 @@
   "da_viet": false,
   "tom_tat": "The big one. The next game in Falcom's long running Trails series will be a sequel to Trails beyond the Horizon . The developer confirmed this in its annual financial report, putting to rest mass speculation from fans of the franchise. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Major 2026 PS5 Action Game Half-Price on PS Store With DLC",
+  "url": "https://www.playstationlifestyle.net/2026/11/11/007-first-light-ps-store-deal-november-2026",
+  "ngay": "2026-11-11T20:15:00+07:00",
+  "the_loai": [
+   "Deals",
+   "Deals and Picks",
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "007 First Light",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "PlayStation Store",
+   "PS Store",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'price'",
+  "da_viet": false,
+  "tom_tat": "One of 2026’s best new PS5 action-adventure games is already half-price on the PS Store in a fantastic deal that includes its DLC. Developed and published by IO Interactive, 007 First Light Deluxe Edition is heavily discounted until November 21, 2026. 007 First Light Deluxe Edition is at its lowest price yet in new PS […] The post Major 2026 PS5 Action Game Half-Price on PS Store With DLC appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
