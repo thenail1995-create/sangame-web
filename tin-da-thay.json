@@ -96,11 +96,6 @@
    "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1084208",
-   "https://www.gematsu.com/?p=1084311",
-   "https://www.gematsu.com/?p=1084323",
-   "https://www.gematsu.com/?p=1084339",
-   "https://www.gematsu.com/?p=1084196",
    "https://www.gematsu.com/?p=1084352",
    "https://www.gematsu.com/?p=1084356",
    "https://www.gematsu.com/?p=1084431",
@@ -395,7 +390,12 @@
    "https://www.gematsu.com/?p=1087955",
    "https://www.gematsu.com/?p=1087959",
    "https://www.gematsu.com/?p=1087964",
-   "https://www.gematsu.com/?p=1087971"
+   "https://www.gematsu.com/?p=1087971",
+   "https://www.gematsu.com/?p=1087946",
+   "https://www.gematsu.com/?p=1087985",
+   "https://www.gematsu.com/?p=1087947",
+   "https://www.gematsu.com/?p=1087979",
+   "https://www.gematsu.com/?p=1087988"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207749",
@@ -963,9 +963,9 @@
    5682,
    5682,
    5682,
+   5681,
+   5681,
    5682,
-   5681,
-   5681,
    5682,
    5682,
    5682,
@@ -1009,5 +1009,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-11T16:40:52+07:00"
+ "lan_goi_viet": "2026-11-11T19:40:57+07:00"
 }
