@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T21:40:48+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Major New PS5 Exclusive Game Already Discounted on PS Store",
   "url": "https://www.playstationlifestyle.net/2026/11/04/marvels-wolverine-ps-store-deal-november-2026",
@@ -3441,6 +3429,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A listing for “Mega Man Legends – New Media” has appeared on the “What’s Shooting” …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Monster Hunter Stories 3: Twisted Reflection sales top one million",
+  "url": "https://www.gematsu.com/2026/11/monster-hunter-stories-3-twisted-reflection-sales-top-one-million",
+  "ngay": "2026-11-11T08:58:44+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Capcom",
+   "Monster Hunter Stories 3: Twisted Reflection",
+   "RPG",
+   "Sales"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Total sales for Monster Hunter Stories 3: Twisted Reflection have surpassed one million units worldwide, …",
   "goi_y_ps": false
  }
 ]
