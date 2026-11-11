@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-05T00:40:49+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "God of War Laufey delayed to May 20, 2027",
   "url": "https://www.gematsu.com/2026/11/god-of-war-laufey-delayed-to-may-20-2027",
@@ -3515,5 +3503,17 @@
   "da_viet": false,
   "tom_tat": "Jack of all trades, and master of all? The Astro A50 X Lightspeed is a pair of headphones I’ve been looking forward to trying out for a while. This is a high-end headset that actually utilises HDMI passthrough rather than the traditional dongle connection. This is by far the most expensive headset I’ve ever tested, so let’s see if that moolah translates to a genuinely great audio experience. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Preloading Is Causing Major Download Traffic Spikes in Europe",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-preloading-is-causing-major-download-traffic-spikes-in-europe",
+  "ngay": "2026-11-11T23:45:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "ISPs are reporting big surges. If you needed another clue as to how big GTA 6 is going to be, internet service providers in a number of countries are reporting inflated traffic figures in the wake of preload access. Millions of eager fans have pre-ordered the open world action title on PS Store — in fact, it's the most pre-ordered game on the digital storefront ever — and ahead of its launch, they're able to download the game to their PS5s to ensure it's ready to roll come 19th November. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
