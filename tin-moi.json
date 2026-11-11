@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-04T21:20:48+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Games Leaving PS Plus in December May Include Day-One Hit",
   "url": "https://www.playstationlifestyle.net/2026/11/04/games-leaving-ps-plus-december-2026-predictions",
@@ -3443,6 +3431,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "PlayStation is changing course on one of its major game development projects after reassessing its progress and prospects. The decision comes as the company continues to evaluate which titles are worth pursuing in a competitive gaming market. According to Bloomberg‘s Jason Schreier, PlayStation has canceled Fairgames, an online shooter from Haven Studios that was announced […] The post PS5 Exclusive Shooter Game Canceled by PlayStation appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sony's 10 Most Profitable PS5 Games Reported in New Estimates",
+  "url": "https://www.pushsquare.com/news/2026/11/sonys-10-most-profitable-ps5-games-reported-in-new-estimates",
+  "ngay": "2026-11-11T07:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "It's a strong list. Sony's received a lot of criticism for its first party output this console generation. It's no secret that the company has chased live service trends at the cost of single player experiences — the kind of games that solidified the PS4 as a fan favourite machine. And so it's interesting to see which Sony-published titles have actually made the most money across the last six years or thereabouts. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
