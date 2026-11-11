@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Major New PS5 Exclusive Game Already Discounted on PS Store",
-  "url": "https://www.playstationlifestyle.net/2026/11/04/marvels-wolverine-ps-store-deal-november-2026",
-  "ngay": "2026-11-04T21:47:35+07:00",
-  "the_loai": [
-   "Deals",
-   "Deals and Picks",
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "Marvel's Wolverine",
-   "PlayStation Store",
-   "PS Store",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false,
-  "tom_tat": "A major month-old PS5 exclusive action adventure game is already discounted in a rare PS Store deal. Marvel’s Wolverine Digital Deluxe Edition has received a hefty discount for a first-party exclusive, and players have until November 21 to snag it. Marvel’s Wolverine Digital Deluxe Edition PS Store deal headlines Black Friday promotion Wolverine Digital Deluxe […] The post Major New PS5 Exclusive Game Already Discounted on PS Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-04T23:11:15+07:00"
- },
- {
   "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
@@ -3456,5 +3432,25 @@
   "tom_tat": "Total sales for Monster Hunter Stories 3: Twisted Reflection have surpassed one million units worldwide, …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-11T10:31:10+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "PS5 shipments top 100 million",
+  "url": "https://www.gematsu.com/2026/11/ps5-shipments-top-100-million",
+  "ngay": "2026-11-11T10:54:30+07:00",
+  "the_loai": [
+   "PS5",
+   "PlayStation 5",
+   "Sales",
+   "SIE",
+   "SIEA",
+   "SIEE",
+   "SIEJA"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "PlayStation 5 has shipped more than 100 million units worldwide as of November 10, 2026, …",
+  "goi_y_ps": false
  }
 ]
