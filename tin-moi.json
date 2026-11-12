@@ -1,28 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "PS5 shipments top 97.9 million, Marvel’s Wolverine tops 2.4 million",
-  "url": "https://www.gematsu.com/2026/11/ps5-shipments-top-97-9-million-marvels-wolverine-tops-2-4-million",
-  "ngay": "2026-11-05T13:44:41+07:00",
-  "the_loai": [
-   "PS5",
-   "Marvel's Wolverine",
-   "PlayStation 5",
-   "Sales",
-   "SIE",
-   "SIEA",
-   "SIEE",
-   "SIEJA"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false,
-  "tom_tat": "PlayStation 5 has shipped 97.9 million units worldwide, Sony announced in its financial results for …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-05T14:31:05+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "MAGES. to announce Girls und Panzer game for console on November 14",
   "url": "https://www.gematsu.com/2026/11/mages-to-announce-girls-und-panzer-game-for-console-on-november-14",
   "ngay": "2026-11-05T13:57:53+07:00",
@@ -3378,7 +3356,8 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "PS Plus Extra and Premium November 2026 games will roll out widely on Tuesday, the 17th, but some members can play the biggest incoming game early. Headlining this month’s catalog update is Death Stranding 2: On the Beach, and those with a Premium subscription can start the game right now. Death Stranding 2 has a […] The post Some PS Plus Members Can Play November’s Biggest Game Early appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-12T20:41:59+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3399,7 +3378,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "PS5 owners can now try a surprise hit 2026 action game for free via the PS Store. Released in early October, Clive Barker’s Hellraiser: Revival now has a demo available to all players, and you don’t need PS Plus to play it. PS5 horror action game Hellraiser: Revival drops chunky free demo on the PS […] The post PS5 Users Can Now Play Surprise Hit 2026 Action Game for Free appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-12T20:41:59+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3532,7 +3512,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-12T20:41:59+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3555,7 +3536,8 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Famitsu has published its estimated physical game software data for Japan for the week of …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-12T20:41:59+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3567,7 +3549,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "#OnlyinViceCity. If you're at all interested in GTA 6 , you'll probably have seen this doing the rounds already. A video is going viral on social media, because it's fooling people into thinking it's real-life footage — but it's actually the game. Here's the clip in question: Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-12T20:41:59+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3579,6 +3562,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Every game coming from PS Studios. Sony's first-party developers are known collectively as PlayStation Studios , and it's these teams that make all the games published by the company. Whether it's PS5, PC, or beyond, there are always new games in the works. While we don't always know everything about what's in development, we've done our best to collate all the current info in this page. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Professor Layton and the New World of Steam digital pre-orders now available for PS5 and PC, international voice cast announced",
+  "url": "https://www.gematsu.com/2026/11/professor-layton-and-the-new-world-of-steam-digital-pre-orders-now-available-for-ps5-and-pc-international-voice-cast-announced",
+  "ngay": "2026-11-12T18:00:37+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Level-5",
+   "Pre-Orders",
+   "Professor Layton and the New World of Steam",
+   "Puzzle Games"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Digital pre-orders for Professor Layton and the New World of Steam are now available for …",
   "goi_y_ps": false
  }
 ]
