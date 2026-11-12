@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-05T02:50:42+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Pokemon Pokopia DLC ‘Expansion Pass Part 2: Dazzling Decorations’ launches December 9",
   "url": "https://www.gematsu.com/2026/11/pokemon-pokopia-dlc-expansion-pass-part-2-dazzling-decorations-launches-december-9",
@@ -3529,6 +3517,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Shonky Award goes to PlayStation. I can't imagine this is something Hermen Hulst will want to display on his mantelpiece: PlayStation and Sony have won a Hall of Shame award, called a Shonky Award, from an Australian outlet for its decision to stop making physical discs. Choice , an Australian website, runs an annual Hall of Shame series , known as the Shonky Awards, where it highlights the \"worst products and services uncovered by our experts this year\". In 2026, PlayStation finds itself with a Shonky Award alongside Virgin Australia, Ticketmaster, and more companies. Read the full article on…",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "'There Is No Truth to These Claims': Marvel 1943 Not Cancelled, But Doesn't Sound Great",
+  "url": "https://www.pushsquare.com/news/2026/11/there-is-no-truth-to-these-claims-marvel-1943-not-cancelled-but-doesnt-sound-great",
+  "ngay": "2026-11-12T07:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Marvel'",
+  "da_viet": false,
+  "tom_tat": "Light on gameplay, allegedly. Marvel 1943: Rise of Hydra – the highly promising superhero game starring Captain America and Black Panther – has not been cancelled, despite rumours to the contrary earlier today. A fan account claimed on X (or Twitter ) that the project, fronted by former Uncharted lead Amy Hennig, had been scrapped. That post has since been deleted. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
