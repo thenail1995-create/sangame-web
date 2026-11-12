@@ -398,7 +398,6 @@
    "https://www.gematsu.com/?p=1088127"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-207795",
    "https://www.pushsquare.com/#article-207796",
    "https://www.pushsquare.com/#article-207803",
    "https://www.pushsquare.com/#article-207814",
@@ -697,7 +696,8 @@
    "https://www.pushsquare.com/#article-208562",
    "https://www.pushsquare.com/#article-208977",
    "https://www.pushsquare.com/#article-208980",
-   "https://www.pushsquare.com/#article-208985"
+   "https://www.pushsquare.com/#article-208985",
+   "https://www.pushsquare.com/#article-208999"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -964,13 +964,13 @@
  },
  "deals_ds": {
   "en-US": [
-   5681,
    5688,
    5688,
    5688,
    5688,
    5688,
    5688,
+   5692,
    5692,
    5692,
    5692,
@@ -978,13 +978,13 @@
    5692
   ],
   "en-SG": [
-   3521,
    3524,
    3524,
    3524,
    3524,
    3524,
    3524,
+   3532,
    3532,
    3532,
    3532,
@@ -1015,5 +1015,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-12T14:20:50+07:00"
+ "lan_goi_viet": "2026-11-12T17:40:54+07:00"
 }
