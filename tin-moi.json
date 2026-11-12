@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-05T03:20:45+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Gorgeous PS5 Action RPG Is Out Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/11/04/solo-leveling-arise-overdrive-ps5-release",
@@ -3546,6 +3534,28 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "AirVelocity will release ASa Project-developed romance visual novel Renai, Hajimemashite for PlayStation 5, PlayStation 4, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Romancing SaGa 3: Destinies United release date moved up to February 4, 2027",
+  "url": "https://www.gematsu.com/2026/11/romancing-saga-3-destinies-united-release-date-moved-up-to-february-4-2027",
+  "ngay": "2026-11-12T14:08:38+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Release Dates",
+   "Romancing SaGa 3: Destinies United",
+   "RPG",
+   "Square Enix"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Square Enix has moved up Romancing SaGa 3: Destinies United from its previously planned February …",
   "goi_y_ps": false
  }
 ]
