@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-05T05:50:46+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-05T06:01:18+07:00",
@@ -3565,6 +3553,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A highly anticipated Square Enix RPG remake has a new PS5 release date, but it’s not bad news. Romancing Saga 3: Destinies United, a remake of the beloved 1995 RPG, will now release earlier than planned. Square Enix RPG Romancing Saga 3: Destinies United launching on PS5 two weeks earlier than planned Romancing Saga 3 […] The post Anticipated PS5 RPG Gets New Release Date, But It’s Good News appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Major Capcom PS4 Game Has Been Delisted for Over 2 Weeks",
+  "url": "https://www.playstationlifestyle.net/2026/11/12/capcom-ps4-game-street-fighter-v-delisted-offline",
+  "ngay": "2026-11-12T19:13:04+07:00",
+  "the_loai": [
+   "News",
+   "PS4 News, Trophies, Reviews, and More",
+   "Capcom",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Street Fighter 5",
+   "Street FIghter V",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A major Capcom PS4 action game was delisted from the PS Store over two weeks ago, and there’s no sign of its return thus far. Street Fighter V‘s digital sales were halted starting October 26 because of a security issue related to the PHP programming language used in the PS4 and Steam versions. Capcom PS4 […] The post Major Capcom PS4 Game Has Been Delisted for Over 2 Weeks appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
