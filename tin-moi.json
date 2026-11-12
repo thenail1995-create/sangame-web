@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "PS6 Development on Track, Sony Making 'Solid Progress' Towards Next-Gen",
-  "url": "https://www.pushsquare.com/news/2026/11/ps6-development-on-track-sony-making-solid-progress-towards-next-gen",
-  "ngay": "2026-11-05T19:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Update from Sony CFO Lin Tao. Work on the PS6 and the next console generation as a whole is currently \"progressing as scheduled\" at PlayStation, it's been confirmed. Speaking alongside the release of Sony's latest quarterly financial results , CFO Lin Tao said the company is on track to deliver its next PlayStation system, and it intends to make \"solid progress\" towards the next generation within the next fiscal year (via VGC ). Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-05T20:31:07+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Sony Has Secured Enough Memory to Meet Console Demand Through March 2028",
-  "url": "https://www.pushsquare.com/news/2026/11/sony-has-secured-enough-memory-to-meet-console-demand-through-march-2028",
-  "ngay": "2026-11-05T19:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Does that include PS6? Amid ever-increasing hardware prices, driven by an AI-led drain on memory components, Sony has reassured investors that it’s secured enough inventory to meet its hardware projections through March 2028. In its new financial report , the manufacturer acknowledged the following: Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Famitsu Sales: 10/26/26 – 11/1/26",
   "url": "https://www.gematsu.com/2026/11/famitsu-sales-10-26-26-11-1-26",
@@ -3613,6 +3588,47 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "2D retro-inspired fantasy RPG Elements Destiny will launch for PlayStation 5, Xbox Series, PlayStation 4, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Nintendo announces Black Friday 2026 deals",
+  "url": "https://www.gematsu.com/2026/11/nintendo-announces-black-friday-2026-deals",
+  "ngay": "2026-11-12T21:31:04+07:00",
+  "the_loai": [
+   "Switch",
+   "Switch 2",
+   "Nintendo"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Nintendo has announced its Black Friday 2026 deals, which include $50 in savings on a …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Fatal Fury: City of the Wolves DLC character Laocorn Gaudeamus launches November 19",
+  "url": "https://www.gematsu.com/2026/11/fatal-fury-city-of-the-wolves-dlc-character-laocorn-gaudeamus-launches-november-19",
+  "ngay": "2026-11-12T21:22:02+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "DLC",
+   "Fatal Fury: City of the Wolves",
+   "Fighting Games",
+   "Release Dates",
+   "SNK",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Fatal Fury: City of the Wolves Season 3 downloadable content character Laocorn Gaudeamus will launch …",
   "goi_y_ps": false
  }
 ]
