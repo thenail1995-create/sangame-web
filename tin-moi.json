@@ -1,31 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Assassin's Creed Valhalla New Game+ Patch Is Way Bigger Than Anticipated, Adds PS5 Pro Support",
-  "url": "https://www.pushsquare.com/news/2026/11/assassins-creed-valhalla-new-gameplus-patch-is-way-bigger-than-anticipated-adds-ps5-pro-support",
-  "ngay": "2026-11-05T21:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS5 Pro'",
-  "da_viet": false,
-  "tom_tat": "By Odin's beard. Assassin's Creed Valhalla has received its promised New Game+ patch, and the update is actually way more in-depth than I think most people anticipated. It's been over three years since Ubisoft released Valhalla's \"final\" patch, but the developer clearly felt as though it had unfinished business. New Game+ ended up being the single most requested feature — and now, it's finally here. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-06T02:40:49+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "007 First Light's First Mission Is Free in New PS5 Starter Pack",
-  "url": "https://www.pushsquare.com/news/2026/11/007-first-lights-first-mission-is-free-in-new-ps5-starter-pack",
-  "ngay": "2026-11-05T22:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "Available from 10th November. IO Interactive has announced a Starter Pack for 007 First Light will be released on the PS Store in the coming days that lets all PS5 owners play the game's introductory mission for free. The download will be available from 10th November 2026 on PS5, and grants access to the Against the Odds level at the start of the campaign. In this mission, you'll be introduced to the world and the style of gameplay IO Interactive went for after Hitman 3 . Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-05T23:40:45+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Grand Theft Auto VI launch screenshots",
   "url": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-launch-screenshots",
@@ -3609,6 +3583,38 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Kwalee and developer Clover Bite will release Metroidvania game sequel GRIME II for Switch …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Tinker Islands launches in Early Access on December 10",
+  "url": "https://www.gematsu.com/2026/11/tinker-islands-launches-in-early-access-on-december-10",
+  "ngay": "2026-11-12T23:05:34+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Goon Squad",
+   "Headup Games",
+   "Release Dates",
+   "Tinker Islands",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Cozy multiplayer sandbox game Tinker Islands will launch in Early Access for PC via Steam …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "AMD, Sony Mark PS5's 100 Million Unit Milestone with Signed Consoles",
+  "url": "https://www.pushsquare.com/news/2026/11/amd-sony-mark-ps5s-100-million-unit-milestone-with-signed-consoles",
+  "ngay": "2026-11-12T23:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A remarkable feat. PS5 is the fourth Sony system to officially ship over 100 million units during its lifespan, and it may be the manufacturer’s most impressive achievement yet. The firm has nimbly navigated a global pandemic, semi-conductor shortages, US electronics tariffs, a slumping global economy, and now AI-induced price increases to achieve the feat. Read the full article on pushsquare.com",
   "goi_y_ps": false
  }
 ]
