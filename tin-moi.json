@@ -1,32 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Fate/EXTRA Record characters trailer – Lil’ Ronnie Faction",
-  "url": "https://www.gematsu.com/2026/11/fate-extra-record-characters-trailer-lil-ronnie-faction",
-  "ngay": "2026-11-05T18:30:33+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Aniplex",
-   "Clips",
-   "Fate (series)",
-   "Fate/EXTRA Record",
-   "Meteorise",
-   "RPG",
-   "Trailers",
-   "Type-Moon"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-06T08:51:04+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Assassin’s Creed Valhalla: new update brings New Game+, upgraded PSSR support for PS5 Pro today",
   "url": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/",
@@ -3624,5 +3597,17 @@
   "da_viet": false,
   "tom_tat": "No longer handheld pricing from DS, 3DS. Professor Layton and apprentice Luke aren't playing about with small handheld Nintendo DS and 3DS releases anymore; they're in the big leagues now with a proper PS5 and Switch 2 release. Professor Layton and the New World of Steam is the first time the series has appeared on a home console, and the price of the new entry matches that: £53.99 / $64.99. Compared to previous titles in the franchise, this is a significant price increase — the DS and 3DS games were generally around $30 to $40 at launch, increasing as the series went on. Now, as the New World…",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "MMO Horizon Steel Frontiers 'Nearing Completion', NC Discussing Release Timing with Sony",
+  "url": "https://www.pushsquare.com/news/2026/11/mmo-horizon-steel-frontiers-nearing-completion-nc-discussing-release-timing-with-sony",
+  "ngay": "2026-11-12T22:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Horizon'",
+  "da_viet": false,
+  "tom_tat": "Mobile game coming in 2027. While the future may look bleak for series creator Guerrilla’s own Horizon multiplayer game, Korean partner NC has confirmed to investors that its MMO spin-off Horizon Steel Frontiers is “nearing completion”. Korean outlet News1 quotes co-CEO Park Byung-moo as saying: “The new Horizon IP game is nearing completion. We are continuously discussing the release timing with the IP holder, Sony, and plan to make an announcement soon.” Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
