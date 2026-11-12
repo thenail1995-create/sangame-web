@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Sony's Killing This Ratchet & Clank Game Before It Even Comes Out",
-  "url": "https://www.pushsquare.com/news/2026/11/sonys-killing-this-ratchet-and-clank-game-before-it-even-comes-out",
-  "ngay": "2026-11-06T20:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "No more Ranger Rumble. One of PlayStation's mobile games is shutting up shop, and it's doing so before it's managed to launch globally. You may recall Ratchet & Clank: Ranger Rumble , a mobile multiplayer game set within Insomniac Games' beloved sci-fi universe. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "MR. ELEVATOR coming to PS5 on November 27",
   "url": "https://www.gematsu.com/2026/11/mr-elevator-coming-to-ps5-on-november-27",
@@ -3606,6 +3594,28 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Ummm. It’s a big month for Xbox as it celebrates its 25th anniversary, with lots of entertaining initiatives underway – including a pretty cool website where it tracks your entire history with the brand. But in a big – and otherwise interesting – celebratory blog post , boss Asha Sharma appears to have mixed up some of the facts. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Fable Xbox 25th Anniversary ‘Quest’ gameplay",
+  "url": "https://www.gematsu.com/2026/11/fable-xbox-25th-anniversary-quest-gameplay",
+  "ngay": "2026-11-13T02:51:45+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Fable (2027)",
+   "Gameplay",
+   "Microsoft",
+   "Playground Games",
+   "RPG"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Xbox Game Studios and developer Playground Games have released a new four-minute gameplay walkthrough …",
   "goi_y_ps": false
  }
 ]
