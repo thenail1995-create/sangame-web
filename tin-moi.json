@@ -1,18 +1,6 @@
 [
  {
   "nguon": "PS Plus",
-  "tieu_de": "Game PS Plus tháng mới đã lên: Dead Island 2, Monster Train 2, Secret Neighbor, Tomb Raider IV-VI Remastered PS4 & PS5",
-  "url": "https://www.playstation.com/en-sg/ps-plus/games/",
-  "ngay": "2026-11-05T03:10:42+07:00",
-  "the_loai": [
-   "PS Store"
-  ],
-  "hot": true,
-  "ly_do_hot": "danh sách game tháng PS Plus đổi",
-  "da_viet": false
- },
- {
-  "nguon": "PS Plus",
   "tieu_de": "Game PS Plus tháng mới đã lên: EARTH DEFENSE FORCE: WORLD BROTHERS 2 (PS4 & PS5), F1® 25, Hunt: Showdown 1896, Hunt: Showdown 1896 – Starter Pack for PlayStation®Plus – Among Crimson Shadows",
   "url": "https://www.playstation.com/en-sg/ps-plus/games/",
   "ngay": "2026-11-05T03:20:45+07:00",
@@ -3536,6 +3524,28 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Marvelous and developer Edelweiss have released a second teaser trailer for Sakuna Chronicles: Kokorowa …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Romance visual novel Renai, Hajimemashite coming to PS5, PS4, and Switch on March 25, 2027 in Japan",
+  "url": "https://www.gematsu.com/2026/11/romance-visual-novel-renai-hajimemashite-coming-to-ps5-ps4-and-switch-on-march-25-2027-in-japan",
+  "ngay": "2026-11-12T13:29:54+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "Switch",
+   "AirVelocity",
+   "ASa Project",
+   "Japan",
+   "Release Dates",
+   "Renai Hajimemashite",
+   "Visual Novel"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "AirVelocity will release ASa Project-developed romance visual novel Renai, Hajimemashite for PlayStation 5, PlayStation 4, …",
   "goi_y_ps": false
  }
 ]
