@@ -1,30 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Acornia: Mirror Worlds launches in spring 2027",
-  "url": "https://www.gematsu.com/2026/11/acornia-mirror-worlds-launches-in-spring-2027",
-  "ngay": "2026-11-06T16:05:51+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Acornia: Mirror Worlds",
-   "Clips",
-   "Release Dates",
-   "Splashteam",
-   "The Arcade Crew",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "“Dual-dimension, action-adventure shop manager” Acornia: Mirror Worlds will launch for PlayStation 5, Xbox Series, Switch …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-06T21:10:50+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Wuthering Waves version 3.8 update ‘Lilies in a Dying Dream’ launches November 12",
   "url": "https://www.gematsu.com/2026/11/wuthering-waves-version-3-8-update-lilies-in-a-dying-dream-launches-november-12",
   "ngay": "2026-11-06T19:00:07+07:00",
@@ -3627,6 +3603,22 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Kalypso Media and developer Engine Software will release stealth tactics game Commandos: Origins Deluxe …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Xbox Backward Compatibility on PC adds 21 titles",
+  "url": "https://www.gematsu.com/2026/11/xbox-backward-compatibility-on-pc-adds-21-titles",
+  "ngay": "2026-11-13T04:15:06+07:00",
+  "the_loai": [
+   "PC",
+   "Microsoft",
+   "Xbox Backward Compatibility on PC"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Xbox has added 25 original Xbox games to its July-announced Xbox Backward Compatibility on PC …",
   "goi_y_ps": false
  }
 ]
