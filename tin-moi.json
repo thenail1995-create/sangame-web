@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Demon Kill Demon: Yomi 1984 coming to PS5, PS4, and PC on February 25, 2027 in Japan",
-  "url": "https://www.gematsu.com/2026/11/demon-kill-demon-yomi-1984-coming-to-ps5-ps4-and-pc-on-february-25-2027-in-japan",
-  "ngay": "2026-11-06T16:30:51+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Demon Kill Demon: Yomi 1984",
-   "Experience",
-   "Japan",
-   "release datse",
-   "RPG"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Experience will release dungeon RPG Demon Kill Demon: Yomi 1984 for PlayStation 5, PlayStation 4, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-07T06:40:50+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Following BioWare Closure, a Documentary About the Legendary Studio Has Been Announced",
   "url": "https://www.pushsquare.com/news/2026/11/following-bioware-closure-a-documentary-about-the-legendary-studio-has-been-announced",
@@ -3633,5 +3611,19 @@
   "tom_tat": "Because it doesn't do a good job. I am pretty confident Fable will be a fantastic RPG when it finally releases in February 2027, but for those still sat on the fence, Xbox is going to have to do a better job of promoting it than this latest example. To mark the 25th anniversary of Xbox, four minutes of gameplay taken from a quest has been uploaded. However, all of maybe 30 seconds of it actually has anything going on. Watch it above. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-13T05:50:52+07:00"
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Once Human: Season 5 gameplay showcases co-op Colossus boss battle, live November 18",
+  "url": "https://blog.playstation.com/2026/11/12/once-human-season-5-gameplay-showcases-co-op-colossus-boss-battle-live-november-18/",
+  "ngay": "2026-11-13T06:00:19+07:00",
+  "the_loai": [
+   "PS5",
+   "Once Human",
+   "Starry Studio"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
  }
 ]
