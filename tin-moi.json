@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS5 Action Game Gets Free Bayonetta Crossover DLC",
-  "url": "https://www.playstationlifestyle.net/2026/11/05/ps5-action-game-gets-free-bayonetta-crossover-dlc",
-  "ngay": "2026-11-06T06:13:41+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Bayonetta",
-   "Entertainment and Gaming",
-   "PlayStation 5",
-   "PS5",
-   "Stellar Blade",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "A PlayStation 5 action game has crossed over with an iconic Sega classic. The post PS5 Action Game Gets Free Bayonetta Crossover DLC appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-06T08:51:04+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Petition to Save Mass Effect Dev BioWare to Be Considered by Canada's Government",
   "url": "https://www.pushsquare.com/news/2026/11/petition-to-save-mass-effect-dev-bioware-to-be-considered-by-canadas-government",
@@ -3609,5 +3587,17 @@
   "da_viet": false,
   "tom_tat": "Cook, Serve, Delicious: Re-Mustard!, a reimagined version of the original Cook, Serve, Delicious!, will launch …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Launch Leads to Special Holiday for All Palworld Dev Employees",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-launch-leads-to-special-holiday-for-all-palworld-dev-employees",
+  "ngay": "2026-11-13T01:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Leonida here we come. GTA 6 launches in one week's time, and the anticipation and excitement for the game is hard to ignore. Rockstar Games' inbound open world action game is going to be a major cultural event when it launches on 19th November, and it seems some companies are recognising that — most notably, Pocketpair, the team behind Palworld . Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
