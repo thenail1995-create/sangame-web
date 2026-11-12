@@ -1,43 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Here's What The Expanse: Osiris Reborn's Recast Main Character Looks and Sounds Like",
-  "url": "https://www.pushsquare.com/news/2026/11/heres-what-the-expanse-osiris-reborns-recast-main-character-looks-and-sounds-like",
-  "ngay": "2026-11-06T21:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "New face and voice revealed. Developer and publisher Owlcat Games has revealed the new face and voice of the male protagonist in The Expanse: Osiris Reborn . Following negative feedback from fans, the company announced it would be recasting the role and making updates to the character's appearance. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-07T06:40:50+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Ragnarok Console Project ‘A New Ragnarok Adventure Awaits’ trailer",
-  "url": "https://www.gematsu.com/2026/11/ragnarok-console-project-a-new-ragnarok-adventure-awaits-trailer",
-  "ngay": "2026-11-06T15:45:58+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Clips",
-   "Daewon Media Game Lab",
-   "Gravity",
-   "Ragnarok Console Project",
-   "RPG",
-   "Trailers",
-   "Waycoder"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publishers Gravity and Daewon Media Game Lab, and developer Waycoder have released a new trailer …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-07T06:40:50+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Ratchet & Clank: Ranger Rumble canceled",
   "url": "https://www.gematsu.com/2026/11/ratchet-clank-ranger-rumble-canceled",
@@ -3617,6 +3579,51 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Square Enix will release one of its highly-anticipated RPGs earlier than expected so fans can play the 3D remake of Romancing SaGa 3 soon. The post Square Enix RPG’s PS5 Remake Set Earlier Release Date appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dragon Quest Monsters: The Withered World details early adventure",
+  "url": "https://www.gematsu.com/2026/11/dragon-quest-monsters-the-withered-world-details-early-adventure",
+  "ngay": "2026-11-13T05:00:35+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Dragon Quest (series)",
+   "Dragon Quest Monsters: The Withered World",
+   "RPG",
+   "Screenshots",
+   "Square Enix",
+   "TOSE"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher and developer Square Enix, and developer TOSE have released new information and screenshots for …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA VI Looks to Break Valorant’s Incredible Record 6 Years Later",
+  "url": "https://www.playstationlifestyle.net/2026/11/12/gta-6-youtube-creators-valorant-streaming-record",
+  "ngay": "2026-11-13T04:54:27+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Grand Theft Auto VI",
+   "GTA 6",
+   "Rockstar Games",
+   "Valorant",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Grand Theft Auto VI is poised to become one of the most-watched video game releases in streaming history. Ahead of the highly anticipated game’s launch, YouTube has announced a major livestreaming event featuring creators from across the globe. YouTube has announced a 24-hour livestream to celebrate GTA VI’s upcoming launch. The event is scheduled to […] The post GTA VI Looks to Break Valorant’s Incredible Record 6 Years Later appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
