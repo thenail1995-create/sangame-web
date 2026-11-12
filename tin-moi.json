@@ -1,23 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Switch 2 worldwide sales top 26.35 million, Switch tops 157.20 million",
-  "url": "https://www.gematsu.com/2026/11/switch-2-worldwide-sales-top-26-35-million-switch-tops-157-20-million",
-  "ngay": "2026-11-05T13:38:57+07:00",
-  "the_loai": [
-   "Switch",
-   "Switch 2",
-   "Nintendo",
-   "Sales"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Nintendo Switch 2 has sold 26.35 million units and Switch has sold 157.20 million units …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "PS5 shipments top 97.9 million, Marvel’s Wolverine tops 2.4 million",
   "url": "https://www.gematsu.com/2026/11/ps5-shipments-top-97-9-million-marvels-wolverine-tops-2-4-million",
   "ngay": "2026-11-05T13:44:41+07:00",
@@ -3585,5 +3568,17 @@
   "da_viet": false,
   "tom_tat": "#OnlyinViceCity. If you're at all interested in GTA 6 , you'll probably have seen this doing the rounds already. A video is going viral on social media, because it's fooling people into thinking it's real-life footage — but it's actually the game. Here's the clip in question: Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Guide: PlayStation Studios: All Sony First-Party Developers and What They're Working On",
+  "url": "https://www.pushsquare.com/guides/playstation-studios-all-sony-first-party-developers-and-what-theyre-working-on",
+  "ngay": "2026-11-12T16:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Every game coming from PS Studios. Sony's first-party developers are known collectively as PlayStation Studios , and it's these teams that make all the games published by the company. Whether it's PS5, PC, or beyond, there are always new games in the works. While we don't always know everything about what's in development, we've done our best to collate all the current info in this page. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
