@@ -1,28 +1,6 @@
 [
  {
   "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PlayStation 6 Gets Promising Development Update From Sony",
-  "url": "https://www.playstationlifestyle.net/2026/11/05/sony-next-playstation-console-development-update",
-  "ngay": "2026-11-06T04:47:53+07:00",
-  "the_loai": [
-   "News",
-   "PS6 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "PlayStation",
-   "PlayStation 6",
-   "PS6",
-   "Sony",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Sony has provided a promising update on the development of the PlayStation 6's development ahead of its launch. The post PlayStation 6 Gets Promising Development Update From Sony appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-06T05:50:43+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Action Game Gets Free Bayonetta Crossover DLC",
   "url": "https://www.playstationlifestyle.net/2026/11/05/ps5-action-game-gets-free-bayonetta-crossover-dlc",
   "ngay": "2026-11-06T06:13:41+07:00",
@@ -3612,5 +3590,24 @@
   "da_viet": false,
   "tom_tat": "Firefight is back. A major free update for Halo: Campaign Evolved has been announced, and it's bringing Firefight back with a bang. For the uninitiated, Firefight was always the series' go-to co-op mode, allowing Spartans to team up and hold off waves of bloodthirsty opponents together. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Cook, Serve, Delicious: Re-Mustard! launches January 18, 2027 for PC, later in 2027 for consoles",
+  "url": "https://www.gematsu.com/2026/11/cook-serve-delicious-re-mustard-launches-january-18-2027-for-pc-later-in-2027-for-consoles",
+  "ngay": "2026-11-13T01:17:40+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Cook Serve Delicious: Re-Mustard!",
+   "Release Dates",
+   "Trailers",
+   "Vertigo Gaming"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Cook, Serve, Delicious: Re-Mustard!, a reimagined version of the original Cook, Serve, Delicious!, will launch …",
+  "goi_y_ps": false
  }
 ]
