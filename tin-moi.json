@@ -1,65 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Honkai: Nexus Anima launches in spring 2027; final closed beta test begins November 25",
-  "url": "https://www.gematsu.com/2026/11/honkai-nexus-anima-launches-in-spring-2027-final-closed-beta-test-begins-november-25",
-  "ngay": "2026-11-05T11:20:01+07:00",
-  "the_loai": [
-   "PC",
-   "Smartphone",
-   "Clips",
-   "Honkai: Nexus Anima",
-   "miHoYo",
-   "RPG",
-   "Screenshots",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Open-world creature-catching adventure RPG Honkai: Nexus Anima will launch for PC, iOS, and Android in …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "My Hero Ultra Rumble coming to iOS, Android",
-  "url": "https://www.gematsu.com/2026/11/my-hero-ultra-rumble-coming-to-ios-android",
-  "ngay": "2026-11-05T11:49:49+07:00",
-  "the_loai": [
-   "Smartphone",
-   "Bandai Namco",
-   "Jump",
-   "My Hero Ultra Rumble"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Bandai Namco will release free-to-play battle royale game My Hero Ultra Rumble for iOS and …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "DAMON and BABY free update ‘RISE OF THE ORACLE’ announced alongside Switch 2 version",
-  "url": "https://www.gematsu.com/2026/11/damon-and-baby-free-update-rise-of-the-oracle-announced-alongside-switch-2-version",
-  "ngay": "2026-11-05T13:29:11+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Arc System Works",
-   "DAMON and BABY",
-   "Screenshots"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "Arc System Works has announced top-down action adventure shooter DAMON and BABY free update “RISE …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-05T14:31:05+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Switch 2 worldwide sales top 26.35 million, Switch tops 157.20 million",
   "url": "https://www.gematsu.com/2026/11/switch-2-worldwide-sales-top-26-35-million-switch-tops-157-20-million",
   "ngay": "2026-11-05T13:38:57+07:00",
@@ -3595,5 +3536,54 @@
   "da_viet": false,
   "tom_tat": "Medieval fantasy action RPG Vindictus: Defying Fate will be available for PlayStation 5 alongside PC …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Vindictus: Defying Fate comes to PS5 next year",
+  "url": "https://blog.playstation.com/2026/11/12/vindictus-defying-fate-comes-to-ps5-next-year/",
+  "ngay": "2026-11-12T20:07:48+07:00",
+  "the_loai": [
+   "PS5",
+   "Nexon Korea",
+   "Vindictus: Defying Fate"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Famitsu Sales: 11/2/26 – 11/8/26",
+  "url": "https://www.gematsu.com/2026/11/famitsu-sales-11-2-26-11-8-26",
+  "ngay": "2026-11-12T20:04:20+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Famitsu",
+   "Famitsu Sales",
+   "Japan",
+   "Sales",
+   "Stellar Blade",
+   "The Legend of Zelda: Ocarina of Time (2026)"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Famitsu has published its estimated physical game software data for Japan for the week of …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "This GTA 6 Clip Looks So Real, Fans Can't Believe It's In-Game Footage",
+  "url": "https://www.pushsquare.com/news/2026/11/this-gta-6-clip-looks-so-real-fans-cant-believe-its-in-game-footage",
+  "ngay": "2026-11-12T20:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "#OnlyinViceCity. If you're at all interested in GTA 6 , you'll probably have seen this doing the rounds already. A video is going viral on social media, because it's fooling people into thinking it's real-life footage — but it's actually the game. Here's the clip in question: Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]

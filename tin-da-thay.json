@@ -77,7 +77,8 @@
    "urn:uuid:65324c02-5a6a-44e3-857a-30c74b866e14",
    "urn:uuid:6cf4b6a1-33a9-486a-b835-31644a10f202",
    "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86",
-   "urn:uuid:dc73a8dc-1979-49e2-ab98-cdaf930e9c87"
+   "urn:uuid:dc73a8dc-1979-49e2-ab98-cdaf930e9c87",
+   "urn:uuid:d928debb-6cf9-4d62-9305-b6a57fb8fa1b"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -96,7 +97,6 @@
    "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1083977",
    "https://www.gematsu.com/?p=1084398",
    "https://www.gematsu.com/?p=1084525",
    "https://www.gematsu.com/?p=1084522",
@@ -395,10 +395,10 @@
    "https://www.gematsu.com/?p=1088123",
    "https://www.gematsu.com/?p=1088127",
    "https://www.gematsu.com/?p=1087170",
-   "https://www.gematsu.com/?p=1088132"
+   "https://www.gematsu.com/?p=1088132",
+   "https://www.gematsu.com/?p=1087968"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-207803",
    "https://www.pushsquare.com/#article-207814",
    "https://www.pushsquare.com/#article-207818",
    "https://www.pushsquare.com/#article-207826",
@@ -697,7 +697,8 @@
    "https://www.pushsquare.com/#article-208980",
    "https://www.pushsquare.com/#article-208985",
    "https://www.pushsquare.com/#article-208999",
-   "https://www.pushsquare.com/#article-209004"
+   "https://www.pushsquare.com/#article-209004",
+   "https://www.pushsquare.com/#article-209000"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -973,7 +974,7 @@
    5692,
    5692,
    5692,
-   5692,
+   5691,
    5691,
    5691,
    5691,
