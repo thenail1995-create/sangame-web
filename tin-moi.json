@@ -1,23 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Thrifty Business coming to Switch",
-  "url": "https://www.gematsu.com/2026/11/thrifty-business-coming-to-switch",
-  "ngay": "2026-11-05T21:12:16+07:00",
-  "the_loai": [
-   "Switch",
-   "Clips",
-   "Spellgarden Games",
-   "Thrifty Business",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Spellgarden will release a Switch version of cozy thrift shop management game Thrifty Business, the …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Assassin's Creed Valhalla New Game+ Patch Is Way Bigger Than Anticipated, Adds PS5 Pro Support",
   "url": "https://www.pushsquare.com/news/2026/11/assassins-creed-valhalla-new-gameplus-patch-is-way-bigger-than-anticipated-adds-ps5-pro-support",
@@ -3606,5 +3588,27 @@
   "da_viet": false,
   "tom_tat": "Balls to this. GTA 6 was, reportedly, very close to being refused classification in South Korea just a couple of months back. The reason? Too many penises. According to Inven's findings, the country's ratings board — the GCRB — was completely split on its initial classification vote. Three committee members voted for an 'Adults Only' rating, and another three voted to have Rockstar's game refused outright. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "GRIME II coming to Switch 2, Switch on November 27 alongside ‘A Final Coda’ update",
+  "url": "https://www.gematsu.com/2026/11/grime-ii-coming-to-switch-2-switch-on-november-27-alongside-a-final-coda-update",
+  "ngay": "2026-11-12T23:00:22+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Clover Bite",
+   "GRIME II",
+   "Kwalee",
+   "Release Dates"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Kwalee and developer Clover Bite will release Metroidvania game sequel GRIME II for Switch …",
+  "goi_y_ps": false
  }
 ]
