@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "PS5 Exclusive Marvel's Wolverine Off to a Soft Start, 2.4 Million Copies Sold to Date",
-  "url": "https://www.pushsquare.com/news/2026/11/ps5-exclusive-marvels-wolverine-off-to-a-soft-start-2-4-million-copies-sold-to-date",
-  "ngay": "2026-11-05T18:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false,
-  "tom_tat": "\"I'm no hero\". Sony has officially confirmed sales figures for Marvel's Wolverine for the first time, as part of its recent financial update . According to the report, the PS5 exclusive superhero action adventure has sold 2.4 million units as of 4th November, 2026. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-05T20:31:07+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "PS6 Development on Track, Sony Making 'Solid Progress' Towards Next-Gen",
   "url": "https://www.pushsquare.com/news/2026/11/ps6-development-on-track-sony-making-solid-progress-towards-next-gen",
   "ngay": "2026-11-05T19:00:00+07:00",
@@ -3601,5 +3588,31 @@
   "da_viet": false,
   "tom_tat": "Looking good, cap. OwlCat Games has unveiled fresh gameplay from The Expanse: Osiris Reborn , and the sci-fi RPG continues to look really promising. Now that we're past all of the drama with the game's male protagonist — his default appearance was recently changed along with his voice after a lot of critical feedback — it's time to take a look the female lead. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Elements Destiny launches December 8 for PS5, Xbox Series, PS4, Xbox One, and PC; December 15 for Switch",
+  "url": "https://www.gematsu.com/2026/11/elements-destiny-launches-december-8-for-ps5-xbox-series-ps4-xbox-one-and-pc-december-15-for-switch",
+  "ngay": "2026-11-12T21:13:35+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Xbox One",
+   "Xbox Series",
+   "Clips",
+   "Deck13 Spotlight",
+   "Elements Destiny",
+   "Release Dates",
+   "RPG",
+   "ShrooMoon UG",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "2D retro-inspired fantasy RPG Elements Destiny will launch for PlayStation 5, Xbox Series, PlayStation 4, …",
+  "goi_y_ps": false
  }
 ]
