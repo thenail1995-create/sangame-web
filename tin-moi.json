@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Rockstar Reveals Even More GTA 6 Screenshots as PS5 Release Draws Closer",
-  "url": "https://www.pushsquare.com/news/2026/11/rockstar-reveals-even-more-gta-6-screenshots-as-ps5-release-draws-closer",
-  "ngay": "2026-11-05T22:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Check them all out here. You're exactly two weeks away from playing GTA 6 . To celebrate the fact, developer Rockstar has shared another batch of screenshots that are designed to showcase Vice City at its best, and the world beyond. Take a look below at a whopping 37 new screenshots: Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-05T23:40:45+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Stellar Blade's Free Bayonetta Crossover Outfits Are Available Now on PS5, PC",
   "url": "https://www.pushsquare.com/news/2026/11/stellar-blades-free-bayonetta-crossover-outfits-are-available-now-on-ps5-pc",
   "ngay": "2026-11-05T23:30:00+07:00",
@@ -3615,6 +3602,21 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A cooperative survival shooter from Wales Interactive has landed on the PlayStation Store. The post Intense PS5 Shooter Game Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "PC Gaming Show 2026: Most Wanted set for December 3",
+  "url": "https://www.gematsu.com/2026/11/pc-gaming-show-2026-most-wanted-set-for-december-3",
+  "ngay": "2026-11-12T23:23:41+07:00",
+  "the_loai": [
+   "Industry",
+   "PC Gaming Show 2026: Most Wanted"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "PC Gamer will host PC Gaming Show 2026: Most Wanted on December 3 at 12:00 …",
   "goi_y_ps": false
  }
 ]
