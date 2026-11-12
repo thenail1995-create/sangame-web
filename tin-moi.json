@@ -1,38 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "MR. ELEVATOR coming to PS5 on November 27",
-  "url": "https://www.gematsu.com/2026/11/mr-elevator-coming-to-ps5-on-november-27",
-  "ngay": "2026-11-06T16:00:28+07:00",
-  "the_loai": [
-   "PS5",
-   "GIFT TEN INDUSTRY",
-   "MR. ELEVATOR",
-   "Puzzle Games",
-   "Release Dates"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "GIFT TEN INDUSTRY will release a PlayStation 5 version of bizarre puzzle game MR. ELEVATOR on …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-06T21:10:50+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "These 8+ PS5 Games Will Be Delisted in November and December 2026",
-  "url": "https://www.pushsquare.com/news/2026/11/these-8plus-ps5-games-will-be-delisted-in-november-and-december-2026",
-  "ngay": "2026-11-06T20:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Going offline. The end of the year is always a prime time for PS5 game delistings and server closures, but fortunately we’re being spared a large list this year. There are about eight titles with impending changes you need to be aware of, so here’s the full list: Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-06T21:10:50+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Acornia: Mirror Worlds launches in spring 2027",
   "url": "https://www.gematsu.com/2026/11/acornia-mirror-worlds-launches-in-spring-2027",
   "ngay": "2026-11-06T16:05:51+07:00",
@@ -3616,6 +3584,49 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Xbox Game Studios and developer Playground Games have released a new four-minute gameplay walkthrough …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "DOOM: The Dark Ages DLC ‘Revelations’ – ‘Slaughter Mode’ update launches November 16",
+  "url": "https://www.gematsu.com/2026/11/doom-the-dark-ages-dlc-revelations-slaughter-mode-update-launches-november-16",
+  "ngay": "2026-11-13T03:25:56+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Bethesda Softworks",
+   "Clips",
+   "DLC",
+   "DOOM: The Dark Ages",
+   "FPS",
+   "id Software",
+   "Release Dates",
+   "Shooter",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Publisher Bethesda Softworks and developer id Software will release a free update for DOOM: The …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Commandos: Origins Deluxe Edition coming to Switch 2 on December 15",
+  "url": "https://www.gematsu.com/2026/11/commandos-origins-deluxe-edition-coming-to-switch-2-on-december-15",
+  "ngay": "2026-11-13T02:35:11+07:00",
+  "the_loai": [
+   "Switch 2",
+   "Commandos: Origins",
+   "Engine Software",
+   "Kalypso Media",
+   "Release Dates"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Kalypso Media and developer Engine Software will release stealth tactics game Commandos: Origins Deluxe …",
   "goi_y_ps": false
  }
 ]
