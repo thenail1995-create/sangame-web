@@ -1,32 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "No Disc, No Buy and PS5 Blackout Protests Fail to Impact PlayStation",
-  "url": "https://www.pushsquare.com/news/2026/11/no-disc-no-buy-and-ps5-blackout-protests-fail-to-impact-playstation",
-  "ngay": "2026-11-05T16:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Active users increases, digital sales percentage increases. Sony has published its financial report for the Q2 period of fiscal year 2026, the stretch of time in which some PS5 fans took a stand against PlayStation decisions of recent years to make their frustrations heard. After years of proposed disappointment surrounding Sony's first-party game output, studio closures, and a shift into the live service, everything came to a head over PlayStation's decision to stop manufacturing physical versions of new titles from January 2028 onwards. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-05T17:31:05+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "PS5 Closing in on 100 Million Sales as Gradual Drop-Off Continues",
-  "url": "https://www.pushsquare.com/news/2026/11/ps5-closing-in-on-100-million-sales-as-gradual-drop-off-continues",
-  "ngay": "2026-11-05T16:45:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "That's another 2.6 million PS5 consoles sold. Sony sold another 2.6 million PS5 consoles during the second quarter of its 2026 fiscal year , bringing the total number of systems sold to 97.9 million. It should surpass the 100 million sales milestone by the end of the next fiscal report, but the downward trend in sales has continued. PlayStation sold four million PS5 machines during the same quarter of its last fiscal year, confirming 1.4 million fewer systems were sold in the quarter just gone. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-05T17:31:05+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "PS5 Exclusive Marvel's Wolverine Off to a Soft Start, 2.4 Million Copies Sold to Date",
   "url": "https://www.pushsquare.com/news/2026/11/ps5-exclusive-marvels-wolverine-off-to-a-soft-start-2-4-million-copies-sold-to-date",
   "ngay": "2026-11-05T18:00:00+07:00",
@@ -3593,5 +3567,39 @@
   "da_viet": false,
   "tom_tat": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Station to Station coming to PS5, Switch 2 on November 26",
+  "url": "https://www.gematsu.com/2026/11/station-to-station-coming-to-ps5-switch-2-on-november-26",
+  "ngay": "2026-11-12T21:07:45+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch 2",
+   "Clips",
+   "Engine Software",
+   "Galaxy Grove",
+   "Puzzle Games",
+   "Release Dates",
+   "Station to Station",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Engine Software and developer Galaxy Grove will release voxel art railway puzzle game Station …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "The Expanse: Osiris Reborn Spotlights Its Female Protagonist in RPG's Promising New Footage",
+  "url": "https://www.pushsquare.com/news/2026/11/the-expanse-osiris-reborn-spotlights-its-female-protagonist-in-rpgs-promising-new-footage",
+  "ngay": "2026-11-12T21:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Looking good, cap. OwlCat Games has unveiled fresh gameplay from The Expanse: Osiris Reborn , and the sci-fi RPG continues to look really promising. Now that we're past all of the drama with the game's male protagonist — his default appearance was recently changed along with his voice after a lot of critical feedback — it's time to take a look the female lead. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
