@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "MAGES. to announce Girls und Panzer game for console on November 14",
-  "url": "https://www.gematsu.com/2026/11/mages-to-announce-girls-und-panzer-game-for-console-on-november-14",
-  "ngay": "2026-11-05T13:57:53+07:00",
-  "the_loai": [
-   "Industry",
-   "Girls und Panzer (MAGES.)",
-   "MAGES."
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "MAGES. will announce a new Girls und Panzer game for console at “Oarai Ankou Matsuri …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "No Disc, No Buy and PS5 Blackout Protests Fail to Impact PlayStation",
   "url": "https://www.pushsquare.com/news/2026/11/no-disc-no-buy-and-ps5-blackout-protests-fail-to-impact-playstation",
@@ -3583,6 +3567,31 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Digital pre-orders for Professor Layton and the New World of Steam are now available for …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Fate/EXTRA Record characters trailer – Julius Faction",
+  "url": "https://www.gematsu.com/2026/11/fate-extra-record-characters-trailer-julius-faction",
+  "ngay": "2026-11-12T18:05:00+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Aniplex",
+   "Clips",
+   "Fate (series)",
+   "Fate/EXTRA Record",
+   "Meteorise",
+   "RPG",
+   "Trailers",
+   "Type-Moon"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
   "goi_y_ps": false
  }
 ]
