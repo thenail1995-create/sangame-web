@@ -1,38 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Ratchet & Clank: Ranger Rumble canceled",
-  "url": "https://www.gematsu.com/2026/11/ratchet-clank-ranger-rumble-canceled",
-  "ngay": "2026-11-06T22:01:00+07:00",
-  "the_loai": [
-   "Smartphone",
-   "Oh BiBi",
-   "Ratchet & Clank: Ranger Rumble",
-   "SIE",
-   "SIEA",
-   "SIEE"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Free-to-play multiplayer arena shooter Ratchet & Clank: Ranger Rumble has been canceled, publisher Sony Interactive …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Synth Riders Dropping '80s MixTape: Vice Wave' DLC to Immerse You in Some Neon Dreams",
-  "url": "https://www.pushsquare.com/news/2026/11/synth-riders-dropping-80s-mixtape-vice-wave-dlc-to-immerse-you-in-some-neon-dreams",
-  "ngay": "2026-11-06T22:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "What A Tracklist! Barely a couple of weeks after PSVR2 darling Synth Riders dropped a new free song , we've got yet more content on the way. Those not satisfied with the previous ' 80s Mixtape ' drops, we've got an additional third set of tunes to liven up your day. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-07T03:31:08+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Demon Kill Demon: Yomi 1984 coming to PS5, PS4, and PC on February 25, 2027 in Japan",
   "url": "https://www.gematsu.com/2026/11/demon-kill-demon-yomi-1984-coming-to-ps5-ps4-and-pc-on-february-25-2027-in-japan",
   "ngay": "2026-11-06T16:30:51+07:00",
@@ -3625,5 +3593,40 @@
   "da_viet": false,
   "tom_tat": "Grand Theft Auto VI is poised to become one of the most-watched video game releases in streaming history. Ahead of the highly anticipated game’s launch, YouTube has announced a major livestreaming event featuring creators from across the globe. YouTube has announced a 24-hour livestream to celebrate GTA VI’s upcoming launch. The event is scheduled to […] The post GTA VI Looks to Break Valorant’s Incredible Record 6 Years Later appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Shikhondo: Blue Pieta for PS5, Switch 2, and Switch launches December 10",
+  "url": "https://www.gematsu.com/2026/11/shikhondo-blue-pieta-for-ps5-switch-2-and-switch-launches-december-10",
+  "ngay": "2026-11-13T05:17:34+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "CFK",
+   "Clips",
+   "DeerFarm",
+   "Release Dates",
+   "Shikhondo: Blue Pieta",
+   "Shmup",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Fantasy bullet hell shoot ’em up game Shikhondo: Blue Pieta will launch for PlayStation 5, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Was This New Fable Gameplay Meant to Sell the Game?",
+  "url": "https://www.pushsquare.com/news/2026/11/was-this-new-fable-gameplay-meant-to-sell-the-game",
+  "ngay": "2026-11-13T05:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Because it doesn't do a good job. I am pretty confident Fable will be a fantastic RPG when it finally releases in February 2027, but for those still sat on the fence, Xbox is going to have to do a better job of promoting it than this latest example. To mark the 25th anniversary of Xbox, four minutes of gameplay taken from a quest has been uploaded. However, all of maybe 30 seconds of it actually has anything going on. Watch it above. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
