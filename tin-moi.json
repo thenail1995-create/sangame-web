@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Grand Theft Auto VI launch screenshots",
-  "url": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-launch-screenshots",
-  "ngay": "2026-11-05T22:20:24+07:00",
-  "the_loai": [
-   "PS5",
-   "Xbox Series",
-   "Grand Theft Auto VI",
-   "Rockstar Games",
-   "Rockstar North",
-   "Screenshots"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Rockstar Games has released a gallery of nearly 40 launch screenshots for Grand Theft Auto …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-06T05:50:43+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Rockstar Reveals Even More GTA 6 Screenshots as PS5 Release Draws Closer",
   "url": "https://www.pushsquare.com/news/2026/11/rockstar-reveals-even-more-gta-6-screenshots-as-ps5-release-draws-closer",
@@ -3615,6 +3595,26 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A remarkable feat. PS5 is the fourth Sony system to officially ship over 100 million units during its lifespan, and it may be the manufacturer’s most impressive achievement yet. The firm has nimbly navigated a global pandemic, semi-conductor shortages, US electronics tariffs, a slumping global economy, and now AI-induced price increases to achieve the feat. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Intense PS5 Shooter Game Is Out Today on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/12/hazard-levels-ps5-fps-release",
+  "ngay": "2026-11-12T23:19:15+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Hazard Levels",
+   "PlayStation 5",
+   "PlayStation Store",
+   "PS5",
+   "Wales Interactive"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A cooperative survival shooter from Wales Interactive has landed on the PlayStation Store. The post Intense PS5 Shooter Game Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
