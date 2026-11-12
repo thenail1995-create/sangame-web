@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Hard West II for PS5, Xbox Series launches November 10",
-  "url": "https://www.gematsu.com/2026/11/hard-west-ii-for-ps5-xbox-series-launches-november-10",
-  "ngay": "2026-11-06T01:27:50+07:00",
-  "the_loai": [
-   "PS5",
-   "Xbox Series",
-   "Good Shepherd Entertainment",
-   "Hard West II",
-   "Ice Code Games",
-   "Klabater",
-   "Release Dates"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Wild West-themed turn-based strategy game sequel Hard West II will launch for PlayStation 5 and …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-06T02:40:49+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "There's Demand to Remake Final Fantasy 6 from Within Square Enix, Says Series Boss",
   "url": "https://www.pushsquare.com/news/2026/11/theres-demand-to-remake-final-fantasy-6-from-within-square-enix-says-series-boss",
@@ -3625,6 +3604,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Panic and developer Okomotive have released Herdling – Nintendo Switch 2 Edition. It is …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Halo: Campaign Evolved ‘Firefight’ update announced",
+  "url": "https://www.gematsu.com/2026/11/halo-campaign-evolved-firefight-update-announced",
+  "ngay": "2026-11-13T00:26:23+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "FPS",
+   "Halo Studios",
+   "Halo: Campaign Evolved",
+   "Microsoft",
+   "Shooter"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Xbox Game Studios and developer Halo Studios have announced the Halo: Campaign Evolved “Firefight” …",
   "goi_y_ps": false
  }
 ]
