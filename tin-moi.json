@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "GTA 6's Exclusive Selfridges Merch Is Daylight Robbery",
-  "url": "https://www.pushsquare.com/news/2026/11/gta-6s-exclusive-selfridges-merch-is-daylight-robbery",
-  "ngay": "2026-11-09T21:15:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Varsity jacket for $3,300. You may need to turn to crime in order to afford UK retailer Selfridges’ exclusive roster of GTA 6 merch. Available online and in-store now, items include a £2,500 (~$3,352) varsity jacket with the Rockstar and GTA 6 logos emblazoned on them. You can also get a leather Burger Shot takeaway bag for £125 (~$167). Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "GTA 6: The Festival Is a One-Off Live Music Event, Partly Presented By PlayStation",
   "url": "https://www.pushsquare.com/news/2026/11/gta-6-the-festival-is-a-one-off-live-music-event-partly-presented-by-playstation",
   "ngay": "2026-11-09T21:30:00+07:00",
@@ -3666,5 +3654,25 @@
   "da_viet": false,
   "tom_tat": "I believe, I believe, I believe this is a good time. While DreamWorks' tales of an ogre and his mates are hit or miss, there's no denying that Shrek 2 Remastered is a winning overhaul of a mid-2000s gem. It comes from an era when movie tie-in games were all the rage, whether that meant half-arsed Harry Potter adventures or excellent efforts like X-Men Origins: Wolverine . Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Ambitious PS5 Tactical RPG Sets Release Window",
+  "url": "https://www.playstationlifestyle.net/2026/11/13/guild-saga-vanished-worlds-ps5-release-window",
+  "ngay": "2026-11-14T01:42:43+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Guild Saga: Vanished Worlds",
+   "PlayStation 5",
+   "PS5",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "PlayStation 5 is getting a new tactical RPG in 2027. The post Ambitious PS5 Tactical RPG Sets Release Window appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
