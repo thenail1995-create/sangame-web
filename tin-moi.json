@@ -1,25 +1,6 @@
 [
  {
   "nguon": "PlayStation LifeStyle",
-  "tieu_de": "New Ratchet & Clank Game Canceled Prior to Release",
-  "url": "https://www.playstationlifestyle.net/2026/11/06/ratchet-and-clank-ranger-rumble-shutdown-date",
-  "ngay": "2026-11-07T00:20:00+07:00",
-  "the_loai": [
-   "Android",
-   "News",
-   "Entertainment and Gaming",
-   "Insomniac Games",
-   "Ratchet & Clank",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "The sun is setting on Insomniac Games‘ new Ratchet & Clank game before its full global release. Developed for both Android and iOS, the game will remain available to existing players for a limited time. Ratchet & Clank: Ranger Rumble is officially shutting down, with developer Oh Bibi Studios announcing the end of development and […] The post New Ratchet & Clank Game Canceled Prior to Release appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
- },
- {
-  "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS4, PS5 Open-World Game Abruptly Disappears From PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/11/06/starsand-ps5-delisted-playstation-store",
   "ngay": "2026-11-07T00:32:56+07:00",
@@ -3626,5 +3607,28 @@
   "da_viet": false,
   "tom_tat": "The wait is over. One thing I always appreciate about PlayStation is its ability to appeal to localised audiences, despite its message being unified globally. The company’s current marketing strategy revolves around GTA 6 , and it’s using the slogan ‘ Plays Best on PS5 ’. But it’s promoting this in a variety of ways around the world. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Year-Old Sega PS5, PS Plus Game Already Delisted",
+  "url": "https://www.playstationlifestyle.net/2026/11/13/ps5-ps-plus-game-football-manager-26-delisted",
+  "ngay": "2026-11-13T20:30:00+07:00",
+  "the_loai": [
+   "News",
+   "PlayStation Plus News - PS4, PS3, PS Vita",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Football Manager 26",
+   "PlayStation Plus",
+   "PS Plus",
+   "Sega",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "Sega has quietly delisted a November 2025 PS5 game that has been part of the PS Plus Extra and Premium catalog since April 2026. Single-player and multiplayer sports management game Football Manager 26 has also been removed from Xbox, Nintendo, and Steam storefronts along with the PS Store. Sega PS5 game Football Manager 26 will […] The post Year-Old Sega PS5, PS Plus Game Already Delisted appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
