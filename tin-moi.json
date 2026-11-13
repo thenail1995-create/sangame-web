@@ -1,24 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle announced for iOS, Android",
-  "url": "https://www.gematsu.com/2026/11/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-announced-for-ios-android",
-  "ngay": "2026-11-09T10:57:58+07:00",
-  "the_loai": [
-   "Smartphone",
-   "Dragon Quest (series)",
-   "Dragon Quest RPG: The Cursed Tree and the Chosen Isle",
-   "Game Announce",
-   "RPG",
-   "Square Enix"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Square Enix has announced Dragon Quest RPG: The Cursed Tree and the Chosen Isle, “the …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "2 Upcoming PS Plus Extra Games Announced Early",
   "url": "https://www.pushsquare.com/news/2026/11/2-upcoming-ps-plus-extra-games-announced-early",
@@ -3670,6 +3651,18 @@
   "ly_do_hot": "có từ khoá 'God of War'",
   "da_viet": false,
   "tom_tat": "Out on 16th Nov, with a free update for PS5 owners. It's now been confirmed God of War: Sons of Sparta , the mostly forgotten Metroidvania game that launched earlier this year, will indeed be ported back to PS4 . Having debuted on PS5 in February, the PS4 version launches next week, on 16th November 2026. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PSA: GTA 6 Does Not Have Online Multiplayer at Launch",
+  "url": "https://www.pushsquare.com/news/2026/11/psa-gta-6-does-not-have-online-multiplayer-at-launch",
+  "ngay": "2026-11-13T23:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "It'll arrive a little later. GTA 6 is now less than a week away from its official launch, coming to PS5 on 19th November, 2026. It's likely to become the biggest entertainment launch of all time, with excitement at a fever pitch coming off the back of GTA 5 , which is the third best-selling game ever at a staggering 235 million copies . Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
