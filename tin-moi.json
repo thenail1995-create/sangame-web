@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Share of the Week: Shadows",
-  "url": "https://blog.playstation.com/2026/11/06/share-of-the-week-shadows-2/",
-  "ngay": "2026-11-06T23:00:21+07:00",
-  "the_loai": [
-   "PS5",
-   "Share of the Week"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS4 Remasters of Beloved PS3 Open World Games Are 70% Off on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/11/06/assassins-creed-ezio-collection-ps4-70-percent-off",
@@ -3625,5 +3612,25 @@
   "da_viet": false,
   "tom_tat": "Available for DLC owners from 16th November. id Software has revealed it's updating DOOM: The Dark Ages with a horde mode next week, called Slaughter Mode. It's a free addition, but there's a catch: you have to own this year's Revelations expansion to access it. Slaughter Mode releases on Monday, 16th November 2026, and brings with it \"an all-new endless survival challenge designed to put even the most seasoned Slayers to the test\". It's got randomised enemies, bosses, and arenas, and the ability to record your personal high scores and compete in weekly challenges. Read the full article on pus…",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Wolfenstein 3 announced",
+  "url": "https://www.gematsu.com/2026/11/wolfenstein-3-announced",
+  "ngay": "2026-11-13T07:07:59+07:00",
+  "the_loai": [
+   "Industry",
+   "Bethesda Softworks",
+   "FPS",
+   "Game Announce",
+   "MachineGames",
+   "Shooter",
+   "Wolfenstein 3"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Bethesda Softworks and developer MachineGames have announced Wolfenstein 3. The news comes as part …",
+  "goi_y_ps": false
  }
 ]
