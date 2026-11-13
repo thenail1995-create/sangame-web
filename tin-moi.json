@@ -1,45 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "'PlayStation Exclusive' Branding Added to Tentpole PS5 Games as Sony Doubles Down",
-  "url": "https://www.pushsquare.com/news/2026/11/playstation-exclusive-branding-added-to-tentpole-ps5-games-as-sony-doubles-down",
-  "ngay": "2026-11-07T22:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Only on PS5. For a period of the PS5 generation, Sony ported its games to the PC, rendering very few of its titles genuine exclusives. In the last year and a bit it’s made an internal decision to focus solely on exclusivity , and it’s slowly beginning to promote that again. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-08T01:20:49+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Feature: Going Platinum: For About Two Months, I Was a Devout Member of the Cult of the Lamb",
-  "url": "https://www.pushsquare.com/features/going-platinum-for-about-two-months-i-was-a-devout-member-of-the-cult-of-the-lamb",
-  "ngay": "2026-11-08T03:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "No need to be sheepish about it. Platinum Trophy #40: Cult of the Lamb Date Earned: 11th October 2022 Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-08T04:20:49+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Sony Indefinitely Delays Another PS5 Peripheral Days Before Release",
-  "url": "https://www.pushsquare.com/news/2026/11/sony-indefinitely-delays-another-ps5-peripheral-days-before-release",
-  "ngay": "2026-11-08T07:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Desktop speakers switched off for now. Sony has indefinitely delayed the PS5’s official Pulse Elevate desktop speakers, which were originally due to deploy days from now, on 12th November. In a brief update on the PS Blog , the manufacturer said that it had “identified a production issue with the product and have made the decision to delay the launch”. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-08T07:20:51+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "God of War Spin-Off Game Seemingly Getting Surprise PS4 Port",
   "url": "https://www.pushsquare.com/news/2026/11/god-of-war-spin-off-game-seemingly-getting-surprise-ps4-port",
   "ngay": "2026-11-08T20:30:00+07:00",
@@ -3652,6 +3613,68 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Atari publishing label Infogrames and developers Graphite Labs and Implicit Conversions have announced Lucky Luke: …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Grand Theft Auto VI in-game animated series ‘Macca & Friends’ teaser trailer",
+  "url": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-in-game-animated-series-macca-friends-teaser-trailer",
+  "ngay": "2026-11-13T21:29:24+07:00",
+  "the_loai": [
+   "PS5",
+   "Xbox Series",
+   "Clips",
+   "Grand Theft Auto VI",
+   "Rockstar Games",
+   "Rockstar North",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Rockstar Games has released a teaser trailer for Macca & Friends, an animated series featured …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Forest Escape: Last Train coming to PS5, new location revealed",
+  "url": "https://www.gematsu.com/2026/11/forest-escape-last-train-coming-to-ps5-new-location-revealed",
+  "ngay": "2026-11-13T21:22:28+07:00",
+  "the_loai": [
+   "PS5",
+   "Clips",
+   "Forest Escape: Last Train",
+   "Frag Lab",
+   "Horror",
+   "Trailers",
+   "Two Cakes Studio"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Two Cakes Studio and developer Frag Lab will release a PlayStation 5 version of …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS Store Drops Free GTA-Inspired PS5 Game",
+  "url": "https://www.playstationlifestyle.net/2026/11/13/free-gta-like-ps5-game-qutas-67-ps-store",
+  "ngay": "2026-11-13T21:30:00+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "PlayStation Store",
+   "PS Store",
+   "QubicGames",
+   "QUTAS67",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "The PlayStation Store has dropped a free PS5 game that’s evidently inspired by Grand Theft Auto VI, if its artwork and content are any indication. Published by QubicGames, which is known for dropping freebies for PS5 and PS4 players, “QUTAS67 – Qubic Ultimate Tap Adventure Simulator 2067” has you running a criminal empire. Free PS5 […] The post PS Store Drops Free GTA-Inspired PS5 Game appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
