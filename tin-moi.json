@@ -1,53 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Grand Theft Auto VI: The Festival live event set for November 21",
-  "url": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-the-festival-live-event-set-for-november-21",
-  "ngay": "2026-11-09T21:10:13+07:00",
-  "the_loai": [
-   "PS5",
-   "Xbox Series",
-   "Grand Theft Auto VI",
-   "Rockstar Games",
-   "Rockstar North",
-   "SIE",
-   "SIEA"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Rockstar Games and Sony Interactive Entertainment will host “Grand Theft Auto VI: The Festival,” a …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-10T04:50:51+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Atelier Karia: The Night Kingdom & the Guide of Memories ‘Story’ trailer, digital pre-orders now available",
-  "url": "https://www.gematsu.com/2026/11/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer-digital-pre-orders-now-available",
-  "ngay": "2026-11-09T20:00:03+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Atelier (series)",
-   "Atelier Karia: The Night Kingdom & the Guide of Memories",
-   "Clips",
-   "Gust",
-   "Koei Tecmo",
-   "Pre-Orders",
-   "RPG",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Koei Tecmo and developer Gust have released the story trailer and opened digital pre-orders …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-10T08:01:24+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Capcom Platinum Titles sales update – as of September 30, 2026",
   "url": "https://www.gematsu.com/2026/11/capcom-platinum-titles-sales-update-as-of-september-30-2026",
   "ngay": "2026-11-09T19:30:16+07:00",
@@ -3670,6 +3623,48 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "PS5 players looking for an old-school sci-fi horror experience can now check out a game The post Relentless PS5 Shooter Game Is Out Today on PlayStation Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Vindictus: Defying Fate ‘Let the Righteous Judge’ cinematic trailer",
+  "url": "https://www.gematsu.com/2026/11/vindictus-defying-fate-let-the-righteous-judge-cinematic-trailer",
+  "ngay": "2026-11-14T01:05:39+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Clips",
+   "Nexon",
+   "RPG",
+   "Trailers",
+   "Vindictus: Defying Fate"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "NEXON has released a new cinematic trailer for medieval fantasy action RPG Vindictus: Defying Fate, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Sturmjager ‘Co-Op’ trailer",
+  "url": "https://www.gematsu.com/2026/11/sturmjager-co-op-trailer",
+  "ngay": "2026-11-14T01:00:35+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Xbox Series",
+   "Byteproduct",
+   "Clips",
+   "Shmup",
+   "Sturmjager",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Byteproduct has released a new trailer for science-fiction shoot ’em up Sturmjager introducing the game’s …",
   "goi_y_ps": false
  }
 ]
