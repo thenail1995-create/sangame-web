@@ -80,7 +80,8 @@
    "urn:uuid:dc73a8dc-1979-49e2-ab98-cdaf930e9c87",
    "urn:uuid:d928debb-6cf9-4d62-9305-b6a57fb8fa1b",
    "urn:uuid:720b995e-fc56-4f35-9660-048e6425d53b",
-   "urn:uuid:916c0c5b-0e29-4b92-b095-b3a4a28cf1c9"
+   "urn:uuid:916c0c5b-0e29-4b92-b095-b3a4a28cf1c9",
+   "urn:uuid:67eec918-e03c-462a-b872-c726d4cbed1a"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -99,8 +100,6 @@
    "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1084800",
-   "https://www.gematsu.com/?p=1084795",
    "https://www.gematsu.com/?p=1084813",
    "https://www.gematsu.com/?p=1084369",
    "https://www.gematsu.com/?p=1084843",
@@ -398,10 +397,11 @@
    "https://www.gematsu.com/?p=1088000",
    "https://www.gematsu.com/?p=1088228",
    "https://www.gematsu.com/?p=1088236",
-   "https://www.gematsu.com/?p=1088240"
+   "https://www.gematsu.com/?p=1088240",
+   "https://www.gematsu.com/?p=1088011",
+   "https://www.gematsu.com/?p=1088256"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-207868",
    "https://www.pushsquare.com/#article-207869",
    "https://www.pushsquare.com/#article-207861",
    "https://www.pushsquare.com/#article-207817",
@@ -700,7 +700,8 @@
    "https://www.pushsquare.com/#article-209058",
    "https://www.pushsquare.com/#article-209061",
    "https://www.pushsquare.com/#article-209064",
-   "https://www.pushsquare.com/#article-209086"
+   "https://www.pushsquare.com/#article-209086",
+   "https://www.pushsquare.com/#article-208960"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -1032,5 +1033,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-13T18:01:28+07:00"
+ "lan_goi_viet": "2026-11-13T21:10:54+07:00"
 }
