@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Hozy brings calm, tactile home restoration to PS5 on November 9",
-  "url": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/",
-  "ngay": "2026-11-07T00:00:12+07:00",
-  "the_loai": [
-   "PS5",
-   "Hozy",
-   "Tinybuild"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-07T00:20:48+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "New Ratchet & Clank Game Canceled Prior to Release",
   "url": "https://www.playstationlifestyle.net/2026/11/06/ratchet-and-clank-ranger-rumble-shutdown-date",
@@ -3629,5 +3614,17 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "K-pop Royalty Recruited for PlayStation Korea's Glitzy GTA 6 Ad",
+  "url": "https://www.pushsquare.com/news/2026/11/k-pop-royalty-recruited-for-playstation-koreas-glitzy-gta-6-ad",
+  "ngay": "2026-11-13T20:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "The wait is over. One thing I always appreciate about PlayStation is its ability to appeal to localised audiences, despite its message being unified globally. The company’s current marketing strategy revolves around GTA 6 , and it’s using the slogan ‘ Plays Best on PS5 ’. But it’s promoting this in a variety of ways around the world. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
