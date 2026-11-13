@@ -971,7 +971,8 @@
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3myjvjkmbos2i",
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mywjt7cjck2g",
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3myyzqsbijk24",
-   "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n24ai42ei22p"
+   "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n24ai42ei22p",
+   "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n26mkxrqic2a"
   ]
  },
  "deals_ds": {
@@ -982,12 +983,12 @@
    5701,
    5701,
    5701,
-   5701,
    5703,
    5703,
    5703,
    5703,
-   5703
+   5703,
+   5704
   ],
   "en-SG": [
    3540,
@@ -1001,7 +1002,7 @@
    3540,
    3540,
    3540,
-   3540
+   3541
   ]
  },
  "extra_ds": {
