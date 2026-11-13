@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "GTA 6: The Festival Is a One-Off Live Music Event, Partly Presented By PlayStation",
-  "url": "https://www.pushsquare.com/news/2026/11/gta-6-the-festival-is-a-one-off-live-music-event-partly-presented-by-playstation",
-  "ngay": "2026-11-09T21:30:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Held in Miami of course. Rockstar Games has announced GTA 6 : The Festival, a special live music event being held to celebrate the launch of the open world action game. Presented in partnership with PlayStation, the one-off event takes place in Miami, Florida on 21st November, 2026. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-09T22:31:14+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Sony Subsidiary Aniplex Ignores PS5 with Yet Another Game",
   "url": "https://www.pushsquare.com/news/2026/11/sony-subsidiary-aniplex-ignores-ps5-with-yet-another-game",
   "ngay": "2026-11-09T22:00:00+07:00",
@@ -3674,5 +3661,17 @@
   "da_viet": false,
   "tom_tat": "PlayStation 5 is getting a new tactical RPG in 2027. The post Ambitious PS5 Tactical RPG Sets Release Window appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Star Wars: Galactic Racer Reaches 1.5 Million Players, Teases Future Updates",
+  "url": "https://www.pushsquare.com/news/2026/11/star-wars-galactic-racer-reaches-1-5-million-players-teases-future-updates",
+  "ngay": "2026-11-14T02:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Better scrib this doon. Developer Fuse Games has announced its debut title, the brilliant Star Wars: Galactic Racer , has amassed 1.5 million players. The news comes via a recent social post, featuring the one and only Biddy Blas himself: Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
