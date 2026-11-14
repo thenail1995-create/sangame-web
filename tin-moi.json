@@ -1,25 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Beholder IV announced for PC",
-  "url": "https://www.gematsu.com/2026/11/beholder-iv-announced-for-pc",
-  "ngay": "2026-11-10T01:16:10+07:00",
-  "the_loai": [
-   "PC",
-   "Alawar",
-   "Beholder IV",
-   "Clips",
-   "Game Announce",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Alawar has announced Beholder IV, the latest installment in its dystopian narrative series, as part …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Cozy life simulation game Wish Upon a Llama launches December 9 for PS5, Xbox Series, PS4, Xbox One, Switch, and PC",
   "url": "https://www.gematsu.com/2026/11/cozy-life-simulation-game-wish-upon-a-llama-launches-december-9-for-ps5-xbox-series-ps4-xbox-one-switch-and-pc",
   "ngay": "2026-11-10T01:05:04+07:00",
@@ -3655,5 +3636,24 @@
   "da_viet": false,
   "tom_tat": "New characters coming next month. Warhammer Survivors launched just a few days ago, and I think it's an absolutely fantastic take on the criminally addictive Vampire Survivors formula. Imagine my glee, then, to learn that developer Auroch Digital has big plans for the game going forward. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Super Meat Boy Again+ announced for PC",
+  "url": "https://www.gematsu.com/2026/11/super-meat-boy-again-announced-for-pc",
+  "ngay": "2026-11-14T11:36:04+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Game Announce",
+   "Super Meat Boy Again+",
+   "Team Meat",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Team Meat has announced Super Meat Boy Again+, a game described as “everything you remember …",
+  "goi_y_ps": false
  }
 ]
