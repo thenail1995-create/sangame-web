@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Warhammer 40,000: Dark Heresy launches January 28, 2027 for PS5, Xbox Series, and PC, later for Switch 2",
-  "url": "https://www.gematsu.com/2026/11/warhammer-40000-dark-heresy-launches-january-28-2027-for-ps5-xbox-series-and-pc-later-for-switch-2",
-  "ngay": "2026-11-09T23:13:25+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Clips",
-   "Owlcat Games",
-   "Release Dates",
-   "RPG",
-   "Trailers",
-   "Warhammer 40000: Dark Heresy"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Party-based, story-driven cRPG Warhammer 40,000: Dark Heresy will launch for PlayStation 5, Xbox Series, and …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-10T01:40:56+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Capcom Just Sold 5 Million Copies of Resident Evil Games in 3 Months",
   "url": "https://www.pushsquare.com/news/2026/11/capcom-just-sold-5-million-copies-of-resident-evil-games-in-3-months",
@@ -3666,5 +3642,25 @@
   "da_viet": false,
   "tom_tat": "Making light work of it. A potentially problematic manufacturing oversight may be resulting in some GTA 6 codes being stolen from retail PS5 cases. Some reports claim that by pointing a strong flashlight at the side of the case, it’s possible to shine light into the empty Blu-ray box in such a way that it makes the code printed on the insert visible. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Girls und Panzer Hakunetsu! Mahjong Tag Battle Desu! announced for PS5, Switch 2",
+  "url": "https://www.gematsu.com/2026/11/girls-und-panzer-hakunetsu-mahjong-tag-battle-desu-announced-for-ps5-switch-2",
+  "ngay": "2026-11-14T08:57:41+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch 2",
+   "Clips",
+   "Game Announce",
+   "Girls und Panzer Hakunetsu! Mahjong Tag Battle Desu!",
+   "MAGES.",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "MAGES. has announced Girls und Panzer Hakunetsu! Mahjong Tag Battle Desu! for PlayStation 5 and …",
+  "goi_y_ps": false
  }
 ]
