@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "NIGHTMARE OPERATOR to be published by Shueisha Games",
-  "url": "https://www.gematsu.com/2026/11/nightmare-operator-to-be-published-by-shueisha-games",
-  "ngay": "2026-11-10T16:00:02+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "DDDistortion",
-   "Horror",
-   "NIGHTMARE OPERATOR",
-   "Screenshots",
-   "Shooter",
-   "Shueisha Games",
-   "TPS",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Shueisha Games will publish DDDistortion-developed third-person action horror shooter NIGHTMARE OPERATOR when it launches for PC …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Konami’s Most Popular 2024 Game Finally Fixes PS5 Pro Issues",
   "url": "https://www.playstationlifestyle.net/2026/11/10/silent-hill-2-ps5-pro-issues-fixed-november-10",
@@ -3634,5 +3611,30 @@
   "hot": true,
   "ly_do_hot": "số món giảm giá tăng 36% so với đỉnh 12 lần gần nhất",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Dragon Ball FighterZ balance update announced",
+  "url": "https://www.gematsu.com/2026/11/dragon-ball-fighterz-balance-update-announced",
+  "ngay": "2026-11-15T22:15:02+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Xbox One",
+   "Xbox Series",
+   "Arc System Works",
+   "Bandai Namco",
+   "Clips",
+   "Dragon Ball FighterZ",
+   "Fighting Games",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Bandai Namco and developer Arc System Works will release a new balance update for …",
+  "goi_y_ps": false
  }
 ]
