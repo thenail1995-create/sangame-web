@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "PS5 Now the Only Console without a Digital Game Gifting Option",
-  "url": "https://www.pushsquare.com/news/2026/11/ps5-now-the-only-console-without-a-digital-game-gifting-option",
-  "ngay": "2026-11-10T16:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Nintendo does what Sony doesn't. If even a Nintendo platform has a digital storefront feature and you don't, then you truly are behind the times. The firm notoriously playing catch-up in this space has today confirmed the Nintendo eShop will be receiving the ability to gift digital games. The PS Store , which will eventually be the only place you can buy new PlayStation games, still doesn't allow it. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-10T15:50:51+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "NIGHTMARE OPERATOR to be published by Shueisha Games",
   "url": "https://www.gematsu.com/2026/11/nightmare-operator-to-be-published-by-shueisha-games",
@@ -3628,6 +3615,18 @@
   "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (3541 → 4811 món)",
   "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
   "ngay": "2026-11-15T22:01:25+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "số món giảm giá tăng 36% so với đỉnh 12 lần gần nhất",
+  "da_viet": false
+ },
+ {
+  "nguon": "PS Store",
+  "tieu_de": "PS Store (SG) vừa mở đợt giảm giá mới (4811 → 6562 món)",
+  "url": "https://store.playstation.com/en-sg/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
+  "ngay": "2026-11-15T22:10:51+07:00",
   "the_loai": [
    "PS Store"
   ],
