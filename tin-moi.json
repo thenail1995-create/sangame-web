@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Medabots Classics Plus coming to PC in December in Japan",
-  "url": "https://www.gematsu.com/2026/11/medabots-classics-plus-coming-to-pc-in-december-in-japan",
-  "ngay": "2026-11-10T09:32:20+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Imagineer",
-   "Medabots Classics Plus",
-   "Release Dates",
-   "SUCCESS Corporation",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Imagineer and developer SUCCESS Corporation will release Medabots Classics Plus for PC via Steam …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Bandai Namco to shut down Reflector Entertainment",
   "url": "https://www.gematsu.com/2026/11/bandai-namco-to-shut-down-reflector-entertainment",
   "ngay": "2026-11-10T11:55:13+07:00",
@@ -3646,5 +3626,17 @@
   "tom_tat": "The usual asterisk applies. Sony has revealed its PS Plus membership at all three tiers will be going on sale from tomorrow, 16th November, for two weeks. However, if you've been paying attention to how Sony handles this promotion in the last few years, then you will already know what's coming: the discounted prices only apply to new sign-ups; current members won't have access to them. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-15T19:20:47+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PlayStation Black Friday Sale Knocks Up to $100 Off PS5 Accessories, PSVR2",
+  "url": "https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-knocks-up-to-usd100-off-ps5-accessories-psvr2",
+  "ngay": "2026-11-15T20:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'sale'",
+  "da_viet": false,
+  "tom_tat": "But no PS5 consoles included. Alongside its ongoing PS Store Black Friday sale and a new PS Plus promotion that goes live tomorrow, Sony has also detailed the range of discounts it'll apply to PS5 accessories from 16th November 2026. Here are the discounts Sony is offering on PlayStation Direct and at participating retailers: Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
