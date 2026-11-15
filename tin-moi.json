@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Mini Review: Warhammer Survivors (PS5) - Absurdly Addictive Crossover Is a Match Made in Bullet Hell",
-  "url": "https://www.pushsquare.com/reviews/ps5/warhammer-survivors",
-  "ngay": "2026-11-10T17:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "There is only more. Warhammer Survivors is exactly what its name suggests: a Warhammer reskin of Vampire Survivors . Developed by licensed Warhammer studio Auroch Digital, with Vampire Survivors creator poncle partnering on the project, it's a fantastic, heartfelt adaptation right out of the gate. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-10T18:50:52+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Dedicated PS5, PS5 Pro Patch Aims to Fix Silent Hill 2 Graphics Issues",
   "url": "https://www.pushsquare.com/news/2026/11/dedicated-ps5-ps5-pro-patch-aims-to-fix-silent-hill-2-graphics-issues",
   "ngay": "2026-11-10T18:00:00+07:00",
@@ -3637,5 +3624,25 @@
   "tom_tat": "Capcom has revealed Mega Man: Dual Override Boss Design Contest winner Cleanser Man, who will …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-16T05:10:54+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Netcode Warriors adds PS5 version, launches in 2027",
+  "url": "https://www.gematsu.com/2026/11/netcode-warriors-adds-ps5-version-launches-in-2027",
+  "ngay": "2026-11-16T05:00:36+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Clips",
+   "Fighting Games",
+   "Netcode Warriors",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Anime-inspired arena fighting game Netcode Warriors will launch for PlayStation 5 and PC via Steam …",
+  "goi_y_ps": false
  }
 ]
