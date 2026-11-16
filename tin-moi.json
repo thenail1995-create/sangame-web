@@ -1,53 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS Store Users Renew Demand for Gifting Feature After Nintendo",
-  "url": "https://www.playstationlifestyle.net/2026/11/10/fans-demand-ps-store-games-gifting-feature",
-  "ngay": "2026-11-10T20:30:00+07:00",
-  "the_loai": [
-   "News",
-   "PS4 News, Trophies, Reviews, and More",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "PlayStation Store",
-   "PS Store",
-   "Sony Interactive Entertainment",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "PlayStation players have renewed calls for a PS Store games gifting feature after Nintendo announced support for eShop gifting. In a surprise move, Nintendo confirmed that starting November 17, eShop users within the same Nintendo Account family group will be able to e-gift products to one another. PS Store now the only major platform without […] The post PS Store Users Renew Demand for Gifting Feature After Nintendo appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T11:20:50+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Acclaimed 2023 PS5 Adventure Game 80% Off on PS Store",
-  "url": "https://www.playstationlifestyle.net/2026/11/10/like-a-dragon-gaiden-ps-store-deal-november-2026",
-  "ngay": "2026-11-10T21:00:00+07:00",
-  "the_loai": [
-   "Deals",
-   "Deals and Picks",
-   "News",
-   "PS4 News, Trophies, Reviews, and More",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "Like a Dragon Gaiden: The Man Who Erased His Name",
-   "PlayStation Store",
-   "PS Store",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A fan favorite 2023 PS5 and PS4 action-adventure game is 80% off on the PS Store in a new limited-time deal. Ryu Ga Gotoku Studio’s Like a Dragon Gaiden: The Man Who Erased His Name is at its lowest price in the ongoing promotion. Like a Dragon Gaiden: The Man Who Erased His Name is […] The post Acclaimed 2023 PS5 Adventure Game 80% Off on PS Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T08:10:49+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Marathon Symbiosis update launches December 8, adding new PvE and PvP modes, weapons, and more",
   "url": "https://blog.playstation.com/2026/11/10/marathon-symbiosis-update-launches-december-8-adding-new-pve-and-pvp-modes-weapons-and-more/",
@@ -3682,5 +3634,38 @@
   "tom_tat": "Publisher Oro Interactive and developer Mike Klubnika will release violent party game collection Machine Party …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-16T22:10:59+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Book Nook launches December 1 for PC, later for Switch",
+  "url": "https://www.gematsu.com/2026/11/book-nook-launches-december-1-for-pc-later-for-switch",
+  "ngay": "2026-11-16T22:37:09+07:00",
+  "the_loai": [
+   "PC",
+   "Switch",
+   "Book Nook",
+   "Clips",
+   "Malapata Studio",
+   "Release Dates",
+   "Trailers",
+   "WINGS"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Cozy diorama crafting game Book Nook will launch for PC via Steam on December 1, …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Rumour: Persona 6 Blowout Primed for The Game Awards",
+  "url": "https://www.pushsquare.com/news/2026/11/rumour-persona-6-blowout-primed-for-the-game-awards",
+  "ngay": "2026-11-16T22:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Green for go. There's reason to believe that we'll get our first proper look Persona 6 next month, during The Game Awards. This rumour stems from Reddit user ronakwya , who has, rather diligently, been keeping tabs on the game's Japanese website. The idea being that if the domain receives any backend updates, it could mean that an announcement is incoming. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
