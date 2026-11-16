@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Pre-load Grand Theft Auto VI on PS5 starting today",
-  "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
-  "ngay": "2026-11-10T22:41:17+07:00",
-  "the_loai": [
-   "PS5",
-   "Grand Theft Auto VI",
-   "Rockstar Games",
-   "Take-Two Interactive"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-11T01:10:51+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Teenage Mutant Ninja Turtles: Splintered Fate ‘Shell Squad Co-Op Update’ now available",
   "url": "https://www.gematsu.com/2026/11/teenage-mutant-ninja-turtles-splintered-fate-shell-squad-co-op-update-now-available",
@@ -3656,6 +3640,18 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Play with your Biddies. While Star Wars: Galactic Racer is an excellent arcade racing game in many respects, it did launch with a few missing features that left some speed freaks a little disappointed. However, it seems developer Fuse Games is keen to address those concerns, as it's just announced a couple of much-requested modes are officially in the works. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Play 4 Hours of the Fantastic Control Resonant on PS Plus Premium",
+  "url": "https://www.pushsquare.com/news/2026/11/play-4-hours-of-the-fantastic-control-resonant-on-ps-plus-premium",
+  "ngay": "2026-11-17T04:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS Plus'",
+  "da_viet": false,
+  "tom_tat": "Part of your top tier subscription. Remedy has made the first four hours of Control Resonant playable through PS Plus Premium , in a new Game Trial that is on the service. It's available now and well worth checking out if you've not already played the game. Experiencing the opening four hours of the title will give you a very good idea of what to expect from the entire campaign. You'll make it to the open zone structure and begin exploring, fight the Hiss, and be teased by some of the game's more unique elements. Read the full article on pushsquare.com",
   "goi_y_ps": true
  }
 ]
