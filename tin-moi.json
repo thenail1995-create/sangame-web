@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "This Might Be the Best Game You Didn't Know Was Out on PS5",
-  "url": "https://www.pushsquare.com/news/2026/11/this-might-be-the-best-game-you-didnt-know-was-out-on-ps5",
-  "ngay": "2026-11-10T21:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Special delivery. How the hell am I only learning about Tanuki: Pon's Summer now? It's out today on PS5 for $19.99 / £15.99 / €19.99. Somehow, this is a game that we've never covered — despite the fact that it looks bloody brilliant. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T08:10:49+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "The Falconeer: Revolution Remaster coming to PS5, Xbox Series on December 2",
   "url": "https://www.gematsu.com/2026/11/the-falconeer-revolution-remaster-coming-to-ps5-xbox-series-on-december-2",
@@ -3669,5 +3656,17 @@
   "da_viet": false,
   "tom_tat": "A remake of Square Enix's most iconic RPG, Final Fantasy VII, can be bought for less than $15 on the PlayStation Store. The post Iconic PS5 RPG Remake Is 80% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Subscription Will Include NBA 2K27 for Free on PS5",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-subscription-will-include-nba-2k27-for-free-on-ps5",
+  "ngay": "2026-11-16T23:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "One month of GTA+ bundled into GTA 6 pre-orders. If you've pre-ordered GTA 6 , did you take note of what bonuses you got with that? A one-month membership to GTA+ , a subscription service from Rockstar, is bundled with all GTA 6 pre-orders, and that offer gets even better next week. From 27th November 2026 until 15th January 2027, basketball simulator NBA 2K27 will be added to GTA+, providing a fully playable version of the standard edition. This is just like PS Plus Extra , except it's specific to games developed by Rockstar and participating publishers, like 2K. Read the full article on push…",
+  "goi_y_ps": true
  }
 ]
