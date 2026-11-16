@@ -1,26 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Dragon Quest RPG: The Cursed Tree and the Chosen Isle unveiled",
-  "url": "https://www.gematsu.com/2026/11/dragon-quest-rpg-the-cursed-tree-and-the-chosen-isle-unveiled",
-  "ngay": "2026-11-10T18:00:11+07:00",
-  "the_loai": [
-   "Smartphone",
-   "Clips",
-   "Dragon Quest (series)",
-   "Dragon Quest RPG: The Cursed Tree and the Chosen Isle",
-   "RPG",
-   "Square Enix",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Square Enix and developer WFS have officially unveiled Dragon Quest RPG: The Cursed Tree …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Winter Whiskers launches December 9",
   "url": "https://www.gematsu.com/2026/11/winter-whiskers-launches-december-9",
   "ngay": "2026-11-10T17:45:50+07:00",
@@ -3651,6 +3631,26 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Platform fighting game Rivals of Aether II will add Burnette, “The Scorched Shield,” as its …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "This Week’s Japanese Game Releases: Grand Theft Auto VI, more",
+  "url": "https://www.gematsu.com/2026/11/this-weeks-japanese-game-releases-grand-theft-auto-vi-more",
+  "ngay": "2026-11-16T10:09:20+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Weekly Japanese Game Releases"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Grand Theft Auto VI for PlayStation 5 and Xbox Series is the highlight of this …",
   "goi_y_ps": false
  }
 ]
