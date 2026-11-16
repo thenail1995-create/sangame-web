@@ -1,25 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Winter Whiskers launches December 9",
-  "url": "https://www.gematsu.com/2026/11/winter-whiskers-launches-december-9",
-  "ngay": "2026-11-10T17:45:50+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Mango Leaf Games",
-   "Release Dates",
-   "Trailers",
-   "Winter Whiskers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Winter Whiskers, a “simple cleaning sim that turns the chore of snow-clearing into a relaxing …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Ravenswatch – Nintendo Switch 2 Edition launches December 10 worldwide, December 18 in North America",
   "url": "https://www.gematsu.com/2026/11/ravenswatch-nintendo-switch-2-edition-launches-december-10-worldwide-december-18-in-north-america",
   "ngay": "2026-11-10T16:15:30+07:00",
@@ -3652,5 +3633,17 @@
   "da_viet": false,
   "tom_tat": "Grand Theft Auto VI for PlayStation 5 and Xbox Series is the highlight of this …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Store",
+  "tieu_de": "PS Store (US) vừa mở đợt giảm giá mới (6021 → 10000 món)",
+  "url": "https://store.playstation.com/en-us/category/3f772501-f6f8-49b7-abac-874a88ca4897/1",
+  "ngay": "2026-11-16T15:10:53+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "số món giảm giá tăng 66% so với đỉnh 12 lần gần nhất",
+  "da_viet": false
  }
 ]
