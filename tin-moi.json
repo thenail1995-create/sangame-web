@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "The Falconeer: Revolution Remaster coming to PS5, Xbox Series on December 2",
-  "url": "https://www.gematsu.com/2026/11/the-falconeer-revolution-remaster-coming-to-ps5-xbox-series-on-december-2",
-  "ngay": "2026-11-10T21:17:30+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Release Dates",
-   "RPG",
-   "The Falconeer: Revolution Remaster",
-   "Tomas Sala",
-   "Trailers",
-   "Wired Productions"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Wired Productions and developer Tomas Sala will release aerial combat RPG remaster The Falconeer: …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T08:10:49+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "GTA 6 PS5 Pro Features Revealed, 30fps Target on Both Consoles",
   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-pro-features-revealed-30fps-target-on-both-consoles",
@@ -3668,5 +3644,25 @@
   "da_viet": false,
   "tom_tat": "One month of GTA+ bundled into GTA 6 pre-orders. If you've pre-ordered GTA 6 , did you take note of what bonuses you got with that? A one-month membership to GTA+ , a subscription service from Rockstar, is bundled with all GTA 6 pre-orders, and that offer gets even better next week. From 27th November 2026 until 15th January 2027, basketball simulator NBA 2K27 will be added to GTA+, providing a fully playable version of the standard edition. This is just like PS Plus Extra , except it's specific to games developed by Rockstar and participating publishers, like 2K. Read the full article on push…",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Star Wars: Galactic Racer to add split-screen-supported ‘Free Play’ mode in early 2027",
+  "url": "https://www.gematsu.com/2026/11/star-wars-galactic-racer-to-add-split-screen-supported-free-play-mode-in-early-2027",
+  "ngay": "2026-11-17T00:00:37+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Fuse Games",
+   "Racing Games",
+   "Secret Mode",
+   "Star Wars: Galactic Racer"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "Publisher Secret Mode and developer Fuse Games will release a split-screen multiplayer-supported “Free Play” mode …",
+  "goi_y_ps": false
  }
 ]
