@@ -1,31 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Teenage Mutant Ninja Turtles: Splintered Fate ‘Shell Squad Co-Op Update’ now available",
-  "url": "https://www.gematsu.com/2026/11/teenage-mutant-ninja-turtles-splintered-fate-shell-squad-co-op-update-now-available",
-  "ngay": "2026-11-10T23:00:18+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox One",
-   "Xbox Series",
-   "Clips",
-   "Screenshots",
-   "Super Evil Megacorp",
-   "Teenage Mutant Ninja Turtles: Splintered Fate",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Super Evil Megacorp has released the “Shell Squad Co-Op Update” for Teenage Mutant Ninja Turtles: …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T19:40:57+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Beloved Co-Op Adventure Big Walk in Hot Water After Failing to Disclose AI Usage",
   "url": "https://www.pushsquare.com/news/2026/11/beloved-co-op-adventure-big-walk-in-hot-water-after-failing-to-disclose-ai-usage",
@@ -3653,5 +3627,25 @@
   "da_viet": false,
   "tom_tat": "Part of your top tier subscription. Remedy has made the first four hours of Control Resonant playable through PS Plus Premium , in a new Game Trial that is on the service. It's available now and well worth checking out if you've not already played the game. Experiencing the opening four hours of the title will give you a very good idea of what to expect from the entire campaign. You'll make it to the open zone structure and begin exploring, fight the Hiss, and be teased by some of the game's more unique elements. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "SEGA’s PS5 Open-World Reboot Reveals India Map",
+  "url": "https://www.playstationlifestyle.net/2026/11/16/crazy-taxi-world-tour-india-map-reveal",
+  "ngay": "2026-11-17T04:08:45+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Crazy Taxi: World Tour",
+   "Entertainment and Gaming",
+   "PS5",
+   "Sega",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "SEGA‘s highly anticipated PS5 reboot has received an Indian map. The announcement also includes a one-minute trailer teasing the locations and environments that players can explore in the upcoming taxi adventure. Crazy Taxi: World Tour will include India at launch, completing the lineup of global destinations in the forthcoming reboot. The map will be the […] The post SEGA’s PS5 Open-World Reboot Reveals India Map appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
