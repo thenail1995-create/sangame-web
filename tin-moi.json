@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Persona 4 Revival Wasn't Meant to Be Part of Packed February 2027 Release Schedule",
-  "url": "https://www.pushsquare.com/news/2026/11/persona-4-revival-wasnt-meant-to-be-part-of-packed-february-2027-release-schedule",
-  "ngay": "2026-11-10T20:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Originally a summer 2026 launch. Persona 4 Revival was initially designed to launch for PS5 in the late summer months of this year, not the very crowded February 2027 release calendar it's now found itself in. In an interview with 3DMGAME , chief producer Kazuhisa Wada shared the original plan was to launch the remake \"as early as possible — we originally planned to release it about six months earlier, which would have been just in time for summer, but we ultimately couldn't make it that way\". Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-12T11:20:50+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Intriguing Warhammer PS5 RPG Gets Release Date, Out Soon",
   "url": "https://www.playstationlifestyle.net/2026/11/10/ps5-rpg-warhammer-40k-dark-heresy-release-date",
@@ -3662,6 +3649,32 @@
   "ly_do_hot": "có từ khoá 'price'",
   "da_viet": false,
   "tom_tat": "The biggest and most popular Xbox Game Studios RPG is half price on the PS5 for the first time in PS Store Black Friday deal. Bethesda’s Starfield is at its lowest price until December 1, and this is a great time to give it a chance. Bethesda RPG Starfield is just $24.99 in new PS […] The post Biggest Xbox RPG on PS5 Is Half Price on PS Store, Lowest Price appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "DAVE THE DIVER x Core Keeper crossover updates announced",
+  "url": "https://www.gematsu.com/2026/11/dave-the-diver-x-core-keeper-crossover-updates-announced",
+  "ngay": "2026-11-16T21:46:13+07:00",
+  "the_loai": [
+   "PC",
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox One",
+   "Xbox Series",
+   "Core Keeper",
+   "DAVE THE DIVER",
+   "Fireshine Games",
+   "MINTROCKET",
+   "Pugstorm",
+   "Screenshots"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "MINTROCKET, Pugstorm, and Fireshine Games have announced a two-way crossover for both DAVE THE DIVER …",
   "goi_y_ps": false
  }
 ]
