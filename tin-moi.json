@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "2D action platformer isekizima: Ruins and Tails Journey launches January 19, 2027 for PC, later for Switch",
-  "url": "https://www.gematsu.com/2026/11/2d-action-platformer-isekizima-ruins-and-tails-journey-launches-january-19-2027-for-pc-later-for-switch",
-  "ngay": "2026-11-10T21:50:17+07:00",
-  "the_loai": [
-   "PC",
-   "Switch",
-   "Clips",
-   "isekizima: Ruins and Tails Journey",
-   "Release Dates",
-   "Screenshots",
-   "TamagawaSoft",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "2D action platformer isekizima: Ruins and Tails Journey will launch for PC via Steam on …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Unknown 9 Dev Being Shut Down Two Years After Disaster PS5 Launch",
   "url": "https://www.pushsquare.com/news/2026/11/unknown-9-dev-being-shut-down-two-years-after-disaster-ps5-launch",
@@ -3595,7 +3574,8 @@
   "ly_do_hot": "có từ khoá 'Final Fantasy'",
   "da_viet": false,
   "tom_tat": "A remake of Square Enix's most iconic RPG, Final Fantasy VII, can be bought for less than $15 on the PlayStation Store. The post Iconic PS5 RPG Remake Is 80% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-17T01:21:00+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3607,7 +3587,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "One month of GTA+ bundled into GTA 6 pre-orders. If you've pre-ordered GTA 6 , did you take note of what bonuses you got with that? A one-month membership to GTA+ , a subscription service from Rockstar, is bundled with all GTA 6 pre-orders, and that offer gets even better next week. From 27th November 2026 until 15th January 2027, basketball simulator NBA 2K27 will be added to GTA+, providing a fully playable version of the standard edition. This is just like PS Plus Extra , except it's specific to games developed by Rockstar and participating publishers, like 2K. Read the full article on push…",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-17T01:21:00+07:00"
  },
  {
   "nguon": "Gematsu",
@@ -3627,7 +3608,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "Publisher Secret Mode and developer Fuse Games will release a split-screen multiplayer-supported “Free Play” mode …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-17T01:21:00+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3639,7 +3621,8 @@
   "ly_do_hot": "có từ khoá 'price'",
   "da_viet": false,
   "tom_tat": "Snikt. Sony has reduced the price on its biggest first-party game of 2026, Marvel's Wolverine , as part of its Black Friday offerings. The superhero action title typically retails for $69.99/£69.99 on PS Store, but the digital version of the game has had a decent percentage slashed away. Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-17T01:21:00+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3652,5 +3635,29 @@
   "da_viet": false,
   "tom_tat": "Do you agree? The nominees for the 2027 Grammy Awards were recently announced, and of particular interest to gamers will be the shortlist for Best Score Soundtrack For Video Games and Other Interactive Media. Five games, released between 31 August, 2025 and 28th August, 2026, are in contention, and two of them come from Sony's first-party efforts. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Crazy Taxi: World Tour ‘Welcome to India’ trailer, screenshots",
+  "url": "https://www.gematsu.com/2026/11/crazy-taxi-world-tour-welcome-to-india-trailer-screenshots",
+  "ngay": "2026-11-17T01:12:16+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Crazy Taxi: World Tour",
+   "Racing Games",
+   "Screenshots",
+   "SEGA",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "SEGA has released a new trailer and screenshots for Crazy Taxi: World Tour showcasing the …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-17T01:21:00+07:00"
  }
 ]
