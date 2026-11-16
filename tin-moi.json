@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Ravenswatch – Nintendo Switch 2 Edition launches December 10 worldwide, December 18 in North America",
-  "url": "https://www.gematsu.com/2026/11/ravenswatch-nintendo-switch-2-edition-launches-december-10-worldwide-december-18-in-north-america",
-  "ngay": "2026-11-10T16:15:30+07:00",
-  "the_loai": [
-   "Switch 2",
-   "Clips",
-   "Nacon",
-   "Passtech Games",
-   "Ravenswatch",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Cooperative roguelike action game Ravenswatch – Nintendo Switch 2 Edition will launch on December 18 …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Guide: Cyberpunk 2077: Best Mods on PS5",
   "url": "https://www.pushsquare.com/guides/cyberpunk-2077-best-mods-on-ps5",
@@ -3645,5 +3625,18 @@
   "hot": true,
   "ly_do_hot": "số món giảm giá tăng 66% so với đỉnh 12 lần gần nhất",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Mega Man: Dual Override's Boss Design Contest Winner Has Been Decided",
+  "url": "https://www.pushsquare.com/news/2026/11/mega-man-dual-overrides-boss-design-contest-winner-has-been-decided",
+  "ngay": "2026-11-16T19:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Clean sweep. Publisher Capcom has revealed the winning robot master in its design competition for Mega Man: Dual Override . From a shortlist of six finalist designs, the development team chose Cleanser Man as the winner, and it has been made into one of the action platformer's eight boss characters. Read the full article on pushsquare.com",
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-16T19:10:54+07:00"
  }
 ]
