@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Marathon Symbiosis update launches December 8, adding new PvE and PvP modes, weapons, and more",
-  "url": "https://blog.playstation.com/2026/11/10/marathon-symbiosis-update-launches-december-8-adding-new-pve-and-pvp-modes-weapons-and-more/",
-  "ngay": "2026-11-10T21:00:13+07:00",
-  "the_loai": [
-   "PS5",
-   "Bungie",
-   "Marathon"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-10T22:01:30+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Crystals of Irm delayed to January 21, 2027",
   "url": "https://www.gematsu.com/2026/11/crystals-of-irm-delayed-to-january-21-2027",
@@ -3667,5 +3652,26 @@
   "da_viet": false,
   "tom_tat": "Green for go. There's reason to believe that we'll get our first proper look Persona 6 next month, during The Game Awards. This rumour stems from Reddit user ronakwya , who has, rather diligently, been keeping tabs on the game's Japanese website. The idea being that if the domain receives any backend updates, it could mean that an announcement is incoming. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Bad House launches January 11, 2027",
+  "url": "https://www.gematsu.com/2026/11/bad-house-launches-january-11-2027",
+  "ngay": "2026-11-16T23:09:38+07:00",
+  "the_loai": [
+   "PC",
+   "Andrew Morrish",
+   "Bad House",
+   "Clips",
+   "Dotemu",
+   "Horror",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Auto-battler dungeon crawler Bad House will launch for PC via Steam on January 11, publisher …",
+  "goi_y_ps": false
  }
 ]
