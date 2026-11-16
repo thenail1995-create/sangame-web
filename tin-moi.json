@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Beloved Co-Op Adventure Big Walk in Hot Water After Failing to Disclose AI Usage",
-  "url": "https://www.pushsquare.com/news/2026/11/beloved-co-op-adventure-big-walk-in-hot-water-after-failing-to-disclose-ai-usage",
-  "ngay": "2026-11-10T23:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Walk of shame. Big Walk , one of the most highly-rated games of 2026, has suddenly found itself in a spot of bother, and it's all thanks to those controversial AI tools. This story stems from the Independent Games Festival Awards (IGF); some of the jurors have taken a hard stance against usage of generative AI or LLM technology. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-12T05:01:25+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS5 Fantasy Adventure Remaster Sets Release Date & Trailer",
   "url": "https://www.playstationlifestyle.net/2026/11/10/the-falconeer-revolution-remaster-ps5-release-date",
@@ -3652,5 +3639,27 @@
   "tom_tat": "SEGA‘s highly anticipated PS5 reboot has received an Indian map. The announcement also includes a one-minute trailer teasing the locations and environments that players can explore in the upcoming taxi adventure. Crazy Taxi: World Tour will include India at launch, completing the lineup of global destinations in the forthcoming reboot. The map will be the […] The post SEGA’s PS5 Open-World Reboot Reveals India Map appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-17T04:31:13+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Mercenaries Grace launches November 25 for PS5 in Japan, in December for Switch, and in early 2027 for PC",
+  "url": "https://www.gematsu.com/2026/11/mercenaries-grace-launches-november-25-for-ps5-in-japan-in-december-for-switch-and-in-early-2027-for-pc",
+  "ngay": "2026-11-17T05:19:34+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Clips",
+   "mercenaries grace",
+   "Release Dates",
+   "RideonJapan",
+   "RPG",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Strategy RPG Mercenaries Grace will launch for PlayStation 5 on November 25 in Japan for …",
+  "goi_y_ps": false
  }
 ]
