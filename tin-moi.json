@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "PlayStation Plus Game Catalog for November: Death Stranding 2: On the Beach, Like a Dragon: Pirate Yakuza in Hawaii, Atomfall, Dragon Quest III HD-2D  Remake and more",
-  "url": "https://blog.playstation.com/2026/11/10/playstation-plus-game-catalog-for-november-death-stranding-2-on-the-beach-like-a-dragon-pirate-yakuza-in-hawaii-atomfall-dragon-quest-iii-hd-2d-remake-and-more/",
-  "ngay": "2026-11-10T23:30:03+07:00",
-  "the_loai": [
-   "PlayStation Plus"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-11T01:10:51+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "PlayStation Plus Game Catalog and Classics Catalog lineup for November 2026 announced",
   "url": "https://www.gematsu.com/2026/11/playstation-plus-game-catalog-and-classics-catalog-lineup-for-november-2026-announced",
@@ -3645,6 +3632,25 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Dress for the weather. GTA 6’s marketing has kicked into overdrive days ahead of its PS5 release, with even The Weather Channel offering an exclusive look into Leonida’s microclimate. In a viral social media post, the US TV network said “nobody knows weather like we do that’s why Rockstar gave us an exclusive look at the forecast for Leonida”. Read the full article on pushsquare.com",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "High Roller Penny launches January 12, 2027",
+  "url": "https://www.gematsu.com/2026/11/high-roller-penny-launches-january-12-2027",
+  "ngay": "2026-11-17T06:27:21+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "High Roller Penny",
+   "Kniv Studio",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Pachinko-inspired roguelike game High Roller Penny, a pachinko-inspired roguelike game, will launch for PC via …",
   "goi_y_ps": false
  }
 ]
