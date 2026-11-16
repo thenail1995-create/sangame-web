@@ -1,54 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Crystals of Irm delayed to January 21, 2027",
-  "url": "https://www.gematsu.com/2026/11/crystals-of-irm-delayed-to-january-21-2027",
-  "ngay": "2026-11-10T21:10:11+07:00",
-  "the_loai": [
-   "PC",
-   "PS4",
-   "PS5",
-   "Switch",
-   "Xbox One",
-   "Xbox Series",
-   "Clips",
-   "Crystals of Irm",
-   "Deck13 Spotlight",
-   "Delays",
-   "Lots of Stuff",
-   "Release Dates",
-   "RPG",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Deck13 Spotlight and developer Lots of Stuff have delayed school RPG Crystals of Irm …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T08:10:49+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Grand Theft Auto VI pre-load now available, PS5 Pro support confirmed",
-  "url": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-pre-load-now-available-ps5-pro-support-confirmed",
-  "ngay": "2026-11-10T21:05:01+07:00",
-  "the_loai": [
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Grand Theft Auto VI",
-   "Rockstar Games",
-   "Rockstar North",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS5 Pro'",
-  "da_viet": false,
-  "tom_tat": "Rockstar Games has released a new trailer for Grand Theft Auto VI to commemorate the …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-10T22:01:30+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "This Might Be the Best Game You Didn't Know Was Out on PS5",
   "url": "https://www.pushsquare.com/news/2026/11/this-might-be-the-best-game-you-didnt-know-was-out-on-ps5",
@@ -3672,6 +3623,51 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Auto-battler dungeon crawler Bad House will launch for PC via Steam on January 11, publisher …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "NBA 2K27 x Grand Theft Auto VI collaboration announced",
+  "url": "https://www.gematsu.com/2026/11/nba-2k27-x-grand-theft-auto-vi-collaboration-announced",
+  "ngay": "2026-11-16T23:20:51+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "2K",
+   "Clips",
+   "NBA 2K27",
+   "Sports Games",
+   "Trailers",
+   "Visual Concepts"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher 2K and developer Visual Concepts, in partnership with sister company Rockstar Games, have a …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Iconic PS5 RPG Remake Is 80% Off on PlayStation Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/16/final-fantasy-vii-remake-ps5-80-percent-off",
+  "ngay": "2026-11-16T23:19:55+07:00",
+  "the_loai": [
+   "News",
+   "Entertainment and Gaming",
+   "Final Fantasy VII",
+   "Final Fantasy VII Remake",
+   "PlayStation",
+   "PlayStation 4",
+   "PlayStation 5",
+   "Square Enix",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Final Fantasy'",
+  "da_viet": false,
+  "tom_tat": "A remake of Square Enix's most iconic RPG, Final Fantasy VII, can be bought for less than $15 on the PlayStation Store. The post Iconic PS5 RPG Remake Is 80% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
