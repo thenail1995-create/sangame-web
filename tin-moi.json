@@ -1,30 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Arcade Archives Shot Rider launches November 12",
-  "url": "https://www.gematsu.com/2026/11/arcade-archives-shot-rider-launches-november-12",
-  "ngay": "2026-11-11T15:15:43+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Arcade Archives",
-   "Arcade Archives 2",
-   "Clips",
-   "Hamster Corporation",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Arcade Archives 2 Shot Rider will launch for PlayStation 5, Xbox Series, and Switch 2, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T19:40:57+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Shade of the Marionette: The Story of Piyorita debut trailer",
   "url": "https://www.gematsu.com/2026/11/shade-of-the-marionette-the-story-of-piyorita-debut-trailer",
   "ngay": "2026-11-11T15:00:04+07:00",
@@ -3627,6 +3603,28 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "The Game Awards has announced its nominees for 2026, as selected by a global jury …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Calame launches in February 2027",
+  "url": "https://www.gematsu.com/2026/11/calame-launches-in-february-2027",
+  "ngay": "2026-11-18T00:41:01+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Calame",
+   "Clips",
+   "Nextale Games",
+   "Release Dates",
+   "RPG",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Calame, a single-player isometric strategy RPG that “blends deep, classic strategy with innovative reality-shifting gameplay,” …",
   "goi_y_ps": false
  }
 ]
