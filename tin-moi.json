@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PS Plus Users Shouldn’t Claim New PS5 Action Game Right Away",
-  "url": "https://www.playstationlifestyle.net/2026/11/11/ps-plus-game-hell-let-loose-license-warning",
-  "ngay": "2026-11-11T21:45:12+07:00",
-  "the_loai": [
-   "News",
-   "PlayStation Plus News - PS4, PS3, PS Vita",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "Hell Let Loose",
-   "PlayStation Plus",
-   "PS Plus",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false,
-  "tom_tat": "PS Plus Extra and Premium users are warned not to download an August 2026 game without checking their PS5 libraries first. Team17’s multiplayer action shooter Hell Let Loose is joining the catalog today. However, the game was offered as a day-one monthly title in October 2021, which means many subscribers risk overriding their existing license. […] The post PS Plus Users Shouldn’t Claim New PS5 Action Game Right Away appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T22:50:49+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Square Enix Sees Huge Increase in Digital Game Sales, Upping Its Financial Forecast",
   "url": "https://www.pushsquare.com/news/2026/11/square-enix-sees-huge-increase-in-digital-game-sales-upping-its-financial-forecast",
@@ -3622,5 +3599,17 @@
   "da_viet": false,
   "tom_tat": "Grand Theft Auto VI has officially made history before even hitting store shelves. It has earned seven nominations at The Game Awards 2026, including a spot in the coveted Game of the Year category. However, the recognition has prompted fans to make the same joke that’s been circulating for years: GTA 6 could win awards […] The post GTA 6’s 7 Game Awards Nominations Have Fans Making the Same Joke appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Layoffs Hit XCOM Dev as It Struggles with Production of Third Entry",
+  "url": "https://www.pushsquare.com/news/2026/11/layoffs-hit-xcom-dev-as-it-struggles-with-production-of-third-entry",
+  "ngay": "2026-11-18T03:30:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A third of Firaxis staff to lose their job. XCOM and Midnight Suns studio Firaxis Games has lost roughly one-third of its workforce in a round of layoffs today. Around 60 people lost their jobs, and studio head Heather Hazen is also leaving the developer. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
