@@ -1,44 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "‘Mega Man Legends – New Media’ listing appears on ACTRA Toronto current projects page",
-  "url": "https://www.gematsu.com/2026/11/mega-man-legends-new-media-listing-appears-on-actra-toronto-current-projects-page",
-  "ngay": "2026-11-11T08:44:20+07:00",
-  "the_loai": [
-   "Industry",
-   "Capcom",
-   "Mega Man Legends"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A listing for “Mega Man Legends – New Media” has appeared on the “What’s Shooting” …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Monster Hunter Stories 3: Twisted Reflection sales top one million",
-  "url": "https://www.gematsu.com/2026/11/monster-hunter-stories-3-twisted-reflection-sales-top-one-million",
-  "ngay": "2026-11-11T08:58:44+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch 2",
-   "Xbox Series",
-   "Capcom",
-   "Monster Hunter Stories 3: Twisted Reflection",
-   "RPG",
-   "Sales"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Total sales for Monster Hunter Stories 3: Twisted Reflection have surpassed one million units worldwide, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T10:31:10+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "PS5 shipments top 100 million",
   "url": "https://www.gematsu.com/2026/11/ps5-shipments-top-100-million",
   "ngay": "2026-11-11T10:54:30+07:00",
@@ -3643,5 +3605,36 @@
   "da_viet": false,
   "tom_tat": "Tech Test to return for first time in years. The lifecycle of sports games is always challenging, but I do feel like as MLB The Show has snowballed in popularity it’s lost a lot of its lustre. San Diego Studio’s plucky baseball sim was once seen as the best sports game on the market, especially compared to stagnant series like Madden NFL and EA Sports FC . Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Hounded adds PS5 version",
+  "url": "https://www.gematsu.com/2026/11/hounded-adds-ps5-version",
+  "ngay": "2026-11-17T22:48:33+07:00",
+  "the_loai": [
+   "PS5",
+   "Clips",
+   "Developer Diaries",
+   "Hounded",
+   "IMPRNT STUDIOS",
+   "Silver Lining Interactive"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Third-person story-driven adventure game Hounded will launch for PlayStation 5 alongside its previously announced PC …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS5 Does Not Have a 'Monopoly' on Digital Games as £2 Billion Lawsuit Falls Through",
+  "url": "https://www.pushsquare.com/news/2026/11/ps5-does-not-have-a-monopoly-on-digital-games-as-p2-billion-lawsuit-falls-through",
+  "ngay": "2026-11-17T22:45:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Pricing not deemed \"excessive\". Do you remember a few years back when news broke of a potential class action lawsuit against Sony ? The case was reported to be worth billions of pounds, which would be dished out as compensation to over 12 million PlayStation users. Consumer rights campaigner Alex Neill argued that the PlayStation maker had — and continues to have — a monopoly on digital game (and associated DLC) purchases through the PS Store. Read the full article on pushsquare.com",
+  "goi_y_ps": false
  }
 ]
