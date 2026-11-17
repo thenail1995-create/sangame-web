@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "PlayStation Plus Game Catalog and Classics Catalog lineup for November 2026 announced",
-  "url": "https://www.gematsu.com/2026/11/playstation-plus-game-catalog-and-classics-catalog-lineup-for-november-2026-announced",
-  "ngay": "2026-11-10T23:40:46+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "PlayStation Plus",
-   "SIE",
-   "SIEA",
-   "SIEE",
-   "SIEJA"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
-  "da_viet": false,
-  "tom_tat": "Sony Interactive Entertainment has announced the November 2026 Game Catalog lineup for PlayStation Plus Extra …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T07:20:54+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "10 PS Plus Extra, Premium Games for November 2026 Announced",
   "url": "https://www.pushsquare.com/news/2026/11/10-ps-plus-extra-premium-games-for-november-2026-announced",
@@ -3652,5 +3631,17 @@
   "da_viet": false,
   "tom_tat": "Pachinko-inspired roguelike game High Roller Penny, a pachinko-inspired roguelike game, will launch for PC via …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PS Plus Extra",
+  "tieu_de": "Kho PS Plus Extra: tổng số game trong kho tăng từ 419 lên 422",
+  "url": "https://store.playstation.com/en-sg/category/3a7006fe-e26f-49fe-87e5-4473d7ed0fb2/1",
+  "ngay": "2026-11-17T07:10:53+07:00",
+  "the_loai": [
+   "PS Store"
+  ],
+  "hot": true,
+  "ly_do_hot": "tổng kho vượt đỉnh 12 lần gần nhất",
+  "da_viet": false
  }
 ]
