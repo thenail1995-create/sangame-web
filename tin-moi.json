@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "PS Store Adds PS5 Hardware Tab, But It's Extremely Limited",
-  "url": "https://www.pushsquare.com/news/2026/11/ps-store-adds-ps5-hardware-tab-but-its-extremely-limited",
-  "ngay": "2026-11-11T01:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Just a bunch of QR codes in reality. Sony has begun advertising PS5 hardware and accessories directly through the console's PS Store via a new Hardware tab at the end of its horizontal scroller. The new page promotes PS5 consoles, controllers, the PS Portal, headsets, PSVR2, and PS5 Covers. There's then a part below it that details the sort of benefits you get by ordering through PlayStation Direct. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T16:40:52+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "The Outer Worlds 2 DLC ‘Side Effects Guaranteed’ launches December 2",
   "url": "https://www.gematsu.com/2026/11/the-outer-worlds-2-dlc-side-effects-guaranteed-launches-december-2",
@@ -3668,5 +3655,22 @@
   "tom_tat": "PS Plus Extra and Premium November 2026 games have begun rolling out in regions where it’s now Tuesday the 17th, with their release staggered by region. As a reminder, Sony has a different release schedule in the US, UK, and Japan, so players in these three regions will not be able to access the full […] The post PS Plus Extra, Premium November 2026 Games Rolling Out Now appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-17T10:50:50+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "HARMA Early Access roadmap announced",
+  "url": "https://www.gematsu.com/2026/11/harma-early-access-roadmap-announced",
+  "ngay": "2026-11-17T09:00:16+07:00",
+  "the_loai": [
+   "PC",
+   "Astrolabe Games",
+   "harma",
+   "INDIRECT SHINE"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Astrolabe Games and developer INDIRECT SHINE have announced the Early Access roadmap for Roguelike …",
+  "goi_y_ps": false
  }
 ]
