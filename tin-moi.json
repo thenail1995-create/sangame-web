@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "GTA 6 on PS5 Is PS Store's Most Pre-Ordered Digital Game in History",
-  "url": "https://www.pushsquare.com/news/2026/11/gta-6-on-ps5-is-ps-stores-most-pre-ordered-digital-game-in-history",
-  "ngay": "2026-11-11T02:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "Record breaker. It was always going to be big, but with a week until release, Rockstar has now confirmed that GTA 6 is the most pre-ordered digital game in PS Store history. Confirmation comes courtesy of the PS Blog , in a post from Sony’s Tim Turi. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-11T04:20:50+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PS Plus Extra, Premium November Games Include Heavy Hitters",
   "url": "https://www.playstationlifestyle.net/2026/11/10/ps-plus-premium-november-games-soul-reaver-2-freedom-wars-remastered",
@@ -3669,6 +3656,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Akira Kurabayashi, a company director and head of the software development division at ARIKA, passed …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Multi-ending visual novel Attention Addicted NEET announced for PC",
+  "url": "https://www.gematsu.com/2026/11/multi-ending-visual-novel-attention-addicted-neet-announced-for-pc",
+  "ngay": "2026-11-17T14:12:14+07:00",
+  "the_loai": [
+   "PC",
+   "Attention Addicted NEET",
+   "Clips",
+   "Dreamery",
+   "Game Announce",
+   "Kniv Studio",
+   "Trailers",
+   "Visual Novel"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Kniv Studio and developer Dreamery have announced Attention Addicted NEET, a multi-ending visual novel …",
   "goi_y_ps": false
  }
 ]
