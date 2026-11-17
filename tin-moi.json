@@ -1,22 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Black Forest Games splits from THQ Nordic",
-  "url": "https://www.gematsu.com/2026/11/black-forest-games-splits-from-thq-nordic",
-  "ngay": "2026-11-11T17:00:44+07:00",
-  "the_loai": [
-   "Industry",
-   "Black Forest Games",
-   "THQ Nordic"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Black Forest Games has split from THQ Nordic after nearly 10 years of ownership, the …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Arcade Archives Shot Rider launches November 12",
   "url": "https://www.gematsu.com/2026/11/arcade-archives-shot-rider-launches-november-12",
   "ngay": "2026-11-11T15:15:43+07:00",
@@ -3629,5 +3613,20 @@
   "da_viet": false,
   "tom_tat": "Full list of The Game Awards 2026 category nominees. Geoff Keighley has today confirmed the nominees for all the categories at The Game Awards 2026 , with the show set to take place on 10th December 2026. The nominees for Game of the Year are: 007 First Light , Control Resonant , GTA 6 , Phantom Blade Zero , Resident Evil Requiem , and The Legend of Zelda: Ocarina of Time . Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Game Awards 2026 nominees announced",
+  "url": "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced",
+  "ngay": "2026-11-18T00:38:18+07:00",
+  "the_loai": [
+   "Industry",
+   "The Game Awards 2026"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "The Game Awards has announced its nominees for 2026, as selected by a global jury …",
+  "goi_y_ps": false
  }
 ]
