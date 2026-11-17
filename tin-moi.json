@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Console Archives Nobunaga Oda den launches November 12",
-  "url": "https://www.gematsu.com/2026/11/console-archives-nobunaga-oda-den-launches-november-12",
-  "ngay": "2026-11-11T17:15:43+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Clips",
-   "Console Archives",
-   "Hamster Corporation",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Console Archives Nobunaga Oda den will launch for PlayStation 5 and Switch 2 on November …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T19:40:57+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Black Forest Games splits from THQ Nordic",
   "url": "https://www.gematsu.com/2026/11/black-forest-games-splits-from-thq-nordic",
   "ngay": "2026-11-11T17:00:44+07:00",
@@ -3638,5 +3617,17 @@
   "da_viet": false,
   "tom_tat": "Firaxis Games, the 2K-owned studio behind the Civilization and XCOM series, has laid off around …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "The Game Awards 2026 Nominees Revealed, GTA 6 Up for 8 Awards",
+  "url": "https://www.pushsquare.com/news/2026/11/the-game-awards-2026-nominees-revealed-gta-6-up-for-8-awards",
+  "ngay": "2026-11-18T00:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Full list of The Game Awards 2026 category nominees. Geoff Keighley has today confirmed the nominees for all the categories at The Game Awards 2026 , with the show set to take place on 10th December 2026. The nominees for Game of the Year are: 007 First Light , Control Resonant , GTA 6 , Phantom Blade Zero , Resident Evil Requiem , and The Legend of Zelda: Ocarina of Time . Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
