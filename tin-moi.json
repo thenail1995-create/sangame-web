@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Devolver Digital and BlackLight Games announce roguelike auto-battler All Army Attack for PC",
-  "url": "https://www.gematsu.com/2026/11/devolver-digital-and-blacklight-games-announce-roguelike-auto-battler-all-army-attack-for-pc",
-  "ngay": "2026-11-11T00:13:01+07:00",
-  "the_loai": [
-   "PC",
-   "All Army Attack",
-   "BlackLight Games",
-   "Clips",
-   "Devolver Digital",
-   "Game Announce",
-   "Screenshots",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Devolver Digital and developer BlackLight Games have announced All Army Attack, a “chaotic, large-scale …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "The Outer Worlds 2’s first DLC arrives December 2",
   "url": "https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2/",
@@ -3659,6 +3638,26 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Spike Chunsoft and developer Gemdrops have released new information, video, and screenshots for Danganronpa …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "RPG Maker U2U launches January 28, 2027",
+  "url": "https://www.gematsu.com/2026/11/rpg-maker-u2u-launches-january-28-2027",
+  "ngay": "2026-11-17T10:16:03+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Gotcha Gotcha Games",
+   "Release Dates",
+   "RPG",
+   "RPG Maker U2U",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Role-playing game creation software RPG Maker U2U will launch for PC via Steam on January …",
   "goi_y_ps": false
  }
 ]
