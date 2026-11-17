@@ -1,44 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "PS5 shipments top 100 million",
-  "url": "https://www.gematsu.com/2026/11/ps5-shipments-top-100-million",
-  "ngay": "2026-11-11T10:54:30+07:00",
-  "the_loai": [
-   "PS5",
-   "PlayStation 5",
-   "Sales",
-   "SIE",
-   "SIEA",
-   "SIEE",
-   "SIEJA"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "PlayStation 5 has shipped more than 100 million units worldwide as of November 10, 2026, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T13:40:47+07:00"
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "The Legend of Heroes: Trails beyond the Horizon sequel to launch by September 2027 in Japan",
-  "url": "https://www.gematsu.com/2026/11/the-legend-of-heroes-trails-beyond-the-horizon-sequel-to-launch-by-september-2027-in-japan",
-  "ngay": "2026-11-11T12:21:56+07:00",
-  "the_loai": [
-   "Industry",
-   "Falcom",
-   "Release Dates",
-   "RPG",
-   "Trails (series)"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Horizon'",
-  "da_viet": false,
-  "tom_tat": "Falcom will release a sequel to The Legend of Heroes: Trails beyond the Horizon, the …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "PlayStation Portal System Update 7.3.2 Rolling Out Now",
   "url": "https://www.playstationlifestyle.net/2026/11/10/ps-portal-system-software-update-november-10-11",
@@ -3487,7 +3448,8 @@
   "ly_do_hot": "có từ khoá 'free'",
   "da_viet": false,
   "tom_tat": "One of 2026’s most surprising new PS5 RPGs has just dropped a major free update, and it’s worth checking out. Developed by former The Witcher devs at Rebel Wolves, The Blood of Dawnwalker now has the highly demanded New Game+ mode alongside other bells and whistles. Patch notes for PS5 RPG The Blood of Dawnwalker […] The post One of 2026’s Best New PS5 RPGs Drops Awesome Free Update appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-17T23:01:31+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3536,7 +3498,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-17T23:01:31+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3580,7 +3543,8 @@
   ],
   "hot": false,
   "ly_do_hot": "",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-17T23:01:31+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3592,7 +3556,8 @@
   "ly_do_hot": "có từ khoá 'PS Plus'",
   "da_viet": false,
   "tom_tat": "Just a shortlist this time around. The bulk of your PS Plus Extra and PS Plus Premium titles for this month are available now, which means it is now time to learn what PS5, PS4 titles are leaving the service in December. It's a very short list compared to what the Last Chance to Play section normally looks like, with only three titles tipped to leave PS Plus Extra next month. All departing on 15th December 2026, you'll lose access to the following games: Read the full article on pushsquare.com",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-17T23:01:31+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3636,5 +3601,50 @@
   "da_viet": false,
   "tom_tat": "Pricing not deemed \"excessive\". Do you remember a few years back when news broke of a potential class action lawsuit against Sony ? The case was reported to be worth billions of pounds, which would be dished out as compensation to over 12 million PlayStation users. Consumer rights campaigner Alex Neill argued that the PlayStation maker had — and continues to have — a monopoly on digital game (and associated DLC) purchases through the PS Store. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "EXODUS ‘Female Jun Reveal + Scrappy Salvager’ featurette",
+  "url": "https://www.gematsu.com/2026/11/exodus-female-jun-reveal-scrappy-salvager-featurette",
+  "ngay": "2026-11-17T22:54:27+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Xbox Series",
+   "Archetype Entertainment",
+   "Clips",
+   "Exodus",
+   "Gameplay",
+   "RPG",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Archetype Entertainment has released an eight-minute featurette for science-fiction action adventure RPG EXODUS revealing the …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Phasmophobia ‘Resonance’ update launches November 24",
+  "url": "https://www.gematsu.com/2026/11/phasmophobia-resonance-update-launches-november-24",
+  "ngay": "2026-11-17T22:00:31+07:00",
+  "the_loai": [
+   "PC",
+   "PS VR2",
+   "PS5",
+   "Xbox Series",
+   "Horror",
+   "Kinetic Games",
+   "Phasmophobia",
+   "Release Dates",
+   "Screenshots"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Kinetic Games will release the “Resonance” update for Phasmophobia on November 14, which introduces new investigation …",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-17T23:01:31+07:00"
  }
 ]

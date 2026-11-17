@@ -103,8 +103,6 @@
    "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1085353",
-   "https://www.gematsu.com/?p=1085357",
    "https://www.gematsu.com/?p=1085412",
    "https://www.gematsu.com/?p=1085420",
    "https://www.gematsu.com/?p=1085417",
@@ -402,7 +400,9 @@
    "https://www.gematsu.com/?p=1088508",
    "https://www.gematsu.com/?p=1088514",
    "https://www.gematsu.com/?p=1088524",
-   "https://www.gematsu.com/?p=1088520"
+   "https://www.gematsu.com/?p=1088520",
+   "https://www.gematsu.com/?p=1088600",
+   "https://www.gematsu.com/?p=1088456"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-207988",
@@ -1058,5 +1058,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-17T20:01:29+07:00"
+ "lan_goi_viet": "2026-11-17T23:01:31+07:00"
 }
