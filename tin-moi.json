@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "The Outer Worlds 2’s first DLC arrives December 2",
-  "url": "https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2/",
-  "ngay": "2026-11-11T01:00:31+07:00",
-  "the_loai": [
-   "PS5",
-   "Obsidian Entertainment",
-   "The Outer Worlds 2"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-11T01:10:51+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "PS Store Adds PS5 Hardware Tab, But It's Extremely Limited",
   "url": "https://www.pushsquare.com/news/2026/11/ps-store-adds-ps5-hardware-tab-but-its-extremely-limited",
@@ -3658,6 +3643,28 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Role-playing game creation software RPG Maker U2U will launch for PC via Steam on January …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS Plus Extra, Premium November 2026 Games Rolling Out Now",
+  "url": "https://www.playstationlifestyle.net/2026/11/16/ps-plus-extra-premium-november-2026-games-out-now",
+  "ngay": "2026-11-17T10:20:59+07:00",
+  "the_loai": [
+   "News",
+   "PlayStation Plus News - PS4, PS3, PS Vita",
+   "PS4 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "PlayStation Plus",
+   "PS Plus",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PlayStation Plus'",
+  "da_viet": false,
+  "tom_tat": "PS Plus Extra and Premium November 2026 games have begun rolling out in regions where it’s now Tuesday the 17th, with their release staggered by region. As a reminder, Sony has a different release schedule in the US, UK, and Japan, so players in these three regions will not be able to access the full […] The post PS Plus Extra, Premium November 2026 Games Rolling Out Now appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
