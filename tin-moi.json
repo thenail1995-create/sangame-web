@@ -1,28 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Shade of the Marionette: The Story of Piyorita debut trailer",
-  "url": "https://www.gematsu.com/2026/11/shade-of-the-marionette-the-story-of-piyorita-debut-trailer",
-  "ngay": "2026-11-11T15:00:04+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch",
-   "Xbox Series",
-   "Clips",
-   "Kiwi Walks",
-   "RPG",
-   "Shade of the Marionette: The Story of Piyorita",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Kiwi Walks has released the first trailer for Shade of the Marionette: The Story of …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T19:40:57+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "The Legend of Zelda: Ocarina of Time remake sales top 5.2 million in four days",
   "url": "https://www.gematsu.com/2026/11/the-legend-of-zelda-ocarina-of-time-remake-sales-top-5-2-million-in-four-days",
   "ngay": "2026-11-11T13:30:38+07:00",
@@ -3625,6 +3603,25 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Calame, a single-player isometric strategy RPG that “blends deep, classic strategy with innovative reality-shifting gameplay,” …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Game Pass adds Hela: of Mice & Magic, The Outlast Trials, Sniper Ghost Warrior Contracts 2, and more in late November",
+  "url": "https://www.gematsu.com/2026/11/game-pass-adds-hela-of-mice-magic-the-outlast-trials-sniper-ghost-warrior-contracts-2-and-more-in-late-november",
+  "ngay": "2026-11-18T00:57:40+07:00",
+  "the_loai": [
+   "PC",
+   "Smartphone",
+   "Xbox One",
+   "Xbox Series",
+   "Microsoft",
+   "Xbox Game Pass"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Microsoft has announced new titles coming to Game Pass in late November, including Hela: of …",
   "goi_y_ps": false
  }
 ]
