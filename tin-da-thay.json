@@ -83,7 +83,8 @@
    "urn:uuid:916c0c5b-0e29-4b92-b095-b3a4a28cf1c9",
    "urn:uuid:67eec918-e03c-462a-b872-c726d4cbed1a",
    "urn:uuid:c2b38f7e-e0cf-4285-841b-353d5cb2a375",
-   "urn:uuid:dd3a4c05-ec9a-4f7d-8ae0-544f51f74d6b"
+   "urn:uuid:dd3a4c05-ec9a-4f7d-8ae0-544f51f74d6b",
+   "urn:uuid:cf66bec4-ceb2-4c55-b887-e3d74c272a99"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -404,7 +405,6 @@
    "https://www.gematsu.com/?p=1088524"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-207969",
    "https://www.pushsquare.com/#article-207976",
    "https://www.pushsquare.com/#article-207982",
    "https://www.pushsquare.com/#article-207988",
@@ -703,7 +703,8 @@
    "https://www.pushsquare.com/#article-209163",
    "https://www.pushsquare.com/#article-209219",
    "https://www.pushsquare.com/#article-209216",
-   "https://www.pushsquare.com/#article-209222"
+   "https://www.pushsquare.com/#article-209222",
+   "https://www.pushsquare.com/#article-209164"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
