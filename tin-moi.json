@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "PlayStation Portal System Update 7.3.2 Rolling Out Now",
-  "url": "https://www.playstationlifestyle.net/2026/11/10/ps-portal-system-software-update-november-10-11",
-  "ngay": "2026-11-11T13:11:35+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "PlayStation Portal",
-   "PS Portal",
-   "Sony Interactive Entertainment",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'out now'",
-  "da_viet": false,
-  "tom_tat": "Sony Interactive Entertainment is rolling out PS Portal system software update 7.3.2 — the handheld remote player’s third firmware update in less than two months. The latest patch makes unspecified “improvements” ahead of GTA VI‘s launch. PS Portal system software update 7.3.2 patch notes (November 10/11, 2026) “We’ve improved system software performance and stability,” the […] The post PlayStation Portal System Update 7.3.2 Rolling Out Now appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T13:40:47+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "PS5 Has Officially Crossed 100 Million Sales, Sony Confirms",
   "url": "https://www.pushsquare.com/news/2026/11/ps5-has-officially-crossed-100-million-sales-sony-confirms",
@@ -3646,5 +3624,17 @@
   "tom_tat": "Kinetic Games will release the “Resonance” update for Phasmophobia on November 14, which introduces new investigation …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-17T23:01:31+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Sea of Thieves Nearly Halves Install Size in Latest Update on PS5",
+  "url": "https://www.pushsquare.com/news/2026/11/sea-of-thieves-nearly-halves-install-size-in-latest-update-on-ps5",
+  "ngay": "2026-11-17T23:00:00+07:00",
+  "the_loai": [],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "More room for treasure. Developer Rare is preparing its next major update for its nautical multiplayer adventure, Sea of Thieves , and it makes a pretty big change to the game's storage footprint. The update, which arrives this week on Thursday 19th November, makes a significant reduction to the title's install size across all platforms. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
