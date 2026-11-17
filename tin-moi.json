@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "GTA 6 Preload Is Now Available for All Digital Pre-Orders, Download to Your PS5 Now",
-  "url": "https://www.pushsquare.com/news/2026/11/gta-6-preload-is-now-available-for-all-digital-pre-orders-download-to-your-ps5-now",
-  "ngay": "2026-11-11T00:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "It's almost time. Publisher and developer Rockstar Games has announced that preloading for the highly anticipated GTA 6 is now available to everyone who pre-ordered digitally. In other words, if you pre-ordered the game via the PS Store, you can now begin downloading and installing the game on your PS5 to ensure it's ready to go come launch day. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-11T01:10:51+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Devolver Digital and BlackLight Games announce roguelike auto-battler All Army Attack for PC",
   "url": "https://www.gematsu.com/2026/11/devolver-digital-and-blacklight-games-announce-roguelike-auto-battler-all-army-attack-for-pc",
@@ -3647,6 +3634,31 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Nintendo will release the version 12.0.0 update for Splatoon 3 on November 17, the company …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Danganronpa 2×2 details Akimbo Consensus system, refined returning systems",
+  "url": "https://www.gematsu.com/2026/11/danganronpa-2x2-details-akimbo-consensus-system-refined-returning-systems",
+  "ngay": "2026-11-17T09:08:15+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Danganronpa (series)",
+   "Danganronpa 2x2",
+   "Gemdrops",
+   "Screenshots",
+   "Spike Chunsoft",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Spike Chunsoft and developer Gemdrops have released new information, video, and screenshots for Danganronpa …",
   "goi_y_ps": false
  }
 ]
