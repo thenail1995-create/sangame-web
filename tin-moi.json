@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Fairgame$ canceled",
-  "url": "https://www.gematsu.com/2026/11/fairgame-canceled",
-  "ngay": "2026-11-11T03:58:47+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Cancelled",
-   "Fairgame$",
-   "Haven Interactive Studios",
-   "SIE",
-   "SIEA"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Sony Interactive Entertainment has canceled development subsidiary Haven Interactive Studios’ May 2023-announced multiplayer shooter Fairgame$, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-11T13:40:47+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Sony Cancels Fairgames After Years of Work on PS5 Live Service Shooter",
   "url": "https://www.pushsquare.com/news/2026/11/sony-cancels-fairgames-after-years-of-work-on-ps5-live-service-shooter",
@@ -3661,5 +3640,28 @@
   "da_viet": false,
   "tom_tat": "You've got a 4.157GB update waiting. As teased towards the end of last week, The Blood of Dawnwalker studio Rebel Wolves has updated its PS5 RPG with a new game+ mode, available to download now. It's a 4.157GB download, and the option to play the game again whilst carrying over your level, skills, and inventory is the main attraction. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Fan Favorite 2025 PS5 Action Game Now Under $10 on PS Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/17/gears-of-war-reloaded-ps-store-deal-november-2026",
+  "ngay": "2026-11-17T21:00:00+07:00",
+  "the_loai": [
+   "Deals",
+   "Deals and Picks",
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Gears of War: Reloaded",
+   "PlayStation Store",
+   "PS Store",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A fan favorite 2025 PS5 action game is now under $10 on the PS Store in a fantastic value deal. Formerly an Xbox exclusive, Gears of War: Reloaded is a whopping 75% off as part of Sony’s Black Friday 2026 promotion. Gears of War: Reloaded is just $9.99 in PS Store Black Friday 2026 deal […] The post Fan Favorite 2025 PS5 Action Game Now Under $10 on PS Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
