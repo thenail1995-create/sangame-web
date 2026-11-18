@@ -1,42 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Famitsu Sales: 11/2/26 – 11/8/26",
-  "url": "https://www.gematsu.com/2026/11/famitsu-sales-11-2-26-11-8-26",
-  "ngay": "2026-11-12T20:04:20+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Famitsu",
-   "Famitsu Sales",
-   "Japan",
-   "Sales",
-   "Stellar Blade",
-   "The Legend of Zelda: Ocarina of Time (2026)"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Famitsu has published its estimated physical game software data for Japan for the week of …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T20:41:59+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "This GTA 6 Clip Looks So Real, Fans Can't Believe It's In-Game Footage",
-  "url": "https://www.pushsquare.com/news/2026/11/this-gta-6-clip-looks-so-real-fans-cant-believe-its-in-game-footage",
-  "ngay": "2026-11-12T20:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "#OnlyinViceCity. If you're at all interested in GTA 6 , you'll probably have seen this doing the rounds already. A video is going viral on social media, because it's fooling people into thinking it's real-life footage — but it's actually the game. Here's the clip in question: Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-12T20:41:59+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Guide: PlayStation Studios: All Sony First-Party Developers and What They're Working On",
   "url": "https://www.pushsquare.com/guides/playstation-studios-all-sony-first-party-developers-and-what-theyre-working-on",
@@ -3613,6 +3576,37 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "GTA 6 is already out in some countries. However, players are unhappy with the game’s performance, with several reporting a frustrating issue on consoles. Despite many praising its ultra-realistic graphics, players on social media have raised concerns about its performance, particularly FPS drops. Those who have already got their hands on it are sharing their […] The post GTA 6 Players Can’t Escape the Same Frustrating Problem appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Round Up: GTA 6 Is Not Just the Most Acclaimed Game of 2026, It's the Highest-Rated Game of All Time",
+  "url": "https://www.pushsquare.com/features/round-up-gta-6-is-not-just-the-most-acclaimed-game-of-2026-its-the-highest-rated-game-of-all-time",
+  "ngay": "2026-11-19T01:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "The reviews are in. The initial reviews have arrived for GTA 6 , and it's safe to say the game has been an absolute smash hit with critics. The metascore has settled on a 99, making it one point off a \"perfect\" score of 100. In a year stuffed with fantastic games big and small, it's become the highest rated title of 2026. Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA 6’s Long-Awaited Gameplay Is Facing an Awkward Cyberpunk 2077 Reality Check",
+  "url": "https://www.playstationlifestyle.net/2026/11/18/gta-6-gameplay-cyberpunk-2077-comparison",
+  "ngay": "2026-11-19T01:07:29+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Cyberpunk 2077",
+   "Entertainment and Gaming",
+   "GTA 6",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Grand Theft Auto VI is facing criticism after a gameplay clip surfaced online showing what appears to be an awkward glitch. The footage has drawn comparisons to Cyberpunk 2077 and has raised questions about the long-awaited game’s technical polish. In a GTA 6 gameplay clip Michael Does Life shared on X, the player character grapples […] The post GTA 6’s Long-Awaited Gameplay Is Facing an Awkward Cyberpunk 2077 Reality Check appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
