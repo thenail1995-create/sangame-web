@@ -1,32 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Fate/EXTRA Record characters trailer – Julius Faction",
-  "url": "https://www.gematsu.com/2026/11/fate-extra-record-characters-trailer-julius-faction",
-  "ngay": "2026-11-12T18:05:00+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Aniplex",
-   "Clips",
-   "Fate (series)",
-   "Fate/EXTRA Record",
-   "Meteorise",
-   "RPG",
-   "Trailers",
-   "Type-Moon"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Aniplex and developers Meteorise and TYPE-MOON have released a new trailer for Fate/EXTRA Record, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-13T18:01:28+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Station to Station coming to PS5, Switch 2 on November 26",
   "url": "https://www.gematsu.com/2026/11/station-to-station-coming-to-ps5-switch-2-on-november-26",
   "ngay": "2026-11-12T21:07:45+07:00",
@@ -3617,5 +3591,17 @@
   "da_viet": false,
   "tom_tat": "PlayStation players will get an exclusive collection of weapon skins with an upcoming console release. The tactical shooter behind the collection is Zero Hour, which has revealed its PS5 designs ahead of its December launch. Xbox players will also receive their own collection. Skymap Games and AttritoM7 Productions announced two platform-specific cosmetic collections for the […] The post PS5 Tactical Shooter Gets Exclusive Weapon Skins Ahead of December Launch appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Obliterates All-Time Streaming Record Before It's Even Fully Released",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-obliterates-all-time-streaming-record-before-its-even-fully-released",
+  "ngay": "2026-11-19T02:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Across Twitch, YouTube, and more. You'd better get used to seeing GTA 6 break records, because the game's not even out yet in most countries and it's already crushing long-standing numbers. Indeed, the hype is so colossal that Rockstar's open worlder broke the all-time record for livestream viewers just minutes after its release in regions where it's already the 19th November. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
