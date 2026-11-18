@@ -1,65 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Skyrim Celebrates 15th Anniversary with DLC Bundle, Big Sales, and More",
-  "url": "https://www.pushsquare.com/news/2026/11/skyrim-celebrates-15th-anniversary-with-dlc-bundle-big-sales-and-more",
-  "ngay": "2026-11-12T00:15:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Reach for the Skyrim. The Elder Scrolls 5: Skyrim is officially 15 years old today, having originally launched on the 11th November, 2011. And no, Bethesda doesn't have a new re-release lined up or anything like that, so the memes will have to be put on hold for now. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Roguelite action RPG Conan: The Black Pyramid announced for PC",
-  "url": "https://www.gematsu.com/2026/11/roguelite-action-rpg-conan-the-black-pyramid-announced-for-pc",
-  "ngay": "2026-11-12T01:00:57+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Conan: The Black Pyramid",
-   "Game Announce",
-   "Games Farm",
-   "Grindstone (company)",
-   "RPG",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Grindstone and developer Games Farm have announced Conan: The Black Pyramid, a roguelite action …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "The Road of Dust and Sorrow delayed to February 19, 2027",
-  "url": "https://www.gematsu.com/2026/11/the-road-of-dust-and-sorrow-delayed-to-february-19-2027",
-  "ngay": "2026-11-12T02:50:52+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Clips",
-   "Delays",
-   "Painted Black Games",
-   "Release Dates",
-   "Silver Lining Interactive",
-   "The Road of Dust and Sorrow",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Silver Lining Interactive and developed Painted Black Games have delayed cozy survival horror adventure …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T05:01:25+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Poll: 15 Years Later, Is Skyrim Still One of the Best Open World RPGs Out There?",
   "url": "https://www.pushsquare.com/features/poll-15-years-later-is-skyrim-still-one-of-the-best-open-world-rpgs-out-there",
   "ngay": "2026-11-12T03:00:00+07:00",
@@ -3638,5 +3579,61 @@
   "tom_tat": "It’s finally happening: the most anticipated game of the PS5 generation – Grand Theft Auto VI (GTA VI) – has begun unlocking on the platform. Players in New Zealand, where the clock just struck 12:00 a.m. (Thursday, November 19, 2026) can start playing GTA VI via the PS Store or the download code included in […] The post GTA VI, Biggest Game of This Gen, Unlocking Now on PS5 appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-18T18:01:34+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Console Archives The Firemen 2: Pete & Danny launches November 19",
+  "url": "https://www.gematsu.com/2026/11/console-archives-the-firemen-2-pete-danny-launches-november-19",
+  "ngay": "2026-11-18T17:05:35+07:00",
+  "the_loai": [
+   "PS5",
+   "Switch 2",
+   "Clips",
+   "Console Archives",
+   "Hamster Corporation",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Console Archives The Firemen 2: Pete & Danny will launch for PlayStation 5 and Switch …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Arcade Archives TX-1 V.8 launches November 19",
+  "url": "https://www.gematsu.com/2026/11/arcade-archives-tx-1-v-8-launches-november-19",
+  "ngay": "2026-11-18T15:15:30+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "Switch",
+   "Switch 2",
+   "Xbox Series",
+   "Arcade Archives",
+   "Arcade Archives 2",
+   "Clips",
+   "Hamster Corporation",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Arcade Archives 2 TX-1 V.8 will launch for PlayStation 5, Xbox Series, and Switch 2, and …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Review: GTA 6 (PS5) - The Greatest Open World Game Ever Made",
+  "url": "https://www.pushsquare.com/reviews/ps5/grand-theft-auto-6",
+  "ngay": "2026-11-18T18:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Leonida livin'. What does eight years and an estimated $1 billion get you? Well, GTA 6 . In this long-anticipated crime sandbox, Rockstar has assembled the most technologically accomplished open world ever made, expanding on its groundbreaking work with Red Dead Redemption 2 . Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
