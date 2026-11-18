@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Tinker Islands launches in Early Access on December 10",
-  "url": "https://www.gematsu.com/2026/11/tinker-islands-launches-in-early-access-on-december-10",
-  "ngay": "2026-11-12T23:05:34+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Goon Squad",
-   "Headup Games",
-   "Release Dates",
-   "Tinker Islands",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Cozy multiplayer sandbox game Tinker Islands will launch in Early Access for PC via Steam …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "AMD, Sony Mark PS5's 100 Million Unit Milestone with Signed Consoles",
   "url": "https://www.pushsquare.com/news/2026/11/amd-sony-mark-ps5s-100-million-unit-milestone-with-signed-consoles",
@@ -3598,6 +3578,26 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Rockstar Games' latest open world release, Grand Theft Auto VI, got 43 soldiers to reenlist in the U.S. Army in exchange for an unsual perk. The post ‘I’m All About the Heist’: GTA 6 Gets 43 Soldiers to Reenlist in the Army appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Burning Sword: Death Sun now available in Early Access",
+  "url": "https://www.gematsu.com/2026/11/burning-sword-death-sun-now-available-in-early-access",
+  "ngay": "2026-11-19T06:00:14+07:00",
+  "the_loai": [
+   "PC",
+   "Burning Sword: Death Sun",
+   "Clips",
+   "Game Release",
+   "Nomadic Games",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Wuxia hack-and-slash action game Burning Sword: Death Sun is now available in Early Access for …",
   "goi_y_ps": false
  }
 ]
