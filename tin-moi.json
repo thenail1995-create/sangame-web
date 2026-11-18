@@ -1,28 +1,6 @@
 [
  {
   "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Major Capcom PS4 Game Has Been Delisted for Over 2 Weeks",
-  "url": "https://www.playstationlifestyle.net/2026/11/12/capcom-ps4-game-street-fighter-v-delisted-offline",
-  "ngay": "2026-11-12T19:13:04+07:00",
-  "the_loai": [
-   "News",
-   "PS4 News, Trophies, Reviews, and More",
-   "Capcom",
-   "Entertainment and Gaming",
-   "exclude_from_yahoo",
-   "Street Fighter 5",
-   "Street FIghter V",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "A major Capcom PS4 action game was delisted from the PS Store over two weeks ago, and there’s no sign of its return thus far. Street Fighter V‘s digital sales were halted starting October 26 because of a security issue related to the PHP programming language used in the PS4 and Steam versions. Capcom PS4 […] The post Major Capcom PS4 Game Has Been Delisted for Over 2 Weeks appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-13T18:01:28+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
   "tieu_de": "Acclaimed 2025 Konami PS5 Action Game Is 72% Off on PS Store",
   "url": "https://www.playstationlifestyle.net/2026/11/12/silent-hill-f-ps-store-deal-november-2026",
   "ngay": "2026-11-12T19:33:00+07:00",
@@ -3634,5 +3612,19 @@
   "da_viet": false,
   "tom_tat": "An acclaimed PS5 Pro Enhanced action game is now available at an attractive discount on the PlayStation Store. The decade-old title is developed and published by IO Interactive. PlayStation 5 Pro owners can now get Hitman World of Assassination for just $27.99 on the PS Store, down from the standard price of $69.99. The 60% […] The post PS5 Pro Enhanced Action Game Is 60% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation Blog",
+  "tieu_de": "Grand Theft Auto VI launches tomorrow, November 19",
+  "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/",
+  "ngay": "2026-11-18T23:00:23+07:00",
+  "the_loai": [
+   "PS5",
+   "Grand Theft Auto VI",
+   "Rockstar Games"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false
  }
 ]
