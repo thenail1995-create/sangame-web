@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Resident Evil Requiem Wins the First 2026 Game of the Year Award",
-  "url": "https://www.pushsquare.com/news/2026/11/resident-evil-requiem-wins-the-first-2026-game-of-the-year-award",
-  "ngay": "2026-11-12T03:45:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Resident Evil'",
-  "da_viet": false,
-  "tom_tat": "Top accolade at the Golden Joystick Awards. Resident Evil Requiem has been crowned the Ultimate Game of the Year at the Golden Joystick Awards, the first major games award ceremony of 2026. Alongside the biggest award, it was also named the Console Game of the Year, and it won categories celebrating the best lead performer (Angela Sant'Albano as Grace Ashcroft) and the best game trailer. Most of the Golden Joystick Awards are decided by a public vote, and the race for Ultimate Game of the Year was extremely close. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-12T05:01:25+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "'You'll Own Nothing': Sony Wins Hall of Shame Award for Deciding to Kill Physical Discs",
   "url": "https://www.pushsquare.com/news/2026/11/youll-own-nothing-sony-wins-hall-of-shame-award-for-deciding-to-kill-physical-discs",
   "ngay": "2026-11-12T05:00:00+07:00",
@@ -3642,6 +3629,23 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Rockstar Games’ highly anticipated Grand Theft Auto VI (GTA VI) has already begun shattering records, with its PS5 version now the best-rated video game since 1998’s The Legend of Zelda: Ocarina of Time. GTA VI reviews are out now, and if you haven’t already, you can read ours on PlayStation LifeStyle.com. GTA VI PS5 rating […] The post GTA VI PS5 Is Already the Best-Rated Game Since 1998 appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Nobunaga’s Ambition: Hishou for Switch canceled",
+  "url": "https://www.gematsu.com/2026/11/nobunagas-ambition-hishou-for-switch-canceled",
+  "ngay": "2026-11-18T16:30:55+07:00",
+  "the_loai": [
+   "Switch",
+   "Koei Tecmo",
+   "Kou Shibusawa",
+   "Nobunaga's Ambition: Hishou"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Koei Tecmo and developer Kou Shibusawa have canceled the previously announced Switch version of …",
   "goi_y_ps": false
  }
 ]
