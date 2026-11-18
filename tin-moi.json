@@ -1,29 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "The Spectrum Retreat: Redux coming to PS5, Xbox Series, and PC on November 26",
-  "url": "https://www.gematsu.com/2026/11/the-spectrum-retreat-redux-coming-to-ps5-xbox-series-and-pc-on-november-26",
-  "ngay": "2026-11-12T16:15:26+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Puzzle Games",
-   "Release Dates",
-   "Ripstone",
-   "The Spectrum Retreat: Redux",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Ripstone will release The Spectrum Retreat: Redux, a remastered version of the 2018-released first-person puzzler …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-14T18:31:09+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Vindictus: Defying Fate confirmed for PS5, ‘Cinematic’ trailer teaser",
   "url": "https://www.gematsu.com/2026/11/vindictus-defying-fate-confirmed-for-ps5-cinematic-trailer-teaser",
   "ngay": "2026-11-12T15:15:08+07:00",
@@ -3565,7 +3542,8 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Revealing all about Manni L. Perez. As one of the two main protagonists in GTA 6 , you're going to spend a lot of time playing as Lucia. As such, you may be interested in learning more about the real-life actress she's based on. In this GTA 6 guide , we are answering: who is the real actress Lucia is based on in GTA 6? Who Is the Real Actress Lucia Is Based on in GTA 6? Read the full article on pushsquare.com",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-19T00:11:05+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3587,7 +3565,8 @@
   "ly_do_hot": "có từ khoá 'PS5 Pro'",
   "da_viet": false,
   "tom_tat": "An acclaimed PS5 Pro Enhanced action game is now available at an attractive discount on the PlayStation Store. The decade-old title is developed and published by IO Interactive. PlayStation 5 Pro owners can now get Hitman World of Assassination for just $27.99 on the PS Store, down from the standard price of $69.99. The 60% […] The post PS5 Pro Enhanced Action Game Is 60% Off on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-19T00:11:05+07:00"
  },
  {
   "nguon": "PlayStation Blog",
@@ -3601,7 +3580,8 @@
   ],
   "hot": true,
   "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false
+  "da_viet": false,
+  "da_gui_viet": "2026-11-19T00:11:05+07:00"
  },
  {
   "nguon": "Push Square",
@@ -3613,6 +3593,20 @@
   "ly_do_hot": "có từ khoá 'PS5 Pro'",
   "da_viet": false,
   "tom_tat": "Digital Foundry delivers the verdict. As you'd expect, it sounds like PS5 Pro is the absolute best place to play GTA 6 at launch — but what about playing it on Sony's standard console? Our pals over at Digital Foundry have been putting it to the test. First things first, Digital Foundry can't stress enough just how technically impressive Rockstar's latest open world is. In terms of simulating a living and breathing environment, it's completely unmatched — and that's the main reason why it's capped at just 30 frames-per-second with no graphics options to choose from. Read the full article on pu…",
-  "goi_y_ps": true
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-19T00:11:05+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "NBA Players Receive This Special GTA 6 PS5 Pro Console, and We're Not Jealous at All",
+  "url": "https://www.pushsquare.com/news/2026/11/nba-players-receive-this-special-gta-6-ps5-pro-console-and-were-not-jealous-at-all",
+  "ngay": "2026-11-19T00:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'PS5 Pro'",
+  "da_viet": false,
+  "tom_tat": "Not one bit. On the eve of GTA 6 finally making its debut, it seems a lucky few have been given a special way to play it. Several NBA players, all belonging to the Miami Heat team, have received a crazy care package from Rockstar Games that includes a special edition PS5 Pro console that's not publicly available. Read the full article on pushsquare.com",
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-19T00:11:05+07:00"
  }
 ]
