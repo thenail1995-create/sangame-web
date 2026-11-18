@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Guide: PlayStation Studios: All Sony First-Party Developers and What They're Working On",
-  "url": "https://www.pushsquare.com/guides/playstation-studios-all-sony-first-party-developers-and-what-theyre-working-on",
-  "ngay": "2026-11-12T16:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Every game coming from PS Studios. Sony's first-party developers are known collectively as PlayStation Studios , and it's these teams that make all the games published by the company. Whether it's PS5, PC, or beyond, there are always new games in the works. While we don't always know everything about what's in development, we've done our best to collate all the current info in this page. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-14T18:31:09+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Professor Layton and the New World of Steam digital pre-orders now available for PS5 and PC, international voice cast announced",
   "url": "https://www.gematsu.com/2026/11/professor-layton-and-the-new-world-of-steam-digital-pre-orders-now-available-for-ps5-and-pc-international-voice-cast-announced",
@@ -3607,6 +3594,29 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Grand Theft Auto VI is facing criticism after a gameplay clip surfaced online showing what appears to be an awkward glitch. The footage has drawn comparisons to Cyberpunk 2077 and has raised questions about the long-awaited game’s technical polish. In a GTA 6 gameplay clip Michael Does Life shared on X, the player character grapples […] The post GTA 6’s Long-Awaited Gameplay Is Facing an Awkward Cyberpunk 2077 Reality Check appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Coral Island for Switch 2 launches December 7 alongside version 1.4 update",
+  "url": "https://www.gematsu.com/2026/11/coral-island-for-switch-2-launches-december-7-alongside-version-1-4-update",
+  "ngay": "2026-11-19T01:11:22+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Balor Games",
+   "Clips",
+   "Coral Island",
+   "Release Dates",
+   "Stairway Games",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "The Switch 2 version of simulation game Coral Island will launch on December 7 alongside …",
   "goi_y_ps": false
  }
 ]
