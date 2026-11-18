@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "PC Gaming Show 2026: Most Wanted set for December 3",
-  "url": "https://www.gematsu.com/2026/11/pc-gaming-show-2026-most-wanted-set-for-december-3",
-  "ngay": "2026-11-12T23:23:41+07:00",
-  "the_loai": [
-   "Industry",
-   "PC Gaming Show 2026: Most Wanted"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "PC Gamer will host PC Gaming Show 2026: Most Wanted on December 3 at 12:00 …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Romancing SaGa 3's Great Looking PS5 Remake Moves Its Release Date Away from Persona 4 Revival",
   "url": "https://www.pushsquare.com/news/2026/11/romancing-saga-3s-great-looking-ps5-remake-moves-its-release-date-away-from-persona-4-revival",
@@ -3603,5 +3588,27 @@
   "tom_tat": "GTA 6 fans have found a new character to obsess over, shifting the spotlight away from Lucia Caminos. Mandy, who appears early in the game, has taken social media by storm after players shared screenshots highlighting her revealing appearance. Mandy does not appear in any of Rockstar’s trailers or promotional material. Instead, players meet her […] The post GTA 6: Mandy’s NSFW Photos Make Fans Completely Forget Lucia Exists appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-19T06:21:00+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA 6’s Lucia Has a Surprising Law & Order: SVU Connection",
+  "url": "https://www.playstationlifestyle.net/2026/11/18/manni-l-perez-gta-6-lucia-law-and-order-svu",
+  "ngay": "2026-11-19T06:34:42+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Grand Theft Auto",
+   "Grand Theft Auto VI",
+   "GTA 6",
+   "Rockstar Games",
+   "TV News",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "The performer behind Lucia Caminos, one of the central characters in Grand Theft Auto VI, is also known for her role in a popular crime drama. Ahead of the game’s highly anticipated launch, the identity of Lucia’s performer remained under wraps, but it has now been revealed. According to The Latin Times, actress Manni L. […] The post GTA 6’s Lucia Has a Surprising Law & Order: SVU Connection appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
