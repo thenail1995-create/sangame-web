@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Vindictus: Defying Fate comes to PS5 next year",
-  "url": "https://blog.playstation.com/2026/11/12/vindictus-defying-fate-comes-to-ps5-next-year/",
-  "ngay": "2026-11-12T20:07:48+07:00",
-  "the_loai": [
-   "PS5",
-   "Nexon Korea",
-   "Vindictus: Defying Fate"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-12T20:41:59+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Famitsu Sales: 11/2/26 – 11/8/26",
   "url": "https://www.gematsu.com/2026/11/famitsu-sales-11-2-26-11-8-26",
@@ -3608,6 +3593,26 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "Trophy hunters may have a long road ahead of them in GTA 6 as they prepare to earn the Platinum trophy on PS5. The post GTA 6 Has a 200-Hour Platinum Trophy Grind Waiting After the Credits Roll appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA 6 Players Can’t Escape the Same Frustrating Problem",
+  "url": "https://www.playstationlifestyle.net/2026/11/18/gta-6-players-report-fps-drops-ps5",
+  "ngay": "2026-11-19T00:41:17+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Grand Theft Auto VI",
+   "GTA 6",
+   "Rockstar",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "GTA 6 is already out in some countries. However, players are unhappy with the game’s performance, with several reporting a frustrating issue on consoles. Despite many praising its ultra-realistic graphics, players on social media have raised concerns about its performance, particularly FPS drops. Those who have already got their hands on it are sharing their […] The post GTA 6 Players Can’t Escape the Same Frustrating Problem appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
