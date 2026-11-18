@@ -1,28 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Station to Station coming to PS5, Switch 2 on November 26",
-  "url": "https://www.gematsu.com/2026/11/station-to-station-coming-to-ps5-switch-2-on-november-26",
-  "ngay": "2026-11-12T21:07:45+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch 2",
-   "Clips",
-   "Engine Software",
-   "Galaxy Grove",
-   "Puzzle Games",
-   "Release Dates",
-   "Station to Station",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Engine Software and developer Galaxy Grove will release voxel art railway puzzle game Station …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-13T15:01:24+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "The Expanse: Osiris Reborn Spotlights Its Female Protagonist in RPG's Promising New Footage",
   "url": "https://www.pushsquare.com/news/2026/11/the-expanse-osiris-reborn-spotlights-its-female-protagonist-in-rpgs-promising-new-footage",
@@ -3603,5 +3580,26 @@
   "da_viet": false,
   "tom_tat": "Across Twitch, YouTube, and more. You'd better get used to seeing GTA 6 break records, because the game's not even out yet in most countries and it's already crushing long-standing numbers. Indeed, the hype is so colossal that Rockstar's open worlder broke the all-time record for livestream viewers just minutes after its release in regions where it's already the 19th November. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Homura Hime coming to PS5 in 2027",
+  "url": "https://www.gematsu.com/2026/11/homura-hime-coming-to-ps5-in-2027",
+  "ngay": "2026-11-19T03:05:22+07:00",
+  "the_loai": [
+   "PS5",
+   "Clips",
+   "Crimson Dusk",
+   "DevGAMM Awards 2026",
+   "Homura Hime",
+   "PLAYISM",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher PLAYISM and developer Crimson Dusk will release 3D bullet hell action game Homura Hime …",
+  "goi_y_ps": false
  }
 ]
