@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "GTA 6 Preloading Is Causing Major Download Traffic Spikes in Europe",
-  "url": "https://www.pushsquare.com/news/2026/11/gta-6-preloading-is-causing-major-download-traffic-spikes-in-europe",
-  "ngay": "2026-11-11T23:45:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "ISPs are reporting big surges. If you needed another clue as to how big GTA 6 is going to be, internet service providers in a number of countries are reporting inflated traffic figures in the wake of preload access. Millions of eager fans have pre-ordered the open world action title on PS Store — in fact, it's the most pre-ordered game on the digital storefront ever — and ahead of its launch, they're able to download the game to their PS5s to ensure it's ready to roll come 19th November. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-12T01:50:51+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Don’t Fret launches December 8",
   "url": "https://www.gematsu.com/2026/11/dont-fret-launches-december-8",
@@ -3627,5 +3614,17 @@
   "da_viet": false,
   "tom_tat": "Hakoniwa Electric, a cozy puzzle exploration game about fixing electrical problems, will launch for PC …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Requires New PS5 Firmware Update to Play",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-requires-new-ps5-firmware-update-to-play",
+  "ngay": "2026-11-18T09:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Sony confirms v14.23.00 is required. As we reported early yesterday , PS5 has a new firmware update, numbered v14.23.00 . It’s now confirmed you’ll need to have this installed to play GTA 6 . Notifying players on social media, a PlayStation Support page confirmed: “Sony Interactive has issued a PS5 system software update that is required before playing GTA 6. Players should download this update prior to midnight on 19th November so that they’re ready to play on launch day, 19th November.” Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
