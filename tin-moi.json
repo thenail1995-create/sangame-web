@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Hardware Review: Astro A50 X Lightspeed - The Ultimate Gaming Headset, But Not Suited to All",
-  "url": "https://www.pushsquare.com/features/hardware-review-astro-a50-x-lightspeed-the-ultimate-gaming-headset-but-not-suited-to-all",
-  "ngay": "2026-11-11T23:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Jack of all trades, and master of all? The Astro A50 X Lightspeed is a pair of headphones I’ve been looking forward to trying out for a while. This is a high-end headset that actually utilises HDMI passthrough rather than the traditional dongle connection. This is by far the most expensive headset I’ve ever tested, so let’s see if that moolah translates to a genuinely great audio experience. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "GTA 6 Preloading Is Causing Major Download Traffic Spikes in Europe",
   "url": "https://www.pushsquare.com/news/2026/11/gta-6-preloading-is-causing-major-download-traffic-spikes-in-europe",
   "ngay": "2026-11-11T23:45:00+07:00",
@@ -3619,5 +3607,25 @@
   "tom_tat": "Each week Sony brings PlayStation 4, PlayStation 5, PlayStation VR, and PlayStation Plus owners new content, add-ons, games, and more. Here is the complete global PlayStation Store update. PlayStation LifeStyle catalogs the PlayStation Store updates for the major regions across the globe. Check back every Tuesday to keep up to date with each week’s PlayStation […] The post PlayStation Store Update Worldwide November 17, 2026 appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-18T05:10:54+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Hakoniwa Electric launches November 30",
+  "url": "https://www.gematsu.com/2026/11/hakoniwa-electric-launches-november-30",
+  "ngay": "2026-11-18T09:07:42+07:00",
+  "the_loai": [
+   "PC",
+   "Anettai",
+   "Clips",
+   "Hakoniwa Electric",
+   "Puzzle Games",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Hakoniwa Electric, a cozy puzzle exploration game about fixing electrical problems, will launch for PC …",
+  "goi_y_ps": false
  }
 ]
