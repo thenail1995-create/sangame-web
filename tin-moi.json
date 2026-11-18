@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Poll: 15 Years Later, Is Skyrim Still One of the Best Open World RPGs Out There?",
-  "url": "https://www.pushsquare.com/features/poll-15-years-later-is-skyrim-still-one-of-the-best-open-world-rpgs-out-there",
-  "ngay": "2026-11-12T03:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Fus-roh-damn. 11/11/11 — the famous release date that will forever be associated with The Elder Scrolls 5: Skyrim . If you haven't already realised, today marks the title's 15th anniversary, and it's crazy to think that the open world RPG remains one of the most consistently popular games out there. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Resident Evil Requiem Wins the First 2026 Game of the Year Award",
   "url": "https://www.pushsquare.com/news/2026/11/resident-evil-requiem-wins-the-first-2026-game-of-the-year-award",
   "ngay": "2026-11-12T03:45:00+07:00",
@@ -3635,5 +3623,25 @@
   "da_viet": false,
   "tom_tat": "Leonida livin'. What does eight years and an estimated $1 billion get you? Well, GTA 6 . In this long-anticipated crime sandbox, Rockstar has assembled the most technologically accomplished open world ever made, expanding on its groundbreaking work with Red Dead Redemption 2 . Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA VI PS5 Is Already the Best-Rated Game Since 1998",
+  "url": "https://www.playstationlifestyle.net/2026/11/18/gta-vi-ps5-rating-best-since-1998",
+  "ngay": "2026-11-18T19:08:24+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Grand Theft Auto VI",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Rockstar Games’ highly anticipated Grand Theft Auto VI (GTA VI) has already begun shattering records, with its PS5 version now the best-rated video game since 1998’s The Legend of Zelda: Ocarina of Time. GTA VI reviews are out now, and if you haven’t already, you can read ours on PlayStation LifeStyle.com. GTA VI PS5 rating […] The post GTA VI PS5 Is Already the Best-Rated Game Since 1998 appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
