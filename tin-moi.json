@@ -1,42 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Don’t Fret launches December 8",
-  "url": "https://www.gematsu.com/2026/11/dont-fret-launches-december-8",
-  "ngay": "2026-11-12T00:04:36+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Digital Pajamas",
-   "Don't Fret",
-   "Horror",
-   "Release Dates",
-   "Scary Kid Studios",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "First-person psychological horror game Don’t Fret will launch for PlayStation 5, Xbox Series, and PC …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T01:50:51+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "Feature: What Sony Live Service PS5 Games Are Still Alive?",
-  "url": "https://www.pushsquare.com/features/what-sony-live-service-ps5-games-are-still-alive",
-  "ngay": "2026-11-12T00:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "All the cancelled projects and those that remain. Video games are cancelled internally all the time, but never in PlayStation's personal history have those cancellations had to happen in such a public manner. The current PS5 generation has seen the platform holder try to win the live service space, and a few years later, it's having to cancel most of the projects it revealed in attempting to achieve that. To try and get a piece of the Fortnite pie, Sony made a hard and deliberate push into the Games as a Service space at the start of the PS5 generation. It acquired Destiny 2 studio Bungie to h…",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-12T01:50:51+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Skyrim Celebrates 15th Anniversary with DLC Bundle, Big Sales, and More",
   "url": "https://www.pushsquare.com/news/2026/11/skyrim-celebrates-15th-anniversary-with-dlc-bundle-big-sales-and-more",
@@ -3633,5 +3596,47 @@
   "tom_tat": "Sony confirms v14.23.00 is required. As we reported early yesterday , PS5 has a new firmware update, numbered v14.23.00 . It’s now confirmed you’ll need to have this installed to play GTA 6 . Notifying players on social media, a PlayStation Support page confirmed: “Sony Interactive has issued a PS5 system software update that is required before playing GTA 6. Players should download this update prior to midnight on 19th November so that they’re ready to play on launch day, 19th November.” Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-18T11:11:12+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Grand Theft Auto 6 Review (PS5): The Most Ambitious Video Game Ever",
+  "url": "https://www.playstationlifestyle.net/review/939293-grand-theft-auto-6-review-ps5-the-most-ambitious-video-game-ever",
+  "ngay": "2026-11-18T18:01:27+07:00",
+  "the_loai": [
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Grand Theft Auto VI",
+   "PS5",
+   "Rockstar"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Ah, 2013. A time before President Trump, COVID-19, crypto pump-and-dumps, TikTok, Elon Musk’s salute, Epstein’s island, GameStop stock, UFO declassifications, Fortnite, and billionaires imploding in a submarine. Grand Theft Auto 5 was released that year, at a time in our lives when you’d have been laughed out of the building if you suggested comedian Joe […] The post Grand Theft Auto 6 Review (PS5): The Most Ambitious Video Game Ever appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-18T18:01:34+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA VI, Biggest Game of This Gen, Unlocking Now on PS5",
+  "url": "https://www.playstationlifestyle.net/2026/11/18/gta-vi-ps5-unlocking-now-ps5-ps-store",
+  "ngay": "2026-11-18T18:00:00+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Grand Theft Auto",
+   "Grand Theft Auto VI",
+   "PlayStation Store",
+   "PS Store",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "It’s finally happening: the most anticipated game of the PS5 generation – Grand Theft Auto VI (GTA VI) – has begun unlocking on the platform. Players in New Zealand, where the clock just struck 12:00 a.m. (Thursday, November 19, 2026) can start playing GTA VI via the PS Store or the download code included in […] The post GTA VI, Biggest Game of This Gen, Unlocking Now on PS5 appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-18T18:01:34+07:00"
  }
 ]
