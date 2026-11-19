@@ -1,23 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Sonic the Hedgehog 35th anniversary animation ‘Memories and Beyond’",
-  "url": "https://www.gematsu.com/2026/11/sonic-the-hedgehog-35th-anniversary-animation-memories-and-beyond",
-  "ngay": "2026-11-13T00:10:11+07:00",
-  "the_loai": [
-   "Industry",
-   "Clips",
-   "SEGA",
-   "Sonic the Hedgehog"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "SEGA has released the 35th anniversary animation for Sonic the Hedgehog, titled “Memories and Beyond.” …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Herdling – Nintendo Switch 2 Edition now available",
   "url": "https://www.gematsu.com/2026/11/herdling-nintendo-switch-2-edition-now-available",
   "ngay": "2026-11-13T00:03:59+07:00",
@@ -3598,6 +3581,26 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher Toei Animation and developer Studio51 have released the first 40 minutes of gameplay from …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Girls’ Frontline: The Lunasia Covenant launches in 2027",
+  "url": "https://www.gematsu.com/2026/11/girls-frontline-the-lunasia-covenant-launches-in-2027",
+  "ngay": "2026-11-19T12:15:51+07:00",
+  "the_loai": [
+   "Smartphone",
+   "Girls' Frontline: The Lunasia Covenant",
+   "Hecate Team",
+   "Release Dates",
+   "Shooter",
+   "Sunborn Network Technology",
+   "TPS"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Girls’ Frontline: The Lunasia Covenant, the May-announced player-versus-environment game that blends third-person shooter action with …",
   "goi_y_ps": false
  }
 ]
