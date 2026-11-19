@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Xbox Wants You to Revisit Halo: Campaign Evolved on PS5 as Free Co-Op Mode Update Is Announced",
-  "url": "https://www.pushsquare.com/news/2026/11/xbox-wants-you-to-revisit-halo-campaign-evolved-on-ps5-as-free-co-op-mode-update-is-announced",
-  "ngay": "2026-11-13T01:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "Firefight is back. A major free update for Halo: Campaign Evolved has been announced, and it's bringing Firefight back with a bang. For the uninitiated, Firefight was always the series' go-to co-op mode, allowing Spartans to team up and hold off waves of bloodthirsty opponents together. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-13T02:50:50+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Cook, Serve, Delicious: Re-Mustard! launches January 18, 2027 for PC, later in 2027 for consoles",
   "url": "https://www.gematsu.com/2026/11/cook-serve-delicious-re-mustard-launches-january-18-2027-for-pc-later-in-2027-for-consoles",
@@ -3609,5 +3596,29 @@
   "da_viet": false,
   "tom_tat": "Welcome to Leonida. Sony and Rockstar Games are making damn sure you know GTA 6 has just launched, as the PS5's Welcome hub — the landing page for the console — has been taken over by the new game. The page's icon currently has that telltale pink/orange gradient and palm trees, and before you see your usual assortment of widgets, a new panel promoting GTA 6 appears. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Best-Selling 2023 PS5 RPG Now 90% Off on PS Store",
+  "url": "https://www.playstationlifestyle.net/2026/11/19/hogwarts-legacy-ps-store-deal-november-2026",
+  "ngay": "2026-11-19T20:00:00+07:00",
+  "the_loai": [
+   "Deals",
+   "Deals and Picks",
+   "News",
+   "PS4 News, Trophies, Reviews, and More",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Hogwarts Legacy",
+   "PlayStation Store",
+   "PS Store",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "GTA VI is all the rage right now, but if you’re not playing the Rockstar hit, a popular 2023 RPG is 90% off in a limited-time PS Store deal. Developed by Avalanche Software and published by Warner Bros., Hogwarts Legacy is at its lowest price on both the PS5 and PS4 until December 1. Hogwarts […] The post Best-Selling 2023 PS5 RPG Now 90% Off on PS Store appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
