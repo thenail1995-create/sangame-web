@@ -1,21 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Xbox Backward Compatibility on PC adds 21 titles",
-  "url": "https://www.gematsu.com/2026/11/xbox-backward-compatibility-on-pc-adds-21-titles",
-  "ngay": "2026-11-13T04:15:06+07:00",
-  "the_loai": [
-   "PC",
-   "Microsoft",
-   "Xbox Backward Compatibility on PC"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Xbox has added 25 original Xbox games to its July-announced Xbox Backward Compatibility on PC …",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Square Enix RPG’s PS5 Remake Set Earlier Release Date",
   "url": "https://www.playstationlifestyle.net/2026/11/12/romancing-saga-3-destinies-united-ps5-release-date",
@@ -3648,5 +3632,17 @@
   "da_viet": false,
   "tom_tat": "Following last week‘s PlayStation 5 and PC pre-order launch, Switch 2 and Switch digital pre-orders …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Call of Duty's Influence Is Fading Fast as Modern Warfare 4 Fails to Make US Top 10",
+  "url": "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10",
+  "ngay": "2026-11-19T22:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'Call of Duty'",
+  "da_viet": false,
+  "tom_tat": "Shot down. There's been an awful lot of debate about the overall quality and lasting commercial success of Call of Duty across the last few years, with many arguing that the once unstoppable series is steadily losing its edge. As such, this latest report from Circana won't make for easy reading if you're Xbox or Activision. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
