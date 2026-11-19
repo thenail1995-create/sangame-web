@@ -1,25 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Wolfenstein 3 announced",
-  "url": "https://www.gematsu.com/2026/11/wolfenstein-3-announced",
-  "ngay": "2026-11-13T07:07:59+07:00",
-  "the_loai": [
-   "Industry",
-   "Bethesda Softworks",
-   "FPS",
-   "Game Announce",
-   "MachineGames",
-   "Shooter",
-   "Wolfenstein 3"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Bethesda Softworks and developer MachineGames have announced Wolfenstein 3. The news comes as part …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Wolfenstein 3 Announced, Now in the Works at MachineGames",
   "url": "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames",
@@ -3629,5 +3609,17 @@
   "da_viet": false,
   "tom_tat": "Doja Cat has shared her thoughts on one of gaming’s biggest releases, revealing her major issue with Grand Theft Auto VI. The rapper took to social media to express her disappointment, focusing on the GTA 6 soundtrack. In a post on X, Doja wrote, “I would’ve loved to have my music on GTA 6. I’m […] The post Doja Cat Reveals One Huge Issue She Has With GTA 6: ‘I’m F—– Bitter’ appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Censorship in Japan Sees Characters Shower in Underwear, as Sex and Violence Are Toned Down",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-censorship-in-japan-sees-characters-shower-in-underwear-as-sex-and-violence-are-toned-down",
+  "ngay": "2026-11-20T01:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Keep your pants on. GTA 6 has been censored to a fairly large extent in Japan, where the country's strict ratings system often sees nudity, sexual content, and graphic violence be toned down or removed entirely in video games. To be clear, GTA 6 has been given Japan's highest 18+ age rating — but it's still had to make changes in order to ensure its release in the region. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
