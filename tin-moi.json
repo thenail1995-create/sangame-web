@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Halo: Campaign Evolved ‘Firefight’ update announced",
-  "url": "https://www.gematsu.com/2026/11/halo-campaign-evolved-firefight-update-announced",
-  "ngay": "2026-11-13T00:26:23+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "FPS",
-   "Halo Studios",
-   "Halo: Campaign Evolved",
-   "Microsoft",
-   "Shooter"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Xbox Game Studios and developer Halo Studios have announced the Halo: Campaign Evolved “Firefight” …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-13T02:50:50+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Mysterious Bandai Namco Trademark Has People Talking About a New Fighting Game",
   "url": "https://www.pushsquare.com/news/2026/11/mysterious-bandai-namco-trademark-has-people-talking-about-a-new-fighting-game",
@@ -3610,5 +3588,25 @@
   "tom_tat": "Game Studio will release horror RPGs Ao Oni: The Horror of Blueberry Onsen Plus and …",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-19T12:31:38+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "Sneaky PS5 Feature Update Finally Adds Themes We All Wanted",
+  "url": "https://www.playstationlifestyle.net/2026/11/19/ps5-feature-update-gta-vi-welcome-hub-themes",
+  "ngay": "2026-11-19T16:20:48+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Grand Theft Auto VI",
+   "PS5 Update",
+   "Video Game News"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Sony Interactive Entertainment has sneaked in a PS5 feature update that adds themes players have been asking for. With all the hoopla about Grand Theft Auto VI, fans wondered what was stopping Sony from adding new Welcome Hub backgrounds from the game. Well, the company listened. PS5 feature update adds several GTA VI Welcome Hub […] The post Sneaky PS5 Feature Update Finally Adds Themes We All Wanted appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
