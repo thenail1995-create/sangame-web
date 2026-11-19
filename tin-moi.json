@@ -1,28 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "Dome Keeper coming to PS5, Switch on December 14",
-  "url": "https://www.gematsu.com/2026/11/dome-keeper-coming-to-ps5-switch-on-december-14",
-  "ngay": "2026-11-12T23:31:40+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch",
-   "Bippinbits",
-   "Clips",
-   "Dome Keeper",
-   "Raw Fury",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Raw Fury and developer Bippinbits will release roguelike action mining game Dome Keeper for …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-13T12:01:23+07:00"
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "KuloNiku: Bowl Up! coming to Switch 2, Switch on November 26",
   "url": "https://www.gematsu.com/2026/11/kuloniku-bowl-up-coming-to-switch-2-switch-on-november-26",
   "ngay": "2026-11-12T23:24:16+07:00",
@@ -3603,5 +3581,23 @@
   "tom_tat": "Heads up. All GTA 6 pre-orders come with a free month of GTA+ , which nets you some in-game bonuses like a free vehicle, garage, and higher selling prices. But before you excitedly claim your freebie, it’s essential you understand auto-renew will be enabled. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-19T09:31:11+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "The Detective Is Already Dead game launches in 2027 in Japan",
+  "url": "https://www.gematsu.com/2026/11/the-detective-is-already-dead-game-launches-in-2027-in-japan",
+  "ngay": "2026-11-19T10:00:09+07:00",
+  "the_loai": [
+   "Switch",
+   "Release Dates",
+   "TAITO",
+   "The Detective Is Already Dead",
+   "Visual Novel"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Mystery adventure game The Detective Is Already Dead will launch for Switch in 2027 in …",
+  "goi_y_ps": false
  }
 ]
