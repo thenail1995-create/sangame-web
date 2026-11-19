@@ -1,29 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Shikhondo: Blue Pieta for PS5, Switch 2, and Switch launches December 10",
-  "url": "https://www.gematsu.com/2026/11/shikhondo-blue-pieta-for-ps5-switch-2-and-switch-launches-december-10",
-  "ngay": "2026-11-13T05:17:34+07:00",
-  "the_loai": [
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "CFK",
-   "Clips",
-   "DeerFarm",
-   "Release Dates",
-   "Shikhondo: Blue Pieta",
-   "Shmup",
-   "Trailers"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'launches'",
-  "da_viet": false,
-  "tom_tat": "Fantasy bullet hell shoot ’em up game Shikhondo: Blue Pieta will launch for PlayStation 5, …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-13T05:50:52+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Was This New Fable Gameplay Meant to Sell the Game?",
   "url": "https://www.pushsquare.com/news/2026/11/was-this-new-fable-gameplay-meant-to-sell-the-game",
@@ -3625,5 +3601,17 @@
   "da_viet": false,
   "tom_tat": "Montreal and Quebec hit. Ubisoft has confirmed that it's laid off a total of 166 employees across two of its major studios, Ubisoft Montreal and Ubisoft Quebec. Although this figure only accounts for roughly 4% of the publisher's full Canadian workforce, it's obviously still a lot of people to let go of in one fell swoop. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Doesn't Have Any Sex Workers, and Rockstar Has Explained Why",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-doesnt-have-any-sex-workers-and-rockstar-has-explained-why",
+  "ngay": "2026-11-20T00:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "First 3D entry to not feature them. A mainstay of the GTA series has been the presence of sex workers, but Rockstar Games has dropped this aspect for the newly released GTA 6 . As reported by Shack News , unlike most other games in the long-running franchise, you cannot hire a sex worker in GTA 6. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
