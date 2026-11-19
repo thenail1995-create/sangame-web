@@ -1,27 +1,6 @@
 [
  {
   "nguon": "Gematsu",
-  "tieu_de": "KuloNiku: Bowl Up! coming to Switch 2, Switch on November 26",
-  "url": "https://www.gematsu.com/2026/11/kuloniku-bowl-up-coming-to-switch-2-switch-on-november-26",
-  "ngay": "2026-11-12T23:24:16+07:00",
-  "the_loai": [
-   "Switch",
-   "Switch 2",
-   "Clips",
-   "Gambir Studio",
-   "KuloNiku: Bowl Up!",
-   "Raw Fury",
-   "Release Dates",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Raw Fury and developer Gambir Studio will release cooking game KuloNiku: Bowl Up! for …",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
   "tieu_de": "Sonic the Hedgehog 35th anniversary animation ‘Memories and Beyond’",
   "url": "https://www.gematsu.com/2026/11/sonic-the-hedgehog-35th-anniversary-animation-memories-and-beyond",
   "ngay": "2026-11-13T00:10:11+07:00",
@@ -3598,6 +3577,27 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Mystery adventure game The Detective Is Already Dead will launch for Switch in 2027 in …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Expelled from Paradise: The Stellar Angel – first 40 minutes of gameplay",
+  "url": "https://www.gematsu.com/2026/11/expelled-from-paradise-the-stellar-angel-first-40-minutes-of-gameplay",
+  "ngay": "2026-11-19T10:06:40+07:00",
+  "the_loai": [
+   "PC",
+   "Switch",
+   "Clips",
+   "Expelled from Paradise: The Stellar Angel",
+   "Gameplay",
+   "Studio51",
+   "Toei Animation",
+   "Visual Novel"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Toei Animation and developer Studio51 have released the first 40 minutes of gameplay from …",
   "goi_y_ps": false
  }
 ]
