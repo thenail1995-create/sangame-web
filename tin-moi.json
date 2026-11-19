@@ -1,18 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Mysterious Bandai Namco Trademark Has People Talking About a New Fighting Game",
-  "url": "https://www.pushsquare.com/news/2026/11/mysterious-bandai-namco-trademark-has-people-talking-about-a-new-fighting-game",
-  "ngay": "2026-11-13T00:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Fatal Ichor, anyone? Hmmm , something tells me this is only going to lead to disappointment... Earlier this week, Bandai Namco registered a video game trademark for 'FATAL ICHOR'. And as is so often the case with trademarks, a complete lack of context means that it could relate to anything. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Xbox Wants You to Revisit Halo: Campaign Evolved on PS5 as Free Co-Op Mode Update Is Announced",
   "url": "https://www.pushsquare.com/news/2026/11/xbox-wants-you-to-revisit-halo-campaign-evolved-on-ps5-as-free-co-op-mode-update-is-announced",
   "ngay": "2026-11-13T01:00:00+07:00",
@@ -3609,5 +3597,17 @@
   "tom_tat": "Sony Interactive Entertainment has sneaked in a PS5 feature update that adds themes players have been asking for. With all the hoopla about Grand Theft Auto VI, fans wondered what was stopping Sony from adding new Welcome Hub backgrounds from the game. Well, the company listened. PS5 feature update adds several GTA VI Welcome Hub […] The post Sneaky PS5 Feature Update Finally Adds Themes We All Wanted appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-19T18:40:56+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Takes Over PS5's Welcome Page, Including a New Set of Wallpapers",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-takes-over-ps5s-welcome-page-including-a-new-set-of-wallpapers",
+  "ngay": "2026-11-19T19:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Welcome to Leonida. Sony and Rockstar Games are making damn sure you know GTA 6 has just launched, as the PS5's Welcome hub — the landing page for the console — has been taken over by the new game. The page's icon currently has that telltale pink/orange gradient and palm trees, and before you see your usual assortment of widgets, a new panel promoting GTA 6 appears. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
