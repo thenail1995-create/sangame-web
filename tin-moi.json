@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Dragon Quest Monsters: The Withered World details early adventure",
-  "url": "https://www.gematsu.com/2026/11/dragon-quest-monsters-the-withered-world-details-early-adventure",
-  "ngay": "2026-11-13T05:00:35+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Switch",
-   "Switch 2",
-   "Xbox Series",
-   "Dragon Quest (series)",
-   "Dragon Quest Monsters: The Withered World",
-   "RPG",
-   "Screenshots",
-   "Square Enix",
-   "TOSE"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher and developer Square Enix, and developer TOSE have released new information and screenshots for …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-13T05:50:52+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "GTA VI Looks to Break Valorant’s Incredible Record 6 Years Later",
   "url": "https://www.playstationlifestyle.net/2026/11/12/gta-6-youtube-creators-valorant-streaming-record",
@@ -3638,6 +3613,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Ubisoft has laid off 166 staff across its Ubisoft Montreal and Ubisoft Quebec studios, the …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA 6 Breaks a 25-Year Grand Theft Auto Tradition",
+  "url": "https://www.playstationlifestyle.net/2026/11/19/gta-6-breaks-25-year-grand-theft-auto-tradition",
+  "ngay": "2026-11-19T23:27:40+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Grand Theft Auto VI",
+   "GTA 6",
+   "PlayStation 5",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "GTA 6 is breaking a controversial Grand Theft Auto tradition that has been part of Rockstar Games' open-world franchise since GTA 3 The post GTA 6 Breaks a 25-Year Grand Theft Auto Tradition appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
