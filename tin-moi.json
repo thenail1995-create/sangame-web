@@ -1,40 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Microsoft Thinks Xbox 'Pioneered' Dual Analogue Controllers",
-  "url": "https://www.pushsquare.com/news/2026/11/microsoft-thinks-xbox-pioneered-dual-analogue-controllers",
-  "ngay": "2026-11-13T02:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Ummm. It’s a big month for Xbox as it celebrates its 25th anniversary, with lots of entertaining initiatives underway – including a pretty cool website where it tracks your entire history with the brand. But in a big – and otherwise interesting – celebratory blog post , boss Asha Sharma appears to have mixed up some of the facts. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
-  "nguon": "Gematsu",
-  "tieu_de": "Fable Xbox 25th Anniversary ‘Quest’ gameplay",
-  "url": "https://www.gematsu.com/2026/11/fable-xbox-25th-anniversary-quest-gameplay",
-  "ngay": "2026-11-13T02:51:45+07:00",
-  "the_loai": [
-   "PC",
-   "PS5",
-   "Xbox Series",
-   "Clips",
-   "Fable (2027)",
-   "Gameplay",
-   "Microsoft",
-   "Playground Games",
-   "RPG"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Publisher Xbox Game Studios and developer Playground Games have released a new four-minute gameplay walkthrough …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-13T12:01:23+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "DOOM: The Dark Ages DLC ‘Revelations’ – ‘Slaughter Mode’ update launches November 16",
   "url": "https://www.gematsu.com/2026/11/doom-the-dark-ages-dlc-revelations-slaughter-mode-update-launches-november-16",
@@ -3634,5 +3599,49 @@
   "da_viet": false,
   "tom_tat": "Take it easy. GTA 6 is easily the most customisable game that Rockstar has ever made when it comes to accessibility options. There's a wide range of settings and toggles to experiment with, in a bid to make the open world experience more comfortable. And while the initiative isn't quite as in-depth as what you'll find in recent Ubisoft or Sony-published titles, it's still a solid step forward for the studio. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "THYSIASTERY coming to PS5, Xbox Series, PS4, Xbox One, and Switch on December 3",
+  "url": "https://www.gematsu.com/2026/11/thysiastery-coming-to-ps5-xbox-series-ps4-xbox-one-and-switch-on-december-3",
+  "ngay": "2026-11-19T12:45:44+07:00",
+  "the_loai": [
+   "PS4",
+   "PS5",
+   "Switch",
+   "Xbox One",
+   "Xbox Series",
+   "DIRGA",
+   "Release Dates",
+   "RPG",
+   "THYSIASTERY"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "DIRGA will release dungeon crawler RPG THYSIASTERY for PlayStation 5, Xbox Series, PlayStation 4, Xbox …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA 6’s GTA+ Preorder Bonus Has a Catch Players Missed",
+  "url": "https://www.playstationlifestyle.net/2026/11/19/gta-6-gta-plus-preorder-bonus-catch",
+  "ngay": "2026-11-19T21:00:00+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Grand Theft Auto VI",
+   "PlayStation Store",
+   "PS Store",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Now that GTA 6 is out, a large number of PS5 players are realizing that they’re locked out of a major preorder bonus for the game. For those who didn’t read the fine print, GTA 6’s retail copies — which contain a game code in a box — are not eligible for the one-month GTA+ […] The post GTA 6’s GTA+ Preorder Bonus Has a Catch Players Missed appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
