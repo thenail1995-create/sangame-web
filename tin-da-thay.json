@@ -406,7 +406,6 @@
    "https://www.gematsu.com/?p=1088890"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-208110",
    "https://www.pushsquare.com/#article-208107",
    "https://www.pushsquare.com/#article-208117",
    "https://www.pushsquare.com/#article-208120",
@@ -705,7 +704,8 @@
    "https://www.pushsquare.com/#article-209358",
    "https://www.pushsquare.com/#article-209377",
    "https://www.pushsquare.com/#article-209346",
-   "https://www.pushsquare.com/#article-209382"
+   "https://www.pushsquare.com/#article-209382",
+   "https://www.pushsquare.com/#article-209397"
   ],
   "pslifestyle": [
    "https://www.playstationlifestyle.net/?p=937500",
@@ -1091,6 +1091,23 @@
   "Secret Neighbor",
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
- "cho_gui": [],
- "lan_goi_viet": "2026-11-20T10:10:52+07:00"
+ "cho_gui": [
+  {
+   "tin": {
+    "nguon": "Push Square",
+    "tieu_de": "GTA 6 Too Dark? Here's How to Fix It on PS5",
+    "url": "https://www.pushsquare.com/news/2026/11/gta-6-too-dark-heres-how-to-fix-it-on-ps5",
+    "ngay": "2026-11-20T19:30:00+07:00",
+    "the_loai": [],
+    "hot": true,
+    "ly_do_hot": "có từ khoá 'GTA'",
+    "da_viet": false,
+    "tom_tat": "Optimal HDR calibration settings included. If you’re playing GTA 6 and finding it too dark, there’s a good chance you may have your HDR calibration wrong – and no, it’s not your fault! An extensive research video by HDTV Test – performed on a pricey Sony reference monitor – reveals the game’s HDR calibration may not be working quite as intended. Read the full article on pushsquare.com",
+    "goi_y_ps": true,
+    "da_gui_viet": "2026-11-20T19:40:53+07:00"
+   },
+   "lan": 1
+  }
+ ],
+ "lan_goi_viet": "2026-11-20T19:40:53+07:00"
 }

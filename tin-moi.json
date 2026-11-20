@@ -1,26 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Strategy RPG Guild Saga: Vanished Worlds coming to PS5 in May 2027",
-  "url": "https://www.gematsu.com/2026/11/strategy-rpg-guild-saga-vanished-worlds-coming-to-ps5-in-may-2027",
-  "ngay": "2026-11-13T20:15:08+07:00",
-  "the_loai": [
-   "PS5",
-   "Clips",
-   "Guild Saga: Vanished Worlds",
-   "Ocelot Technologies",
-   "Release Dates",
-   "RPG",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Ontario-based developer Ocelot Technologies will release strategy RPG Guild Saga: Vanished Worlds for PlayStation 5 …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-14T18:31:09+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Lucky Luke Retro Collection Brings Several Games to the US for the Very First Time",
   "url": "https://www.pushsquare.com/news/2026/11/lucky-luke-retro-collection-brings-several-games-to-the-us-for-the-very-first-time",
@@ -3613,5 +3592,18 @@
   "da_viet": false,
   "tom_tat": "Mebius has announced Dual Orb Collection for Switch. It will launch on March 18, 2027 …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Too Dark? Here's How to Fix It on PS5",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-too-dark-heres-how-to-fix-it-on-ps5",
+  "ngay": "2026-11-20T19:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Optimal HDR calibration settings included. If you’re playing GTA 6 and finding it too dark, there’s a good chance you may have your HDR calibration wrong – and no, it’s not your fault! An extensive research video by HDTV Test – performed on a pricey Sony reference monitor – reveals the game’s HDR calibration may not be working quite as intended. Read the full article on pushsquare.com",
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-20T19:40:53+07:00"
  }
 ]
