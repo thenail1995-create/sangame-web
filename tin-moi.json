@@ -1,17 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Lucky Luke Retro Collection Brings Several Games to the US for the Very First Time",
-  "url": "https://www.pushsquare.com/news/2026/11/lucky-luke-retro-collection-brings-several-games-to-the-us-for-the-very-first-time",
-  "ngay": "2026-11-13T21:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Not a long way from home anymore. Atari has announced another retro games collection, and this one marks the United States debut of multiple old school classics. This is Lucky Luke: The Lonesome Cowboy Collection, a compilation of retro titles developed by Graphite Lab and published by Infogrames. It's scheduled for launch on PS5 and PS4 on 13th January, 2027. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "Lucky Luke: The Lonesome Cowboy Collection announced for PS5, Xbox Series, Switch 2, PS4, Xbox One, Switch, and PC",
   "url": "https://www.gematsu.com/2026/11/lucky-luke-the-lonesome-cowboy-collection-announced-for-ps5-xbox-series-switch-2-ps4-xbox-one-switch-and-pc",
@@ -3605,5 +3593,25 @@
   "tom_tat": "Optimal HDR calibration settings included. If you’re playing GTA 6 and finding it too dark, there’s a good chance you may have your HDR calibration wrong – and no, it’s not your fault! An extensive research video by HDTV Test – performed on a pricey Sony reference monitor – reveals the game’s HDR calibration may not be working quite as intended. Read the full article on pushsquare.com",
   "goi_y_ps": true,
   "da_gui_viet": "2026-11-20T19:40:53+07:00"
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA 6 Free Printable Map Available Now, Get Yours Here",
+  "url": "https://www.playstationlifestyle.net/2026/11/20/how-to-get-gta-6-map-for-free",
+  "ngay": "2026-11-20T20:30:00+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Grand Theft Auto VI",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'free'",
+  "da_viet": false,
+  "tom_tat": "Rockstar Games has made GTA 6 Leonida map available for free just in time for the weekend. Both digital and physical copies of the map are available for everyone, including a printable map via Rockstar’s official website. Rockstar Games offers several ways to get GTA 6 map for free The quickest and easiest way to […] The post GTA 6 Free Printable Map Available Now, Get Yours Here appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
  }
 ]
