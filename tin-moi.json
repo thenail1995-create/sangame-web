@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "QSSR arrives in Marvel’s Spider-Man 2, Control Resonant, The Finals, ARC Raiders, and Hell Let Loose: Vietnam",
-  "url": "https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam/",
-  "ngay": "2026-11-13T21:00:16+07:00",
-  "the_loai": [
-   "PS5",
-   "PlayStation 5",
-   "QSSR"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-13T21:10:54+07:00"
- },
- {
   "nguon": "Gematsu",
   "tieu_de": "STRANGER THAN HEAVEN ‘Act 2: Kure’ story trailer",
   "url": "https://www.gematsu.com/2026/11/stranger-than-heaven-act-2-kure-story-trailer",
@@ -3610,6 +3595,27 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "Publisher PLAYISM and developer viv have announced Saihate Station: Twilight Edition, a Switch version of …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Witch on the Holy Night now available for iOS, Android in Japan",
+  "url": "https://www.gematsu.com/2026/11/witch-on-the-holy-night-now-available-for-ios-android-in-japan",
+  "ngay": "2026-11-20T11:18:18+07:00",
+  "the_loai": [
+   "Smartphone",
+   "Aniplex",
+   "Game Release",
+   "Japan",
+   "Release Dates",
+   "Type-Moon",
+   "Visual Novel",
+   "Witch on the Holy Night"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher Aniplex and developer TYPE-MOON have released visual novel Witch on the Holy Night for …",
   "goi_y_ps": false
  }
 ]
