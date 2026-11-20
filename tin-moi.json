@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Play The Blood of Dawnwalker Again in New Game+, Part of PS5 Patch 1.2",
-  "url": "https://www.pushsquare.com/news/2026/11/play-the-blood-of-dawnwalker-again-in-new-gameplus-part-of-ps5-patch-1-2",
-  "ngay": "2026-11-13T23:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Extra songs, enemy balancing, and terrain tweaks too. Rebel Wolves has teased what to expect from PS5 update 1.2 for The Blood of Dawnwalker , which arrives next week. While the first major patch promised over 1,000 improvements, this second one doesn't, but the highlight of it is a major one: new game+. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-14T12:20:59+07:00"
- },
- {
   "nguon": "PlayStation Blog",
   "tieu_de": "Share of the Week: Lights",
   "url": "https://blog.playstation.com/2026/11/13/share-of-the-week-lights/",
@@ -3612,5 +3599,17 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "Feature: GTA 6 Made Me Want to Be a Good Guy (or Girl)",
+  "url": "https://www.pushsquare.com/features/gta-6-made-me-want-to-be-a-good-guy-or-girl",
+  "ngay": "2026-11-21T01:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Mr and Mrs Nice Guy. It’s the strangest feeling. I’m playing a new GTA game but I’m actually abiding by the traffic rules. Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
