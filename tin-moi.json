@@ -1,30 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "Star Wars: Galactic Racer Reaches 1.5 Million Players, Teases Future Updates",
-  "url": "https://www.pushsquare.com/news/2026/11/star-wars-galactic-racer-reaches-1-5-million-players-teases-future-updates",
-  "ngay": "2026-11-14T02:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Better scrib this doon. Developer Fuse Games has announced its debut title, the brilliant Star Wars: Galactic Racer , has amassed 1.5 million players. The news comes via a recent social post, featuring the one and only Biddy Blas himself: Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-14T06:20:49+07:00"
- },
- {
-  "nguon": "Push Square",
-  "tieu_de": "The Game Awards 2026 Nominees to Be Revealed on 17th November",
-  "url": "https://www.pushsquare.com/news/2026/11/the-game-awards-2026-nominees-to-be-revealed-on-17th-november",
-  "ngay": "2026-11-14T02:30:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Livestream will announce the nominees. Geoff Keighley has announced the nominees for all of the categories at The Game Awards will be confirmed next week, on 17th November 2026. A livestream will confirm the game's nominated, with the show itself airing on 10th December 2026. You can tune in for the nominee livestream at 9am PT / 12pm ET / 5pm GMT. Read the full article on pushsquare.com",
-  "goi_y_ps": false
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Relentless PS5 Shooter Game Is Out Today on PlayStation Store",
   "url": "https://www.playstationlifestyle.net/2026/11/13/derelikt-ps5-fps-release",
@@ -3623,6 +3598,53 @@
   "ly_do_hot": "có từ khoá 'GTA'",
   "da_viet": false,
   "tom_tat": "GTA 6 gives players plenty of ways to explore Vice City, but one familiar camera option is missing. Although the game lacks a dedicated first-person mode, players have discovered a glitch that lets them experience much of the game from a first-person perspective. The workaround requires careful timing and a change to the controller settings. […] The post GTA 6 Players Have Found a Surprising Way to Play in First Person Despite Rockstar’s Plans appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Third-person survival horror game Ugly Within to be published by Serafini Productions for PS5, Xbox Series, Switch 2, and PC",
+  "url": "https://www.gematsu.com/2026/11/third-person-survival-horror-game-ugly-within-to-be-published-by-serafini-productions-for-ps5-xbox-series-switch-2-and-pc",
+  "ngay": "2026-11-21T02:00:26+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "Clips",
+   "Horror",
+   "Serafini Productions",
+   "The Horror Game Awards 2026",
+   "Trailers",
+   "Ugly Within",
+   "Yamaitachi"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Serafini Productions will publish Yamaitachi-developed third-person survival horror game Ugly Within when it launches or …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "BrokenLore: MIKI-CHAN adds Switch 2 version",
+  "url": "https://www.gematsu.com/2026/11/brokenlore-miki-chan-adds-switch-2-version",
+  "ngay": "2026-11-21T01:40:33+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch 2",
+   "Xbox Series",
+   "BrokenLore: MIKI-CHAN",
+   "Clips",
+   "Horror",
+   "Serafini Productions",
+   "The Horror Game Awards 2026",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "First-person psychological horror game BrokenLore: MIKI-CHAN will launch for Switch 2 alongside its previously announced …",
   "goi_y_ps": false
  }
 ]

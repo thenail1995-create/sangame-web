@@ -106,8 +106,6 @@
    "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1085753",
-   "https://www.gematsu.com/?p=1085756",
    "https://www.gematsu.com/?p=1085774",
    "https://www.gematsu.com/?p=1085782",
    "https://www.gematsu.com/?p=1085792",
@@ -405,7 +403,9 @@
    "https://www.gematsu.com/?p=1088638",
    "https://www.gematsu.com/?p=1088946",
    "https://www.gematsu.com/?p=1088711",
-   "https://www.gematsu.com/?p=1088465"
+   "https://www.gematsu.com/?p=1088465",
+   "https://www.gematsu.com/?p=1088472",
+   "https://www.gematsu.com/?p=1088942"
   ],
   "pushsquare": [
    "https://www.pushsquare.com/#article-208118",
