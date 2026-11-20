@@ -1,40 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Mini Review: Shrek 2 Remastered (PS5) - Far Far Away Gets an All-Star Makeover",
-  "url": "https://www.pushsquare.com/reviews/ps5/shrek-2-remastered",
-  "ngay": "2026-11-14T01:00:00+07:00",
-  "the_loai": [],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "I believe, I believe, I believe this is a good time. While DreamWorks' tales of an ogre and his mates are hit or miss, there's no denying that Shrek 2 Remastered is a winning overhaul of a mid-2000s gem. It comes from an era when movie tie-in games were all the rage, whether that meant half-arsed Harry Potter adventures or excellent efforts like X-Men Origins: Wolverine . Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-14T09:20:51+07:00"
- },
- {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "Ambitious PS5 Tactical RPG Sets Release Window",
-  "url": "https://www.playstationlifestyle.net/2026/11/13/guild-saga-vanished-worlds-ps5-release-window",
-  "ngay": "2026-11-14T01:42:43+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Entertainment and Gaming",
-   "Guild Saga: Vanished Worlds",
-   "PlayStation 5",
-   "PS5",
-   "Video Game News"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "PlayStation 5 is getting a new tactical RPG in 2027. The post Ambitious PS5 Tactical RPG Sets Release Window appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-14T06:20:49+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Star Wars: Galactic Racer Reaches 1.5 Million Players, Teases Future Updates",
   "url": "https://www.pushsquare.com/news/2026/11/star-wars-galactic-racer-reaches-1-5-million-players-teases-future-updates",
   "ngay": "2026-11-14T02:00:00+07:00",
@@ -3624,6 +3590,39 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Surreal corporate horror deckbuilder Mr. Magpie’s Harmless Card Game will launch for PlayStation 5, Xbox …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Sells a Record-Breaking 32.5 Million Copies",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-sells-a-record-breaking-32-5-million-copies",
+  "ngay": "2026-11-21T02:30:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "The biggest entertainment launch of all time. I think we all knew it was going to be big, but this big? Rockstar has announced that GTA 6 sold a staggering 32.5 million copies during its preload period, setting a “new record across all platforms”. That number is likely higher by now, because the press release’s wording implies it’s not counting launch day sales into the above total, which are guaranteed to be plentiful. (It’s only going to keep rising through Thanksgiving and Christmas, after all.) Read the full article on pushsquare.com",
+  "goi_y_ps": true
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "GTA 6 Players Have Found a Surprising Way to Play in First Person Despite Rockstar’s Plans",
+  "url": "https://www.playstationlifestyle.net/2026/11/20/rockstar-games-gta-6-first-person-mode-glitch",
+  "ngay": "2026-11-21T02:59:18+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "Grand Theft Auto",
+   "Grand Theft Auto VI",
+   "GTA 6",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "GTA 6 gives players plenty of ways to explore Vice City, but one familiar camera option is missing. Although the game lacks a dedicated first-person mode, players have discovered a glitch that lets them experience much of the game from a first-person perspective. The workaround requires careful timing and a change to the controller settings. […] The post GTA 6 Players Have Found a Surprising Way to Play in First Person Despite Rockstar’s Plans appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
