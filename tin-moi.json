@@ -1,32 +1,5 @@
 [
  {
-  "nguon": "PlayStation LifeStyle",
-  "tieu_de": "New PS5 QSSR Feature Expands to More Games, Including Spider-Man 2",
-  "url": "https://www.playstationlifestyle.net/2026/11/13/ps5-visual-upgrades-marvel-spider-man-2-qssr",
-  "ngay": "2026-11-14T00:22:58+07:00",
-  "the_loai": [
-   "News",
-   "PS5 News, Rumors, Trophies, Reviews, and More",
-   "Arc Raiders",
-   "Control Resonant",
-   "Entertainment and Gaming",
-   "Hell Let Loose: Vietnam",
-   "Marvel's Spider-Man 2",
-   "No Man's Sky",
-   "PlayStation 5",
-   "PS5",
-   "QSSR",
-   "Sony",
-   "Video Game News"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'Marvel'",
-  "da_viet": false,
-  "tom_tat": "Sony is expanding its new QSSR feature to popular PlayStation 5 games. The expansion provides additional ways to experience fans’ favorite games on the PS5, including titles like Marvel’s Spider-Man 2. According to PlayStation, Sony is expanding its QSSR support to Insomniac Games’ Marvel’s Spider-Man 2, Remedy Entertainment’s Control Resonant, Embark Studios’ ARC Raiders, The […] The post New PS5 QSSR Feature Expands to More Games, Including Spider-Man 2 appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-14T03:11:00+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Stranger Than Heaven Is So Big That All Its Acts Get a PS5 Trailer",
   "url": "https://www.pushsquare.com/news/2026/11/stranger-than-heaven-is-so-big-that-all-its-acts-get-a-ps5-trailer",
@@ -3626,5 +3599,26 @@
   "hot": false,
   "ly_do_hot": "",
   "da_viet": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "echograph demo now available",
+  "url": "https://www.gematsu.com/2026/11/echograph-demo-now-available",
+  "ngay": "2026-11-21T02:00:17+07:00",
+  "the_loai": [
+   "PS5",
+   "Clips",
+   "Demos",
+   "echograph",
+   "Horror",
+   "Pappy's Pipe Dream",
+   "The Horror Game Awards 2026",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "A demo for ghost photography survival horror game echograph is now available for PC via …",
+  "goi_y_ps": false
  }
 ]
