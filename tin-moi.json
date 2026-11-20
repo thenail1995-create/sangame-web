@@ -1,18 +1,5 @@
 [
  {
-  "nguon": "Push Square",
-  "tieu_de": "K-pop Royalty Recruited for PlayStation Korea's Glitzy GTA 6 Ad",
-  "url": "https://www.pushsquare.com/news/2026/11/k-pop-royalty-recruited-for-playstation-koreas-glitzy-gta-6-ad",
-  "ngay": "2026-11-13T20:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "The wait is over. One thing I always appreciate about PlayStation is its ability to appeal to localised audiences, despite its message being unified globally. The company’s current marketing strategy revolves around GTA 6 , and it’s using the slogan ‘ Plays Best on PS5 ’. But it’s promoting this in a variety of ways around the world. Read the full article on pushsquare.com",
-  "goi_y_ps": true,
-  "da_gui_viet": "2026-11-13T21:10:54+07:00"
- },
- {
   "nguon": "PlayStation LifeStyle",
   "tieu_de": "Year-Old Sega PS5, PS Plus Game Already Delisted",
   "url": "https://www.playstationlifestyle.net/2026/11/13/ps5-ps-plus-game-football-manager-26-delisted",
@@ -3613,6 +3600,31 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Pixel narrative puzzle adventure game Goodbye Seoul will launch for PC via Steam in early …",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Caladrius 2/Dark Element delayed to January 27, 2027",
+  "url": "https://www.gematsu.com/2026/11/caladrius-2-dark-element-delayed-to-january-27-2027",
+  "ngay": "2026-11-20T08:36:03+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Switch",
+   "Caladrius 2/Dark Element",
+   "Clips",
+   "Delays",
+   "H2 Interactive",
+   "Kaminari Games",
+   "Moss",
+   "Release Dates",
+   "Shmup",
+   "Trailers"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Publisher H2 Interactive and MOSS development subsidiary Kaminari Games have delayed shoot ’em up sequel …",
   "goi_y_ps": false
  }
 ]
