@@ -1,27 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "God of War: Sons of Sparta coming to PS4 on November 16 alongside free content update",
-  "url": "https://www.gematsu.com/2026/11/god-of-war-sons-of-sparta-coming-to-ps4-on-november-16-alongside-free-content-update",
-  "ngay": "2026-11-13T22:05:28+07:00",
-  "the_loai": [
-   "PS4",
-   "PS5",
-   "God of War: Sons of Sparta",
-   "Mega Cat Studios",
-   "Release Dates",
-   "Santa Monica Studio",
-   "SIE",
-   "SIEA"
-  ],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'free'",
-  "da_viet": false,
-  "tom_tat": "Publisher Sony Interactive Entertainment and developers Mega Cat Studios and Santa Monica Studio will release …",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-14T00:10:54+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "GTA 6's In-Game Animated TV Series, Macca & Friends, Hints at the Game's Absurd Scope",
   "url": "https://www.pushsquare.com/news/2026/11/gta-6s-in-game-animated-tv-series-macca-and-friends-hints-at-the-games-absurd-scope",
@@ -3604,6 +3582,28 @@
   "ly_do_hot": "có từ khoá 'PlayStation Plus'",
   "da_viet": false,
   "tom_tat": "Sony surprise-dropped PS5 and PS4 ports of a fan favorite 2001 PS2 action adventure game, but its release has puzzled players. An emulation of Legacy of Kain: Soul Reaver 2 was added to the PS Plus Premium catalog this week alongside a $14.99 stand-alone version on the PS Store. The ports came out of the […] The post New PS5 Release of Beloved PS2 Action Game Confuses Players appeared first on PlayStation LifeStyle .",
+  "goi_y_ps": false
+ },
+ {
+  "nguon": "PlayStation LifeStyle",
+  "tieu_de": "PS Portal Users Enjoying GTA 6 Despite Cloud Streaming Snub",
+  "url": "https://www.playstationlifestyle.net/2026/11/20/ps-portal-users-loving-gta-6-remote-play",
+  "ngay": "2026-11-20T22:00:00+07:00",
+  "the_loai": [
+   "News",
+   "PS5 News, Rumors, Trophies, Reviews, and More",
+   "Entertainment and Gaming",
+   "exclude_from_yahoo",
+   "Grand Theft Auto VI",
+   "PlayStation Portal",
+   "PS Portal",
+   "Rockstar Games",
+   "Video Game News"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "PS Portal users seem to be having a blast with GTA 6 despite Rockstar Games snubbing Sony’s cloud streaming platform. Microsoft signed a cloud streaming exclusivity deal with Rockstar Games for GTA 6, and although Sony hasn’t officially confirmed anything, we know the game won’t be available to stream on the PS5 and PS Portal […] The post PS Portal Users Enjoying GTA 6 Despite Cloud Streaming Snub appeared first on PlayStation LifeStyle .",
   "goi_y_ps": false
  }
 ]
