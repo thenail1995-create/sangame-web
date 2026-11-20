@@ -1,20 +1,5 @@
 [
  {
-  "nguon": "PlayStation Blog",
-  "tieu_de": "Guild Saga: Vanished Worlds brings tactical adventure to PS5 in May 2027",
-  "url": "https://blog.playstation.com/2026/11/13/guild-saga-vanished-worlds-brings-tactical-adventure-to-ps5-in-may-2027/",
-  "ngay": "2026-11-13T20:01:11+07:00",
-  "the_loai": [
-   "PS5",
-   "Guild Saga: Vanished Worlds",
-   "Ocelot Technologies"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "da_gui_viet": "2026-11-13T21:10:54+07:00"
- },
- {
   "nguon": "Push Square",
   "tieu_de": "K-pop Royalty Recruited for PlayStation Korea's Glitzy GTA 6 Ad",
   "url": "https://www.pushsquare.com/news/2026/11/k-pop-royalty-recruited-for-playstation-koreas-glitzy-gta-6-ad",
@@ -3609,5 +3594,25 @@
   "da_viet": false,
   "tom_tat": "Every track in GTA 6. As with the previous games in the series, GTA 6 has a staggering amount of both licensed and original music. There's so much to listen to, whether it's selected tracks during key story moments or you're just driving around with the radio on. In this GTA 6 guide , we're going to tell you everything you need to know about GTA 6's music. Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Goodbye Seoul launches in early 2027",
+  "url": "https://www.gematsu.com/2026/11/goodbye-seoul-launches-in-early-2027",
+  "ngay": "2026-11-20T08:17:52+07:00",
+  "the_loai": [
+   "PC",
+   "Clips",
+   "Goodbye Seoul",
+   "jino games",
+   "NEOWIZ",
+   "Release Dates",
+   "Trailers"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Pixel narrative puzzle adventure game Goodbye Seoul will launch for PC via Steam in early …",
+  "goi_y_ps": false
  }
 ]
