@@ -1,24 +1,5 @@
 [
  {
-  "nguon": "Gematsu",
-  "tieu_de": "Super Meat Boy Again+ announced for PC",
-  "url": "https://www.gematsu.com/2026/11/super-meat-boy-again-announced-for-pc",
-  "ngay": "2026-11-14T11:36:04+07:00",
-  "the_loai": [
-   "PC",
-   "Clips",
-   "Game Announce",
-   "Super Meat Boy Again+",
-   "Team Meat",
-   "Trailers"
-  ],
-  "hot": false,
-  "ly_do_hot": "",
-  "da_viet": false,
-  "tom_tat": "Team Meat has announced Super Meat Boy Again+, a game described as “everything you remember …",
-  "goi_y_ps": false
- },
- {
   "nguon": "Push Square",
   "tieu_de": "Guide: These 13+ PS5 and PS Plus Games Are Coming Out Next Week (16th-22nd November)",
   "url": "https://www.pushsquare.com/guides/these-13plus-ps5-and-ps-plus-games-are-coming-out-next-week-16th-22nd-november",
@@ -3674,5 +3655,17 @@
   "da_viet": false,
   "tom_tat": "That's a lotta sickies. You’ve seen the staggering 32.5 million pre-launch sales , but now enjoy some console specific data on GTA 6’s release. Analyst Mat Piscatella of Circana reports that in the US, 61% of PS5 owners played Rockstar’s latest release on launch day. That’s an utterly astounding statistic. Read the full article on pushsquare.com",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "'Overrated Game': GTA 6 PS5 Review Bombing Has Started After Record-Breaking Release",
+  "url": "https://www.pushsquare.com/news/2026/11/overrated-game-gta-6-ps5-review-bombing-has-started-after-record-breaking-release",
+  "ngay": "2026-11-21T10:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "\"More like Slop Theft Auto\". GTA 6 , the highest-rated game of all-time , is getting review bombed on Metacritic as idiots attempt to plunge the seminal Rockstar release’s rating with bogus ‘0’ scores. At the time of writing, the title has a user score of 5.4 , meaning it’s considered ‘Mixed or Average’: Read the full article on pushsquare.com",
+  "goi_y_ps": true
  }
 ]
