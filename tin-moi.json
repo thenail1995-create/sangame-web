@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Poll: Are You Hyped for November's 10 New PS Plus Games?",
-  "url": "https://www.pushsquare.com/features/poll-are-you-hyped-for-novembers-10-new-ps-plus-games",
-  "ngay": "2026-11-14T20:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS Plus'",
-  "da_viet": false,
-  "tom_tat": "Plus or minus? I don't want to influence your opinion right out of the gate here, but November's PS Plus Extra lineup will surely go down as one of the service's strongest offerings in recent memory. It's got a bit of everything, but it's also packed with highly rated titles. Death Stranding 2: On the Beach was a Game of the Year contender just 12 months back — a madcap but heartfelt sequel to Kojima Productions' impressively unique 'strand-type' debut. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-14T21:40:50+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Rumour: Rainbow Six: Vegas 3 Now in the Works at Ubisoft",
   "url": "https://www.pushsquare.com/news/2026/11/rumour-rainbow-six-vegas-3-now-in-the-works-at-ubisoft",
   "ngay": "2026-11-14T20:30:00+07:00",
@@ -3673,5 +3660,28 @@
   "tom_tat": "Gothic! Spectrum Retreat! Station to Station! It feels odd to be able to say it, but we're now in a post- GTA 6 world, and the release schedule once again reflects that game's imposing presence. There isn't too much to speak of coming to PS5 next week, but it's always worth going over them in case you spot something you like. Read the full article on pushsquare.com",
   "goi_y_ps": false,
   "da_gui_viet": "2026-11-21T19:10:51+07:00"
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Arknights: Endfield version update ‘Meeting You in the World o’Shrooms’ launches November 25",
+  "url": "https://www.gematsu.com/2026/11/arknights-endfield-version-update-meeting-you-in-the-world-oshrooms-launches-november-25",
+  "ngay": "2026-11-21T19:00:56+07:00",
+  "the_loai": [
+   "PC",
+   "PS5",
+   "Smartphone",
+   "Arknights: Endfield",
+   "Clips",
+   "GRYPHLINE",
+   "Hypergryph Network Technology",
+   "Release Dates",
+   "RPG",
+   "traielrs"
+  ],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'launches'",
+  "da_viet": false,
+  "tom_tat": "Publisher GRYPHLINE and developer Mountain Contour will release the version update “Meeting You in the …",
+  "goi_y_ps": false
  }
 ]
