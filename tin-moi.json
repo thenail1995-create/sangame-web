@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "Guide: All PS Plus Games Available Now",
-  "url": "https://www.pushsquare.com/guides/all-ps-plus-games-available-now",
-  "ngay": "2026-11-13T18:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS Plus'",
-  "da_viet": false,
-  "tom_tat": "Every PS Plus game, updated in one place. We’re tracking every PS Plus game available now, so you always know exactly what’s included in your tier of Sony’s subscription service. This page lists all current PS Plus Essential , PS Plus Extra , and PS Plus Premium games across PS5 and PS4 , alongside upcoming additions and confirmed expiry dates – so you never miss out. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-14T21:40:50+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "Crazy Taxi Makes a Stop in India for the Final Leg of Its World Tour",
   "url": "https://www.pushsquare.com/news/2026/11/crazy-taxi-makes-a-stop-in-india-for-the-final-leg-of-its-world-tour",
   "ngay": "2026-11-14T21:30:00+07:00",
@@ -3670,7 +3657,8 @@
   "ly_do_hot": "có từ khoá 'launches'",
   "da_viet": false,
   "tom_tat": "Publisher GRYPHLINE and developer Mountain Contour will release the version update “Meeting You in the …",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-21T22:10:56+07:00"
  },
  {
   "nguon": "PlayStation LifeStyle",
@@ -3692,6 +3680,20 @@
   "ly_do_hot": "",
   "da_viet": false,
   "tom_tat": "A charming PlayStation game is currently available at its lowest price in a limited-time deal. The PlayStation 4 and 5 open-world adventure game is 50% off on the PlayStation Store. However, the limited-time offer will end at the end of November. Developed by Double Dagger Studio, Little Kitty, Big City is 50% off on the […] The post Charming PS4, PS5 Adventure Game Is Half Off on PlayStation Store appeared first on PlayStation LifeStyle .",
-  "goi_y_ps": false
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-21T22:10:56+07:00"
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "PS5 Survives GTA 6's Unfathomably Humongous Launch without a Hitch",
+  "url": "https://www.pushsquare.com/news/2026/11/ps5-survives-gta-6s-unfathomably-humongous-launch-without-a-hitch",
+  "ngay": "2026-11-21T22:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Sony delivers steady and stable experience. We’d rightly criticise Sony if the PS5 had fallen to pieces during GTA 6’s launch, so let’s give the platform holder a nod of approval for navigating these past two weeks almost flawlessly. There were some minor scattered instances of PSN outages on Wednesday evening prior to the Rockstar title’s big launch, but these never affected everyone and the network recovered pretty fast. I think we can give that a pass. Read the full article on pushsquare.com",
+  "goi_y_ps": false,
+  "da_gui_viet": "2026-11-21T22:10:56+07:00"
  }
 ]
