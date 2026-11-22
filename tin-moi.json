@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "PS Plus Subscriptions on Sale from Tomorrow, But There's a Big Catch",
-  "url": "https://www.pushsquare.com/news/2026/11/ps-plus-subscriptions-on-sale-from-tomorrow-but-theres-a-big-catch",
-  "ngay": "2026-11-15T19:15:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'PS Plus'",
-  "da_viet": false,
-  "tom_tat": "The usual asterisk applies. Sony has revealed its PS Plus membership at all three tiers will be going on sale from tomorrow, 16th November, for two weeks. However, if you've been paying attention to how Sony handles this promotion in the last few years, then you will already know what's coming: the discounted prices only apply to new sign-ups; current members won't have access to them. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-15T19:20:47+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "PlayStation Black Friday Sale Knocks Up to $100 Off PS5 Accessories, PSVR2",
   "url": "https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-knocks-up-to-usd100-off-ps5-accessories-psvr2",
   "ngay": "2026-11-15T20:00:00+07:00",
@@ -3689,5 +3676,18 @@
   "da_viet": false,
   "tom_tat": "Entergram has teased a new Farland Saga project in celebration of the series’ 30th anniversary. …",
   "goi_y_ps": false
+ },
+ {
+  "nguon": "Push Square",
+  "tieu_de": "GTA 6 Just Can't Stop Breaking Records It Seems",
+  "url": "https://www.pushsquare.com/news/2026/11/gta-6-just-cant-stop-breaking-records-it-seems",
+  "ngay": "2026-11-22T20:00:00+07:00",
+  "the_loai": [],
+  "hot": true,
+  "ly_do_hot": "có từ khoá 'GTA'",
+  "da_viet": false,
+  "tom_tat": "Sets new soundtrack streaming record on Spotify. Not content with being the biggest entertainment launch in history and the highest rated game of all time , GTA 6 has already broken another record. The game’s official album, which features all-new tracks from the likes of Dua Lipa , set a new opening day record for a soundtrack on Spotify with a dizzying 29.85 million streams. Read the full article on pushsquare.com",
+  "goi_y_ps": true,
+  "da_gui_viet": "2026-11-22T20:11:12+07:00"
  }
 ]
