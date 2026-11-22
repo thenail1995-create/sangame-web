@@ -1,19 +1,6 @@
 [
  {
   "nguon": "Push Square",
-  "tieu_de": "GTA 6's 212GB PS5 File Size Prompts Madden NFL 27 to Beg You Not to Delete It",
-  "url": "https://www.pushsquare.com/news/2026/11/gta-6s-212gb-ps5-file-size-prompts-madden-nfl-27-to-beg-you-not-to-delete-it",
-  "ngay": "2026-11-15T07:00:00+07:00",
-  "the_loai": [],
-  "hot": true,
-  "ly_do_hot": "có từ khoá 'GTA'",
-  "da_viet": false,
-  "tom_tat": "\"Holy desperate, EA\". Any issues with GTA 6’s 212GB install size have largely been mitigated by Rockstar’s decision to let you preload the game a week in advance. The sheer scale of the open world title is causing potential headaches for other game publishers, however. Read the full article on pushsquare.com",
-  "goi_y_ps": false,
-  "da_gui_viet": "2026-11-15T06:50:49+07:00"
- },
- {
-  "nguon": "Push Square",
   "tieu_de": "PS Plus Subscriptions on Sale from Tomorrow, But There's a Big Catch",
   "url": "https://www.pushsquare.com/news/2026/11/ps-plus-subscriptions-on-sale-from-tomorrow-but-theres-a-big-catch",
   "ngay": "2026-11-15T19:15:00+07:00",
@@ -3684,5 +3671,22 @@
   "da_viet": false,
   "tom_tat": "Industry professionals stunned by new sandbox. Naughty Dog’s Michael Barclay – whose credits include Uncharted: The Lost Legacy and The Last of Us 2 – says he’s “made video games for 19 years and GTA 6 appears to me as a Bugatti Veyron would to a nervous Victorian child”. Rockstar’s latest open world release is by far the best-looking game ever made, even if it is locked to 30fps on PS5 hardware . Read the full article on pushsquare.com",
   "goi_y_ps": true
+ },
+ {
+  "nguon": "Gematsu",
+  "tieu_de": "Entergram teases Farland Saga 30th anniversary project",
+  "url": "https://www.gematsu.com/2026/11/entergram-teases-farland-saga-30th-anniversary-project",
+  "ngay": "2026-11-22T10:55:15+07:00",
+  "the_loai": [
+   "Industry",
+   "Entergram",
+   "Farland 30th Anniversary Project",
+   "Game Announce"
+  ],
+  "hot": false,
+  "ly_do_hot": "",
+  "da_viet": false,
+  "tom_tat": "Entergram has teased a new Farland Saga project in celebration of the series’ 30th anniversary. …",
+  "goi_y_ps": false
  }
 ]
