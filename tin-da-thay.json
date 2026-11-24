@@ -107,16 +107,6 @@
    "urn:uuid:bab3bf9f-98ce-4569-98bd-64016a284a86"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1085911",
-   "https://www.gematsu.com/?p=1085915",
-   "https://www.gematsu.com/?p=1085901",
-   "https://www.gematsu.com/?p=1085944",
-   "https://www.gematsu.com/?p=1085950",
-   "https://www.gematsu.com/?p=1085995",
-   "https://www.gematsu.com/?p=1086007",
-   "https://www.gematsu.com/?p=1086012",
-   "https://www.gematsu.com/?p=1086015",
-   "https://www.gematsu.com/?p=1086028",
    "https://www.gematsu.com/?p=1086026",
    "https://www.gematsu.com/?p=1086041",
    "https://www.gematsu.com/?p=1086052",
@@ -406,17 +396,19 @@
    "https://www.gematsu.com/?p=1089026",
    "https://www.gematsu.com/?p=1089186",
    "https://www.gematsu.com/?p=1089165",
-   "https://www.gematsu.com/?p=1089155"
+   "https://www.gematsu.com/?p=1089155",
+   "https://www.gematsu.com/?p=1089305",
+   "https://www.gematsu.com/?p=1089293",
+   "https://www.gematsu.com/?p=1089255",
+   "https://www.gematsu.com/?p=1089245",
+   "https://www.gematsu.com/?p=1089240",
+   "https://www.gematsu.com/?p=1089237",
+   "https://www.gematsu.com/?p=1089208",
+   "https://www.gematsu.com/?p=1089191",
+   "https://www.gematsu.com/?p=1089189",
+   "https://www.gematsu.com/?p=1089194"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-208224",
-   "https://www.pushsquare.com/#article-208223",
-   "https://www.pushsquare.com/#article-208221",
-   "https://www.pushsquare.com/#article-208208",
-   "https://www.pushsquare.com/#article-208069",
-   "https://www.pushsquare.com/#article-208243",
-   "https://www.pushsquare.com/#article-208262",
-   "https://www.pushsquare.com/#article-208227",
    "https://www.pushsquare.com/#article-208201",
    "https://www.pushsquare.com/#article-208235",
    "https://www.pushsquare.com/#article-208219",
@@ -708,15 +700,17 @@
    "https://www.pushsquare.com/#article-209530",
    "https://www.pushsquare.com/#article-209508",
    "https://www.pushsquare.com/#article-209518",
-   "https://www.pushsquare.com/#article-209511"
+   "https://www.pushsquare.com/#article-209511",
+   "https://www.pushsquare.com/#article-209574",
+   "https://www.pushsquare.com/#article-209571",
+   "https://www.pushsquare.com/#article-209554",
+   "https://www.pushsquare.com/#article-209555",
+   "https://www.pushsquare.com/#article-209550",
+   "https://www.pushsquare.com/#article-209449",
+   "https://www.pushsquare.com/#article-209547",
+   "https://www.pushsquare.com/#article-209488"
   ],
   "pslifestyle": [
-   "https://www.playstationlifestyle.net/?p=937526",
-   "https://www.playstationlifestyle.net/?p=937530",
-   "https://www.playstationlifestyle.net/?p=937537",
-   "https://www.playstationlifestyle.net/?p=937542",
-   "https://www.playstationlifestyle.net/?p=937547",
-   "https://www.playstationlifestyle.net/?p=937553",
    "https://www.playstationlifestyle.net/?p=937556",
    "https://www.playstationlifestyle.net/?p=937555",
    "https://www.playstationlifestyle.net/?p=937552",
@@ -1010,7 +1004,13 @@
    "https://www.playstationlifestyle.net/?p=939699",
    "https://www.playstationlifestyle.net/?p=939689",
    "https://www.playstationlifestyle.net/?p=939668",
-   "https://www.playstationlifestyle.net/?p=939675"
+   "https://www.playstationlifestyle.net/?p=939675",
+   "https://www.playstationlifestyle.net/?p=939794",
+   "https://www.playstationlifestyle.net/?p=939739",
+   "https://www.playstationlifestyle.net/?p=939783",
+   "https://www.playstationlifestyle.net/?p=939775",
+   "https://www.playstationlifestyle.net/?p=939763",
+   "https://www.playstationlifestyle.net/?p=939757"
   ],
   "billbil": [
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mxjn2i36ss2y",
@@ -1051,7 +1051,8 @@
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n26mkxrqic2a",
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n2q5qjjzmk2z",
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n2xvegcfzk2y",
-   "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n2z547otys24"
+   "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n2z547otys24",
+   "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3n32tvb5gwc2t"
   ]
  },
  "deals_ds": {
@@ -1064,10 +1065,10 @@
    5513,
    5513,
    5513,
-   5513,
    5515,
    5514,
-   5517
+   5517,
+   5516
   ],
   "en-SG": [
    3225,
@@ -1079,7 +1080,7 @@
    3225,
    3225,
    3225,
-   3225,
+   3227,
    3227,
    3227
   ]
@@ -1107,5 +1108,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-24T18:55:05+07:00"
+ "lan_goi_viet": "2026-11-25T05:18:18+07:00"
 }
