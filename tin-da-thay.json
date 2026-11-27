@@ -89,7 +89,8 @@
    "urn:uuid:77f29b5a-715d-43f3-9442-7fbc9f7b32db",
    "urn:uuid:237554d3-e134-4a6c-9674-460e22a0aaec",
    "urn:uuid:ccc8395a-29a0-4e4c-970f-b51d2a36e843",
-   "urn:uuid:82743428-96fa-4f1a-a3c3-0848b781461b"
+   "urn:uuid:82743428-96fa-4f1a-a3c3-0848b781461b",
+   "urn:uuid:31b9bc77-9bab-4c4f-874d-413ed00c3970"
   ],
   "blog-ps-plus": [
    "urn:uuid:5cc47342-747d-43a6-b9e6-118708bc3067",
@@ -109,7 +110,6 @@
    "urn:uuid:82743428-96fa-4f1a-a3c3-0848b781461b"
   ],
   "gematsu": [
-   "https://www.gematsu.com/?p=1086327",
    "https://www.gematsu.com/?p=1086511",
    "https://www.gematsu.com/?p=1086508",
    "https://www.gematsu.com/?p=1086463",
@@ -408,14 +408,10 @@
    "https://www.gematsu.com/?p=1089699",
    "https://www.gematsu.com/?p=1089034",
    "https://www.gematsu.com/?p=1089571",
-   "https://www.gematsu.com/?p=1089690"
+   "https://www.gematsu.com/?p=1089690",
+   "https://www.gematsu.com/?p=1089676"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-208345",
-   "https://www.pushsquare.com/#article-208358",
-   "https://www.pushsquare.com/#article-208360",
-   "https://www.pushsquare.com/#article-208348",
-   "https://www.pushsquare.com/#article-208351",
    "https://www.pushsquare.com/#article-208329",
    "https://www.pushsquare.com/#article-208370",
    "https://www.pushsquare.com/#article-208369",
@@ -710,14 +706,14 @@
    "https://www.pushsquare.com/#article-209639",
    "https://www.pushsquare.com/#article-209682",
    "https://www.pushsquare.com/#article-209674",
-   "https://www.pushsquare.com/#article-209669"
+   "https://www.pushsquare.com/#article-209669",
+   "https://www.pushsquare.com/#article-209691",
+   "https://www.pushsquare.com/#article-209679",
+   "https://www.pushsquare.com/#article-209687",
+   "https://www.pushsquare.com/#article-209684",
+   "https://www.pushsquare.com/#article-209681"
   ],
   "pslifestyle": [
-   "https://www.playstationlifestyle.net/?p=937604",
-   "https://www.playstationlifestyle.net/?p=937609",
-   "https://www.playstationlifestyle.net/?p=937608",
-   "https://www.playstationlifestyle.net/?p=937619",
-   "https://www.playstationlifestyle.net/?p=937624",
    "https://www.playstationlifestyle.net/?p=937638",
    "https://www.playstationlifestyle.net/?p=937644",
    "https://www.playstationlifestyle.net/?p=937649",
@@ -1012,7 +1008,12 @@
    "https://www.playstationlifestyle.net/?p=939860",
    "https://www.playstationlifestyle.net/?p=939856",
    "https://www.playstationlifestyle.net/?p=939834",
-   "https://www.playstationlifestyle.net/?p=939828"
+   "https://www.playstationlifestyle.net/?p=939828",
+   "https://www.playstationlifestyle.net/?p=939936",
+   "https://www.playstationlifestyle.net/?p=939891",
+   "https://www.playstationlifestyle.net/?p=939910",
+   "https://www.playstationlifestyle.net/?p=939889",
+   "https://www.playstationlifestyle.net/?p=939871"
   ],
   "billbil": [
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mxjn2i36ss2y",
@@ -1062,7 +1063,6 @@
   "en-US": [
    5513,
    5513,
-   5513,
    5515,
    5514,
    5517,
@@ -1071,10 +1071,10 @@
    5517,
    5517,
    5517,
-   5504
+   5504,
+   5496
   ],
   "en-SG": [
-   3225,
    3225,
    3225,
    3225,
@@ -1085,7 +1085,8 @@
    3230,
    3223,
    3222,
-   3222
+   3222,
+   3215
   ]
  },
  "extra_ds": {
@@ -1111,5 +1112,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-26T22:44:02+07:00"
+ "lan_goi_viet": "2026-11-27T07:06:29+07:00"
 }
