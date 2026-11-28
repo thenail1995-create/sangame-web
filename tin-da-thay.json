@@ -413,8 +413,6 @@
    "https://www.gematsu.com/?p=1089774"
   ],
   "pushsquare": [
-   "https://www.pushsquare.com/#article-208391",
-   "https://www.pushsquare.com/#article-208400",
    "https://www.pushsquare.com/#article-208406",
    "https://www.pushsquare.com/#article-208418",
    "https://www.pushsquare.com/#article-208384",
@@ -712,12 +710,11 @@
    "https://www.pushsquare.com/#article-209622",
    "https://www.pushsquare.com/#article-209737",
    "https://www.pushsquare.com/#article-209713",
-   "https://www.pushsquare.com/#article-209730"
+   "https://www.pushsquare.com/#article-209730",
+   "https://www.pushsquare.com/#article-209747",
+   "https://www.pushsquare.com/#article-209696"
   ],
   "pslifestyle": [
-   "https://www.playstationlifestyle.net/?p=937687",
-   "https://www.playstationlifestyle.net/?p=937690",
-   "https://www.playstationlifestyle.net/?p=937695",
    "https://www.playstationlifestyle.net/?p=937699",
    "https://www.playstationlifestyle.net/?p=937704",
    "https://www.playstationlifestyle.net/?p=937705",
@@ -1014,7 +1011,10 @@
    "https://www.playstationlifestyle.net/?p=939981",
    "https://www.playstationlifestyle.net/?p=939972",
    "https://www.playstationlifestyle.net/?p=939958",
-   "https://www.playstationlifestyle.net/?p=939966"
+   "https://www.playstationlifestyle.net/?p=939966",
+   "https://www.playstationlifestyle.net/?p=940106",
+   "https://www.playstationlifestyle.net/?p=940107",
+   "https://www.playstationlifestyle.net/?p=940074"
   ],
   "billbil": [
    "at://did:plc:elj43u6btwgjlhencvmwvyoe/app.bsky.feed.post/3mxjn2i36ss2y",
@@ -1062,7 +1062,6 @@
  },
  "deals_ds": {
   "en-US": [
-   5515,
    5514,
    5517,
    5516,
@@ -1073,10 +1072,10 @@
    5504,
    5496,
    5498,
-   5498
+   5498,
+   5497
   ],
   "en-SG": [
-   3225,
    3227,
    3227,
    3227,
@@ -1086,6 +1085,7 @@
    3222,
    3222,
    3215,
+   3214,
    3214,
    3214
   ]
@@ -1113,5 +1113,5 @@
   "Tomb Raider IV-VI Remastered PS4 & PS5"
  ],
  "cho_gui": [],
- "lan_goi_viet": "2026-11-28T01:25:53+07:00"
+ "lan_goi_viet": "2026-11-28T08:37:02+07:00"
 }
